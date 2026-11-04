@@ -2,15 +2,15 @@
 
 Branch: `v4-data`, started from `v3-global`. Work date: **4 Nov 2026**, used for every `verifiedOn`.
 
-## Status: PARTIAL. The 550-programme target was not reached (373 after session 3)
+## Status: PARTIAL. The 550-programme target was not reached (437 after session 4)
 
 | | v3 | **v4 now** | Target |
 | --- | --- | --- | --- |
-| Total programmes | 106 | **373** | 550+ |
+| Total programmes | 106 | **437** | 550+ |
 | Internships / summer research | 6 | **112** | 120+ |
 | Undergraduate | 36 | **130** ✅ | 130+ |
-| Master's | 61 | **112** | 160+ |
-| PhD | 48 | **110** | 140+ |
+| Master's | 61 | **176** ✅ | 160+ |
+| PhD | 48 | **118** | 140+ |
 
 Some programmes count toward more than one level.
 
@@ -278,6 +278,70 @@ Four batches ran in parallel, each capped at about 40 searches. They used about 
 
 **Next session:** master's (batches 9, 10a, 10b, 11) are 112 of 160, then PhD (12, 13, 14) at 110 of 140. Run at most 4 batches of about 40 searches each.
 
+## Session 4 (resumed): master's
+
+Four batches ran in parallel, each capped at about 40 searches. They used about 133 searches in total. `npm run validate-data` and `npm test` (107 tests) passed before each commit and push.
+
+| Batch | Added | Highlights |
+| --- | --- | --- |
+| 9 Government | +17 (file now 24) | Fulbright commissions: Indonesia (AMINEF), Mexico (COMEXUS), Türkiye, Argentina, Colombia, Japan, Philippines (PAEF), Vietnam, Korea, Bangladesh. Others: NAWA Banach, NAWA Poland My First Choice, Estonia, Lithuania, AMEXCID, AGCID, Brazil PEC-PG |
+| 10a Europe/UK universities | +14 (file now 22) | DTU, Copenhagen, Aarhus, Tampere, Lausanne, Geneva Graduate Institute, Sciences Po Boutmy (master's), Oxford Weidenfeld-Hoffmann and Pershing Square, Cambridge Trust, UCL Global Masters, Milano-Bicocca, Trento, Grenoble IDEX |
+| 10b Asia/Middle East/Oceania universities | +16 (file now 21) | Khalifa, KFUPM, HBKU, Adelaide, Melbourne research master's, GRIPS MEXT, HKUST and HKU MPhil studentships, NUS research master's, Yonsei, Korea University, NTHU, NYCU, Peking University, Otago, Tohoku |
+| 11 Foundations + EMJMs | +17 (file now 20) | Marshall (US only), EIT Digital, AIT HM King, IsDB, AfDB-JADS, KAS, FES, Rosa Luxemburg, Hanns Seidel, KAAD, Böll; EMJMs Europhotonics, MAPP, EMLE, SSI2, MESPOM, Choreomundus |
+
+**Total now 437:** master's **176 (target met)**, undergraduate 130, internships 112, PhD 118.
+
+**Coordinator fixes:**
+* `grips-mext`: the "work experience required" flag was the agent's assumption, so I removed it and the note now says to check.
+* `emjm-emship`: removed, because 2027 scholarships aren't stated (consistent with other EMJMs dropped for the same reason).
+
+**Least certain (session 4):**
+
+| Entry | Issue |
+| --- | --- |
+| `fulbright-comexus-mexico` | conflicting call dates |
+| `fulbright-turkiye` | amount unconfirmed |
+| `agcid-republica-de-chile` | amount and invited countries not found |
+| `nawa-banach` | amount not found; country list as `check` |
+| `lithuania-state-masters` | 2026 country list |
+| `kfupm-grad-ms` | 15 Dec date not tied to an intake; only some programmes funded |
+| `hbku-grad-scholarship` | stipend from an 18-month-old page |
+| `korea-univ-grad-intl` | dated and conflicting tiers |
+| `nycu-intl-grad` | NT$33,000 may be the top case only |
+| `tampere-tuition-scholarship` | 15:00 EET closing time assumed |
+| `unitn-intl-scholarship` | amount and date estimated; two official pages disagree |
+| `bicocca-international-scholarship` | date inferred from 2026 |
+| `ucl-global-masters` | £15k, needs-based, probably under 50% of tuition, but supports living costs |
+| `unil-masters-grant` | monthly amount not stated |
+| `boell-international-scholarship` | one page says only first-cycle programmes from 1 Mar 2027 |
+| `emjm-ssi2` | scholarships depend on an EU grant agreement due mid-Nov 2026 |
+| `ait-hm-king-scholarship` | estimated deadline; country lists differ |
+| `isdb-msc-scholarship` | deadline from an old FAQ |
+
+**Dropped (session 4):**
+
+| Candidate | Reason |
+| --- | --- |
+| Qatar University graduate assistantships | Students pay their own tuition |
+| Waterloo | CA$12k minimum, not full funding |
+| Turku, Oulu | 100%/50% waivers ended |
+| Åbo Akademi, LUT | Waivers unclear or for one year only |
+| LSE GSS, Manchester, HEC, Polytechnique | Awards under 50% of tuition |
+| Bocconi | No 2027-28 page |
+| Unibo, TOPoliTO, Sapienza, Pavia, Lyon | No current call |
+| Mitchell | Paused |
+| IHE Delft | Country-specific awards only |
+| Nuclear Physics EMJM | Last intake 2023–25 |
+| MIR, JEMARO | No EM scholarships; JEMARO self-funded |
+| FIPDes, IMBRSea, QuanTEEM | No recent EM scholarships |
+| CYBERUS | Relaunching under a new name |
+| SpaceMaster, IMRD, GEMMA, WACOMA | Scholarships unconfirmed |
+| Fulbright India, Egypt, Nepal, Sri Lanka, Morocco, Thailand, Peru, Chile, Brazil | No 2027 dates |
+| Fulbright Germany | Contradictory deadline |
+| Manaaki Africa/LatAm/Caribbean | No dates |
+
+**Next session:** PhD batches (12, 13, 14) are 118 of 140. Internships are 112 of 120 (a small top-up batch would finish them).
+
 ## How to resume (next session)
 
 1. `git checkout v4-data && git log --oneline | head`, then read this section.
@@ -298,10 +362,10 @@ Four batches ran in parallel, each capped at about 40 searches. They used about 
 | 7a | ✅ Resumed in session 3. Left: none |
 | 7b | ✅ Resumed in session 3. Left: Keio, Science Tokyo, Fudan, İTÜ, Canterbury (not searched) |
 | 8 | ✅ Resumed in session 3. Left: Tullow, Hope for Haiti, Sir Ratan Tata (not searched) |
-| 9 | Fulbright country commissions, NAWA, Estonia, Lithuania, AMCI master's, AMEXCID, AGCID, PEC-PG, ICCR PG, Manaaki other regions |
-| 10a | DTU, Copenhagen, Aarhus, Finland, Switzerland, Italy, France, UK |
-| 10b | GRIPS, Hitotsubashi, APU, Japanese universities, Yonsei, Korea University, Chinese universities, HK MPhil, NUS/NTU research master's, Taiwan, Khalifa, KFUPM, HBKU, QU, Adelaide, Melbourne, Auckland, Otago, Waterloo, Toronto, UBC, Concordia |
-| 11 | Marshall, Mitchell, EIT Digital, IHE Delft, AIT, IsDB, AfDB-Japan, KAS, FES, RLS, HSS, KAAD, more EMJMs |
+| 9 | ✅ Resumed in session 4. Left: Fulbright Kenya, Nigeria (not searched); India, Egypt, Nepal, Sri Lanka, Morocco, Thailand, Peru, Chile, Brazil, Germany (no 2027 dates) |
+| 10a | ✅ Resumed in session 4. Left: UZH, USI, Paris Cité, Sorbonne, Toulouse, Glasgow, Warwick, Durham, St Andrews (not searched) |
+| 10b | ✅ Resumed in session 4. Left: UBC, Toronto, Concordia, Auckland, Hitotsubashi, APU, Fudan/SJTU/ZJU/USTC, NCKU, Kyushu/Kyoto/Osaka (not searched) |
+| 11 | ✅ Resumed in session 4. Left: more EMJMs once 2027 scholarships are confirmed (SpaceMaster, IMRD, GEMMA, WACOMA, EMship) |
 | 12 | UK CDTs, Oxford/Cambridge scholarships, national salaried-PhD portals, ETH/UZH/Basel, Vienna/VBC, Italy, Inria/CNRS/Pasteur/Polytechnique, FNR, Research Ireland, Helmholtz, Leibniz |
 | 13 | Japan, Korea, China, Taiwan, Australia, NZ, Middle East |
 | 14 | US and Canada explainer entries, university funding guarantees, Vanier successor, Ford, Open Philanthropy, Qualcomm |
