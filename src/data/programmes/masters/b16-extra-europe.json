@@ -1,0 +1,666 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "warwick-chancellors-intl",
+    "name": "Warwick Chancellor's International Scholarship",
+    "host": "University of Warwick (Doctoral College)",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition fees + maintenance stipend at UKRI rate (UKRI rate cited by Warwick departments: £21,805/yr)",
+    "deadline": "2026-12-10T23:59:00+00:00",
+    "dlText": "10 Dec 2026 (scholarship form; time not stated) – PhD application by 7 Dec 2026",
+    "tags": [
+      "Apply for PhD first (by 7 Dec 2026)",
+      "Part of Warwick PGR Scholarship Competition",
+      "Merit-based"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International (overseas fee status) applicants to Warwick doctoral programmes; check the Doctoral College page for current fee-status rules."
+    },
+    "fields": "Any Warwick PhD discipline",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Awarded through Warwick's central PGR Scholarship Competition. Department pages list 7 Dec 2026 for the course application and 10 Dec 2026 for the scholarship application for 2027 entry.",
+    "url": "https://warwick.ac.uk/services/dc/schols_fund/",
+    "source": "https://warwick.ac.uk/fac/sci/eng/postgraduate/funding/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "st-andrews-st-leonards-masters-intl",
+    "name": "St Leonard's Masters Scholarship (International)",
+    "host": "University of St Andrews (St Leonard's College)",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Top tier: full tuition + stipend; other tiers 75% or 25–50% tuition reduction",
+    "deadline": "2027-02-03T23:59:00+00:00",
+    "dlText": "3 Feb 2027 (time not stated)",
+    "tags": [
+      "Taught master's at St Andrews",
+      "Tiered awards",
+      "Widening-participation top tier"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International (overseas fee status) applicants to St Andrews taught master's programmes; tiers based on merit and widening-participation criteria."
+    },
+    "fields": "Any St Andrews taught master's",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The 'Global Widening Participation' tier covers full tuition plus a stipend; lower tiers give 75% or 25–50% fee reductions.",
+    "url": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/postgraduate-scholarships/st-leonards-masters-scholarship-international/",
+    "source": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/postgraduate-scholarships/st-leonards-masters-scholarship-international/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "st-andrews-world-leading-phd",
+    "name": "St Leonard's College World-Leading Doctoral Scholarships",
+    "host": "University of St Andrews (St Leonard's College)",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition + doctoral stipend (2027-28 rate to be confirmed by end Dec 2026)",
+    "deadline": "2027-01-20T23:59:00+00:00",
+    "dlText": "20 Jan 2027 (time not stated)",
+    "tags": [
+      "12 awards for 2027 entry",
+      "6 set projects + 6 own-proposal",
+      "Outcomes late Mar 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any discipline (supervisor-defined or self-proposed projects)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Six scholarships are for supervisor-defined projects and six for applicants proposing their own project. Open to home and international applicants.",
+    "url": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/postgraduate-scholarships/world-leading-scholarships-student-led/",
+    "source": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/postgraduate-scholarships/world-leading-scholarships-student-led/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ceu-masters-financial-aid",
+    "name": "CEU Master's Financial Aid (Tuition Award + Stipend)",
+    "host": "Central European University (CEU), Vienna",
+    "country": "Austria",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition award typically 50–80% of fees (full only in exceptional cases) + stipend €300–750/month",
+    "deadline": "2027-02-02T23:59:00+01:00",
+    "dlText": "2 Feb 2027 (admission Round 2; time not stated) – Round 1 closed 15 Oct 2026",
+    "nextText": "Aid also offered in Round 1 (mid-Oct) of the next cycle",
+    "tags": [
+      "Merit-based",
+      "Apply for aid with admission",
+      "Stipend paid once in Vienna"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Any nationality; in Round 2 financial aid is not open to applicants from CEU's 'visa-sensitive' countries (they must apply in Round 1)."
+    },
+    "fields": "CEU master's programmes (social sciences, humanities, public policy, economics, environment, law)",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Master's aid is merit-based. Some programmes (e.g. 2-year MA Economics, Data and Policy) advertise full tuition waivers plus €10,000/yr for top applicants.",
+    "url": "https://www.ceu.edu/admissions/financial-aid",
+    "source": "https://www.ceu.edu/admissions/master"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "flanders-master-mind",
+    "name": "Master Mind Scholarships (Flemish Government)",
+    "host": "Flemish Ministry of Education (via Flemish universities and colleges)",
+    "country": "Belgium",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€10,225/year grant + tuition waiver (2026-27 terms; under review for 2027-28)",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "Varies by host institution: e.g. KU Leuven 15 Jan 2027, 23:59 CET; others Feb–Apr",
+    "varies": true,
+    "tags": [
+      "Nominated by host institution",
+      "Apply via chosen Flemish university",
+      "Excellent grades"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students of (nearly) all nationalities admitted to an eligible master's; students already enrolled at or graduated from a Flemish institution are excluded. Check host institution rules."
+    },
+    "fields": "Eligible master's programmes at Flemish institutions",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Study in Flanders says the scheme is under review for 2027-28, so terms may change. Apply through the host institution (KU Leuven, UGent, UAntwerp, VUB, etc.), each with its own deadline.",
+    "url": "https://www.studyinflanders.be/scholarships/master-mind-scholarships",
+    "source": "https://www.kuleuven.be/scholarships/year/2026-2027/master-mind-scholarship"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "kuleuven-inspiring-outstanding",
+    "name": "KU Leuven Inspiring the Outstanding Scholarship",
+    "host": "KU Leuven",
+    "country": "Belgium",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition waiver (pay ~€140 admin fee) + €13,200/academic year, max 2 years",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "15 Jan 2027, 23:59 CET",
+    "opens": "2026-10-15",
+    "tags": [
+      "Single application with Master Mind/ASEAN",
+      "Register candidacy online",
+      "Highly competitive"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International applicants to eligible KU Leuven master's programmes; check the 2027-2028 page for nationality conditions."
+    },
+    "fields": "Eligible KU Leuven master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "One application covers the Inspiring the Outstanding, Master Mind and KU Leuven ASEAN scholarships. Results end of March 2027.",
+    "url": "https://www.kuleuven.be/scholarships/year/2027-2028/inspiring-the-outstanding-scholarship",
+    "source": "https://www.kuleuven.be/scholarships/year/2027-2028/inspiring-the-outstanding-scholarship"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "radboud-scholarship-programme",
+    "name": "Radboud Scholarship Programme",
+    "host": "Radboud University",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition reduced from institutional fee (~€15,000–25,000) to statutory fee (~€2,771)",
+    "deadline": "2027-02-14T23:59:00+01:00",
+    "dlText": "14 Feb 2027, 23:59 CET",
+    "tags": [
+      "Full admission required",
+      "Max 26 awards",
+      "Non-EU/EEA only"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO"
+      ]
+    },
+    "fields": "English-taught Radboud master's in participating faculties",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For a master's starting 1 Sep 2027. Decisions before mid-April 2027.",
+    "url": "https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme",
+    "source": "https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "tilburg-university-waiver",
+    "name": "Tilburg University Waiver (50% tuition)",
+    "host": "Tilburg University",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "50% tuition fee reduction",
+    "deadline": "2027-04-01T23:59:00+02:00",
+    "dlText": "1 Apr 2027 (waiver form + programme application; time not stated)",
+    "tags": [
+      "One-year master's",
+      "Lottery if oversubscribed",
+      "Results by 1 Jun 2027"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Applicants paying the institutional fee for a regular one-year Tilburg master's; check the waiver page for exact criteria."
+    },
+    "fields": "Regular one-year Tilburg master's programmes",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Halves tuition for a September 2027 start. If more eligible applicants apply than waivers are available, recipients are chosen by random lottery.",
+    "url": "https://www.tilburguniversity.edu/education/masters-programs/tuition-fees-scholarships/dei-waiver",
+    "source": "https://www.tilburguniversity.edu/education/masters-programs/tuition-fees-scholarships/dei-waiver"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "vu-amsterdam-vufp",
+    "name": "VU Fellowship Programme (VUFP)",
+    "host": "Vrije Universiteit Amsterdam",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Covers tuition fees (check official page for exact terms)",
+    "deadline": "2027-02-01T23:59:00+01:00",
+    "dlText": "1 Feb 2027, 23:59 CET",
+    "opens": "2026-11-01",
+    "tags": [
+      "Conditional admission first",
+      "Apply for 1 programme only",
+      "Results mid-Mar 2027"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO"
+      ]
+    },
+    "fields": "VU Amsterdam master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply via the VUFP-NLS form after conditional admission; VU advises submitting the master's application by 1 Dec 2026.",
+    "url": "https://vu.nl/en/education/more-about/incoming-master-scholarships",
+    "source": "https://vu.nl/en/education/more-about/incoming-master-scholarships"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "eur-ese-trustfonds",
+    "name": "Erasmus Trustfonds Scholarship (Erasmus School of Economics)",
+    "host": "Erasmus University Rotterdam – Erasmus School of Economics",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Up to €17,500 (tuition waiver + living allowance + one-off allowance)",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "31 Jan / 1 Feb 2027 (pages differ; use 31 Jan 23:59 CET)",
+    "opens": "2026-12-01",
+    "tags": [
+      "Bachelor GPA ≥ 7.5/10",
+      "Not for current ESE master's students",
+      "Results by 13 Mar 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Economics and econometrics master's at ESE",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Open to EEA and non-EEA students with excellent grades. Non-EEA tuition for 2027-28 is about €22,800, so the award covers most costs for EEA and much for non-EEA.",
+    "url": "https://www.eur.nl/en/ese/education/master/fees-and-scholarships/scholarships-and-grants/erasmus-trustfonds-scholarship",
+    "source": "https://www.eur.nl/en/ese/education/master/fees-and-scholarships/scholarships-and-grants/erasmus-trustfonds-scholarship"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "eur-ese-franses",
+    "name": "Philip Hans Franses Scholarship",
+    "host": "Erasmus University Rotterdam – Erasmus School of Economics",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€12,000 tuition waiver for first year (of ~€22,800 non-EEA fee)",
+    "deadline": "2027-02-01T23:59:00+01:00",
+    "dlText": "1 Feb 2027 (time not stated)",
+    "opens": "2026-12-01",
+    "tags": [
+      "Non-EEA only",
+      "Tuition waiver, no cash",
+      "ESE master's"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO"
+      ]
+    },
+    "fields": "Economics and econometrics master's at ESE",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Partial tuition waiver for non-EEA master's students at Erasmus School of Economics; same window as the Trustfonds scholarship.",
+    "url": "https://www.eur.nl/en/ese/education/master/fees-and-scholarships/scholarships-and-grants/philip-hans-franses-scholarship",
+    "source": "https://www.eur.nl/en/ese/education/master/fees-and-scholarships/scholarships-and-grants/philip-hans-franses-scholarship"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "wur-excellence-scholarship",
+    "name": "Wageningen University Excellence Scholarship",
+    "host": "Wageningen University & Research",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition fee waiver for 24 months (~€22,560/yr est. 2027-28); living costs not covered",
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "dlText": "Complete MSc application before 1 Dec 2026 (time not stated)",
+    "tags": [
+      "Unconditional admission needed",
+      "Selection incl. lottery",
+      "Offers 7 Apr 2027"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Non-EU/EFTA nationals from a set list of countries; dual EU/EFTA nationals excluded. Check the list on the WUR page."
+    },
+    "fields": "Wageningen on-campus MSc (life sciences, agriculture, food, environment)",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "No separate scholarship form: eligible applicants with a complete application by 1 Dec 2026 and unconditional admission are considered. September start only.",
+    "url": "https://www.wur.nl/en/education/master/study-expenses-masters/scholarships",
+    "source": "https://www.wur.nl/en/education/master/study-expenses-masters/scholarships"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "wur-africa-scholarship",
+    "name": "WUR Africa Scholarship Programme (ASP)",
+    "host": "Wageningen University & Research",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page",
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "dlText": "Complete MSc application before 1 Dec 2026; invited scholarship application by 1 May 2027",
+    "tags": [
+      "African citizens",
+      "Unconditional admission",
+      "By invitation"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of African countries applying for a Wageningen MSc."
+    },
+    "fields": "Wageningen MSc programmes",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Applicants with a complete MSc application by 1 Dec 2026 and unconditional admission may be invited to apply; the scholarship application is then due 1 May 2027.",
+    "url": "https://www.wur.nl/en/education/master/study-expenses-masters/scholarships",
+    "source": "https://www.wur.nl/en/education/master/study-expenses-masters/scholarships"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "tue-excellence-microchip",
+    "name": "TU/e Scholarship for Excellence: Shaping the Future of Microchip Innovation",
+    "host": "Eindhoven University of Technology (TU/e) / TSH Talent Foundation",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page",
+    "deadline": "2027-01-01T23:59:00+01:00",
+    "dlText": "1 Jan 2027, 23:59 CET (complete MSc application)",
+    "tags": [
+      "Applied Physics, EE, ME, Math & CS",
+      "Automatic consideration",
+      "Selections end Mar 2027"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Applicants to selected TU/e master's programmes; check the page for nationality rules."
+    },
+    "fields": "Applied Physics, Electrical Engineering, Mechanical Engineering, Mathematics & Computer Science",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Applicants with a complete application by 1 Jan 2027 are automatically considered. The award amount is not shown in search results; confirm on TU/e's page.",
+    "url": "https://www.tue.nl/en/education/become-a-tue-student/scholarships-and-grants/tue-scholarship-for-excellence-shaping-the-future-of-microchip-innovation",
+    "source": "https://www.tue.nl/en/education/become-a-tue-student/scholarships-and-grants/tue-scholarship-for-excellence-shaping-the-future-of-microchip-innovation"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ugent-bof-dos-global-south",
+    "name": "Ghent University BOF Doctoral Scholarships for Candidates from the Global South",
+    "host": "Ghent University (Special Research Fund)",
+    "country": "Belgium",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "~€2,850/month for 24 months at Ghent (other 24 months co-funded by home institution)",
+    "deadline": "2027-02-09T23:59:00+01:00",
+    "dlText": "9 Feb 2027, 23:59 Belgian time (exception requests by 15 Jan 2027)",
+    "tags": [
+      "Sandwich PhD",
+      "15 awards/year",
+      "Ghent supervisor applies"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of the Global South countries listed in the call, with a partner institution in the South."
+    },
+    "fields": "Any discipline at Ghent University",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Mandatory co-funding for the 24 months spent at the partner university. Earliest start 1 Oct 2027; results from 12 May 2027.",
+    "url": "https://www.ugent.be/en/research/funding/bof/dos",
+    "source": "https://www.ugent.be/en/research/funding/bof/dos"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "bocconi-graduate-merit-award",
+    "name": "Bocconi Graduate Merit Award",
+    "host": "Università Bocconi",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition and fees waiver",
+    "deadline": "2027-01-26T15:00:00+01:00",
+    "dlText": "Considered with MSc application; Round II closes 26 Jan 2027, 15:00 CET (Round I closed 29 Oct 2026)",
+    "varies": true,
+    "tags": [
+      "No separate application",
+      "Most awards in early rounds",
+      "Renewal needs 50 credits"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Bocconi MSc programmes (economics, finance, management, data science, AI, law)",
+    "fieldCats": [
+      "social",
+      "cs-ai"
+    ],
+    "note": "Merit-based full tuition waiver for first-year MSc applicants. Later rounds close 11 Mar and 29 Apr 2027 but fewer awards remain.",
+    "url": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/funding/bocconi-graduate-merit-awards-ay-2026-27",
+    "source": "https://www.unibocconi.it/en/applying-bocconi/master-science-and-ma-programs/timeline"
+  }
+]
