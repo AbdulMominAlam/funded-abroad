@@ -1,4 +1,237 @@
-# Overnight upgrade: what changed
+# v3 "global": what changed
+
+Branch: `v3-global` (started from `overnight-upgrade`, which hadn't been merged yet). Work date: **4 Nov 2026**, used for every `verifiedOn`.
+
+**Result:**
+* **106 programmes**, up from 55: 51 added, none removed. 36 cover undergraduate, 61 master's, 48 PhD and 6 internships (some cover several levels).
+* `npm run validate-data` ✔ · `npm test`: **101 tests** ✔ · `npm run build` ✔ · Deno type-check of the Edge Functions ✔ · the SQL migration was run on a local Postgres 16 and its permissions checked (details below).
+* The visual design is unchanged. New UI (pickers, alerts panel, greyed-out cards) reuses the existing palette and fonts.
+* axe-core reports 0 WCAG A/AA violations in light and dark mode at 400 px and 1200 px, with alerts both on and off, and on the Privacy page.
+
+## What the owner must do manually
+
+1. **Review and merge** `v3-global` (it contains `overnight-upgrade`, so merging it brings both).
+2. **To turn on alerts, follow [SETUP.md](SETUP.md).** In short:
+   * Create free Supabase, Resend and Cloudflare accounts.
+   * Run the SQL migration and deploy the three Edge Functions with `--no-verify-jwt`.
+   * Set the function secrets (`RESEND_API_KEY`, `SITE_URL`, `ADMIN_EMAIL`, `NOTIFY_ADMIN_ON_CONFIRM`, `EMAIL_FROM`, `HASH_SALT`).
+   * Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in Cloudflare.
+   * Add the GitHub Actions secrets `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `RESEND_API_KEY`, `SITE_URL`, `EMAIL_FROM`.
+3. **Sending to real subscribers needs a verified domain in Resend.** The free test sender `onboarding@resend.dev` only delivers to your own Resend address.
+4. The daily alert workflow only runs on the default branch, so it starts after the merge to `main`.
+5. Spot-check the entries listed under "Not fully verified" below.
+
+## Phase 1: nationality-aware data model
+
+* **Nationality picker**:
+  * Searchable (a text input with a list of all countries), covering 243 nationalities. `countries.json` is generated from ISO 3166-1 alpha-2 codes with English names (`scripts/gen-countries.ts`).
+  * Kosovo (`XK`) is included. 7 uninhabited territories with no citizens (Antarctica, Bouvet, Heard & McDonald, South Georgia, French Southern Territories, US Minor Outlying Islands, British Indian Ocean Territory) are left out.
+  * Remembered in localStorage (`fa-nat`) and in the URL hash (`nat=PK`).
+* **Study-level picker**:
+  * Options: Undergraduate, Master's (default), PhD & research (PhD + internships), and an extra **All levels** option so nothing is ever unreachable.
+  * Stored as `lvl=` in the hash and `fa-lvl` in localStorage.
+  * Old v2 links (`level=PhD`) still work.
+  * The old level dropdown in the filter bar was removed; the new picker replaces it.
+* **Data model** (`src/types.ts`):
+  * `eligibility` is one of `all`, `list`, `exclude` or `group`, as specified, plus one extra type, **`check`**.
+    *Decision:* many government schemes (Chevening, Stipendium Hungaricum, GKS, Swiss Excellence, Commonwealth, JDS, KOICA, ICDF…) have long official lists of 40–160 countries that change every year and that I couldn't reproduce exactly. `check` keeps these programmes visible for every nationality with an amber **"Check your country is eligible"** tag and the reason, rather than guessing a list.
+  * `residencyRequired`, `nominationBody` and `countryNotes` replace the Pakistan-only `abroad`, `hec` and `nomination` fields.
+* **Country groups** (`src/data/country-groups.json`), each with an official source URL and its member count checked in the tests:
+  * Commonwealth (56), EU/EEA (30), ASEAN (11, including Timor-Leste), African Union (55), OIC (57).
+  * Only the African Union group is used by a programme (Mastercard Foundation: "young people from Africa"). The others are there for future entries.
+  * I didn't add a DAC-list group because I couldn't verify the exact current list. Programmes that use the DAC list are marked `check`.
+* **Migration** (`scripts/migrate-v3.py`, kept for review):
+  * All 55 entries were migrated and each eligibility re-checked. A test checks that none of them is "ineligible" for Pakistan, since all were verified as open to Pakistanis.
+  * Pakistan-specific text moved to `countryNotes.PK` (16 programmes now have one, including new entries).
+* **Programmes generalised** from their Pakistan-only versions (same ids, so existing shortlists keep working):
+
+  | v2 entry | v3 entry |
+  | --- | --- |
+  | Fulbright (USEFP) | Fulbright Foreign Student Program |
+  | Australia Awards Pakistan | Australia Awards Scholarships (exact 2027 country list from DFAT) |
+  | Rhodes (Pakistan) | Rhodes Scholarship |
+  | CGS (HEC Type A) | Chinese Government Scholarship (Bilateral), now also undergraduate |
+  | Commonwealth via HEC | Commonwealth Master's & PhD |
+  | Stipendium Hungaricum (via HEC) | Stipendium Hungaricum, now also undergraduate |
+  | MEXT | MEXT via Japanese embassies |
+  | Türkiye Bursları | now also undergraduate |
+* **Exclusions:** host-country nationals are excluded where the official page says the scheme is for international students (e.g. Türkiye Bursları excludes TR, MEXT excludes JP, Gates excludes GB). Where it's "non-EU/EEA fee-payers" (Leiden, Helsinki, Aalto, NL Scholarship, Lund) the EEA (plus CH where stated) is excluded.
+* **UI changes:**
+  * Ineligible programmes are hidden by default. The count line says how many were hidden.
+  * **Show programmes I'm not eligible for** shows them greyed out (dashed border, tinted background; no opacity, for contrast) and sorted last, with "Not eligible: Not open to citizens of X (…)".
+  * Cards show "Who can apply" for restricted programmes, "Nomination: …" and "Must live in your home country" tags, and the selected nationality's country note. With no nationality chosen, all country notes are shown, labelled by country.
+  * The compare table gained rows for eligibility for your nationality, residency, nomination and your country's notes.
+  * The checklist adds "HEC portal application" only when the note for your nationality mentions HEC. It also adds nomination and proof-of-residence items when relevant.
+  * The six-month strip follows your nationality and level.
+  * The "Can apply while living outside Pakistan" chip is now "No need to live in my home country".
+* **Validator:** checks eligibility shape, country codes, group names, `countryNotes` keys and `nominationBody`, and also validates `country-groups.json`.
+
+## Phase 2: 51 new programmes
+
+Research method (same constraint as v2): the environment's network policy **blocks direct page fetches**, so every fact was checked with web searches **restricted to the programme's official domain** (government, university or programme sites). A few deadlines came only from official embassy notices or other official mirrors; those are flagged below. When a 2027 date wasn't published, it was estimated from the last cycle and marked `expected: true`. Unknown amounts say "check official page".
+
+**New `rolling` deadline type:** some programmes have no single date: rolling admission, or dates set by each university, country or office. These have `rolling: true` and no `deadline`. They show "No fixed date", sort after dated programmes, aren't in the strip or calendar exports, and are skipped by alert reminders. (This was "next step 3" in v2.)
+
+### Undergraduate (33 new; 36 programmes cover undergraduate in total)
+
+| id | Programme | Eligibility | Deadline |
+| --- | --- | --- | --- |
+| mext-ug | MEXT Undergraduate (embassy) | all except JP | 2027 round closed (embassies May–Jun 2026); varies |
+| gks-ug | Global Korea Scholarship – Undergraduate | check | embassy track closed ~30 Sep 2026 (`expected`: date from embassy notices) |
+| brunei-bdgs | Brunei Darussalam Government Scholarship | check (ASEAN/Commonwealth/OIC "not limited to") | expected 15 Dec 2026 – 15 Feb 2027 |
+| pearson-uoft | Lester B. Pearson (U of Toronto) | all except CA; school nomination | 6 Nov 2026 |
+| ubc-kmilot | Karen McKellin (UBC) | all except CA | expected ~1 Dec 2026 |
+| yale-aid, harvard-aid, mit-aid, princeton-aid, amherst-aid, dartmouth-aid, bowdoin-aid | Need-blind, full-need aid for international students | all | Yale 2 Jan and Bowdoin 5 Jan confirmed; the others `expected` early Jan |
+| nus-asean-ug, ntu-asean-ug | NUS / NTU ASEAN Undergraduate Scholarships | ASEAN except Singapore (list) | NUS 1 Feb – 19 Mar 2027; NTU same as its admission window |
+| kaist-ug | KAIST undergraduate scholarship | all except KR | 10 Nov 2026 – 14 Jan 2027 |
+| postech-ug | POSTECH international | all except KR | expected Mar–Apr 2027 |
+| hku-entrance, hk-belt-road, hku-honping | HKU entrance / Belt and Road / Hon Ping | all / check / **Nigeria only** | 25 Nov 2026 / 31 Jan 2027 / rolling |
+| qatar-univ | Qatar University International Students Scholarship | all except QA | expected 1–25 Mar 2027 |
+| mbzuai-ug | MBZUAI undergraduate | all | 1 Feb 2027 |
+| mastercard-scholars | Mastercard Foundation Scholars (UG + master's) | **African Union group** | varies by partner (e.g. Edinburgh 19 Nov 2026) |
+| sabanci-ug, koc-ug, bilkent-ug, metu-ug | Turkish universities' international scholarships | all | expected / rolling (Koç) |
+| romania-mfa, russia-quota, taiwan-icdf, taiwan-moe, taiwan-mofa, slovak-gov, saudi-gov | Government schemes (UG + master's + PhD) | exclude EU / exclude RU / check / check / check / check / exclude SA | see data |
+
+### Master's (26 new)
+
+| id | Programme | Eligibility |
+| --- | --- | --- |
+| commonwealth-shared | Commonwealth Shared Scholarships, 10 Nov – 8 Dec 2026 | **exact 43-country list** from the CSC page; residency required |
+| jds | JDS (Japan) | check (target countries); civil servants; work experience |
+| adb-jsp | ADB–Japan Scholarship | check; rolling (per university) |
+| koica | KOICA | check; government nomination; rolling |
+| czech-gov | Czech Government (developing countries) | 2026/27 list of 12 countries; the 2027/28 round probably closed ~30 Sep 2026 |
+| ireland-goi-ies | Government of Ireland International Education Scholarship | exclude EEA, CH, GB, RU, BY |
+| malaysia-mis | Malaysia International Scholarship | exclude MY; rolling (next round not announced) |
+| thailand-tipp | Thailand TIPP | check; National Focal Point nomination |
+| manaaki-asia | Manaaki New Zealand (Asia) | exact 9-country list |
+| italy-iyt | Invest Your Talent in Italy | **exact 23-country list (Pakistan not included)** |
+| daad-helmut-schmidt | DAAD Helmut-Schmidt (public policy) | check (DAC list) |
+| jj-wbgsp | Joint Japan/World Bank | check; 18 Jan – 26 Feb 2027 |
+| rotary-peace | Rotary Peace Fellowship | all; district endorsement |
+| great-scholarships | GREAT Scholarships (UK) | exact 19-country list (2027 call); rolling per university |
+| unige-excellence, kdi-school, paris-saclay-ims, lund-global | University awards | all / except KR / check / except EEA+CH |
+
+Plus master's-level programmes already counted above: Mastercard Foundation, Romania, Russia, Taiwan ICDF/MOE/MOFA, Slovakia and Saudi.
+
+### Investigated and not added (with reason)
+
+| Candidate | Reason |
+| --- | --- |
+| University of Tokyo PEAK | Official site says the last intake has been recruited; no 2027 round |
+| NAWA Ignacy Łukasiewicz (Poland) | No current call or deadline found |
+| OPEC Fund scholarship | Official page says it's paused for restructuring |
+| University of Westminster Full International Scholarship | Not found on the official site for 2027 |
+| NYU Abu Dhabi | Need-based aid confirmed, but "meets full need" and the 2027 deadline weren't |
+| MAECI Italian Government scholarships (general call) | 2027-28 call not published; eligible countries not confirmed (IYT, a MAECI programme, was added instead) |
+| Netherlands Orange Knowledge successor | Not researched in the time available |
+| UWC-related options | UWC national-committee scholarships are pre-university (IB), not undergraduate; not added |
+| Aga Khan (undergraduate) | The AKF scheme is postgraduate; the existing entry covers it |
+
+### Existing deadlines
+
+All 55 existing entries were re-checked on official sources earlier the same day (4 Nov 2026; see the v2 section below). No date changed between the two passes.
+
+### Not fully verified (please spot-check)
+
+* **Deadlines from embassy notices** (`expected`): GKS-U (~30 Sep 2026); Brunei, Romania, Slovakia, Czechia, Taiwan MOE/MOFA, Qatar University, Lund, Geneva, POSTECH, Sabancı, Bilkent and METU 2027 windows are estimated from 2026.
+* **US colleges:** Harvard, MIT, Princeton, Amherst and Dartmouth Regular Decision dates are marked `expected` because the exact 2027 date wasn't on the page found. Their need-blind/full-need policies *were* confirmed on the official pages.
+* **KAIST UG** amounts are from a 2023 guide; **HKU entrance** amounts from the 2026 guide.
+* **Russia quota:** the only 2027/28 information was a Russian House (Rossotrudnichestvo) page with inconsistent dates, so it's marked rolling. The card advises checking your government's travel and study advice.
+* **"check" eligibility entries** list example countries only where the official page named them.
+
+## Phase 3: email sign-up and deadline alerts
+
+* **Database:** `supabase/migrations/20261104000000_deadline_alerts.sql` creates three tables: `subscribers`, `sent_notifications` (unique per subscriber + dedupe key) and `subscribe_attempts` (hashed IP and email for rate limiting). RLS is on, there are **no public policies**, and table and sequence privileges are **revoked from `anon` and `authenticated`**.
+  * *Decision:* the spec says "anon key can only insert via a secure function". I made the Edge Function `subscribe` the only public write path: it validates input and writes with the service role. The anon key can't touch the tables at all, which is stricter.
+  * *Verified* on a local Postgres 16 with Supabase-style default grants:
+    * anon can't read, insert or run the cleanup function;
+    * the email/level checks reject bad values;
+    * duplicate dedupe keys are ignored;
+    * deleting a subscriber cascades to their history.
+  * An `alerts_cleanup()` function deletes unconfirmed sign-ups after 7 days and attempt records after 2 days. The daily job calls it.
+* **Edge Functions** (`supabase/functions/`):
+  * `subscribe`:
+    * validation, plus a honeypot field;
+    * rate limits: 5 attempts per hashed IP per hour, and 3 confirmation emails per address per day (the email limit is silent);
+    * one generic reply, so it never reveals whether an address is already subscribed;
+    * stores the subscriber unconfirmed and sends the double opt-in email.
+  * `confirm`: 7-day single-use link. It notifies `ADMIN_EMAIL` on the first confirmation when `NOTIFY_ADMIN_ON_CONFIRM` isn't `false`. The notice says only "New subscriber: <country>, <level>", with no email address.
+  * `unsubscribe`: GET from the email link, or POST from mail apps' one-click button (RFC 8058). It **deletes** the subscriber and their history.
+  * *Decision:* if a confirmed address signs up again, the new settings are stored as `pending` and only applied after another email confirmation, so nobody can change someone else's alerts.
+  * The logic lives in `_shared/handlers.ts`, written against small interfaces, so it's unit-tested in Node. The `index.ts` files are thin Deno wrappers, type-checked with Deno 2.9.
+  * All three are deployed with `verify_jwt = false`. They're opened from email links, and Supabase's newer publishable keys aren't JWTs.
+* **Email:** an `EmailSender` interface with a `ResendSender` (plain `fetch`) and a `MemorySender` for tests and dry runs. The templates come in HTML (inline styles, site palette, 600 px) and plain-text versions. They show:
+  * the programme name and host;
+  * the deadline **in the programme's own time zone** (e.g. "30 Nov 2026, 11:59 (UTC+01:00)"; AoE is labelled);
+  * days left, whether the date is estimated, and the official link;
+  * a one-click **Unsubscribe and delete my data** link, plus `List-Unsubscribe` headers.
+* **Daily job:** `scripts/alerts/send-alerts.ts`, run by `.github/workflows/alerts.yml` at 06:17 UTC. Manual runs default to a dry run.
+  * **Weekly digest:** on the subscriber's weekday (UTC, Monday by default), once per ISO week. It lists programmes they're eligible for (the same eligibility code as the site; "check" programmes are included) at their level, with deadlines in the next 30 days. Nothing is sent if the list is empty.
+  * **Shortlist reminders:** one when 14 or fewer days remain (but more than 3), and one when 3 or fewer remain. Several due on the same day are grouped into one email. The dedupe keys include the deadline, so next year's round gets reminders again. Someone who signs up inside the last 3 days gets only the 3-day reminder.
+  * **Dedupe:** each send is claimed in `sent_notifications` *before* sending (an insert that ignores duplicates, so two runs can't both send). If sending fails, the claim is released so the next day retries.
+  * **Options:**
+    * `--dry-run` reads real subscribers and sends nothing.
+    * `--sample` uses a made-up subscriber and needs no accounts.
+    * `--sample --to=you@x` really sends the sample emails to you.
+    * `--now=` pretends it's another date.
+  * If the secrets aren't set, the job prints "not configured" and exits successfully, so the cron stays green before setup.
+* **Front end:**
+  * A collapsible **Get deadline alerts** panel. Email, nationality, level, digest weekday and "Also remind me about my shortlist" are prefilled from the pickers and the current shortlist.
+  * It includes a privacy note.
+  * Without `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY` the panel is disabled and says "Alerts coming soon"; it never throws an error.
+  * After confirming or unsubscribing, the site shows a banner (`?alerts=confirmed|updated|unsubscribed|expired|invalid`).
+* **Privacy page:** `privacy.html` explains what's stored, why, who processes it (Supabase, Resend), double opt-in, 7-day deletion of unconfirmed sign-ups, and how to unsubscribe or delete.
+* **Secrets:** nothing is committed. `.env.example` lists every variable, and `.gitignore` covers `.env*` files.
+* **Tests (27 new, in `tests/alerts.test.ts`, with an in-memory store in `tests/memory-store.ts`):**
+  * planning: weekday, ISO week, eligibility/level filtering, 30-day window, 14/3-day reminders, late sign-ups, dedupe;
+  * `runAlerts`: sends once, no duplicates on a second run, releases claims on failure, dry run sends nothing;
+  * tokens and input validation;
+  * the full subscribe → confirm → re-subscribe → unsubscribe flow with an in-memory store, including rate limits, expiry and the owner notice toggle;
+  * templates: escaping, time zones, unsubscribe links;
+  * Resend and Supabase REST clients with a mocked `fetch`.
+
+  No real network calls.
+
+## Phase 4: deploy-readiness and docs
+
+* **Cloudflare Pages:**
+  * Dashboard settings: build command `npm run build`, output `dist`, `NODE_VERSION=22`.
+  * `wrangler.toml` (`pages_build_output_dir = "dist"`) for `npx wrangler pages deploy`.
+  * `public/_headers` adds security headers and long cache for `/assets/*`.
+* The build is still a plain static site with a relative base, so GitHub Pages keeps working. It now has two pages (`index.html`, `privacy.html`).
+* **CI** (`ci.yml`): validate → test → build → alert-job smoke test (`npm run alerts:sample`), plus a separate job that type-checks the Edge Functions with Deno. The GitHub Pages deploy job stays commented out.
+* **SETUP.md:** a plain-language, step-by-step guide covering:
+  * creating the Supabase, Resend and Cloudflare accounts;
+  * the SQL migration (pasted in the SQL editor, or via the CLI);
+  * deploying the functions;
+  * every secret by exact name, and where to paste it;
+  * Resend's test sender vs. verifying a domain;
+  * testing: sample → real test email → sign-up flow → dry run → real run;
+  * troubleshooting, and free-tier limits.
+* **README** rewritten for the global version: data format, eligibility types, alert architecture, deploy options.
+
+## Other decisions and assumptions
+
+* **Levels:** "PhD & research" = PhD + Internship. Partly funded programmes are kept, marked "Partial funding", e.g. tuition-waiver schemes like Sabancı and METU that the brief asked for.
+* **Weekday:** the digest weekday is in **UTC**. The job runs at 06:17 UTC, which is the same day for most time zones from UTC−6 to UTC+14.
+* **Shortlist reminders** go out even for programmes the subscriber isn't eligible for, since they chose them.
+* **Shortlist sync:** the subscription stores the shortlist from sign-up time. To change it later, sign up again from the site; the change is applied after email confirmation.
+* **Unsubscribe:** truly one click (GET), as requested. The trade-off is that a corporate link scanner could unsubscribe someone; re-subscribing takes a minute.
+* **`Rolling` vs `varies`:** `varies` keeps a real representative deadline, while `rolling` has none.
+* **Data scripts:** `scripts/migrate-v3.py` and `scripts/add-v3-programmes.py` are kept for review. They were run once, and re-running them on the current JSON will fail on purpose (duplicate ids).
+
+## Suggested next steps
+
+1. After the merge, follow SETUP.md, then sign up with your own address to test the full flow.
+2. Re-check the `expected` dates in January–February 2027, when many 2027 calls are published (GKS-G, MEXT 2028, Stipendium Hungaricum, Australia Awards, Fulbright, Türkiye Bursları).
+3. Replace some `check` entries with exact lists when the official lists are easy to copy (e.g. the Commonwealth Master's list, likely identical to the Shared Scholarships list).
+4. Add a "manage my alerts" link (a signed token) so subscribers can change settings without signing up again.
+5. Consider a DAC-list country group once the official OECD list can be imported reliably.
+
+---
+
+# v2 "overnight upgrade": what changed (earlier)
 
 Branch: `overnight-upgrade`. Work date: 4 Nov 2026.
 

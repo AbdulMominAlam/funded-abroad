@@ -4,7 +4,8 @@ on:
   push:
   pull_request:
 
-# Uncomment together with the deploy job below to publish to GitHub Pages.
+# Uncomment together with the deploy job below to publish to GitHub Pages
+# (not needed if you deploy with Cloudflare Pages; see SETUP.md).
 # permissions:
 #   contents: read
 #   pages: write
@@ -30,12 +31,24 @@ jobs:
         run: npm test
       - name: Build
         run: npm run build
+      - name: Alerts job smoke test (sample subscriber, sends nothing)
+        run: npm run alerts:sample
       - name: Upload Pages artifact
         # Harmless when Pages is not enabled; used by the deploy job below.
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+
+  edge-functions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Type-check Supabase Edge Functions
+        run: deno check supabase/functions/subscribe/index.ts supabase/functions/confirm/index.ts supabase/functions/unsubscribe/index.ts
 
   # Deploy to GitHub Pages (disabled). To enable:
   #  1. Settings → Pages → Source: "GitHub Actions"

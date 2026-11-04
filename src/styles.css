@@ -192,8 +192,8 @@ dialog.compare::backdrop{background:rgba(10,16,13,.55)}
 .nat-clear:focus-visible{outline:2px solid var(--accent)}
 .phint{flex:1 1 100%;margin:0;font-size:.84rem;color:var(--muted)}
 .phint b{color:var(--ink)}
-.item.ineligible{opacity:.62;background:var(--closed-soft)}
-.item.ineligible:focus-within,.item.ineligible:hover{opacity:.9}
+.item.ineligible{background:var(--closed-soft);border-style:dashed}
+.item.ineligible h3{color:var(--muted)}
 .inelig-reason,.elig-check,.elig-info{margin:6px 0 0;font-size:.84rem}
 .inelig-reason{color:var(--warn)}
 .elig-check{color:var(--warn)}

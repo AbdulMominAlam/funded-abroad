@@ -1,0 +1,5 @@
+# Cloudflare Pages project config (used by `npx wrangler pages deploy`; the dashboard Git integration
+# only needs: build command `npm run build`, output directory `dist`). Free plan is enough.
+name = "funded-abroad"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-11-01"
