@@ -74,7 +74,7 @@ export const LEVELS: readonly Level[] = ["Master's", "PhD", "Internship"];
 export const REGIONS: Record<Region, string> = {
   europe: "Europe",
   uk: "United Kingdom",
-  "east-asia": "East Asia",
+  "east-asia": "East & Southeast Asia",
   "middle-east": "Middle East",
   "north-america": "North America",
   oceania: "Oceania",

@@ -9,12 +9,13 @@
       "Master's"
     ],
     "full": true,
-    "amount": "CHF 13,500 per semester plus tuition waiver",
+    "amount": "CHF 13,500 per semester (from autumn 2027) plus tuition waiver",
     "deadline": "2026-11-30T11:59:00+01:00",
     "dlText": "30 Nov 2026, 11:59 CET (noon, not midnight)",
     "tags": [
       "Top 10% of class",
-      "Apply via eApply with master's application"
+      "Apply via eApply in the Nov window",
+      "Master's thesis pre-proposal"
     ],
     "abroad": true,
     "work": false,
@@ -25,10 +26,13 @@
       "engineering",
       "sciences"
     ],
-    "note": "About 60 awards for 2027/28. Applicants who already hold a master's are not eligible. Interviews may happen in February.",
+    "note": "About 60 awards for 2027/28; decisions end of March. Applicants who already hold a master's are not eligible. Only the 1–30 November window counts for ESOP.",
     "url": "https://ethz.ch/en/studies/financial/scholarships/excellencescholarship.html",
-    "source": "https://ethz.ch/en/studies/financial/scholarships/excellencescholarship.html",
-    "verifiedOn": "2026-11-04"
+    "source": "https://ethz.ch/en/studies/master/application/dates.html",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Master's thesis pre-proposal"
+    ]
   },
   {
     "id": "yenching",
@@ -55,7 +59,7 @@
     ],
     "note": "Two-year English-taught interdisciplinary master's in China Studies. Around 120 places per cohort.",
     "url": "https://yenchingacademy.pku.edu.cn/",
-    "source": "https://yenchingacademy.pku.edu.cn/",
+    "source": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -68,7 +72,7 @@
       "PhD"
     ],
     "full": true,
-    "amount": "HK$344,400 per year + HK$14,400 travel",
+    "amount": "HK$344,400 per year + HK$14,400 travel (2026/27 rates)",
     "deadline": "2026-12-01T12:00:00+08:00",
     "dlText": "1 Dec 2026, 12:00 noon HKT",
     "tags": [
@@ -81,9 +85,9 @@
     "fieldCats": [
       "any"
     ],
-    "note": "400 fellowships for 2027/28 at eight universities. Get your HKPFS reference number first, then apply to the university by 1 Dec, 23:59 HKT.",
+    "note": "400 fellowships for 2027/28 at eight universities; results May 2027. Get your HKPFS reference number first, then apply to up to two programmes by each university's own deadline.",
     "url": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
-    "source": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
+    "source": "https://cerg1.ugc.edu.hk/hkpfs/GuidanceNote.pdf",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -110,10 +114,13 @@
     "fieldCats": [
       "any"
     ],
-    "note": "Your course's funding deadline decides which date applies. Interviews in March; offers in early April.",
+    "note": "About 70 full-cost scholarships a year. Your course's funding deadline decides which date applies. Notifications by 8 March 2027.",
     "url": "https://www.gatescambridge.org/",
-    "source": "https://www.gatescambridge.org/",
-    "verifiedOn": "2026-11-04"
+    "source": "https://www.gatescambridge.org/apply/timeline/",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Gates Cambridge statement and reference"
+    ]
   },
   {
     "id": "mbzuai",
@@ -126,9 +133,9 @@
       "PhD"
     ],
     "full": true,
-    "amount": "Tuition, housing, AED 15,500/month (MSc) or 17,500 (PhD) when funded",
+    "amount": "Tuition, housing, AED 8,000/month (MSc) or AED 10,000/month (PhD) for international students",
     "deadline": "2026-12-15T17:00:00+04:00",
-    "dlText": "15 Dec 2026, 17:00 GST",
+    "dlText": "15 Dec 2026 (most programmes; time: check portal)",
     "tags": [
       "AI only",
       "AED 200 fee",
@@ -141,9 +148,9 @@
     "fieldCats": [
       "cs-ai"
     ],
-    "note": "Decisions 31 Mar 2027. Check your programme's funding status: some MSc tracks (e.g. applied AI) are fee-paying.",
+    "note": "Decisions by 31 Mar 2027. MSc programmes are fully funded except the Master in Applied AI (deadline 28 Feb 2027); Computational Biology closes 22 Jan 2027.",
     "url": "https://mbzuai.ac.ae/study/admission-process",
-    "source": "https://mbzuai.ac.ae/study/admission-process",
+    "source": "https://mbzuai.ac.ae/admissions/graduate-masters-admissions",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -171,9 +178,9 @@
       "engineering",
       "sciences"
     ],
-    "note": "The later 31 March master's deadline does not count for the fellowship. Tuition and rent beyond the grant are your own.",
+    "note": "Apply and validate on IS-Academia by 15 December; references are due a week later. The later 31 March master's deadline does not count for the fellowship. Tuition and rent beyond the grant are your own.",
     "url": "https://www.epfl.ch/education/master/master-excellence-fellowships/",
-    "source": "https://www.epfl.ch/education/master/master-excellence-fellowships/",
+    "source": "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -190,6 +197,7 @@
     "amount": "Fees plus living grant at UKRI rate",
     "deadline": "2027-01-06T12:00:00+00:00",
     "dlText": "Course deadline, Dec 2026 or Jan 2027, 12:00 UK (MSc Advanced CS: 6 Jan)",
+    "varies": true,
     "tags": [
       "Automatic, no separate form"
     ],
@@ -202,7 +210,7 @@
     ],
     "note": "More than 200 awards a year. Apply to your Oxford course by its December or January deadline; March deadlines don't qualify.",
     "url": "https://www.ox.ac.uk/clarendon",
-    "source": "https://www.ox.ac.uk/clarendon",
+    "source": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -232,7 +240,7 @@
       "sciences",
       "social"
     ],
-    "note": "You can't apply directly. Apply to a French master's and ask the university to nominate you; many close in November or December.",
+    "note": "You can't apply directly. Apply to a French master's or PhD and ask the university to nominate you; internal deadlines are often in November or December. Results from 12 Apr 2027.",
     "url": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
     "source": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
     "verifiedOn": "2026-11-04"
@@ -250,7 +258,7 @@
     "full": true,
     "amount": "Tuition, housing, $20,000/yr (MS), $25–30k/yr (PhD)",
     "deadline": "2027-01-03T23:59:00+03:00",
-    "dlText": "3 Jan 2027 (Fall 2027 intake)",
+    "dlText": "3 Jan 2027 (Round 2, Fall 2027 intake; dates marked tentative)",
     "tags": [
       "Automatic with admission",
       "No supervisor needed"
@@ -264,9 +272,9 @@
       "engineering",
       "sciences"
     ],
-    "note": "One application covers admission and funding. Decisions about 14 Feb 2027.",
+    "note": "One application covers admission and funding; over 90% of admitted students get full support. Decisions about 25 Feb 2027; classes start 29 Aug 2027.",
     "url": "https://admissions.kaust.edu.sa/",
-    "source": "https://admissions.kaust.edu.sa/",
+    "source": "https://admissions.kaust.edu.sa/how-to-apply/admission-timelines",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -312,7 +320,7 @@
     "full": true,
     "amount": "Tuition, housing, monthly stipend, insurance",
     "deadline": "2027-01-15T14:00:00+01:00",
-    "dlText": "Expected ~15 Jan 2027 · 2027/28 call not yet published",
+    "dlText": "Expected ~15 Jan 2027, 14:00 CET · 2027/28 call not yet published (last round 14 Nov 2025 – 15 Jan 2026)",
     "expected": true,
     "tags": [
       "HEC nomination",
@@ -327,7 +335,7 @@
     ],
     "note": "Pakistan applicants apply on both the Stipendium Hungaricum portal and the HEC portal; HEC shortlists with a written test.",
     "url": "https://stipendiumhungaricum.hu/",
-    "source": "https://stipendiumhungaricum.hu/",
+    "source": "https://stipendiumhungaricum.hu/apply/",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -346,7 +354,8 @@
     "dlText": "Expected late Jan 2027 · form opens in November",
     "expected": true,
     "tags": [
-      "Must still be enrolled at start"
+      "Must still be enrolled at start",
+      "6+ semesters of study"
     ],
     "abroad": true,
     "work": false,
@@ -357,9 +366,9 @@
       "cs-ai",
       "engineering"
     ],
-    "note": "Pakistan is a CERN Associate Member State, so use the Member/Associate track. You must stay enrolled until the programme starts in summer.",
+    "note": "Pakistan is a CERN Associate Member State. For BSc/MSc students (not PhD) in physics, engineering, CS or maths. Applications usually open in November and close at the end of January.",
     "url": "https://careers.cern/",
-    "source": "https://careers.cern/",
+    "source": "https://careers.cern/programmes/summer-studentship/",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -394,36 +403,6 @@
     "verifiedOn": "2026-11-04"
   },
   {
-    "id": "si",
-    "name": "Swedish Institute Global Professionals",
-    "host": "Swedish Institute",
-    "country": "Sweden",
-    "region": "europe",
-    "levels": [
-      "Master's"
-    ],
-    "full": true,
-    "amount": "Tuition, SEK 12,000/month, insurance, travel grant",
-    "opens": "2027-02-08",
-    "deadline": "2027-02-24T14:59:00+01:00",
-    "dlText": "Master's applications by 15 Jan 2027 · scholarship 8–24 Feb, 14:59 CET",
-    "tags": [
-      "3,000+ hours work experience",
-      "Leadership evidence"
-    ],
-    "abroad": true,
-    "work": true,
-    "hec": false,
-    "fields": "Selected English-taught master's",
-    "fieldCats": [
-      "any"
-    ],
-    "note": "Step one is applying to a master's on universityadmissions.se before 15 January. Check that Pakistan is on the 2027 country list.",
-    "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
-    "source": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
-    "verifiedOn": "2026-11-04"
-  },
-  {
     "id": "gks",
     "name": "Global Korea Scholarship (Graduate)",
     "host": "NIIED, Government of Korea",
@@ -448,9 +427,9 @@
     "fieldCats": [
       "any"
     ],
-    "note": "Watch the Korean embassy in Islamabad and studyinkorea.go.kr for the graduate call.",
+    "note": "Last cycle was announced in February with embassy applications in Feb–Mar. Watch the Korean embassy in Islamabad and studyinkorea.go.kr for the 2027 graduate call.",
     "url": "https://www.studyinkorea.go.kr/",
-    "source": "https://www.studyinkorea.go.kr/",
+    "source": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -465,9 +444,8 @@
     ],
     "full": false,
     "amount": "Tuition and living costs: 50% grant, 50% loan",
-    "opens": "2027-01-05",
     "deadline": "2027-03-31T23:59:00+05:00",
-    "dlText": "Opens early Jan 2027 · usually 31 Mar",
+    "dlText": "Next cycle opens early 2027 · deadline usually 31 Mar (local offices may be earlier)",
     "expected": true,
     "tags": [
       "Local AKF office",
@@ -498,9 +476,8 @@
     ],
     "full": true,
     "amount": "Tuition, living stipend, airfare, J-1 visa",
-    "opens": "2027-02-20",
     "deadline": "2027-04-01T23:59:00+05:00",
-    "dlText": "Next round expected ~Feb – 1 Apr 2027 (2028 entry)",
+    "dlText": "Next round expected early 2027, closing ~1 Apr 2027 (2028 entry)",
     "expected": true,
     "tags": [
       "Must reside in Pakistan",
@@ -513,9 +490,9 @@
     "fieldCats": [
       "any"
     ],
-    "note": "The 2027-entry round closed 1 Apr 2026. About 100 awards planned per cycle. Clinical medicine excluded.",
+    "note": "The 2027-entry round closed 1 Apr 2026. Master's needs 16 years of education, PhD 18. Awards depend on USEFP's budget each year. Clinical medicine excluded.",
     "url": "https://www.usefp.org/",
-    "source": "https://www.usefp.org/",
+    "source": "https://usefp.org/scholarships/fulbright-degree.cfm",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -543,10 +520,13 @@
       "sciences",
       "cs-ai"
     ],
-    "note": "For bachelor's or master's holders and students; current PhD students are not eligible. A common route into OIST's PhD.",
+    "note": "Fall 2027 round: internship 1 Oct 2027 – 31 Mar 2028, results mid-June. The Spring 2027 round closed 15 Oct 2026. For bachelor's or master's holders and students; current PhD students are not eligible.",
     "url": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
     "source": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
-    "verifiedOn": "2026-11-04"
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Choose a research unit"
+    ]
   },
   {
     "id": "aus",
@@ -559,9 +539,9 @@
     ],
     "full": true,
     "amount": "Tuition, living allowance, return airfare, insurance",
-    "opens": "2027-02-01",
     "deadline": "2027-04-30T14:00:00+10:00",
-    "dlText": "1 Feb – 30 Apr 2027, 14:00 AEST (2028 intake)",
+    "dlText": "Expected ~Feb – 30 Apr 2027 (2028 intake) · last round 1 Feb – 30 Apr 2026, 14:00 AEST",
+    "expected": true,
     "tags": [
       "Must reside in Pakistan",
       "Work experience required",
@@ -577,8 +557,11 @@
     ],
     "note": "Master's only. Needs a Development Impact and Linkages Plan showing how your degree helps Pakistan.",
     "url": "https://australiaawardspakistan.org/",
-    "source": "https://australiaawardspakistan.org/",
-    "verifiedOn": "2026-11-04"
+    "source": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships-opening-and-closing-dates",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Development Impact and Linkages Plan"
+    ]
   },
   {
     "id": "mext",
@@ -607,9 +590,9 @@
     "fieldCats": [
       "any"
     ],
-    "note": "Via the Embassy in Islamabad or Consulate in Karachi; exams are held in Pakistan. A university-recommendation route also exists, with deadlines Nov 2026 – Jan 2027.",
+    "note": "Via the Embassy in Islamabad or Consulate in Karachi; exams are held in Pakistan. The university-recommendation (general) route is being discontinued from AY2027 at several universities (e.g. University of Tokyo), so plan on the embassy route.",
     "url": "https://www.pk.emb-japan.go.jp/itpr_en/MEXT_Research_Scholarship.html",
-    "source": "https://www.pk.emb-japan.go.jp/itpr_en/MEXT_Research_Scholarship.html",
+    "source": "https://www.i.u-tokyo.ac.jp/edu/inter_ex/oir/scholarship_e.shtml",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -642,7 +625,7 @@
     ],
     "note": "You apply to the university course, not to DAAD. A few courses may still be open; check each course's page.",
     "url": "https://www.daad.de/en/",
-    "source": "https://www.daad.de/en/",
+    "source": "https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/daad_epos_deadlines.pdf",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -670,10 +653,14 @@
     "fieldCats": [
       "any"
     ],
-    "note": "One-year UK master's. Four 300-word essays; interviews Mar–Apr.",
+    "note": "One-year UK master's. Four 300-word essays; 2027/28 interviews Mar–Apr 2027, results from mid-June.",
     "url": "https://www.chevening.org/scholarships/",
-    "source": "https://www.chevening.org/scholarships/",
-    "verifiedOn": "2026-11-04"
+    "source": "https://www.chevening.org/scholarships/application-timeline/",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Four Chevening essays",
+      "Three UK course applications"
+    ]
   },
   {
     "id": "cw",
@@ -687,12 +674,13 @@
     ],
     "full": true,
     "amount": "Tuition, £1,712/month (£2,000 London), airfare",
-    "deadline": "2026-10-20T16:00:00+01:00",
-    "dlText": "Closed 20 Oct 2026",
+    "deadline": "2026-10-20T16:00:00+05:00",
+    "dlText": "Closed 20 Oct 2026, 16:00 PKT (HEC portal; CSC portal 16:00 BST)",
     "nextText": "Next round ~Sep–Oct 2027",
     "tags": [
       "HEC nomination",
       "Must reside in Pakistan",
+      "HAT score ≥ 60",
       "Dual nationals ineligible"
     ],
     "abroad": false,
@@ -703,10 +691,13 @@
       "social",
       "any"
     ],
-    "note": "Taught master's only (no MBA). HEC had 26 master's and 30 PhD nominations this cycle.",
+    "note": "Taught master's only (no MBA). HEC had 26 master's nominations this cycle; results July 2027. First division in a 16-year bachelor's required.",
     "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
-    "source": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
-    "verifiedOn": "2026-11-04"
+    "source": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/CW-Scholarship.aspx",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "HAT test (score ≥ 60)"
+    ]
   },
   {
     "id": "kh",
@@ -722,7 +713,7 @@
     "amount": "Full funding up to 3 years",
     "deadline": "2026-10-06T13:00:00-07:00",
     "dlText": "Closed 6 Oct 2026",
-    "nextText": "Next deadline ~Oct 2027",
+    "nextText": "Next application opens ~summer 2027",
     "tags": [
       "Bachelor's in 2020 or later"
     ],
@@ -735,8 +726,11 @@
     ],
     "note": "Separate applications to KHS and to a Stanford graduate programme.",
     "url": "https://knight-hennessy.stanford.edu/",
-    "source": "https://knight-hennessy.stanford.edu/",
-    "verifiedOn": "2026-11-04"
+    "source": "https://knight-hennessy.stanford.edu/admission/preparing-your-applications/application-deadlines",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Separate Stanford graduate programme application"
+    ]
   },
   {
     "id": "rhodes",
@@ -754,7 +748,7 @@
     "dlText": "Closed 5 Aug 2026",
     "nextText": "Next round 1 Jun – early Aug 2027",
     "tags": [
-      "Pakistan residency/schooling rule",
+      "4 of last 10 years studying in Pakistan",
       "Age limit"
     ],
     "abroad": false,
@@ -764,7 +758,7 @@
     "fieldCats": [
       "any"
     ],
-    "note": "Two scholarships for Pakistan each year. Check the 10-year residency rule if you've studied abroad.",
+    "note": "Two scholarships for Pakistan each year; no application fee. You must have studied in Pakistan for at least 4 of the last 10 years.",
     "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/",
     "source": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/",
     "verifiedOn": "2026-11-04"
@@ -796,9 +790,9 @@
     "fieldCats": [
       "any"
     ],
-    "note": "Last cycle had 75 seats (25 master's, 15 PhD). Direct university (Type B) applications run separately into spring.",
+    "note": "Last cycle (deadline 5 Jan 2026, 16:00 PKT) had 75 seats (35 bachelor's, 25 master's, 15 PhD). Apply on both the HEC and CSC portals. Direct university (Type B) applications run separately.",
     "url": "https://www.hec.gov.pk/english/scholarshipsgrants/lao/CGSP/Pages/default.aspx",
-    "source": "https://www.hec.gov.pk/english/scholarshipsgrants/lao/CGSP/Pages/default.aspx",
+    "source": "https://www.hec.gov.pk/site/CGSP",
     "verifiedOn": "2026-11-04"
   },
   {
@@ -812,12 +806,12 @@
     ],
     "full": true,
     "amount": "CHF 2,450/month, fees waived, insurance",
-    "deadline": "2026-11-30T23:59:00+01:00",
-    "dlText": "Country-specific · most Oct–Nov 2026; check the Swiss embassy in Islamabad",
-    "varies": true,
+    "deadline": "2026-10-31T23:59:00+05:00",
+    "dlText": "Closed 31 Oct 2026 (Pakistan window 20 Aug – 31 Oct, per SBFI country list)",
+    "nextText": "Next call opens ~Aug 2027",
     "tags": [
-      "Born after 31 Dec 1991",
-      "Needs a master's by Jul 2027",
+      "Born after 31 Dec 1991 (2027/28 round)",
+      "Master's by Jul 2027",
       "Host professor letter"
     ],
     "abroad": false,
@@ -827,9 +821,914 @@
     "fieldCats": [
       "any"
     ],
-    "note": "Research and PhD scholarships, not taught master's. Apply through the Swiss embassy for your nationality.",
+    "note": "Research stays (6–12 months) and PhD scholarships, not taught master's. Apply through the Swiss embassy in Islamabad (islamabad.scholarships@eda.admin.ch).",
     "url": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
-    "source": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
+    "source": "https://www.sbfi.admin.ch/dam/en/sd-web/yBYiu8PC4jzg/2026-08-04_A_Z_List_of_countries_and_territories_complete.pdf",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Research proposal",
+      "Host professor acceptance letter"
+    ]
+  },
+  {
+    "id": "imprs-is",
+    "name": "IMPRS for Intelligent Systems (IMPRS-IS) PhD",
+    "host": "Max Planck Institute for Intelligent Systems, Univ. Stuttgart & Univ. Tübingen",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Funded doctoral position (amount: check official page)",
+    "deadline": "2026-11-15T23:59:00-12:00",
+    "dlText": "15 Nov 2026, 23:59 AoE (Anywhere on Earth)",
+    "tags": [
+      "2-page motivation letter",
+      "3 referees",
+      "Interviews 18–26 Feb 2027"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Machine learning, computer vision, robotics, HCI, neuroscience",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "One intake a year; start from Feb 2027. Referees must upload their letters before the deadline, so ask them early.",
+    "url": "https://imprs.is.mpg.de/application",
+    "source": "https://imprs.is.mpg.de/news/imprs-is-now-accepting-applications-for-2027",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Two-page motivation letter"
+    ]
+  },
+  {
+    "id": "ellis-phd",
+    "name": "ELLIS PhD Program",
+    "host": "European Laboratory for Learning and Intelligent Systems",
+    "country": "Europe (multi-country)",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Positions are funded by the advisor's institution (terms vary; check official page)",
+    "deadline": "2026-10-31T23:59:00-12:00",
+    "dlText": "Closed 31 Oct 2026, 23:59 AoE",
+    "nextText": "Next call ~Oct 2027 (portal opened 1 Oct this year)",
+    "tags": [
+      "Advisor + co-advisor in different countries",
+      "References requested before the deadline"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Machine learning and AI",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Decisions late Feb – Mar 2027. Some advisors' institutions have their own (earlier) deadlines, so apply there in parallel. Individual ELLIS-listed PhD jobs have separate deadlines.",
+    "url": "https://ellis.eu/research/phd-postdoc",
+    "source": "https://ellis.eu/news/ellis-phd-program-call-for-applications-2026",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Choose advisor and co-advisor"
+    ]
+  },
+  {
+    "id": "cs-maxplanck",
+    "name": "CS@max planck Doctoral Program",
+    "host": "Max Planck Graduate Center for Computer and Information Science",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full financial support for admitted students (amount: check official page)",
+    "deadline": "2026-12-15T23:59:00+01:00",
+    "dlText": "Expected 15 Dec 2026 (Fall 2027 entry) · applications open 1 Sep",
+    "expected": true,
+    "tags": [
+      "≥2 references",
+      "GRE encouraged",
+      "English test unless taught in English"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Computer science and information science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "The official overview says applications must be complete by 15 December of the previous year but isn't dated; confirm the 2026 date. Bachelor's or master's in CS or a related field.",
+    "url": "https://www.cis.mpg.de/csmax-planck-admissions/",
+    "source": "https://www.cis.mpg.de/csmaxplanck-overview/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nus-soc-phd",
+    "name": "NUS Computing PhD Research Scholarship",
+    "host": "National University of Singapore, School of Computing",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full tuition + monthly stipend (amount: check official page); +S$500/month for 2 years after the qualifying exam",
+    "deadline": "2026-12-15T23:59:00+08:00",
+    "dlText": "15 Dec 2026 (August 2027 intake; time not stated, submit early)",
+    "tags": [
+      "S$50 application fee",
+      "2:1 honours or equivalent",
+      "Interviews mid-March"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Computer science, information systems",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Applications are accepted all year, but scholarships for August 2027 need the 15 Dec cut-off. Outcome about 3 months after the deadline. Other NUS faculties set their own dates (e.g. Statistics & Data Science: 15 Nov).",
+    "url": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/",
+    "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "singa",
+    "name": "Singapore International Graduate Award (SINGA)",
+    "host": "A*STAR with NUS, NTU, SUTD and SMU",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, monthly stipend, airfare and settling-in grants (amounts: check official page)",
+    "deadline": "2026-12-01T23:59:00+08:00",
+    "dlText": "Expected ~1 Dec 2026 (Aug 2027 intake) · second round ~1 Jun 2027",
+    "expected": true,
+    "tags": [
+      "Two rounds a year"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Science and engineering",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "The official SINGA page couldn't be checked tonight; dates follow previous cycles (June and December rounds). Confirm on the A*STAR site before applying.",
+    "url": "https://www.a-star.edu.sg/scholarships",
+    "source": "https://www.a-star.edu.sg/scholarships",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kaist",
+    "name": "KAIST Scholarship (International Graduate Admission)",
+    "host": "KAIST",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full tuition (4 semesters MS / 8 PhD) + monthly stipend set by department/advisor + health insurance",
+    "deadline": "2027-03-16T17:00:00+09:00",
+    "dlText": "Expected: early track ~Dec 2026, regular track ~early–mid Mar 2027 (last: 3–17 Mar 2026, 17:00 KST)",
+    "expected": true,
+    "tags": [
+      "Recommendation letters due before the application closes"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Science, engineering, CS, AI",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Fall 2027 dates are 'TBA' on KAIST's timeline. The early track runs in December, so check in early December. Named awards (Global Presidential, Prestige) add extra stipends.",
+    "url": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
+    "source": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "tsinghua",
+    "name": "Tsinghua University Graduate Scholarships (CGS, university route)",
+    "host": "Tsinghua University",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "CGS: tuition, dorm, monthly stipend, insurance · Beijing Government Scholarship: tuition + insurance",
+    "deadline": "2026-12-15T23:59:00+08:00",
+    "dlText": "Apply by Tsinghua's first-round deadline, mid-Dec 2026, for CGS consideration (varies by programme)",
+    "varies": true,
+    "tags": [
+      "Not the HEC route",
+      "Pre-admission required"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Most fields incl. CS and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Separate from the HEC-nominated Chinese Government Scholarship. Tsinghua picks scholarship candidates only from pre-admitted applicants; each programme catalogue lists its own dates (portal open Sep 2026 – Feb 2027).",
+    "url": "https://yz.tsinghua.edu.cn/en/",
+    "source": "https://yz.tsinghua.edu.cn/en/info/1035/1583.htm",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "schwarzman",
+    "name": "Schwarzman Scholars",
+    "host": "Schwarzman College, Tsinghua University",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Full scholarship (check official page for what's covered)",
+    "deadline": "2026-09-09T15:00:00-04:00",
+    "dlText": "Closed 9 Sep 2026, 15:00 EDT",
+    "nextText": "Next round ~Apr – Sep 2027",
+    "tags": [
+      "Age 18–28",
+      "English test if not a native speaker"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "One-year master's in global affairs; any undergraduate major",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Must be under 29 on 1 August of the enrolment year and finish your bachelor's before then. No specific undergraduate field required.",
+    "url": "https://www.schwarzmanscholars.org/admissions/",
+    "source": "https://www.schwarzmanscholars.org/admissions/application-instructions/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "oist-phd",
+    "name": "OIST PhD Program",
+    "host": "Okinawa Institute of Science & Tech.",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "~¥2.6M/year (taxable) in year 1, rising to ~¥3.6M; fully funded for all nationalities",
+    "deadline": "2026-11-15T23:59:00+09:00",
+    "dlText": "15 Nov 2026, 23:59 JST",
+    "tags": [
+      "2–5 recommendation letters",
+      "TOEFL/IELTS (no minimum score)",
+      "Interviews 18 Jan – 7 Feb 2027"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Physics, CS, neuroscience, biology, chemistry, maths",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Results mid-Feb 2027; entry May or Sep 2027, or Jan 2028. Fully English-taught.",
+    "url": "https://www.oist.jp/admissions/phd-program/apply-phd",
+    "source": "https://www.oist.jp/admissions/phd-program/apply-phd",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mila",
+    "name": "Mila Supervision Request (MSc/PhD)",
+    "host": "Mila – Quebec AI Institute",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Funding normally comes through your supervisor (amount: check official page)",
+    "opens": "2026-10-15",
+    "deadline": "2026-12-01T23:59:00-05:00",
+    "dlText": "15 Oct – 1 Dec 2026 (Fall 2027; time not stated, submit early)",
+    "tags": [
+      "Pick up to 3 professors",
+      "Also apply to the university"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Machine learning, deep learning, AI",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Answers usually come in Feb–Mar (sometimes April). The university deadline can follow soon after selection, so prepare both applications together.",
+    "url": "https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor",
+    "source": "https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Shortlist up to 3 Mila professors"
+    ]
+  },
+  {
+    "id": "imperial-presidents",
+    "name": "Imperial President's PhD Scholarships",
+    "host": "Imperial College London",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition + stipend (£27,036/yr for 2027-28 per Imperial; confirm) + £2,000/yr research costs for 3 years",
+    "deadline": "2027-01-11T23:59:00+00:00",
+    "dlText": "Round 2: 11 Jan 2027, 23:59 UK · Round 3: 1 Mar 2027 · department deadlines are earlier",
+    "tags": [
+      "First-class degree (or equivalent)",
+      "Some departments can't fund international students"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "nomination": true,
+    "fields": "All Imperial PhD fields incl. computing and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Round 1 closed 2 Nov 2026. Apply for a PhD place and ask the department how and when it nominates. Only for new PhD applicants.",
+    "url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/",
+    "source": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ucl-res",
+    "name": "UCL Research Excellence Scholarships",
+    "host": "University College London",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full tuition (home or overseas) + stipend (£23,805 in 2026/27, rises with inflation)",
+    "deadline": "2027-01-08T23:59:00+00:00",
+    "dlText": "Fri 8 Jan 2027 (application + scholarship cover sheet; time not stated) · some departments earlier",
+    "tags": [
+      "Up to 40 awards",
+      "Separate cover sheet"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "All UCL research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For new research students starting on or after 1 Oct 2027, any nationality. Some departments set earlier internal dates (e.g. STS: 4 Jan).",
+    "url": "https://www.ucl.ac.uk/scholarships/research-excellence-scholarship",
+    "source": "https://www.ucl.ac.uk/scholarships/research-excellence-scholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "edinburgh-informatics",
+    "name": "Edinburgh Informatics PhD Studentships",
+    "host": "University of Edinburgh, School of Informatics",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition (overseas rate) for 3 years + UKRI-rate stipend (check official page)",
+    "deadline": "2026-11-30T23:59:00+00:00",
+    "dlText": "30 Nov 2026, 23:59 UK (Round 1; the only round for international applicants)",
+    "tags": [
+      "Apply via EUCLID",
+      "Pick a research institute"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "AI, ML, NLP, robotics, vision, theory, systems, security",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Outcomes by April 2027. Centres for Doctoral Training (e.g. Quantum Informatics, AI for Biomedical Innovation) are separate applications with January deadlines.",
+    "url": "https://informatics.ed.ac.uk/study-with-us/our-degrees/postgraduate-research-programmes-and-centres-doctoral-training/postgraduate-research-funding-opportunities-0",
+    "source": "https://informatics.ed.ac.uk/study-with-us/our-degrees/postgraduate-research-programmes-and-centres-doctoral-training/postgraduate-research-funding-opportunities-0",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Research proposal"
+    ]
+  },
+  {
+    "id": "leiden-lexs",
+    "name": "Leiden University Excellence Scholarship (LExS)",
+    "host": "Leiden University",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Tuition reduction of €10,000, €15,000, €17,500, €18,500 or €19,000 (not a full scholarship)",
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "dlText": "1 Dec 2026 (per Leiden's LExS page; time not stated, confirm)",
+    "tags": [
+      "Non-EEA students",
+      "~25 awards"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "All Leiden master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Over a thousand applicants for about 25 awards. Applicants hear by the end of March.",
+    "url": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs",
+    "source": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nl-scholarship",
+    "name": "NL Scholarship (formerly Holland Scholarship)",
+    "host": "Dutch Ministry of Education & participating universities",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "€5,000 one-off in the first year (Utrecht offers €5,000–15,000)",
+    "deadline": "2027-02-01T23:59:00+01:00",
+    "dlText": "Set by each programme · often 1 Feb or 1 May 2027 (e.g. UvA 1 Feb, Twente CS 1 May)",
+    "varies": true,
+    "tags": [
+      "Non-EEA only",
+      "No previous Dutch degree",
+      "Participating universities only"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Participating Dutch bachelor's and master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply through the university, not Nuffic. The list of participating universities changes each year. Too small to live on: you'll need other funds.",
+    "url": "https://www.studyinnl.org/finances/nl-scholarship",
+    "source": "https://www.studyinnl.org/finances/nl-scholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "helsinki",
+    "name": "University of Helsinki Master's Scholarship (fee waiver)",
+    "host": "University of Helsinki",
+    "country": "Finland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Tuition waiver of 50% or 100% (mostly 50%); living costs not covered",
+    "opens": "2027-01-05",
+    "deadline": "2027-01-19T15:00:00+02:00",
+    "dlText": "5–19 Jan 2027 (closing time: confirm on Studyinfo) · missing attachments until 26 Jan, 23:59",
+    "tags": [
+      "Apply on the admission form",
+      "Non-EU/EEA fee-payers"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "International master's incl. CS, data science, maths",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "No fully funded scholarships. Fees are €13,000–18,000 a year. Results by 16 Apr 2027.",
+    "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-international-masters-programmes",
+    "source": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-international-masters-programmes",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "aalto",
+    "name": "Aalto University Excellence Scholarship",
+    "host": "Aalto University",
+    "country": "Finland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Depends on the study option (check the programme page); fee €15,000/yr in 2026",
+    "opens": "2026-12-07",
+    "deadline": "2027-01-05T15:00:00+02:00",
+    "dlText": "7 Dec 2026 – 5 Jan 2027 (closing time: confirm on Studyinfo)",
+    "tags": [
+      "Apply on the admission form",
+      "Non-EU/EEA fee-payers"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Technology, CS, engineering, business, arts",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "any"
+    ],
+    "note": "You can only apply for the scholarship inside the admission window, on the same form.",
+    "url": "https://www.aalto.fi/en/study-at-aalto/apply-to-masters-programmes",
+    "source": "https://www.aalto.fi/en/study-at-aalto/apply-to-masters-programmes",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "polimi",
+    "name": "Politecnico di Milano Merit Scholarships (Platinum/Gold)",
+    "host": "Politecnico di Milano",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Platinum: €10,000 + tuition waiver · Gold/Bronze: tuition waiver plus grant per the call",
+    "deadline": "2027-03-04T23:59:00+01:00",
+    "dlText": "Apply in a 2027/28 admission round · English certificate due by 4 Mar 2027",
+    "varies": true,
+    "tags": [
+      "10 Platinum + 18 Gold (Milan)",
+      "Admission application = scholarship application"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Engineering, architecture, design (incl. CS and data science)",
+    "fieldCats": [
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "For international students admitted to a Laurea Magistrale (MSc) starting in the first semester. Results 3–4 months after the application deadline.",
+    "url": "https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/scholarships/merit-based-scholarships",
+    "source": "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "padua",
+    "name": "Padua International Excellence Scholarship",
+    "host": "University of Padua",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "€8,000/year (gross) + tuition exemption; up to 76 awards",
+    "deadline": "2026-11-15T23:59:00+01:00",
+    "dlText": "Admission Call One: 15 Sep – 15 Nov 2026 (scholarships mainly go to Call One; time in the selection notice)",
+    "tags": [
+      "Not resident in Italy",
+      "Foreign degree"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "English-taught degree programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Call Two (1 Dec 2026 – 1 Mar 2027) exists, but scholarships are mainly reserved for Call One applicants.",
+    "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+    "source": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kuleuven-science",
+    "name": "Science@Leuven Scholarship",
+    "host": "KU Leuven, Faculty of Science",
+    "country": "Belgium",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "€12,000 per year for up to 2 years",
+    "opens": "2026-10-01",
+    "deadline": "2027-02-15T23:59:00+01:00",
+    "dlText": "Expected 15 Feb 2027 (complete application) · from KU Leuven's 2026-27 scholarship page",
+    "expected": true,
+    "tags": [
+      "Must be admitted first"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Faculty of Science master's (maths, physics, chemistry, biology, statistics…)",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Second year depends on first-year results. Non-EEA tuition is reduced via a separate fee waiver for some nationalities.",
+    "url": "https://wet.kuleuven.be/english/scienceatleuvenscholarship",
+    "source": "https://wet.kuleuven.be/english/scienceatleuvenscholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "google-phd",
+    "name": "Google PhD Fellowship",
+    "host": "Google Research",
+    "country": "Any (eligible regions)",
+    "region": "global",
+    "levels": [
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Varies by region (check official page)",
+    "deadline": "2026-04-30T23:59:00-07:00",
+    "dlText": "2026 cycle: 5 Mar – 30 Apr 2026 (closed)",
+    "nextText": "Next window expected ~Mar–Apr 2027",
+    "tags": [
+      "University nominates you",
+      "For current PhD students",
+      "Universities in Pakistan not eligible"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "nomination": true,
+    "fields": "Computer science and related fields",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "For Pakistani citizens already doing a PhD in an eligible region (e.g. Europe, US, Canada, East Asia, Middle East, Australia). Universities can nominate 3–4 students.",
+    "url": "https://research.google/programs-and-events/phd-fellowship/",
+    "source": "https://research.google/programs-and-events/phd-fellowship/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "daad-rise",
+    "name": "DAAD RISE Germany",
+    "host": "DAAD",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "amount": "Monthly stipend for 3 months (amount: check official page)",
+    "opens": "2026-10-15",
+    "deadline": "2026-11-30T23:59:00+01:00",
+    "dlText": "15 Oct – 30 Nov 2026, 23:59 CET · references by 15 Dec",
+    "tags": [
+      "Must study at a US/Canada/UK/Ireland university (12+ months)",
+      "Undergraduates only"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Science, engineering, CS",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Not for students at Pakistani universities: open to undergraduates enrolled in the US, Canada, UK or Ireland, whatever their citizenship. You must still be an undergraduate during the internship. Placements announced Feb–Mar 2027.",
+    "url": "https://www.daad.de/rise/en/rise-germany/",
+    "source": "https://www.daad.de/rise/en/rise-germany/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "summer-epfl",
+    "name": "Summer@EPFL Research Internship",
+    "host": "EPFL School of Computer & Communication Sciences",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "amount": "Living allowance (CHF 1,800/month on an older page; confirm) + travel refund",
+    "deadline": "2026-11-29T23:39:00-12:00",
+    "dlText": "29 Nov 2026, 23:39 AoE (summer 2027)",
+    "tags": [
+      "Enrolled BSc (2nd year+) or MSc",
+      "CS, CE, EE, telecom"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Computer and communication sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "For students from other universities; you must still be enrolled during the internship. Faculty offers come about 4–6 weeks after the deadline.",
+    "url": "https://summer.epfl.ch/apply.html",
+    "source": "https://summer.epfl.ch/apply.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "eth-ssrf",
+    "name": "ETH Student Summer Research Fellowship",
+    "host": "ETH Zurich, Department of Computer Science",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "amount": "CHF 4,000 stipend + travel and visa costs (2 Jul – 27 Aug 2027)",
+    "opens": "2026-11-01",
+    "deadline": "2026-12-16T13:00:00+01:00",
+    "dlText": "1 Nov – 16 Dec 2026, 13:00 CET (via SiROP)",
+    "tags": [
+      "2 years of study completed",
+      "All nationalities",
+      "No deadline extensions"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Computer science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "For BSc/MSc students at other universities who graduate in 2028 or later. Notified by end of Feb 2027.",
+    "url": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+    "source": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mitacs-gri",
+    "name": "Mitacs Globalink Research Internship",
+    "host": "Mitacs",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "deadline": "2026-09-17T13:00:00-07:00",
+    "dlText": "Summer 2027 call closed (Sep 2026; exact date not shown)",
+    "expected": true,
+    "nextText": "Next call expected ~Aug–Sep 2027",
+    "tags": [
+      "Undergraduates only",
+      "Min. 80% cumulative GPA",
+      "Enrolled at a Pakistani university"
+    ],
+    "abroad": false,
+    "work": false,
+    "hec": false,
+    "fields": "All disciplines",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "12-week research internship in Canada. Pakistan is on the 2027 country list and all Pakistani universities are eligible; Mitacs changes partner countries each year. Last cycle's deadline was 17 Sep 2025.",
+    "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/",
+    "source": "https://www.mitacs.ca/gri-2027-eligible-universities/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "koc",
+    "name": "Koç University Graduate Scholarships",
+    "host": "Koç University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition waiver + monthly stipend for thesis MS/PhD (60,000 TL/month from Oct 2026 per one Koç page)",
+    "deadline": "2027-02-15T23:59:00+03:00",
+    "dlText": "Expected: early ~15 Feb 2027, regular ~15 May 2027 (based on Fall 2026 dates)",
+    "expected": true,
+    "tags": [
+      "Automatic with admission",
+      "No scholarships for taught master's",
+      "HEC–Koç PhD partnership"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Sciences, engineering (incl. CS), social sciences, humanities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Admitted thesis-based MS/PhD students are considered automatically. HEC scholars can get 100% PhD tuition through the Koç–HEC partnership (apply to both). A good option if you're already in Türkiye.",
+    "url": "https://international.ku.edu.tr/graduate-programs/tuition-and-scholarships/",
+    "source": "https://international.ku.edu.tr/scholarships/hec-pakistan-scholars-at-koc-university/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "bilkent",
+    "name": "Bilkent University Graduate Scholarships",
+    "host": "Bilkent University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Tuition waiver, often with a monthly stipend (about 90% of graduate students are supported)",
+    "deadline": "2027-06-01T23:59:00+03:00",
+    "dlText": "Expected ~1 Jun 2027 (late ~1 Jul), based on Fall 2026 Engineering & Science dates",
+    "expected": true,
+    "tags": [
+      "GRE for international applicants"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Engineering, CS, sciences, social sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "Apply through stars.bilkent.edu.tr/gradapp. Stipend levels are set yearly. A good option if you're already in Türkiye.",
+    "url": "https://mfbe.bilkent.edu.tr/?page_id=17",
+    "source": "https://mfbe.bilkent.edu.tr/?page_id=17",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "epfl-edic",
+    "name": "EPFL EDIC Computer Science PhD Fellowship",
+    "host": "EPFL",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "First-year IC fellowship, then PhD salary (check official page); 55 fellowships in 2027",
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "dlText": "1 Dec 2026, 23:59 CET (main round) · 15 Apr 2027 second round, mainly local applicants",
+    "tags": [
+      "English test by deadline",
+      "Referees submit online"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "Computer and communication sciences",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Admission needs EDIC committee approval plus an IC fellowship or a lab that hires you directly. The deadline moved from 15 Dec to 1 Dec from 2026.",
+    "url": "https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/edic-computer-and-communication-sciences/edic-how-to-apply/",
+    "source": "https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/edic-computer-and-communication-sciences/edic-how-to-apply/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ista-phd",
+    "name": "ISTA PhD Program",
+    "host": "Institute of Science and Technology Austria",
+    "country": "Austria",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Salary €3,053–3,673/month gross, paid 14 times a year (2026 rates); 5-year contract",
+    "deadline": "2027-01-08T15:00:00+01:00",
+    "dlText": "8 Jan 2027, 15:00 CET · references by 12 Jan, 23:59",
+    "tags": [
+      "Bachelor's or master's can apply"
+    ],
+    "abroad": true,
+    "work": false,
+    "hec": false,
+    "fields": "CS, maths, physics, biology, neuroscience, chemistry, data science",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Interviews late Feb – early Mar 2027; offers must be accepted by 15 Apr; everyone starts 15 Sep 2027.",
+    "url": "https://phd.pages.ista.ac.at/phd-application-admission/",
+    "source": "https://phd.pages.ista.ac.at/phd-application-admission/",
     "verifiedOn": "2026-11-04"
   }
 ]

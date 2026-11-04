@@ -25,7 +25,7 @@ export function statusClass(s: Scholarship, i: StatusInfo): string {
   }
 }
 
-const FLAG_RE = /reside|residency|work experience|dual|born after|age/i;
+const FLAG_RE = /reside|residency|work experience|dual|born after|\bage\b|age limit|must |not eligible|\bonly\b|enrolled at|not resident/i;
 
 export function countdownHtml(s: Scholarship, i: StatusInfo): string {
   if (i.kind === "closed") return `<div class="days">—<small>${esc(s.nextText ?? "next round 2027")}</small></div>`;
