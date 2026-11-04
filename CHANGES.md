@@ -2,15 +2,15 @@
 
 Branch: `v4-data`, started from `v3-global`. Work date: **4 Nov 2026**, used for every `verifiedOn`.
 
-## Status: PARTIAL. The 550-programme target was not reached (437 after session 4)
+## Status: 503 programmes after session 5. All four level targets except internships are met; the 550 total is not yet reached
 
 | | v3 | **v4 now** | Target |
 | --- | --- | --- | --- |
-| Total programmes | 106 | **437** | 550+ |
+| Total programmes | 106 | **503** | 550+ |
 | Internships / summer research | 6 | **112** | 120+ |
 | Undergraduate | 36 | **130** ✅ | 130+ |
-| Master's | 61 | **176** ✅ | 160+ |
-| PhD | 48 | **118** | 140+ |
+| Master's | 61 | **177** ✅ | 160+ |
+| PhD | 48 | **184** ✅ | 140+ |
 
 Some programmes count toward more than one level.
 
@@ -342,6 +342,75 @@ Four batches ran in parallel, each capped at about 40 searches. They used about 
 
 **Next session:** PhD batches (12, 13, 14) are 118 of 140. Internships are 112 of 120 (a small top-up batch would finish them).
 
+## Session 5 (resumed): PhD
+
+Three batches ran in parallel, each capped at about 40 searches. They used about 97 searches in total. `npm run validate-data` and `npm test` (107 tests) passed before each commit and push.
+
+| Batch | Added | Entries |
+| --- | --- | --- |
+| 12 Europe/UK | +23 (file now 41) | Oxford AIMS CDT, Oxford–DeepMind (CS), Cambridge International Scholarship, Bristol ProAI CDT, LSGNT CDT, Edinburgh AI4BI CDT, Edinburgh Doctoral College; salaried-PhD explainers for the Netherlands, Denmark, Norway, Sweden and Finland; ETH Zurich doctoral; University of Vienna praedoc; Inria; Biozentrum Basel; VBC; SISSA, GSSI, IMT Lucca, SNS, Bologna; Institut Pasteur PPU |
+| 13 Asia/Oceania/Middle East | +26 (file now 36) | RIKEN IPA and JRA, UTokyo fellowship, Kyoto DoGS SPRING, Tohoku AGS RISE, CAS-ANSO Scholarship, ANSO-CAS-TWAS/UNESCO, Westlake, SUSTech, Academia Sinica TIGP, Australian RTP (international), Sydney, ANU, UQ, Monash, Melbourne, UWA, Adelaide, Auckland, Otago, Wellington, Canterbury, Weizmann Feinberg, Technion, UAEU, Sharjah |
+| 14 North America | +17 (file now 28) | US and Canada funded-PhD explainers; funding guarantees at Princeton, Harvard GSAS, MIT EECS, Stanford, Caltech, CMU SCS, Berkeley EECS, Yale, Columbia, U of T CS, UBC 4YF, McGill, Waterloo; CGRS doctoral; Paul & Daisy Soros |
+
+**Total now 503:** PhD **184 (target met)**, master's 177, undergraduate 130, internships 112.
+
+**Coordinator fixes:**
+* `imperial-aeronautics-phd` removed: funding not stated.
+* `coefficient-cdtf` removed: amount unknown, status from a page about a year old, and "budget constraints limit new grants".
+* `cgrs-doctoral`: kept. CIHR's official page says registered international doctoral students qualify. The date is worked out from NSERC's standing 17 Oct / next-business-day rule, and the entry is `varies` because universities set earlier internal deadlines.
+* `cas-anso-scholarship-phd` and `anso-cas-twas-phd` both kept: they're separate schemes (the ANSO Scholarship vs the TWAS/UNESCO fellowship for developing countries).
+
+**Least certain (session 5):**
+
+| Entry | Issue |
+| --- | --- |
+| `pasteur-ppu` | 12 Nov 2026 estimated from 2025 |
+| `vbc-phd` | newest call details from 2024; rolling |
+| `oxford-deepmind-cs` | nationality rules not confirmed (`check`) |
+| `sissa-phd`, `sns-phd`, `bologna-phd`, `imt-lucca-phd` | dates estimated from 2026 |
+| `melbourne-research-scholarship-phd` | no amount; Engineering & IT may be local-only |
+| `kyoto-dogs-spring` | amounts from 2024; programme reviewed Jul 2026 |
+| `tohoku-ags-rise` | international eligibility not confirmed (`check`) |
+| `westlake-phd-fellowship` | 2023 brochure; no stipend figure |
+| `sharjah-phd-ra-ta`, `uaeu-phd-scholarship` | stipends unknown |
+| `uq-grss` | tuition cover for internationals not confirmed |
+| `cas-anso-scholarship-phd`, `anso-cas-twas-phd` | 2027 dates estimated |
+| `stanford-phd-funding` | pieced together from department pages; no single guarantee page |
+| `caltech-phd-funding` | most sources need US work authorisation |
+| `columbia-gsas-phd-funding` | deadline page about 11 months old |
+
+**Dropped (session 5):**
+
+| Candidate | Reason |
+| --- | --- |
+| UCL Foundational AI CDT | Only old pages; international funding unclear |
+| Cambridge AI4ER | No longer recruiting |
+| Edinburgh Quantum Informatics / ML Systems / AGQ CDTs | Funding, deadline or international eligibility unclear |
+| Manchester, Southampton CDTs | International full funding not confirmed |
+| FNR | AFR discontinued; successor needs a Luxembourg link |
+| Research Ireland GOI | Closed for 2027 |
+| Polytechnique AMX | No dates |
+| Helmholtz, Leibniz | No single programme page |
+| UZH | Covered in the ETH note |
+| UNSW Scientia | Domestic only |
+| Qatar University PhD | No tuition cover |
+| Tel Aviv | No stipend figure |
+| Hebrew University | Funding split by faculty |
+| NTU Taiwan | No university-wide scheme confirmed |
+| Osaka | No data |
+| SOKENDAI | 2027 MEXT amounts not fixed |
+| UTokyo SPRING GX | Drops to ¥90k/month for internationals from FY2027 |
+| Cornell | "Nearly 97–99%" funded, not all |
+| Ford Foundation | Ended |
+| Qualcomm Innovation Fellowship NA | No 2027 deadline |
+| Open Philanthropy AI Fellowship | Status unconfirmed |
+| IBM PhD Fellowship | Paused |
+| Schmidt Science Fellows | Postdoc |
+
+**Where things stand:** undergraduate, master's and PhD are all past their targets. Internships are at 112 of 120, and the total is 503 of 550. One more turn could close both gaps:
+* an internship top-up of ~10 (remaining ideas: Biozentrum Basel summer, Heidelberg HGS, UN-Habitat, Kenya/Nigeria-hosted organisations);
+* ~40 more entries spread across levels (e.g. Fulbright Kenya and Nigeria, UZH/USI/Glasgow/Warwick master's awards, Fudan/SJTU/ZJU graduate scholarships, Keio, Fudan and İTÜ undergraduate awards).
+
 ## How to resume (next session)
 
 1. `git checkout v4-data && git log --oneline | head`, then read this section.
@@ -366,9 +435,9 @@ Four batches ran in parallel, each capped at about 40 searches. They used about 
 | 10a | ✅ Resumed in session 4. Left: UZH, USI, Paris Cité, Sorbonne, Toulouse, Glasgow, Warwick, Durham, St Andrews (not searched) |
 | 10b | ✅ Resumed in session 4. Left: UBC, Toronto, Concordia, Auckland, Hitotsubashi, APU, Fudan/SJTU/ZJU/USTC, NCKU, Kyushu/Kyoto/Osaka (not searched) |
 | 11 | ✅ Resumed in session 4. Left: more EMJMs once 2027 scholarships are confirmed (SpaceMaster, IMRD, GEMMA, WACOMA, EMship) |
-| 12 | UK CDTs, Oxford/Cambridge scholarships, national salaried-PhD portals, ETH/UZH/Basel, Vienna/VBC, Italy, Inria/CNRS/Pasteur/Polytechnique, FNR, Research Ireland, Helmholtz, Leibniz |
-| 13 | Japan, Korea, China, Taiwan, Australia, NZ, Middle East |
-| 14 | US and Canada explainer entries, university funding guarantees, Vanier successor, Ford, Open Philanthropy, Qualcomm |
+| 12 | ✅ Resumed in session 5. Left: CNRS, Polytechnique AMX (no dates), Helmholtz/Leibniz (no single programme page), more UK CDTs once their international funding is confirmed |
+| 13 | ✅ Resumed in session 5. Left: Osaka (no data) |
+| 14 | ✅ Resumed in session 5. Left: Qualcomm NA (once a deadline is posted) |
 
 ## Decisions
 

@@ -2,7 +2,7 @@
 
 A free, global scholarship finder. Pick your **nationality** and **study level** and you'll see only the fully or mostly funded undergraduate, master's, PhD and research-internship programmes you can actually apply for. Each one shows a live deadline countdown, who can apply, what it pays, and a link to the official page. Optional **email alerts** send a weekly digest and shortlist reminders.
 
-* **437 programmes**: 130 undergraduate, 176 master's, 118 PhD and 112 internships / summer research (some cover several levels). Growth toward 550+ is in progress; see [CHANGES.md](CHANGES.md).
+* **503 programmes**: 130 undergraduate, 177 master's, 184 PhD and 112 internships / summer research (some cover several levels). Growth toward 550+ is in progress; see [CHANGES.md](CHANGES.md).
 * 243 nationalities (ISO 3166 codes). Eligibility rules are data, not code: "all nationalities", "only these countries", "everyone except…", named groups (Commonwealth, EU/EEA, ASEAN, African Union, OIC), or "check the official list".
 * A static site that runs free on Cloudflare Pages or GitHub Pages. The only server-side part is the optional email alerts, which use free tiers of Supabase, Resend and GitHub Actions.
 
