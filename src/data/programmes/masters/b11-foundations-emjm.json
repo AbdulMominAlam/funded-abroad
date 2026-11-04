@@ -697,41 +697,6 @@
     "work": false,
     "nominationBody": null,
     "verifiedOn": "2026-11-04",
-    "id": "emjm-emship",
-    "name": "EMship+ – Erasmus Mundus Master in Advanced Design in Ship and Offshore Structures",
-    "host": "EMship consortium",
-    "country": "Belgium (multi-country)",
-    "amount": "Erasmus+ scholarship of €1,400/month (per programme page; confirm for 2027)",
-    "deadline": "2027-01-31T23:59:00+01:00",
-    "dlText": "~31 Jan 2027 (estimated; recurring scholarship deadline, time not stated)",
-    "expected": true,
-    "tags": [
-      "Erasmus Mundus",
-      "Naval architecture degree",
-      "Results by end of March"
-    ],
-    "fields": "Naval architecture, marine and offshore engineering",
-    "fieldCats": [
-      "engineering"
-    ],
-    "note": "Applications for 2027–2028 are open. Self-funded deadlines 1 Apr (visa needed) and 1 Jun. Confirm that EM scholarships are offered for 2027.",
-    "url": "https://emship.eu/how-to-apply/",
-    "source": "https://emship.eu/tuition-fees-scholarships/"
-  },
-  {
-    "region": "europe",
-    "levels": [
-      "Master's"
-    ],
-    "full": true,
-    "funding": "full",
-    "eligibility": {
-      "type": "all"
-    },
-    "residencyRequired": false,
-    "work": false,
-    "nominationBody": null,
-    "verifiedOn": "2026-11-04",
     "id": "emjm-choreomundus",
     "name": "Choreomundus – International Master in Dance Knowledge, Practice and Heritage",
     "host": "Choreomundus consortium",
