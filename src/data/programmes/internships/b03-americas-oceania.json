@@ -295,5 +295,114 @@
     "note": "10–12 week research visit to ANU for students or academic/government research staff. Eligible institutions change each intake.",
     "url": "https://science.anu.edu.au/study/scholarships/future-research-talent-awards-indonesia",
     "source": "https://science.anu.edu.au/study/scholarships/future-research-talent-awards-indonesia"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "purdue-surf",
+    "name": "Purdue Summer Undergraduate Research Fellowship (SURF)",
+    "host": "Purdue University (College of Engineering)",
+    "country": "United States",
+    "region": "north-america",
+    "amount": "US$6,500 stipend + US$2,500 housing allowance for non-Purdue students (10 weeks)",
+    "deadline": "2026-12-15T23:59:00-05:00",
+    "dlText": "15 Dec 2026 international deadline (time not stated); priority deadline 15 Jan 2027",
+    "tags": [
+      "Full-time undergraduates",
+      "Students at international universities eligible",
+      "Letter of recommendation",
+      "CPT/J-1 visa"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, computing and STEM research",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "10-week paid summer research open to undergraduates from Purdue, other US and international institutions. International applicants needing a J-1 visa should apply by 15 Dec 2026; one faculty page says housing support may not be offered, so confirm.",
+    "url": "https://engineering.purdue.edu/Engr/Research/EURO/students/about-SURF",
+    "source": "https://engineering.purdue.edu/Engr/Research/EURO/students/about-SURF/prospectiveSURFApplicants"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "perimeter-psi-start",
+    "name": "PSI Start Research Internship (Perimeter Institute)",
+    "host": "Perimeter Institute for Theoretical Physics",
+    "country": "Canada",
+    "region": "north-america",
+    "amount": "Paid Research Award (prorated) + return economy airfare; amount: check official page",
+    "opens": "2026-12-15",
+    "deadline": "2027-01-17T23:59:00-05:00",
+    "dlText": "17 Jan 2027 (time not stated); references due 30 Jan 2027",
+    "tags": [
+      "Undergraduates worldwide",
+      "Planning grad physics from 2028+",
+      "12–16 weeks, May–Aug 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Theoretical physics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Paid in-person summer research internship in Waterloo, Ontario, open to students around the world; travel is covered and group-rate housing is arranged. A separate free two-week PSI Start summer school runs in June.",
+    "url": "https://perimeterinstitute.ca/undergraduate-summer-programs",
+    "source": "https://perimeterinstitute.ca/training/undergraduate-summer-programs/psi-start-research-internship"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cmu-riss",
+    "name": "Robotics Institute Summer Scholars (RISS)",
+    "host": "Carnegie Mellon University, Robotics Institute",
+    "country": "United States",
+    "region": "north-america",
+    "amount": "Sponsor-specific funding covering living expenses and transport (check official page)",
+    "opens": "2026-11-01",
+    "deadline": "2027-01-20T15:00:00-05:00",
+    "dlText": "20 Jan 2027, 15:00 ET",
+    "tags": [
+      "Undergraduates",
+      "Via partner pathways (e.g. DAAD RISE, Keio, KAUST, Guadalajara, Poland)",
+      "On campus 1 Jun–6 Aug 2027"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "US citizens at any university, students at designated RISS partner universities/pathways, or international students enrolled full-time at a US institution (CPT-eligible). Other students abroad are generally not eligible."
+    },
+    "fields": "Robotics, AI, computer vision, machine learning",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Summer robotics research at CMU; all admitted scholars are considered for funding, but amounts depend on the sponsor/pathway. International students outside the US must come through a partner pathway.",
+    "url": "https://riss.ri.cmu.edu/",
+    "source": "https://riss.ri.cmu.edu/faq/"
   }
 ]

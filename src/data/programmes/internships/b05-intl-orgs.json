@@ -706,5 +706,670 @@
     "note": "Full-time interns in Vienna receive a €1,450 monthly stipend. Applications more than a year after finishing your degree are not considered.",
     "url": "https://www.iaea.org/about/employment/internships",
     "source": "https://www.iaea.org/about/employment/internships/conditions"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "adb-internship",
+    "name": "ADB Internship Program",
+    "host": "Asian Development Bank",
+    "country": "Philippines",
+    "region": "east-asia",
+    "amount": "Stipend for the internship (amount: check official page)",
+    "deadline": "2027-03-16T23:59:00+08:00",
+    "dlText": "~16 Mar 2027, estimated from 2026 cycle (time not stated)",
+    "expected": true,
+    "tags": [
+      "Master's/PhD students",
+      "Nationals of ADB member countries",
+      "8–12 weeks",
+      "Stay enrolled throughout"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of ADB member countries enrolled in a Master's or PhD at a school in a member country"
+    },
+    "fields": "Economics, finance, development, engineering, IT and other ADB work areas",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Graduate students intern at ADB (mainly Manila) for 8–12 weeks; all interns receive a stipend except those under special school arrangements. 2026 deadline was 16 Mar for June starts.",
+    "url": "https://www.adb.org/work-with-us/careers/internship-program",
+    "source": "https://www.adb.org/work-with-us/careers/internship-program"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "afdb-internship",
+    "name": "AfDB Internship Program",
+    "host": "African Development Bank",
+    "country": "Côte d'Ivoire (and regional offices)",
+    "region": "global",
+    "amount": "Monthly stipend + medical insurance (amount: check official page)",
+    "opens": "2026-09-28",
+    "deadline": "2026-10-12T23:59:00+00:00",
+    "dlText": "12 Oct 2026 (2027 Session 1; time not stated)",
+    "nextText": "2027 Session 1 closed; check for the next session",
+    "tags": [
+      "Age ≤30",
+      "Master's student or within 1 year of Master's",
+      "Nationals of member countries",
+      "English or French"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of AfDB member countries (regional African and non-regional members)"
+    },
+    "fields": "Development economics, finance, infrastructure, agriculture, law and other Bank areas",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "3–6 month internships with a monthly stipend; on-site interns pay their own travel and living costs. Can only be done once.",
+    "url": "https://www.afdb.org/en/careers/internship-programme",
+    "source": "https://www.afdb.org/en/about-us/careers/internship-programme/terms-and-conditions"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ifad-internship",
+    "name": "IFAD Internship Programme",
+    "host": "International Fund for Agricultural Development",
+    "country": "Italy",
+    "region": "europe",
+    "amount": "10% of DSA/month (cap US$800); 14% for non-local interns from recipient countries; Enhanced Programme adds housing + travel",
+    "rolling": true,
+    "dlText": "Per posting",
+    "tags": [
+      "Age ≤30",
+      "Students/recent graduates",
+      "Fluent English",
+      "6 months"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Agriculture, rural development, finance, communications and other IFAD areas",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Six-month paid internships mostly in Rome. The Enhanced Internship Programme for candidates not based in Rome adds housing and travel allowances.",
+    "url": "https://www.ifad.org/en/work-with-us/internship-programmes",
+    "source": "https://www.ifad.org/documents/48415603/49694054/hr-consultants-handbook.pdf/b70d360e-0131-542c-9790-c8dac00c3610?t=1778164934929"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "wipo-internship",
+    "name": "WIPO Internship Program",
+    "host": "World Intellectual Property Organization",
+    "country": "Switzerland",
+    "region": "europe",
+    "amount": "CHF 1,645/month (Category I) or CHF 2,170/month (Category II)",
+    "rolling": true,
+    "dlText": "Per posting",
+    "tags": [
+      "Final-year undergrads, Master's or recent grads",
+      "2–12 months",
+      "Geneva"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Generally nationals of WIPO Member States — confirm in the posting"
+    },
+    "fields": "Intellectual property law, economics, IT, communications, administration",
+    "fieldCats": [
+      "social",
+      "cs-ai",
+      "any"
+    ],
+    "note": "Stipend depends on education level; any university/government funding is deducted from it. WIPO does not provide accommodation.",
+    "url": "https://www.wipo.int/en/web/working-at-wipo/internship-program",
+    "source": "https://www.wipo.int/en/web/working-at-wipo/benefits"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unfpa-internship",
+    "name": "UNFPA Internship Programme",
+    "host": "United Nations Population Fund",
+    "country": "Any (UNFPA offices worldwide)",
+    "region": "global",
+    "amount": "Monthly stipend set by duty station (e.g. ~US$279/month in Türkiye) if not otherwise funded",
+    "rolling": true,
+    "dlText": "Per posting / annual global internship roster",
+    "tags": [
+      "Students after 1st year, postgrads or recent grads",
+      "Own medical insurance",
+      "Stipend varies by location"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Population, gender, health, data, communications, operations",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Interns get no salary but receive a stipend if not funded by a university, government or scholarship (UNFPA tops up partial funding). Apply via postings or the Global Internship Roster.",
+    "url": "https://www.unfpa.org/jobs/global-internship-roster-2026",
+    "source": "https://www.unfpa.org/jobs/global-internship-roster-2026"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "iom-internship",
+    "name": "IOM Internships",
+    "host": "International Organization for Migration",
+    "country": "Any (IOM offices worldwide)",
+    "region": "global",
+    "amount": "Monthly stipend set per posting/location (e.g. THB 12,018/month Bangkok); some posts unpaid",
+    "rolling": true,
+    "dlText": "Per posting",
+    "tags": [
+      "Final-year undergrads, grad students or recent grads",
+      "Stipend varies; check posting",
+      "Diversity & Inclusion programme covers travel + visa"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Migration, humanitarian response, data, HR, communications",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Most IOM calls offer a modest monthly stipend, but some are non-remunerated and interns with outside funding are ineligible for it. Check each call; the Diversity and Inclusion Internship Programme targets persons with disabilities and under-represented nationalities.",
+    "url": "https://dtm.iom.int/vacancy-classification/intern",
+    "source": "https://dtm.iom.int/vacancies/emergency-and-post-crisis-intern-dtm-unit-paid-internship"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unido-internship",
+    "name": "UNIDO Internship Programme",
+    "host": "United Nations Industrial Development Organization",
+    "country": "Austria (and field offices)",
+    "region": "global",
+    "amount": "Monthly stipend based on duty station (since Sept 2025; amount: check posting)",
+    "rolling": true,
+    "dlText": "Per posting",
+    "tags": [
+      "Final-year Bachelor's, Master's+ or graduated ≤12 months",
+      "Nationals of UNIDO Member States",
+      "3–6 months"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students or recent graduates from UNIDO Member States"
+    },
+    "fields": "Industrial development, energy, environment, trade, digitalisation",
+    "fieldCats": [
+      "engineering",
+      "social",
+      "any"
+    ],
+    "note": "From September 2025 UNIDO pays interns a monthly stipend; travel, visa, accommodation and insurance remain the intern's cost.",
+    "url": "https://careers.unido.org/content/Internship/?locale=en_US",
+    "source": "https://careers.unido.org/content/Internship/?locale=en_US"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "opcw-internship",
+    "name": "OPCW Internship Programme",
+    "host": "Organisation for the Prohibition of Chemical Weapons",
+    "country": "Netherlands",
+    "region": "europe",
+    "amount": "€540/month",
+    "rolling": true,
+    "dlText": "Per posting",
+    "tags": [
+      "Enrolled (1+ year done) or graduated ≤1 year",
+      "Nationals of CWC States Parties",
+      "Fluent English"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of States Parties to the Chemical Weapons Convention"
+    },
+    "fields": "Chemistry, verification, law, international relations, administration",
+    "fieldCats": [
+      "sciences",
+      "social",
+      "any"
+    ],
+    "note": "Interns in The Hague normally receive €540 a month; it does not cover travel, visa or housing, and interns need their own insurance.",
+    "url": "https://www.opcw.org/work-us/internships",
+    "source": "https://www.opcw.org/work-us/internships"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "coe-traineeship",
+    "name": "Council of Europe Traineeship Programme",
+    "host": "Council of Europe",
+    "country": "France",
+    "region": "europe",
+    "amount": "≈€1,320/month (gross)",
+    "opens": "2027-06-04",
+    "deadline": "2027-06-17T23:59:59+02:00",
+    "dlText": "~17 Jun 2027, 23:59:59 CEST, estimated from 2026 cycle (4–17 Jun 2026)",
+    "expected": true,
+    "tags": [
+      "Citizens of CoE member states",
+      "Degree or 3 years of university",
+      "English or French",
+      "6 months, Oct–Mar"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "AL",
+        "AD",
+        "AM",
+        "AZ",
+        "BA",
+        "GE",
+        "IS",
+        "LI",
+        "MD",
+        "MC",
+        "ME",
+        "MK",
+        "NO",
+        "SM",
+        "RS",
+        "CH",
+        "TR",
+        "UA",
+        "GB"
+      ]
+    },
+    "fields": "Law, human rights, politics, communications, administration",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Six-month paid traineeship in Strasbourg, one session a year starting October. You cannot apply if you have already had a CoE traineeship, study visit or job.",
+    "url": "https://www.coe.int/en/web/jobs/traineeships",
+    "source": "https://www.coe.int/en/web/jobs/faq-traineeship"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cjeu-traineeship",
+    "name": "Paid Traineeships at the Court of Justice of the EU",
+    "host": "Court of Justice of the European Union",
+    "country": "Luxembourg",
+    "region": "europe",
+    "amount": "≈€2,400/month + €150 travel contribution (if ≥200 km away)",
+    "deadline": "2026-09-15T23:59:00+02:00",
+    "dlText": "15 Sep 2026 for Mar–Jul 2027 session (time not stated)",
+    "nextText": "Oct 2027 session: applications usually Feb–Apr 2027",
+    "tags": [
+      "Law, political science or translation graduates",
+      "5-month sessions",
+      "Apply via EU CV Online"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Mainly EU nationals; confirm nationality rules on the official page"
+    },
+    "fields": "Law, translation/interpreting, communications",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Five-month paid traineeships in Luxembourg, twice a year (March and October starts). A separate inclusive programme exists for candidates with a disability.",
+    "url": "https://curia.europa.eu/site/jcms/d2_5152/en/traineeships",
+    "source": "https://curia.europa.eu/site/jcms/p1_1000085165/en/traineeship-applications-for-march-july-2027-session-now-open"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "eca-traineeship",
+    "name": "European Court of Auditors Traineeships",
+    "host": "European Court of Auditors",
+    "country": "Luxembourg",
+    "region": "europe",
+    "amount": "€2,000/month (AI traineeships €2,500)",
+    "rolling": true,
+    "dlText": "Per call — check official page",
+    "tags": [
+      "EU nationals",
+      "3+ year degree",
+      "Two EU languages",
+      "3–6 months"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ]
+    },
+    "fields": "Audit, accounting, economics, law, AI/IT",
+    "fieldCats": [
+      "social",
+      "cs-ai"
+    ],
+    "note": "Paid traineeships of 3–6 months in Luxembourg under ECA Decision 3-2026. Only one traineeship per person and no previous EU-institution employment.",
+    "url": "https://www.eca.europa.eu/en/traineeships",
+    "source": "https://www.eca.europa.eu/ContentPagesDocuments/Traineeships/ECA-Decision-traineeships_EN.pdf"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "nato-internship",
+    "name": "NATO Internship Programme (NATO HQ)",
+    "host": "NATO Headquarters",
+    "country": "Belgium",
+    "region": "europe",
+    "amount": "€1,335/month (2026 rate, adjusted yearly)",
+    "deadline": "2026-04-30T23:59:00+02:00",
+    "dlText": "30 Apr 2026 for Mar/Sep 2027 starts (time not stated)",
+    "nextText": "Next call ~Apr–May 2027 (for 2028 internships)",
+    "tags": [
+      "Age 21+",
+      "Citizens of NATO member countries",
+      "3rd-year students or graduated <1 year",
+      "6 months, Brussels"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AL",
+        "BE",
+        "BG",
+        "CA",
+        "HR",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IS",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "ME",
+        "NL",
+        "MK",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "TR",
+        "GB",
+        "US"
+      ]
+    },
+    "fields": "International relations, security, law, communications, IT, engineering",
+    "fieldCats": [
+      "social",
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Six-month paid, full-time internship in Brussels; the call opens once a year in April–May. Other NATO bodies (SHAPE, NDC, NCIA, JFC Brunssum) run their own paid schemes.",
+    "url": "https://www.nato.int/en/work-with-us/careers/internship-programme",
+    "source": "https://www.nato.int/en/work-with-us/careers/internship-programme"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "idb-internship",
+    "name": "IDB Group Internship Program",
+    "host": "Inter-American Development Bank Group",
+    "country": "United States (and country offices)",
+    "region": "north-america",
+    "amount": "Paid (amount: check posting)",
+    "rolling": true,
+    "dlText": "Per posting; HQ calls twice a year",
+    "tags": [
+      "Enrolled students",
+      "HQ: citizens of the 48 IDB member countries",
+      "Country offices: citizens/residents of that country"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Washington HQ internships: citizens of IDB member countries (IDB Invest postings may have no restriction); country-office internships: citizens/legal residents of that country"
+    },
+    "fields": "Economics, finance, development, data, infrastructure",
+    "fieldCats": [
+      "social",
+      "cs-ai",
+      "any"
+    ],
+    "note": "Paid internships at IDB headquarters (summer and winter cycles) and in country offices across Latin America and the Caribbean.",
+    "url": "https://jobs.iadb.org/en/internships",
+    "source": "https://www.iadb.org/en/how-we-can-work-together/students-recent-graduates"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "bis-graduate-programme",
+    "name": "BIS Graduate Programme",
+    "host": "Bank for International Settlements",
+    "country": "Switzerland",
+    "region": "europe",
+    "amount": "Salary (net of Swiss tax) + health insurance, return travel and accommodation in Basel",
+    "rolling": true,
+    "dlText": "Usually advertised in spring — check vacancies",
+    "tags": [
+      "Recent Bachelor's/Master's graduates",
+      "Excellent English",
+      "Up to 11 months, Basel"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationality rules not stated in sources found — check vacancy"
+    },
+    "fields": "Economics, finance, statistics, IT and related fields",
+    "fieldCats": [
+      "social",
+      "cs-ai"
+    ],
+    "note": "Paid non-renewable contract of up to 11 months at BIS headquarters for recent graduates. BIS also runs a PhD Fellowship (2027 deadline 6 Nov 2026).",
+    "url": "https://www.bis.org/about/careers/early-careers",
+    "source": "https://www.bis.org/careers/graduate_page.htm"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "efta-traineeship",
+    "name": "EFTA Traineeships",
+    "host": "European Free Trade Association Secretariat",
+    "country": "Switzerland / Belgium / Luxembourg",
+    "region": "europe",
+    "amount": "≈€1,510/month net (ESO figure; check official page)",
+    "rolling": true,
+    "dlText": "Per call — check official page",
+    "tags": [
+      "Nationals of Iceland, Liechtenstein, Norway, Switzerland",
+      "Recent graduates"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "IS",
+        "LI",
+        "NO",
+        "CH"
+      ]
+    },
+    "fields": "Trade law, EEA affairs, economics, statistics",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Traineeships in Geneva, Brussels or Luxembourg for EFTA nationals. Allowance figure comes from an older EFTA Statistical Office page, so confirm the current amount.",
+    "url": "https://www.efta.int/careers/open-vacancies/whats-offer",
+    "source": "https://www.efta.int/media-resources/publications/trainee-brochure"
   }
 ]
