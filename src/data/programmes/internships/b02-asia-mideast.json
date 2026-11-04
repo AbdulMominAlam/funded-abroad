@@ -1,0 +1,256 @@
+[
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "utrip-utokyo",
+    "name": "UTokyo Research Internship Program (UTRIP)",
+    "host": "University of Tokyo, School of Science",
+    "country": "Japan",
+    "region": "east-asia",
+    "amount": "One-time GSS-UTRIP scholarship (airfare + daily costs, varies by region) + free housing; FUTI Award up to $2,000 for US-enrolled students",
+    "opens": "2026-11-12",
+    "deadline": "2026-12-25T17:00:00+09:00",
+    "dlText": "25 Dec 2026, 17:00 JST",
+    "tags": [
+      "Undergrads, 1+ year done",
+      "Natural sciences",
+      "Recommendation by deadline"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Natural sciences (physics, chemistry, biology, earth science, astronomy, maths)",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Summer lab research at UTokyo's School of Science (about 6 weeks) with no programme or housing fees. Priority to third-year students of a four-year degree; results early April 2027.",
+    "url": "https://www.s.u-tokyo.ac.jp/en/utrip/",
+    "source": "https://www.s.u-tokyo.ac.jp/en/utrip/apply-now/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "amgen-utokyo",
+    "name": "UTokyo Amgen Scholars Program",
+    "host": "University of Tokyo / Amgen Foundation",
+    "country": "Japan",
+    "region": "east-asia",
+    "amount": "Airfare, accommodation and living allowance covered",
+    "opens": "2026-11-01",
+    "deadline": "2027-02-01T15:00:00+09:00",
+    "dlText": "1 Feb 2027, 15:00 JST",
+    "tags": [
+      "Undergrads at Asian universities",
+      "2 recommendation letters",
+      "8 weeks"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates enrolled at a bachelor's-granting institution in Asia, after at least their first year and not graduating before the programme"
+    },
+    "fields": "Life sciences, chemistry and related sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Eight-week summer research internship, 3 Jun – 30 Jul 2027, plus the Amgen Scholars Asia Symposium in Kyoto (3–5 Aug). Apply via the TAO online system; results mid-to-late March 2027.",
+    "url": "https://www.u-tokyo.ac.jp/en/prospective-students/amgen_program.html",
+    "source": "https://www.u-tokyo.ac.jp/en/prospective-students/amgen_program.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "amgen-kyoto",
+    "name": "Kyoto University Amgen Scholars Program",
+    "host": "Kyoto University / Amgen Foundation",
+    "country": "Japan",
+    "region": "east-asia",
+    "amount": "Scholarship (¥180,000 in 2026) plus programme-covered travel and housing; check official page for 2027",
+    "opens": "2026-11-01",
+    "deadline": "2027-02-01T15:00:00+09:00",
+    "dlText": "1 Feb 2027, 15:00 JST",
+    "tags": [
+      "Undergrads only",
+      "Video if shortlisted",
+      "~10 places"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates at universities in Asia (Amgen Scholars Asia); master's and doctoral students not eligible"
+    },
+    "fields": "Life sciences, chemistry and related sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Summer research at Kyoto University, 4 Jun – 5 Aug 2027, for about 10 students. Shortlisted applicants (mid-Feb) submit a short video; results late March 2027.",
+    "url": "https://www.opir.kyoto-u.ac.jp/study/en/curriculum/amgenscholars/",
+    "source": "https://www.opir.kyoto-u.ac.jp/study/en/curriculum/amgenscholars/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "kaust-vsrp",
+    "name": "KAUST Visiting Student Research Program (VSRP)",
+    "host": "King Abdullah Univ. of Science & Tech.",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "amount": "US$1,000/month + private housing + return airfare",
+    "rolling": true,
+    "dlText": "Rolling; flexible start dates",
+    "tags": [
+      "3rd-year UG or master's",
+      "GPA 3.5/4",
+      "IELTS 6.5 or equivalent",
+      "2–6 months"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "STEM (CS, engineering, sciences)",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Fully funded research internship with a KAUST faculty member, typically 2–6 months. Current PhD students, KAUST students and KAUST alumni cannot apply.",
+    "url": "https://vsrp.kaust.edu.sa/",
+    "source": "https://admissions.kaust.edu.sa/study/internships"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "weizmann-kupcinet-getz",
+    "name": "Kupcinet-Getz International Summer Program",
+    "host": "Weizmann Institute of Science",
+    "country": "Israel",
+    "region": "middle-east",
+    "amount": "US$1,100 stipend + flight subsidy up to US$400 + free housing",
+    "opens": "2026-12-20",
+    "deadline": "2027-01-20T23:59:00+02:00",
+    "dlText": "20 Jan 2027 (time not stated)",
+    "tags": [
+      "BSc/MSc students",
+      "After 1st year",
+      "No fees"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International bachelor's or master's students (not PhD) after their first year, or recent bachelor's graduates continuing in academia"
+    },
+    "fields": "Physics, chemistry, life sciences, maths, computer science",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Eight-week research programme in a Weizmann lab, 16 Jun – 12 Aug 2027. No application or tuition fees; housing in nearby dormitories.",
+    "url": "https://info.weizmann.ac.il/en/kupcinet-getz-international-summer-program/",
+    "source": "https://info.weizmann.ac.il/en/kupcinet-getz-international-summer-program/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "astar-sipga",
+    "name": "Singapore International Pre-Graduate Award (SIPGA)",
+    "host": "A*STAR Graduate Academy",
+    "country": "Singapore",
+    "region": "east-asia",
+    "amount": "check official page (A*STAR-funded research attachment)",
+    "rolling": true,
+    "dlText": "Rolling; apply ~5–6 months before start",
+    "tags": [
+      "BSc/MSc students",
+      "2–6 months",
+      "Contact A*STAR scientists first"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International undergraduate and master's students"
+    },
+    "fields": "Science, engineering, biomedical, computing",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Funds 2–6 month research attachments at A*STAR research institutes in Singapore. Contact a prospective A*STAR supervisor before applying; enquiries to sipga_office@hq.a-star.edu.sg.",
+    "url": "https://www.a-star.edu.sg/Scholarships/aga-faqs/faqs--others",
+    "source": "https://www.a-star.edu.sg/Scholarships/aga-faqs/faqs--others"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "kaist-kai-x",
+    "name": "KAI-X Summer Research Internship Program",
+    "host": "KAIST (College of Natural Sciences)",
+    "country": "South Korea",
+    "region": "east-asia",
+    "amount": "~₩2,100,000 (2026: airfare up to ₩1M, dorm up to ₩500k, ₩600k living)",
+    "deadline": "2027-02-15T23:59:00+09:00",
+    "dlText": "~Feb 2027, estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "3rd/4th-year UG or master's",
+      "Overseas universities",
+      "7 weeks"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates (3rd/4th year) and master's students enrolled at universities outside Korea; PhD students excluded"
+    },
+    "fields": "Physics, chemistry, maths, biology, brain & cognitive science, medical science",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Seven-week summer lab internship (1 Jul – mid-Aug in 2026). Date estimated from 2026 cycle, whose window closed in Feb 2026; 2027 call not yet announced.",
+    "url": "https://kai-x.kaist.ac.kr/experience-summer-program",
+    "source": "https://kai-x.kaist.ac.kr/experience-summer-program"
+  }
+]

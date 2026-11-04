@@ -1,0 +1,235 @@
+[
+  {
+    "id": "brazil-pec-g",
+    "name": "PEC-G (Programa de Estudantes-Convênio de Graduação)",
+    "host": "Government of Brazil (Ministry of Foreign Affairs / Ministry of Education)",
+    "country": "Brazil",
+    "region": "global",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Check official page (terms of the PEC-G agreement; living costs are usually your own)",
+    "opens": "2026-03-31",
+    "deadline": "2026-05-09T23:59:00-03:00",
+    "dlText": "9 May 2026 (time not stated) · 2027 selection closed (pre-registration 31 Mar – 9 May 2026)",
+    "nextText": "Next call (2028 entry) expected ~Mar–May 2027, estimated from 2026 cycle",
+    "tags": [
+      "Celpe-Bras Portuguese certificate",
+      "Age 18+",
+      "Partner countries only",
+      "Up to 1,400 places"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of PEC-G partner countries (mainly Africa, Latin America and Asia) living outside Brazil; no Brazilian or dual Brazilian nationality"
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "Brazilian embassy in your country",
+    "fields": "Undergraduate courses offered by participating universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Pre-register on the MEC PEC portal and submit through the Brazilian embassy. PEC-G-only applicants need Celpe-Bras; the joint PEC-PLE track lets you learn Portuguese in Brazil first and start your degree a year later.",
+    "url": "https://www.gov.br/mre/en/subjects/culture-and-education/educational-themes/study-opportunities-for-international-applicants/pec-g/pec-g-selection-process",
+    "source": "https://www.gov.br/mre/en/subjects/culture-and-education/educational-themes/study-opportunities-for-international-applicants/pec-g/PECGCALLNOTICE.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "iccr-africa-maitri",
+    "name": "India-Africa Maitri Scholarship Scheme (ICCR)",
+    "host": "Indian Council for Cultural Relations (ICCR), Government of India",
+    "country": "India",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition plus monthly stipend and housing allowance (check official page for rates)",
+    "opens": "2026-02-27",
+    "deadline": "2026-04-22T23:59:00+05:30",
+    "dlText": "22 Apr 2026 (time not stated) · 2026-27 round closed (A2A portal open 27 Feb – 22 Apr 2026)",
+    "nextText": "2027-28 round expected ~Feb–Apr 2027 on the A2A portal (estimated from 2026 cycle)",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Indian Embassy / High Commission in your country",
+    "fields": "Most fields (no B.Tech at IITs)",
+    "fieldCats": [
+      "any"
+    ],
+    "url": "https://a2ascholarships.iccr.gov.in/",
+    "source": "https://a2ascholarships.iccr.gov.in/assets/site/docs/Timeline-AY-2026-27.pdf",
+    "verifiedOn": "2026-11-04",
+    "tags": [
+      "Age 18–35 (UG/PG), ≤40 PhD",
+      "One A2A application only",
+      "Up to 5 course choices"
+    ],
+    "eligibility": {
+      "type": "group",
+      "group": "african-union"
+    },
+    "note": "About 1,500 slots for African nationals, funded by India's MEA and run by ICCR. Apply on the A2A portal; your application goes through the Indian Mission in your country."
+  },
+  {
+    "id": "iccr-vajpayee-general",
+    "name": "Atal Bihari Vajpayee General Scholarship Scheme (ICCR)",
+    "host": "Indian Council for Cultural Relations (ICCR), Government of India",
+    "country": "India",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition plus monthly stipend and housing allowance (check official page for rates)",
+    "opens": "2026-02-27",
+    "deadline": "2026-04-22T23:59:00+05:30",
+    "dlText": "22 Apr 2026 (time not stated) · 2026-27 round closed (A2A portal open 27 Feb – 22 Apr 2026)",
+    "nextText": "2027-28 round expected ~Feb–Apr 2027 on the A2A portal (estimated from 2026 cycle)",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Indian Embassy / High Commission in your country",
+    "fields": "Most fields (no B.Tech at IITs)",
+    "fieldCats": [
+      "any"
+    ],
+    "url": "https://a2ascholarships.iccr.gov.in/",
+    "source": "https://a2ascholarships.iccr.gov.in/assets/site/docs/Timeline-AY-2026-27.pdf",
+    "verifiedOn": "2026-11-04",
+    "tags": [
+      "Age 18–35 (UG/PG), ≤40 PhD",
+      "One A2A application only",
+      "Up to 5 course choices"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of the countries allotted slots under this scheme; check the ICCR schemes list or your Indian Mission"
+    },
+    "note": "ICCR's general scheme (about 550 slots) for many partner countries. Apply on the A2A portal; the Indian Mission in your country runs the selection."
+  },
+  {
+    "id": "iccr-suborno-jayanti",
+    "name": "Suborno Jayanti Scholarship Scheme (ICCR, Bangladesh)",
+    "host": "Indian Council for Cultural Relations (ICCR), Government of India",
+    "country": "India",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition plus monthly stipend and housing allowance (check official page for rates)",
+    "opens": "2026-02-27",
+    "deadline": "2026-04-22T23:59:00+05:30",
+    "dlText": "22 Apr 2026 (time not stated) · 2026-27 round closed (A2A portal open 27 Feb – 22 Apr 2026)",
+    "nextText": "2027-28 round expected ~Feb–Apr 2027 on the A2A portal (estimated from 2026 cycle)",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Indian Embassy / High Commission in your country",
+    "fields": "Most fields (no B.Tech at IITs)",
+    "fieldCats": [
+      "any"
+    ],
+    "url": "https://a2ascholarships.iccr.gov.in/",
+    "source": "https://a2ascholarships.iccr.gov.in/assets/site/docs/Timeline-AY-2026-27.pdf",
+    "verifiedOn": "2026-11-04",
+    "tags": [
+      "Age 18–35 (UG/PG), ≤40 PhD",
+      "One A2A application only",
+      "Up to 5 course choices"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BD"
+      ]
+    },
+    "note": "About 500 ICCR slots reserved for Bangladeshi nationals. Apply on the A2A portal; the Indian High Commission in Dhaka handles selection."
+  },
+  {
+    "id": "iu-madinah",
+    "name": "Islamic University of Madinah Scholarships for International Students",
+    "host": "Islamic University of Madinah",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full scholarship (check official page for benefits)",
+    "opens": "2026-04-19",
+    "deadline": "2026-05-21T23:59:00+03:00",
+    "dlText": "21 May 2026 (time not stated) · 2026 intake window closed (19 Apr – 21 May 2026)",
+    "nextText": "Next window expected ~Apr–May 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Age 17–25",
+      "School certificate ≤5 years old",
+      "Police clearance + medical",
+      "Arabic test may apply"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Islamic studies, Arabic and other faculties of the university",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply through the Study in Saudi Arabia platform. Full-scholarship applicants must not live in Saudi Arabia; non-Arabic speakers may have to take an Arabic test or study Arabic first.",
+    "url": "https://iu.edu.sa/en-us",
+    "source": "https://iu.edu.sa/announApply1445h-1",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "morocco-amci",
+    "name": "Kingdom of Morocco Scholarships for Foreign Students (AMCI)",
+    "host": "Moroccan Agency for International Cooperation (AMCI)",
+    "country": "Morocco",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page",
+    "rolling": true,
+    "dlText": "Set per partner country; applications go through your government or the Moroccan embassy",
+    "tags": [
+      "Partner countries (mostly Africa)",
+      "Apply via your government",
+      "Medical certificate"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of AMCI partner countries, mostly African; candidates are usually put forward by their own government"
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "Your government / Moroccan embassy",
+    "fields": "Most fields at Moroccan public institutions",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Over 12,000 foreign students held Kingdom of Morocco scholarships through AMCI in 2019/20. Some are housed at the Cité Universitaire Internationale in Rabat; ask your ministry or the Moroccan embassy for this year's call.",
+    "url": "https://www.amci.ma/cooperation-academique",
+    "source": "https://www.amci.ma/cooperation-academique",
+    "verifiedOn": "2026-11-04"
+  }
+]

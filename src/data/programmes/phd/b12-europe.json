@@ -1,0 +1,636 @@
+[
+  {
+    "id": "imprs-plant-sciences",
+    "name": "IMPRS on Understanding Complex Plant Traits using Computational and Evolutionary Approaches (IMPRS Plant Sciences)",
+    "host": "Max Planck Institute for Plant Breeding Research & Univ. of Cologne / Düsseldorf",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2027-01-05T23:59:00+01:00",
+    "dlText": "5 Jan 2027, 23:59 CET (referee letters by 19 Jan 2027)",
+    "tags": [
+      "Master's degree (or near completion)",
+      "2 referee letters",
+      "English"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Plant sciences, genetics, computational & evolutionary biology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Annual call for fully funded PhD positions in Cologne. Referee letters are due two weeks after the application.",
+    "url": "https://www.mpipz.mpg.de/imprs/imprs-application",
+    "source": "https://www.mpipz.mpg.de/imprs/imprs-application",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-astro-lmu",
+    "name": "IMPRS on Astrophysics at LMU Munich",
+    "host": "Max Planck Institutes for Astrophysics / Extraterrestrial Physics, ESO & LMU Munich",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2026-11-01T23:59:00+01:00",
+    "dlText": "1 Nov 2026 (time not stated); letters due same day",
+    "nextText": "Next call ~autumn 2027 for Sept 2028 start",
+    "tags": [
+      "Master's degree",
+      "Recommendation letters",
+      "Start Sept 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Astrophysics, astronomy, cosmology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Joint Garching/Munich doctoral school; one annual call for a September start.",
+    "url": "https://www.imprs-astro.mpg.de/content/application.html",
+    "source": "https://www.imprs-astro.mpg.de/node/1460.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-hd",
+    "name": "IMPRS for Astronomy & Cosmic Physics at the University of Heidelberg (IMPRS-HD)",
+    "host": "MPI for Astronomy, MPI for Nuclear Physics, Heidelberg University & partners",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2026-11-03T14:00:00+01:00",
+    "dlText": "3 Nov 2026, 14:00 CET",
+    "nextText": "Next call ~autumn 2027",
+    "tags": [
+      "Master's degree",
+      "Reference letters",
+      "Start fall 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Astronomy, astrophysics, cosmic physics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Annual recruitment for a fall start; doctoral positions with Heidelberg institutes.",
+    "url": "https://www.imprs-hd.mpg.de/3192/Application",
+    "source": "https://www.imprs-hd.mpg.de/3192/Application",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-tp",
+    "name": "IMPRS for Translational Psychiatry (IMPRS-TP)",
+    "host": "Max Planck Institute of Psychiatry & LMU / TU Munich",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2026-10-31T23:59:00+01:00",
+    "dlText": "31 Oct 2026, 24:00 CET (references by 7 Nov 2026)",
+    "nextText": "Next call ~autumn 2027",
+    "tags": [
+      "Master's degree",
+      "Reference letters",
+      "English"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Neuroscience, psychiatry, biology, data science",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Munich doctoral school linking basic neuroscience and clinical psychiatry.",
+    "url": "https://www.imprs-tp.mpg.de/2879/application",
+    "source": "https://www.imprs-tp.mpg.de/2879/application",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-bac",
+    "name": "IMPRS for Biology and Computation (IMPRS-BAC)",
+    "host": "Max Planck Institute for Molecular Genetics & FU Berlin",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2026-12-07T23:59:00+01:00",
+    "dlText": "7 Dec 2026, 23:59 CET (referee letters by 14 Dec 2026)",
+    "tags": [
+      "Master's degree",
+      "2 referee letters",
+      "Wet-lab & computational"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Molecular biology, genomics, computational biology",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Berlin doctoral school for experimental and computational life sciences; written application then interviews.",
+    "url": "https://www.molgen.mpg.de/IMPRS/application",
+    "source": "https://www.molgen.mpg.de/IMPRS/application",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-mulife",
+    "name": "IMPRS for Principles of Microbial Life (IMPRS-µLife)",
+    "host": "Max Planck Institute for Terrestrial Microbiology & Philipps-Universität Marburg",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "opens": "2026-12-01",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "1 Dec 2026 – 31 Jan 2027 (time not stated)",
+    "tags": [
+      "Master's degree",
+      "Start Oct 2027",
+      "Selection interviews"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Microbiology, biochemistry, systems & synthetic biology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Annual call for doctoral projects in Marburg starting in October 2027.",
+    "url": "https://imprs-marburg.mpg.de/3496/Selection-and-admission",
+    "source": "https://imprs-marburg.mpg.de/3496/Selection-and-admission",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-evolbio",
+    "name": "IMPRS for Evolutionary Biology (IMPRS EvolBio)",
+    "host": "Max Planck Institute for Evolutionary Biology & Kiel University",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2027-01-10T23:59:00+01:00",
+    "dlText": "10 Jan 2027 (time not stated), by email",
+    "tags": [
+      "Master's degree",
+      "Project-specific application",
+      "Email submission"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Evolutionary biology, theory, genomics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Apply to specific advertised projects in Plön/Kiel; applications are sent by email.",
+    "url": "https://www.evolbio.mpg.de/3017297/application",
+    "source": "https://www.evolbio.mpg.de/3017297/application",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-trust",
+    "name": "IMPRS on Trustworthy Computing (IMPRS-TRUST)",
+    "host": "MPI for Software Systems, MPI for Informatics, MPI for Security & Privacy & partner universities",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2026-12-15T23:59:00+01:00",
+    "dlText": "Complete applications by 15 Dec 2026 (also 30 Jun); time not stated",
+    "nextText": "Next cutoff 30 Jun 2027",
+    "tags": [
+      "Bachelor's or Master's",
+      "Two cutoffs per year",
+      "Online system"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer science: security, privacy, verification, ML, systems",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Applications accepted year-round; decisions twice a year. Partner MPI pages cite 31 Dec, so submit by 15 Dec to be safe.",
+    "url": "https://www.imprs-trust.mpg.de/phd-application/",
+    "source": "https://www.imprs-trust.mpg.de/phd-application/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-cms",
+    "name": "IMPRS for Condensed Matter Science (IMPRS-CMS)",
+    "host": "Max Planck Institute for Solid State Research & Univ. of Stuttgart",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2027-02-28T23:59:00+01:00",
+    "dlText": "~28 Feb 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "Master's degree",
+      "Two windows per year",
+      "Spring window closed 30 Sep 2026"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Condensed matter physics, chemistry, materials science",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Two calls a year; the spring 2027 window closed 30 Sep 2026 and the fall window usually runs Jan–Feb (estimated from 2026 cycle).",
+    "url": "https://www.imprs-cms.mpg.de/7241/Application-_-Admission",
+    "source": "https://www.imprs-cms.mpg.de/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-ufast",
+    "name": "IMPRS for Ultrafast Imaging & Structural Dynamics (IMPRS-UFAST)",
+    "host": "MPI for the Structure and Dynamics of Matter & Universität Hamburg",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "opens": "2026-09-15",
+    "deadline": "2026-11-06T23:59:00+01:00",
+    "dlText": "6 Nov 2026 (time not stated); letters by 12 Nov 2026",
+    "nextText": "Next call ~Sept 2027",
+    "tags": [
+      "Master's degree",
+      "Online form only",
+      "Workshop 8–10 Feb 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Ultrafast physics, chemistry, structural biology, X-ray science",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Hamburg doctoral school; shortlisted candidates attend a recruitment workshop in February 2027.",
+    "url": "https://www.mpsd.mpg.de/imprs-ufast/apply",
+    "source": "https://www.mpsd.mpg.de/imprs-ufast/apply",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mpi-sws-phd",
+    "name": "MPI-SWS Doctoral Program",
+    "host": "Max Planck Institute for Software Systems (Saarbrücken & Kaiserslautern)",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "deadline": "2026-12-31T23:59:00+01:00",
+    "dlText": "Next cutoff 31 Dec 2026 (also 31 Mar, 30 Jun, 30 Sep); time not stated",
+    "tags": [
+      "Bachelor's or Master's",
+      "Quarterly decisions",
+      "Application live ~4 months"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer science (systems, PL, security, ML, theory)",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Decisions four times a year; an application stays under review for about four months.",
+    "url": "https://www.mpi-sws.org/graduate-studies/",
+    "source": "https://www.mpi-sws.org/graduate-studies/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "oxford-mpg",
+    "name": "Oxford–Max Planck Doctoral Programme",
+    "host": "University of Oxford & Max Planck institutes",
+    "country": "Germany / United Kingdom",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Funded via the Max Planck institute (check official page)",
+    "dlText": "Rolling; apply by Oxford's December deadline to be considered for Oxford fee scholarships",
+    "rolling": true,
+    "tags": [
+      "Separate applications to Oxford & MPI",
+      "Joint supervision",
+      "Rolling"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer science and other participating MPI fields",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Joint doctorate split between Oxford and a Max Planck institute; you apply to both separately.",
+    "url": "https://omp.mpi-sws.org/apply.html",
+    "source": "https://omp.mpi-sws.org/apply.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "goettingen-neurosciences",
+    "name": "Neurosciences MSc/PhD Program (IMPRS for Neurosciences)",
+    "host": "University of Göttingen / GGNB & Max Planck institutes",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page",
+    "opens": "2026-09-15",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "15 Jan 2027, 24:00 CET (portal offline 4–8 Jan 2027)",
+    "tags": [
+      "Bachelor's (fast-track) or Master's",
+      "Interviews",
+      "Start Oct 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Neuroscience",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Fast-track MSc/PhD; submit before the 4–8 Jan 2027 IT outage. Confirm funding for your track on the official page.",
+    "url": "https://www.uni-goettingen.de/en/662634.html",
+    "source": "https://www.uni-goettingen.de/en/665829.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "imprs-genome-goettingen",
+    "name": "IMPRS for Genome Science",
+    "host": "University of Göttingen & Max Planck Institute for Multidisciplinary Sciences",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried doctoral position (check official page)",
+    "opens": "2026-11-15",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "~15 Jan 2027 (exact date to be confirmed; opens 15 Nov 2026)",
+    "expected": true,
+    "tags": [
+      "Master's degree",
+      "Referee letters",
+      "Göttingen"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Genomics, molecular biology, bioinformatics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Recruitment opens 15 Nov 2026 with a deadline around mid-January 2027.",
+    "url": "https://www.uni-goettingen.de/de/556628.html",
+    "source": "https://www.uni-goettingen.de/de/556628.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "daad-doctoral-germany",
+    "name": "DAAD Research Grants – Doctoral Programmes in Germany",
+    "host": "DAAD",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€1,400/month + insurance & travel (check official page)",
+    "deadline": "2026-08-31T23:59:00+02:00",
+    "dlText": "Set per country · main deadline 31 Aug 2026 (closed), selection Feb 2027",
+    "varies": true,
+    "nextText": "Next round ~Aug–Oct 2027 (check your country)",
+    "tags": [
+      "Master's degree",
+      "Supervisor agreement",
+      "Degree within last 6 years"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Graduates from many countries; deadlines and eligibility set per country in the DAAD database"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Full-time doctoral scholarship in Germany starting Oct 2027; check the DAAD database entry for your country's deadline.",
+    "url": "https://www.daad.de/en/studying-in-germany/scholarships/daad-scholarships/",
+    "source": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database.pdf?detail=57135739&origin=97",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "msca-doctoral-networks",
+    "name": "Marie Skłodowska-Curie Doctoral Networks (MSCA DN)",
+    "host": "European Commission / host universities & companies",
+    "country": "Any (EU & associated countries)",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "EU living allowance (~€3,400/month gross, country-adjusted) + €600/month mobility + family allowance",
+    "dlText": "Rolling; each position has its own deadline on EURAXESS",
+    "rolling": true,
+    "tags": [
+      "Mobility rule",
+      "No PhD yet",
+      "Apply per position"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Hundreds of salaried PhD posts across Europe; you must not have lived/worked mainly in the host country for >12 months in the 36 months before recruitment.",
+    "url": "https://euraxess.ec.europa.eu/jobs/search",
+    "source": "https://euraxess.ec.europa.eu/sites/default/files/news-2024-06/Doctoral%20Networks%20information%20package.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "embl-eipp",
+    "name": "EMBL International PhD Programme (EIPP)",
+    "host": "European Molecular Biology Laboratory",
+    "country": "Germany / Italy / UK / France / Spain",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Fully funded PhD fellowship (check official page)",
+    "deadline": "2026-10-12T23:59:00+02:00",
+    "dlText": "Winter round closed 12 Oct 2026, 23:59 (local time)",
+    "nextText": "2027 Summer round opens ~late Jan 2027",
+    "tags": [
+      "Degree qualifying for a PhD",
+      "2 academic references",
+      "Two rounds/year"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Molecular biology, bioinformatics, structural biology, data science",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Recruits twice a year across EMBL sites; late applications are not considered.",
+    "url": "https://www.embl.org/about/info/embl-international-phd-programme/application/",
+    "source": "https://www.embl.org/about/info/embl-international-phd-programme/application/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "inphinit-incoming",
+    "name": "\"la Caixa\" Doctoral INPhINIT Fellowships – Incoming",
+    "host": "\"la Caixa\" Foundation",
+    "country": "Spain",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salaried 3-year contract (check official page)",
+    "deadline": "2027-01-28T14:00:00+01:00",
+    "dlText": "~28 Jan 2027, 14:00 Spain (estimated from 2026 cycle)",
+    "expected": true,
+    "tags": [
+      "≤4 years research experience",
+      "≤12 months in Spain/Portugal in last 3 yrs",
+      "Severo Ochoa / María de Maeztu host"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "STEM fields at accredited research centres",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Any nationality meeting the mobility rule; 2026 call closed 28 Jan 2026 and the 2027 date is not yet published.",
+    "url": "https://lacaixafoundation.org/en/doctoral-inphinit-fellowships-incoming-call",
+    "source": "https://lacaixafoundation.org/en/doctoral-inphinit-fellowships-incoming-call",
+    "verifiedOn": "2026-11-04"
+  }
+]

@@ -1,0 +1,358 @@
+[
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "nus-research-scholarship",
+    "name": "NUS Research Scholarship",
+    "host": "National University of Singapore",
+    "country": "Singapore",
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition waiver + S$3,000/month for international PhD students (+S$500/month after the qualifying exam), rates from 1 Jan 2026",
+    "rolling": true,
+    "dlText": "Set by each faculty for August and January intakes",
+    "tags": [
+      "Apply via admission form",
+      "Up to 4 years",
+      "All nationalities"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields (engineering, science, computing, arts, social sciences, law, etc.)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Indicate scholarship interest in your NUS graduate research application; deadlines and some stipend top-ups differ by faculty (e.g. College of Design and Engineering pays more). Typical award period for PhD is 4 years.",
+    "url": "https://nusgs.nus.edu.sg/scholarships/nus-research-scholarship",
+    "source": "https://nusgs.nus.edu.sg/scholarships/nus-research-scholarship"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ntu-research-scholarship",
+    "name": "NTU Research Scholarship",
+    "host": "Nanyang Technological University",
+    "country": "Singapore",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition fees covered + S$2,000/month for international students (up to +S$500 after the qualifying exam)",
+    "deadline": "2026-11-15T23:59:00+08:00",
+    "dlText": "15 Nov 2026 for several schools (e.g. WKWSCI, Social Sciences, Humanities); others to 31 Dec 2026 or 31 Jan 2027 – time not stated",
+    "varies": true,
+    "tags": [
+      "Apply via admission form",
+      "Teaching duties",
+      "No bond after graduation"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For August 2027 entry; indicate scholarship interest in the PhD application. Maximum 4 years; scholars do teaching duties but have no post-graduation service obligation.",
+    "url": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide",
+    "source": "https://www.ntu.edu.sg/spms/admissions/grad/scholarships"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "astar-arap",
+    "name": "A*STAR Research Attachment Programme (ARAP)",
+    "host": "A*STAR Graduate Academy",
+    "country": "Singapore",
+    "full": false,
+    "funding": "partial",
+    "amount": "S$3,200/month + S$1,500 airfare + S$1,000 settling-in + housing subsidy, medical insurance, conference & IT allowances (no tuition)",
+    "rolling": true,
+    "dlText": "No single deadline – apply via your ARAP partner university",
+    "tags": [
+      "Must be PhD student at partner university",
+      "1–2 years in Singapore",
+      "No English test needed"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Matriculated or newly enrolled PhD students at an A*STAR ARAP partner university (any nationality), with at least a Bachelor's with Second-Class Upper Honours or equivalent."
+    },
+    "fields": "Science, engineering and biomedical research at A*STAR institutes",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Funds a 1–2 year research attachment at an A*STAR institute during a PhD at a partner university abroad; tuition stays with your home university. Check the partner-university contact list.",
+    "url": "https://www.a-star.edu.sg/scholarships/home/international-awards/astar-research-attachment-programme-arap",
+    "source": "https://www.a-star.edu.sg/Scholarships/aga-faqs/faqs-arap"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "sutd-phd-fellowship",
+    "name": "SUTD PhD Fellowship",
+    "host": "Singapore University of Technology and Design",
+    "country": "Singapore",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition for up to 4 years + S$3,100/month for international students (up to +S$500 after qualifying exam); President's Graduate Fellowship S$4,300/month",
+    "deadline": "2026-10-30T23:59:00+08:00",
+    "dlText": "30 Oct 2026 for January 2027 intake (another SUTD page says 30 Sep 2026) – time not stated",
+    "nextText": "Next intake ~September 2027 – check official page",
+    "tags": [
+      "All nationalities",
+      "IELTS/TOEFL if not English-taught",
+      "S$21.80 application fee"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, architecture & design, computing, science, humanities with technology",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Scholarship consideration comes with the PhD application. Rates effective 1 January 2026.",
+    "url": "https://www.sutd.edu.sg/admissions/graduate/scholarship/sutd-graduate-fellowships-scholarships/",
+    "source": "https://www.sutd.edu.sg/admissions/graduate/scholarship/sutd-graduate-fellowships-scholarships/"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "smu-phd-scholarship",
+    "name": "SMU PhD Research Scholarship",
+    "host": "Singapore Management University",
+    "country": "Singapore",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition and registration fees waived + monthly stipend (e.g. Economics: S$2,500/month for foreign students, S$3,000 after qualifying exam, 2024 rates)",
+    "rolling": true,
+    "dlText": "Set per PhD programme – check each school",
+    "tags": [
+      "Competitive, merit-based",
+      "Must reside in Singapore",
+      "Up to 4 years"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Business, economics, accountancy, information systems & computer science, psychology, law, social sciences",
+    "fieldCats": [
+      "social",
+      "cs-ai"
+    ],
+    "note": "Full-time PhD students are considered for the scholarship on admission; reviewed annually and normally no bond. Stipend rates differ by school.",
+    "url": "https://graduatestudies.smu.edu.sg/",
+    "source": "https://economics.smu.edu.sg/phd-economics/admissions/scholarships"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "hku-pgs",
+    "name": "HKU Postgraduate Scholarship (PhD)",
+    "host": "The University of Hong Kong",
+    "country": "Hong Kong",
+    "full": false,
+    "funding": "partial",
+    "amount": "HK$19,135/month (HK$19,655 after PhD confirmation), rates from 1 Sep 2026",
+    "deadline": "2026-12-01T23:59:00+08:00",
+    "dlText": "Main round 1 Dec 2026 in most faculties (Law 15 Nov 2026) – time not stated",
+    "varies": true,
+    "tags": [
+      "Apply in Main Round",
+      "2:1 Honours or above",
+      "All nationalities"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Awarded with admission to HKU MPhil/PhD programmes, subject to funding; clearing rounds may follow in April/August. Top applicants can receive the HKU Presidential PhD Scholarship (HK$28,700/month).",
+    "url": "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/postgraduate_scholarships",
+    "source": "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/postgraduate_scholarships"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cuhk-vc-phd",
+    "name": "CUHK Vice-Chancellor's PhD Scholarship Scheme",
+    "host": "The Chinese University of Hong Kong",
+    "country": "Hong Kong",
+    "full": true,
+    "funding": "full",
+    "amount": "HK$80,000 scholarship over 3 years + studentship HK$229,200/year + HK$30,000 travel allowance",
+    "deadline": "2026-12-01T23:59:00+08:00",
+    "dlText": "1 Dec 2026, 23:59 HKT (main round, 2027-28 intake)",
+    "tags": [
+      "Apply in main round",
+      "Merit-based",
+      "All nationalities"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Outstanding PhD admits are offered this; CUHK HKPFS nominees not selected by the RGC receive a regular PhD place with this scholarship. Results Dec 2026–Jun 2027.",
+    "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/VCPHD",
+    "source": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/VCPHD"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "hkust-redbird-phd",
+    "name": "HKUST RedBird PhD Award + Postgraduate Studentship",
+    "host": "The Hong Kong University of Science and Technology",
+    "country": "Hong Kong",
+    "full": false,
+    "funding": "partial",
+    "amount": "Studentship HK$19,135/month + RedBird award HK$40,000 (year 1) and up to HK$20,000/year Academic Excellence Award",
+    "rolling": true,
+    "dlText": "Set by each programme (many review on a rolling basis; HKPFS route 1 Dec 2026)",
+    "tags": [
+      "All nationalities",
+      "Award for top PhD admits",
+      "Apply by programme"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Science, engineering, business, humanities & social science, interdisciplinary",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Full-time research students receive the Postgraduate Studentship; outstanding PhD admits also get the RedBird PhD Award. Applications for Fall 2027 opened 1 Sep 2026.",
+    "url": "https://fytgs.hkust.edu.hk/",
+    "source": "https://physics.hkust.edu.hk/programs/postgraduate-programs/pg-research-awards"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "polyu-ipfs",
+    "name": "PolyU International PhD Fellowship Scheme (IPFS)",
+    "host": "The Hong Kong Polytechnic University",
+    "country": "Hong Kong",
+    "full": true,
+    "funding": "full",
+    "amount": "HK$230,640/year stipend (HK$235,920 after confirmation) + tuition waiver + HK$25,000 conference grant; possible cash award",
+    "deadline": "2026-12-01T23:59:00+08:00",
+    "dlText": "1 Dec 2026, 23:59 HKT (via PolyU's HKPFS round)",
+    "tags": [
+      "Foreign nationals only",
+      "No separate application",
+      "1 year hall place"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN",
+        "HK",
+        "MO",
+        "TW"
+      ]
+    },
+    "fields": "All PolyU research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "All foreign PhD applicants to PolyU's HKPFS round are considered for IPFS after the deadline; no separate form. Open to applicants from outside Mainland China, Macau and Taiwan.",
+    "url": "https://www.polyu.edu.hk/gs/prospective-students/fellowship-scholarship-schemes/ipfs/",
+    "source": "https://www.polyu.edu.hk/gs/prospective-students/fellowship-scholarship-schemes/ipfs/"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cityu-studentship",
+    "name": "CityUHK Postgraduate Studentship (PhD)",
+    "host": "City University of Hong Kong",
+    "country": "Hong Kong",
+    "full": false,
+    "funding": "partial",
+    "amount": "About HK$19,100/month (2025/26 rate, revised each September)",
+    "deadline": "2026-12-01T23:59:00+08:00",
+    "dlText": "Main round ~1 Dec 2026 (estimated from annual December main round; time not stated)",
+    "expected": true,
+    "tags": [
+      "Merit-based",
+      "2:1 Bachelor's or good Master's",
+      "All nationalities"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Applications accepted year-round but the main round is in December; late applications considered only if places and funding remain.",
+    "url": "https://www.cityu.edu.hk/pg/",
+    "source": "https://www.cityu.edu.hk/see_eeem/call-phd.html"
+  }
+]
