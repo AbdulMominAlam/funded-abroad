@@ -1,0 +1,639 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "zju-optics-phd-scholarship",
+    "name": "Zhejiang University College of Optical Science and Engineering Scholarship",
+    "host": "Zhejiang University, College of Optical Science and Engineering",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition + on-campus accommodation + RMB 3,500/month stipend",
+    "deadline": "2027-02-28T23:59:00+08:00",
+    "dlText": "~28 Feb 2027 (Beijing time), estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "PhD admission at ZJU",
+      "Optics programmes only",
+      "No other scholarship"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Optical engineering, optical communication, information sensing and instruments",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "For international applicants admitted to the College's PhD programmes; apply via the ZJU online system plus a College form. The 2026 round closed 28 Feb 2026.",
+    "url": "https://iczu.zju.edu.cn/admissionsen/2024/1204/c68996a2999228/page.htm",
+    "source": "https://iczu.zju.edu.cn/admissionsen/2024/1204/c68996a2999228/page.htm"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ustc-fellowship-ug",
+    "name": "USTC Fellowship for Undergraduate Programs",
+    "host": "University of Science and Technology of China (USTC)",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Level A: tuition waiver + medical insurance + RMB 2,500/month + accommodation subsidy (lower levels give less)",
+    "deadline": "2027-03-31T23:59:00+08:00",
+    "dlText": "~31 Mar 2027 (Beijing time), estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "Under 30 at entry",
+      "Online application"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "USTC undergraduate programmes (science and engineering focus)",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Levels A–C; Level A is the full package. The 2026 window ran 14 Nov 2025 – 31 Mar 2026.",
+    "url": "https://ic.ustc.edu.cn/en/v7info.php?Nav_x=17",
+    "source": "https://ic.ustc.edu.cn/en/v7info.php?Nav_x=17"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ustc-fellowship-masters",
+    "name": "USTC Fellowship for Master's Programs",
+    "host": "University of Science and Technology of China (USTC)",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition + insurance + up to RMB 3,000/month + accommodation subsidy",
+    "deadline": "2027-01-31T23:59:00+08:00",
+    "dlText": "~31 Jan 2027 (Beijing time), estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "Bachelor's degree",
+      "Under 35"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "USTC master's programmes",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Apply through the USTC international online application system. The 2026 window ran 16 Oct 2025 – 31 Jan 2026.",
+    "url": "https://ic.ustc.edu.cn/en/v7info.php?Nav_x=16",
+    "source": "https://ic.ustc.edu.cn/en/v7info.php?Nav_x=11"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ustc-fellowship-phd",
+    "name": "USTC Fellowship for Doctoral Programs",
+    "host": "University of Science and Technology of China (USTC)",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Level A (CAS-funded): tuition waiver + medical insurance + up to RMB 7,000/month; Levels B/C smaller stipend + housing help",
+    "deadline": "2027-01-31T23:59:00+08:00",
+    "dlText": "~31 Jan 2027 (Beijing time), estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "Master's degree",
+      "Under 35 (A) / 40 (B/C)"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "USTC doctoral programmes",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Three levels; Level A is funded by the Chinese Academy of Sciences. The 2026 window ran 16 Oct 2025 – 31 Jan 2026.",
+    "url": "https://ic.ustc.edu.cn/en/v7info.php?Nav_x=15",
+    "source": "https://ic.ustc.edu.cn/en/v7info.php?Nav_x=15"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "sjtu-grad-scholarship",
+    "name": "SJTU Scholarship / SJTU Fellowship for International Graduate Students",
+    "host": "Shanghai Jiao Tong University",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "PhD SJTU Fellowship: tuition waiver + RMB 5,000/month; SJTU Scholarship / Tuition Waiver: full or partial tuition",
+    "deadline": "2027-03-31T23:59:00+08:00",
+    "dlText": "~31 Mar 2027 (Beijing time), estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "Master's: under 35",
+      "PhD: under 40",
+      "Annual review"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "SJTU graduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Selected from the main graduate application at apply.sjtu.edu.cn; you cannot also apply via an embassy. The Fellowship is for doctoral students; master's awards range from partial to full tuition.",
+    "url": "https://gc.sjtu.edu.cn/admission/graduate-admission/tuition-fees-and-scholarships/",
+    "source": "https://en.sjtu.edu.cn/study-sjtu/prospective/degree-programs/268"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "keio-design-future-award",
+    "name": "Keio \"Design the Future\" Award for International Students",
+    "host": "Keio University",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition and fees + JPY 200,000/month + JPY 150,000 one-time grant",
+    "rolling": true,
+    "dlText": "Set by each graduate school (last cycle's final interviews were in Dec 2025); check your school's page",
+    "tags": [
+      "Degree from outside Japan",
+      "Nominated by graduate school",
+      "Interview"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "JP"
+      ]
+    },
+    "fields": "Any Keio graduate school",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Up to 2 years for master's and 3 years for PhD. Each graduate school picks nominees, then a steering committee interviews them; some schools invite candidates only.",
+    "url": "https://www.ic.keio.ac.jp/en/life/scholarship/dfaward.html",
+    "source": "https://www.ic.keio.ac.jp/doc/eDFAward_applicationinfo.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "kyushu-iei-mext",
+    "name": "Kyushu University Intellectual Exchange and Innovation Program (MEXT, Category D-a)",
+    "host": "Kyushu University, IGSES",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "MEXT scholarship: tuition + monthly stipend (MEXT rate) + travel",
+    "deadline": "2026-09-17T17:00:00+09:00",
+    "dlText": "17 Sep 2026, 17:00 JST (closed)",
+    "nextText": "Next round ~Aug–Sep 2027",
+    "tags": [
+      "Under 35",
+      "English B2",
+      "Southeast Asia priority"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of countries with diplomatic relations with Japan; priority to Southeast Asian nationals; not a MEXT scholar in the past 3 years"
+    },
+    "fields": "Engineering sciences (IGSES)",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "University-recommended MEXT doctoral track with preference for Southeast Asian applicants. The 2027-intake round closed on 17 Sep 2026.",
+    "url": "https://www.tj.kyushu-u.ac.jp/en/exam/doctor/iei_program.php",
+    "source": "https://www.tj.kyushu-u.ac.jp/en/exam/doctor/iei_program.php"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "nagoya-g30-ug-scholarship",
+    "name": "Nagoya University Global 30 Undergraduate Scholarship",
+    "host": "Nagoya University",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition for 4 years + JPY 500,000 stipend in total",
+    "deadline": "2026-11-19T23:59:00+09:00",
+    "dlText": "19 Nov 2026 (1st round, time not stated); 2nd round 21 Jan 2027 for some programmes",
+    "tags": [
+      "English-taught G30",
+      "Apply with admission",
+      "Need + merit"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "G30 programmes (sciences, engineering, social sciences, humanities)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Submit the scholarship form with the G30 application. Applicants are also considered for University Recommendation MEXT; some programmes have no 2nd round.",
+    "url": "https://admissions.g30.nagoya-u.ac.jp/studentlife/scholarships/",
+    "source": "https://admissions.g30.nagoya-u.ac.jp/2027-admissions-requirements/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "kyoto-iup",
+    "name": "Kyoto University International Undergraduate Program (Kyoto iUP) Scholarship",
+    "host": "Kyoto University",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Admission + tuition fees waived + up to JPY 120,000/month merit scholarship",
+    "deadline": "2026-12-03T17:00:00+09:00",
+    "dlText": "3 Dec 2026, 17:00 JST",
+    "tags": [
+      "12 years of schooling",
+      "Online interview",
+      "40 places"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Kyoto University undergraduate faculties (taught in Japanese after prep course)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "4.5-year programme with a 6-month Japanese preparatory course; no Japanese needed at entry. Some places get MEXT (University Recommendation).",
+    "url": "https://www.iup.kyoto-u.ac.jp/apply/",
+    "source": "https://www.iup.kyoto-u.ac.jp/Application_Guidelines_for_October_2027_Enrollment.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ncku-veritas-phd",
+    "name": "NCKU Veritas et Conscientia Scholarship (PhD)",
+    "host": "National Cheng Kung University",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition waiver + monthly stipend (up to NT$25,000–30,000) + NT$8,000 advisor fund",
+    "deadline": "2027-03-07T23:59:00+08:00",
+    "dlText": "7 Mar 2027 (Fall 2027 admission, time not stated)",
+    "tags": [
+      "Full-time PhD",
+      "Years 1–4"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "fields": "Any NCKU doctoral programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "NCKU's flagship award for international PhD students; official pages disagree on the stipend cap, so check the current guideline.",
+    "url": "https://oia.ncku.edu.tw/p/404-1032-229890.php?Lang=en",
+    "source": "https://oia.ncku.edu.tw/p/404-1032-229890.php?Lang=en"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ncku-distinguished-intl",
+    "name": "NCKU Distinguished International Student Scholarship",
+    "host": "National Cheng Kung University",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Graduate: full tuition waiver + monthly stipend set by college; undergraduate: tuition waiver and stipend by ranking",
+    "deadline": "2027-03-07T23:59:00+08:00",
+    "dlText": "7 Mar 2027 (Fall 2027 admission, time not stated)",
+    "tags": [
+      "No separate application",
+      "Awarded with admission"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "fields": "Any NCKU degree programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Considered automatically when you apply for admission; the award is mailed with the admission letter.",
+    "url": "https://oia.ncku.edu.tw/p/404-1032-229890.php?Lang=en",
+    "source": "https://management.oia.ncku.edu.tw/intladmission/index/index/applyIntladmissionSn/31"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ntu-tw-outstanding-intl-grad",
+    "name": "NTU Outstanding International Graduate Student Scholarship",
+    "host": "National Taiwan University",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition up to NT$130,000/year (+ NT$2,000/month for some colleges)",
+    "deadline": "2026-11-19T16:00:00+08:00",
+    "dlText": "19 Nov 2026, 16:00 GMT+8 (1st round, extended); 2nd round late Jan 2027",
+    "tags": [
+      "College recommendation",
+      "No other Taiwan gov't award"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "fields": "Any NTU graduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Recommended by colleges from admitted international graduate students. Cannot be combined with other NTU or Taiwanese government scholarships.",
+    "url": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+    "source": "https://oia.ntu.edu.tw/cm/explorer/management/Admission/Scholarships/20240524/4.%20NTU%20Regulations%20for%20the%20Outstanding%20International%20Graduate%20Student%20Scholarship.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "chula-asean-nonasean-grad",
+    "name": "Chulalongkorn University Graduate Scholarship Programme for ASEAN or Non-ASEAN Countries",
+    "host": "Chulalongkorn University",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "University tuition + THB 16,000/month stipend & accommodation + capped airfare",
+    "deadline": "2027-05-13T23:59:00+07:00",
+    "dlText": "~mid-May 2027 for 1st semester (estimated from past cycles); faculty deadlines are earlier",
+    "expected": true,
+    "tags": [
+      "Apply via faculty",
+      "No work in Thailand",
+      "Faculty fees excluded"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TH"
+      ]
+    },
+    "fields": "Any Chulalongkorn graduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "2-year master's / 3-year PhD. Submit to your faculty at least 2 weeks before the university deadline via grantgateway.research.chula.ac.th; stipend only paid while in Thailand.",
+    "url": "https://www.inter.chula.ac.th/posts/33256/",
+    "source": "https://ee.eng.chula.ac.th/wp-content/uploads/2024/10/Chulalongkorn-Universitys-Graduate-Scholarship-Program-for-ASEAN-or-Non-ASEAN-Countries.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "mahidol-postgrad-intl",
+    "name": "Mahidol Postgraduate Scholarships for International Students",
+    "host": "Mahidol University, Faculty of Graduate Studies",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition fees + some additional expenses (check official page)",
+    "rolling": true,
+    "dlText": "Apply through your programme; deadlines set per programme",
+    "tags": [
+      "Apply via programme",
+      "Some faculties excluded"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TH"
+      ]
+    },
+    "fields": "Most Mahidol graduate programmes (medicine faculties, ICT, MUIC, music, management excluded)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "2026 edition shown; contact your intended programme for its internal scholarship schedule.",
+    "url": "https://graduate.mahidol.ac.th/inter/alumni/?p=scholarship&scholarship=mahidol-postgraduate-scholarships-international-2026",
+    "source": "https://graduate.mahidol.ac.th/inter/alumni/?p=scholarship&scholarship=mahidol-postgraduate-scholarships-international-2026"
+  },
+  {
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cmb-mahidol-mekong",
+    "name": "CMB-Mahidol Postgraduate Scholarship (Mekong Region)",
+    "host": "Mahidol University & China Medical Board",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition + living expenses + stipend + one return economy airfare",
+    "deadline": "2027-04-17T23:59:00+07:00",
+    "dlText": "~17 Apr 2027, estimated from 2026 cycle (16 Mar – 17 Apr 2026)",
+    "expected": true,
+    "tags": [
+      "Health fields",
+      "Return home 2 years"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "KH",
+        "LA",
+        "MM",
+        "VN"
+      ]
+    },
+    "fields": "Health-related postgraduate programmes",
+    "fieldCats": [
+      "sciences",
+      "social"
+    ],
+    "note": "For nationals of Cambodia, Laos, Myanmar and Vietnam; some tracks need health-sector work experience. Level wording is 'postgraduate', so check whether doctoral places are offered.",
+    "url": "https://graduate.mahidol.ac.th/Mekong-Region/",
+    "source": "https://graduate.mahidol.ac.th/Mekong-Region/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "skku-samsung-global-sungkyun",
+    "name": "Samsung Global Sungkyun Scholarship",
+    "host": "Sungkyunkwan University (SKKU)",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition for 8 semesters; Type A adds KRW 500,000/month living expenses",
+    "rolling": true,
+    "dlText": "Nominated from newly admitted students; follows SKKU international admission dates",
+    "tags": [
+      "Nomination at admission",
+      "Keep GPA 3.7"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "fields": "Any SKKU undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Not applied for separately: SKKU nominates outstanding new international admits, with an interview if needed. Other admits can get 50–100% first-semester waivers if they rank in the top 10%.",
+    "url": "https://admission-global.skku.edu/eng/undergraduate/fees.html",
+    "source": "https://skb.skku.edu/eng_biomecha/under_grd_scholarship.do"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "hanyang-eng-sci-grad",
+    "name": "Hanyang Scholarship for Engineering and Science Students (Graduate)",
+    "host": "Hanyang University",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "50% of tuition and 50% of admission fee (up to 4 semesters for master's)",
+    "deadline": "2026-09-18T23:59:00+09:00",
+    "dlText": "18 Sep 2026 for Spring 2027 (time not stated, closed)",
+    "nextText": "Fall 2027 international round ~spring 2027; check OIA",
+    "tags": [
+      "Engineering/science admits",
+      "Awarded at admission"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "fields": "Engineering and natural sciences graduate programmes",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Given to international students admitted to engineering and science graduate programmes; amounts come from the 2024 guideline, so check the current one.",
+    "url": "https://www.hanyang.ac.kr/web/eng/scholarships",
+    "source": "https://oia.hanyang.ac.kr/files/attach/filebox/2024/02/2024_2_graduate_en_new.pdf"
+  }
+]
