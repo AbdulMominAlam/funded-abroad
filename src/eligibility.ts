@@ -75,7 +75,8 @@ export function toStudyLevel(v: string | null | undefined): StudyLevel | null {
   const k = v.toLowerCase();
   if (k === "ug" || k === "undergraduate") return "ug";
   if (k === "masters" || k === "master's") return "masters";
-  if (k === "phd" || k === "internship" || k === "research") return "phd";
+  if (k === "phd") return "phd";
+  if (k === "intern" || k === "internship" || k === "internships" || k === "research") return "intern";
   if (k === "all") return "all";
   return null;
 }

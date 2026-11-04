@@ -1,7 +1,7 @@
 import type { AlertLevel, AlertPrefs, Frequency } from "./types.ts";
 
 const EMAIL = /^[^\s@<>()[\]\\,;:"]{1,64}@[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$/;
-const LEVELS: AlertLevel[] = ["ug", "masters", "phd", "all"];
+const LEVELS: AlertLevel[] = ["ug", "masters", "phd", "intern", "all"];
 const FREQS: Frequency[] = ["weekly", "none"];
 const ID = /^[a-z0-9][a-z0-9-]{0,59}$/;
 

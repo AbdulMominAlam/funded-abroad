@@ -240,7 +240,7 @@ describe("templates", () => {
     const c = renderConfirmEmail({ confirmUrl: "https://f/confirm?token=abc", siteUrl: "https://s", nationality: "NG", level: "ug", isUpdate: false });
     expect(c.text).toContain("Undergraduate programmes for citizens of Nigeria");
     expect(c.html).toContain("https://f/confirm?token=abc");
-    expect(renderAdminNotice({ nationality: null, level: "phd", siteUrl: "s" }).subject).toBe("New subscriber: any nationality, PhD & research");
+    expect(renderAdminNotice({ nationality: null, level: "phd", siteUrl: "s" }).subject).toBe("New subscriber: any nationality, PhD");
     expect(unsubscribeHeaders("https://u")).toEqual({ "List-Unsubscribe": "<https://u>", "List-Unsubscribe-Post": "List-Unsubscribe=One-Click" });
     expect(esc(`"'&`)).toBe("&quot;&#39;&amp;");
   });

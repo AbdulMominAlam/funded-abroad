@@ -17,7 +17,7 @@ create table if not exists public.subscribers (
   id                uuid primary key default gen_random_uuid(),
   email             text not null check (char_length(email) between 3 and 254 and email = lower(email)),
   nationality       text check (nationality is null or nationality ~ '^[A-Z]{2}$'),
-  level             text not null default 'masters' check (level in ('ug', 'masters', 'phd', 'all')),
+  level             text not null default 'masters' check (level in ('ug', 'masters', 'phd', 'intern', 'all')),
   shortlist         text[] not null default '{}' check (cardinality(shortlist) <= 200),
   frequency         text not null default 'weekly' check (frequency in ('weekly', 'none')),
   digest_day        smallint not null default 1 check (digest_day between 0 and 6), -- 0 = Sunday … 6 = Saturday (UTC)

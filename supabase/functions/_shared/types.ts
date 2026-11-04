@@ -1,6 +1,6 @@
 /** Shared by the Supabase Edge Functions (Deno) and the Node alerts job. No runtime-specific APIs here. */
 
-export type AlertLevel = "ug" | "masters" | "phd" | "all";
+export type AlertLevel = "ug" | "masters" | "phd" | "intern" | "all";
 export type Frequency = "weekly" | "none";
 
 /** Preferences a visitor chooses in the "Get deadline alerts" panel. */

@@ -74,7 +74,7 @@ describe("URL hash", () => {
   });
   it("understands old v2 level links and uses fallbacks", () => {
     expect(hashToFilters("#level=PhD").lvl).toBe("phd");
-    expect(hashToFilters("#level=Internship").lvl).toBe("phd");
+    expect(hashToFilters("#level=Internship").lvl).toBe("intern");
     expect(hashToFilters("#nat=pk").nat).toBe("PK");
     expect(hashToFilters("", {}, { nat: "IN", lvl: "ug" })).toMatchObject({ nat: "IN", lvl: "ug" });
     expect(hashToFilters("#nat=PK", {}, { nat: "IN" }).nat).toBe("PK");
