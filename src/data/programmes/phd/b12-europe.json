@@ -632,5 +632,812 @@
     "url": "https://lacaixafoundation.org/en/doctoral-inphinit-fellowships-incoming-call",
     "source": "https://lacaixafoundation.org/en/doctoral-inphinit-fellowships-incoming-call",
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "oxford-aims-cdt",
+    "name": "EPSRC CDT in Autonomous Intelligent Machines and Systems (AIMS)",
+    "host": "University of Oxford",
+    "country": "United Kingdom",
+    "funding": "full",
+    "amount": "Course fees + living stipend (check official page)",
+    "deadline": "2027-01-27T12:00:00+00:00",
+    "dlText": "27 Jan 2027, 12:00 UK time",
+    "tags": [
+      "First or strong 2:1 degree",
+      "4-year DPhil",
+      "Home & international places"
+    ],
+    "fields": "Machine learning, robotics, autonomous systems",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Most applicants offered a place also receive a course-specific fully funded scholarship; the CDT states it has funding for home and international students. Industry-funded studentships share the same deadline.",
+    "url": "https://www.ox.ac.uk/admissions/graduate/courses/cdt-autonomous-intelligent-machines-and-systems",
+    "source": "https://aims.robots.ox.ac.uk/study/epsrc-studentships"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "check",
+      "note": "Applicants to full-time DPhil courses in or affiliated to the Department of Computer Science; earlier rounds reserved places for under-represented groups – check current criteria."
+    },
+    "id": "oxford-deepmind-cs",
+    "name": "Oxford–DeepMind Graduate Scholarships (Computer Science)",
+    "host": "University of Oxford / Google DeepMind",
+    "country": "United Kingdom",
+    "funding": "full",
+    "amount": "Course fees + living-costs grant",
+    "deadline": "2026-12-02T12:00:00+00:00",
+    "dlText": "2 Dec 2026, 12:00 UK time (DPhil in Computer Science scholarship deadline)",
+    "tags": [
+      "Apply to a CS-affiliated DPhil",
+      "Automatic consideration",
+      "Full-time"
+    ],
+    "fields": "Computer science and affiliated DPhil courses",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "No separate application: eligible applicants who apply by the course deadline are considered automatically. Covers fees and a grant for living costs.",
+    "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-funding-and-scholarship-search/scholarships-a-z-listing",
+    "source": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-computer-science"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "GB",
+        "IE"
+      ]
+    },
+    "id": "cambridge-international-scholarship",
+    "name": "Cambridge International Scholarship (Cambridge Trust, PhD)",
+    "host": "Cambridge Trust, University of Cambridge",
+    "country": "United Kingdom",
+    "funding": "full",
+    "amount": "International fees + maintenance + immigration health surcharge",
+    "deadline": "2026-12-08T23:59:00+00:00",
+    "varies": true,
+    "dlText": "8 Dec 2026 or 6 Jan 2027 depending on course funding deadline (time not stated)",
+    "tags": [
+      "PhD applicants",
+      "Apply via funding section of course application",
+      "~63 awards"
+    ],
+    "fields": "Any PhD subject",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Full-cost PhD scholarship for applicants from outside the UK and Ireland; selection is on merit and finances do not affect selection. Your course page sets the exact funding deadline.",
+    "url": "https://www.student-funding.cam.ac.uk/fund/cambridge-international-scholarship-2025",
+    "source": "https://www.student-funding.cam.ac.uk/fund/cambridge-international-scholarship-2025"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "bristol-proai-cdt",
+    "name": "UKRI CDT in Practice-Oriented Artificial Intelligence (PrOAI)",
+    "host": "University of Bristol",
+    "country": "United Kingdom",
+    "funding": "full",
+    "amount": "UKRI stipend (£21,805 in 2026/27) + £3,385 enhancement for international students, fees + training allowance",
+    "deadline": "2027-02-26T23:59:00+00:00",
+    "dlText": "Round 2: 26 Feb 2027; final round 14 May 2027 (round 1 closed 30 Oct 2026; time not stated)",
+    "nextText": "Final round closes 14 May 2027",
+    "tags": [
+      "2:1 degree",
+      "Strong programming skills",
+      "ATAS certificate (intl)",
+      "Up to 30% international places"
+    ],
+    "fields": "Artificial intelligence (successor to the Interactive AI CDT)",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Up to 30% of fully funded studentships are open to international applicants; visa, health surcharge and relocation costs are not covered. May close early if places fill.",
+    "url": "https://www.bristol.ac.uk/cdt/practice-oriented-ai/",
+    "source": "https://www.bristol.ac.uk/cdt/practice-oriented-ai/funding/"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "lsgnt-cdt",
+    "name": "London School of Geometry and Number Theory (LSGNT) PhD Studentships",
+    "host": "Imperial College London, UCL & King's College London",
+    "country": "United Kingdom",
+    "funding": "full",
+    "amount": "Fully funded 4-year PhD (check official page)",
+    "deadline": "2026-12-31T23:59:00+00:00",
+    "dlText": "31 Dec 2026 (portal opens 1 Nov 2026; time not stated)",
+    "opens": "2026-11-01",
+    "tags": [
+      "Pure mathematics",
+      "9 studentships",
+      "UK & overseas funding"
+    ],
+    "fields": "Geometry, number theory, pure mathematics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Nine fully funded studentships for September 2027 entry, with funding for UK and overseas students. Taught first year followed by a 3-year research project.",
+    "url": "https://lsgnt-cdt.ucl.ac.uk/",
+    "source": "https://www.imperial.ac.uk/mathematics/postgraduate/cdts/"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "edinburgh-ai4bi-cdt",
+    "name": "UKRI CDT in Artificial Intelligence for Biomedical Innovation (AI4BI)",
+    "host": "University of Edinburgh",
+    "country": "United Kingdom",
+    "funding": "full",
+    "amount": "Stipend + UK or overseas fees + research & travel grant (4 years)",
+    "deadline": "2027-01-20T23:59:00+00:00",
+    "dlText": "20 Jan 2027 (time not stated)",
+    "tags": [
+      "4-year PhD with integrated study",
+      "Overseas fees covered",
+      "Visa/IHS not covered"
+    ],
+    "fields": "AI, biomedical science",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Funding covers stipend, fees for both UK and overseas students and a research/travel grant; visa fees and the health surcharge are not covered.",
+    "url": "https://ai4bi-cdt.ed.ac.uk/join-our-cdt-0",
+    "source": "https://study.ed.ac.uk/programmes/postgraduate-research/1117-centre-for-doctoral-training-in-artificial-intelligence-for"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "edinburgh-doctoral-college",
+    "name": "Edinburgh Doctoral College Scholarship",
+    "host": "University of Edinburgh",
+    "country": "United Kingdom",
+    "funding": "full",
+    "amount": "Tuition fees + UKRI-rate stipend for 3.5 years",
+    "deadline": "2027-02-02T23:59:00+00:00",
+    "dlText": "2 Feb 2027 scholarship deadline; PhD application by 19 Jan 2027 (time not stated)",
+    "tags": [
+      "UK & overseas",
+      "Apply for PhD by 19 Jan 2027",
+      "2027/28 start"
+    ],
+    "fields": "Any subject",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "University-wide PhD scholarship for UK and overseas students starting in 2027/28. You must submit the PhD application before the scholarship application.",
+    "url": "https://health.ed.ac.uk/study/scholarships-and-funding-opportunities/edinburgh-doctoral-college-scholarships",
+    "source": "https://health.ed.ac.uk/study/scholarships-and-funding-opportunities/edinburgh-doctoral-college-scholarships"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "salaried-phd-netherlands",
+    "name": "Salaried PhD Positions in the Netherlands (PhD candidates as employees)",
+    "host": "Dutch universities (vacancies via AcademicTransfer)",
+    "country": "Netherlands",
+    "funding": "salaried",
+    "amount": "Approx. €2,900–€4,200 gross/month (CAO scale P) + 8% holiday + 8.3% year-end allowance",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own deadline",
+    "tags": [
+      "Master's degree",
+      "Apply per vacancy",
+      "4-year contract"
+    ],
+    "fields": "All fields (positions advertised per project)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Dutch PhD candidates are university employees on 4-year contracts under the national university collective labour agreement. Positions are advertised individually, mostly on AcademicTransfer.",
+    "url": "https://www.academictransfer.com/en/",
+    "source": "https://www.universiteitenvannederland.nl/files/publications/CAO%20Nederlandse%20Universiteiten%20EN%202025-2026.pdf"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "salaried-phd-denmark",
+    "name": "Salaried PhD Fellowships in Denmark",
+    "host": "Danish universities (e.g. DTU, Copenhagen, Aarhus)",
+    "country": "Denmark",
+    "funding": "salaried",
+    "amount": "Approx. DKK 31,600–38,200/month before tax (collective agreement)",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own deadline",
+    "tags": [
+      "Master's degree",
+      "Apply per vacancy",
+      "Usually 3-year contract"
+    ],
+    "fields": "All fields (positions advertised per project)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Most Danish PhD fellows are employed by the university with salary, pension, and five weeks' paid holiday; positions are advertised per project on university job portals.",
+    "url": "https://studyindenmark.dk/study-options/what-can-i-study/phd-and-research",
+    "source": "https://studyindenmark.dk/study-options/what-can-i-study/phd-and-research"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "salaried-phd-norway",
+    "name": "Salaried PhD Research Fellowships in Norway (stipendiat)",
+    "host": "Norwegian universities (vacancies via Jobbnorge)",
+    "country": "Norway",
+    "funding": "salaried",
+    "amount": "Approx. NOK 535,000–596,000/year (UiO position code 1017, 2025–26)",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own deadline",
+    "tags": [
+      "Master's degree",
+      "Apply via Jobbnorge",
+      "Fixed-term employment"
+    ],
+    "fields": "All fields (positions advertised per project)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "PhD research fellows in Norway are fixed-term state employees with salary and public pension. Applications go through Jobbnorge in English or a Scandinavian language.",
+    "url": "https://www.jobbnorge.no/en",
+    "source": "https://www.hf.uio.no/imv/om/organisasjon/styret/moter/2025/06-2025/vedlegg/utlysningstekst_wp3-phd-psychology.pdf"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "salaried-phd-sweden",
+    "name": "Salaried Doctoral Positions in Sweden",
+    "host": "Swedish universities",
+    "country": "Sweden",
+    "funding": "salaried",
+    "amount": "Monthly salary, e.g. KTH approx. SEK 33,000–37,100/month; no tuition fees",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own deadline",
+    "tags": [
+      "Master's degree",
+      "Apply per vacancy",
+      "Usually 4 years"
+    ],
+    "fields": "All fields (positions advertised per project)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Admitted PhD students are usually also university employees with salary, paid holiday, parental leave and pension; there are no PhD tuition fees. Positions are advertised by each university.",
+    "url": "https://studyinsweden.se/plan-your-studies/degree-programmes/phd-programmes/",
+    "source": "https://studyinsweden.se/plan-your-studies/degree-programmes/phd-programmes/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "salaried-phd-finland",
+    "name": "Salaried Doctoral Researcher Positions in Finland",
+    "host": "Finnish universities (e.g. Helsinki, Aalto)",
+    "country": "Finland",
+    "funding": "salaried",
+    "amount": "Approx. €2,500–€3,150 gross/month (university salary system)",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own deadline",
+    "tags": [
+      "Master's degree",
+      "Apply per vacancy",
+      "Fixed-term contract"
+    ],
+    "fields": "All fields (positions advertised per project)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Doctoral researchers are typically employed on fixed-term contracts (up to 4 years) under the university collective agreement, with occupational health care. Apply to individual positions.",
+    "url": "https://www.helsinki.fi/en/research/doctoral-school/resdoc-project/employment-and-working-conditions",
+    "source": "https://www.helsinki.fi/en/research/doctoral-school/resdoc-project/employment-and-working-conditions"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "eth-zurich-doctoral",
+    "name": "Doctoral Positions at ETH Zurich (salaried)",
+    "host": "ETH Zurich",
+    "country": "Switzerland",
+    "funding": "salaried",
+    "amount": "Fixed-rate salary set by ETH (rising in years 2–3; older figures ~CHF 47,000–50,000/year) – check official rate table",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own deadline",
+    "tags": [
+      "Master's degree",
+      "Find a supervisor",
+      "Employment contract"
+    ],
+    "fields": "All fields (positions advertised per project)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "ETH doctoral students are employees on fixed-term contracts of up to six years, usually full-time. You apply to a professor or advertised position; UZH and other Swiss universities also employ PhD candidates.",
+    "url": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary.html",
+    "source": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/employment-contract-and-salary/salary.html"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "univie-praedoc",
+    "name": "University of Vienna Predoctoral Positions (University Assistant prae doc)",
+    "host": "University of Vienna",
+    "country": "Austria",
+    "funding": "salaried",
+    "amount": "€2,786.10 gross/month for 30 h/week, paid 14×/year (salary group B1)",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own deadline",
+    "tags": [
+      "Master's degree",
+      "30 h/week",
+      "Apply per call/vacancy"
+    ],
+    "fields": "All fields (positions advertised per project)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fully funded 3–4-year predoctoral employment positions, advertised in recurring calls (e.g. Autumn Call 2026) and as individual vacancies.",
+    "url": "https://careers.univie.ac.at/en/praedoc/autumn-call",
+    "source": "https://careers.univie.ac.at/en/praedoc/autumn-call/faqs-to-the-autumn-call"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "inria-phd",
+    "name": "Inria PhD Positions",
+    "host": "Inria (French National Institute for Research in Digital Science and Technology)",
+    "country": "France",
+    "funding": "salaried",
+    "amount": "€2,300 gross/month, 3-year contract",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own deadline",
+    "tags": [
+      "Master's degree",
+      "Apply per offer",
+      "English (some require French)"
+    ],
+    "fields": "Computer science, applied mathematics, digital science",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Inria advertises funded 3-year PhD contracts with health insurance and 7 weeks' leave; apply online per offer on jobs.inria.fr. Language requirements vary by team.",
+    "url": "https://jobs.inria.fr/public/classic/en/offres",
+    "source": "https://jobs.inria.fr/public/classic/en/offres/2026-10437"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "biozentrum-phd-fellowships",
+    "name": "Biozentrum PhD Fellowships",
+    "host": "Biozentrum, University of Basel",
+    "country": "Switzerland",
+    "funding": "full",
+    "amount": "Fully funded fellowship (check official page)",
+    "deadline": "2026-10-18T23:59:00+02:00",
+    "dlText": "18 Oct 2026 (winter call; time not stated)",
+    "nextText": "Next (summer) call expected ~May 2027",
+    "tags": [
+      "MSc (or outstanding 4-year BSc)",
+      "Up to 10 per year",
+      "Interview week"
+    ],
+    "fields": "Molecular & cell biology, biophysics, life sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Up to ten fully funded fellowships per year, awarded on academic excellence in two calls; shortlisted candidates attend an interview week with travel and accommodation provided.",
+    "url": "https://www.biozentrum.unibas.ch/phd/international-phd-program/phd-fellowships",
+    "source": "https://www.biozentrum.unibas.ch/phd/international-phd-program/phd-fellowships"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "vbc-phd",
+    "name": "Vienna BioCenter PhD Programme",
+    "host": "Vienna BioCenter (IMP, IMBA, GMI, Max Perutz Labs)",
+    "country": "Austria",
+    "funding": "salaried",
+    "amount": "Fully funded position with competitive salary (check official page)",
+    "rolling": true,
+    "dlText": "Two calls per year (opening around March and September); check current call",
+    "tags": [
+      "Master's degree",
+      "English",
+      "Two calls per year"
+    ],
+    "fields": "Molecular biology, life sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "International PhD programme in English with fully funded positions; the number of positions varies per call.",
+    "url": "https://www.viennabiocenter.org/education/",
+    "source": "https://www.viennabiocenter.org/education/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "sissa-phd",
+    "name": "SISSA PhD Programmes (with scholarships)",
+    "host": "SISSA – International School for Advanced Studies, Trieste",
+    "country": "Italy",
+    "funding": "full",
+    "amount": "PhD scholarship (check official call)",
+    "deadline": "2027-01-19T23:59:00+01:00",
+    "expected": true,
+    "dlText": "~19 Jan 2027 for first courses, others Feb–Mar (estimated from 2026 cycle; time not stated)",
+    "tags": [
+      "Master's degree",
+      "Per-course deadlines",
+      "Entrance exam/interview"
+    ],
+    "fields": "Mathematics, physics, neuroscience, data science",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Annual call with separate deadlines per area; most positions financed by SISSA scholarships. Estimated from 2026 cycle (19 Jan – 13 Mar 2026).",
+    "url": "https://www.sissa.it/bandi",
+    "source": "https://www.sissa.it/bandi/ammissione-ai-corsi-di-phd-della-sissa-lanno-accademico-202627-admission-sissa-phd-courses"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "gssi-phd",
+    "name": "GSSI PhD Programmes (fully funded scholarships)",
+    "host": "Gran Sasso Science Institute (GSSI), L'Aquila",
+    "country": "Italy",
+    "funding": "full",
+    "amount": "4-year scholarship + research allowance + free accommodation",
+    "deadline": "2027-01-12T15:00:00+01:00",
+    "varies": true,
+    "dlText": "Mathematics: 12 Jan 2027, 15:00 CET (2nd round 11 May 2027); other programmes have own calls",
+    "tags": [
+      "Master's degree",
+      "Apply online at gssi.it/phd"
+    ],
+    "fields": "Mathematics, physics, computer science, regional science",
+    "fieldCats": [
+      "sciences",
+      "cs-ai",
+      "social"
+    ],
+    "note": "The 2027/28 Mathematics call offers six fully funded four-year scholarships with free accommodation; other GSSI PhD programmes publish separate calls.",
+    "url": "https://www.gssi.it/communication/announcements",
+    "source": "https://www.gssi.it/communication/news-events/item/26427-call-open-for-the-mathematics-phd-programme-at-gssi"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "imt-lucca-phd",
+    "name": "IMT School for Advanced Studies Lucca PhD Scholarships",
+    "host": "IMT School for Advanced Studies Lucca",
+    "country": "Italy",
+    "funding": "full",
+    "amount": "~€16,243 gross/year + free meals and campus accommodation",
+    "deadline": "2027-05-25T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~25 May–late Jun 2027 depending on programme (estimated from 2026 cycle; time not stated)",
+    "tags": [
+      "Master's degree",
+      "Campus residence",
+      "+50% abroad"
+    ],
+    "fields": "Systems science, economics, cultural systems, cognitive neuroscience",
+    "fieldCats": [
+      "cs-ai",
+      "social",
+      "sciences"
+    ],
+    "note": "Scholarships include free board and lodging on campus; the stipend rises 50% during research periods abroad. Estimated from 2026 cycle (Systems Science closed 25 May 2026).",
+    "url": "https://www.imtlucca.it/en/phd-programmes",
+    "source": "https://www.imtlucca.it/en/comunicato-stampa/applications-are-now-open-for-the-phd-program-systems-science"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "sns-phd",
+    "name": "Scuola Normale Superiore PhD Admission Competition",
+    "host": "Scuola Normale Superiore, Pisa/Florence",
+    "country": "Italy",
+    "funding": "full",
+    "amount": "4-year SNS scholarship (check official call)",
+    "deadline": "2027-04-13T12:00:00+02:00",
+    "expected": true,
+    "dlText": "~13 Apr 2027 first session; further sessions May–Aug (estimated from 2026 cycle)",
+    "tags": [
+      "Master's within 5 years",
+      "Per-faculty sessions"
+    ],
+    "fields": "Sciences, humanities, political & social sciences",
+    "fieldCats": [
+      "sciences",
+      "social"
+    ],
+    "note": "SNS scholarships are available to applicants from any country for any PhD programme; deadlines differ by faculty. Estimated from 2026 cycle.",
+    "url": "https://www.sns.it/en/phd-admission-competition",
+    "source": "https://www.sns.it/en/phd-admission-competition"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "bologna-phd",
+    "name": "University of Bologna PhD Call (with scholarships)",
+    "host": "University of Bologna",
+    "country": "Italy",
+    "funding": "full",
+    "amount": "€19,700.76 gross/year scholarship (42nd cycle)",
+    "deadline": "2027-03-30T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~30 Mar 2027 first round, ~Jun 2027 second round (estimated from 2026 cycle)",
+    "tags": [
+      "Master's degree",
+      "€10 application fee",
+      "Several rounds"
+    ],
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Scholarships listed in each programme sheet are open to all international applicants and awarded by merit ranking. Estimated from 42nd cycle (30 Mar and 15 Jun 2026).",
+    "url": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/phd",
+    "source": "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/phd/2026-2027/attachments/42-call-for-applications-first-round/@@download/file/42%20cycle_CallforApplications_FirstRound_ENG.pdf"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "pasteur-ppu",
+    "name": "Pasteur–Paris University International Doctoral Program (PPU)",
+    "host": "Institut Pasteur & Université Paris Cité",
+    "country": "France",
+    "funding": "full",
+    "amount": "Fully funded doctoral position (check official page)",
+    "deadline": "2026-11-12T23:59:00+01:00",
+    "expected": true,
+    "dlText": "~12 Nov 2026 joint application with host lab (estimated from 2025 cycle; time not stated)",
+    "nextText": "Next call ~Sep 2027",
+    "tags": [
+      "Master's (or final year)",
+      "Apply to up to 4 projects",
+      "Interviews in Feb"
+    ],
+    "fields": "Life sciences, biomedicine, microbiology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Candidates first get selected by a host lab, then submit a joint application; shortlisted candidates are interviewed in early February. The 2027 project list was published Oct 2026.",
+    "url": "https://www.pasteur.fr/en/about-us/our-missions/education/training-programs/doctoral-programs/ppu",
+    "source": "https://www.pasteur.fr/en/about-us/our-missions/education/training-programs/doctoral-programs/ppu"
   }
 ]
