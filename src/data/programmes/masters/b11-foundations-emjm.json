@@ -105,5 +105,653 @@
     "work": false,
     "nominationBody": null,
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "US"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your US university (endorsement)",
+    "verifiedOn": "2026-11-04",
+    "id": "marshall-scholarship",
+    "name": "Marshall Scholarships",
+    "host": "Marshall Aid Commemoration Commission",
+    "country": "United Kingdom",
+    "amount": "Covers university fees, living costs and travel (check official page)",
+    "deadline": "2026-09-29T17:00:00-04:00",
+    "dlText": "29 Sep 2026, 17:00 in the endorsing institution's time zone (closed)",
+    "nextText": "2028 applications open summer 2027",
+    "tags": [
+      "US citizens only",
+      "University endorsement needed",
+      "Any UK university"
+    ],
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The 2027 round closed on 29 Sep 2026 (institutions endorsed by 1 Oct). The next round, for 2028 entry, opens in summer 2027.",
+    "url": "https://www.marshallscholarship.org/apply/",
+    "source": "https://www.marshallscholarship.org/apply/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "eligibility": {
+      "type": "check",
+      "note": "The scholarships (incl. Scholarships of Excellence) are for nationals of EU/EEA states and countries associated with the Digital Europe Programme. Non-EU applicants can only get some university-specific waivers."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "eit-digital-master-school",
+    "name": "EIT Digital Master School Scholarships",
+    "host": "EIT Digital Master School (28DIGITAL)",
+    "country": "Any (European partner universities)",
+    "amount": "Full or half tuition waivers; Scholarships of Excellence add a monthly living allowance (check official page)",
+    "opens": "2026-10-30",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "31 Jan 2027 (period 1; time not stated). Later periods close 18 Apr and 31 May 2027",
+    "tags": [
+      "Two universities, two countries",
+      "Mainly EU/EEA nationals",
+      "Apply in the portal"
+    ],
+    "fields": "Digital technology, AI, cybersecurity, data science, embedded systems, HCI",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Two-year master's with an innovation and entrepreneurship minor. Period 1 is for non-EU applicants who need a residence permit, but the main scholarships are mostly for EU/EEA nationals.",
+    "url": "https://masterschool.eitdigital.eu/admissions/fees",
+    "source": "https://masterschool.eitdigital.eu/admissions/fees"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "Excellent graduates from Asian countries. AIT pages list priority countries (Bhutan, Laos, Timor-Leste, Thailand, ASEAN, BIMSTEC and other Asian countries); the lists differ between pages."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ait-hm-king-scholarship",
+    "name": "His Majesty the King's Scholarships (Master's) at AIT",
+    "host": "Asian Institute of Technology (Royal Thai Government)",
+    "country": "Thailand",
+    "amount": "Tuition, accommodation and a living bursary for the 22-month master's",
+    "deadline": "2027-02-28T23:59:00+07:00",
+    "dlText": "~late Feb 2027 for August 2027 intake (estimated from earlier cycles)",
+    "expected": true,
+    "tags": [
+      "Asian nationals",
+      "Strong undergraduate record",
+      "August intake"
+    ],
+    "fields": "Engineering, technology and management (School of Engineering and Technology, School of Management)",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "A related HM the Queen's scholarship covers environment-related programmes. Apply through AIT admissions. Deadlines on AIT pages differ, so check the current page.",
+    "url": "https://ait.ac.th/financial/royal-thai-government-scholarships/",
+    "source": "https://ait.ac.th/financial/royal-thai-government-scholarships/"
+  },
+  {
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of IsDB Least Developed Member Countries (see the call). Age limit 30 at the closing date."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "isdb-msc-scholarship",
+    "name": "IsDB Master of Science Scholarship Program for Least Developed Member Countries",
+    "host": "Islamic Development Bank (IsDB)",
+    "country": "Any (IsDB-approved universities)",
+    "amount": "check official page",
+    "deadline": "2027-02-28T23:59:00+03:00",
+    "dlText": "~end Feb 2027 for 2027–28 (estimated; IsDB says calls open in Dec and close end of Feb)",
+    "expected": true,
+    "tags": [
+      "IsDB least developed member countries",
+      "Age ≤30",
+      "STEM or medicine"
+    ],
+    "fields": "Science, engineering, technology, medicine",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Two-year M.Sc. scholarship. The 2026–27 call is open now; the 2027–28 call is expected in December 2026.",
+    "url": "https://www.isdb.org/scholarships/master",
+    "source": "https://www.isdb.org/scholarships/faq"
+  },
+  {
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of AfDB regional member countries (African countries), aged 35 or under."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "afdb-jads",
+    "name": "Japan Africa Dream Scholarship (JADS) Program",
+    "host": "African Development Bank & Government of Japan",
+    "country": "Japan",
+    "amount": "check official page",
+    "rolling": true,
+    "dlText": "Set by each partner university in Japan (no AfDB application)",
+    "tags": [
+      "African nationals",
+      "Age ≤35",
+      "Apply via partner university"
+    ],
+    "fields": "Development-related fields such as energy, agriculture, health, engineering",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "Formerly the Japan-AfDB Scholarship Program (JSP). Apply to a listed Japanese partner university; check the official eligibility page for work-experience rules.",
+    "url": "https://www.afdb.org/en/about-us/careers/japan-africa-dream-scholarship-jads-program",
+    "source": "https://www.afdb.org/en/about-us/careers/japan-africa-dream-scholarship-jads-program/who-is-eligible-to-apply"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "International (non-German) students planning a four-semester master's at a German university; who can apply from abroad depends on the KAS country office."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "kas-international-scholarship",
+    "name": "Konrad-Adenauer-Stiftung Scholarships for International Students",
+    "host": "Konrad-Adenauer-Stiftung (KAS)",
+    "country": "Germany",
+    "amount": "Up to €992/month for a master's (standard two-year period)",
+    "deadline": "2027-07-15T12:00:00+02:00",
+    "dlText": "15 Jul 2027, 12:00 noon (if already in Germany); KAS offices abroad set their own dates",
+    "varies": true,
+    "tags": [
+      "Master's in Germany",
+      "Political/social engagement",
+      "Apply via KAS office abroad or in Germany"
+    ],
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Two routes: apply in Germany (15 July) or through a KAS country office, with deadlines such as 30 Jun or 30 Nov. Funded by the Federal Foreign Office.",
+    "url": "https://www.kas.de/en/web/begabtenfoerderung-und-kultur/international-talent-development",
+    "source": "https://www.kas.de/en/web/begabtenfoerderung-und-kultur/international-talent-development"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "Students from Africa, Asia, Latin America and Eastern Europe already enrolled at a German university; Western Europeans not supported. About 40 places a year."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "fes-international-scholarship",
+    "name": "Friedrich-Ebert-Stiftung Scholarships for International Students",
+    "host": "Friedrich-Ebert-Stiftung (FES)",
+    "country": "Germany",
+    "amount": "check official page",
+    "deadline": "2026-11-30T23:59:00+01:00",
+    "dlText": "30 Nov 2026 (master's; time not stated). Next master's deadline 31 May 2027",
+    "nextText": "Next master's deadline 31 May 2027",
+    "tags": [
+      "Must already be enrolled in Germany",
+      "German B2",
+      "Social-democratic engagement"
+    ],
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "You cannot apply from abroad; you must be enrolled at a German university first. Master's deadlines are 30 Nov and 31 May.",
+    "url": "https://www.fes.de/studienfoerderung/information-in-english",
+    "source": "https://www.fes.de/studienfoerderung/stipendium/grundfoerderung-fuer-auslaender-innen"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "Foreign nationals coming to or studying in Germany with a completed bachelor's, excellent results and German at B2."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "rosa-luxemburg-study-scholarship",
+    "name": "Rosa-Luxemburg-Stiftung Study Scholarship (international students)",
+    "host": "Rosa-Luxemburg-Stiftung",
+    "country": "Germany",
+    "amount": "check official page",
+    "deadline": "2027-10-01T23:59:00+02:00",
+    "dlText": "~1 Oct 2027 for funding from 1 Apr 2028 (estimated from 2025/2026 cycles)",
+    "expected": true,
+    "tags": [
+      "Bachelor's completed",
+      "German B2",
+      "Left-wing social engagement"
+    ],
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Funded by the Federal Foreign Office. The yearly 1 October deadline is for grants starting the next summer semester; the 2026 round has closed.",
+    "url": "https://www.rosalux.de/en/foundation/studienwerk/scholarships/study-scholarship",
+    "source": "https://www.rosalux.de/en/foundation/studienwerk/scholarships/study-scholarship"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "International students with German at B2 or higher. Many HSS country offices pre-select locally (some year-round, India: 30 Nov / 31 May)."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "hss-international-scholarship",
+    "name": "Hanns-Seidel-Stiftung Scholarships for International Students",
+    "host": "Hanns-Seidel-Stiftung (HSS)",
+    "country": "Germany",
+    "amount": "check official page",
+    "opens": "2026-12-15",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "15 Jan 2027 (window opens 15 Dec 2026; time not stated). Country offices may differ",
+    "varies": true,
+    "nextText": "Next window 15 Jun–15 Jul 2027",
+    "tags": [
+      "German B2",
+      "Study in Germany",
+      "Country offices have own dates"
+    ],
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Two windows a year on the main portal (15 Dec–15 Jan and 15 Jun–15 Jul). If your country has no HSS office, apply to the nearest one.",
+    "url": "https://www.hss.de/stipendium/",
+    "source": "https://www.hss.de/stipendium/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "Graduates from developing/emerging countries in Africa, Asia, the Middle East and Latin America, normally via KAAD partner committees. Mainly Catholic/Christian applicants; German skills required."
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": "KAAD partner committee in your country",
+    "verifiedOn": "2026-11-04",
+    "id": "kaad-scholarship",
+    "name": "KAAD Scholarship Programme 1 (graduate scholarships)",
+    "host": "Katholischer Akademischer Ausländer-Dienst (KAAD)",
+    "country": "Germany",
+    "amount": "check official page",
+    "rolling": true,
+    "dlText": "No single date; apply through KAAD partner committees in your country",
+    "tags": [
+      "Developing countries",
+      "Christian (Catholic) applicants mainly",
+      "Work experience"
+    ],
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Two steps: online questionnaire, then full documents. KAAD also offers in-country master's scholarships in some partner countries and Programme 2 for students already in Germany.",
+    "url": "https://www.kaad.de/en/stipendien/stipendienprogramm-1",
+    "source": "https://www.kaad.de/en/stipendien/stipendienprogramm-1"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "check",
+      "note": "International students whose first degree is from abroad and who want a master's in Germany; priority for DAC-country applicants not yet living in Germany."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "boell-international-scholarship",
+    "name": "Heinrich Böll Foundation Scholarships for International Students",
+    "host": "Heinrich-Böll-Stiftung",
+    "country": "Germany",
+    "amount": "check official page",
+    "opens": "2027-01-15",
+    "deadline": "2027-03-01T23:59:00+01:00",
+    "dlText": "1 Mar 2027 (portal opens 15 Jan 2027; time not stated). Next: 1 Sep 2027",
+    "tags": [
+      "German B2/DSH1",
+      "Priority: DAC countries",
+      "Green political engagement"
+    ],
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "One Böll page says that from 1 Mar 2027 only first-cycle programmes will be accepted, so check whether master's applications are still taken. Online applications only.",
+    "url": "https://www.boell.de/en/application",
+    "source": "https://www.boell.de/en/application"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "emjm-europhotonics",
+    "name": "Europhotonics – Erasmus Mundus Master in Photonics",
+    "host": "Europhotonics consortium",
+    "country": "France (multi-country)",
+    "amount": "€1,400/month EMJM scholarship for up to 24 months",
+    "opens": "2026-11-01",
+    "deadline": "2027-02-04T17:00:00+01:00",
+    "dlText": "4 Feb 2027, 17:00 Paris time",
+    "tags": [
+      "Erasmus Mundus",
+      "One application = scholarship too",
+      "Physics/photonics degree"
+    ],
+    "fields": "Photonics, optics, lasers",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "2027–2029 intake. Applying online automatically considers you for an EMJM scholarship.",
+    "url": "https://application.europhotonics.org/",
+    "source": "https://www.europhotonics.org/wordpress/emjmd/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "emjm-mundus-mapp",
+    "name": "Mundus MAPP – Erasmus Mundus Master's in Public Policy",
+    "host": "Central European University (CEU) and consortium partners",
+    "country": "Austria (multi-country)",
+    "amount": "Erasmus Mundus scholarship (check official page)",
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "dlText": "1 Dec 2026 for financial aid (time not stated)",
+    "tags": [
+      "Erasmus Mundus",
+      "Apply only via CEU",
+      "Results 14 Apr 2027"
+    ],
+    "fields": "Public policy, international relations",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "2027–2029 cohort. No separate scholarship form; tick financial aid in the CEU application. Self-funded deadlines 15 Apr (non-EU) and 1 Jul 2027 (EU/EEA).",
+    "url": "https://www.mundusmapp.org/financial-aid/",
+    "source": "https://www.mundusmapp.org/financial-aid/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "emjm-emle",
+    "name": "European Master in Law and Economics (EMLE)",
+    "host": "EMLE consortium",
+    "country": "Netherlands (multi-country)",
+    "amount": "Erasmus Mundus scholarship (check official page)",
+    "deadline": "2026-12-31T23:59:00+01:00",
+    "dlText": "31 Dec 2026 (non-European applicants); 15 Jan 2027 (European); time not stated",
+    "tags": [
+      "Erasmus Mundus",
+      "~15 full scholarships/year",
+      "Reference letter required"
+    ],
+    "fields": "Law and economics",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Applications for 2027/2028 opened 1 Sep 2026. Also targeted places for Sub-Saharan Africa and the Western Balkans, and an outreach fee waiver.",
+    "url": "https://emle.org/application-2/",
+    "source": "https://emle.org/application-for-the-emle-2027-2028-open/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "emjm-ssi2",
+    "name": "Joint International Master in Semiconductor ChipS Integration and Innovation (SSI²)",
+    "host": "University of South-Eastern Norway (USN) and consortium partners",
+    "country": "Norway (multi-country)",
+    "amount": "Erasmus Mundus scholarship (check official page)",
+    "deadline": "2027-01-10T23:59:00+01:00",
+    "dlText": "10 Jan 2027 (EM scholarship and non-EU applicants; time not stated)",
+    "tags": [
+      "Erasmus Mundus",
+      "Starts autumn 2027",
+      "Grant pending"
+    ],
+    "fields": "Semiconductors, smart systems integration, microelectronics",
+    "fieldCats": [
+      "engineering"
+    ],
+    "note": "Successor to the SSIs master. Scholarships depend on the EU grant agreement, expected mid-Nov 2026. EU/EEA self-funded deadline 15 Apr.",
+    "url": "https://www.usn.no/english/academics/semiconductor-chips-integration-and-innovation/",
+    "source": "https://www.usn.no/english/academics/semiconductor-chips-integration-and-innovation/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "emjm-mespom",
+    "name": "MESPOM – Erasmus Mundus Master in Environmental Sciences, Policy and Management",
+    "host": "Central European University (CEU) and consortium partners",
+    "country": "Austria (multi-country)",
+    "amount": "Erasmus Mundus scholarship (check official page)",
+    "deadline": "2027-01-07T23:59:00+01:00",
+    "dlText": "7 Jan 2027, 23:59 CET (scholarship applicants)",
+    "tags": [
+      "Erasmus Mundus",
+      "Apply via CEU",
+      "Decisions from Apr 2027"
+    ],
+    "fields": "Environmental science, policy and management",
+    "fieldCats": [
+      "sciences",
+      "social"
+    ],
+    "note": "2027–2029 intake. Self-funded deadlines 15 Apr 2027 (visa needed) and 15 Jul 2027 (visa-free).",
+    "url": "https://mespom.eu/call-applications-2027-2029",
+    "source": "https://mespom.eu/call-applications-2027-2029"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "emjm-emship",
+    "name": "EMship+ – Erasmus Mundus Master in Advanced Design in Ship and Offshore Structures",
+    "host": "EMship consortium",
+    "country": "Belgium (multi-country)",
+    "amount": "Erasmus+ scholarship of €1,400/month (per programme page; confirm for 2027)",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "~31 Jan 2027 (estimated; recurring scholarship deadline, time not stated)",
+    "expected": true,
+    "tags": [
+      "Erasmus Mundus",
+      "Naval architecture degree",
+      "Results by end of March"
+    ],
+    "fields": "Naval architecture, marine and offshore engineering",
+    "fieldCats": [
+      "engineering"
+    ],
+    "note": "Applications for 2027–2028 are open. Self-funded deadlines 1 Apr (visa needed) and 1 Jun. Confirm that EM scholarships are offered for 2027.",
+    "url": "https://emship.eu/how-to-apply/",
+    "source": "https://emship.eu/tuition-fees-scholarships/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "emjm-choreomundus",
+    "name": "Choreomundus – International Master in Dance Knowledge, Practice and Heritage",
+    "host": "Choreomundus consortium",
+    "country": "France (multi-country)",
+    "amount": "€1,400/month for 24 months (15 places in 2026; 2027 numbers not published)",
+    "opens": "2026-10-15",
+    "deadline": "2027-02-01T23:59:00+02:00",
+    "dlText": "~1 Feb 2027, 23:59 EET (estimated from 2026 cycle)",
+    "expected": true,
+    "tags": [
+      "Erasmus Mundus",
+      "Fee waivers for 15 more",
+      "Dance/heritage focus"
+    ],
+    "fields": "Dance anthropology, ethnochoreology, intangible cultural heritage",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Applications for 2027/2028 opened 15 Oct 2026. In 2026, 15 students got €1,400/month and 15 more got full fee waivers.",
+    "url": "https://choreomundus.org/for-applicants/funding/",
+    "source": "https://choreomundus.org/for-applicants/funding/"
   }
 ]

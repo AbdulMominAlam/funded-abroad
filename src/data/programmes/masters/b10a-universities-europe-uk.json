@@ -483,5 +483,707 @@
     "note": "Selection on study results and a motivation letter; results by end of April. The scholarship-specific deadline for 2027 was not confirmed—check the page.",
     "url": "https://www.su.se/english/education/how-to-apply/costs-fees-and-scholarships/scholarships",
     "source": "https://www.su.se/english/education/how-to-apply/costs-fees-and-scholarships/scholarships"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "dtu-tuition-waiver",
+    "name": "DTU Tuition Fee Waiver for Non-EU/EEA MSc Students",
+    "host": "Technical University of Denmark (DTU)",
+    "country": "Denmark",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition fee waiver for the 2-year MSc (no living costs)",
+    "opens": "2026-12-01",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "15 Jan 2027 (MSc application deadline, time not stated); estimated from the standing schedule",
+    "expected": true,
+    "tags": [
+      "Non-EU/EEA/Swiss",
+      "Separate waiver statement with MSc application",
+      "Autumn intake only",
+      "Very limited number"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "fields": "DTU MSc programmes (engineering, CS, sciences)",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Include a separate statement labelled as a tuition fee waiver application when you submit the MSc application, or you are not considered. Merit-based; results in April.",
+    "url": "https://www.dtu.dk/english/education/graduate/fees-and-funding/tuition_fee_waivers",
+    "source": "https://www.dtu.dk/english/education/graduate/fees-and-funding/tuition_fee_waivers"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ku-danish-govt-scholarship",
+    "name": "University of Copenhagen Danish Government Scholarship (Master's)",
+    "host": "University of Copenhagen",
+    "country": "Denmark",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full or partial tuition fee waiver, in some cases plus a grant for basic living expenses",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "15 Jan 2027 master's application deadline for non-EU applicants (time not stated); estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "Non-EU/EEA/Swiss fee-payers",
+      "Automatic, no separate application",
+      "Merit-based",
+      "Few awards in some faculties"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "fields": "Any KU master's programme (thresholds vary by faculty)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "All admitted fee-paying applicants are considered automatically; decisions can come after you are charged the fee, which is then refunded.",
+    "url": "https://www.ku.dk/studies/masters/application-and-admission/scholarships",
+    "source": "https://www.ku.dk/studies/masters/application-and-admission/tuition-fees-and-scholarships"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "aarhus-danish-state-scholarship",
+    "name": "Aarhus University Danish State Scholarship (Master's)",
+    "host": "Aarhus University",
+    "country": "Denmark",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition waiver; at some faculties (Arts, Aarhus BSS) also a monthly grant",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "Apply for the master's by 15 Jan 2027 (summer admission; time not stated)",
+    "tags": [
+      "Non-EU/EEA/Swiss",
+      "Automatic with admission",
+      "2-year master's"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "fields": "English-taught two-year master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Offers come with the admission letter. Natural and Technical Sciences give tuition waivers only; Arts and Aarhus BSS add a monthly living grant.",
+    "url": "https://masters.au.dk/scholarships-and-grants",
+    "source": "https://kandidat.au.dk/en/admission/tuition-fees-and-scholarships/scholarship-programmes/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "tampere-tuition-scholarship",
+    "name": "Tampere University Tuition Fee Scholarship (Master's)",
+    "host": "Tampere University",
+    "country": "Finland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "50% of the €12,000/year tuition fee for the programme duration (rarely 100%)",
+    "opens": "2026-12-14",
+    "deadline": "2027-01-07T15:00:00+02:00",
+    "dlText": "7 Jan 2027, 15:00 EET (application period 14 Dec 2026–7 Jan 2027; exact time not stated, 15:00 is the usual Studyinfo closing time)",
+    "tags": [
+      "Non-EU/EEA/Swiss",
+      "Considered at admission",
+      "Highly competitive (9 awards in 2026)"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "fields": "Tampere University English-taught master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Only a handful of scholarships are awarded across all programmes; accept your study place by 31 May 2027 to keep it. Results by 23 Mar 2027.",
+    "url": "https://www.tuni.fi/en/study-with-us/apply-to-tampere-university/financial-matters/scholarships",
+    "source": "https://www.tuni.fi/en/tau/masters-programmes/applying"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unil-masters-grant",
+    "name": "UNIL Master's Grant",
+    "host": "University of Lausanne (UNIL)",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Monthly grant (below the ~CHF 2,000/month cost of living in Lausanne); check official page",
+    "deadline": "2026-11-01T23:59:00+01:00",
+    "dlText": "1 Nov 2026 (time not stated) – closed for 2027 entry",
+    "nextText": "Next round ~1 Nov 2027",
+    "tags": [
+      "Foreign-university graduates",
+      "10 grants a year",
+      "2 recommendation letters"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Graduates of a foreign (non-Swiss) university with excellent academic results."
+    },
+    "fields": "Any UNIL master's programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Ten excellence grants each year; online registration, one PDF and two referee emails to mastergrants@unil.ch by 1 November.",
+    "url": "https://www.unil.ch/unil/en/home/menuinst/etudier/mobilite-et-echange/etudiantes-et-etudiants-internationaux/etudiantes-internationaux-reguliers/bourse-de-master.html",
+    "source": "https://www.unil.ch/unil/en/home/menuinst/etudier/mobilite-et-echange/etudiantes-et-etudiants-internationaux/etudiantes-internationaux-reguliers/bourse-de-master.html"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "iheid-masters-financial-aid",
+    "name": "Geneva Graduate Institute Master's Financial Aid",
+    "host": "Geneva Graduate Institute (IHEID)",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full or partial scholarship or tuition reduction (scholarships up to CHF 20,000/year)",
+    "deadline": "2027-01-14T23:59:00+01:00",
+    "dlText": "14 Jan 2027 (time not stated); no aid in the March round",
+    "tags": [
+      "Need- and merit-based",
+      "January round only",
+      "10–15% of admitted get aid"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "International affairs, development, economics, law, political science, anthropology",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Request aid in your master's application by the January deadline with a cover letter and proof of income; second-year renewal must be requested between April and May.",
+    "url": "https://www.graduateinstitute.ch/financialaid",
+    "source": "https://www.graduateinstitute.ch/fees-financial-aid"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "sciencespo-boutmy-masters",
+    "name": "Émile Boutmy Scholarship (Master's)",
+    "host": "Sciences Po",
+    "country": "France",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€18,500 tuition exemption per year for 2 years (€37,000)",
+    "deadline": "2026-11-29T23:59:00+01:00",
+    "dlText": "29 Nov 2026 (2nd committee; time not stated); 1st committee closed 18 Oct",
+    "tags": [
+      "Non-EU, household not EU taxpayer",
+      "First-time Sciences Po applicants",
+      "Two-year master's only"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "fields": "Sciences Po two-year master's (except journalism)",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Tick the scholarship in the application's financial section and submit before the scholarship deadline, which is earlier than the programme deadline. One-year master's are not eligible.",
+    "url": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+    "source": "https://www.sciencespo.fr/admissions/en/graduate/international-admissions/deadlines/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "oxford-weidenfeld-hoffmann",
+    "name": "Weidenfeld-Hoffmann Scholarships and Leadership Programme",
+    "host": "University of Oxford",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full course fees and a living stipend, plus leadership programme",
+    "deadline": "2027-01-06T12:00:00+00:00",
+    "dlText": "Your course's Dec 2026 or Jan 2027 deadline (e.g. 6 Jan 2027, 12:00 UK time)",
+    "varies": true,
+    "tags": [
+      "Developing/emerging economies",
+      "Intend to return home",
+      "Eligible courses only",
+      "Interview in April"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Residents/nationals of eligible developing and emerging economies (list on Oxford's scholarship page); new full-time graduate students only."
+    },
+    "fields": "Selected one- and two-year master's (e.g. law, public policy, education, MBA/MFE)",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Select the scheme in the graduate application and add the Weidenfeld-Hoffmann statement; applications held over to March are not considered. Decisions by end of May 2027.",
+    "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-funding-and-scholarship-search/weidenfeld-hoffmann-scholarships-and-leadership-programme",
+    "source": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-funding-and-scholarship-search/weidenfeld-hoffmann-scholarships-and-leadership-programme"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "oxford-pershing-square",
+    "name": "Oxford-Pershing Square Graduate Scholarship",
+    "host": "University of Oxford (Saïd Business School)",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition, college fees and living expenses for both the master's year and the MBA year",
+    "deadline": "2027-01-06T12:00:00+00:00",
+    "dlText": "6 Jan 2027 for the 1+1 MBA (time per Oxford noon convention); master's by its own Dec/Jan deadline",
+    "tags": [
+      "1+1 MBA (master's + MBA)",
+      "Social-impact focus",
+      "Up to 5 awards"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "One-year Oxford master's followed by the MBA",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "You must be admitted to both the one-year master's and the MBA; upload the scholarship essay in the Funding section of the 1+1 MBA application.",
+    "url": "https://www.sbs.ox.ac.uk/oxford-experience/scholarships-and-funding/oxford-pershing-square-graduate-scholarships",
+    "source": "https://www.sbs.ox.ac.uk/oxford-experience/scholarships-and-funding/oxford-pershing-square-graduate-scholarships"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cambridge-trust-masters-intl",
+    "name": "Cambridge Trust Masters Studentship (International Fees)",
+    "host": "Cambridge Trust, University of Cambridge",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "University tuition fee at the international rate (plus college fee for MASt)",
+    "deadline": "2027-01-06T23:59:00+00:00",
+    "dlText": "Course funding deadline: 8 Dec 2026 or 6 Jan 2027 depending on course (time not stated)",
+    "varies": true,
+    "tags": [
+      "International fee-payers",
+      "No prior master's/PhD",
+      "Tick funding box in admissions application"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Applicants paying the international fee rate who do not already hold (or are about to receive) a master's or PhD."
+    },
+    "fields": "One-year postgraduate courses in any subject (not premium-rate courses)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "No separate application: apply for admission by your course's funding deadline and indicate you want funding. Maintenance is not included.",
+    "url": "https://www.cambridgetrust.org/scholarship/cambridge-masters-studentship-international/",
+    "source": "https://www.postgraduate.study.cam.ac.uk/funding"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ucl-global-masters",
+    "name": "UCL Global Master's Scholarship",
+    "host": "University College London",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "£15,000 for one year (split over two years for 2-year programmes)",
+    "deadline": "2027-05-06T17:00:00+01:00",
+    "dlText": "Early May 2027, 17:00 BST (estimated from 2026 cycle: 7 May 2026)",
+    "expected": true,
+    "tags": [
+      "Overseas fee status",
+      "Lower-income background",
+      "Complete UCL application",
+      "85 awards"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Overseas-fee-paying applicants from lower-income backgrounds, studying full-time in person."
+    },
+    "fields": "Any full-time UCL taught master's",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Needs-based; you must have a complete master's application (with references) before applying. Distance-learning programmes are excluded.",
+    "url": "https://www.ucl.ac.uk/scholarships/ucl-global-masters-scholarship",
+    "source": "https://www.ucl.ac.uk/study/prospective-students/graduate/funding-your-masters"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "bicocca-international-scholarship",
+    "name": "Bicocca International Scholarship",
+    "host": "University of Milano-Bicocca",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€10,000/year (gross) + tuition fee exemption, for 2 years",
+    "deadline": "2027-03-15T23:59:00+01:00",
+    "dlText": "Be admitted and confirm enrolment by ~15 Mar 2027 (estimated from 2026 cycle)",
+    "expected": true,
+    "tags": [
+      "Non-Italian citizens",
+      "Previous degree from abroad",
+      "Not living in Italy",
+      "Automatic"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Non-Italian citizens (dual Italian citizens eligible) with a foreign degree who do not currently live in Italy."
+    },
+    "fields": "English-taught master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Top-ranked admitted student(s) per English-taught programme are awarded automatically; renewal needs 40 then 60 ECTS.",
+    "url": "https://en.unimib.it/study/information-international-students/bicocca-international-scholarship",
+    "source": "https://en.unimib.it/sites/sten/files/2026-01/Bando%20BISP%202026_2027.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unitn-intl-scholarship",
+    "name": "UniTrento Scholarships for International Students (Master's)",
+    "host": "University of Trento",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition exemption + scholarship (2026 page: €7,200/year; €8,500 for women in STEM); check official call",
+    "deadline": "2027-03-04T12:00:00+01:00",
+    "dlText": "~4 Mar 2027, 12:00 CET admission call deadline (estimated from 2026 cycle; varies by programme)",
+    "expected": true,
+    "tags": [
+      "Non-EU citizens",
+      "Awarded via admission ranking",
+      "Score ≥90/100 in some calls"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "fields": "English-taught master's (CS, data science, engineering, economics, international studies…)",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "No separate scholarship application: top-ranked non-EU applicants in each programme's admission call get the award; renewable for year 2 with enough credits.",
+    "url": "https://www.unitn.it/en/study/fees-scholarships-accommodation/scholarships-and-awards/scholarships-international-students",
+    "source": "https://www.unitn.it/en/study/fees-scholarships-accommodation/scholarships-and-awards/scholarships-international-students"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "uga-idex-master",
+    "name": "UGA IdEx Master Scholarships",
+    "host": "Université Grenoble Alpes",
+    "country": "France",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€9,000 for M1 year, €5,500 for M2 year (2026-27 call); tuition not covered",
+    "opens": "2026-12-11",
+    "deadline": "2027-07-31T23:59:00+02:00",
+    "dlText": "~31 Jul 2027 overall window (estimated from 2026-27 call); programme deadlines often earlier",
+    "expected": true,
+    "tags": [
+      "International students",
+      "Apply via your master's application",
+      "One year, re-apply for M2"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students applying to a UGA master's or engineering degree."
+    },
+    "fields": "UGA master's and engineering programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Paid in two halves (October and February). Each degree sets its own application calendar, so check your programme's dates.",
+    "url": "https://www.univ-grenoble-alpes.fr/call-for-applications-idex-master-scholarships-2026-2027-academic-year-1545508.kjsp",
+    "source": "https://www.univ-grenoble-alpes.fr/universite/ambition-et-strategie/l-initiative-d-excellence-idex/les-appels-a-projets/appels-a-candidatures-bourses-de-master-idex-pour-l-annee-universitaire-2026-2027-1545489.kjsp"
   }
 ]
