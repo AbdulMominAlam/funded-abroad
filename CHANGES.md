@@ -2,15 +2,15 @@
 
 Branch: `v4-data`, started from `v3-global`. Work date: **4 Nov 2026**, used for every `verifiedOn`.
 
-## Status: PARTIAL. The 550-programme target was not reached (309 after session 2)
+## Status: PARTIAL. The 550-programme target was not reached (373 after session 3)
 
 | | v3 | **v4 now** | Target |
 | --- | --- | --- | --- |
-| Total programmes | 106 | **309** | 550+ |
+| Total programmes | 106 | **373** | 550+ |
 | Internships / summer research | 6 | **112** | 120+ |
-| Undergraduate | 36 | **72** | 130+ |
-| Master's | 61 | **89** | 160+ |
-| PhD | 48 | **97** | 140+ |
+| Undergraduate | 36 | **130** ✅ | 130+ |
+| Master's | 61 | **112** | 160+ |
+| PhD | 48 | **110** | 140+ |
 
 Some programmes count toward more than one level.
 
@@ -208,6 +208,76 @@ Four batches ran in parallel this time, each capped at about 40 searches. They u
 
 **Next session:** internships are near target (112/120). Prioritise **undergraduate** next (batches 6, 7a, 7b, 8), then master's (9, 10a, 10b, 11), at most 4 batches and about 40 searches each.
 
+## Session 3 (resumed): undergraduate
+
+Four batches ran in parallel, each capped at about 40 searches. They used about 123 searches in total. After every batch, `npm run validate-data` and `npm test` (107 tests) passed before the commit and push.
+
+| Batch | Added | Highlights |
+| --- | --- | --- |
+| 6 UG government | +19 (file now 25) | Al-Azhar, King Saud University, King Abdulaziz University, Algeria, Cuba ELAM, Study in Kazakhstan, Azerbaijan Heydar Aliyev, World in Serbia, Kalinowski (Poland), Mauritius-Africa, Manaaki Pacific, HEC Allama Iqbal (×2), Kuwait University, Beijing / Shanghai / Jiangsu government scholarships, Bulgaria Decree 103, Croatia |
+| 7a US/Canada UG aid | +14 (file now 32) | Northwestern, Vanderbilt, Rice, WashU, Carleton College, Hamilton, Haverford, Colgate, Bates, Macalester, Trinity (Hartford), Berea, UBC Wehrung, York PISE |
+| 7b UG outside N. America | +20 (file now 29) | SMU, CUHK, HKUST, Ritsumeikan APU, Yonsei UIC, KFUPM, Khalifa, Korea University, UNIST, SNU, Duke Kunshan, Monash, UNSW, Sydney, ANU, ER.GO and DiSCo Lazio regional grants, SJTU, Ashesi, ALU |
+| 8 Foundations | +11 (file now 12) | Tata at Cornell, Thai King's Scholarship, Zawadi Africa, Jardine (postgraduate), Rise, Khazanah, Inlaks, Said Foundation, Beit Trust, Mandela Rhodes, Swire at St Antony's |
+
+**Total now 373:** undergraduate **130 (target met)**, internships 112, master's 112, PhD 110. Master's and PhD went up because several foundation schemes fund those levels.
+
+**Coordinator fixes:**
+* `berea-intl`: the official page gives no year, so the date is marked `expected`.
+* `jardine-oxbridge`: kept as master's/PhD only and marked rolling. Two research passes disagreed about whether undergraduate awards continue after 2026.
+* `ksu-external`: set to partial, because only a stipend was confirmed.
+* `jiangsu-jasmine`: the amount was softened, because the only source is a provincial study site of unclear official status.
+
+**Least certain (session 3):**
+
+| Entry | Issue |
+| --- | --- |
+| `colgate-aid`, `trinity-hartford-aid` | two official dates (15 vs 22 Jan, 15 vs 17 Jan); used 15 Jan, `expected` |
+| `vanderbilt-aid` | application date estimated (aid date official) |
+| `ubc-wehrung` | "full tuition and living" wording from a 2024–25 Board report |
+| `kfupm-intl-ug` | international page says full scholarship; an older page says non-Saudis pay tuition |
+| `smu-lkcsp` | international eligibility only implied (`check`) |
+| `cuhk-admission-ug` | HK$5,000 to full tuition, so many awards are under 50% |
+| `anu-chancellors-intl-ug` | 50% tier from 2023–25 pages |
+| `alu-mandela` | mainly tuition; Africans only |
+| `al-azhar-intl` | old pages; benefits unknown |
+| `kuwait-univ-cultural` | amount and window unknown |
+| `azerbaijan-heydar-aliyev` | levels unclear |
+| `rise-global` | date estimated from the 2023–24 cycle |
+| `thai-kings-scholarship` | date estimated from Oct 2024; probably closed |
+| `khazanah-global` | official pages disagree on direct undergraduate entry |
+| `zawadi-africa` | amount not stated; date estimated |
+
+**Dropped (session 3):**
+
+| Candidate | Reason |
+| --- | --- |
+| Umm Al-Qura | No current scheme for international students |
+| Tunisia, Uzbekistan | No government scheme for incoming foreign students |
+| HKSAR Government Scholarship | HK$80k is under 50% of non-local tuition |
+| KNB undergraduate | Duplicate of `knb-indonesia` |
+| Soka | Full-need policy for international students not confirmed |
+| McGill, UBC IMES, U of T Scholars, Waterloo, Carleton U | Awards under 50% of tuition |
+| Concordia | PhD only |
+| NYU Abu Dhabi | Full need not stated on an official page |
+| Waseda | Small awards |
+| UTokyo PEAK | Ended |
+| Tsinghua | Only CSC, already listed |
+| Zhejiang | Tuition-only, unclear |
+| SMU Global Impact | Singaporeans only |
+| Boğaziçi | No international aid |
+| Özyeğin | No 100% tier |
+| Melbourne | No fitting award |
+| Auckland | Now a master's award |
+| ESU Padova | No current call |
+| HKUST Global Learners | Amount unclear |
+| Hani Qaddumi | No official site found |
+| Higherlife | Funds study at home |
+| Jardine–HKU | Local students only |
+| K.C. Mahindra | Loan |
+| Ashinaga | No current open cycle |
+
+**Next session:** master's (batches 9, 10a, 10b, 11) are 112 of 160, then PhD (12, 13, 14) at 110 of 140. Run at most 4 batches of about 40 searches each.
+
 ## How to resume (next session)
 
 1. `git checkout v4-data && git log --oneline | head`, then read this section.
@@ -224,10 +294,10 @@ Four batches ran in parallel this time, each capped at about 40 searches. They u
 | 3 | ✅ Resumed in session 2. Left: a few more open-to-international US/Canadian programmes, if any can be found |
 | 4 | ✅ Resumed in session 2. Left: none with official programme pages |
 | 5 | ✅ Resumed in session 2. Left: UN-Habitat, UNEP (unpaid), ITU/UNESCO (unpaid) |
-| 6 | Al-Azhar, KSU, KAU, Umm Al-Qura, Algeria, Tunisia, Cuba ELAM, Indonesia KNB (UG), Kazakhstan, Azerbaijan, Uzbekistan, Serbia, Poland Kalinowski, Mauritius-Africa, Manaaki Pacific, Allama Iqbal, Kuwait University, Chinese provincial schemes |
-| 7a | Northwestern, Vanderbilt, Rice, WashU, Carleton, Hamilton, Haverford, Colgate, Bates, Macalester, Trinity, Berea, Soka; McGill, UBC IMES, U of T Scholars, Waterloo, York, Carleton U, Concordia |
-| 7b | SMU, CUHK, HKUST, Japan, Korea, China, KFUPM, Khalifa, NYUAD, DKU, Australia/NZ, ALU, Ashesi, Italian DSU, Türkiye extras |
-| 8 | Thai King's, Tata/Cornell, Zawadi, Higher Life, Inlaks, Said, Beit Trust, Mandela Rhodes, Khazanah, Hani Qaddumi, Jardine–HKU |
+| 6 | ✅ Resumed in session 3. Left: none (Umm Al-Qura, Tunisia, Uzbekistan dropped) |
+| 7a | ✅ Resumed in session 3. Left: none |
+| 7b | ✅ Resumed in session 3. Left: Keio, Science Tokyo, Fudan, İTÜ, Canterbury (not searched) |
+| 8 | ✅ Resumed in session 3. Left: Tullow, Hope for Haiti, Sir Ratan Tata (not searched) |
 | 9 | Fulbright country commissions, NAWA, Estonia, Lithuania, AMCI master's, AMEXCID, AGCID, PEC-PG, ICCR PG, Manaaki other regions |
 | 10a | DTU, Copenhagen, Aarhus, Finland, Switzerland, Italy, France, UK |
 | 10b | GRIPS, Hitotsubashi, APU, Japanese universities, Yonsei, Korea University, Chinese universities, HK MPhil, NUS/NTU research master's, Taiwan, Khalifa, KFUPM, HBKU, QU, Adelaide, Melbourne, Auckland, Otago, Waterloo, Toronto, UBC, Concordia |
