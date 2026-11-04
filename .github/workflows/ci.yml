@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+# Uncomment together with the deploy job below to publish to GitHub Pages.
+# permissions:
+#   contents: read
+#   pages: write
+#   id-token: write
+#
+# concurrency:
+#   group: pages
+#   cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate scholarship data
+        run: npm run validate-data
+      - name: Unit tests
+        run: npm test
+      - name: Build
+        run: npm run build
+      - name: Upload Pages artifact
+        # Harmless when Pages is not enabled; used by the deploy job below.
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  # Deploy to GitHub Pages (disabled). To enable:
+  #  1. Settings → Pages → Source: "GitHub Actions"
+  #  2. Uncomment the permissions/concurrency block above and this job.
+  #
+  # deploy:
+  #   needs: check
+  #   if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+  #   runs-on: ubuntu-latest
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   steps:
+  #     - id: deployment
+  #       uses: actions/deploy-pages@v4
