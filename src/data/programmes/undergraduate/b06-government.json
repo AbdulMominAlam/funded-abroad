@@ -231,5 +231,722 @@
     "url": "https://www.amci.ma/cooperation-academique",
     "source": "https://www.amci.ma/cooperation-academique",
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "al-azhar-intl",
+    "name": "Al-Azhar University Scholarships for International Students",
+    "host": "Al-Azhar University (Center for Education Development of Expatriate Students)",
+    "country": "Egypt",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page",
+    "rolling": true,
+    "dlText": "No single date; apply through the Al-Azhar scholarship portal or your country’s channel",
+    "tags": [
+      "Arabic institute first if no Arabic",
+      "Age under 30 for Arabic route",
+      "Certificate equivalence needed"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Foreign (mostly Muslim) students applying from outside Egypt; quotas and terms depend on your country"
+    },
+    "fields": "Religious-studies and non-religious faculties of Al-Azhar",
+    "note": "Al-Azhar runs a scholarship application for students applying from outside Egypt. Non-Arabic speakers may first spend up to two years at the Al-Azhar Institute of Arabic.",
+    "url": "https://azhar.eg/foreignstudent/Scholarship",
+    "source": "https://azhar.eg/foreignstudent/en/Applying-from-outside-of-Egypt",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ksu-external",
+    "name": "King Saud University External Scholarships (Non-Saudi Students)",
+    "host": "King Saud University",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Scholarship with stipend (check official page for benefits)",
+    "rolling": true,
+    "dlText": "Window announced each year on the Study in Saudi platform",
+    "tags": [
+      "Age 17–25",
+      "Diploma ≤5 years old",
+      "SAT ≥1010 may apply",
+      "Medical exam"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SA"
+      ]
+    },
+    "fields": "Bachelor’s programmes at KSU (interview for medicine/dentistry)",
+    "note": "For international applicants living outside Saudi Arabia, applied for through Study in Saudi. You must not already hold a bachelor’s degree, and your home government may need to approve study in Saudi Arabia.",
+    "url": "https://dar.ksu.edu.sa/en/scholarships",
+    "source": "https://dar.ksu.edu.sa/en/scholarships",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kau-external",
+    "name": "King Abdulaziz University External Scholarships for International Students",
+    "host": "King Abdulaziz University",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition, housing, health care, monthly stipend, arrival allowance and tickets",
+    "rolling": true,
+    "dlText": "Application window announced on the KAU scholarship portal (no 2027 dates yet)",
+    "tags": [
+      "Age 17–25 (UG/Arabic diploma)",
+      "Two recommendation letters",
+      "Govt approval may be needed",
+      "Female applicants need mahram"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SA"
+      ]
+    },
+    "fields": "Arabic diploma, bachelor’s and postgraduate programmes",
+    "note": "An admissions committee nominates candidates and the Ministry of Education gives final approval, which can take 3–8 months after the deadline. You cannot hold another Saudi scholarship.",
+    "url": "https://kau.edu.sa/en/page/external-scholarships-for-international-students",
+    "source": "https://kau.edu.sa/en/page/scholarship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "algeria-gov",
+    "name": "Algerian Government Scholarships for International Students",
+    "host": "Ministry of Higher Education and Scientific Research, Algeria",
+    "country": "Algeria",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Monthly grant (check official page; posted rates are old)",
+    "rolling": true,
+    "dlText": "Set under bilateral agreements; ask your ministry or the Algerian embassy",
+    "tags": [
+      "Bilateral cooperation",
+      "About 3,000 grantees a year",
+      "Apply via your government"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of countries with Algerian cooperation agreements (mainly Africa and the Arab world), usually nominated by their own government"
+    },
+    "residencyRequired": true,
+    "nominationBody": "Your government / Algerian embassy",
+    "fields": "Licence, master and doctorate in most fields",
+    "note": "Algeria hosts about 3,000 international scholarship students a year under its national grant and bilateral programmes. The separate fee-paying \"Study in Algeria\" scheme is not a scholarship.",
+    "url": "https://www.mesrs.dz/fr/mobilite-entrante-formation-des-etudiants-internationaux/",
+    "source": "https://www.mesrs.dz/fr/mobilite-entrante-formation-des-etudiants-internationaux/",
+    "work": false,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "cuba-elam",
+    "name": "ELAM Medical Scholarship (Latin American School of Medicine)",
+    "host": "Escuela Latinoamericana de Medicina (ELAM), Government of Cuba",
+    "country": "Cuba",
+    "region": "global",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Cuban government scholarship (check official page; Cuban health insurance via ASISTUR is your own cost)",
+    "rolling": true,
+    "dlText": "Set by the Cuban embassy in your country",
+    "tags": [
+      "Age ≤25 at enrolment",
+      "Science high-school diploma",
+      "Preparatory course from Sept",
+      "HIV/health certificate"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of countries where Cuban missions offer ELAM places (mainly Latin America, the Caribbean and Africa); candidates are proposed via the Cuban embassy, health ministries or partner organisations"
+    },
+    "nominationBody": "Cuban embassy / your health ministry",
+    "fields": "Medicine (MD)",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Scholarships are processed through Cuban diplomatic missions; scholars must pass a preparatory course at ELAM first. Requirements vary by country and year, so ask the Cuban embassy.",
+    "url": "https://instituciones.sld.cu/elam/faqs/",
+    "source": "https://instituciones.sld.cu/elam/2025/05/14/informacion-actualizada-para-postular-a-la-elam/",
+    "residencyRequired": false,
+    "work": false,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "study-in-kazakhstan",
+    "name": "Study in Kazakhstan Scholarship Program for Foreign Citizens",
+    "host": "Government of Kazakhstan (operator: JSC Center for International Programs)",
+    "country": "Kazakhstan",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition + monthly allowance (no travel, housing, visa or insurance)",
+    "opens": "2026-03-30",
+    "deadline": "2026-05-31T23:59:00+05:00",
+    "dlText": "31 May 2026 (time not stated) · 2026 round closed (30 Mar – 31 May 2026)",
+    "nextText": "Next round expected ~Mar–May 2027 on studyin.kz (estimated from 2026 cycle)",
+    "tags": [
+      "490 bachelor’s places (2026)",
+      "\"Good\" school grades",
+      "Essay in KZ/RU/EN"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KZ"
+      ]
+    },
+    "fields": "Programmes at leading Kazakh universities",
+    "note": "The 2026 round offered 550 places (490 bachelor’s, 50 master’s, 10 PhD); 13,723 people from 57 countries applied in 2025. Ethnic Kazakhs without Kazakh citizenship are also eligible.",
+    "url": "https://bolashak.gov.kz/en/scholarship-program",
+    "source": "https://bolashak.gov.kz/en/allnews/application-process-has-begun-scholarship-program-foreign-students-including-kazakhs-without-kazakhstani-citizenship-study-higher-andor-postgraduate-education-institutions",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "azerbaijan-heydar-aliyev",
+    "name": "Heydar Aliyev International Education Grant",
+    "host": "Government of Azerbaijan (Ministries of Foreign Affairs and Science & Education)",
+    "country": "Azerbaijan",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition, international flights, monthly allowance, medical insurance, visa/registration costs",
+    "deadline": "2026-04-15T23:59:00+04:00",
+    "dlText": "15 Apr 2026 (time not stated) · 2026-27 round closed",
+    "nextText": "Next round expected ~spring 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Govt nomination required",
+      "UG/medicine under 35",
+      "100 grants a year"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of OIC and Non-Aligned Movement member states, Small Island Developing States and countries with ties to Azerbaijan; not Azerbaijani citizens"
+    },
+    "nominationBody": "Your government (ministry or embassy)",
+    "fields": "Programmes at Azerbaijani universities, incl. general medicine",
+    "note": "About 100 grants a year; your own government must formally nominate you, and nomination does not guarantee an award. Questions go to scholars@mfa.gov.az.",
+    "url": "https://www.studyinazerbaijan.edu.az/financial-support",
+    "source": "https://studyinazerbaijan.edu.az/H.Aliyev_IEG_CALL_18.04.pdf",
+    "residencyRequired": false,
+    "work": false,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "world-in-serbia",
+    "name": "World in Serbia Scholarships",
+    "host": "Government of Serbia (Ministry of Education)",
+    "country": "Serbia",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "RSD 18,000/month + free dorm housing and meals + free Serbian language year",
+    "opens": "2026-05-18",
+    "deadline": "2026-06-26T23:59:00+02:00",
+    "dlText": "26 Jun 2026 (extended; time not stated) · 2026/27 call closed",
+    "nextText": "Next call expected ~May–Jun 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "NAM countries only",
+      "Nominated by your government",
+      "Under 21 for bachelor’s",
+      "Serbian language year first"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of Non-Aligned Movement member or observer states, proposed by their country’s competent authority"
+    },
+    "nominationBody": "Your government, via the Serbian embassy",
+    "fields": "Degree programmes at Serbian public universities",
+    "note": "Scholars spend a year learning Serbian (2026/27) and then start their degree (2027/28). Applications go through Serbian diplomatic-consular missions.",
+    "url": "https://prosveta.gov.rs/skolski-i-studentski-zivot/stipendije/stipendije-srbije-stranim-studentima/stipendije-svet-u-srbiji/",
+    "source": "https://prosveta.gov.rs/vesti/produzen-rok-za-prijavu-za-kandidata-za-projekat-svet-u-srbiji/",
+    "residencyRequired": false,
+    "work": false,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kalinowski-poland",
+    "name": "Konstanty Kalinowski Scholarship Programme (Polish Government, for Belarusians)",
+    "host": "Centre for East European Studies, University of Warsaw (funded by Polish Ministry of Science)",
+    "country": "Poland",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Monthly stipend (check official page for current rate)",
+    "rolling": true,
+    "dlText": "Check the programme site for this year’s recruitment dates",
+    "tags": [
+      "Belarusian citizens only",
+      "Barred from study for political reasons",
+      "Up to 5 years"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BY"
+      ]
+    },
+    "fields": "First-cycle, second-cycle and long-cycle degrees at Polish universities",
+    "note": "For Belarusians expelled or barred from Belarusian universities for political reasons (or Jakub Kolas Lyceum graduates) with no Polish/EU/EFTA/OECD residence rights. Over 2,900 people have joined since the start.",
+    "url": "https://studium.uw.edu.pl/program-im-kalinowskiego/",
+    "source": "https://studium.uw.edu.pl/wp-content/uploads/2026/03/Kalinowski_2026_Program-I_EN.pdf",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mauritius-mass",
+    "name": "Mauritius–Africa Scholarship Scheme (MASS)",
+    "host": "Ministry of Tertiary Education, Science and Research, Mauritius",
+    "country": "Mauritius",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition (up to MUR 100,000 SADC / 160,000 others) + up to MUR 16,500/month + economy airfare",
+    "deadline": "2027-03-26T23:59:00+04:00",
+    "expected": true,
+    "dlText": "~26 Mar 2027 for nominating agencies (estimated from 2026 cycle: 27 Mar 2026); your agency sets an earlier date",
+    "tags": [
+      "Apply via national nominating agency",
+      "UG age 18–25",
+      "Public Mauritian institutions only",
+      "July/Sept intake"
+    ],
+    "eligibility": {
+      "type": "group",
+      "group": "african-union"
+    },
+    "residencyRequired": true,
+    "nominationBody": "Your national nominating agency",
+    "fields": "Full-time on-campus programmes at public institutions",
+    "note": "Open to resident citizens of African Union / African Commonwealth states (not Mauritians or self-funded students already in Mauritius). The 2027 edition call was posted in Oct 2026.",
+    "url": "https://tertiaryeducation.govmu.org/te/index.php/mass/",
+    "source": "https://tertiaryeducation.govmu.org/te/wp-content/uploads/2025/10/Guidelines-for-Applicants-undergraduate-2026.pdf",
+    "work": false,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "manaaki-pacific",
+    "name": "Manaaki New Zealand Scholarships (Pacific)",
+    "host": "New Zealand Ministry of Foreign Affairs and Trade",
+    "country": "New Zealand",
+    "region": "oceania",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full scholarship incl. insurance (check official page)",
+    "rolling": true,
+    "dlText": "Dates set per country on the official dates page; applications close at midday",
+    "tags": [
+      "Pacific countries only",
+      "Set subjects per country",
+      "IELTS 6.0 if shortlisted",
+      "Study in NZ or at USP/FNU"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of eligible Pacific countries (Fiji: postgraduate only; Cook Islands have a separate scheme)"
+    },
+    "residencyRequired": true,
+    "fields": "Priority subjects listed for each country",
+    "note": "Pacific citizens can study in New Zealand or, for some countries, at USP or Fiji National University. Scholars usually start in semester 1 of the year after applying.",
+    "url": "https://www.nzscholarships.govt.nz/types-of-manaaki-scholarships/",
+    "source": "https://www.nzscholarships.govt.nz/application-opening-and-closing-dates-for-your-country/",
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "hec-iqbal-afghan",
+    "name": "Allama Muhammad Iqbal Scholarships for Afghan Students (Phase III)",
+    "host": "Higher Education Commission (HEC), Pakistan",
+    "country": "Pakistan",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition, hostel dues, living allowance and book allowance",
+    "deadline": "2025-09-30T23:59:00+05:00",
+    "dlText": "30 Sep 2025 (time not stated) · last batch closed",
+    "nextText": "No newer call found; watch pakafghan.hec.gov.pk",
+    "tags": [
+      "Afghan nationals only",
+      "Online portal only",
+      "4,500 scholarships"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AF"
+      ]
+    },
+    "fields": "Most fields at Pakistani universities",
+    "note": "Pakistan’s 4,500-scholarship programme for Afghan students; apply only online at pakafghan.hec.gov.pk.",
+    "url": "https://www.hec.gov.pk/english/scholarshipsgrants/amisp",
+    "source": "https://www.hec.gov.pk/english/scholarshipsgrants/amisp/Pages/How-to-Apply.aspx",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "hec-iqbal-cafc",
+    "name": "Allama Muhammad Iqbal Scholarship for Central Asia & Friendly Countries",
+    "host": "Higher Education Commission (HEC), Pakistan",
+    "country": "Pakistan",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition, monthly stipend, accommodation allowance and airfare",
+    "rolling": true,
+    "dlText": "No current call found; check the HEC scholarship portal",
+    "tags": [
+      "Listed countries only",
+      "350 scholarships over 5 years"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of the listed Central Asian and friendly countries (e.g. KZ, UZ, TJ, KG, TM, AZ, JO, MV, UG, SD, NG, KE, TR, IR, MY, RU); see HEC list"
+    },
+    "fields": "Engineering, IT/CS, allied health, agriculture, business, social sciences, arts & architecture",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "350 fully funded places over five years for bachelor’s, master’s and PhD study in Pakistan. Bangladesh and Sri Lanka have separate Allama Iqbal schemes.",
+    "url": "https://www.hec.gov.pk/english/scholarshipsgrants/CAFC/Pages/default.aspx",
+    "source": "https://www.hec.gov.pk/english/scholarshipsgrants/CAFC/AMIC/Pages/default.aspx",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kuwait-univ-cultural",
+    "name": "Kuwait University Cultural Scholarships",
+    "host": "Kuwait University / Government of Kuwait",
+    "country": "Kuwait",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page",
+    "rolling": true,
+    "dlText": "Per semester via nominating body (last: 14–30 Dec 2025 for spring 2026)",
+    "tags": [
+      "Nomination required",
+      "Grades ≥ Kuwaiti minimum",
+      "Quotas per country"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of \"brotherly and friendly\" countries nominated by their embassy, the Ministry of Awqaf, charities or the UNESCO National Commission"
+    },
+    "nominationBody": "Your embassy / Kuwaiti Ministry of Foreign Affairs",
+    "fields": "Kuwait University programmes",
+    "note": "Government-to-government places; Kuwait sets numbers per country before April each year and nominations go through the Ministry of Foreign Affairs.",
+    "url": "https://vpaa.ku.edu.kw/scholarships-and-cultural-relations/scholarships",
+    "source": "https://do.ku.edu.kw/services/application-enrollment-students-cultural-scholarships",
+    "residencyRequired": false,
+    "work": false,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "beijing-gov-scholarship",
+    "name": "Beijing Government Scholarship for International Students",
+    "host": "Beijing Municipal Education Commission",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Category A: tuition, housing, living costs, insurance · B: no living costs · C: tuition + insurance",
+    "rolling": true,
+    "dlText": "Set by each university on the Studying in Beijing portal",
+    "tags": [
+      "UG age ≤25",
+      "HSK 4 or TOEFL 85 / IELTS 6.5",
+      "No other Chinese govt scholarship"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Degree programmes at Beijing universities",
+    "note": "Apply directly to the host university through the Studying in Beijing portal. Awards are reviewed every year.",
+    "url": "https://english.beijing.gov.cn/studyinginbeijing/news/202601/t20260123_4459326.html",
+    "source": "https://english.beijing.gov.cn/studyinginbeijing/news/202601/t20260123_4459326.html",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "shanghai-gov-scholarship",
+    "name": "Shanghai Government Scholarship for International Students",
+    "host": "Shanghai Municipal Education Commission",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Type A (full): RMB 59,200–66,200/yr for UG · Type B (tuition + insurance): RMB 20,800–27,800/yr",
+    "rolling": true,
+    "dlText": "Generally Feb–Apr each year; set by each university",
+    "tags": [
+      "UG age ≤25",
+      "HSK 4 usually",
+      "No other Chinese govt scholarship"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Degree programmes at Shanghai universities",
+    "note": "Apply via Study in Shanghai or your university (at SJTU it is folded into the university scholarship, no separate form). Figures from the 2024 guide.",
+    "url": "https://edu.sh.gov.cn/study_en_scholarships/20240904/5d8add31c7ce44a4b1e0d5bdfafe1495.html",
+    "source": "https://edu.sh.gov.cn/study_en_scholarships/20240904/5d8add31c7ce44a4b1e0d5bdfafe1495.html",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "jiangsu-jasmine",
+    "name": "Jiangsu Government Scholarship (Jasmine Jiangsu)",
+    "host": "Jiangsu Provincial Department of Education",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Check official page (a Jiangsu provincial study site lists CNY 30,000/year, but its official status is unclear)",
+    "rolling": true,
+    "dlText": "Set by each Jiangsu university (often after admission)",
+    "tags": [
+      "UG under 30",
+      "Apply via your university",
+      "One-year award"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Full-time programmes at Jiangsu universities",
+    "note": "Partial award for outstanding overseas students at Jiangsu universities; check your target university’s notice for dates and terms.",
+    "url": "https://cis.seu.edu.cn/hwenglish/Awards/list.htm",
+    "source": "https://cis.seu.edu.cn/hwenglish/Awards/list.htm",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "bulgaria-decree-103",
+    "name": "Bulgarian State-Funded Places for People of Bulgarian Origin (Decree 103/1993)",
+    "host": "Ministry of Education and Science, Bulgaria",
+    "country": "Bulgaria",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition-free state place; some places include maintenance (check official page)",
+    "rolling": true,
+    "dlText": "Annual campaign set by ministry order (2026 order dated 20 Mar 2026)",
+    "tags": [
+      "Bulgarian ethnicity required",
+      "Bulgarian language",
+      "Live abroad"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Foreign citizens or stateless people of Bulgarian ethnicity living abroad (confirmed by the Agency for Bulgarians Abroad); North Macedonian citizens under Decree 228"
+    },
+    "residencyRequired": true,
+    "fields": "Bachelor’s and master’s at Bulgarian state universities",
+    "note": "Not open to Bulgarian citizens or residents. Places are state-subsidised; check the ministry’s campaign page for dates.",
+    "url": "https://www.mon.bg/za-balgarite-zad-granitsa/obuchenie-v-balgariya/",
+    "source": "https://www.mon.bg/nfs/2022/06/1pravila_pms103-228_preim22-23_14062022.pdf",
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "croatia-gov",
+    "name": "Croatian Government Scholarships for Foreign Citizens",
+    "host": "Ministry of Science, Education and Youth, Croatia (with AMPEU)",
+    "country": "Croatia",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page",
+    "deadline": "2026-04-10T23:59:00+02:00",
+    "dlText": "10 Apr 2026 (time not stated) · 2026/27 call closed",
+    "nextText": "Next call expected ~Mar–Apr 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Bilateral-partner countries",
+      "Nomination by partner institution",
+      "Age ≤30"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of countries with a bilateral agreement with Croatia (e.g. BG, CN, CZ, GR, HU, IL, IT, XK, ME, MK, PL, PT, RO, SK, TR, UA); full BA/MA mainly for Croatian minorities in HU/RO/SK and Chinese citizens"
+    },
+    "nominationBody": "Foreign partner institution",
+    "fields": "Semester study, full degrees, PhD research; Croatian language",
+    "note": "Pool 1 is for bilateral-agreement countries; Pool 2 is for students of Croatian language abroad. Croatian residence-permit holders and students already enrolled in Croatia cannot apply.",
+    "url": "https://mzom.gov.hr/print.aspx?id=7588&url=print",
+    "source": "https://mzom.gov.hr/UserDocsImages/dokumenti/Engleski/2025/call-for-applications-croatia-2025-2026.pdf",
+    "residencyRequired": false,
+    "work": false,
+    "fieldCats": [
+      "any"
+    ],
+    "verifiedOn": "2026-11-04"
   }
 ]
