@@ -57,14 +57,27 @@
       </select>
       <select id="field" aria-label="Field"><option value="">All fields</option></select>
       <select id="region" aria-label="Region"><option value="">All regions</option></select>
+      <select id="funding" aria-label="Funding type"><option value="">Any funding</option></select>
+      <select id="within" aria-label="Deadline within">
+        <option value="0">Any deadline</option><option value="30">Deadline within 30 days</option><option value="60">Deadline within 60 days</option><option value="90">Deadline within 90 days</option>
+      </select>
+      <details class="multi" id="hosts-box">
+        <summary id="hosts-sum">Host country: any</summary>
+        <div class="multi-pop">
+          <label class="sr" for="hosts-q">Find a host country</label>
+          <input id="hosts-q" type="search" placeholder="Find a country…" autocomplete="off">
+          <div class="multi-list" id="hosts-list" role="group" aria-label="Host countries"></div>
+          <button type="button" class="act" id="hosts-clear">Clear</button>
+        </div>
+      </details>
       <select id="sort" aria-label="Sort">
         <option value="deadline">Sort: nearest deadline</option><option value="name">Sort: A–Z</option>
       </select>
     </div>
     <div class="row chips">
-      <button type="button" class="chip" id="f-full" aria-pressed="false">Fully funded only</button>
       <button type="button" class="chip" id="f-abroad" aria-pressed="false">No need to live in my home country</button>
       <button type="button" class="chip" id="f-nowork" aria-pressed="false">No work experience needed</button>
+      <button type="button" class="chip" id="f-nofixed" aria-pressed="false">Rolling / no fixed deadline</button>
       <button type="button" class="chip" id="f-saved" aria-pressed="false">★ Shortlist</button>
       <button type="button" class="chip" id="f-inel" aria-pressed="false" hidden>Show programmes I'm not eligible for</button>
       <button type="button" class="chip chip-ghost" id="f-clear" hidden>Clear filters</button>
@@ -109,7 +122,9 @@
 
   <p class="storage-warn" id="storage-warn" hidden>Your browser is blocking storage, so your shortlist and checklists will be lost when you close this page. Use “Export my data” to keep them.</p>
 
+  <p class="stats" id="stats" role="status" aria-live="polite"></p>
   <main class="list" id="list" tabindex="-1"></main>
+  <div class="more-wrap"><button type="button" class="tool" id="more" hidden></button></div>
 
   <footer>
     <h2>How to read this</h2>

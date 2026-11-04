@@ -231,3 +231,20 @@ dialog.compare::backdrop{background:rgba(10,16,13,.55)}
 .prose p,.prose li{max-width:70ch}
 .prose a{color:var(--accent)}
 .prose code{font-family:var(--mono);font-size:.88em}
+
+/* ---------- v4: scale ---------- */
+.multi{position:relative}
+.multi summary{list-style:none;cursor:pointer;font-size:.88rem;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);white-space:nowrap;max-width:240px;overflow:hidden;text-overflow:ellipsis}
+.multi summary::-webkit-details-marker{display:none}
+.multi summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.multi-pop{position:absolute;z-index:8;top:calc(100% + 4px);left:0;width:min(300px,calc(100vw - 32px));background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.multi-pop input[type=search]{width:100%;font:inherit;font-size:.88rem;padding:6px 9px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+.multi-list{max-height:260px;overflow:auto;margin:8px 0;display:flex;flex-direction:column;gap:2px}
+.multi-list label{display:flex;gap:8px;align-items:center;font-size:.86rem;padding:3px 4px;border-radius:4px;cursor:pointer}
+.multi-list label:hover{background:var(--accent-soft)}
+.multi-list input{accent-color:var(--accent);margin:0}
+.multi-list .n{margin-left:auto;font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+.stats{margin:14px 0 0;font-size:.88rem;color:var(--muted)}
+.stats b{color:var(--ink)}
+.more-wrap{display:flex;justify-content:center;margin-top:14px}
+@media (max-width:640px){ .multi{flex:1 1 100%} .multi summary{max-width:none} }

@@ -1,9 +1,9 @@
 import "./styles.css";
 import { SCHOLARSHIPS, LAST_VERIFIED, byId, COUNTRIES, COUNTRY_NAMES, GROUPS } from "./data/load";
-import { FIELD_CATS, REGIONS, STUDY_LEVELS, type Scholarship } from "./types";
+import { FIELD_CATS, FUNDING_TYPES, REGIONS, STUDY_LEVELS, type Scholarship } from "./types";
 import { eligibilityFor, matchesStudyLevel, toStudyLevel } from "./eligibility";
 import { formatCountdown, getStatus } from "./status";
-import { applyFilters, DEFAULT_FILTERS, filtersToHash, hashToFilters, type FilterState } from "./filters";
+import { applyFilters, countApplicable, DEFAULT_FILTERS, filtersToHash, hashToFilters, hostCountries, paginate, PAGE_SIZE, type FilterState } from "./filters";
 import {
   loadChecklists, loadProfile, loadShortlist, loadTheme, saveChecklists, saveProfile, saveShortlist, saveTheme, storageAvailable,
   type ChecklistState, type ThemePref,
@@ -40,14 +40,17 @@ const compare = new Set<string>();
 const openChecklists = new Set<string>();
 
 /* ---------- Filters UI ---------- */
-const selects = ["lvl", "status", "sort", "field", "region"] as const;
-const chips = [["f-full", "full"], ["f-abroad", "abroad"], ["f-nowork", "nowork"], ["f-saved", "saved"], ["f-inel", "inel"]] as const;
+const selects = ["lvl", "status", "sort", "field", "region", "funding", "within"] as const;
+const chips = [["f-abroad", "abroad"], ["f-nowork", "nowork"], ["f-nofixed", "nofixed"], ["f-saved", "saved"], ["f-inel", "inel"]] as const;
+let pages = 1;
 
 function fillSelectOptions(): void {
   const field = $<HTMLSelectElement>("field");
   for (const [k, v] of Object.entries(FIELD_CATS)) field.add(new Option(k === "any" ? "Open to any field" : v, k));
   const region = $<HTMLSelectElement>("region");
   for (const [k, v] of Object.entries(REGIONS)) region.add(new Option(v, k));
+  const fund = $<HTMLSelectElement>("funding");
+  for (const [k, v] of Object.entries(FUNDING_TYPES)) fund.add(new Option(v, k));
   const lvl = $<HTMLSelectElement>("lvl");
   for (const [k, v] of Object.entries(STUDY_LEVELS)) lvl.add(new Option(v.label, k));
   const dl = $("nat-list");
@@ -78,12 +81,15 @@ function syncNat(): void {
 function syncControls(): void {
   $<HTMLInputElement>("q").value = filters.q;
   syncNat();
-  for (const k of selects) $<HTMLSelectElement>(k).value = filters[k];
+  for (const k of selects) $<HTMLSelectElement>(k).value = String(filters[k]);
+  syncHosts();
   for (const [id, k] of chips) $(id).setAttribute("aria-pressed", String(filters[k]));
 }
 
 function isDefault(f: FilterState): boolean {
-  return (Object.keys(DEFAULT_FILTERS) as (keyof FilterState)[]).every((k) => k === "sort" || k === "nat" || k === "lvl" || f[k] === DEFAULT_FILTERS[k]);
+  return (Object.keys(DEFAULT_FILTERS) as (keyof FilterState)[]).every(
+    (k) => k === "sort" || k === "nat" || k === "lvl" || (k === "hosts" ? f.hosts.length === 0 : f[k] === DEFAULT_FILTERS[k]),
+  );
 }
 
 function writeHash(): void {
@@ -107,12 +113,28 @@ function render(): void {
     small.textContent = `${hiddenIneligible} hidden: not open to your nationality`;
     count.appendChild(small);
   }
-  $("list").innerHTML = listHtml(rows, ctx(), filters.saved);
+  const applicable = countApplicable(SCHOLARSHIPS, filters.nat, filters.lvl, FILTER_CTX);
+  const { visible, remaining } = paginate(rows, pages);
+  $("stats").innerHTML = filters.nat
+    ? `Showing <b>${visible.length}</b> of <b>${rows.length}</b> matching · <b>${applicable}</b> ${esc(STUDY_LEVELS[filters.lvl].label)} programmes you can apply for as a citizen of ${esc(COUNTRY_NAMES[filters.nat] ?? filters.nat)}`
+    : `Showing <b>${visible.length}</b> of <b>${rows.length}</b> matching · <b>${applicable}</b> ${esc(STUDY_LEVELS[filters.lvl].label)} programmes in total · pick your nationality to see only those you can apply for`;
+  $("list").innerHTML = listHtml(visible, ctx(), filters.saved);
+  const more = $<HTMLButtonElement>("more");
+  more.hidden = remaining === 0;
+  more.textContent = `Show ${Math.min(remaining, PAGE_SIZE)} more (${remaining} left)`;
   $("f-clear").hidden = isDefault(filters);
   renderCompareBar();
 }
 
+/** Defer the deadline strip until the browser is idle, so the list appears first. */
 function renderStrip(): void {
+  const run = () => renderStripNow();
+  const ric = (window as unknown as { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => void }).requestIdleCallback;
+  if (ric) ric(run, { timeout: 500 });
+  else setTimeout(run, 0);
+}
+
+function renderStripNow(): void {
   // The strip follows the nationality and study level (but not the other filters).
   const nat = filters.nat || null;
   const visible = SCHOLARSHIPS.filter(
@@ -122,6 +144,7 @@ function renderStrip(): void {
 }
 
 function update(partial: Partial<FilterState>): void {
+  pages = 1;
   const profileChanged = ("nat" in partial && partial.nat !== filters.nat) || ("lvl" in partial && partial.lvl !== filters.lvl);
   filters = { ...filters, ...partial };
   if (!filters.nat) filters.inel = false;
@@ -278,7 +301,10 @@ function applyTheme(t: ThemePref): void {
 function bind(): void {
   $<HTMLInputElement>("q").addEventListener("input", (e) => update({ q: (e.target as HTMLInputElement).value.trim() }));
   for (const k of selects) {
-    $<HTMLSelectElement>(k).addEventListener("change", (e) => update({ [k]: (e.target as HTMLSelectElement).value } as Partial<FilterState>));
+    $<HTMLSelectElement>(k).addEventListener("change", (e) => {
+      const v = (e.target as HTMLSelectElement).value;
+      update({ [k]: k === "within" ? Number(v) : v } as Partial<FilterState>);
+    });
   }
   for (const [id, k] of chips) {
     $(id).addEventListener("click", (e) => {
@@ -418,6 +444,61 @@ function bind(): void {
   });
 }
 
+/* ---------- Host-country multi-select ---------- */
+const HOSTS = hostCountries(SCHOLARSHIPS);
+
+function renderHostList(): void {
+  const q = $<HTMLInputElement>("hosts-q").value.trim().toLowerCase();
+  const sel = new Set(filters.hosts);
+  $("hosts-list").innerHTML = HOSTS.filter((h) => !q || h.name.toLowerCase().includes(q) || sel.has(h.name))
+    .map((h, i) => `<label for="host-${i}"><input type="checkbox" id="host-${i}" value="${esc(h.name)}"${sel.has(h.name) ? " checked" : ""}> ${esc(h.name)} <span class="n">${h.count}</span></label>`)
+    .join("");
+}
+
+function syncHosts(): void {
+  const n = filters.hosts.length;
+  $("hosts-sum").textContent = n === 0 ? "Host country: any" : n === 1 ? `Host: ${filters.hosts[0]}` : `Host countries: ${n}`;
+  renderHostList();
+}
+
+function bindHosts(): void {
+  $("hosts-q").addEventListener("input", renderHostList);
+  $("hosts-list").addEventListener("change", (e) => {
+    const t = e.target as HTMLInputElement;
+    const set = new Set(filters.hosts);
+    if (t.checked) set.add(t.value);
+    else set.delete(t.value);
+    update({ hosts: [...set] });
+    $("hosts-sum").textContent = set.size === 0 ? "Host country: any" : set.size === 1 ? `Host: ${[...set][0]}` : `Host countries: ${set.size}`;
+  });
+  $("hosts-clear").addEventListener("click", () => {
+    update({ hosts: [] });
+    syncHosts();
+  });
+  // close the popover on outside click / Escape
+  document.addEventListener("click", (e) => {
+    const box = $<HTMLDetailsElement>("hosts-box");
+    if (box.open && !box.contains(e.target as Node)) box.open = false;
+  });
+  $("hosts-box").addEventListener("keydown", (e) => {
+    if ((e as KeyboardEvent).key === "Escape") {
+      $<HTMLDetailsElement>("hosts-box").open = false;
+      $("hosts-sum").focus();
+    }
+  });
+  $("more").addEventListener("click", () => {
+    const start = pages * PAGE_SIZE; // index of the first card on the next page
+    pages++;
+    render();
+    // move keyboard focus to the first newly shown programme
+    const h = document.querySelectorAll<HTMLElement>("#list .item h3")[start];
+    if (h) {
+      h.setAttribute("tabindex", "-1");
+      h.focus();
+    }
+  });
+}
+
 /* ---------- Email alerts ---------- */
 const ALERTS_ENV = { supabaseUrl: import.meta.env.VITE_SUPABASE_URL, anonKey: import.meta.env.VITE_SUPABASE_ANON_KEY };
 
@@ -492,6 +573,7 @@ if (LAST_VERIFIED) {
 }
 $("storage-warn").hidden = storageAvailable();
 bind();
+bindHosts();
 initAlerts();
 renderStrip();
 render();

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { applyFilters, DEFAULT_FILTERS, filtersToHash, hashToFilters } from "../src/filters";
+import { applyFilters, countApplicable, DEFAULT_FILTERS, filtersToHash, hashToFilters, hostCountries, paginate } from "../src/filters";
 import { GROUPS, make, NOW } from "./fixtures";
 
 const data = [
@@ -63,7 +63,7 @@ describe("nationality and study level", () => {
 describe("URL hash", () => {
   it("is empty for default filters", () => expect(filtersToHash({ ...DEFAULT_FILTERS })).toBe(""));
   it("round-trips", () => {
-    const f = { ...DEFAULT_FILTERS, q: "machine learning", nat: "PK", lvl: "phd" as const, inel: true, status: "open" as const, field: "cs-ai" as const, region: "europe" as const, sort: "name" as const, full: true, saved: true };
+    const f = { ...DEFAULT_FILTERS, q: "machine learning", nat: "PK", lvl: "phd" as const, inel: true, status: "open" as const, field: "cs-ai" as const, region: "europe" as const, sort: "name" as const, funding: "full" as const, saved: true };
     const h = filtersToHash(f);
     expect(h).toMatch(/^#/);
     expect(hashToFilters(h)).toEqual(f);
@@ -78,5 +78,46 @@ describe("URL hash", () => {
     expect(hashToFilters("#nat=pk").nat).toBe("PK");
     expect(hashToFilters("", {}, { nat: "IN", lvl: "ug" })).toMatchObject({ nat: "IN", lvl: "ug" });
     expect(hashToFilters("#nat=PK", {}, { nat: "IN" }).nat).toBe("PK");
+  });
+});
+
+describe("v4 scale filters", () => {
+  const big = [
+    make({ id: "de1", country: "Germany", deadline: "2026-11-20T00:00:00Z", funding: "salaried" }),
+    make({ id: "de2", country: "Germany", deadline: "2027-01-20T00:00:00Z", full: false }),
+    make({ id: "jp1", country: "Japan", deadline: "2026-12-20T00:00:00Z" }),
+    make({ id: "roll", country: "Japan", rolling: true, deadline: undefined, funding: "paid-internship" }),
+    make({ id: "var", country: "France", varies: true, deadline: "2027-03-01T00:00:00Z" }),
+  ];
+  const run = (f = {}) => applyFilters(big, NOW, { ...DEFAULT_FILTERS, ...f }, new Set(), { groups: GROUPS }).rows.map((r) => r.s.id);
+  it("host countries (multi-select)", () => {
+    expect(run({ hosts: ["Germany"] })).toEqual(["de1", "de2"]);
+    expect(run({ hosts: ["Germany", "France"] }).sort()).toEqual(["de1", "de2", "var"]);
+  });
+  it("funding type", () => {
+    expect(run({ funding: "salaried" })).toEqual(["de1"]);
+    expect(run({ funding: "paid-internship" })).toEqual(["roll"]);
+    expect(run({ funding: "partial" })).toEqual(["de2"]);
+    expect(run({ funding: "full" }).sort()).toEqual(["jp1", "var"]);
+  });
+  it("deadline within 30/60/90 days (rolling excluded)", () => {
+    expect(run({ within: 30 })).toEqual(["de1"]);
+    expect(run({ within: 60 })).toEqual(["de1", "jp1"]);
+    expect(run({ within: 90 })).toEqual(["de1", "jp1", "de2"]);
+  });
+  it("rolling / no fixed deadline", () => expect(run({ nofixed: true }).sort()).toEqual(["roll", "var"]));
+  it("hash round-trip and legacy full=1", () => {
+    const f = { ...DEFAULT_FILTERS, hosts: ["Germany", "United Kingdom"], funding: "salaried" as const, within: 60 as const, nofixed: true };
+    expect(hashToFilters(filtersToHash(f))).toEqual(f);
+    expect(hashToFilters("#full=1").funding).toBe("full");
+    expect(hashToFilters("#within=45&funding=free").within).toBe(0);
+  });
+  it("pagination, counts and host list", () => {
+    const rows = Array.from({ length: 70 }, (_, i) => i);
+    expect(paginate(rows, 1)).toEqual({ visible: rows.slice(0, 30), remaining: 40 });
+    expect(paginate(rows, 3).remaining).toBe(0);
+    expect(paginate(rows, 0).visible).toHaveLength(30);
+    expect(countApplicable(big, "PK", "masters", { groups: GROUPS })).toBe(5);
+    expect(hostCountries(big)[0]).toEqual({ name: "Germany", count: 2 });
   });
 });

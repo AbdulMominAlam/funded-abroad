@@ -1,4 +1,5 @@
-import { FIELD_CATS, REGIONS, STUDY_LEVELS, type CountryCode, type FieldCat, type Region, type Scholarship, type StudyLevel } from "./types";
+import { FIELD_CATS, FUNDING_TYPES, REGIONS, STUDY_LEVELS, fundingOf, type CountryCode, type FieldCat, type FundingType, type Region, type Scholarship, type StudyLevel } from "./types";
+import { DAY_MS } from "./status";
 import { deadlineRank, getStatus, type StatusInfo } from "./status";
 import { eligibilityFor, matchesStudyLevel, toStudyLevel, type CountryNames, type EligibilityResult, type Groups } from "./eligibility";
 
@@ -15,6 +16,15 @@ export interface FilterState {
   sort: SortKey;
   field: FieldCat | "";
   region: Region | "";
+  /** Host countries (the programme's `country` text); empty = any. */
+  hosts: string[];
+  /** Funding type; "" = any. */
+  funding: FundingType | "";
+  /** Only deadlines within this many days (0 = any). */
+  within: 0 | 30 | 60 | 90;
+  /** Only programmes without a single fixed deadline (rolling or varies). */
+  nofixed: boolean;
+  /** Legacy "fully funded only" chip (kept so old links work; same as funding = "full"). */
   full: boolean;
   /** No need to live in your home country when applying. */
   abroad: boolean;
@@ -26,6 +36,7 @@ export interface FilterState {
 
 export const DEFAULT_FILTERS: Readonly<FilterState> = Object.freeze({
   q: "", nat: "", lvl: "masters", status: "", sort: "deadline", field: "", region: "",
+  hosts: [] as string[], funding: "", within: 0, nofixed: false,
   full: false, abroad: false, nowork: false, saved: false, inel: false,
 });
 
@@ -43,9 +54,20 @@ export interface FilterContext {
 }
 
 const STATUS_VALUES: StatusFilter[] = ["", "open", "soon", "up", "closed"];
-const BOOL_KEYS = ["full", "abroad", "nowork", "saved", "inel"] as const;
+const BOOL_KEYS = ["full", "abroad", "nowork", "saved", "inel", "nofixed"] as const;
+const WITHIN = [30, 60, 90] as const;
 
+const hayCache = new WeakMap<Scholarship, string>();
+/** Lower-cased search text for a programme (cached, so typing in the search box stays instant at 500+ entries). */
 export function haystack(s: Scholarship): string {
+  const hit = hayCache.get(s);
+  if (hit !== undefined) return hit;
+  const h = buildHaystack(s);
+  hayCache.set(s, h);
+  return h;
+}
+
+function buildHaystack(s: Scholarship): string {
   return [
     s.name, s.host, s.country, REGIONS[s.region], s.fields, ...s.fieldCats.map((f) => FIELD_CATS[f]),
     ...s.levels, ...s.tags, s.note, s.nominationBody ?? "",
@@ -53,8 +75,16 @@ export function haystack(s: Scholarship): string {
 }
 
 /** All filters except eligibility. */
-export function matches(row: Row, f: FilterState, shortlist: ReadonlySet<string>): boolean {
+export function matches(row: Row, f: FilterState, shortlist: ReadonlySet<string>, now?: Date): boolean {
   const { s, i } = row;
+  if (f.hosts.length && !f.hosts.includes(s.country)) return false;
+  if (f.funding && fundingOf(s) !== f.funding) return false;
+  if (f.nofixed && !(s.rolling || s.varies)) return false;
+  if (f.within) {
+    if (!i.deadline || i.kind === "closed") return false;
+    const ref = now?.getTime() ?? Date.now();
+    if (i.deadline.getTime() - ref > f.within * DAY_MS) return false;
+  }
   if (!matchesStudyLevel(s.levels, f.lvl)) return false;
   if (f.status) {
     if (f.status === "soon") {
@@ -89,7 +119,7 @@ export function applyFilters(
   const rows: Row[] = [];
   for (const s of data) {
     const row: Row = { s, i: getStatus(s, now), e: eligibilityFor(s, nat, ctx.groups, ctx.names) };
-    if (!matches(row, f, shortlist)) continue;
+    if (!matches(row, f, shortlist, now)) continue;
     if (row.e.status === "ineligible" && !f.inel) {
       hiddenIneligible++;
       continue;
@@ -114,6 +144,9 @@ export function filtersToHash(f: FilterState): string {
   if (f.status) p.set("status", f.status);
   if (f.field) p.set("field", f.field);
   if (f.region) p.set("region", f.region);
+  if (f.hosts.length) p.set("host", f.hosts.join("|"));
+  if (f.funding) p.set("funding", f.funding);
+  if (f.within) p.set("within", String(f.within));
   if (f.sort !== "deadline") p.set("sort", f.sort);
   for (const k of BOOL_KEYS) if (f[k]) p.set(k, "1");
   const str = p.toString();
@@ -139,7 +172,35 @@ export function hashToFilters(hash: string, ctx: Pick<FilterContext, "countries"
   if (field && field in FIELD_CATS) f.field = field as FieldCat;
   const region = p.get("region");
   if (region && region in REGIONS) f.region = region as Region;
+  const host = p.get("host");
+  f.hosts = host ? [...new Set(host.split("|").map((h) => h.trim()).filter(Boolean))].slice(0, 50) : [];
+  const funding = p.get("funding");
+  if (funding && funding in FUNDING_TYPES) f.funding = funding as FundingType;
+  const within = Number(p.get("within"));
+  if ((WITHIN as readonly number[]).includes(within)) f.within = within as FilterState["within"];
   if (p.get("sort") === "name") f.sort = "name";
   for (const k of BOOL_KEYS) f[k] = p.get(k) === "1";
+  if (f.full && !f.funding) f.funding = "full";
+  f.full = false;
   return f;
+}
+
+export const PAGE_SIZE = 30;
+
+/** First `pages * size` rows, and how many are left. */
+export function paginate<T>(rows: readonly T[], pages: number, size = PAGE_SIZE): { visible: T[]; remaining: number } {
+  const n = Math.max(1, pages) * size;
+  return { visible: rows.slice(0, n), remaining: Math.max(0, rows.length - n) };
+}
+
+/** Programmes the nationality can apply for at the chosen level (before the other filters). */
+export function countApplicable(data: readonly Scholarship[], nat: CountryCode | "", lvl: StudyLevel, ctx: FilterContext): number {
+  return data.filter((s) => matchesStudyLevel(s.levels, lvl) && eligibilityFor(s, nat || null, ctx.groups).status !== "ineligible").length;
+}
+
+/** Distinct host countries with programme counts, most common first. */
+export function hostCountries(data: readonly Scholarship[]): { name: string; count: number }[] {
+  const m = new Map<string, number>();
+  for (const s of data) m.set(s.country, (m.get(s.country) ?? 0) + 1);
+  return [...m].map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 }
