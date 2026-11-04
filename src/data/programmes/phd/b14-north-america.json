@@ -402,5 +402,591 @@
     "note": "For women who are not US citizens or permanent residents studying full-time in the US; awards announced ~Mar 2027.",
     "url": "https://www.aauw.org/resources/programs/fellowships-grants/aauw-international-fellowships/",
     "source": "https://www.aauw.org/resources/programs/fellowships-grants/aauw-international-fellowships/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "us-funded-phd-explainer",
+    "name": "Funded PhD programmes (United States) – how it works",
+    "host": "US research universities (departmental PhD programmes)",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Typically full tuition + health insurance + stipend (e.g. Princeton 2026-27: $52,680–$55,440/12 months)",
+    "rolling": true,
+    "dlText": "Apply to each department; deadlines mostly 1 Dec – early Jan for autumn entry",
+    "tags": [
+      "Apply directly to departments",
+      "Funding via fellowship, RA or TA",
+      "Usually 5 years, subject to progress"
+    ],
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "At most research-intensive US universities an admitted PhD student receives a package of tuition waiver, health cover and a living stipend, paid through fellowships and teaching/research assistantships; there is no separate scholarship application. International students are generally funded on the same terms but check each department.",
+    "url": "https://gradschool.princeton.edu/financial-support/financial-support-model",
+    "source": "https://gradschool.princeton.edu/financial-support/financial-support-model"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "ca-funded-phd-explainer",
+    "name": "Funded PhD programmes (Canada) – how it works",
+    "host": "Canadian research universities (departmental PhD programmes)",
+    "country": "Canada",
+    "full": false,
+    "funding": "partial",
+    "amount": "Department funding package (stipend + TA/RA + awards), amounts set by faculty/programme",
+    "rolling": true,
+    "dlText": "Apply to each programme; deadlines mostly Dec–Jan for September entry",
+    "tags": [
+      "Apply directly to programmes",
+      "Package of RA/TA + fellowships",
+      "Many offer tuition offsets for internationals"
+    ],
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Canadian PhD students usually receive a multi-year funding package combining stipends, TA/RA work and awards; minimums are set by each university or faculty (McGill has no university-wide minimum), and several universities cover the international tuition differential.",
+    "url": "https://www.mcgill.ca/gps/funding/gradfunding101",
+    "source": "https://www.mcgill.ca/gps/funding/gradfunding101"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "princeton-phd-funding",
+    "name": "Princeton University PhD funding guarantee",
+    "host": "Princeton University Graduate School",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition + student health plan + stipend $52,680–$55,440 (2026-27, 12 months)",
+    "deadline": "2026-12-15T23:59:00-05:00",
+    "varies": true,
+    "dlText": "Varies by department: 1, 15 or 21 Dec 2026 (e.g. Computer Science PhD 15 Dec 2026; time not stated)",
+    "tags": [
+      "All regularly enrolled PhD students funded",
+      "Regardless of citizenship",
+      "Typically 4–5 years"
+    ],
+    "fields": "All Graduate School PhD fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Princeton guarantees full funding for all years of regular PhD enrolment, subject to satisfactory progress; support is a mix of fellowships and assistantships and is not tied to citizenship.",
+    "url": "https://gradschool.princeton.edu/financial-support",
+    "source": "https://gradschool.princeton.edu/financial-support/financial-support-model"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "harvard-gsas-phd-funding",
+    "name": "Harvard Griffin GSAS PhD funding guarantee",
+    "host": "Harvard Kenneth C. Griffin Graduate School of Arts and Sciences",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition grants + stipend (minimum ≥$50,000/year announced 2024) for at least 5 years",
+    "deadline": "2026-12-15T17:00:00-05:00",
+    "varies": true,
+    "dlText": "Varies by programme: 1 Dec 2026 – 5 Jan 2027, 17:00 ET (e.g. Engineering & Applied Sciences 15 Dec 2026)",
+    "tags": [
+      "Guaranteed 5 years for all PhD students",
+      "Up to 3 programme applications/year"
+    ],
+    "fields": "All GSAS PhD programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Harvard Griffin GSAS guarantees stipend and tuition support for the first five years to all PhD students; tuition and health grants extend beyond year five in longer programmes.",
+    "url": "https://gsas.harvard.edu/financial-support/funding-and-aid",
+    "source": "https://gsas.harvard.edu/financial-support/funding-and-aid"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "mit-eecs-phd-funding",
+    "name": "MIT EECS PhD funding",
+    "host": "Massachusetts Institute of Technology, Dept. of Electrical Engineering & Computer Science",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition + monthly stipend (TA rate $4,695/month AY 2026-27) + medical insurance",
+    "deadline": "2026-12-01T23:59:00-05:00",
+    "dlText": "1 Dec 2026 (time not stated); letters/transcripts by early Jan",
+    "tags": [
+      "All PhD students fully funded",
+      "Auto-considered for fellowships/RA/TA"
+    ],
+    "fields": "Electrical engineering and computer science",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "MIT EECS states PhD students are fully funded for the whole programme (tuition, stipend, medical insurance), subject to satisfactory progress; admitted students are automatically considered for fellowships and assistantships.",
+    "url": "https://www.eecs.mit.edu/academics/graduate-programs/admission-process/",
+    "source": "https://www.eecs.mit.edu/academics/graduate-programs/admission-process/graduate-admissions-faqs/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "stanford-phd-funding",
+    "name": "Stanford University PhD funding (5-year support)",
+    "host": "Stanford University",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition + stipend/salary + health subsidy (e.g. Chemistry ≥$58,460 first year 2026-27)",
+    "deadline": "2026-12-08T23:59:00-08:00",
+    "varies": true,
+    "dlText": "Varies by department (e.g. Computer Science PhD 8 Dec 2026, EE 1 Dec 2026 23:59 PST; CS time not stated)",
+    "tags": [
+      "Typically 5 years of support",
+      "Same package for internationals (per GSE)",
+      "Department-specific terms"
+    ],
+    "fields": "All PhD fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Stanford departments describe five years of guaranteed support for PhD students in good standing (tuition plus stipend via fellowships, TA/RA); exact amounts and terms are set per department.",
+    "url": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
+    "source": "https://chemistry.stanford.edu/academics/about-phd-program/financial-support"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "caltech-phd-funding",
+    "name": "Caltech PhD financial support",
+    "host": "California Institute of Technology",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition & mandatory fees + stipend $50,000/12 months (from 1 Sep 2026)",
+    "deadline": "2026-12-15T23:59:00-08:00",
+    "varies": true,
+    "dlText": "Varies by option, 15 Nov – 15 Dec 2026 (e.g. Mechanical & Civil Eng. 15 Dec; Biology 1 Dec; time not stated)",
+    "tags": [
+      "All PhD students offered support",
+      "Work authorisation needed for most sources"
+    ],
+    "fields": "Science and engineering PhD options",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "All Caltech PhD students are offered full tuition/fees coverage plus a living stipend, conditional on full-time enrolment and progress; most funding sources require US work authorisation (standard for F-1 TA/RA roles).",
+    "url": "https://gradoffice.caltech.edu/financialsupport",
+    "source": "https://gradoffice.caltech.edu/financialsupport"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "cmu-scs-phd-funding",
+    "name": "Carnegie Mellon School of Computer Science PhD funding",
+    "host": "Carnegie Mellon University, School of Computer Science",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Stipend + tuition + university fees + health insurance (check department for current stipend)",
+    "deadline": "2026-12-09T15:00:00-05:00",
+    "dlText": "Final deadline 9 Dec 2026, 15:00 EST (early deadline 18 Nov 2026, lower fee)",
+    "tags": [
+      "All admitted PhD students funded",
+      "Same for domestic & international",
+      "Fall entry only"
+    ],
+    "fields": "Computer science, machine learning, robotics, language technologies and other SCS programmes",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "CMU's Computer Science Department offers all admitted PhD students comprehensive support (stipend, tuition, fees, health insurance) on the same basis for international students, continuing while in good standing.",
+    "url": "https://csd.cs.cmu.edu/academics/doctoral/admissions",
+    "source": "https://csd.cs.cmu.edu/academics/doctoral/admissions"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "berkeley-eecs-phd-funding",
+    "name": "UC Berkeley EECS PhD funding",
+    "host": "University of California, Berkeley – EECS",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition + stipend via fellowship/GSR/TA (details in offer)",
+    "deadline": "2026-12-01T20:59:00-08:00",
+    "dlText": "1 Dec 2026, 20:59 PST",
+    "tags": [
+      "All incoming PhD students offered support",
+      "Full-time (12+ units) required"
+    ],
+    "fields": "Electrical engineering and computer sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Berkeley EECS offers support to all incoming doctoral students; applicants are automatically considered and funding details come with the admission offer.",
+    "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
+    "source": "https://eecs.berkeley.edu/academics/graduate/faq-3/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "yale-gsas-phd-funding",
+    "name": "Yale GSAS PhD funding package",
+    "host": "Yale Graduate School of Arts and Sciences",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition ($52,400, 2026-27) + 12-month stipend (min. $52,046–$53,629) + health coverage",
+    "deadline": "2026-12-15T23:59:00-05:00",
+    "varies": true,
+    "dlText": "Varies by programme: 1 Dec 2026, 15 Dec 2026 or 2 Jan 2027 (e.g. Political Science 15 Dec 2026; time not stated)",
+    "tags": [
+      "Every PhD student funded",
+      "Minimum 5 years",
+      "Family support subsidy"
+    ],
+    "fields": "All GSAS PhD programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Each Yale GSAS PhD student receives a fellowship covering full tuition, a 12-month stipend and health coverage for typically at least five years; sixth-year support is not guaranteed.",
+    "url": "https://gsas.yale.edu/graduate-financial-support-fellowships/funding-phd-students",
+    "source": "https://gsas.yale.edu/admissions/phdmasters-application-process/tuition-funding-living-costs"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "columbia-gsas-phd-funding",
+    "name": "Columbia GSAS PhD guaranteed funding",
+    "host": "Columbia University Graduate School of Arts and Sciences",
+    "country": "United States",
+    "full": true,
+    "funding": "full",
+    "amount": "Stipend + tuition + health and university fees (incl. international fees) for 5–6 years",
+    "deadline": "2027-01-07T23:59:00-05:00",
+    "varies": true,
+    "dlText": "Varies by programme: 25 Nov 2026 – 7 Jan 2027 (e.g. Philosophy, Statistics 7 Jan 2027; time not stated)",
+    "tags": [
+      "Guarantee 5 yrs (sciences) / 6 yrs (humanities & social sciences)",
+      "Good standing required"
+    ],
+    "fields": "All GSAS PhD programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Columbia GSAS doctoral students normally receive the prevailing stipend plus tuition, health and (if applicable) international fees for five or six years depending on field and good standing.",
+    "url": "https://www.gsas.columbia.edu/content/guaranteed-funding-and-additional-eligibility",
+    "source": "https://www.gsas.columbia.edu/content/guaranteed-funding-and-additional-eligibility"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "uoft-cs-phd-funding",
+    "name": "University of Toronto Computer Science PhD funding package",
+    "host": "University of Toronto, Department of Computer Science",
+    "country": "Canada",
+    "full": true,
+    "funding": "full",
+    "amount": "International base package CA$41,122/year (2026-27) + up to CA$7,948 enhanced; international tuition ~CA$36,700",
+    "deadline": "2026-12-01T23:59:00-05:00",
+    "dlText": "1 Dec 2026 (firm; time not stated)",
+    "tags": [
+      "All full-time PhD students funded",
+      "60 months (direct-entry) / 48 months",
+      "Apply via SGS"
+    ],
+    "fields": "Computer science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "U of T CS funds all full-time PhD students through RA and TA appointments, guaranteed for 48 months (60 for direct-entry); the university base of $40,000/year includes tuition.",
+    "url": "https://web.cs.toronto.edu/graduate/funding-tuition-awards",
+    "source": "https://web.cs.toronto.edu/graduate/funding-tuition-awards"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "ubc-4yf",
+    "name": "UBC Four Year Doctoral Fellowship (4YF)",
+    "host": "University of British Columbia",
+    "country": "Canada",
+    "full": true,
+    "funding": "full",
+    "amount": "CA$24,000/year stipend + tuition for up to 4 years (from Sep 2026)",
+    "rolling": true,
+    "dlText": "No separate application – admitted PhD applicants considered automatically (programme deadlines vary)",
+    "tags": [
+      "Automatic consideration on admission",
+      "Open to international students",
+      "Competitive"
+    ],
+    "fields": "All UBC doctoral programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "UBC's 4YF is a merit award for top doctoral students, held by domestic and international students alike; eligible international students also get the International Tuition Award.",
+    "url": "https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf",
+    "source": "https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "mcgill-phd-intl-tuition",
+    "name": "McGill PhD funding (international tuition differential coverage)",
+    "host": "McGill University",
+    "country": "Canada",
+    "full": false,
+    "funding": "partial",
+    "amount": "International tuition differential covered for all international PhD students; stipends set by faculty (e.g. BBME min. CA$25,000)",
+    "rolling": true,
+    "dlText": "No separate application; programme admission deadlines vary",
+    "tags": [
+      "All international PhDs: tuition differential covered",
+      "95% of PhDs have full tuition covered"
+    ],
+    "fields": "All McGill doctoral programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "McGill has no university-wide stipend minimum, but all international PhD students receive funding covering the difference between Quebec-resident and international tuition; most also receive living-cost support from their faculty.",
+    "url": "https://www.mcgill.ca/gps/funding/gradfunding101",
+    "source": "https://www.mcgill.ca/gps/funding/gradfunding101"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "waterloo-phd-funding",
+    "name": "University of Waterloo PhD minimum funding + International Doctoral Student Award",
+    "host": "University of Waterloo",
+    "country": "Canada",
+    "full": true,
+    "funding": "full",
+    "amount": "Min. CA$29,145/year (from May 2026) + IDSA ≈ international–domestic tuition difference (e.g. CS intl PhD CA$51,090)",
+    "rolling": true,
+    "dlText": "No separate application; programme admission deadlines vary",
+    "tags": [
+      "Guaranteed minimum for full-time PhDs",
+      "IDSA for all international PhDs",
+      "First 4–5 years"
+    ],
+    "fields": "All Waterloo doctoral programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Waterloo guarantees minimum funding to full-time doctoral students in good standing within time limits, and international PhD students additionally receive the IDSA; departments often exceed the minimum.",
+    "url": "https://uwaterloo.ca/current-graduate-students/awards-and-funding/minimum-funding",
+    "source": "https://uwaterloo.ca/current-graduate-students/awards-and-funding/minimum-funding"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your Canadian university (quota institutions)",
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "all"
+    },
+    "id": "cgrs-doctoral",
+    "name": "Canada Graduate Research Scholarship – Doctoral (CGRS-D)",
+    "host": "NSERC / SSHRC / CIHR (Tri-agency)",
+    "country": "Canada",
+    "full": false,
+    "funding": "partial",
+    "amount": "CA$40,000/year for 36 months",
+    "deadline": "2026-10-19T20:00:00-04:00",
+    "varies": true,
+    "dlText": "Direct-to-agency: 17 Oct, 20:00 ET (next business day if weekend → 19 Oct 2026); university internal deadlines earlier (e.g. U of T CS 8 Sep 2026) (estimated from NSERC's standing 17 Oct / next-business-day rule; most universities set earlier internal deadlines)",
+    "nextText": "Next competition ~Sep–Oct 2027",
+    "tags": [
+      "Must be registered in a Canadian PhD",
+      "Up to 15% of awards for internationals",
+      "Replaced Vanier CGS"
+    ],
+    "fields": "All fields (via NSERC, SSHRC or CIHR)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International students qualify only once registered in a doctoral programme at an eligible Canadian institution and must hold the award in Canada; most apply through their university's quota process.",
+    "url": "https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSD-BESCD_eng.asp",
+    "source": "https://cihr-irsc.gc.ca/e/54347.html"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "region": "north-america",
+    "eligibility": {
+      "type": "check",
+      "note": "New Americans: green-card holders, naturalised citizens, DACA recipients, those born abroad who graduated from US high school and college, or US-born children of two immigrants"
+    },
+    "id": "pd-soros",
+    "name": "Paul & Daisy Soros Fellowships for New Americans",
+    "host": "Paul & Daisy Soros Fellowships for New Americans",
+    "country": "United States",
+    "full": false,
+    "funding": "partial",
+    "amount": "Up to $90,000 ($40,000 tuition + $25,000/year stipend for 2 years)",
+    "deadline": "2026-10-29T14:00:00-04:00",
+    "dlText": "2027 fellowship: 29 Oct 2026, 14:00 ET (closed)",
+    "nextText": "Next round expected to open spring 2027",
+    "tags": [
+      "Immigrants / children of immigrants to the US",
+      "Age 30 or under",
+      "Any US graduate programme"
+    ],
+    "fields": "Any graduate field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Merit fellowship for immigrants and children of immigrants starting or continuing a full-time graduate degree in the US; 30 or younger at the deadline.",
+    "url": "https://pdsoros.org/",
+    "source": "https://pdsoros.org/eligibility/"
   }
 ]
