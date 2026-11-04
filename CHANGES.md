@@ -2,23 +2,27 @@
 
 Branch: `v4-data`, started from `v3-global`. Work date: **4 Nov 2026**, used for every `verifiedOn`.
 
-## Status: 503 programmes after session 5. All four level targets except internships are met; the 550 total is not yet reached
+## Status: ✅ all targets met (561 programmes after session 6)
 
 | | v3 | **v4 now** | Target |
 | --- | --- | --- | --- |
-| Total programmes | 106 | **503** | 550+ |
-| Internships / summer research | 6 | **112** | 120+ |
-| Undergraduate | 36 | **130** ✅ | 130+ |
-| Master's | 61 | **177** ✅ | 160+ |
-| PhD | 48 | **184** ✅ | 140+ |
+| Total programmes | 106 | **561** ✅ | 550+ |
+| Internships / summer research | 6 | **125** ✅ | 120+ |
+| Undergraduate | 36 | **135** ✅ | 130+ |
+| Master's | 61 | **211** ✅ | 160+ |
+| PhD | 48 | **203** ✅ | 140+ |
 
 Some programmes count toward more than one level.
 
-* **Regions:** Europe 82 · East & Southeast Asia 57 · North America 45 · Global 34 · UK 14 · Middle East 8 · Türkiye 7 · Oceania 4.
-* **Funding:** fully funded 126 · partial 62 · paid internship 48 · salaried 15.
-* **Dates:** 70 entries use estimated (`expected`) dates, 64 are `rolling`, and 61 use `check` eligibility.
+* **Regions:** Europe 179 · East & Southeast Asia 119 · North America 101 · Global 69 · UK 34 · Middle East 27 · Oceania 25 · Türkiye 7.
+* **Funding:** fully funded 277 · partial 141 · paid internship 117 · salaried 26.
+* **Dates:** 132 entries use estimated (`expected`) dates, 168 are `rolling`, 42 `varies`, and 173 use `check` eligibility (the official country list wasn't reproduced).
 
-**Why it stopped at 251:** the research ran as 16 parallel subagent batches, as requested. This environment allows **200 web searches per turn, shared by every agent**. That budget was gone after each batch had done roughly 4–18 searches. A test search afterwards confirmed it (*"this turn's web search budget is used up"*). No batch made up data to fill the gap, and each one stopped once its searches were refused. **The search budget resets in a new session or turn.** To continue, see "How to resume" below.
+Final checks: `npm run validate-data` ✔ (41 files, 561 programmes) · `npm test` ✔ 107 tests · `npm run build` ✔.
+
+**History:** session 1 stopped at 251 because of the shared search budget (below). Sessions 2–6 each ran at most 4 batches of about 40 searches.
+
+**Why session 1 stopped at 251:** the research ran as 16 parallel subagent batches, as requested. This environment allows **200 web searches per turn, shared by every agent**. That budget was gone after each batch had done roughly 4–18 searches. A test search afterwards confirmed it (*"this turn's web search budget is used up"*). No batch made up data to fill the gap, and each one stopped once its searches were refused. **The search budget resets in a new session or turn.** To continue, see "How to resume" below.
 
 `npm run validate-data` ✔ (37 files, 251 programmes) · `npm test` ✔ **107 tests** · `npm run build` ✔ · axe: 0 violations (light and dark, 400/1200 px, with the new controls open).
 
@@ -411,7 +415,87 @@ Three batches ran in parallel, each capped at about 40 searches. They used about
 * an internship top-up of ~10 (remaining ideas: Biozentrum Basel summer, Heidelberg HGS, UN-Habitat, Kenya/Nigeria-hosted organisations);
 * ~40 more entries spread across levels (e.g. Fulbright Kenya and Nigeria, UZH/USI/Glasgow/Warwick master's awards, Fudan/SJTU/ZJU graduate scholarships, Keio, Fudan and İTÜ undergraduate awards).
 
-## How to resume (next session)
+## Session 6: internship top-up and extra entries
+
+Four new batches ran, each in its own file and capped at about 40 searches. They used about 144 searches in total. `npm run validate-data` and `npm test` passed before each commit and push.
+
+| Batch | File | Added | Entries |
+| --- | --- | --- | --- |
+| 15 Internship top-up | internships/b15-topup.json | +13 | ITER, IRENA, AIIB, UNOPS, UN Women, IIASA YSSP, Gavi, GGGI, CTBTO, ILRI graduate fellowship, EFSA, ICRC, IUCN |
+| 16 Extra Europe/UK | masters/b16-extra-europe.json | +16 | Warwick Chancellor's International (PhD), St Andrews St Leonard's (master's) and World-Leading PhD, CEU master's aid, Flanders Master Mind, KU Leuven Inspiring the Outstanding, Radboud, Tilburg waiver, VU Amsterdam VUFP, Erasmus School of Economics Trustfonds and Franses, Wageningen Excellence and Africa scholarships, TU/e Excellence (microchip), Ghent BOF-DOS Global South, Bocconi Graduate Merit Award |
+| 17 Extra Asia | masters/b17-extra-asia.json | +17 | Chinese, Japanese, Korean, Taiwanese and Thai university schemes, incl. SJTU graduate, Chulalongkorn, Mahidol, Hanyang, NCKU Veritas |
+| 18 Africa/Middle East/Oceania | masters/b18-extra-misc.json | +12 | Fulbright Kenya, Ghana, South Africa, Uganda, Tanzania; Pan African University; AIMS master's; AUC international and African graduate fellowships; Wellington master's by thesis; Intra-Africa Mobility; Israel MFA |
+
+**Coordinator fixes:**
+* `gggi-internship`: amount reworded to "check each vacancy", since the only figure is from a 2022 posting.
+* Removed `cuni-mff-cs-tuition-scholarship`: ≥50% of tuition not confirmed.
+* Removed `guq-qf-merit`: may be for returning students only, consistent with TAMU-Q being dropped.
+* Removed `aus-graduate-assistantship`: award size not guaranteed.
+
+**Least certain (session 6):**
+
+| Entry | Issue |
+| --- | --- |
+| `aiib-global-internship` | date estimated; whether non-member nationals can apply not confirmed |
+| `efsa-traineeship` | dates estimated from 2026; grant amount not published |
+| `iucn-internship` | pay set per office; only Washington DC figures found |
+| `ilri-graduate-fellowship` | a thesis-research stipend rather than a classic internship |
+| `tue-excellence-microchip` | amount not published |
+| `wur-africa-scholarship` | amount not stated; eligibility as a note |
+| `flanders-master-mind` | scheme under review for 2027-28; deadlines per university |
+| `vu-amsterdam-vufp` | an older page says tuition only; current terms not confirmed |
+| `sjtu-grad-scholarship` | date estimated; master's awards may be partial |
+| `chula-asean-nonasean-grad` | date estimated; amounts from 2022–24 |
+| `mahidol-postgrad-intl` | amount not published |
+| `hanyang-eng-sci-grad` | 50% figure from the 2024 guideline; no Fall 2027 date |
+| `ncku-veritas-phd` | stipend cap NT$25k vs 30k on different pages |
+| `aims-masters` | 15 vs 31 Mar on official pages; used 15 Mar, `expected` |
+| `pau-scholarship` | dates estimated |
+| `israel-mfa-scholarship` | eligible-country list not seen |
+
+**Dropped (session 6):**
+
+| Candidate | Reason |
+| --- | --- |
+| Janelia | No sessions since 2022 |
+| Technion SURP | Housing only |
+| NDB, Global Fund, Kavli IPMU, IFPRI, EPO | No stipend information |
+| ITU, UNEP, UN-Habitat, UNRWA | Unpaid |
+| IRRI | Funding depends on the sponsor |
+| IBS | Only group-level postings |
+| ECDC, EMA, EUIPO, ESMA, EUMETSAT | EU/EEA or member-state nationals only |
+| UZH Excellence | Internal pilot |
+| USI | CHF 4,000 |
+| Tartu | Non-EU waivers ended |
+| Paris Cité, Sorbonne, TSE | Eiffel already covered; small waivers |
+| Durham | Already covered by Commonwealth/GREAT |
+| Glasgow Humanitarian | No deadline |
+| Antwerp, VUB, Ghent top-up | Covered by Master Mind / VLIR, or may no longer exist |
+| IKY | Closed |
+| Unimi, PoliTo | Small awards or EU-only |
+| Linköping | No 2027 deadline |
+| Fudan | Amount unpublished |
+| Zhejiang gov | RMB 30k only |
+| Nanjing, Wuhan | CSC routes duplicate `csc-university-program`; Wuhan's own award is small |
+| Osaka, Science Tokyo | MEXT university-recommendation route ending |
+| Hitotsubashi, Waseda | Aid only after enrolment |
+| UTM, UM | Small waivers or RA posts |
+| Fulbright Nigeria | No 2027 call |
+| Fulbright Ethiopia | Not offered |
+| Auckland, Canterbury, Lincoln, Tongarewa | Under 50% of tuition |
+| UCT | Partial awards only |
+| Tullow | No sign it still runs |
+| UM6P, NYUAD, AUB | Full funding not confirmed |
+| Doha Institute | "No Scholarships" |
+| OAS | US$10k/yr |
+| Qatar University assistantship | No tuition cover |
+| TAMU-Q | Returning students only |
+| UAlberta | No university-wide master's funding |
+| CMU-Africa | Via Mastercard, already listed |
+| Ashinaga | Rules changed and unclear |
+| EARTH | No current details |
+
+## How to resume (optional further growth)
 
 1. `git checkout v4-data && git log --oneline | head`, then read this section.
 2. The brief for research agents is in `docs/research-brief.md`. `npm run -s list-programmes` lists what already exists.
