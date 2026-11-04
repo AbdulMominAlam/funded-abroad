@@ -644,5 +644,510 @@
     "source": "https://srfs.upenn.edu/financial-aid/international",
     "verifiedOn": "2026-11-04",
     "expected": true
+  },
+  {
+    "id": "northwestern-aid",
+    "name": "Northwestern University need-based aid (international)",
+    "host": "Northwestern University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted international first-years with grants (no loans), for four years",
+    "deadline": "2027-01-02T23:59:00-06:00",
+    "dlText": "Regular Decision ~2 Jan 2027, 11:59 pm local time (estimated from 2026 cycle); CSS Profile due ~1 Feb",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Must tick aid box when applying",
+      "CSS Profile"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International students who don't request aid at application can never receive need-based aid later; no aid for international transfers. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://undergradaid.northwestern.edu/apply-for-aid/prospective-international-undocumented-students/",
+    "source": "https://admissions.northwestern.edu/tuition-aid/international-student-aid/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "vanderbilt-aid",
+    "name": "Vanderbilt University need-based aid (international)",
+    "host": "Vanderbilt University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need with grants/scholarships for a limited number of admitted international first-years",
+    "deadline": "2027-01-01T23:59:00-06:00",
+    "dlText": "Regular Decision application ~1 Jan 2027 (not confirmed on an official page; estimated); RD aid forms (CSS Profile/ISFAA) due 1 Feb 2027",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Limited number of awards",
+      "CSS Profile or ISFAA"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International transfer applicants requesting aid are not considered. Separate merit scholarships (Ingram, Cornelius Vanderbilt) are due 1 Dec 2026.",
+    "url": "https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/",
+    "source": "https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "rice-aid",
+    "name": "Rice University need-based aid (international)",
+    "host": "Rice University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "International students who receive need-based aid have 100% of demonstrated need met with institutional grants (not part of the Rice Investment)",
+    "deadline": "2027-01-04T23:59:00-06:00",
+    "dlText": "Regular Decision ~4 Jan 2027 (estimated from 2026 cycle; time not stated); aid priority date ~1 Feb",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Limited number of awards",
+      "CSS Profile + International Student Financial Statement"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Aid goes to a limited number of international first-years and must be requested on the admission application; no aid for international transfers. Date estimated from 2026 cycle.",
+    "url": "https://financialaid.rice.edu/apply-aid/international-students",
+    "source": "https://financialaid.rice.edu/apply-aid/international-students",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "washu-aid",
+    "name": "Washington University in St. Louis need-based aid (international)",
+    "host": "Washington University in St. Louis",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted international first-year students",
+    "deadline": "2027-01-04T23:59:00-06:00",
+    "dlText": "Regular Decision 4 Jan 2027 (per official how-to-apply page; time not stated); aid due 1 Feb",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "CSS Profile",
+      "No aid for international transfers"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "WashU's need-blind policy excludes international applicants, but it meets 100% of need for those admitted. Submit the CSS Profile by the aid deadline.",
+    "url": "https://financialaid.wustl.edu/application-deadlines/",
+    "source": "https://financialaid.wustl.edu/common-questions/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "carleton-college-aid",
+    "name": "Carleton College need-based aid (international)",
+    "host": "Carleton College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need; loans to be replaced by grants from 2027–28",
+    "deadline": "2027-01-15T23:59:00-06:00",
+    "dlText": "Regular Decision & aid ~15 Jan 2027 (estimated from current cycle; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Apply Regular Decision (most intl aid)",
+      "CSS Profile or ISAFA"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Most international aid is awarded in Regular Decision; aid requests are not considered after an admission offer. Cost of attendance 2026–27 about $104,746.",
+    "url": "https://www.carleton.edu/financial-aid/apply-for-aid/international-students/",
+    "source": "https://www.carleton.edu/financial-aid/apply-for-aid/international-students/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "hamilton-aid",
+    "name": "Hamilton College need-based aid (international)",
+    "host": "Hamilton College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full demonstrated need of every admitted international student for four years",
+    "deadline": "2027-01-15T23:59:00-05:00",
+    "dlText": "Regular Decision aid deadline 15 Jan 2027 (time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "CSS Profile",
+      "Certification of Finances"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Aid applications are not accepted after admission decisions; you must apply for aid at the time of admission.",
+    "url": "https://www.hamilton.edu/admission/finaid/international",
+    "source": "https://www.hamilton.edu/admission/finaid/home",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "haverford-aid",
+    "name": "Haverford College need-based aid (international)",
+    "host": "Haverford College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full demonstrated need of all admitted students, including international students (limited number per class)",
+    "deadline": "2027-01-10T23:59:00-05:00",
+    "dlText": "Regular Decision aid deadline 10 Jan 2027 (time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Small number of intl aid places",
+      "CSS Profile"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Only a small number of international students per class get aid; no aid for international transfers. Aid does not cover travel or living costs when college is not in session.",
+    "url": "https://www.haverford.edu/financial-aid/international-applicants",
+    "source": "https://www.haverford.edu/financial-aid/applying-financial-aid/early-decision-and-regular-decision",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "colgate-aid",
+    "name": "Colgate University need-based aid (international)",
+    "host": "Colgate University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of every admitted international student's demonstrated need (no merit scholarships)",
+    "deadline": "2027-01-15T23:59:00-05:00",
+    "dlText": "Regular Decision & CSS Profile ~15 Jan 2027 (estimated from current cycle; one page says 22 Jan; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "CSS Profile by application deadline"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Colgate offers need-based aid only. Official pages give both 15 and 22 Jan for the CSS Profile; use the earlier date.",
+    "url": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+    "source": "https://www.colgate.edu/admission-aid/financial-aid/apply-aid",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "bates-aid",
+    "name": "Bates College need-based aid (international)",
+    "host": "Bates College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full calculated need for all admitted students regardless of citizenship; grant + on-campus job, no loans for non-US citizens",
+    "deadline": "2027-01-10T23:59:00-05:00",
+    "dlText": "Regular Decision ~10 Jan 2027 (estimated from current cycle; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "No loans",
+      "BISAFA form (no CSS Profile)"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Request aid before your admission decision is released. Package is the same whichever round you are admitted in.",
+    "url": "https://www.bates.edu/financial-services/financial-aid/international-undergraduates/",
+    "source": "https://www.bates.edu/admission/apply/application-options/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "macalester-aid",
+    "name": "Macalester College need-based aid (international)",
+    "host": "Macalester College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted students, including international students",
+    "deadline": "2027-01-22T23:59:00-06:00",
+    "dlText": "Regular Decision aid deadline 22 Jan (current-cycle official page; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "CSS Profile or ISAFA",
+      "Financial Declaration Form"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Because of budget limits, applicants with the highest need face the most competition; aid can't be requested after the admission decision.",
+    "url": "https://www.macalester.edu/financial-aid/apply/international/",
+    "source": "https://www.macalester.edu/financial-aid/apply/international/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "trinity-hartford-aid",
+    "name": "Trinity College (Hartford) need-based aid (international)",
+    "host": "Trinity College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full demonstrated need of admitted students (limited number of international awards)",
+    "deadline": "2027-01-15T23:59:00-05:00",
+    "dlText": "Regular Decision ~15 Jan 2027 (estimated; another official page says 17 Jan; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "CSS Profile only"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Aid may include scholarships, grants and loans. Official pages disagree on 15 vs 17 Jan; use the earlier date.",
+    "url": "https://www.trincoll.edu/admissions/finaid/international-students/",
+    "source": "https://www.trincoll.edu/admissions/finaid/international-students/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "berea-intl",
+    "name": "Berea College international student aid",
+    "host": "Berea College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Aid and scholarships cover 100% of tuition, housing, food and fees for admitted international students",
+    "deadline": "2026-11-30T23:59:00-05:00",
+    "dlText": "~30 Nov 2026 (international application deadline; the official page gives no year, so this is an estimate; time not stated)",
+    "tags": [
+      "Full cost covered for all admitted intl students",
+      "No extensions",
+      "First bachelor's only",
+      "Fall entry only"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Berea charges no tuition and covers housing, food and fees for internationals; all application parts are due by 30 Nov, decisions mid-March.",
+    "url": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+    "source": "https://berea.edu/admissions/admission-information/apply/deadlines-and-important-dates",
+    "verifiedOn": "2026-11-04",
+    "nextText": "Next round ~Nov 2027",
+    "expected": true
+  },
+  {
+    "id": "ubc-wehrung",
+    "name": "Donald A. Wehrung International Student Award (UBC International Scholars)",
+    "host": "University of British Columbia",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Need-based; typically covers full tuition and living costs, renewable",
+    "deadline": "2026-11-15T23:59:00-08:00",
+    "dlText": "15 Nov 2026, 11:59 pm PT (International Scholars Program application)",
+    "tags": [
+      "Need + merit",
+      "From war-torn/unstable or economically disadvantaged region",
+      "No family financial means",
+      "First undergraduate degree"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Applied for through UBC's International Scholars Program (same application as the Karen McKellin award). Award size is set by individual need.",
+    "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+    "source": "https://bog3.sites.olt.ubc.ca/files/2025/05/7_2025.06_Student-Financial-Support-Annual-Report-2024-2025.pdf",
+    "verifiedOn": "2026-11-04",
+    "nextText": "Next round ~Nov 2027"
+  },
+  {
+    "id": "york-pise",
+    "name": "President's International Scholarship of Excellence",
+    "host": "York University",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "CA$180,000 over 4 years (CA$45,000/year)",
+    "opens": "2026-11-01",
+    "deadline": "2027-01-27T23:59:00-05:00",
+    "dlText": "27 Jan 2027, 11:59 pm EST (student application); nomination & reference by 4 Feb 2027",
+    "tags": [
+      "International high-school students",
+      "Min. 80% admission average",
+      "Nomination + reference required",
+      "Renewable with good standing"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your school (nomination)",
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For high-school students entering first year at York in Fall 2027; cannot be combined with entrance scholarships. Apply to York early so your admission application is in on time.",
+    "url": "https://futurestudents.yorku.ca/financing-your-degree/international-scholarships",
+    "source": "https://futurestudents.yorku.ca/presidents-international-scholarship-excellence-application-guides",
+    "verifiedOn": "2026-11-04"
   }
 ]
