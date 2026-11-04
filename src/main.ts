@@ -13,7 +13,7 @@ import { buildCalendar, downloadFile } from "./ics";
 import { buildExport, mergeImport, parseExport } from "./backup";
 import { $, esc, prefersReducedMotion } from "./ui/dom";
 import { checklistBodyHtml, listHtml, progressHtml, type ListContext } from "./ui/list";
-import { stripHtml } from "./ui/strip";
+import { stripHtml, STRIP_LIMIT } from "./ui/strip";
 import { compareTableHtml } from "./ui/compare";
 import { alertsConfigured, BANNERS, buildPayload, levelOptionsHtml, submitSubscription } from "./ui/alerts";
 
@@ -429,6 +429,15 @@ function bind(): void {
   }, true);
 
   $("months").addEventListener("click", (e) => {
+    const more = (e.target as HTMLElement).closest<HTMLButtonElement>("[data-strip-more]");
+    if (more) {
+      const open = more.getAttribute("aria-expanded") !== "true";
+      const extra = [...more.closest("ul")!.querySelectorAll<HTMLLIElement>("li")].slice(STRIP_LIMIT, -1);
+      extra.forEach((li) => (li.hidden = !open));
+      more.setAttribute("aria-expanded", String(open));
+      more.textContent = open ? "Show less" : `+${extra.length} more`;
+      return;
+    }
     const j = (e.target as HTMLElement).closest<HTMLElement>("[data-jump]");
     if (!j) return;
     filters = { ...DEFAULT_FILTERS, sort: filters.sort, nat: filters.nat, lvl: filters.lvl };

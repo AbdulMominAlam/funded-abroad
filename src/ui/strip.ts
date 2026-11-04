@@ -4,6 +4,9 @@ import { esc } from "./dom";
 
 const fmtM = new Intl.DateTimeFormat("en-GB", { month: "long", year: "numeric" });
 
+/** Deadlines shown per month before the "+N more" button. */
+export const STRIP_LIMIT = 6;
+
 export const shortName = (n: string): string =>
   n.replace(/\s*\(.*?\)\s*/g, " ").replace(/ Scholarships?$| Fellowships?$/, "").trim();
 
@@ -20,7 +23,10 @@ export function stripHtml(data: readonly Scholarship[], now: Date): string {
       .sort((a, b) => a.i.deadline!.getTime() - b.i.deadline!.getTime());
     html += `<div class="month ${m === 0 ? "now" : ""}"><div class="mname">${fmtM.format(ms)}</div><ul>${
       items.length
-        ? items.map(({ s, i }) => `<li class="${i.kind === "soon" ? "soon" : ""}"><button type="button" data-jump="${esc(s.id)}" aria-label="${esc(s.name)}, deadline ${esc(s.dlText)}"><span class="d">${s.expected || s.varies ? "~" : ""}${i.deadline!.getDate()}</span><span class="n">${esc(shortName(s.name))}</span></button></li>`).join("")
+        ? items.map(({ s, i }, k) => `<li class="${i.kind === "soon" ? "soon" : ""}"${k >= STRIP_LIMIT ? " hidden" : ""}><button type="button" data-jump="${esc(s.id)}" aria-label="${esc(s.name)}, deadline ${esc(s.dlText)}"><span class="d">${s.expected || s.varies ? "~" : ""}${i.deadline!.getDate()}</span><span class="n">${esc(shortName(s.name))}</span></button></li>`).join("") +
+          (items.length > STRIP_LIMIT
+            ? `<li><button type="button" class="more" data-strip-more aria-expanded="false">+${items.length - STRIP_LIMIT} more</button></li>`
+            : "")
         : '<li style="color:var(--muted);font-size:.8rem">No deadlines</li>'
     }</ul></div>`;
   }

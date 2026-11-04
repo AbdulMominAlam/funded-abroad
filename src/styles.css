@@ -37,6 +37,8 @@ header p{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
 .month li .d{font-family:var(--mono);color:var(--accent);font-variant-numeric:tabular-nums;min-width:1.6em}
 .month li.soon .d{color:var(--warn)}
 .month li button:hover .n{text-decoration:underline}
+.month li button.more{color:var(--accent);font-weight:600;font-size:.8rem;margin-top:2px}
+.month li button.more:hover{text-decoration:underline}
 
 /* Controls */
 .controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:14px 12px;margin-top:22px;border-bottom:1px solid var(--line)}
