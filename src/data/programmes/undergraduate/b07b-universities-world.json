@@ -339,5 +339,735 @@
     "work": false,
     "nominationBody": null,
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "smu-lkcsp",
+    "name": "Lee Kong Chian Scholars' Programme",
+    "host": "Singapore Management University",
+    "country": "Singapore",
+    "region": "east-asia",
+    "full": true,
+    "amount": "Subsidised tuition waived (after MOE Tuition Grant) + S$5,000/yr living + S$1,800 computer + S$16,000 Global Opportunities grant",
+    "rolling": true,
+    "dlText": "No separate deadline – considered with your SMU admission application",
+    "tags": [
+      "Bond-free scholarship",
+      "3-year Tuition Grant bond for non-Singaporeans",
+      "Top merit"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Listed on SMU's scholarships-for-international-students page; non-Singaporeans must take the MOE Tuition Grant – confirm current international eligibility with SMU"
+    },
+    "fields": "Any SMU undergraduate degree",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "SMU's flagship undergraduate scholarship, renewable for up to four years. International recipients sign the MOE Tuition Grant agreement and must work for a Singapore-based company for 3 years after graduating.",
+    "url": "https://admissions.smu.edu.sg/financial-aid/lee-kong-chian-scholars-programme",
+    "source": "https://admissions.smu.edu.sg/scholarships/prospective-students/international-students"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cuhk-admission-ug",
+    "name": "CUHK Admission Scholarships (non-local undergraduates)",
+    "host": "The Chinese University of Hong Kong",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "HK$5,000 up to full tuition (non-local tuition HK$230,000/yr in 2027-28)",
+    "rolling": true,
+    "dlText": "No separate application – automatic with your CUHK admission application",
+    "tags": [
+      "Automatic consideration",
+      "Merit-based",
+      "No financial aid for internationals"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "HK"
+      ]
+    },
+    "fields": "Any CUHK undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "All admitted full-time undergraduates are considered automatically; only the top awards reach full tuition, and faculties and colleges add their own awards. CUHK offers no need-based financial aid to international students.",
+    "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/admission-scholarships-for-undergraduates-only/",
+    "source": "https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/admission-scholarships-for-undergraduates-only/"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "hkust-future-leaders",
+    "name": "HKUST Future Leaders Award",
+    "host": "The Hong Kong University of Science and Technology",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "full": true,
+    "amount": "Top tier: full tuition + living allowance, renewable (base tier one-off HK$50,000)",
+    "deadline": "2026-11-30T23:59:00+08:00",
+    "dlText": "~30 Nov 2026 (estimated from 2025 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "Non-local applicants",
+      "Exceptional financial need",
+      "Early Round admission"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "HK"
+      ]
+    },
+    "fields": "Any HKUST undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For non-local applicants who have overcome challenges and are recommended for admission in the Early Round; the full-tuition-plus-living tier needs proof of exceptional financial need. Post-secondary applicants are excluded.",
+    "url": "https://join.hkust.edu.hk/future-leaders-award",
+    "source": "https://join.hkust.edu.hk/future-leaders-award"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "apu-tuition-reduction",
+    "name": "APU Tuition Reduction Scholarship for International Students",
+    "host": "Ritsumeikan Asia Pacific University (APU)",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "30%, 50%, 65% or 100% tuition reduction (100% ≈ ¥1,455,000/yr for 2027 entry)",
+    "rolling": true,
+    "dlText": "Several admission rounds with deadlines by country of residence – check the Application Schedule",
+    "tags": [
+      "Student visa holders",
+      "Decided before enrolment",
+      "Renewed each semester"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International applicants who hold or will obtain 'Student' residence status in Japan"
+    },
+    "fields": "Any APU undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Awarded at admission on academic ability and financial need, covering up to 8 semesters if you pass a performance review each semester. Deadlines are never extended.",
+    "url": "https://admissions.apu.ac.jp/costs_scholarships/tuition_reduction_scholarship/",
+    "source": "https://admissions.apu.ac.jp/costs_scholarships/before_enrollment/"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "yonsei-uic-intl",
+    "name": "UIC Full-Tuition Admission Scholarship (international students)",
+    "host": "Underwood International College, Yonsei University",
+    "country": "South Korea",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition for 4 years (living costs not covered)",
+    "rolling": true,
+    "dlText": "No separate application – automatic with UIC admission",
+    "tags": [
+      "Automatic consideration",
+      "GPA to renew",
+      "Newly admitted internationals"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "fields": "UIC English-taught programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Recipients are picked from admitted international applicants on academic credentials; offers come with the admission packet. You must keep a set GPA each semester.",
+    "url": "https://uic.yonsei.ac.kr/main/admission.php?mid=m04_03_02",
+    "source": "https://uic.yonsei.ac.kr/main/admission.php?mid=m04_03_02"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "kfupm-intl-ug",
+    "name": "KFUPM Full Scholarship for International Students",
+    "host": "King Fahd University of Petroleum and Minerals",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "full": true,
+    "amount": "Tuition waiver + free campus housing + monthly stipend + textbooks + medical care",
+    "opens": "2027-01-10",
+    "deadline": "2027-01-24T23:59:00+03:00",
+    "dlText": "Primary Admission Track registration 10–24 Jan 2027 (time not stated); SAT track 1–11 Feb 2027",
+    "tags": [
+      "Living outside Saudi Arabia",
+      "STEM & business",
+      "English test required"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SA"
+      ]
+    },
+    "fields": "Engineering, sciences, computing, business",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "KFUPM's international page says students living outside Saudi Arabia get a full scholarship; an older Student Affairs page mentions tuition for non-Saudis, so confirm. Admission runs through set tracks (Primary, SAT, Olympiad).",
+    "url": "https://www.kfupm.edu.sa/study/international-students/fees-and-scholarships",
+    "source": "https://www.kfupm.edu.sa/study/international-students/fees-and-scholarships"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "khalifa-intl-ug",
+    "name": "Khalifa University Scholarship for International Undergraduates",
+    "host": "Khalifa University of Science and Technology",
+    "country": "United Arab Emirates",
+    "region": "middle-east",
+    "full": false,
+    "funding": "partial",
+    "amount": "Up to 100% of tuition depending on CGPA (e.g. 100% at CGPA ≥3.3 in engineering/science); no stipend",
+    "rolling": true,
+    "dlText": "Automatic with your KU application – check official page for admission deadlines",
+    "tags": [
+      "Merit (CGPA-based)",
+      "Automatic consideration",
+      "Seat-limited"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AE"
+      ]
+    },
+    "fields": "Engineering and science BSc programmes",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Applying to KU enrolls you for scholarship consideration; the percentage depends on academic performance and seats. KU's FAQ says no stipend is offered to undergraduates.",
+    "url": "https://www.ku.ac.ae/academics/undergraduate-programs",
+    "source": "https://www.ku.ac.ae/academics/undergraduate-programs"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "korea-univ-intl-ug",
+    "name": "Korea University Admission Scholarships for International Freshmen",
+    "host": "Korea University",
+    "country": "South Korea",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition for 8 semesters (Anam Global) or 4 semesters (KU STEM, KU Global Friends); smaller tiers too",
+    "rolling": true,
+    "dlText": "Awarded with admission each spring/fall intake – check the current application guide",
+    "tags": [
+      "Top admission results",
+      "GPA 3.5 to renew",
+      "Developing-country tier"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "fields": "Any Korea University undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Anam Global goes to the top-ranked admitted student per track; KU Global Friends gives full tuition for 4 semesters to strong applicants from Africa, South America and other developing countries.",
+    "url": "https://oia.korea.ac.kr/_res/oia/etc/Application_Guide_for_Fall_2026_Freshman(ENG).pdf",
+    "source": "https://oia.korea.ac.kr/_res/oia/etc/Application_Guide_for_Fall_2026_Freshman(ENG).pdf"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unist-intl-ug",
+    "name": "UNIST International Undergraduate Scholarship",
+    "host": "UNIST (Ulsan National Institute of Science and Technology)",
+    "country": "South Korea",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition in first term (then full/half by GPA) + living scholarship up to ₩630,000/month incl. meals",
+    "rolling": true,
+    "dlText": "Awarded on admission – check UNIST international admission dates",
+    "tags": [
+      "All freshmen full tuition",
+      "Living tier set at admission",
+      "GPA-based renewal"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "fields": "Science, engineering and business",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Living scholarship tiers (Gold ₩630k, Silver ₩330k, Dream ₩130k per month) are set by UNIST from admission results. Later tuition waivers depend on credits and GPA.",
+    "url": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+    "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "snu-glo-harmony",
+    "name": "SNU Glo-Harmony Scholarship",
+    "host": "Seoul National University",
+    "country": "South Korea",
+    "region": "east-asia",
+    "full": true,
+    "amount": "Full tuition + ₩600,000/month for up to 8 semesters",
+    "rolling": true,
+    "dlText": "Applied for after admission – check SNU scholarship notices",
+    "tags": [
+      "DAC-list developing countries",
+      "After admission",
+      "Need/merit"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Admitted international undergraduates from countries on the OECD DAC recipient list"
+    },
+    "fields": "Any SNU undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Post-admission award for students from developing countries. SNU also offers Global Scholarships (tuition + ₩1.2M/month for up to 4 semesters) to some freshmen.",
+    "url": "https://en.snu.ac.kr/admission/undergraduate/scholarships/after_admission",
+    "source": "https://en.snu.ac.kr/admission/undergraduate/scholarships/after_admission"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "dku-full-scholarship",
+    "name": "Duke Kunshan University Full Scholarship",
+    "host": "Duke Kunshan University",
+    "country": "China",
+    "region": "east-asia",
+    "full": true,
+    "amount": "Full cost of attendance (up to 3 awards; need-based aid up to full tuition for others)",
+    "deadline": "2027-02-01T23:59:00+08:00",
+    "dlText": "15 Nov 2026 (Early Decision) / 1 Feb 2027 (Regular Decision); time zone not stated",
+    "tags": [
+      "International first-years",
+      "Financial hardship",
+      "Separate essay + CSS Profile"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Any DKU undergraduate major",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Up to 3 full scholarships for international first-years with financial hardship and top academics; a separate application and essay are required. Aid can't be requested after admission, and DKU notes that applicants with hardship who are not selected are not admitted.",
+    "url": "https://admissions.dukekunshan.edu.cn/en/duke-kunshan-university-full-scholarship/",
+    "source": "https://admissions.dukekunshan.edu.cn/en/duke-kunshan-university-full-scholarship/"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "monash-intl-leadership",
+    "name": "Monash International Leadership Scholarship",
+    "host": "Monash University",
+    "country": "Australia",
+    "region": "oceania",
+    "full": false,
+    "funding": "partial",
+    "amount": "100% of course fees for the minimum degree length (no living costs/OSHC)",
+    "rolling": true,
+    "dlText": "No application – automatic with an unconditional Monash undergraduate offer",
+    "tags": [
+      "4 awards a year",
+      "Unconditional offer",
+      "WAM 70 to keep"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AU",
+        "NZ"
+      ]
+    },
+    "fields": "Most undergraduate degrees (medicine excluded)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Selected on academic achievement from international students with a full offer for full-time study at an Australian campus. Current Monash students and Monash College/Foundation Year pathways are excluded.",
+    "url": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-international-leadership-scholarship-5571Z",
+    "source": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-international-leadership-scholarship-5571Z"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unsw-intl-scientia",
+    "name": "UNSW International Scientia Coursework Scholarship",
+    "host": "UNSW Sydney",
+    "country": "Australia",
+    "region": "oceania",
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition for the program's minimum duration, or A$20,000/yr",
+    "deadline": "2026-10-30T23:59:00+11:00",
+    "dlText": "Term 1 2027 round closed 30 Oct 2026 (time not stated)",
+    "nextText": "Later 2027 terms have their own rounds – check UNSW Scholarships",
+    "tags": [
+      "Academic merit + leadership",
+      "Separate application",
+      "UG or PG coursework"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AU",
+        "NZ"
+      ]
+    },
+    "fields": "Any UNSW coursework degree (not UNSW Online/Canberra)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Judged on academic merit, leadership and extracurricular involvement. Applications run per intake term through the UNSW international scholarships form.",
+    "url": "https://www.unsw.edu.au/study/your-future/international-scholarships",
+    "source": "https://www.scholarships.unsw.edu.au/scholarships/id/1988"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "sydney-intl-academic-excellence",
+    "name": "Sydney International Undergraduate Academic Excellence Scholarship",
+    "host": "The University of Sydney",
+    "country": "Australia",
+    "region": "oceania",
+    "full": false,
+    "funding": "partial",
+    "amount": "100% tuition + SSAF for the standard length of a single undergraduate degree (up to 4 years)",
+    "rolling": true,
+    "dlText": "Semester 1 2027 closed; Semester 2 2027 applications open – closing date not stated",
+    "tags": [
+      "Top marks in home curriculum",
+      "No prior tertiary study",
+      "Living costs not covered"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AU",
+        "NZ"
+      ]
+    },
+    "fields": "Range of undergraduate degrees",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Only students with top marks in their home-country school curriculum can apply. Awarded in semesters one and two each year.",
+    "url": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
+    "source": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "anu-chancellors-intl-ug",
+    "name": "ANU Chancellor's International Scholarship (50% tier)",
+    "host": "Australian National University",
+    "country": "Australia",
+    "region": "oceania",
+    "full": false,
+    "funding": "partial",
+    "amount": "50% tuition reduction for the degree (25% for other students)",
+    "rolling": true,
+    "dlText": "No application – automatic with your ANU admission",
+    "tags": [
+      "Automatic consideration",
+      "High achievers",
+      "Reduced A$10,000 deposit"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "50% tier listed for students from India, Indonesia, Vietnam, South-East Asia, Europe and the Americas; others get 25%"
+    },
+    "fields": "Any ANU undergraduate degree",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Eligible applicants are considered for 50% first, then 25%. ANU's FAQ refers to 2023–2025 intakes, so confirm the tiers for 2027.",
+    "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-chancellors-international-scholarship",
+    "source": "https://study.anu.edu.au/scholarships/find-scholarship/anu-chancellors-international-scholarship"
+  },
+  {
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ergo-dsu-borsa",
+    "name": "ER.GO Right-to-Study Scholarship (Borsa di studio DSU)",
+    "host": "ER.GO – Emilia-Romagna regional agency for the right to study",
+    "country": "Italy",
+    "region": "europe",
+    "full": false,
+    "funding": "partial",
+    "amount": "Need-based grant + tuition exemption – check official page (bando)",
+    "deadline": "2026-08-24T16:00:00+02:00",
+    "dlText": "24 Aug 2026, 16:00 CEST (2026/27 call, closed)",
+    "nextText": "2027/28 call expected ~Jun–Aug 2027",
+    "tags": [
+      "Need-based (ISEE)",
+      "Open to non-EU students",
+      "Bologna, Modena, Parma, Ferrara uni"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any degree at Emilia-Romagna universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Non-EU students with family abroad use an equivalent ISEE based on their home country; there is a list of countries for the figurative ISEE. Merit (credit) requirements apply from the second year.",
+    "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/leggi-il-bando/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf/@@download/file",
+    "source": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/leggi-il-bando/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf/@@download/file"
+  },
+  {
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "laziodisco-borsa",
+    "name": "DiSCo Lazio Right-to-Study Scholarship (Borsa di studio)",
+    "host": "DiSCo – Lazio regional agency for the right to study",
+    "country": "Italy",
+    "region": "europe",
+    "full": false,
+    "funding": "partial",
+    "amount": "Need-based grant (top 'off-site' bracket if family lives abroad) – check official page",
+    "deadline": "2026-07-22T23:59:00+02:00",
+    "dlText": "22 Jul 2026 (2026/27 call, closed; time not stated)",
+    "nextText": "2027/28 call expected ~Jun–Jul 2027",
+    "tags": [
+      "Need-based (ISEEUP)",
+      "Non-EU quota",
+      "Rome & Lazio universities"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any degree at Lazio universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Students with family abroad sign the ISEEUP at a DiSCo-approved CAF (by 10 Dec 2026 for this round) and are automatically classed as off-site. First-year non-EU students are ranked by income.",
+    "url": "https://laziodisco.it/bando-diritto-allo-studio-2026-2027/faq-studenti-internazionali/",
+    "source": "https://laziodisco.it/wp-content/uploads/2026/07/BANDO-DIRITTO-ALLO-STUDIO-ENG-26-27.pdf"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "sjtu-intl-ug",
+    "name": "SJTU International New Students Scholarship (First-Class)",
+    "host": "Shanghai Jiao Tong University",
+    "country": "China",
+    "region": "east-asia",
+    "full": true,
+    "amount": "Full tuition + CNY 2,500/month living + CNY 1,000/month housing subsidy + insurance, 4 years (2nd class: 50% tuition)",
+    "deadline": "2027-03-31T23:59:00+08:00",
+    "dlText": "Regular Decision 31 Mar 2027 (Beijing time); Early Action closed 1 Nov 2026",
+    "tags": [
+      "No separate application",
+      "Interview ranking",
+      "CSCA math score"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "SJTU international undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Awarded by committee with the admission offer based on academic and interview ranking. Applicants need CSCA (with math) scores by 30 Jun 2027.",
+    "url": "https://gc.sjtu.edu.cn/admission/international-undergraduate-admission/fees-and-scholarships/",
+    "source": "https://gc.sjtu.edu.cn/admission/international-undergraduate-admission/application-requirements/"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ashesi-aid",
+    "name": "Ashesi University Need-Based Scholarships",
+    "host": "Ashesi University",
+    "country": "Ghana",
+    "region": "global",
+    "full": true,
+    "amount": "Partial (30% to nearly 100%) or comprehensive: tuition, housing, stipend, insurance, travel, laptop",
+    "rolling": true,
+    "dlText": "Apply for aid with your admission application – no scholarship requests after admission",
+    "tags": [
+      "Need-based only",
+      "Financial documents",
+      "Africa-focused"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Admitted Ashesi undergraduates with demonstrated financial need; Mastercard Foundation-funded awards target young Africans"
+    },
+    "fields": "Business, computing, engineering, economics",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Ashesi gives no merit scholarships; you submit a financial-aid form, need letter and bank/pay records. About 43% of students are on full or partial scholarship.",
+    "url": "https://ashesi.edu.gh/how-to-apply/",
+    "source": "https://ashesi.edu.gh/how-to-apply/"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "alu-mandela",
+    "name": "ALU Mandela Scholarships",
+    "host": "African Leadership University",
+    "country": "Rwanda",
+    "region": "global",
+    "full": false,
+    "funding": "partial",
+    "amount": "Mainly tuition (US$3,000–4,000/yr); living costs not covered",
+    "rolling": true,
+    "dlText": "Select it in the Financial Aid section of your ALU application – per intake",
+    "tags": [
+      "African applicants",
+      "Merit-based",
+      "~20 awards per intake"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Top academic performers from across Africa"
+    },
+    "fields": "ALU undergraduate degrees",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Merit award with no separate application; students fund accommodation, meals and other costs themselves. Need-based full rides at ALU come via the Mastercard Foundation programme.",
+    "url": "https://www.alueducation.com/mandela-scholarships/",
+    "source": "https://www.alueducation.com/mandela-scholarships/"
   }
 ]
