@@ -252,5 +252,412 @@
     "note": "Seven-week summer lab internship (1 Jul – mid-Aug in 2026). Date estimated from 2026 cycle, whose window closed in Feb 2026; 2027 call not yet announced.",
     "url": "https://kai-x.kaist.ac.kr/experience-summer-program",
     "source": "https://kai-x.kaist.ac.kr/experience-summer-program"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "mbzuai-mgrip",
+    "name": "MBZUAI Global Research Internship Program (MGRIP)",
+    "host": "Mohamed bin Zayed Univ. of AI",
+    "country": "United Arab Emirates",
+    "region": "middle-east",
+    "amount": "Stipend (amount not stated) + accommodation, airfare, visa, health insurance, airport transfers",
+    "opens": "2027-01-01",
+    "deadline": "2027-02-28T17:00:00+04:00",
+    "dlText": "28 Feb 2027, 17:00 GST",
+    "tags": [
+      "Penultimate-year UG or master's",
+      "CGPA 3.5/4",
+      "English test",
+      "4 weeks"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students in the penultimate year of a STEM bachelor's or master's degree, finishing after September 2027"
+    },
+    "fields": "Artificial intelligence, machine learning, computer vision, NLP, robotics",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Fully funded four-week AI research residency in Abu Dhabi, 7 Jun – 2 Jul 2027 (formerly UGRIP). Projects released in November; decisions by 2 Apr 2027.",
+    "url": "https://mbzuai.ac.ae/academics/pathway-programs/mbzuai-global-research-internship-program",
+    "source": "https://mbzuai.ac.ae/academics/pathway-programs/mbzuai-global-research-internship-program"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "westlake-summer-research",
+    "name": "Westlake University Summer Research Internship",
+    "host": "Westlake University",
+    "country": "China",
+    "region": "east-asia",
+    "amount": "RMB 1,760 living allowance (2026) + free on-campus housing; no programme fees",
+    "deadline": "2027-03-31T23:59:00+08:00",
+    "dlText": "~31 Mar 2027, 23:59 Beijing time, estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "UG/master's students or recent grads",
+      "~1 month",
+      "Own travel and insurance"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students currently enrolled in, or recently graduated from, a bachelor's or master's programme"
+    },
+    "fields": "Life sciences, physics, chemistry, engineering, AI and other Westlake research areas",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "One-month lab internship in Hangzhou (13 Jul – 14 Aug in 2026) with application, programme and housing fees waived. Interns pay their own visa, insurance and travel; 2027 call not yet out.",
+    "url": "https://en.westlake.edu.cn/admissions/summer_sessions/summer_graduate_research_internship/",
+    "source": "https://en.westlake.edu.cn/PDF/Westlake_University_2026_Summer_Research_Internship.pdf"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "westlake-wire",
+    "name": "Westlake International Research Exchange (WIRE)",
+    "host": "Westlake University",
+    "country": "China",
+    "region": "east-asia",
+    "amount": "RMB 1,750/month living stipend",
+    "rolling": true,
+    "dlText": "Rolling; 1–6 month stays",
+    "tags": [
+      "STEM students",
+      "1–6 months",
+      "English proficiency"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International STEM students; check official page for degree-level requirements"
+    },
+    "fields": "STEM",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Research exchange of 1–6 months in a Westlake lab with a monthly living stipend. Applicants should demonstrate English proficiency.",
+    "url": "https://en.westlake.edu.cn/admissions/summer_sessions/westlake_international_research_exchange/",
+    "source": "https://en.westlake.edu.cn/admissions/summer_sessions/westlake_international_research_exchange/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "sinica-tiip",
+    "name": "Taiwan International Internship Program (TIIP)",
+    "host": "Academia Sinica (TIGP)",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "amount": "NTD 30,000/month (before tax) + half of economy airfare, up to NTD 15,000",
+    "opens": "2026-12-15",
+    "deadline": "2027-01-15T23:59:00+08:00",
+    "dlText": "~15 Jan 2027, 23:59 GMT+8, estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "Final-year UG, master's or graduates",
+      "No PhD students",
+      "2 recommendation letters"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Final-year undergraduates, master's students and BSc/MSc holders; PhD students and past TIIP participants excluded"
+    },
+    "fields": "Life, physical, chemical, computational and other sciences at Academia Sinica institutes",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Summer research internship (cohorts May–August) at Academia Sinica, Taipei. Airfare support is reimbursed only after successful completion.",
+    "url": "https://tiip.dia.sinica.edu.tw/pages/4048",
+    "source": "https://tiip.dia.sinica.edu.tw/pages/4048"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "hkust-ivisp",
+    "name": "HKUST International Visiting Internship Student Program",
+    "host": "The Hong Kong University of Science and Technology",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "amount": "HK$10,000–12,000/month allowance, subject to supervisor agreement and funds",
+    "rolling": true,
+    "dlText": "Rolling; apply ≥3 months before start",
+    "tags": [
+      "Senior UG or master's",
+      "Foreign nationals",
+      "2–6 months",
+      "Home-university support form"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Foreign nationals studying full-time at an overseas university, as senior-year undergraduates or master's students"
+    },
+    "fields": "Science, engineering, business and other HKUST research areas",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Faculty-supervised research visit of 2–6 months; international applicants are considered for the allowance automatically when applying as visiting interns. The allowance is not guaranteed.",
+    "url": "https://fytgs.hkust.edu.hk/admissions/short-term-study/international-visiting-internship-student-program",
+    "source": "https://fytgs.hkust.edu.hk/admissions/short-term-study/international-visiting-internship-student-program"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "nus-iris",
+    "name": "Internship and Research Immersion in Singapore (IRIS@NUS)",
+    "host": "NUS Graduate School, National University of Singapore",
+    "country": "Singapore",
+    "region": "east-asia",
+    "amount": "SGD 1,200/month + SGD 600 travel allowance + free on-campus housing",
+    "rolling": true,
+    "dlText": "Several rounds a year; next window opens end Dec 2026",
+    "tags": [
+      "GPA 3.5/4",
+      "UG after 2 years, or master's",
+      "2–3 months"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Full-time undergraduates (2+ years completed) or master's students at universities other than NUS"
+    },
+    "fields": "Science, engineering, computing and other NUS research areas",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Fully funded 2–3 month research immersion at NUS; apply via the GDA3 portal as a non-degree full-time applicant. The round for the January 2027 intake closed 28 Aug 2026.",
+    "url": "https://nusgs.nus.edu.sg/irisnus/",
+    "source": "https://nusgs.nus.edu.sg/irisnus/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "nus-soc-sri",
+    "name": "NUS SoC Summer Research Internship",
+    "host": "National University of Singapore, School of Computing",
+    "country": "Singapore",
+    "region": "east-asia",
+    "amount": "SGD 500/week for 10 weeks (housing at own cost)",
+    "deadline": "2027-01-16T23:59:00+08:00",
+    "dlText": "~16 Jan 2027, estimated from 2026 cycle (time not stated)",
+    "expected": true,
+    "tags": [
+      "UG/master's or recent grads",
+      "10 weeks",
+      "Work plan before arrival"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Current undergraduate or master's students, graduates within one year, and early-career faculty without a PhD"
+    },
+    "fields": "Computer science and information systems",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Ten-week summer research internship with NUS Computing faculty. Interns must find their own housing; acceptances in late February.",
+    "url": "https://www.comp.nus.edu.sg/programmes/pg/events/res-internship/",
+    "source": "https://www.comp.nus.edu.sg/programmes/pg/events/res-internship/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "nus-mbi-must",
+    "name": "MBI Undergraduate Summer Training Programme (MUST)",
+    "host": "Mechanobiology Institute, National University of Singapore",
+    "country": "Singapore",
+    "region": "east-asia",
+    "amount": "S$600 stipend for 6 weeks + accommodation (international interns)",
+    "deadline": "2027-01-31T23:59:00+08:00",
+    "dlText": "~31 Jan 2027, estimated from 2026 cycle (time not stated)",
+    "expected": true,
+    "tags": [
+      "Undergraduates",
+      "6 weeks",
+      "Lab research"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates; stipend and accommodation are for international interns"
+    },
+    "fields": "Mechanobiology, cell biology, biophysics, bioengineering",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Six-week summer lab internship at MBI; international interns receive a stipend and accommodation. 2027 call not yet announced.",
+    "url": "https://www.mbi.nus.edu.sg/education/must/",
+    "source": "https://www.mbi.nus.edu.sg/education/must/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ntu-global-connect",
+    "name": "NTU Global Connect Fellowship",
+    "host": "Nanyang Technological University",
+    "country": "Singapore",
+    "region": "east-asia",
+    "amount": "SGD 5,000 total (SGD 2,000 settling-in + SGD 1,500/month) + free on-campus housing + tuition waiver",
+    "opens": "2027-01-15",
+    "deadline": "2027-02-15T23:59:00+08:00",
+    "dlText": "15 Feb 2027 (time not stated)",
+    "tags": [
+      "Final-year UG or master's",
+      "Graduating 2027/2028",
+      "2 months"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Final-year bachelor's or master's students at overseas universities graduating in 2027 or 2028"
+    },
+    "fields": "STEM preferred",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Two-month summer research at NTU, 1 Jul – 31 Aug 2027 (successor to India Connect@NTU). No minimum GPA or English test stated; selection on merit.",
+    "url": "https://www.ntu.edu.sg/about-us/global/global-connect-fellowship",
+    "source": "https://www.ntu.edu.sg/about-us/global/global-connect-fellowship/programme-details"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "hku-summer-research",
+    "name": "HKU Summer Research Programme",
+    "host": "The University of Hong Kong, Graduate School",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "amount": "HK$10,000 scholarship + airfare up to HK$5,000 + accommodation up to HK$5,000 (2026, reimbursed on completion)",
+    "deadline": "2027-02-09T17:00:00+08:00",
+    "dlText": "~9 Feb 2027, 17:00 HKT, estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "Aimed at future research postgrads",
+      "HK$300 application fee"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students interested in research postgraduate study at HKU; check official page for year-of-study rules"
+    },
+    "fields": "All HKU research areas",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Summer research attachment for prospective MPhil/PhD applicants; support paid on completion. 2026 applications ran 9 Jan – 9 Feb 2026.",
+    "url": "https://gradsch.hku.hk/news_and_events/news_and_future_events/summer-research-programme-2026",
+    "source": "https://gradsch.hku.hk/news_and_events/news_and_future_events/summer-research-programme-2026"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "huji-einstein-reu",
+    "name": "REU at the Einstein Institute of Mathematics",
+    "host": "Hebrew University of Jerusalem",
+    "country": "Israel",
+    "region": "middle-east",
+    "amount": "~US$250/week stipend + dormitory housing (no airfare or insurance)",
+    "deadline": "2027-02-15T23:59:00+02:00",
+    "dlText": "Review from ~15 Feb 2027, estimated from 2026 cycle; later applications welcome",
+    "expected": true,
+    "tags": [
+      "Undergraduates",
+      "Mathematics",
+      "~2 months"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduate mathematics students; check official page for nationality rules"
+    },
+    "fields": "Mathematics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Summer research experience for undergraduates (1 Jun – 30 Jul in 2026) in Jerusalem. Airfare and health insurance are not covered.",
+    "url": "https://mathematics.huji.ac.il/research-experience-undergraduates-reu-einstein-institute",
+    "source": "https://mathematics.huji.ac.il/research-experience-undergraduates-reu-einstein-institute"
   }
 ]
