@@ -13,7 +13,8 @@
     "typecheck": "tsc --noEmit",
     "validate-data": "tsx scripts/validate-data.ts",
     "alerts": "tsx scripts/alerts/send-alerts.ts",
-    "alerts:sample": "tsx scripts/alerts/send-alerts.ts --dry-run --sample --print"
+    "alerts:sample": "tsx scripts/alerts/send-alerts.ts --dry-run --sample --print",
+    "list-programmes": "tsx scripts/list-programmes.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",

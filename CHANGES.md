@@ -1,3 +1,179 @@
+# v4 "data": what changed
+
+Branch: `v4-data`, started from `v3-global`. Work date: **4 Nov 2026**, used for every `verifiedOn`.
+
+## Status: PARTIAL. The 550-programme target was not reached
+
+| | v3 | **v4 now** | Target |
+| --- | --- | --- | --- |
+| Total programmes | 106 | **251** | 550+ |
+| Internships / summer research | 6 | **54** | 120+ |
+| Undergraduate | 36 | **72** | 130+ |
+| Master's | 61 | **89** | 160+ |
+| PhD | 48 | **97** | 140+ |
+
+Some programmes count toward more than one level.
+
+* **Regions:** Europe 82 · East & Southeast Asia 57 · North America 45 · Global 34 · UK 14 · Middle East 8 · Türkiye 7 · Oceania 4.
+* **Funding:** fully funded 126 · partial 62 · paid internship 48 · salaried 15.
+* **Dates:** 70 entries use estimated (`expected`) dates, 64 are `rolling`, and 61 use `check` eligibility.
+
+**Why it stopped at 251:** the research ran as 16 parallel subagent batches, as requested. This environment allows **200 web searches per turn, shared by every agent**. That budget was gone after each batch had done roughly 4–18 searches. A test search afterwards confirmed it (*"this turn's web search budget is used up"*). No batch made up data to fill the gap, and each one stopped once its searches were refused. **The search budget resets in a new session or turn.** To continue, see "How to resume" below.
+
+`npm run validate-data` ✔ (37 files, 251 programmes) · `npm test` ✔ **107 tests** · `npm run build` ✔ · axe: 0 violations (light and dark, 400/1200 px, with the new controls open).
+
+## App changes for scale
+
+* **Split data:** `src/data/programmes/<level>/<file>.json` (the first 106 entries are in `<level>/<region>.json`, the new ones in `<level>/bNN-<topic>.json`).
+  * The site merges the files at build time with `import.meta.glob`; Node scripts use `scripts/lib/programmes.ts`.
+  * `npm run validate-data` checks every file, or just the files you name (`npm run validate-data -- path.json`). It also checks for **duplicate ids and duplicate name+host across files**.
+  * `npm run list-programmes` prints every programme, for avoiding duplicates.
+* **Optional `funding` field:** `full | partial | salaried | paid-internship`. Without it, the type comes from `full`.
+* **Pagination:** 30 cards at a time with **Show N more (M left)**. Keyboard focus moves to the first new card.
+* **Speed:** search text is cached per programme, so search stays instant (under 100 ms in a headless test with 251 entries). The six-month strip renders when the browser is idle.
+* **New filters (all in the URL hash):**
+  * **Host country** multi-select, with search and counts (`host=Germany|Japan`).
+  * **Funding type** (`funding=`). This replaces the old "Fully funded only" chip; old `full=1` links map to `funding=full`.
+  * **Deadline within 30/60/90 days** (`within=`).
+  * **Rolling / no fixed deadline** (`nofixed=1`).
+* **Stats line:** "Showing X of Y matching · Z programmes you can apply for as a citizen of …".
+* **Tests:** host, funding, within, rolling, hash round-trip and legacy links, pagination, applicable count, host list. The dataset tests now load all files.
+
+## What each batch added (all 16 ran; all are partial)
+
+| Batch | File | Added | Notes |
+| --- | --- | --- | --- |
+| 1 Internships Europe | internships/b01-europe-institutes.json | 4 | CERN openlab, Technical and Doctoral studentships; ESA YGT |
+| 2 Internships Asia/Middle East | internships/b02-asia-mideast.json | 7 | UTRIP, Amgen Tokyo/Kyoto, KAUST VSRP, Weizmann Kupcinet-Getz, A*STAR SIPGA, KAIST KAI-X |
+| 3 Internships N. America/Oceania | internships/b03-americas-oceania.json | 8 | Caltech SURF and LIGO SURF, CSHL URP, WHOI SSF, Vector, ANU FRT (India, Indonesia) |
+| 4 Industry internships | internships/b04-industry.json | 12 | Google, DeepMind, MSR, MSRA (×2), Microsoft, Meta, Apple, NVIDIA, Amazon, Adobe, ByteDance Seed |
+| 5 International organisations | internships/b05-intl-orgs.json | 18 | EU Blue Book, EP Schuman, Council, ECB, EIB (×2), UNDP, UNICEF, WHO, UNHCR, WFP, FAO, ILO, World Bank, IMF, OECD, WTO, IAEA |
+| 6 UG government | undergraduate/b06-government.json | 6 | Brazil PEC-G, ICCR (×3), Islamic University of Madinah, Morocco AMCI |
+| 7a US college aid | undergraduate/b07a-universities-americas.json | 18 | Williams, Swarthmore, Pomona, Wesleyan, Grinnell, Vassar, Colby, Middlebury, Davidson, Wellesley, Smith, Bryn Mawr, Stanford, Columbia, UChicago, Duke, Brown, Penn |
+| 7b World UG awards | undergraduate/b07b-universities-world.json | 9 | Reach Oxford, Cambridge, LSE, UCL, Sciences Po, Constructor, Bocconi, NUS, NTU |
+| 8 UG foundations | undergraduate/b08-foundations.json | 1 | Davis UWC Scholars |
+| 9 Master's government | masters/b09-government.json | 7 | KNB Indonesia, VLIR-UOS, ARES, Fundación Carolina, JICA SDGs, CSC university programme, MAECI Italy |
+| 10a Master's Europe/UK | masters/b10a-universities-europe-uk.json | 8 | TU Delft, UvA, Groningen, Maastricht, Uppsala, KTH, Chalmers, Stockholm |
+| 10b Master's Asia etc. | masters/b10b-universities-asia-oceania-americas.json | 5 | SNU, UNIST, GIST, DGIST, POSTECH (graduate) |
+| 11 Foundations + EMJMs | masters/b11-foundations-emjm.json | 3 | EMJM DEAI, Copernicus Digital Earth, IMLEX |
+| 12 PhD Europe | phd/b12-europe.json | 18 | IMPRS schools, EMBL, INPhINIT, Göttingen, Oxford–MPG and more |
+| 13 PhD Asia | phd/b13-asia-oceania-mideast.json | 10 | NUS, NTU, A*STAR ARAP, SUTD, SMU, HKU, CUHK, HKUST, PolyU, CityU |
+| 14 PhD N. America + fellowships | phd/b14-north-america.json | 11 | Trudeau, Ontario Trillium, NVIDIA, Apple, MSR, Bloomberg, Two Sigma, Jane Street, Hertz, NSF GRFP, AAUW |
+
+**Re-verifying the existing 106:** they were all re-checked on official sources earlier the same day (v2 and v3 passes, 4 Nov 2026). No searches were left for a third pass, and no changes were needed.
+
+## Least-certain entries (spot-check first)
+
+* **Deadlines not confirmed on an official page** (marked `expected`): 14 US colleges in batch 7a, where the dates came from earlier cycles, not an official 2027 page (Williams, Pomona, Wesleyan, Grinnell, Vassar, Middlebury, Wellesley, Smith, Stanford, Columbia, UChicago, Duke, Brown, Penn). Also:
+
+  | Entry | Estimate |
+  | --- | --- |
+  | `colby-aid`, `davidson-aid` | 2027 date not confirmed |
+  | `council-eu-traineeship` | closing date |
+  | `ep-schuman` | deadline (standing rule) |
+  | `kaist-kai-x` | deadline |
+  | `esa-egt`, `cern-openlab-summer` | deadline |
+  | `imprs-cms`, `imprs-genome-goettingen` | deadline |
+  | `knb-indonesia` | from the 2025 cycle |
+  | `msr-fellowship` | date came from a community Q&A, so marked `expected` |
+  | `lse-uss`, `ucl-global-ug` | from 2026 |
+  | `cityu-studentship` | deadline |
+  | `stockholm-uni-scholarship` | deadline |
+* **Amounts not confirmed** ("check official page"): MSRA programmes, A*STAR SIPGA, KTH, Göttingen, INPhINIT, all IMPRS entries, CERN Doctoral and openlab, ESA YGT, ARES, CSC university programme, Brazil PEC-G.
+* **Conflicting official sources:**
+  * `sutd-phd-fellowship`: 30 Sep vs 30 Oct
+  * `ntu-research-scholarship`: S$2,000 vs S$2,200
+  * `imprs-trust`: 15 Dec vs 31 Dec
+  * `tudelft-van-effen`: about €60k vs €75k
+  * `unist-grad`: funding rules
+  * `ep-schuman`: €1,889 vs €1,647
+* **Eligibility set to `check`** because the official list wasn't confirmed: IAEA, Council of the EU, EP Schuman, CSHL URP, Weizmann, ICCR Vajpayee (ICCR Maitri uses the African Union group as an approximation), SNU, AAUW (originally inferred from general knowledge, now `check`).
+* **Representative pages:** `meta-research-scientist-intern` uses a single job posting as its url, because Meta has no programme page. `deepmind-student-researcher` partly overlaps `google-student-researcher`.
+* **Coordinator fixes:** I softened a few facts that subagents had taken from general knowledge to "check official page", or marked them as estimates:
+  * EMJM DEAI/IMLEX stipend wording;
+  * Brazil PEC-G terms;
+  * CSC university programme coverage;
+  * ARES "full" flag;
+  * AAUW eligibility;
+  * MSR fellowship date.
+
+## Dropped (with reason)
+
+| Candidate | Reason |
+| --- | --- |
+| Jardine Oxford/Cambridge UG | No new awards from the 2027 intake |
+| IsDB non-member communities scheme | Interest-free loan for study at home, not study abroad |
+| Ashinaga Africa Initiative | No 2027 open cycle; selection now goes through partner schools |
+| ESO studentship | Stipend and next deadline unconfirmed |
+| Technion SURP | 2027 funding unconfirmed |
+| POSTECH summer | Unclear eligibility, no deadline |
+| Tohoku T-SRIP, RIKEN R-IH, Osaka FrontierLab | No deadline found; need home-university nomination |
+| Nagoya NUSIP | Fee-paying course |
+| UNIST summer | No funding |
+| Caltech WAVE, Stanford SSRP-Amgen | US citizens/PR only |
+| MIT MSRP | Only students at US universities |
+| JAX summer | International eligibility not stated |
+| Fields FUSRP | No deadline or stipend |
+| UQ/Monash summer research | Only their own or Australian/NZ students |
+| U of T SREP | Outbound programme |
+| Google STEP | 2027 status unknown |
+| IBM Extreme Blue | Status unknown |
+| Bosch Industry Sabbatical | Not an internship |
+| UN Secretariat internship | Unpaid; stipend proposal not confirmed |
+| BDMA EMJM | Replaced by DEAI |
+| LCT | No 2026 intake |
+| SE4GD, JEMARO 2027, EMAI windows | Self-funded only |
+| SpaceMaster | No scholarships confirmed |
+| CYBERUS, MIR | Only old intakes found |
+| MESD | No 2027 call |
+| Twente UTS | ≥50% of tuition not confirmed |
+| Erasmus Holland High Potential | No official page |
+| Edinburgh, Glasgow, King's, Leiden/Utrecht UG | No ≥50% award confirmed |
+| Orange Tulip | No current call |
+| Schulich Leader | Canadians only |
+| Qualcomm Innovation Fellowship NA | No deadline yet |
+| IBM PhD Fellowship | Paused |
+| Meta PhD Fellowship | No cycle since 2022 |
+| JPMorgan AI PhD Fellowship | Not on official pages |
+| IMPRS-QST/MCQST, IMPRS-PKS | No closing date found |
+
+## How to resume (next session)
+
+1. `git checkout v4-data && git log --oneline | head`, then read this section.
+2. The brief for research agents is in `docs/research-brief.md`. `npm run -s list-programmes` lists what already exists.
+3. Re-run the batches below, appending to the **same files**. Each needs roughly 1–2 official-domain searches per entry. With 200 searches per turn, run about 3–4 batches per turn rather than 16 at once.
+4. After each batch: `npm run validate-data -- <file>`, then commit and push.
+
+**Still to research, per batch:**
+
+| Batch | Remaining candidates |
+| --- | --- |
+| 1 | DESY, European XFEL, GSI, JSC, ISTA ISTernship, MPI-INF/SWS, DAAD WISE, VBC, IRB Barcelona, ICFO, Biozentrum, Amgen Europe, Inria, EMBL |
+| 2 | NUS/NTU summer, Hong Kong, mainland China, MBZUAI UGRIP, QCRI, India, Türkiye, Taiwan |
+| 3 | CMU RISS, Janelia, CITA, Purdue SURF, UTSW SURF, St. Jude |
+| 4 | Sony AI, Qualcomm, Intel Labs, Spotify, Samsung, Ericsson, Siemens, SAP, ASML, Philips, Booking, Huawei |
+| 5 | ADB, AfDB, IsDB, IFAD, WIPO, ITU, UNESCO |
+| 6 | Al-Azhar, KSU, KAU, Umm Al-Qura, Algeria, Tunisia, Cuba ELAM, Indonesia KNB (UG), Kazakhstan, Azerbaijan, Uzbekistan, Serbia, Poland Kalinowski, Mauritius-Africa, Manaaki Pacific, Allama Iqbal, Kuwait University, Chinese provincial schemes |
+| 7a | Northwestern, Vanderbilt, Rice, WashU, Carleton, Hamilton, Haverford, Colgate, Bates, Macalester, Trinity, Berea, Soka; McGill, UBC IMES, U of T Scholars, Waterloo, York, Carleton U, Concordia |
+| 7b | SMU, CUHK, HKUST, Japan, Korea, China, KFUPM, Khalifa, NYUAD, DKU, Australia/NZ, ALU, Ashesi, Italian DSU, Türkiye extras |
+| 8 | Thai King's, Tata/Cornell, Zawadi, Higher Life, Inlaks, Said, Beit Trust, Mandela Rhodes, Khazanah, Hani Qaddumi, Jardine–HKU |
+| 9 | Fulbright country commissions, NAWA, Estonia, Lithuania, AMCI master's, AMEXCID, AGCID, PEC-PG, ICCR PG, Manaaki other regions |
+| 10a | DTU, Copenhagen, Aarhus, Finland, Switzerland, Italy, France, UK |
+| 10b | GRIPS, Hitotsubashi, APU, Japanese universities, Yonsei, Korea University, Chinese universities, HK MPhil, NUS/NTU research master's, Taiwan, Khalifa, KFUPM, HBKU, QU, Adelaide, Melbourne, Auckland, Otago, Waterloo, Toronto, UBC, Concordia |
+| 11 | Marshall, Mitchell, EIT Digital, IHE Delft, AIT, IsDB, AfDB-Japan, KAS, FES, RLS, HSS, KAAD, more EMJMs |
+| 12 | UK CDTs, Oxford/Cambridge scholarships, national salaried-PhD portals, ETH/UZH/Basel, Vienna/VBC, Italy, Inria/CNRS/Pasteur/Polytechnique, FNR, Research Ireland, Helmholtz, Leibniz |
+| 13 | Japan, Korea, China, Taiwan, Australia, NZ, Middle East |
+| 14 | US and Canada explainer entries, university funding guarantees, Vanier successor, Ford, Open Philanthropy, Qualcomm |
+
+## Decisions
+
+* **File layout:** files are per level + topic (`bNN-<topic>.json`) rather than strictly level + region, so each research batch owns exactly one file and parallel agents never write the same file. The region is still a field on every entry.
+* **Funding filter:** the "Fully funded only" chip became the "Funding type" select, which covers it.
+* **Industry internships:** most use `rolling`, since postings open and close per role.
+* **Reported counts** are entry counts per level; a programme funding two levels counts in both.
+
+---
+
 # v3 "global": what changed
 
 Branch: `v3-global` (started from `overnight-upgrade`, which hadn't been merged yet). Work date: **4 Nov 2026**, used for every `verifiedOn`.
