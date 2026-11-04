@@ -1,0 +1,48 @@
+name: Deadline alerts
+
+on:
+  schedule:
+    # Every day at 06:17 UTC. Weekly digests go out on each subscriber's chosen weekday (UTC).
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: print what would be sent, send nothing"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deadline-alerts
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      SITE_URL: ${{ secrets.SITE_URL }}
+      EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate data
+        run: npm run validate-data
+      - name: Send alerts
+        # Scheduled runs send for real; manual runs default to a dry run.
+        # If the secrets aren't set yet, the script prints "not configured" and exits successfully.
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            npm run alerts -- --dry-run
+          else
+            npm run alerts
+          fi

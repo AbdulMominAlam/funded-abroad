@@ -15,6 +15,7 @@ import { $, esc, prefersReducedMotion } from "./ui/dom";
 import { checklistBodyHtml, listHtml, progressHtml, type ListContext } from "./ui/list";
 import { stripHtml } from "./ui/strip";
 import { compareTableHtml } from "./ui/compare";
+import { alertsConfigured, BANNERS, buildPayload, levelOptionsHtml, submitSubscription } from "./ui/alerts";
 
 const MAX_COMPARE = 3;
 const now = () => new Date();
@@ -129,6 +130,7 @@ function update(partial: Partial<FilterState>): void {
     saveProfile(filters.nat, filters.lvl);
     syncNat();
     renderStrip();
+    syncAlertsForm();
   }
   render();
 }
@@ -162,6 +164,7 @@ function toggleShortlist(id: string): void {
   else shortlist.add(id);
   saveShortlist(shortlist);
   render();
+  syncAlertsForm();
   // keep keyboard focus on the same star after re-render
   document.querySelector<HTMLElement>(`.star[data-id="${CSS.escape(id)}"]`)?.focus();
 }
@@ -415,6 +418,72 @@ function bind(): void {
   });
 }
 
+/* ---------- Email alerts ---------- */
+const ALERTS_ENV = { supabaseUrl: import.meta.env.VITE_SUPABASE_URL, anonKey: import.meta.env.VITE_SUPABASE_ANON_KEY };
+
+/** Keep the alerts form's nationality/level/shortlist in step with the main pickers. */
+function syncAlertsForm(): void {
+  $<HTMLSelectElement>("al-nat").value = filters.nat;
+  $<HTMLSelectElement>("al-lvl").value = filters.lvl;
+  const n = shortlist.size;
+  $("al-sl-count").textContent = n ? `(${n} shortlisted)` : "(your shortlist is empty: tap ☆ on programmes)";
+}
+
+function initAlerts(): void {
+  const natSel = $<HTMLSelectElement>("al-nat");
+  natSel.insertAdjacentHTML("beforeend", COUNTRIES.map((c) => `<option value="${esc(c.code)}">${esc(c.name)}</option>`).join(""));
+  $<HTMLSelectElement>("al-lvl").innerHTML = levelOptionsHtml(filters.lvl);
+  syncAlertsForm();
+  $("alerts-details").addEventListener("toggle", syncAlertsForm);
+
+  const q = new URLSearchParams(location.search).get("alerts");
+  if (q && BANNERS[q]) {
+    const b = $("alerts-banner");
+    b.textContent = BANNERS[q].text;
+    b.classList.toggle("err", !!BANNERS[q].err);
+    b.hidden = false;
+    history.replaceState(null, "", location.pathname + location.hash);
+    if (q === "expired") ($("alerts-details") as HTMLDetailsElement).open = true;
+  }
+
+  if (!alertsConfigured(ALERTS_ENV)) {
+    $("alerts-off").hidden = false;
+    ($("alerts-fields") as HTMLFieldSetElement).disabled = true;
+    $("alerts-sub").textContent = "Coming soon";
+    return;
+  }
+  $("alerts-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const msg = $("al-msg");
+    const emailInput = $<HTMLInputElement>("al-email");
+    if (!emailInput.checkValidity() || !emailInput.value.trim()) {
+      msg.textContent = "Please enter a valid email address.";
+      msg.classList.add("err");
+      emailInput.focus();
+      return;
+    }
+    const payload = buildPayload({
+      email: emailInput.value, nat: $<HTMLSelectElement>("al-nat").value, lvl: $<HTMLSelectElement>("al-lvl").value as FilterState["lvl"],
+      weekly: $<HTMLInputElement>("al-weekly").checked, day: Number($<HTMLSelectElement>("al-day").value),
+      remind: $<HTMLInputElement>("al-remind").checked, shortlist, honeypot: $<HTMLInputElement>("al-website").value,
+    });
+    const btn = $<HTMLButtonElement>("al-submit");
+    btn.disabled = true;
+    msg.classList.remove("err");
+    msg.textContent = "Sending…";
+    try {
+      const r = await submitSubscription(ALERTS_ENV, payload);
+      msg.textContent = r.message;
+      msg.classList.toggle("err", !r.ok);
+    } catch {
+      msg.textContent = "Couldn't reach the alerts service. Please try again later.";
+      msg.classList.add("err");
+    } finally {
+      btn.disabled = false;
+    }
+  });
+}
+
 /* ---------- Boot ---------- */
 fillSelectOptions();
 syncControls();
@@ -423,6 +492,7 @@ if (LAST_VERIFIED) {
 }
 $("storage-warn").hidden = storageAvailable();
 bind();
+initAlerts();
 renderStrip();
 render();
 setInterval(tick, 30_000);

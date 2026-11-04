@@ -11,7 +11,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
-    "validate-data": "tsx scripts/validate-data.ts"
+    "validate-data": "tsx scripts/validate-data.ts",
+    "alerts": "tsx scripts/alerts/send-alerts.ts",
+    "alerts:sample": "tsx scripts/alerts/send-alerts.ts --dry-run --sample --print"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",

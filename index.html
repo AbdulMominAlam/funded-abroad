@@ -80,6 +80,33 @@
     <button type="button" class="tool" id="t-link">🔗 Copy link to this view</button>
     <span class="tool-msg" id="t-msg" role="status" aria-live="polite"></span>
   </section>
+  <section class="alerts" id="alerts" aria-labelledby="alerts-h">
+    <p class="alerts-banner" id="alerts-banner" role="status" hidden></p>
+    <details id="alerts-details">
+      <summary><h2 id="alerts-h">📬 Get deadline alerts by email</h2> <span class="alerts-sub" id="alerts-sub">Free · weekly digest and shortlist reminders</span></summary>
+      <form id="alerts-form" novalidate>
+        <p class="alerts-off" id="alerts-off" hidden><b>Alerts coming soon.</b> Email alerts aren't switched on for this site yet.</p>
+        <fieldset id="alerts-fields">
+          <legend class="sr">Alert settings</legend>
+          <div class="arow">
+            <label class="afield" for="al-email">Email<input id="al-email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"></label>
+            <label class="afield" for="al-nat">Nationality<select id="al-nat"><option value="">Any nationality</option></select></label>
+            <label class="afield" for="al-lvl">Level<select id="al-lvl"></select></label>
+          </div>
+          <div class="arow">
+            <label class="acheck"><input type="checkbox" id="al-weekly" checked> Weekly digest of deadlines in the next 30 days, on
+              <select id="al-day" aria-label="Digest weekday"><option value="1">Mondays</option><option value="2">Tuesdays</option><option value="3">Wednesdays</option><option value="4">Thursdays</option><option value="5">Fridays</option><option value="6">Saturdays</option><option value="0">Sundays</option></select></label>
+            <label class="acheck"><input type="checkbox" id="al-remind" checked> Also remind me about my shortlist (14 and 3 days before) <span class="muted" id="al-sl-count"></span></label>
+          </div>
+          <label class="hp" aria-hidden="true">Website<input id="al-website" tabindex="-1" autocomplete="off"></label>
+          <p class="privacy-note">We store only your email, nationality, level, shortlist and alert choices, to send these alerts. No tracking, no sharing. Every email has a one-click unsubscribe that deletes your data. <a href="./privacy.html">Privacy</a></p>
+          <button type="submit" class="tool primary" id="al-submit">Send me a confirmation email</button>
+          <span class="tool-msg" id="al-msg" role="status" aria-live="polite"></span>
+        </fieldset>
+      </form>
+    </details>
+  </section>
+
   <p class="storage-warn" id="storage-warn" hidden>Your browser is blocking storage, so your shortlist and checklists will be lost when you close this page. Use “Export my data” to keep them.</p>
 
   <main class="list" id="list" tabindex="-1"></main>
@@ -87,7 +114,7 @@
   <footer>
     <h2>How to read this</h2>
     <p>"Closed this year" means the 2027 round is over; the row shows when the next round usually opens. "Expected" means the date is estimated from the last cycle and not yet published. Deadlines marked "varies" depend on the course, university or your country. "Nomination" means an agency, embassy, university or supervisor must put you forward. "Check your country is eligible" means the official list is long and changes yearly, so confirm your country is on it. Notes for your nationality appear on each card once you pick it. Your shortlist and checklists are saved in this browser only; use Export/Import to move them.</p>
-    <p>Every entry links to the official page it was checked against. This is a free, unofficial guide; it may contain mistakes.</p>
+    <p>Every entry links to the official page it was checked against. This is a free, unofficial guide; it may contain mistakes. <a href="./privacy.html">Privacy</a></p>
   </footer>
 </div>
 

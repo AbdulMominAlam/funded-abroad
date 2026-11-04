@@ -200,3 +200,34 @@ dialog.compare::backdrop{background:rgba(10,16,13,.55)}
 .elig-info{color:var(--muted)}
 .cnote{margin:8px 0 0;font-size:.85rem;max-width:70ch;background:var(--accent-soft);border-radius:6px;padding:6px 10px}
 .count small{display:block}
+
+/* ---------- v3: email alerts ---------- */
+.alerts{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
+.alerts summary{cursor:pointer;list-style:none;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;border-radius:4px}
+.alerts summary::-webkit-details-marker{display:none}
+.alerts summary h2{font-family:var(--display);font-weight:700;font-size:1.05rem;margin:0;display:inline}
+.alerts-sub{font-size:.84rem;color:var(--muted)}
+.alerts form{margin-top:12px}
+.alerts fieldset{border:0;margin:0;padding:0;min-width:0}
+.alerts fieldset[disabled]{opacity:.55}
+.arow{display:flex;flex-wrap:wrap;gap:10px 14px;margin-bottom:10px}
+.afield{display:flex;flex-direction:column;gap:4px;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);flex:1 1 180px;min-width:0}
+.afield input,.afield select{font:inherit;font-family:var(--body);text-transform:none;letter-spacing:0;font-size:.95rem;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);width:100%}
+.acheck{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:.88rem;flex:1 1 100%}
+.acheck input[type=checkbox]{accent-color:var(--accent);width:16px;height:16px;margin:0}
+.acheck select{font:inherit;font-size:.85rem;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+.muted{color:var(--muted)}
+.hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}
+.privacy-note{font-size:.8rem;color:var(--muted);margin:4px 0 10px;max-width:75ch}
+.privacy-note a,footer a{color:inherit}
+.alerts-off{margin:0 0 10px;font-size:.88rem;background:var(--warn-soft);color:var(--ink);border-radius:8px;padding:8px 12px}
+.alerts-banner{margin:0 0 8px;font-size:.88rem;background:var(--accent-soft);color:var(--ink);border-radius:8px;padding:8px 12px}
+.alerts-banner.err{background:var(--warn-soft)}
+
+/* ---------- Privacy page ---------- */
+.prose{max-width:760px}
+.prose h1{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,5vw,2.6rem);margin:.4rem 0 0}
+.prose h2{font-family:var(--display);font-weight:700;font-size:1.15rem;margin:1.6rem 0 .4rem}
+.prose p,.prose li{max-width:70ch}
+.prose a{color:var(--accent)}
+.prose code{font-family:var(--mono);font-size:.88em}

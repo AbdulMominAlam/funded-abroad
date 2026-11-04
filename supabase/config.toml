@@ -1,0 +1,11 @@
+# Supabase CLI config (only the parts this project needs).
+# The three functions are called from email links and from the public site, so they don't require
+# a Supabase JWT; they validate input themselves and only use the service role server-side.
+[functions.subscribe]
+verify_jwt = false
+
+[functions.confirm]
+verify_jwt = false
+
+[functions.unsubscribe]
+verify_jwt = false

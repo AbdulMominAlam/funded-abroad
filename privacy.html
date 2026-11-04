@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy · Funded Abroad</title>
+<meta name="description" content="What Funded Abroad stores, why, and how to unsubscribe or delete your data.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f5c3f'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3EFA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script>
+  try { var t = localStorage.getItem("fa-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+<main class="wrap prose">
+  <p><a href="./">← Back to Funded Abroad</a></p>
+  <h1>Privacy</h1>
+  <p class="asof">Last updated 4 Nov 2026</p>
+
+  <h2>Using the site</h2>
+  <p>The site has no accounts, no analytics and no advertising trackers. Your nationality, study level, shortlist, checklists and theme are saved only in your own browser (<code>localStorage</code>) so they're there next time. They never leave your device unless you export them yourself or sign up for alerts. Fonts are loaded from Google Fonts.</p>
+
+  <h2>Email deadline alerts (optional)</h2>
+  <p>If you sign up for alerts we store:</p>
+  <ul>
+    <li>your email address;</li>
+    <li>the nationality and study level you chose;</li>
+    <li>your shortlist (programme ids) if you asked for shortlist reminders;</li>
+    <li>your alert choices (weekly digest on/off and weekday, reminders on/off);</li>
+    <li>whether and when you confirmed, plus random one-time tokens for the confirm and unsubscribe links;</li>
+    <li>a record of which alerts we've sent you, so you never get the same one twice.</li>
+  </ul>
+  <p>To stop abuse of the sign-up form we briefly keep a <em>hashed</em> (scrambled, not reversible) version of the IP address and email used for each attempt, deleted after 2 days.</p>
+  <p><b>Why:</b> only to send the alerts you asked for. We don't sell or share your data, and we don't use it for anything else. The site owner gets a short notice when someone confirms ("New subscriber: country, level"), without your email address.</p>
+  <p><b>Double opt-in:</b> nothing is sent until you click the link in the confirmation email. Unconfirmed sign-ups are deleted after 7 days.</p>
+  <p><b>Who processes it:</b> the data is stored in a Supabase database and emails are sent through Resend. Both act only on our instructions.</p>
+
+  <h2>Unsubscribe and delete your data</h2>
+  <p>Every alert email has a one-click <b>Unsubscribe and delete my data</b> link. Clicking it permanently deletes your subscription and your send history straight away. Your email app's built-in "Unsubscribe" button does the same. If you've lost the emails, write to the site owner from the address you subscribed with and ask for deletion.</p>
+
+  <h2>Accuracy</h2>
+  <p>Funded Abroad is a free, unofficial guide. Deadlines and rules change, so always confirm on each programme's official page before applying.</p>
+</main>
+<script type="module" src="/src/privacy.ts"></script>
+</body>
+</html>
