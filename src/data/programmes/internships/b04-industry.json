@@ -1,0 +1,416 @@
+[
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "google-student-researcher",
+    "name": "Google Student Researcher Program",
+    "host": "Google",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Salaried; e.g. US base $98,000–131,000/yr pro rata, NL/DE €68,500–86,500/yr pro rata",
+    "dlText": "Rolling per posting · 2027 EMEA posting asks for applications by 13 Dec 2026",
+    "tags": [
+      "Enrolled BS/MS/PhD student",
+      "Separate postings per region",
+      "Research record expected",
+      "Work authorisation in host country"
+    ],
+    "fields": "Computer science, AI/ML and related technical fields",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Flexible research placements with Google Research, DeepMind and Cloud teams; postings are split by degree level and region (US, EMEA, etc.) and reviewed on a rolling basis. You must keep student status and usually stay in the host country for the whole placement.",
+    "url": "https://research.google/programs-and-events/student-engagement/",
+    "source": "https://www.google.com/about/careers/applications/jobs/results/86733690079453894-student-researcher-2027"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "deepmind-student-researcher",
+    "name": "Google DeepMind Student Researcher Program",
+    "host": "Google DeepMind",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid (salary set per location; check official page)",
+    "dlText": "2026–27 cycle open · rolling per opening",
+    "tags": [
+      "Enrolled BS/MS/PhD student",
+      "12–24 weeks",
+      "In person at a Google office"
+    ],
+    "fields": "AI research and related fields",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Placements of 12–24 weeks with a Google DeepMind host team, in person at a Google office. Specific openings are listed on Google Careers; work authorisation for the office country may be needed.",
+    "url": "https://deepmind.google/student-researcher-program/",
+    "source": "https://deepmind.google/student-researcher-program/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "msr-research-intern",
+    "name": "Microsoft Research Internships",
+    "host": "Microsoft Research",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid (salary set per location; check official page)",
+    "dlText": "Rolling; summer postings typically open Nov–Mar",
+    "tags": [
+      "Enrolled PhD students",
+      "Few spots for future-PhD undergrads",
+      "~12 weeks, mostly summer"
+    ],
+    "fields": "Computer science, AI, HCI, systems, algorithms and related",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Paid research internships (typically 12 weeks) at MSR labs such as Redmond, Cambridge, Montréal and New York; candidates must normally be enrolled in a PhD. Each posting sets its own location rules (e.g. Montréal requires being in Canada/USA).",
+    "url": "https://www.microsoft.com/en-us/research/careers/open-positions/",
+    "source": "https://careers.microsoft.com/students/us/en/indphdandresearch"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "msra-stars-of-tomorrow",
+    "name": "MSR Asia Stars of Tomorrow Internship Program",
+    "host": "Microsoft Research Asia",
+    "country": "China",
+    "region": "east-asia",
+    "amount": "check official page",
+    "dlText": "Rolling per posting",
+    "tags": [
+      "Mostly PhD students",
+      "BSc/MSc also considered",
+      "3–18 months",
+      "Beijing, Shanghai, Singapore"
+    ],
+    "fields": "Computer science, AI and related fields",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "MSRA's flagship internship with 400+ places a year for students worldwide, lasting 3–18 months with training, talks and mentoring. Roles are posted on the MSRA opportunities page (Beijing, Shanghai and now Singapore).",
+    "url": "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-asia-stars-of-tomorrow-internship-program/",
+    "source": "https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/opportunities/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "msra-starbridge",
+    "name": "MSR Asia StarBridge Program",
+    "host": "Microsoft Research Asia",
+    "country": "China",
+    "region": "east-asia",
+    "amount": "check official page",
+    "dlText": "Rolling",
+    "tags": [
+      "Admitted grad students who deferred",
+      "Research internship"
+    ],
+    "fields": "Computer science, AI and related fields",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Rolling research internship at MSRA for students who have deferred enrolment at a leading graduate school. Check the official page for pay and current terms.",
+    "url": "https://www.microsoft.com/en-us/research/academic-program/msr-asia-starbridge-program/",
+    "source": "https://www.microsoft.com/en-us/research/academic-program/msr-asia-starbridge-program/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "microsoft-phd-applied-intern",
+    "name": "Microsoft PhD Applied Science & Engineering Internships",
+    "host": "Microsoft",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid (salary set per location; check official page)",
+    "dlText": "Rolling · accepted Sep–Apr of the academic year",
+    "tags": [
+      "Enrolled PhD students",
+      "Product-team roles",
+      "Work authorisation may apply"
+    ],
+    "fields": "Applied science, ML, software and hardware engineering",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "PhD internships on Microsoft product teams (separate from Microsoft Research). Applications are accepted on an ongoing basis through the academic calendar (September–April).",
+    "url": "https://careers.microsoft.com/students/us/en/indphdandresearch",
+    "source": "https://careers.microsoft.com/students/us/en/indphdandresearch"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "meta-research-scientist-intern",
+    "name": "Meta Research Scientist Internships (PhD)",
+    "host": "Meta (FAIR, Superintelligence Labs, Reality Labs)",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid (salary set per location; check official page)",
+    "dlText": "Rolling per posting",
+    "tags": [
+      "Enrolled PhD student",
+      "Python + PyTorch/TensorFlow",
+      "12–24 weeks",
+      "Work authorisation required"
+    ],
+    "fields": "AI/ML, computer vision, speech, robotics, alignment",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Many PhD research intern postings across FAIR, Meta Superintelligence Labs and Reality Labs, lasting 12–24 weeks with various start dates. You must obtain and keep work authorisation in the country of employment; publications at top venues are preferred.",
+    "url": "https://www.metacareers.com/profile/job_details/1510576574212840/",
+    "source": "https://www.metacareers.com/profile/job_details/1510576574212840/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "apple-aiml-residency",
+    "name": "Apple AIML Residency Program",
+    "host": "Apple",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid (salaried one-year position; check official page)",
+    "dlText": "2027 cycle not yet announced · past cycles closed in January",
+    "tags": [
+      "Master's/PhD graduates, postdocs, engineers",
+      "One-year programme"
+    ],
+    "fields": "Machine learning and AI, plus STEM experts moving into ML",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "A one-year salaried residency that places master's/PhD graduates, postdocs, engineers and academics on sabbatical in Apple ML teams; it is for graduates rather than current students. The 2027 call is not out yet; earlier cycles opened late in the year and closed in January.",
+    "url": "https://machinelearning.apple.com/work-with-us",
+    "source": "https://machinelearning.apple.com/updates/aiml-residency-program-application-2026"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "nvidia-research-intern",
+    "name": "NVIDIA Research Internships",
+    "host": "NVIDIA Research",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid; e.g. US PhD postings $38–94/hour",
+    "dlText": "Rolling per posting (2027 postings open)",
+    "tags": [
+      "Graduate students (mostly PhD)",
+      "Supervisor recommendation",
+      "Strong programming"
+    ],
+    "fields": "ML, graphics, computer vision, robotics, architecture, EDA",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Research internships for graduate students across NVIDIA Research areas; each posting has its own pay range and closing date. Work authorisation for the posting's country may apply.",
+    "url": "https://www.nvidia.com/en-eu/research/internships/",
+    "source": "https://www.nvidia.com/en-eu/research/internships/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "amazon-applied-scientist-intern",
+    "name": "Amazon Applied Scientist Internships",
+    "host": "Amazon",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid stipend or salary (set per location; check official page)",
+    "dlText": "Rolling · 2027 postings open, start dates year-round",
+    "tags": [
+      "Mostly PhD/grad students",
+      "3–6 months",
+      "One application, matched to teams"
+    ],
+    "fields": "ML, NLP, computer vision, robotics, automated reasoning, GenAI",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Amazon hosts 2,000+ science interns a year; one application is matched to science teams, with 3–6 month placements and start dates through the year. Some regional postings require enrolment at a local university (e.g. Canada).",
+    "url": "https://www.amazon.science/careers?f0=internship",
+    "source": "https://www.amazon.jobs/en/jobs/10567694/2027-applied-scientist-internship-phd-amazon-university-talent-acquisition"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "adobe-research-intern",
+    "name": "Adobe Research Internships",
+    "host": "Adobe Research",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid; US range $45–61/hour (varies by location)",
+    "dlText": "2027 applications open · rolling",
+    "tags": [
+      "PhD/master's students",
+      "Exceptional undergrads considered",
+      "Hybrid, mentor-led"
+    ],
+    "fields": "Computer vision, NLP, HCI, graphics, audio, AI",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Mentored research internships that often lead to papers and product features; 2027 applications are open and stay open based on hiring needs. Interns work from the office where their mentor is based.",
+    "url": "https://research.adobe.com/careers/internships/",
+    "source": "https://careers.adobe.com/us/en/job/R172064/2027-Intern-Applied-and-Research-Scientist-Engineer"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "rolling": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "bytedance-seed-campus",
+    "name": "ByteDance Seed Foundation Model Campus Recruitment (Internships)",
+    "host": "ByteDance Seed",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "amount": "Paid (salary set per location; check official page)",
+    "dlText": "2027 recruitment open · rolling",
+    "tags": [
+      "Interns: graduating Sep 2027 or later",
+      "Replaces Top Seed programme"
+    ],
+    "fields": "Foundation models, LLMs, ML infrastructure",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "ByteDance has merged its Top Seed talent programme into this campus recruitment drive for foundation-model research; internships are for students graduating in September 2027 or later. Top interns may join an extra AI-talent incentive scheme.",
+    "url": "https://seed.bytedance.com/en/seedearlycareer",
+    "source": "https://seed.bytedance.com/en/blog/bytedance-seed-2027-foundation-model-campus-recruitment-is-now-open-internships-included"
+  }
+]

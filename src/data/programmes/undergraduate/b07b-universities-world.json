@@ -1,0 +1,343 @@
+[
+  {
+    "id": "reach-oxford",
+    "name": "Reach Oxford Scholarship",
+    "host": "University of Oxford",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Course fees + living-costs grant + one return flight per year",
+    "deadline": "2027-01-26T12:00:00+00:00",
+    "dlText": "26 Jan 2027, 12:00 noon UK time",
+    "tags": [
+      "Low-income countries only",
+      "Must hold/expect an Oxford offer",
+      "~2–3 awards a year"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students from low-income countries (per Oxford's list) who cannot study in their own country; overseas fee status"
+    },
+    "fields": "Any undergraduate course",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply to Oxford via UCAS first; the scholarship form goes in by late January and selection happens in April. Only around 2–3 awards a year, and you can apply only once.",
+    "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+    "source": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "cambridge-global-impact",
+    "name": "Cambridge Trust Global Impact Scholarship",
+    "host": "Cambridge Trust, University of Cambridge",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "International tuition + college fee + maintenance allowance + visa and IHS",
+    "rolling": true,
+    "dlText": "No separate deadline – form sent by your college after an offer (UCAS deadline must be met)",
+    "tags": [
+      "Overseas fee status",
+      "High financial need",
+      "Offer required"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Overseas-fee-status undergraduates with high financial need who have overcome significant challenges to gain admission"
+    },
+    "fields": "Any subject, any college",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Colleges send the Trust application form to international offer-holders; awards are made between mid-February and July. Most other Trust UG awards are part-cost (about £10k–15k/yr).",
+    "url": "https://www.cambridgetrust.org/scholarship/cambridge-trust-global-impact-scholarship/",
+    "source": "https://www.cambridgetrust.org/scholarship/cambridge-trust-global-impact-scholarship/",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "lse-uss",
+    "name": "LSE Undergraduate Support Scheme",
+    "host": "London School of Economics and Political Science",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Usually £15,000–£25,000 per year, renewable",
+    "deadline": "2027-04-23T23:59:00+01:00",
+    "dlText": "~23 Apr 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "Overseas fee status",
+      "Need-based",
+      "Renewable yearly"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Overseas fee-status undergraduates who cannot meet their full costs of study"
+    },
+    "fields": "Any LSE undergraduate programme",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Need-based award for international LSE offer-holders; demand far exceeds funds. LSE says 2027-entry deadlines will be confirmed in early 2027 (2026 cycle closed ~23 Apr 2026).",
+    "url": "https://www.lse.ac.uk/study-at-lse/Undergraduate/fees-and-funding/undergraduate-support-scheme",
+    "source": "https://www.lse.ac.uk/study-at-lse/Undergraduate/fees-and-funding/undergraduate-support-scheme",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ucl-global-ug",
+    "name": "UCL Global Undergraduate Scholarship",
+    "host": "University College London",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "10 awards of full tuition + maintenance; 23 awards of full tuition only",
+    "deadline": "2027-04-27T17:00:00+01:00",
+    "dlText": "~27 Apr 2027, 17:00 BST (estimated from 2026 cycle)",
+    "expected": true,
+    "tags": [
+      "Overseas fee status",
+      "Low-income background",
+      "UCL application first"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Overseas fee-paying students from low-income backgrounds who have applied to UCL"
+    },
+    "fields": "Any UCL undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "You must already have applied to UCL; late applications are refused even if your offer arrives after the deadline. 2026 cycle closed 27 Apr 2026 with results by early June.",
+    "url": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+    "source": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "sciencespo-boutmy-ug",
+    "name": "Émile Boutmy Scholarship (Bachelor's)",
+    "host": "Sciences Po",
+    "country": "France",
+    "region": "europe",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Full tuition exemption or €9,500/year tuition reduction",
+    "deadline": "2027-01-13T23:59:00+01:00",
+    "dlText": "13 Jan 2027 (foreign secondary schools; time not stated) · 1 Apr 2027 for French-system schools",
+    "tags": [
+      "Non-EU only",
+      "Tick it in your admission file",
+      "First-time applicants"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ]
+    },
+    "fields": "Sciences Po Bachelor's (social sciences)",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Select the scholarship in your Sciences Po online application before you submit; no later requests. Household must not file taxes in the EU.",
+    "url": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+    "source": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "constructor-talent",
+    "name": "Constructor University Full Tuition Talent Scholarship",
+    "host": "Constructor University (Bremen)",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "100% of tuition for the standard study period (living costs not covered)",
+    "deadline": "2026-10-29T14:00:00+00:00",
+    "dlText": "Global Talent Examination: 29 Oct 2026, 14:00 UTC (closed)",
+    "nextText": "Next exam round ~Oct 2027",
+    "tags": [
+      "Global Talent Examination",
+      "Admission offer required",
+      "Optional tuition deferral"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any bachelor's programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Full tuition is reached through an extended merit scholarship plus an optional deferral of up to €10,000. Every applicant is also considered automatically for the smaller Academic Achievement Scholarship.",
+    "url": "https://constructor.university/scholarships",
+    "source": "https://constructor.university/scholarships",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "bocconi-full-waiver",
+    "name": "Bocconi 100% Full Tuition Waiver (Bocconi4Access)",
+    "host": "Università Bocconi",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "100% of ordinary tuition and fees (80/60/40/20% waivers also exist)",
+    "rolling": true,
+    "dlText": "Deadline set in the Bocconi4Access 2027-28 call – check official page",
+    "tags": [
+      "Need-based (family income)",
+      "International first-years",
+      "Renewable up to 4 years"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International first-year Bachelor's and Law students; based on family economic situation"
+    },
+    "fields": "Bachelor's and Law programmes",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "One application under Bocconi4Access covers the full and partial waivers. Renewal needs enrolment and credit requirements to be met.",
+    "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding/100-full-tuition-waivers-ay-2027-28",
+    "source": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding/100-full-tuition-waivers-ay-2027-28",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nus-intl-ug",
+    "name": "NUS International Undergraduate Scholarship",
+    "host": "National University of Singapore",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Subsidised tuition (after Tuition Grant) + S$5,800/yr living + S$5,000/yr housing + S$1,750 computer",
+    "rolling": true,
+    "dlText": "No separate deadline – considered via your NUS admission application",
+    "tags": [
+      "Shortlisted from admission",
+      "3-year Singapore work bond",
+      "Outstanding achievement"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SG"
+      ]
+    },
+    "fields": "Most NUS undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "You must take up the MOE Tuition Grant, which carries a 3-year bond to work in Singapore. Allowance figures vary between NUS pages; check the current handbook.",
+    "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-singapore-permanent-residents/nus-international-undergraduate-scholarship",
+    "source": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-singapore-permanent-residents/nus-international-undergraduate-scholarship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ntu-nanyang-ug",
+    "name": "Nanyang Scholarship",
+    "host": "Nanyang Technological University",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Subsidised tuition (after Tuition Grant) + S$6,500/yr living + up to S$2,000/yr housing + computer allowance",
+    "rolling": true,
+    "dlText": "Same closing date as NTU admission for your qualification – check official page",
+    "tags": [
+      "All nationalities",
+      "Apply with admission",
+      "MOE Tuition Grant bond"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Most NTU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The scholarship application window is the admission window; late applications are not considered. No bond beyond the 3-year Tuition Grant bond for internationals.",
+    "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship-opportunities/detail/nanyang-scholarship",
+    "source": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship-opportunities/detail/nanyang-scholarship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  }
+]

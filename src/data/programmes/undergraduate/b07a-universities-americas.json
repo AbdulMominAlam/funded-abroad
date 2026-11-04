@@ -1,0 +1,648 @@
+[
+  {
+    "id": "williams-aid",
+    "name": "Williams College need-based aid (international)",
+    "host": "Williams College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted international students, guaranteed for four years",
+    "deadline": "2027-01-08T23:59:00-05:00",
+    "dlText": "Regular Decision ~8 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Must request aid when applying",
+      "CSS Profile"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Around 70% of Williams' international students receive college aid. If you don't apply for aid with your admission application you can never get it later. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://admission.williams.edu/apply/international-applicants/",
+    "source": "https://admission.williams.edu/apply/international-applicants/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "swarthmore-aid",
+    "name": "Swarthmore College need-based aid (international)",
+    "host": "Swarthmore College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of need up to full tuition, fees, housing, food, books and some personal costs; no loans",
+    "deadline": "2027-01-04T23:59:00-05:00",
+    "dlText": "Regular Decision 4 Jan 2027 (time not stated); decisions by 1 Apr",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Loan-free",
+      "Aid forms within 7 days of admission"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Swarthmore meets full need regardless of citizenship, but applying for aid puts international applicants in the most selective group. International students send aid documents within 7 days of their admission offer.",
+    "url": "https://www.swarthmore.edu/financial-aid/international-students",
+    "source": "https://www.swarthmore.edu/admissions-aid/application-materials-deadlines",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "pomona-aid",
+    "name": "Pomona College need-based aid (international)",
+    "host": "Pomona College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted international students; no loans",
+    "deadline": "2027-01-08T23:59:00-08:00",
+    "dlText": "Regular Decision ~8 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "No merit scholarships",
+      "CSS Profile"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "About 40–50% of Pomona's incoming international students get need-based aid. An international student who enrols without having applied for aid can't receive it later. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://www.pomona.edu/admissions/apply/international-applicants",
+    "source": "https://www.pomona.edu/admissions/apply/international-applicants/international-applicant-faqs",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "wesleyan-aid",
+    "name": "Wesleyan University need-based aid (international)",
+    "host": "Wesleyan University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted students who requested aid",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision ~1 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Aid for internationals limited (very selective)",
+      "Meets 100% of demonstrated need",
+      "Must request aid when applying",
+      "No aid for international transfers"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Wesleyan says aid for international applicants is limited, so admission for them is extremely selective. If you don't ask for aid before admission you can't get it during your four years. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://www.wesleyan.edu/admission/undergraduate-admission/international/index.html",
+    "source": "https://www.wesleyan.edu/admission/undergraduate-admission/international/index.html",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "grinnell-aid",
+    "name": "Grinnell College need-based aid (international)",
+    "host": "Grinnell College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted international students, mostly grants; no loans",
+    "deadline": "2027-01-15T23:59:00-06:00",
+    "dlText": "Regular Decision ~15 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "CSS Profile or Grinnell form",
+      "Merit awards also possible"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "You must file the 2027–28 CSS Profile or Grinnell's International Student Application for Financial Assistance by your round's deadline. Offers are final: no appeals, and you can't apply after you enrol. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://www.grinnell.edu/admission/apply/international",
+    "source": "https://www.grinnell.edu/admission/apply/international",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "vassar-aid",
+    "name": "Vassar College need-based aid (international)",
+    "host": "Vassar College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted students who applied for aid",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision ~1 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "CSS Profile only (no fee waiver)",
+      "No aid for international transfers"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Vassar admits roughly 35–45 aided international students each year from 850+ who apply. You must apply for aid together with your admission application. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://www.vassar.edu/admission/apply/international/",
+    "source": "https://www.vassar.edu/admission/financial-aid/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "colby-aid",
+    "name": "Colby College need-based aid (international)",
+    "host": "Colby College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted international students; no loans",
+    "deadline": "2027-01-04T23:59:00-05:00",
+    "dlText": "Regular Decision ~4 Jan 2027 (Colby's pages also say 2 Jan; time not stated); aid forms 15 Jan",
+    "tags": [
+      "Meets 100% of demonstrated need",
+      "Loan-free",
+      "CSS Profile (fee waiver available)",
+      "International CSS Profile due 15 Jan (RD)"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Colby builds international aid packages without loans for up to four years. Colby's pages give the Regular Decision deadline as both 2 and 4 Jan, so check before you apply.",
+    "url": "https://afa.colby.edu/apply/requirements/international-applicants/",
+    "source": "https://afa.colby.edu/apply/dates-and-deadlines/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "middlebury-aid",
+    "name": "Middlebury College need-based aid (international)",
+    "host": "Middlebury College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full demonstrated need of admitted international students (grants, work and a limited loan)",
+    "deadline": "2027-01-03T23:59:00-05:00",
+    "dlText": "Regular Decision ~3 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Must request aid when applying",
+      "CSS Profile only"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Middlebury says it is need-aware for international applicants but meets full need once you are admitted. Its new tuition-free promise for families earning up to $175,000 (from fall 2027) doesn't say whether it covers internationals. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://www.middlebury.edu/college/admissions/financial-aid",
+    "source": "https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "davidson-aid",
+    "name": "Davidson College need-based aid (international)",
+    "host": "Davidson College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of calculated need for admitted international students",
+    "deadline": "2027-01-11T23:59:00-05:00",
+    "dlText": "Regular Decision ~11 Jan 2027 (date from Davidson's current timeline page, may be last cycle; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Must request aid when applying",
+      "First-year applicants only"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Students who have already enrolled at another college are not eligible for aid. Families expecting to contribute under US$5,000/year can use Davidson's International Financial Verification Form instead of the CSS Profile.",
+    "url": "https://www.davidson.edu/admission-and-financial-aid/financial-aid/applying-aid/international-students",
+    "source": "https://www.davidson.edu/admission-and-financial-aid/admission-aid-timeline",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "wellesley-aid",
+    "name": "Wellesley College need-based aid (international)",
+    "host": "Wellesley College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Funds 100% of calculated need for admitted international students (travel not included)",
+    "deadline": "2027-01-08T23:59:00-05:00",
+    "dlText": "Regular Decision ~8 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Women's college",
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Must request aid when applying"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Wellesley has a limited number of need-based awards for international students, so admission with aid is highly competitive. Aid given at admission doesn't need to be reapplied for each year. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students",
+    "source": "https://www.wellesley.edu/admission-aid/faqs",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "smith-aid",
+    "name": "Smith College need-based aid (international)",
+    "host": "Smith College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full documented need of admitted students who apply by the deadlines; loan-free",
+    "deadline": "2027-01-15T23:59:00-05:00",
+    "dlText": "Regular Decision ~15 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Women's college",
+      "Very competitive for internationals",
+      "Meets 100% of demonstrated need",
+      "Loan-free"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International students who don't apply for aid by the published deadlines before admission can never get college aid. Smith's Next 150 Pledge (from fall 2026) gives free tuition to students who qualify financially. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://www.smith.edu/admission-aid/tuition-aid-applicants/international-applicants",
+    "source": "https://www.smith.edu/admission-aid/tuition-aid-applicants/international-applicants",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "brynmawr-aid",
+    "name": "Bryn Mawr College need-based aid (international)",
+    "host": "Bryn Mawr College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full demonstrated need of admitted students (Bryn Mawr grant; international loan may be included)",
+    "deadline": "2027-01-15T23:59:00-05:00",
+    "dlText": "Regular Decision 15 Jan 2027 (time not stated)",
+    "tags": [
+      "Women's college",
+      "Need-sensitive for international applicants",
+      "Meets 100% of demonstrated need",
+      "Must request aid when applying"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Aid money runs out in order, so asking for aid can decide whether you're admitted. International students are not eligible for merit aid.",
+    "url": "https://www.brynmawr.edu/admissions/international-faqs-frequently-asked-questions",
+    "source": "https://www.brynmawr.edu/admissions/international-faqs-frequently-asked-questions",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "stanford-aid",
+    "name": "Stanford need-based aid (international)",
+    "host": "Stanford University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full demonstrated need for admitted students who requested aid, regardless of citizenship",
+    "deadline": "2027-01-05T23:59:00-08:00",
+    "dlText": "Regular Decision ~5 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Must request aid when applying",
+      "No merit scholarships"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Asking for aid makes admission more selective for international citizens, and about one in three international students get aid. If admitted without requesting aid, you can't apply later. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://admission.stanford.edu/apply/international/index.html",
+    "source": "https://admission.stanford.edu/apply/international/index.html",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "columbia-aid",
+    "name": "Columbia need-based aid (international)",
+    "host": "Columbia University (Columbia College & SEAS)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for four years with grants and work-study; no loans",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision ~1 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Loan-free",
+      "Must request aid when applying"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Columbia is not need-blind for international students but admits many with substantial aid. If you are admitted without requesting aid you can't switch later. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://undergrad.admissions.columbia.edu/apply/international/aid",
+    "source": "https://undergrad.admissions.columbia.edu/apply/international/aid",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "uchicago-aid",
+    "name": "UChicago need-based aid (international)",
+    "host": "University of Chicago",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted international first-years; grants, no loans",
+    "deadline": "2027-01-05T23:59:00-06:00",
+    "dlText": "Regular Decision ~5 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Loan-free",
+      "No aid for international transfers"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "You must apply for aid during the admissions process; there are no exceptions after decisions. Partial merit scholarships also exist but shouldn't be relied on. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://collegeadmissions.uchicago.edu/financial-support/international-financial-aid/",
+    "source": "https://collegeadmissions.uchicago.edu/financial-support/international-financial-aid/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "duke-aid",
+    "name": "Duke need-based aid (international)",
+    "host": "Duke University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for eight semesters for a limited number of international students",
+    "deadline": "2027-01-02T23:59:00-05:00",
+    "dlText": "Regular Decision ~2 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Only ~20–25 aided internationals/year",
+      "Meets 100% of demonstrated need",
+      "Tick aid box on application",
+      "Karsh International Scholarship"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Duke expects to enrol only 20–25 international students a year with full need met, and international transfers can't get aid. Aided internationals don't reapply each year. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://financialaid.duke.edu/forms-resources/awarding-policy/",
+    "source": "https://financialaid.duke.edu/forms-resources/awarding-policy/",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "brown-aid",
+    "name": "Brown need-based aid (international)",
+    "host": "Brown University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted students who apply for aid",
+    "deadline": "2027-01-03T23:59:00-05:00",
+    "dlText": "Regular Decision ~3 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-blind for international first-years",
+      "Meets 100% of demonstrated need",
+      "Must request aid when applying",
+      "Transfers need-aware"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Since the Class of 2029, Brown admits international first-year applicants without regard to ability to pay. You must apply for aid at the same time you apply for admission. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://admission.brown.edu/international/financial-aid",
+    "source": "https://finaid.brown.edu/basics/financial-need-eligibility/need-blind",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  },
+  {
+    "id": "penn-aid",
+    "name": "Penn need-based aid (international)",
+    "host": "University of Pennsylvania",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need with grants and work-study; no loans",
+    "deadline": "2027-01-05T23:59:00-05:00",
+    "dlText": "Regular Decision ~5 Jan 2027 (estimated from previous cycles; time not stated)",
+    "tags": [
+      "Need-aware for international applicants",
+      "Meets 100% of demonstrated need",
+      "Loan-free",
+      "Must request aid when applying"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Penn is need-blind only for US, Canadian and Mexican citizens; for other international applicants available aid is considered. Part of a grant may be subject to US tax. Regular Decision date estimated from 2026 cycle.",
+    "url": "https://srfs.upenn.edu/financial-aid/international",
+    "source": "https://srfs.upenn.edu/financial-aid/international",
+    "verifiedOn": "2026-11-04",
+    "expected": true
+  }
+]
