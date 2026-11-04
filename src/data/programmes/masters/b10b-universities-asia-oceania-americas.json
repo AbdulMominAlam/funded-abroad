@@ -1,0 +1,189 @@
+[
+  {
+    "id": "snu-gsfs",
+    "name": "SNU Graduate Scholarship for Excellent Foreign Students (GSFS)",
+    "host": "Seoul National University",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition for up to 4 semesters + stipend from KRW 500,000/month (amount and duration vary by college)",
+    "rolling": true,
+    "dlText": "Applied for with the SNU graduate admission each semester; check current round dates (not verified for 2027)",
+    "tags": [
+      "Applied for together with admission",
+      "Designated colleges only",
+      "GPA 3.0/4.3 to renew"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Non-Korean applicants with non-Korean parents who completed their entire education outside Korea; eligible countries and participating colleges change every semester"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Programmes at the designated SNU colleges/schools (vary by semester)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "You apply for admission and the scholarship in the same online application, and your college selects recipients from the admission documents. Around 20 awards per intake.",
+    "url": "https://oga.snu.ac.kr/scholarship/graduate-scholarship-for-excellent-foreign-students-gsfs/",
+    "source": "https://oga.snu.ac.kr/sites/default/files/2025-07/1-2.%20Graduate%20Scholarship%20for%20Foreign%20Students%20(GSFS)%20Guide_Spring%202026%20(ENG).pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "unist-grad",
+    "name": "UNIST Graduate Scholarship (International Admission)",
+    "host": "UNIST (Ulsan National Institute of Science and Technology)",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Government/UNIST category: tuition covered + stipend (UNIST category min. KRW 17.28M/year for MS in science & engineering)",
+    "rolling": true,
+    "dlText": "Several admission rounds a year (Spring and Fall); check the current guideline for dates",
+    "tags": [
+      "Choose Government or UNIST category",
+      "Not open to applicants still employed elsewhere"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS/AI (business school uses a separate standard)",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Funding depends on the category you apply under: Government and UNIST categories cover tuition and pay a stipend, while the 'Other' category is self-funded. Applicants employed elsewhere must use the 'Other' category or resign before classes start.",
+    "url": "https://admg-intl.unist.ac.kr/",
+    "source": "https://admg-intl.unist.ac.kr/wp-content/uploads/2014/12/Guidelines-for-2026-Fall-UNIST-Graduate-Admissions-2.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "gist-grad",
+    "name": "GIST Scholarship (International Graduate Admission)",
+    "host": "GIST (Gwangju Institute of Science and Technology)",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition waiver + monthly allowances, health insurance, one-way flight reimbursement (matriculation fee KRW 680,000 payable)",
+    "rolling": true,
+    "dlText": "Spring and Fall admission rounds; check the current guideline for dates",
+    "tags": [
+      "Awarded automatically on admission",
+      "Research assistantship pay extra"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS/AI",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "All admitted international graduate students get the GIST scholarship with no separate application. Research projects add assistantship pay, and the competitive Lotte Foundation award adds KRW 900,000/month for top MS applicants.",
+    "url": "https://www.gist.ac.kr/iadm/html/sub04/0401.html",
+    "source": "https://www.gist.ac.kr/iadm/html/sub05/0503.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "dgist-grad",
+    "name": "DGIST Graduate Scholarship (International)",
+    "host": "DGIST (Daegu Gyeongbuk Institute of Science and Technology)",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition exemption + stipend: Government scholarship min. KRW 9.6M/year (MS); DGIST scholarship min. KRW 15M/year (MS)",
+    "rolling": true,
+    "dlText": "Several admission rounds a year (e.g. 2027 Spring 2nd round ran 27 Aug–10 Sep 2026); check the site for the next round",
+    "tags": [
+      "Awarded automatically on admission",
+      "DGIST scholarship type varies by department"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, AI, brain sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Admission puts you on a scholarship automatically, with no separate process. Which type (Government or DGIST) you can get depends on the department, so ask the department or your prospective supervisor.",
+    "url": "https://www.dgist.ac.kr/iadm/",
+    "source": "https://www.dgist.ac.kr/iadm/sub02_01_02.do",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "postech-grad",
+    "name": "POSTECH Graduate TA/RA Funding (International)",
+    "host": "POSTECH",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "TA/RA package KRW 1,850,000/month for MS (2026), covering tuition and living allowance; advisors may add more",
+    "rolling": true,
+    "dlText": "Several admission rounds a year; check the current admissions guide for dates",
+    "tags": [
+      "Settlement allowance for new arrivals",
+      "POSCO Global Scholarship for designated countries"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS/AI",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Admitted graduate students are funded through TA/RA packages that include tuition and a living allowance. The POSCO Global Scholarship (full tuition plus monthly allowance) and the Ruth Satter award for Asian women are applied for after admission.",
+    "url": "https://adm-g.postech.ac.kr/ENG/graduate-info/support-policy/",
+    "source": "https://adm-g.postech.ac.kr/ENG/graduate-info/support-policy/",
+    "verifiedOn": "2026-11-04"
+  }
+]

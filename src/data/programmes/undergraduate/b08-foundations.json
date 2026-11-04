@@ -1,0 +1,38 @@
+[
+  {
+    "id": "davis-uwc",
+    "name": "Davis UWC Scholars Program",
+    "host": "Davis UWC Scholars Program + US partner colleges",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Need-based aid with the partner college (often large; check each partner college)",
+    "rolling": true,
+    "dlText": "No single deadline: apply through each partner college's regular admission and financial-aid deadlines",
+    "tags": [
+      "UWC graduates only",
+      "IB Diploma",
+      "Admission to a partner US college",
+      "Need-based"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Any nationality, but only graduates of the 18 UWC (United World College) schools who completed the IB Diploma and are admitted to a participating US college"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your US partner college",
+    "fields": "Any undergraduate field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Need-based undergraduate aid for UWC graduates at 100+ US partner colleges (106 partners listed for 2026-27). Davis funding is combined with the college's own aid; you must already be a UWC graduate, so this is not open to other students.",
+    "url": "https://www.davisuwcscholars.org/",
+    "source": "https://www.davisuwcscholars.org/partners",
+    "verifiedOn": "2026-11-04"
+  }
+]
