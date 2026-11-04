@@ -354,5 +354,940 @@
     "note": "Applications accepted year-round but the main round is in December; late applications considered only if places and funding remain.",
     "url": "https://www.cityu.edu.hk/pg/",
     "source": "https://www.cityu.edu.hk/see_eeem/call-phd.html"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "riken-ipa",
+    "name": "RIKEN International Program Associate (IPA)",
+    "host": "RIKEN",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Living allowance ¥5,200/day + housing up to ¥70,000/month (off-campus rent), for up to 3 years",
+    "rolling": true,
+    "dlText": "Calls issued twice a year (spring and autumn) – check current call",
+    "tags": [
+      "Must be enrolled at a RIKEN partner graduate school",
+      "Research done at RIKEN",
+      "Up to 3 years"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International doctoral students enrolled (or enrolling) at a university that has a joint graduate school / collaboration agreement with RIKEN; host researcher's consent needed."
+    },
+    "fields": "Natural sciences, life sciences, physics, chemistry, engineering, computing at RIKEN centres",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Lets foreign PhD students do their doctoral research at a RIKEN lab while registered at a partner university. Allowance figures from the IPA page may be dated; confirm in the current call.",
+    "url": "https://www.riken.jp/en/careers/programs/ipa/",
+    "source": "https://www.riken.jp/en/careers/programs/ipa/"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "riken-jra",
+    "name": "RIKEN Junior Research Associate (JRA)",
+    "host": "RIKEN",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": true,
+    "funding": "salaried",
+    "amount": "¥250,000/month salary + commuting allowance (up to ¥150,000/month)",
+    "deadline": "2026-10-16T13:00:00+09:00",
+    "dlText": "16 Oct 2026, 13:00 JST (FY2027 call; supervisor's opinion due 6 Nov 2026)",
+    "nextText": "Next call ~mid-Sep to mid-Oct 2027 (FY2028)",
+    "tags": [
+      "Enrolled in Japanese doctoral programme",
+      "~60 positions",
+      "1-year renewable contract"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Any nationality enrolled in a Japanese doctoral programme (as of 1 Apr or 1 Oct 2027) whose graduate school has a joint graduate school or research collaboration with RIKEN; not past the standard PhD term."
+    },
+    "fields": "All RIKEN research areas",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Part-time paid research position at RIKEN for doctoral students in Japan; contract 1 Apr 2027–31 Mar 2028. Screening results late December 2026.",
+    "url": "https://www.riken.jp/en/careers/programs/jra/",
+    "source": "https://www.riken.jp/en/careers/programs/jra/jra2027/"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "utokyo-fellowship",
+    "name": "The University of Tokyo Fellowship",
+    "host": "The University of Tokyo",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "¥200,000/month grant-in-aid (e.g. 3 years in Frontier Sciences)",
+    "rolling": true,
+    "dlText": "Set by each graduate school – usually applied for together with the entrance application",
+    "tags": [
+      "Self-financed international students",
+      "Outstanding admits",
+      "Apply via graduate school"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Self-financed international students with outstanding performance admitted to UTokyo graduate schools (not MEXT/government scholarship holders); details per graduate school."
+    },
+    "fields": "All fields (offered via participating graduate schools)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Run by individual graduate schools, so deadlines and the number of awards differ; check your target school's admissions page. Tuition is not automatically covered.",
+    "url": "https://www.k.u-tokyo.ac.jp/en/exam/master/foreign_research_students/tokyo_fellowship/",
+    "source": "https://www.u-tokyo.ac.jp/content/400281411.pdf"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "kyoto-dogs-spring",
+    "name": "Kyoto University DoGS SPRING Program",
+    "host": "Kyoto University",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "¥2.16 million/year research incentive grant + ¥0.4 million/year research expenses + half tuition exemption (2024 rates)",
+    "rolling": true,
+    "dlText": "Calls via Kyoto University Graduate Division – check current guidelines",
+    "tags": [
+      "Japanese and international students",
+      "Not with MEXT/home-country scholarship",
+      "No age limit"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Kyoto University doctoral students of any nationality; those holding a Japanese Government (MEXT) or home-country scholarship are ineligible; cannot be combined with JSPS DC."
+    },
+    "fields": "All doctoral fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Cross-school support for outstanding doctoral students; international students receive payments after arriving in Japan. Programme review was updated in July 2026, so confirm current amounts.",
+    "url": "https://www.kugd.k.kyoto-u.ac.jp/en/support/",
+    "source": "https://www.kugd.k.kyoto-u.ac.jp/wp-content/uploads/2024/03/EnRC_00_youkou_2024spring.pdf"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "tohoku-ags-rise",
+    "name": "Tohoku University AGS RISE Program",
+    "host": "Tohoku University (Advanced Graduate School)",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "¥180,000/month (standard) + ¥340,000/year research grant",
+    "rolling": true,
+    "dlText": "Apply through your graduate school – deadlines set per call",
+    "tags": [
+      "Doctoral students",
+      "Successor to SPRING",
+      "Apply via graduate school"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Tohoku University doctoral course students; check the call for international-student conditions."
+    },
+    "fields": "All doctoral fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Replaced Tohoku's JST SPRING support for new doctoral students from FY2025. A separate next-generation AI track pays ¥260,000/month.",
+    "url": "https://pgd.tohoku.ac.jp/english/rpc/RISE.html",
+    "source": "https://pgd.tohoku.ac.jp/english/rpc/RISE.html"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cas-anso-scholarship-phd",
+    "name": "CAS-ANSO Scholarship (Degree Program, PhD)",
+    "host": "Alliance of International Science Organizations (ANSO) & Chinese Academy of Sciences",
+    "country": "China",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition waiver + living allowance – amount on official page",
+    "opens": "2026-10-15",
+    "deadline": "2027-01-31T23:59:00+08:00",
+    "dlText": "~31 Jan 2027, Beijing time (estimated from 2026 cycle)",
+    "expected": true,
+    "tags": [
+      "Non-Chinese citizens",
+      "Age limit (born after 1 Jan 1991 in 2026 call)",
+      "Study at UCAS, USTC or CAS institutes"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Natural sciences, engineering and technology",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Formerly the ANSO Scholarship for Young Talents; ~300 PhD awards a year. Apply through the UCAS or USTC international admission system; the 2026 call ran 15 Oct 2025–31 Jan 2026.",
+    "url": "https://www.anso.org.cn/programmes/talent/scholarship/",
+    "source": "https://www.anso.org.cn/programmes/talent/scholarship/202510/t20251015_786021.html"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "anso-cas-twas-phd",
+    "name": "ANSO-CAS-TWAS/UNESCO PhD Scholarship",
+    "host": "TWAS, ANSO & Chinese Academy of Sciences",
+    "country": "China",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition, travel and visa costs + monthly allowance for housing and living – check official page",
+    "opens": "2026-10-15",
+    "deadline": "2027-01-31T23:59:00+08:00",
+    "dlText": "~31 Jan 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "Developing-country nationals",
+      "Under 35",
+      "Master's degree required"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Non-Chinese nationals from TWAS-eligible developing countries, under 35, holding an MSc; must return home after studies."
+    },
+    "fields": "Natural sciences and engineering",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Successor to the CAS-TWAS President's Fellowship; up to 4 years at USTC or UCAS (apply to only one). Only one TWAS fellowship application per year.",
+    "url": "https://twas.org/opportunity/anso-cas-twasunesco-phd-scholarship",
+    "source": "https://twas.org/opportunity/anso-cas-twasunesco-phd-scholarship"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "westlake-phd-fellowship",
+    "name": "Westlake University Fellowship (International PhD)",
+    "host": "Westlake University",
+    "country": "China",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition waiver + monthly stipend (amount on official page)",
+    "rolling": true,
+    "dlText": "Several application windows a year (e.g. March, August, November) – check graduate admissions",
+    "tags": [
+      "All admitted international PhD students",
+      "IELTS 6.5 / TOEFL 90",
+      "Hangzhou city scholarships possible"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Science, engineering, life sciences, medicine",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "All admitted international PhD students are eligible for the Westlake University Fellowship plus tuition-waiving university scholarships. Figures from a 2023 brochure; confirm for 2027.",
+    "url": "https://en.westlake.edu.cn/admissions/financial_aid/",
+    "source": "https://physics.westlake.edu.cn/en/about/resources/202305/P020230526352566136470.pdf"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "sustech-intl-phd",
+    "name": "SUSTech First-Grade Scholarship for International PhD Students",
+    "host": "Southern University of Science and Technology (SUSTech)",
+    "country": "China",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Monthly basic + incentive allowance (see admission guide) + one-off RMB 30,000 Guangdong award in year 1",
+    "opens": "2026-11-03",
+    "deadline": "2027-01-18T23:59:00+08:00",
+    "dlText": "~18 Jan 2027 first round (estimated from 2026 cycle); second round to ~1 Apr 2027",
+    "expected": true,
+    "tags": [
+      "Non-Chinese passport",
+      "Under 40",
+      "TOEFL 85 / IELTS 6.5"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Science, engineering, medicine, business",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "All admitted international postgraduates not awarded the Chinese Government Scholarship get the SUSTech First-Grade Scholarship automatically. Apply in the first round to also be considered for CGS.",
+    "url": "https://gs.sustech.edu.cn/en/",
+    "source": "https://bme.sustech.edu.cn/2608.html"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "tigp-sinica",
+    "name": "Taiwan International Graduate Program (TIGP) PhD Stipend",
+    "host": "Academia Sinica with partner universities",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "NT$34,000/month tax-free in year 1 (+NT$6,000 Research Performance Fellowship for some), renewable 2 more years on performance",
+    "opens": "2026-11-01",
+    "deadline": "2027-02-01T23:59:00+08:00",
+    "dlText": "~1 Feb 2027, GMT+8 (estimated from 2026 cycle)",
+    "expected": true,
+    "tags": [
+      "14 English-taught PhD programmes",
+      "No application fee",
+      "No outside work allowed"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Chemistry, physics, life sciences, bioinformatics, nanoscience, earth sciences, computing, social networks",
+    "fieldCats": [
+      "sciences",
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "PhD degrees awarded jointly with partner universities; after year 3 funding depends on the advisor. Applications usually open November–February.",
+    "url": "https://tigp.sinica.edu.tw/",
+    "source": "https://tigp.sinica.edu.tw/posts/188371"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "aus-rtp-international",
+    "name": "Australian Government Research Training Program (RTP) – International",
+    "host": "Australian Government via Australian universities",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "Stipend A$35,550–A$55,537/year (2027 base–max rate, set by university) + tuition fee offset; 3–4 years for PhD",
+    "rolling": true,
+    "dlText": "Set by each university's scholarship rounds",
+    "tags": [
+      "Apply via university",
+      "Max 10% of RTP to internationals",
+      "Tax-free stipend"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Not applied for centrally: each university selects RTP recipients in its own HDR scholarship rounds (often combined with the admission application). Highly competitive for international students.",
+    "url": "https://www.education.gov.au/research-block-grants/research-training-program",
+    "source": "https://www.education.gov.au/research-block-grants/research-training-program/research-training-program-frequently-asked-questions-students"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "usyd-usydis",
+    "name": "University of Sydney International Stipend Scholarship (USYDIS) + Tuition Fee Scholarship",
+    "host": "The University of Sydney",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "A$44,293/year stipend (2027 rate) + 100% tuition + OSHC",
+    "deadline": "2026-12-18T23:59:00+11:00",
+    "dlText": "18 Dec 2026 for Research Periods 3–4, 2027 (time not stated)",
+    "nextText": "Next round ~Sep 2027 for 2028 Research Periods 1–2",
+    "tags": [
+      "Separate admission application",
+      "Competitive",
+      "International students"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AU",
+        "NZ"
+      ]
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "General international research scholarship round; the RP1–2 2027 round closed 11 Sep 2026. Outcomes from 26 Feb 2027.",
+    "url": "https://www.sydney.edu.au/scholarships/international/postgraduate-research/general.html",
+    "source": "https://www.sydney.edu.au/scholarships/international/postgraduate-research/general.html"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "anu-phd-scholarship",
+    "name": "ANU PhD Scholarship (International)",
+    "host": "Australian National University",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "A$40,475/year stipend (2027 base rate) for 3.5 years + tuition fee scholarship",
+    "deadline": "2027-04-15T23:59:00+10:00",
+    "dlText": "15 Apr 2027 (Round 2, start by 31 Aug 2027; time not stated)",
+    "nextText": "Round 1 International closes 31 Aug each year",
+    "tags": [
+      "Apply for admission and scholarship together",
+      "Central stipend includes tuition",
+      "Competitive"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Round 1 for internationals (31 Aug 2026) has closed; Round 2 is for both domestic and international applicants.",
+    "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-phd-scholarship",
+    "source": "https://research.anu.edu.au/postgraduate-research-candidates/research-degree-scholarships"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "uq-grss",
+    "name": "UQ Graduate Research School Scholarship (UQGRSS)",
+    "host": "The University of Queensland",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "A$39,220/year tax-free stipend (2026 rate, indexed) for 3.5 years + OSHC; tuition cover for internationals – check official page",
+    "deadline": "2026-10-19T23:59:00+10:00",
+    "dlText": "19 Oct 2026 international round (time not stated)",
+    "nextText": "Next round closes 25 Jan 2027 – check whether open to international applicants",
+    "tags": [
+      "Domestic and international",
+      "3.5 years",
+      "Indexed annually"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Includes RTP-funded awards; outcomes of the international round from 22 Feb 2027.",
+    "url": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
+    "source": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "monash-mgs-mits",
+    "name": "Monash Graduate Scholarship + Monash International Tuition Scholarship",
+    "host": "Monash University",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "A$41,100/year stipend (2027) + A$2,000 relocation + tuition fees + OSHC",
+    "deadline": "2027-02-28T23:59:00+11:00",
+    "dlText": "28 Feb 2027 international Round 1 (time not stated); Round 3 ~31 Aug 2027",
+    "tags": [
+      "Packaged stipend + tuition",
+      "Outcomes in 6–10 weeks",
+      "International students"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The 2027 Round 1 closing date was brought forward from 31 March to 28 February. MITS dates differ on some pages—check the round calendar.",
+    "url": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-graduate-scholarship-mgs",
+    "source": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-graduate-scholarship-mgs"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "melbourne-research-scholarship-phd",
+    "name": "Melbourne Research Scholarship (PhD)",
+    "host": "The University of Melbourne",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (stipend + fee offset)",
+    "deadline": "2027-01-31T23:59:00+11:00",
+    "dlText": "31 Jan 2027 (Round 2 for most faculties; time not stated); Round 3 15 May 2027",
+    "varies": true,
+    "tags": [
+      "Considered with admission application",
+      "Faculty-specific dates",
+      "Previous degree must be complete"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Domestic and international graduate researchers; some faculties (e.g. Engineering & IT) list it for local applicants—check your faculty."
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Rounds differ by faculty (Engineering & IT closed 11 Oct 2026). Outcomes of the 31 Jan round by 26 Mar 2027.",
+    "url": "https://scholarships.unimelb.edu.au/",
+    "source": "https://mdhs.unimelb.edu.au/research/research-training/future-students/when-should-i-apply"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "uwa-intl-rtp",
+    "name": "UWA International RTP Stipend and Tuition Fee Scholarships",
+    "host": "The University of Western Australia",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "A$39,253/year stipend (2027) + tuition fees",
+    "deadline": "2026-09-15T23:59:00+08:00",
+    "dlText": "15 Sep 2026, 23:59 AWST (2027 round)",
+    "nextText": "Next international round ~Sep 2027 (for 2028)",
+    "tags": [
+      "Annual international round",
+      "Offers from Nov 2026",
+      "Competitive"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "UWA international graduates from 2025–26 could also apply in the domestic round (closed 31 Oct 2026) for a small pool of international awards.",
+    "url": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/hdr-scholarships",
+    "source": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/hdr-scholarships"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "adelaide-aurs",
+    "name": "Adelaide University Research Scholarship (AURS)",
+    "host": "Adelaide University",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "About A$36,500/year living stipend (2025 listing) + tuition fee waiver, up to 3.5 years",
+    "rolling": true,
+    "dlText": "Rounds open mid-Feb and mid-Jul 2027 – closing dates on the scholarships site",
+    "tags": [
+      "International PhD students",
+      "Tuition waiver with stipend",
+      "3.5 years"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International students awarded a living allowance scholarship also get a tuition fee waiver. Rates shown are from an older round; check the 2027 rate.",
+    "url": "https://adelaide.edu.au/study/scholarships/adelaide-university-research-scholarship-aurs/",
+    "source": "https://adelaide.edu.au/research/research-degrees/research-scholarships/"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "auckland-doctoral",
+    "name": "University of Auckland Doctoral Scholarship",
+    "host": "University of Auckland",
+    "country": "New Zealand",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "Up to NZ$35,468/year tax-free stipend (2026 rate, CPI-adjusted) + tuition fees, up to 42 months",
+    "deadline": "2027-02-01T23:59:00+13:00",
+    "dlText": "1 Feb 2027 (then 1 May and 1 Aug 2027; time not stated)",
+    "tags": [
+      "Four rounds a year",
+      "Internationals: apply in early rounds",
+      "Domestic-fee PhD in NZ"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International PhD students pay domestic fees in NZ, which the scholarship covers. International applicants needing a visa are advised to apply in the Nov or Feb rounds.",
+    "url": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/university-of-auckland-doctoral-scholarship-43-all.html",
+    "source": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/postgraduate-scholarships/doctoral-scholarships.html"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "otago-doctoral",
+    "name": "University of Otago Doctoral Scholarship",
+    "host": "University of Otago",
+    "country": "New Zealand",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "NZ$34,128/year stipend + domestic tuition fee waiver for 36 months",
+    "deadline": "2027-03-01T23:59:00+13:00",
+    "dlText": "1 Mar 2027 (rounds in Mar, Jun, Sep, Nov; time not stated)",
+    "tags": [
+      "Apply any time",
+      "Quarterly rounds",
+      "Departmental assessment needed"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Submit via eVision with a completed departmental assessment by the first day of the round month. Student Services Fee and insurance are not covered.",
+    "url": "https://www.otago.ac.nz/courses/scholarships/university-of-otago-doctoral-scholarship",
+    "source": "https://www.otago.ac.nz/courses/scholarships/university-of-otago-doctoral-scholarship"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "wellington-doctoral",
+    "name": "Wellington Doctoral Scholarship",
+    "host": "Te Herenga Waka—Victoria University of Wellington",
+    "country": "New Zealand",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "NZ$32,000/year stipend + tuition fees (domestic) for up to 3 years",
+    "deadline": "2027-03-01T16:30:00+13:00",
+    "dlText": "1 Mar 2027, 16:30 NZDT (rounds 1 Mar, 1 Jul, 1 Nov)",
+    "tags": [
+      "Three rounds a year",
+      "Late applications rejected",
+      "Outcome in 6–8 weeks"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Same closing dates for international and domestic applicants.",
+    "url": "https://www.wgtn.ac.nz/scholarships/current/wellington-doctoral-scholarships",
+    "source": "https://www.wgtn.ac.nz/scholarships/current/wellington-doctoral-scholarships"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "canterbury-ucds",
+    "name": "UC Doctoral Scholarship",
+    "host": "University of Canterbury",
+    "country": "New Zealand",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "NZ$32,650/year stipend + tuition fees for thesis enrolment (up to 360 points)",
+    "deadline": "2027-05-15T23:59:00+12:00",
+    "dlText": "~15 May 2027 (estimated from twice-yearly May/Oct rounds; time not stated)",
+    "expected": true,
+    "tags": [
+      "Two rounds a year",
+      "Thesis-only enrolment",
+      "Merit-based"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The 15 Oct 2026 round (start before 1 Jul 2027) has closed. Check international eligibility details on the UC page.",
+    "url": "https://www.canterbury.ac.nz/study/getting-started/scholarships/doctoral-scholarships",
+    "source": "https://www.canterbury.ac.nz/study/getting-started/scholarships/doctoral-scholarships"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "weizmann-feinberg-phd",
+    "name": "Weizmann Institute (Feinberg Graduate School) PhD Fellowship",
+    "host": "Weizmann Institute of Science",
+    "country": "Israel",
+    "region": "middle-east",
+    "full": true,
+    "funding": "full",
+    "amount": "About NIS 9,000/month for up to 4.5 years + full tuition waiver",
+    "rolling": true,
+    "dlText": "Applications accepted year-round",
+    "tags": [
+      "Find an advisor first",
+      "All students funded",
+      "All nationalities"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Mathematics, computer science, physics, chemistry, biology, biochemistry, science education",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Admission depends on securing a Weizmann senior scientist as advisor before applying. Extra WSoS awards exist for outstanding international doctoral students.",
+    "url": "https://www.weizmann.ac.il/feinberg/fellowship-aid/phd-students",
+    "source": "https://www.weizmann.ac.il/feinberg/fellowship-aid/phd-students"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "technion-phd-scholarship",
+    "name": "Technion Graduate School PhD Scholarship",
+    "host": "Technion – Israel Institute of Technology",
+    "country": "Israel",
+    "region": "middle-east",
+    "full": true,
+    "funding": "full",
+    "amount": "Monthly portions (NIS 1,401 each before candidacy, NIS 1,522 after; CS PhD = 6 portions); 4+ portions = full tuition waiver",
+    "rolling": true,
+    "dlText": "Set by each faculty – check graduate admissions",
+    "tags": [
+      "Merit-based",
+      "No outside work",
+      "Rates from April 2026"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, sciences, computer science, data science, architecture, medicine",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Number of portions varies by faculty; doctoral students are generally tuition-exempt. A Technion International PhD Excellence Program also exists.",
+    "url": "https://graduate.technion.ac.il/en/general-information/",
+    "source": "https://graduate.technion.ac.il/en/general-information/"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "uaeu-phd-scholarship",
+    "name": "UAEU PhD Scholarship (All Nationalities)",
+    "host": "United Arab Emirates University",
+    "country": "United Arab Emirates",
+    "region": "middle-east",
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition waiver + monthly stipend for 4 years (amount on official page)",
+    "rolling": true,
+    "dlText": "Same as the graduate admission deadline for each intake",
+    "tags": [
+      "PhD GPA ≥3.3",
+      "All nationalities",
+      "Apply with admission"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All UAEU PhD programmes (engineering, science, IT, medicine, business, humanities)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Separate Graduate Research Fellowships for international PhD students cover tuition and insurance, with a stipend only if funds allow.",
+    "url": "https://www.uaeu.ac.ae/en/cgs/phd_scholarship_all.shtml",
+    "source": "https://www.uaeu.ac.ae/en/cgs/phd_scholarship_all.shtml"
+  },
+  {
+    "levels": [
+      "PhD"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "sharjah-phd-ra-ta",
+    "name": "University of Sharjah PhD Research/Teaching Assistant Scholarship",
+    "host": "University of Sharjah",
+    "country": "United Arab Emirates",
+    "region": "middle-east",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition covered + monthly stipend (amount on official page)",
+    "rolling": true,
+    "dlText": "With PhD admission – check current call",
+    "tags": [
+      "CGPA ≥3.60 (BSc and MSc)",
+      "20 hours/week work",
+      "No outside employment"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All University of Sharjah PhD programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Competitive RA/TA scholarships, subject to departmental availability; remedial courses not covered.",
+    "url": "https://www.sharjah.ac.ae/Admissions/Doctoral-PhD-Degree",
+    "source": "https://www.sharjah.ac.ae/Admissions/Doctoral-PhD-Degree"
   }
 ]
