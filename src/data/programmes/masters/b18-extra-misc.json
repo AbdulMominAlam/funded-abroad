@@ -1,0 +1,464 @@
+[
+  {
+    "id": "fulbright-kenya",
+    "name": "Fulbright Foreign Student Program – Kenya",
+    "host": "U.S. Embassy in Kenya (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-04-20T23:59:00+03:00",
+    "dlText": "20 Apr 2026, time not stated (2027-28 round, closed)",
+    "nextText": "Next call ~Jan–Apr 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Kenyan citizens",
+      "Master's only (no PhD)",
+      "4-year degree",
+      "TOEFL/IELTS + GRE/GMAT"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "KE"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The US Embassy in Kenya",
+    "fields": "Most fields (clinical medicine generally excluded)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Funds a master's in the US for Kenyans; the embassy is not taking PhD applications. The 2027-28 round ran 19 Jan–20 Apr 2026 via apply.iie.org.",
+    "url": "https://ke.usembassy.gov/fulbright-foreign-students-program-2026-2027/",
+    "source": "https://ke.usembassy.gov/wp-content/uploads/sites/5/2026/03/Supplemental-Information-for-Fulbright-Applicants-in-Kenya.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-ghana",
+    "name": "Fulbright Foreign Student Program – Ghana",
+    "host": "U.S. Embassy Ghana (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-06-05T23:59:00+00:00",
+    "dlText": "5 Jun 2026, time not stated (2027-28 round, closed)",
+    "nextText": "Next call ~spring 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Ghanaian citizens in Ghana",
+      "Staff/junior faculty of institutions",
+      "GPA 3.5",
+      "Up to 2 years"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "GH"
+      ]
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "The US Embassy in Ghana",
+    "fields": "AI, cyber security, STEM, disease prevention, health digitisation, supply chain, trade, conflict negotiation",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "Targets staff, junior faculty and administrators of Ghanaian tertiary, research or government institutions; up to two years of funding for a US master's or PhD in priority fields. Dual US citizens are ineligible.",
+    "url": "https://gh.usembassy.gov/fulbright-foreign-student-program-fulbright-fsp-2/",
+    "source": "https://gh.usembassy.gov/fulbright-foreign-student-program-fulbright-fsp-2/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-south-africa",
+    "name": "Fulbright Foreign Student Program – South Africa",
+    "host": "U.S. Embassy & Consulates in South Africa (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-04-08T23:59:00+02:00",
+    "dlText": "8 Apr 2026, 23:59 SAST (2027-28 round, closed)",
+    "nextText": "Next call ~early 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "South African citizens",
+      "Master's/PhD in the US",
+      "No late applications"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "ZA"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The US Embassy in South Africa",
+    "fields": "Most fields (clinical medicine generally excluded)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The 2027-28 round closed 8 Apr 2026; nominees were due by 1 Oct 2026 with results around Mar/Apr 2027 and departure from Jul/Aug 2027.",
+    "url": "https://za.usembassy.gov/fulbright-foreign-student-program/",
+    "source": "https://za.usembassy.gov/wp-content/uploads/sites/51/2026/01/South-Africa-FFSP-Application-Guidelines-and-Instructions-2027-2028-1.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-uganda",
+    "name": "Fulbright Foreign Student Program – Uganda",
+    "host": "U.S. Embassy in Uganda (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-03-21T23:59:00+03:00",
+    "dlText": "21 Mar 2026, time not stated (2027 round, closed)",
+    "nextText": "Next call ~early 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Ugandan citizens",
+      "Master's only",
+      "4-year degree",
+      "3 references"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "UG"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The US Embassy in Uganda",
+    "fields": "Most fields (clinical medicine generally excluded)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Funds a US master's starting fall 2027 for Ugandans with the equivalent of a US bachelor's (4 years of university). The 2027 round closed 21 Mar 2026; test scores were due before 1 Oct 2026.",
+    "url": "https://ug.usembassy.gov/2027-fulbright-foreign-student-program/",
+    "source": "https://ug.usembassy.gov/2027-fulbright-foreign-student-program/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-tanzania",
+    "name": "Fulbright Foreign Student Program – Tanzania",
+    "host": "U.S. Embassy in Tanzania (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-06-01T23:59:00+03:00",
+    "dlText": "1 Jun 2026, 23:59 (2027-28 round, closed)",
+    "nextText": "Next call ~spring 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Tanzanian citizens",
+      "4-year degree",
+      "Embassy nominates"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "TZ"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The US Embassy in Tanzania",
+    "fields": "Most fields (clinical medicine generally excluded)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The embassy nominates Tanzanian candidates to the Fulbright Scholarship Board, which makes the final selection. The 2027-28 round closed 1 Jun 2026.",
+    "url": "https://tz.usembassy.gov/education/fulbright-jsd/",
+    "source": "https://tz.usembassy.gov/education/fulbright-jsd/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "pau-scholarship",
+    "name": "Pan African University (PAU) Scholarships",
+    "host": "Pan African University (African Union Commission)",
+    "country": "Any (PAU institutes in Africa)",
+    "region": "global",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full scholarship from the African Union Commission (check official call for stipend details)",
+    "opens": "2026-11-15",
+    "deadline": "2026-12-15T23:59:00+03:00",
+    "dlText": "~15 Dec 2026, time not stated (estimated from 2026 cycle: 15 Nov–15 Dec 2025)",
+    "expected": true,
+    "tags": [
+      "Africans + diaspora",
+      "Master's: men ≤25, women ≤28",
+      "2:1 or equivalent",
+      "Possible exam/interview"
+    ],
+    "eligibility": {
+      "type": "group",
+      "group": "african-union"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "STEM, governance/humanities/social sciences, life & earth sciences, water & energy (by institute)",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "Full AU scholarships for master's and PhD study at PAU institutes across Africa; apply online at au-pau.org. The last call ran 15 Nov–15 Dec 2025 and PAUSTI did not admit new students for 2026.",
+    "url": "https://au.int/en/announcements/20251115/pan-african-university-call-scholarships-applications-academic-year-2026-2027",
+    "source": "https://au.int/sites/default/files/announcements/45594-annc-2026_PAU_Admission_Call_Englsih.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "aims-masters",
+    "name": "AIMS Master's in Mathematical Sciences",
+    "host": "African Institute for Mathematical Sciences (AIMS)",
+    "country": "Any (AIMS centres in South Africa, Senegal, Ghana, Cameroon, Rwanda)",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full scholarship: tuition, accommodation, meals (airfare support encouraged from other sources)",
+    "deadline": "2027-03-15T23:59:00+02:00",
+    "dlText": "~15 Mar 2027, time not stated (estimated from 2026 cycle; FAQ says calls run 1 Dec–31 Mar)",
+    "expected": true,
+    "tags": [
+      "4-year maths/science degree",
+      "Mainly African students",
+      "10-month intensive"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Aimed at students from Africa; check the official call for nationality rules at each centre"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Mathematical sciences (maths, statistics, physics, computing, data science)",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "One-year intensive master's at AIMS centres; selected students generally receive full scholarships, and admitted students are considered for the Mastercard Foundation Scholars Program. The 2026-27 call closed 15 Mar 2026.",
+    "url": "https://nexteinstein.org/application/aims-masters-degree/",
+    "source": "https://nexteinstein.org/?p=17222",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "auc-international-graduate-fellowship",
+    "name": "AUC International Graduate Fellowship",
+    "host": "The American University in Cairo",
+    "country": "Egypt",
+    "region": "middle-east",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition (up to 9 credits/semester), fees, stipend, health insurance, housing allowance or residence",
+    "deadline": "2027-01-17T23:59:00+02:00",
+    "dlText": "17 Jan 2027, time not stated (fellowship cycle 1, opens 22 Dec 2026; cycle 2: 6 Apr–6 May 2027)",
+    "opens": "2026-12-22",
+    "tags": [
+      "Non-Egyptians",
+      "Financial need",
+      "Up to 5 semesters",
+      "Apply for admission ≥2 weeks before"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "EG"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any graduate field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Open to international students fully admitted to any AUC graduate programme; financial need is a criterion and the award is reviewed each semester (GPA 3.2 to renew). Fall 2027 admission deadline is 15 Dec 2026.",
+    "url": "https://www.aucegypt.edu/admissions/fellowships/listings/international-graduate",
+    "source": "https://www.aucegypt.edu/admissions/fellowships/deadlines",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "auc-african-graduate-fellowship",
+    "name": "AUC African Graduate Fellowship",
+    "host": "The American University in Cairo",
+    "country": "Egypt",
+    "region": "middle-east",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition (up to 9 credits/semester), fees, stipend, health insurance, housing allowance or residence",
+    "deadline": "2027-01-17T23:59:00+02:00",
+    "dlText": "17 Jan 2027, time not stated (fellowship cycle 1, opens 22 Dec 2026; cycle 2: 6 Apr–6 May 2027)",
+    "opens": "2026-12-22",
+    "tags": [
+      "Non-Egyptian Africans",
+      "Financial need",
+      "TOEFL/IELTS",
+      "Up to 5 semesters"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Non-Egyptian African nationals; those with a second, non-African nationality are not eligible"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any graduate (master's) field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Competitive need-based fellowship for African master's students at AUC's New Cairo campus, reviewed every semester; may also cover remedial English.",
+    "url": "https://www.aucegypt.edu/admissions/fellowships/listings/african-graduate",
+    "source": "https://www.aucegypt.edu/admissions/fellowships/listings/african-graduate",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "wellington-masters-thesis",
+    "name": "Wellington Master's by Thesis Scholarship",
+    "host": "Te Herenga Waka—Victoria University of Wellington",
+    "country": "New Zealand",
+    "region": "oceania",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "NZ$15,000 tax-free stipend + domestic tuition for 120 points (internationals pay the fee difference)",
+    "deadline": "2026-11-01T23:59:00+13:00",
+    "dlText": "1 Nov 2026, time not stated (closed)",
+    "nextText": "Next round closes 1 Nov 2027",
+    "tags": [
+      "Thesis ≥90 points",
+      "GPA ≥7.0 (NZ scale)",
+      "Merit only",
+      "International pays fee gap"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any field (research master's)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "One-year stipend for a master's by thesis, open to international and domestic applicants; international students (except Australians) must pay the difference between international and domestic fees. Applications close 1 Nov each year.",
+    "url": "https://www.wgtn.ac.nz/scholarships/current/wellington-masters-by-thesis-scholarship",
+    "source": "https://www.wgtn.ac.nz/scholarships/current/wellington-masters-by-thesis-scholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "intra-africa-mobility",
+    "name": "Intra-Africa Academic Mobility Scheme Scholarships",
+    "host": "European Union (EACEA) with African university consortia",
+    "country": "Any (African host countries)",
+    "region": "global",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Living allowance, insurance, travel/visa, tuition/participation costs (amount depends on project and mobility length)",
+    "rolling": true,
+    "dlText": "Set by each funded consortium project",
+    "tags": [
+      "African nationals resident in Africa",
+      "Study in another African country",
+      "Master's 4–24 mo, PhD 6–36 mo"
+    ],
+    "eligibility": {
+      "type": "group",
+      "group": "african-union"
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Depends on the consortium project",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "EU-funded scholarships for African students to study in an African country other than their own; apply to the universities of a funded consortium, not to the EU. Only one scholarship per person under the scheme.",
+    "url": "https://www.eacea.ec.europa.eu/scholarships/intra-africa-scholarships_en",
+    "source": "https://www.eacea.ec.europa.eu/scholarships/intra-africa-scholarships_en",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "israel-mfa-scholarship",
+    "name": "Israel MFA Scholarships for International Students",
+    "host": "Israel Ministry of Foreign Affairs",
+    "country": "Israel",
+    "region": "middle-east",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "50% of tuition (max US$6,000) + monthly allowance + basic health insurance (8-month academic year)",
+    "deadline": "2027-01-15T23:59:00+02:00",
+    "dlText": "By 15 Jan 2027 via the Israeli embassy in your country (local dates may be earlier)",
+    "varies": true,
+    "tags": [
+      "Degree holders under 35",
+      "Listed countries only",
+      "Apply via embassy"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of the countries listed on the official page (not Israeli citizens); under 35 at start of the academic year"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "The Israeli embassy in your country",
+    "fields": "Programmes approved by Israel's Council for Higher Education",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "One academic year of study or research in Israel for graduates (BA/BSc or higher) from eligible countries; decisions usually come around July. A 3-week Hebrew summer course option also exists.",
+    "url": "https://www.gov.il/en/service/scholarships_application_for_academic_studies_in_israel",
+    "source": "https://www.gov.il/en/service/scholarships_application_for_academic_studies_in_israel",
+    "verifiedOn": "2026-11-04"
+  }
+]
