@@ -23,7 +23,7 @@ const C = { bg: "#f3f5f2", surface: "#ffffff", ink: "#14201a", muted: "#5b6a62",
 const FONT = "'IBM Plex Sans','Segoe UI',system-ui,-apple-system,sans-serif";
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-export const LEVEL_LABELS: Record<AlertLevel, string> = { ug: "Undergraduate", masters: "Master's", phd: "PhD & research", all: "All levels" };
+export const LEVEL_LABELS: Record<AlertLevel, string> = { ug: "Undergraduate", masters: "Master's", phd: "PhD", intern: "Internships", all: "All levels" };
 
 export function esc(t: unknown): string {
   return String(t).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);

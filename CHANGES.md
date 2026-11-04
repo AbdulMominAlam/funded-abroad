@@ -429,3 +429,10 @@ As a result:
 4. Re-run the research in January 2027, when several "expected" calls publish (Stipendium Hungaricum, CGS, GKS, Australia Awards, Fulbright). Also add SJTU, Manchester, DTU and OeAD.
 5. Optional: a "stale data" banner when `verifiedOn` is more than 60 days old, and a small script that lists entries whose deadline passed but have no `nextText`.
 6. Consider self-hosting the fonts so the site has no third-party requests at all.
+
+
+## Update: separate Internships option
+
+- The study-level picker now has five options: Undergraduate, Master's, PhD, Internships and All levels. "PhD & research" was split into **PhD** and **Internships**.
+- Old links with `lvl=internship` or `lvl=research` now open the Internships view.
+- Email alerts accept the new `intern` level (Supabase check constraint, edge-function validation and email labels updated). The migration hasn't been applied anywhere yet, so the original migration file was edited directly.

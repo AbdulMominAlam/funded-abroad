@@ -2,7 +2,7 @@
 export type Level = "Undergraduate" | "Master's" | "PhD" | "Internship";
 
 /** The study-level picker: "phd" covers PhD and research internships. */
-export type StudyLevel = "ug" | "masters" | "phd" | "all";
+export type StudyLevel = "ug" | "masters" | "phd" | "intern" | "all";
 
 /** ISO 3166-1 alpha-2 country code (plus XK for Kosovo). */
 export type CountryCode = string;
@@ -105,7 +105,8 @@ export const LEVELS: readonly Level[] = ["Undergraduate", "Master's", "PhD", "In
 export const STUDY_LEVELS: Record<StudyLevel, { label: string; levels: readonly Level[] }> = {
   ug: { label: "Undergraduate", levels: ["Undergraduate"] },
   masters: { label: "Master's", levels: ["Master's"] },
-  phd: { label: "PhD & research", levels: ["PhD", "Internship"] },
+  phd: { label: "PhD", levels: ["PhD"] },
+  intern: { label: "Internships", levels: ["Internship"] },
   all: { label: "All levels", levels: ["Undergraduate", "Master's", "PhD", "Internship"] },
 };
 

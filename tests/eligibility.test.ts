@@ -57,14 +57,16 @@ describe("resolveEligibility", () => {
 
 describe("study levels", () => {
   it("maps the picker to data levels", () => {
-    expect(matchesStudyLevel(["Internship"], "phd")).toBe(true);
+    expect(matchesStudyLevel(["Internship"], "intern")).toBe(true);
+    expect(matchesStudyLevel(["Internship"], "phd")).toBe(false);
+    expect(matchesStudyLevel(["PhD"], "intern")).toBe(false);
     expect(matchesStudyLevel(["PhD"], "masters")).toBe(false);
     expect(matchesStudyLevel(["Undergraduate", "Master's"], "ug")).toBe(true);
     expect(matchesStudyLevel(["PhD"], "all")).toBe(true);
   });
   it("parses legacy values", () => {
     expect(toStudyLevel("Master's")).toBe("masters");
-    expect(toStudyLevel("Internship")).toBe("phd");
+    expect(toStudyLevel("Internship")).toBe("intern");
     expect(toStudyLevel("bogus")).toBeNull();
   });
 });

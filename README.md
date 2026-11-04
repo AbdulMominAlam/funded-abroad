@@ -115,7 +115,7 @@ Edit `src/data/scholarships.json`, then run `npm run validate-data`. Example:
 | Field | Required | Notes |
 | --- | --- | --- |
 | `id` | yes | Unique; lowercase letters, digits, hyphens. Used in shortlists, backups and alert subscriptions: don't rename. |
-| `levels` | yes | Any of `"Undergraduate"`, `"Master's"`, `"PhD"`, `"Internship"`. The level picker maps *PhD & research* to PhD + Internship. |
+| `levels` | yes | Any of `"Undergraduate"`, `"Master's"`, `"PhD"`, `"Internship"`. The level picker has separate *PhD* and *Internships* options. |
 | `eligibility` | yes | `{"type":"all"}` · `{"type":"list","countries":[…]}` · `{"type":"exclude","countries":[…]}` · `{"type":"group","group":"commonwealth"}` (only when the official source defines eligibility that way) · `{"type":"check","note":"…"}` when the official country list is long or changes yearly. Codes are ISO 3166-1 alpha-2 (`XK` = Kosovo). |
 | `residencyRequired` | yes | `true` if you must live in your home country when applying. |
 | `work` | yes | `true` if work experience is required. |
