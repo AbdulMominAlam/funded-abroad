@@ -24,7 +24,8 @@ export function statusClass(s: Scholarship, i: StatusInfo): string {
     case "soon": return "s-soon";
     case "upcoming":
     case "expected": return "s-up";
-    case "varies": return "s-varies";
+    case "varies":
+    case "rolling": return "s-varies";
     default: return s.varies ? "s-varies" : "s-open";
   }
 }
@@ -33,6 +34,7 @@ const FLAG_RE = /reside|residency|work experience|dual|born after|\bage\b|age li
 
 export function countdownHtml(s: Scholarship, i: StatusInfo): string {
   if (i.kind === "closed") return `<div class="days">—<small>${esc(s.nextText ?? "next round 2027")}</small></div>`;
+  if (i.deadline === null) return `<div class="days">—<small>check dates</small></div>`;
   const c = formatCountdown(i.msLeft);
   return `<div class="days" data-countdown="${esc(s.id)}">${esc(c.big)}<small>${esc(c.small)}</small></div>`;
 }
@@ -109,7 +111,7 @@ export function cardHtml({ s, i, e }: Row, ctx: ListContext): string {
     <div class="side">
       <button type="button" class="star" data-id="${esc(s.id)}" aria-pressed="${on}" aria-label="${on ? "Remove from" : "Add to"} shortlist: ${esc(s.name)}">${on ? "★" : "☆"}</button>
       <a class="go" href="${esc(s.url)}" target="_blank" rel="noopener">Official page ↗<span class="sr"> (${esc(s.name)}, opens in new tab)</span></a>
-      ${i.kind !== "closed" ? `<button type="button" class="act" data-ics="${esc(s.id)}" aria-label="Add ${esc(s.name)} deadline to calendar">📅 Add to calendar</button>` : ""}
+      ${i.kind !== "closed" && i.deadline ? `<button type="button" class="act" data-ics="${esc(s.id)}" aria-label="Add ${esc(s.name)} deadline to calendar">📅 Add to calendar</button>` : ""}
       <label class="cmp${cmpDisabled ? " disabled" : ""}"><input type="checkbox" data-cmp="${esc(s.id)}"${inCmp ? " checked" : ""}${cmpDisabled ? " disabled" : ""}> Compare<span class="sr"> ${esc(s.name)}</span></label>
     </div>
   </article>`;

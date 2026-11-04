@@ -62,8 +62,10 @@ export interface Scholarship {
   amount: string;
   /** When applications open: YYYY-MM-DD or ISO date-time with offset. */
   opens?: string;
-  /** Deadline as ISO 8601 with an explicit offset, e.g. 2026-11-30T23:59:00+01:00. */
-  deadline: string;
+  /** Deadline as ISO 8601 with an explicit offset, e.g. 2026-11-30T23:59:00+01:00. Omitted only when `rolling`. */
+  deadline?: string;
+  /** No single deadline (rolling admission, or dates set separately by each university/country/office). */
+  rolling?: boolean;
   /** Human-readable deadline text shown on the card. */
   dlText: string;
   /** Deadline is estimated from the last cycle (not yet published). */

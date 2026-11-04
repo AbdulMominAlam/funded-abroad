@@ -5,14 +5,14 @@ const DATE_ONLY = /^(\d{4})-(\d{2})-(\d{2})$/;
 const ID = /^[a-z0-9][a-z0-9-]*$/;
 
 const REQUIRED_STRINGS = [
-  "id", "name", "host", "country", "amount", "deadline", "dlText", "fields", "note", "url", "source", "verifiedOn",
+  "id", "name", "host", "country", "amount", "dlText", "fields", "note", "url", "source", "verifiedOn",
 ] as const;
 const REQUIRED_BOOLS = ["full", "residencyRequired", "work"] as const;
-const OPTIONAL_BOOLS = ["expected", "varies"] as const;
+const OPTIONAL_BOOLS = ["expected", "varies", "rolling"] as const;
 const KNOWN_KEYS = new Set<string>([
   ...REQUIRED_STRINGS, ...REQUIRED_BOOLS, ...OPTIONAL_BOOLS,
   "region", "levels", "tags", "fieldCats", "opens", "nextText", "checklist",
-  "eligibility", "nominationBody", "countryNotes",
+  "eligibility", "nominationBody", "countryNotes", "deadline",
 ]);
 
 export interface ValidationContext {
@@ -116,6 +116,12 @@ export function validateScholarships(data: unknown, ctx: ValidationContext): str
       if (!ID.test(s.id)) err(`id "${s.id}" must be lowercase letters, digits and hyphens`);
       if (seen.has(s.id)) err(`duplicate id "${s.id}" (also entry #${seen.get(s.id)})`);
       else seen.set(s.id, i);
+    }
+    if (s.rolling === true) {
+      if ("deadline" in s) err("a rolling programme has no single deadline: remove \"deadline\" (or drop rolling)");
+      if (s.expected === true || s.varies === true) err("rolling can't be combined with expected/varies");
+    } else if (typeof s.deadline !== "string" || !s.deadline.trim()) {
+      err('missing deadline (or set "rolling": true when there is no single date)');
     }
     if (typeof s.deadline === "string" && !isIsoWithTz(s.deadline)) {
       err(`deadline "${s.deadline}" must be ISO 8601 with a time zone, e.g. 2026-11-30T23:59:00+01:00`);

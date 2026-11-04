@@ -2191,5 +2191,2009 @@
     "url": "https://phd.pages.ista.ac.at/phd-application-admission/",
     "source": "https://phd.pages.ista.ac.at/phd-application-admission/",
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mext-ug",
+    "name": "MEXT Undergraduate Scholarship (Embassy Recommendation)",
+    "host": "Government of Japan (MEXT)",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition, monthly allowance and airfare (amounts in the official guidelines)",
+    "deadline": "2026-06-02T23:59:00+01:00",
+    "dlText": "2027 round closed: embassy deadlines were ~late May – early Jun 2026 (e.g. US 31 May, Ireland 2 Jun)",
+    "varies": true,
+    "nextText": "2028 round: embassies usually open ~Apr 2027",
+    "tags": [
+      "Age limit (born on/after 2 Apr 2002 for 2027)",
+      "12 years of schooling",
+      "Written exams"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "JP"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Japanese embassy or consulate in your country",
+    "countryNotes": {
+      "PK": "Apply through the Embassy of Japan in Islamabad or the Consulate in Karachi."
+    },
+    "fields": "Most fields (5 years incl. 1 year of Japanese)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Five-year scholarship including a preparatory year of Japanese; most scholars start in April. Each embassy runs its own exams and dates, and some countries add age or grade rules.",
+    "url": "https://www.studyinjapan.go.jp/en/_mt/2026/04/2027_Guidelines_Undergraduate_E.pdf",
+    "source": "https://www.studyinjapan.go.jp/en/_mt/2026/04/2027_Guidelines_Undergraduate_E.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "gks-ug",
+    "name": "Global Korea Scholarship – Undergraduate (GKS-U)",
+    "host": "NIIED, Government of Korea",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition, airfare, monthly allowance and a Korean-language year (check official guideline)",
+    "deadline": "2026-09-30T18:00:00+09:00",
+    "dlText": "2027 embassy track closed ~30 Sep 2026, 18:00 KST (date from embassy notices) · university-track dates vary",
+    "expected": true,
+    "nextText": "2028 guideline expected ~Aug–Sep 2027",
+    "tags": [
+      "No bachelor's holders",
+      "Up to 2 universities"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of countries in the GKS-U guideline (embassy and university tracks have separate lists)"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply through a Korean embassy (embassy track) or a designated university (university track). You must graduate from high school by 31 Dec 2026 for the 2027 round. Korean citizens are not eligible.",
+    "url": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
+    "source": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "brunei-bdgs",
+    "name": "Brunei Darussalam Government Scholarship",
+    "host": "Government of Brunei Darussalam",
+    "country": "Brunei",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "opens": "2026-12-15",
+    "deadline": "2027-02-15T23:59:00+08:00",
+    "dlText": "Expected ~15 Dec 2026 – 15 Feb 2027 (last round: 15 Dec 2025 – 15 Feb 2026)",
+    "expected": true,
+    "tags": [
+      "Mainly first degrees",
+      "Apply via the Brunei embassy"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Primarily citizens of ASEAN, Commonwealth and OIC countries (the official wording says 'not limited to'); Bruneians and Brunei PRs not eligible"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "The Brunei embassy or high commission in your country",
+    "fields": "Courses at Brunei's universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Mainly for international students' first degree. People who have already studied at a Brunei university are not eligible. Calls are usually announced Nov–Dec on the Brunei Ministry of Foreign Affairs site.",
+    "url": "https://www.mfa.gov.bn/pages/scholarship.aspx",
+    "source": "https://www.mfa.gov.bn/pages/scholarship.aspx",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "pearson-uoft",
+    "name": "Lester B. Pearson International Scholarship",
+    "host": "University of Toronto",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition, books, incidental fees and residence for 4 years",
+    "deadline": "2026-11-06T23:59:00-05:00",
+    "dlText": "Scholarship application by 6 Nov 2026 (school nomination closed 9 Oct; U of T application by 16 Oct; time not stated)",
+    "nextText": "Next cycle opens ~Aug 2027",
+    "tags": [
+      "School must nominate you",
+      "Finishing secondary school 2026/27"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your secondary school",
+    "fields": "Any U of T undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For international students starting first-year undergraduate study in September 2027. Students already in post-secondary study are not eligible. If your school didn't nominate you by 9 Oct, you can't compete this year.",
+    "url": "https://future.utoronto.ca/pearson-scholarships",
+    "source": "https://future.utoronto.ca/pearson-scholarships",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ubc-kmilot",
+    "name": "Karen McKellin International Leader of Tomorrow Award",
+    "host": "University of British Columbia",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Need-based (check official page)",
+    "deadline": "2026-12-01T23:59:00-08:00",
+    "dlText": "Apply to UBC by ~1 Dec 2026; nomination deadlines may be earlier",
+    "expected": true,
+    "tags": [
+      "Need-based",
+      "Nomination"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your school or UBC faculty (check)",
+    "fields": "Most UBC undergraduate programmes (not Bachelor of Music)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For outstanding international students entering UBC undergraduate programmes. Results come on a rolling basis Feb – Apr.",
+    "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+    "source": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "yale-aid",
+    "name": "Yale College need-based aid (international)",
+    "host": "Yale University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of demonstrated need with no loans, regardless of citizenship",
+    "deadline": "2027-01-02T23:59:00-05:00",
+    "dlText": "Regular Decision: 2 Jan 2027; decisions 31 Mar",
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Admission is need-blind for everyone; aid depends only on your family's finances.",
+    "url": "https://admissions.yale.edu/international",
+    "source": "https://admissions.yale.edu/resource/download/400",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "harvard-aid",
+    "name": "Harvard College need-based aid (international)",
+    "host": "Harvard University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of demonstrated need; international students get the same aid as US students",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision ~1 Jan 2027 (from Harvard's 2025 brochure; confirm)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Applying for aid doesn't affect admission, including for international applicants.",
+    "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+    "source": "https://college.harvard.edu/financial-aid/how-aid-works",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mit-aid",
+    "name": "MIT need-based aid (international)",
+    "host": "Massachusetts Institute of Technology",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of demonstrated need for all four years",
+    "deadline": "2027-01-05T23:59:00-05:00",
+    "dlText": "Regular Action expected early Jan 2027 (date not confirmed; check MIT Admissions)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "MIT is need-blind and full-need for all applicants, including international students.",
+    "url": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+    "source": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "princeton-aid",
+    "name": "Princeton need-based aid (international)",
+    "host": "Princeton University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Grant-based aid meeting full need (no loans); amount depends on need",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision expected ~1 Jan 2027 (confirm on Princeton Admission)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Princeton's need-blind policy covers all applicants, including international students.",
+    "url": "https://admission.princeton.edu/apply/international-students",
+    "source": "https://admission.princeton.edu/apply/international-students",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "amherst-aid",
+    "name": "Amherst College need-based aid (international)",
+    "host": "Amherst College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of calculated need for admitted international students",
+    "deadline": "2027-01-05T23:59:00-05:00",
+    "dlText": "Regular Decision expected early Jan 2027 (confirm on Amherst Admission)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Need-blind admission for all students, domestic and international.",
+    "url": "https://www.amherst.edu/admission/apply/international",
+    "source": "https://www.amherst.edu/admission/apply/international",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "dartmouth-aid",
+    "name": "Dartmouth College need-based aid (international)",
+    "host": "Dartmouth College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of demonstrated need regardless of citizenship",
+    "deadline": "2027-01-02T23:59:00-05:00",
+    "dlText": "Regular Decision expected early Jan 2027 (confirm on Dartmouth Admissions)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Need-blind for international applicants since 2022.",
+    "url": "https://admissions.dartmouth.edu/news/2022/01/dartmouth-adopts-need-blind-international-admissions",
+    "source": "https://admissions.dartmouth.edu/news/2022/01/dartmouth-adopts-need-blind-international-admissions",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nus-asean-ug",
+    "name": "NUS ASEAN Undergraduate Scholarship",
+    "host": "National University of Singapore",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "opens": "2027-02-01",
+    "deadline": "2027-03-19T23:59:00+08:00",
+    "dlText": "Scholarship window 1 Feb – 19 Mar 2027 (referee forms by 2 Apr)",
+    "tags": [
+      "ASEAN citizens only",
+      "Must accept the MOE Tuition Grant"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BN",
+        "ID",
+        "KH",
+        "LA",
+        "MM",
+        "MY",
+        "PH",
+        "TH",
+        "TL",
+        "VN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "NUS undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Considered automatically through your NUS admission application; shortlisted applicants are then invited to apply. Interviews Mar–Jul. International students who don't take the MOE Tuition Grant (which has a work bond) can't get NUS scholarships.",
+    "url": "https://nus.edu.sg/oam/scholarships/important-dates-and-application",
+    "source": "https://nus.edu.sg/oam/scholarships/important-dates-and-application",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ntu-asean-ug",
+    "name": "NTU ASEAN Undergraduate Scholarship",
+    "host": "Nanyang Technological University",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "opens": "2026-10-15",
+    "deadline": "2027-01-20T23:59:00+08:00",
+    "dlText": "Same window as NTU admission: 15 Oct 2026 – 20 Jan or 19 Mar 2027 depending on your qualification",
+    "varies": true,
+    "tags": [
+      "ASEAN citizens/PRs only",
+      "Essay + teacher appraisal"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BN",
+        "ID",
+        "KH",
+        "LA",
+        "MM",
+        "MY",
+        "PH",
+        "TH",
+        "TL",
+        "VN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "NTU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply for admission first, then submit the scholarship form in the same window. Not open to Singaporeans or non-ASEAN students.",
+    "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship-opportunities/detail/asean-undergraduate-scholarship",
+    "source": "https://www.ntu.edu.sg/admissions/undergraduate/admissions",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kaist-ug",
+    "name": "KAIST Undergraduate Scholarship (International)",
+    "host": "KAIST",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Full tuition + ~US$300/month + national health insurance (per KAIST's 2023 guide; confirm)",
+    "opens": "2026-11-10",
+    "deadline": "2027-01-14T18:00:00+09:00",
+    "dlText": "Regular round 10 Nov 2026 – 14 Jan 2027, 18:00 KST (early round closed 22 Oct)",
+    "tags": [
+      "Choose 'KAIST Scholarship' on the form (can't change later)"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "For international students finishing high school by Aug 2027. Scholarship recipients are announced with admission results.",
+    "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+    "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "postech-ug",
+    "name": "POSTECH International Undergraduate Scholarship",
+    "host": "POSTECH",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition waiver (GPA ≥ 3.0 after year 1) + KRW 500,000/month living allowance + arrival support",
+    "opens": "2027-03-01",
+    "deadline": "2027-04-30T23:59:00+09:00",
+    "dlText": "Fall 2027 applications expected Mar–Apr 2027 (guidelines late Jan 2027)",
+    "expected": true,
+    "tags": [
+      "Automatic with admission"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science and engineering",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Amounts are from the Fall 2026 intake and may change. The Spring 2027 round closed 2 Sep 2026.",
+    "url": "https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do",
+    "source": "https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mastercard-scholars",
+    "name": "Mastercard Foundation Scholars Program",
+    "host": "Mastercard Foundation + partner universities",
+    "country": "Any (partner universities)",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Comprehensive scholarship (check each partner university)",
+    "deadline": "2026-11-19T17:00:00+00:00",
+    "dlText": "Set by each partner university · e.g. Edinburgh 2027/28: 19 Nov 2026, 17:00 UK; Berkeley MDP: 1 Dec 2026",
+    "varies": true,
+    "tags": [
+      "Young Africans",
+      "Age ≤ 29 (UG) / ≤ 35 (master's)",
+      "Financial need"
+    ],
+    "eligibility": {
+      "type": "group",
+      "group": "african-union"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Varies by partner",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For young people from Africa with financial need. Apply to a partner university (most in Africa, some in North America, Europe and the Middle East) and its Scholars Program. Priority to young women, people with disabilities and displaced youth. No PhDs.",
+    "url": "https://mastercardfdn.org/en/articles/becoming-a-mastercard-foundation-scholar/",
+    "source": "https://edinburgh-global.ed.ac.uk/mastercard-foundation-scholars-program/apply-for-a-scholarship/application-timelines",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "sabanci-ug",
+    "name": "Sabancı University International Undergraduate Scholarships",
+    "host": "Sabancı University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Automatic tuition waivers of 25–75% (100% rarely); tuition US$36,500/yr in 2026-27",
+    "opens": "2026-12-15",
+    "deadline": "2027-03-14T23:59:00+03:00",
+    "dlText": "Expected: applications ~15 Dec 2026 – late Aug 2027, early deadline ~mid-Mar 2027 (based on 2026)",
+    "expected": true,
+    "tags": [
+      "Automatic with admission",
+      "Rolling review"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, natural sciences, management, arts & social sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "No separate scholarship application; higher waivers go mostly to early applicants. Scholarships continue for the prep year and four undergraduate years under university rules.",
+    "url": "https://www.sabanciuniv.edu/en/undergraduate-admissions-international-students",
+    "source": "https://www.sabanciuniv.edu/en/undergraduate-admissions-international-students",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "koc-ug",
+    "name": "Koç University International Undergraduate Merit Scholarships",
+    "host": "Koç University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "25%, 50%, 75% or 100% tuition (tuition only)",
+    "dlText": "No separate deadline: every international applicant is considered automatically (check Koç's admission dates)",
+    "rolling": true,
+    "tags": [
+      "Automatic with admission",
+      "Medicine excluded"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Most Koç undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Tuition-only awards (no housing or living costs). For full funding including stipend, apply through Türkiye Bursları as well.",
+    "url": "https://international.ku.edu.tr/undergraduate-programs/tuition-and-scholarships/",
+    "source": "https://international.ku.edu.tr/undergraduate-programs/tuition-and-scholarships/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "bilkent-ug",
+    "name": "Bilkent University Comprehensive Scholarship (International)",
+    "host": "Bilkent University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Full tuition + 18,000 TL/month for 8 months + free double dorm room (2026-27 rates)",
+    "opens": "2027-02-02",
+    "deadline": "2027-07-12T23:59:00+03:00",
+    "dlText": "Expected ~2 Feb – 12 Jul 2027 (2026 window)",
+    "expected": true,
+    "tags": [
+      "Request financial aid on the application",
+      "Not for bachelor's holders"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Bilkent undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Awarded on high-school grades and exam scores. Students who don't use the dorm get an extra 13,000 TL/month (2026-27).",
+    "url": "https://w3.bilkent.edu.tr/en/scholarships/",
+    "source": "https://w3.bilkent.edu.tr/international/how-to-apply/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "metu-ug",
+    "name": "METU International Student Tuition Waivers",
+    "host": "Middle East Technical University (Ankara)",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Tuition discounts or exemptions by academic success (no other scholarships)",
+    "opens": "2027-06-01",
+    "deadline": "2027-07-12T23:59:00+03:00",
+    "dlText": "Expected Jul 2027 (2026 window: 1 Jun – 12 Jul); a September round may follow",
+    "expected": true,
+    "tags": [
+      "Automatic, no separate form"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, sciences, architecture, economics, education",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences",
+      "any"
+    ],
+    "note": "Discounts are reviewed every year and announced by email. METU's Northern Cyprus campus has its own waiver scheme.",
+    "url": "https://iso.metu.edu.tr/en/application-dates",
+    "source": "https://iso.metu.edu.tr/en/application-dates",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mbzuai-ug",
+    "name": "MBZUAI Undergraduate Scholarships",
+    "host": "Mohamed bin Zayed Univ. of AI",
+    "country": "UAE",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Merit- and need-based, up to 100% of tuition and cost of attendance (tuition US$45,000/yr); stipend not guaranteed",
+    "deadline": "2027-02-01T17:00:00+04:00",
+    "dlText": "Regular Decision 1 Feb 2027 (Early Action closed 1 Nov 2026) · decisions 1 Apr",
+    "tags": [
+      "AI-focused BSc"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Artificial intelligence",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "New undergraduate programme in AI. Scholarship level depends on merit and need.",
+    "url": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+    "source": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "romania-mfa",
+    "name": "Romanian Government Scholarships (MFA)",
+    "host": "Romanian Ministry of Foreign Affairs",
+    "country": "Romania",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "opens": "2027-02-16",
+    "deadline": "2027-03-31T23:59:00+03:00",
+    "dlText": "Expected ~mid-Feb – 31 Mar 2027 (2026: 16 Feb – 31 Mar; earlier years mid-March)",
+    "expected": true,
+    "tags": [
+      "Taught in Romanian (BA/MA, with prep year)",
+      "Grade average ≥ 7/10",
+      "No medicine/dentistry/pharmacy"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Most fields except health",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For non-EU citizens (not people of Romanian origin). Apply on the Study in Romania platform; results around mid-July. PhDs may be in English.",
+    "url": "https://studyinromania.gov.ro/mfa_2026-2027",
+    "source": "https://scholarships.studyinromania.gov.ro/scholarship-about",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "russia-quota",
+    "name": "Russian Government Scholarship (quota)",
+    "host": "Government of Russia (Rossotrudnichestvo)",
+    "country": "Russia",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Tuition-free study (check official portal for other support)",
+    "dlText": "Dates set by each country's Russian House / embassy for the 2027/28 quota (e.g. Dhaka ran stages Aug – Dec 2026)",
+    "rolling": true,
+    "tags": [
+      "Up to 6 universities",
+      "Apply on education-in-russia.com"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "RU"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Most fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply only through the official federal portal and your local Russian House. Check your own government's travel and study advice for Russia before applying.",
+    "url": "https://education-in-russia.com/",
+    "source": "https://bangladesh.rs.gov.ru/en/announcement/%F0%9F%8E%93%F0%9F%87%B7%F0%9F%87%BA-%F0%9D%90%8E%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%A7-%F0%9D%90%83%F0%9D%90%A8%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%92%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A8/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "taiwan-icdf",
+    "name": "TaiwanICDF International Higher Education Scholarship",
+    "host": "Taiwan International Cooperation and Development Fund",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full scholarship (check official page for what's covered)",
+    "opens": "2026-12-01",
+    "deadline": "2027-03-15T23:59:00+08:00",
+    "dlText": "1 Dec 2026 – 15 Mar 2027",
+    "tags": [
+      "Partner-country nationals only",
+      "Bachelor's only for diplomatic allies"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only nationals of countries on the TaiwanICDF eligible list (Asia-Pacific, Africa, Latin America, Caribbean, some of Europe); bachelor's only for countries with diplomatic ties to Taiwan"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "English-taught partner programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Check the 2027 guidebook's country list before applying; it changes yearly.",
+    "url": "https://www.icdf.org.tw/wSite/ct?xItem=12505&ctNode=31562&mp=2",
+    "source": "https://www.icdf.org.tw/wSite/ct?xItem=12505&ctNode=31562&mp=2",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "taiwan-moe",
+    "name": "MOE Taiwan Scholarship",
+    "host": "Ministry of Education, Taiwan",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Stipend NT$15,000/month (UG) or NT$20,000/month (master's/PhD)",
+    "opens": "2027-02-01",
+    "deadline": "2027-03-31T23:59:00+08:00",
+    "dlText": "Expected 1 Feb – 31 Mar 2027 (some Taiwan offices accept until 30 Apr)",
+    "expected": true,
+    "tags": [
+      "Apply via the Taiwan office in your country",
+      "Apply to the university separately"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of countries where a Taiwan representative office runs the scheme; check with your local office"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "The Taiwan embassy / representative office in your country",
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Up to 4 years (UG), 2 (master's), 4 (PhD), max 5 years in total. Recipients usually can't hold other Taiwan university scholarships.",
+    "url": "https://depart.moe.edu.tw/ph/cp.aspx?n=6f4dd13e01438599&s=AF9491E7DE1B4470",
+    "source": "https://depart.moe.edu.tw/ph/cp.aspx?n=6f4dd13e01438599&s=AF9491E7DE1B4470",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "taiwan-mofa",
+    "name": "MOFA Taiwan Scholarship",
+    "host": "Ministry of Foreign Affairs, Taiwan",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "opens": "2027-02-01",
+    "deadline": "2027-03-31T23:59:00+08:00",
+    "dlText": "Expected 1 Feb – 31 Mar 2027 (each embassy may set its own date, e.g. 16 Mar in 2026)",
+    "expected": true,
+    "tags": [
+      "Apply via the Taiwan embassy"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Mainly students from countries with diplomatic relations with Taiwan; others only by special consideration"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "The Taiwan embassy in your country",
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Intended for Taiwan's diplomatic allies.",
+    "url": "https://en.mofa.gov.tw/cp.aspx?n=1325",
+    "source": "https://en.mofa.gov.tw/cp.aspx?n=1325",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "slovak-gov",
+    "name": "Slovak Government Scholarships",
+    "host": "Ministry of Education of Slovakia",
+    "country": "Slovakia",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "deadline": "2027-05-25T23:59:00+02:00",
+    "dlText": "Expected ~25 May 2027 (2026/27 round closed 25 May 2026)",
+    "expected": true,
+    "tags": [
+      "Development-cooperation countries"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of Slovakia's development-cooperation partner countries (list in each call)"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Most fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Part of Slovak development cooperation; apply on vladnestipendia.sk.",
+    "url": "https://www.minedu.sk/scholarships-of-the-government-of-the-slovak-republic/",
+    "source": "https://www.minedu.sk/scholarships-of-the-government-of-the-slovak-republic/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "saudi-gov",
+    "name": "Saudi Government Scholarships for International Students",
+    "host": "Saudi public universities / Ministry of Education",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Check official page / university",
+    "dlText": "Set by each university (apply on the university site or the Study in Saudi portal)",
+    "rolling": true,
+    "tags": [
+      "Age 17–25 (UG), ≤30 (master's), ≤35 (PhD)",
+      "No health/medical fields"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields except health and medicine",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Some home governments must approve study in Saudi Arabia. You'll need a police certificate and a medical check, and can't already hold another Saudi scholarship.",
+    "url": "https://www.moe.gov.sa/en/education/ResidentsAndvisitors/pages/publicuniversitiesscholarships.aspx",
+    "source": "https://www.moe.gov.sa/en/education/ResidentsAndvisitors/pages/publicuniversitiesscholarships.aspx",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "commonwealth-shared",
+    "name": "Commonwealth Shared Scholarships",
+    "host": "Commonwealth Scholarship Commission + UK universities",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition, living allowance, flights (check official page)",
+    "opens": "2026-11-10",
+    "deadline": "2026-12-08T16:00:00+00:00",
+    "dlText": "10 Nov – 8 Dec 2026, 16:00 GMT (also apply to the university course)",
+    "tags": [
+      "Can't afford UK study otherwise",
+      "2:1 degree",
+      "No year+ in a high-income country"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BD",
+        "BW",
+        "BZ",
+        "DM",
+        "FJ",
+        "GA",
+        "GD",
+        "GH",
+        "GM",
+        "GY",
+        "IN",
+        "JM",
+        "KE",
+        "KI",
+        "LC",
+        "LK",
+        "LS",
+        "MS",
+        "MU",
+        "MV",
+        "MW",
+        "MY",
+        "MZ",
+        "NA",
+        "NG",
+        "NR",
+        "PG",
+        "PK",
+        "RW",
+        "SB",
+        "SH",
+        "SL",
+        "SZ",
+        "TG",
+        "TO",
+        "TV",
+        "TZ",
+        "UG",
+        "VC",
+        "VU",
+        "WS",
+        "ZA",
+        "ZM"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Development-relevant one-year master's at participating UK universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "About 180 awards for 2027/28. You must be a citizen (or refugee) and permanent resident of an eligible country. Cameroonian citizens can't currently get a UK student visa.",
+    "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
+    "source": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "jds",
+    "name": "JDS Human Resource Development Scholarship (Japan)",
+    "host": "Government of Japan (JICA / JICE)",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Full scholarship for a 2-year master's in Japan (check official page)",
+    "deadline": "2026-11-20T23:59:00+09:00",
+    "dlText": "Set per country · e.g. Timor-Leste closes 20 Nov 2026; Laos tests late Jan 2027",
+    "varies": true,
+    "tags": [
+      "Civil servants of target organisations",
+      "≥ 2 years' work",
+      "Age limits by country"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only nationals of JDS target countries (e.g. Laos, Timor-Leste, Kyrgyz Republic, Bangladesh, Tajikistan, Maldives…); each country has its own rules"
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "Your government's target organisation (employer)",
+    "fields": "Public policy, development fields set per country",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Mostly for young government officials. Each country's JDS operating committee sets slots, age limits and dates.",
+    "url": "https://jds-scholarship.org/country/timorleste/",
+    "source": "https://jds-scholarship.org/country/laos/index.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "adb-jsp",
+    "name": "ADB–Japan Scholarship Program",
+    "host": "Asian Development Bank",
+    "country": "Any (participating universities in Asia-Pacific)",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "dlText": "Apply to a participating university by its deadline (at least 6 months before the intake)",
+    "rolling": true,
+    "tags": [
+      "≥ 2 years' work after bachelor's",
+      "Age ≤ 35",
+      "Return home for 2 years"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of ADB borrowing member countries eligible for Japanese ODA"
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "fields": "Development-related master's at participating institutions",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "You apply to a participating university, which shortlists you for ADB. You must not be living or working outside your home country when you apply.",
+    "url": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
+    "source": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "koica",
+    "name": "KOICA Scholarship Program",
+    "host": "Korea International Cooperation Agency",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "dlText": "2027 calls are posted by each KOICA country office (dates vary)",
+    "rolling": true,
+    "tags": [
+      "Government officials",
+      "Official government nomination",
+      "Preferably under 40"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Officials from KOICA partner countries (chosen from the OECD DAC list; changes yearly)"
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "Your government (via the KOICA office or Korean embassy)",
+    "fields": "Development-related master's courses in Korea",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Contact your country's KOICA office or nominating ministry for the 2027 guideline. Past Korean-government degree scholars are usually excluded.",
+    "url": "https://www.koica.go.kr/koica_en/3441/subview.do",
+    "source": "https://www.koica.go.kr/koica_en/3441/subview.do",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "czech-gov",
+    "name": "Czech Government Scholarships (Developing Countries)",
+    "host": "Czech Ministry of Education / MFA",
+    "country": "Czechia",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "deadline": "2026-09-30T23:59:00+02:00",
+    "dlText": "2027/28 round likely closed ~30 Sep 2026 (window usually end Jul – end Sep)",
+    "expected": true,
+    "nextText": "Next round ~Jul – Sep 2027",
+    "tags": [
+      "Priority countries change yearly"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BA",
+        "BY",
+        "ET",
+        "GE",
+        "GT",
+        "JO",
+        "KH",
+        "LK",
+        "NG",
+        "RW",
+        "UA",
+        "ZM"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Selected programmes at Czech public universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Country list is the 2026/27 one (Bosnia and Herzegovina, Georgia, Ukraine, Belarus, Ethiopia, Nigeria, Rwanda, Zambia, Cambodia, Sri Lanka, Guatemala, Jordan); it changes each round.",
+    "url": "https://www.studyin.cz/upcoming-events/835-czech-government-scholarships-2026-27-applications-now-open/",
+    "source": "https://www.studyin.cz/upcoming-events/835-czech-government-scholarships-2026-27-applications-now-open/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ireland-goi-ies",
+    "name": "Government of Ireland International Education Scholarship",
+    "host": "Higher Education Authority (Ireland)",
+    "country": "Ireland",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "€10,000 stipend + full fee waiver for one year",
+    "deadline": "2027-03-12T17:00:00+00:00",
+    "dlText": "Expected ~mid-Mar 2027 (2026 round closed 12 Mar 2026; time not stated)",
+    "expected": true,
+    "tags": [
+      "60 awards",
+      "Need an offer from an Irish university"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "BY",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RU",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any taught master's, PG diploma or research programme (NFQ 9/10)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For applicants domiciled outside the EU/EEA, Switzerland and the UK. Russian and Belarusian citizens are excluded.",
+    "url": "https://hea.ie/policy/internationalisation/goi-ies/",
+    "source": "https://hea.ie/policy/internationalisation/goi-ies/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "malaysia-mis",
+    "name": "Malaysia International Scholarship (MIS)",
+    "host": "Ministry of Higher Education, Malaysia",
+    "country": "Malaysia",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition + RM 1,500/month",
+    "dlText": "2026/27 round closed; next round dates not announced (watch the MIS portal)",
+    "rolling": true,
+    "tags": [
+      "Age ≤ 40 (master's) / ≤ 45 (PhD)",
+      "Need a university offer",
+      "IELTS 6.5"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "MY"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Postgraduate study in Malaysia",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Needs a 2:1 (or CGPA 3.5) and an offer (conditional is fine) from a Malaysian university.",
+    "url": "https://biasiswa.mohe.gov.my/INTER/index.php",
+    "source": "https://biasiswa.mohe.gov.my/INTER/index.php",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "thailand-tipp",
+    "name": "Thailand International Postgraduate Programme (TIPP)",
+    "host": "Thailand International Cooperation Agency (TICA)",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "deadline": "2027-02-23T23:59:00+07:00",
+    "dlText": "Expected ~Feb 2027 (2026: 23 Feb; 2025: 31 Jan), via the Thai embassy",
+    "expected": true,
+    "tags": [
+      "Government nomination",
+      "Government staff preferred"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only nationals of countries on TICA's eligible list (includes e.g. Bangladesh, Kenya, Nepal, Pakistan, Philippines, Sri Lanka)"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your country's National Focal Point for development cooperation",
+    "fields": "Courses listed by TICA each year",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply online and send hard copies through the Royal Thai embassy.",
+    "url": "https://tica-thaigov.mfa.go.th/en/page/tipp?menu=605b13abb6f1b76ed31778b2",
+    "source": "https://tica-thaigov.mfa.go.th/en/page/tipp?menu=605b13abb6f1b76ed31778b2",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "manaaki-asia",
+    "name": "Manaaki New Zealand Scholarships (Asia)",
+    "host": "New Zealand Ministry of Foreign Affairs and Trade",
+    "country": "New Zealand",
+    "region": "oceania",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "dlText": "Next tertiary round not announced yet (watch nzscholarships.govt.nz)",
+    "rolling": true,
+    "tags": [
+      "Lived in home country for the last 2 years"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "ID",
+        "KH",
+        "LA",
+        "MY",
+        "NP",
+        "PH",
+        "TH",
+        "TL",
+        "VN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Recommended subjects per country",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Asian applicants can only study at postgraduate level. Pacific countries have a separate scheme.",
+    "url": "https://www.nzscholarships.govt.nz/check-eligible-countries/",
+    "source": "https://www.nzscholarships.govt.nz/check-eligible-countries/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "italy-iyt",
+    "name": "Invest Your Talent in Italy",
+    "host": "Italian Ministry of Foreign Affairs (MAECI)",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "€10,800 for 9 months + tuition exemption",
+    "deadline": "2026-05-11T18:00:00+02:00",
+    "dlText": "2026-27 call closed 11 May 2026, 18:00 Italy",
+    "nextText": "Next call expected ~spring 2027",
+    "tags": [
+      "Born on/after 1 Jan 2000 (2026-27)",
+      "English B2",
+      "Internship in an Italian company"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AM",
+        "AR",
+        "AZ",
+        "BD",
+        "BR",
+        "CL",
+        "CN",
+        "CO",
+        "EG",
+        "ET",
+        "GH",
+        "ID",
+        "IN",
+        "IR",
+        "KZ",
+        "MN",
+        "MX",
+        "PE",
+        "PY",
+        "TN",
+        "TR",
+        "UY",
+        "VN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, architecture, design, economics, management",
+    "fieldCats": [
+      "engineering",
+      "any"
+    ],
+    "note": "For citizens and permanent residents of 23 countries only. Pakistan is not on the 2026-27 list.",
+    "url": "https://investyourtalentapplication.esteri.it/SitoIYT/EN/current-call",
+    "source": "https://investyourtalentapplication.esteri.it/SitoIYT/EN/current-call",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "daad-helmut-schmidt",
+    "name": "DAAD Helmut-Schmidt-Programme (Public Policy & Good Governance)",
+    "host": "DAAD",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "DAAD scholarship + tuition exemption (check official page for amounts)",
+    "deadline": "2026-07-31T23:59:00+02:00",
+    "dlText": "2027 intake closed 31 Jul 2026",
+    "nextText": "Next window 1 Jun – 31 Jul 2027 (2028 intake)",
+    "tags": [
+      "DAC-list countries",
+      "Degree within the last 6 years",
+      "≤ 15 months in Germany"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of developing and emerging countries on DAAD's DAC-based country list"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Public policy, governance, development, law, economics",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Apply to one of the participating German master's programmes (e.g. Erfurt, Duisburg-Essen, Bonn-Rhein-Sieg) through DAAD.",
+    "url": "https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/helmut-schmidt-programme/",
+    "source": "https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/helmut-schmidt-programme/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "jj-wbgsp",
+    "name": "Joint Japan/World Bank Graduate Scholarship (JJ/WBGSP)",
+    "host": "World Bank + Government of Japan",
+    "country": "Any (44 participating master's)",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "opens": "2027-01-18",
+    "deadline": "2027-02-26T23:59:00-05:00",
+    "dlText": "Window 1: 18 Jan – 26 Feb 2027 (time: check guidelines)",
+    "tags": [
+      "≥ 3 years' development work",
+      "Currently employed",
+      "Unconditional admission first"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of World Bank member countries on the 2027 eligible list; no dual citizenship with a developed country"
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": null,
+    "fields": "Development-related master's at 44 participating programmes",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Study must be outside your country of citizenship and residence. You need exactly two professional references. People who declined an offer before can't reapply.",
+    "url": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp",
+    "source": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "rotary-peace",
+    "name": "Rotary Peace Fellowship (Master's)",
+    "host": "Rotary International",
+    "country": "Any (Rotary Peace Centers)",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "deadline": "2026-05-15T23:59:00-05:00",
+    "dlText": "2027-28 closed 15 May 2026",
+    "nextText": "2028-29 application opens Feb 2027 (~15 May deadline)",
+    "tags": [
+      "≥ 3 years' peace/development work",
+      "≥ 3 years since last degree",
+      "District endorsement"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": "Your local Rotary district (endorsement)",
+    "fields": "Peace and conflict studies, development",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Rotary members and employees can't apply. Talk to your local Rotary district early, because it must interview and endorse you.",
+    "url": "https://www.rotary.org/get-involved/our-programs/peace-fellowships",
+    "source": "https://www.rotary.org/get-involved/our-programs/peace-fellowships",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "great-scholarships",
+    "name": "GREAT Scholarships (UK)",
+    "host": "British Council + UK universities",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "£10,000 towards tuition",
+    "dlText": "Each participating university sets its own deadline (e.g. Edinburgh's 2026-27 deadline was 1 May 2026)",
+    "rolling": true,
+    "tags": [
+      "Passport + permanent residence in an eligible country",
+      "One-year master's"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BD",
+        "CN",
+        "DE",
+        "EG",
+        "ES",
+        "GH",
+        "GR",
+        "ID",
+        "IN",
+        "IT",
+        "KE",
+        "MX",
+        "MY",
+        "NG",
+        "PK",
+        "TH",
+        "TR",
+        "US",
+        "VN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Varies by university",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Countries are from the 2027 call. Universities pick their scholars by 30 Jun 2027.",
+    "url": "https://study-uk.britishcouncil.org/scholarships-funding/great-scholarships",
+    "source": "https://opportunities-insight.britishcouncil.org/short-articles/opportunities/bids-great-scholarships-2027-now-open",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "unige-excellence",
+    "name": "University of Geneva Excellence Master Fellowships (Science)",
+    "host": "University of Geneva, Faculty of Science",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "CHF 10,000 per year (e.g. Astrophysics)",
+    "deadline": "2027-02-28T23:59:00+01:00",
+    "dlText": "Expected ~28 Feb 2027 (2026: 28 Feb; 30 Apr for Swiss bachelor's holders)",
+    "expected": true,
+    "tags": [],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science master's programmes",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Fellowship rules differ slightly by department; check your programme's page.",
+    "url": "https://www.unige.ch/sciences/astro/en/education/master-in-astrophysics",
+    "source": "https://www.unige.ch/sciences/astro/en/education/master-in-astrophysics",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kdi-school",
+    "name": "KDI School Global Ambassador Scholarship",
+    "host": "KDI School of Public Policy and Management",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Full or partial tuition; some fully funded tracks (check official page)",
+    "dlText": "Fall 2027 deadline not yet announced (spring 2026 documents were due 28 Nov 2025)",
+    "rolling": true,
+    "tags": [
+      "No separate scholarship form"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Public policy, development, management",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Considered automatically when you apply. If you've already had a Korean government degree scholarship, you can't get another one for the same level here.",
+    "url": "https://kdischool.ac.kr/menu.es?mid=a40203000000",
+    "source": "https://kdischool.ac.kr/menu.es?mid=a40203000000",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "paris-saclay-ims",
+    "name": "Université Paris-Saclay International Master's Scholarships",
+    "host": "Université Paris-Saclay",
+    "country": "France",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "€10,000 per year + up to €900 for travel and visa",
+    "dlText": "Each master's programme sets its own admission deadline for scholarship candidates",
+    "rolling": true,
+    "tags": [
+      "Selected by course coordinators",
+      "Can't be combined with Eiffel"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students: check nationality and residence conditions in the regulations"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS, economics and more",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences",
+      "any"
+    ],
+    "note": "Renewed for M2 if you pass M1 and continue at Paris-Saclay.",
+    "url": "https://www.universite-paris-saclay.fr/en/admission/bourses-et-aides-financieres/international-masters-scholarships-program",
+    "source": "https://www.universite-paris-saclay.fr/sites/default/files/2026-01/regulations_of_the_international_masters_scholarship_program_universite_paris-saclay.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "lund-global",
+    "name": "Lund University Global Scholarship",
+    "host": "Lund University",
+    "country": "Sweden",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Tuition fee reduction (check official page)",
+    "opens": "2027-02-01",
+    "deadline": "2027-02-16T23:59:00+01:00",
+    "dlText": "Expected early – mid Feb 2027 (2026 closed 16 Feb); apply to the programme by 15 Jan",
+    "expected": true,
+    "tags": [
+      "Non-EU/EEA fee-payers",
+      "~110 awards"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Lund master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Only after a complete admission application. Results in April.",
+    "url": "https://www.lunduniversity.lu.se/study/admission-degree-studies/scholarships-and-awards/lund-university-global-scholarship",
+    "source": "https://www.lunduniversity.lu.se/study/admission-degree-studies/scholarships-and-awards/lund-university-global-scholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "bowdoin-aid",
+    "name": "Bowdoin College need-based aid (international)",
+    "host": "Bowdoin College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets full calculated need of every admitted student, including international",
+    "deadline": "2027-01-05T23:59:00-05:00",
+    "dlText": "Regular Decision 5 Jan 2027 (aid documents by 1 Feb, after the decision for international students)",
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts and sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Need-blind for international applicants since 2022. No need-based aid for international transfer students.",
+    "url": "https://www.bowdoin.edu/admissions/apply/international-students/index.html",
+    "source": "https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "hku-entrance",
+    "name": "HKU Entrance Scholarships (international undergraduates)",
+    "host": "The University of Hong Kong",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Up to full tuition waiver + accommodation scholarship + living allowance for top students (2026 terms)",
+    "deadline": "2026-11-25T12:00:00+08:00",
+    "dlText": "First-round evaluation: apply by 25 Nov 2026, 12:00 noon HKT (later applications until 25 Aug 2027, rolling)",
+    "tags": [
+      "Automatic with admission"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All HKU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Everyone who applies is considered; results come with the offer. Tuition for non-local students was HK$224,000–249,000 a year in 2026-27.",
+    "url": "https://admissions.hku.hk/apply/international-qualifications",
+    "source": "https://admissions.hku.hk/sites/default/files/2026-09/HKU_General_Information_NJ_2027.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "hk-belt-road",
+    "name": "Belt and Road Scholarship (HKSAR Government, at HKU)",
+    "host": "HKSAR Government Scholarship Fund / HKU",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Full tuition for non-local students",
+    "deadline": "2027-01-31T23:59:00+08:00",
+    "dlText": "31 Jan 2027 (time not stated)",
+    "tags": [
+      "Belt and Road countries only"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only nationals of participating Belt and Road countries; check HKU's page for the list"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "HKU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Government-funded; can be combined with an admission application to HKU.",
+    "url": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+    "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "hku-honping",
+    "name": "Hon Ping Entrance Scholarship for Nigerian Students",
+    "host": "The University of Hong Kong",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Full tuition + HK$305,000 living allowance per year (from 2026-27)",
+    "dlText": "Rolling selection alongside HKU admission",
+    "rolling": true,
+    "tags": [
+      "Nigerian citizens only",
+      "Financial need"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "NG"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "HKU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For Nigerian students with financial need admitted to HKU.",
+    "url": "https://admissions.hku.hk/fees-and-scholarships/scholarships/hon-ping-entrance-scholarship-for-nigerian-students",
+    "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/hon-ping-entrance-scholarship-for-nigerian-students",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "qatar-univ",
+    "name": "Qatar University International Students Scholarship",
+    "host": "Qatar University",
+    "country": "Qatar",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition and textbooks, QR 500/month, shared housing + transport, annual return flight, residence permit",
+    "opens": "2027-03-01",
+    "deadline": "2027-03-25T23:59:00+03:00",
+    "dlText": "Expected ~1 – 25 Mar 2027 (2026: 1 – 25 Mar; 2024: closed 13 Mar)",
+    "expected": true,
+    "tags": [
+      "Keep GPA ≥ 3.0",
+      "No transfer or second-degree students"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "QA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Qatar University undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "You must be admitted and registered for the term you apply for. Decisions usually in late May.",
+    "url": "https://www.qu.edu.qa/en-us/students/admission/scholarships/Pages/scholarships-timeline.aspx",
+    "source": "https://www.qu.edu.qa/en-us/students/admission/scholarships/Pages/scholarships-timeline.aspx",
+    "verifiedOn": "2026-11-04"
   }
 ]

@@ -140,7 +140,7 @@ function tick(): void {
     const s = byId.get(el.dataset.countdown!);
     if (!s) return;
     const i = getStatus(s, t);
-    if (i.kind === "closed") return; // will update on next full render
+    if (i.kind === "closed" || !i.deadline) return; // will update on next full render
     const c = formatCountdown(i.msLeft);
     el.innerHTML = `${esc(c.big)}<small>${esc(c.small)}</small>`;
   });
@@ -196,7 +196,7 @@ function addToCalendar(s: Scholarship): void {
 
 function exportShortlistCalendar(): void {
   const t = now();
-  const items = [...shortlist].map((id) => byId.get(id)).filter((s): s is Scholarship => !!s && getStatus(s, t).kind !== "closed");
+  const items = [...shortlist].map((id) => byId.get(id)).filter((s): s is Scholarship => !!s && !!s.deadline && getStatus(s, t).kind !== "closed");
   if (!items.length) {
     message(shortlist.size ? "All shortlisted programmes are closed for this year." : "Your shortlist is empty. Tap ☆ on a programme first.", true);
     return;

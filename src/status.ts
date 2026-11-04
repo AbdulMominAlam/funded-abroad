@@ -3,7 +3,7 @@ import type { Scholarship } from "./types";
 export const DAY_MS = 86_400_000;
 export const SOON_DAYS = 30;
 
-export type StatusKind = "open" | "soon" | "upcoming" | "expected" | "varies" | "closed";
+export type StatusKind = "open" | "soon" | "upcoming" | "expected" | "varies" | "rolling" | "closed";
 /** Coarse grouping used by the status filter. */
 export type StatusGroup = "open" | "up" | "closed";
 
@@ -11,11 +11,12 @@ export interface StatusInfo {
   kind: StatusKind;
   group: StatusGroup;
   label: string;
-  /** Whole days left (rounded up). Negative or zero once closed. */
+  /** Whole days left (rounded up). Negative or zero once closed. NaN when rolling. */
   days: number;
-  /** Milliseconds until the deadline (negative once passed). */
+  /** Milliseconds until the deadline (negative once passed). Infinity when rolling. */
   msLeft: number;
-  deadline: Date;
+  /** null when the programme has no single deadline (rolling). */
+  deadline: Date | null;
   opens: Date | null;
 }
 
@@ -29,6 +30,16 @@ export function parseOpens(v: string | undefined): Date | null {
 }
 
 export function getStatus(s: Scholarship, now: Date): StatusInfo {
+  const opensR = parseOpens(s.opens);
+  if (s.rolling || !s.deadline) {
+    const upcoming = !!opensR && opensR.getTime() > now.getTime();
+    return {
+      kind: upcoming ? "upcoming" : "rolling",
+      group: upcoming ? "up" : "open",
+      label: upcoming ? "Opens " + fmtShort.format(opensR!) : "No fixed date",
+      days: NaN, msLeft: Infinity, deadline: null, opens: opensR,
+    };
+  }
   const deadline = new Date(s.deadline);
   const msLeft = deadline.getTime() - now.getTime();
   const days = Math.ceil(msLeft / DAY_MS);
@@ -69,7 +80,8 @@ export function formatCountdown(msLeft: number): { big: string; small: string } 
   return { big: h > 0 ? `${h}h ${m}m` : `${m}m`, small: "left" };
 }
 
-/** Sort key: open/upcoming by nearest deadline, closed ones last (most recently closed first). */
+/** Sort key: open/upcoming by nearest deadline, then programmes without a fixed date, closed ones last (most recently closed first). */
 export function deadlineRank(info: StatusInfo): number {
+  if (info.deadline === null) return 1e14;
   return info.kind === "closed" ? 1e15 - info.msLeft : info.msLeft;
 }

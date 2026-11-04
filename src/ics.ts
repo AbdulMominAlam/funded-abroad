@@ -46,6 +46,7 @@ function alarm(trigger: string, text: string): string[] {
 
 /** VEVENT lines for one scholarship: the deadline (with 14- and 3-day reminders) and, if in the future, the opening date. */
 export function eventLines(s: Scholarship, now: Date): string[] {
+  if (!s.deadline) return []; // rolling: nothing to put in a calendar
   const dl = new Date(s.deadline);
   const estimated = s.expected || s.varies;
   const summary = `Deadline: ${s.name}${estimated ? " (estimated)" : ""}`;

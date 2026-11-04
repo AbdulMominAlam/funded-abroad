@@ -56,6 +56,12 @@ describe("validateScholarships", () => {
     expect(errs).toMatch(/\(g\).*nominationBody/);
     expect(validateScholarships([make({ eligibility: { type: "group", group: "asean" } })], CTX)).toEqual([]);
   });
+  it("requires a deadline unless rolling, and forbids one when rolling", () => {
+    const { deadline: _d, ...noDl } = make({ id: "a" });
+    expect(validateScholarships([noDl], CTX).join()).toMatch(/missing deadline/);
+    expect(validateScholarships([{ ...noDl, rolling: true }], CTX)).toEqual([]);
+    expect(validateScholarships([make({ rolling: true })], CTX).join()).toMatch(/rolling programme has no single deadline/);
+  });
   it("rejects opens after deadline", () => {
     expect(validateScholarships([make({ opens: "2027-03-01" })], CTX).join()).toMatch(/opens must be before/);
   });

@@ -17,7 +17,8 @@ export function compareTableHtml(items: readonly Scholarship[], now: Date, check
     ["Deadline", (s) => {
       const i = getStatus(s, now);
       const c = formatCountdown(i.msLeft);
-      return `${esc(s.dlText)}<br><b>${esc(i.label)}</b>${i.kind === "closed" ? (s.nextText ? " · " + esc(s.nextText) : "") : ` · ${esc(c.big)} ${esc(c.small)}`}`;
+      const tail = i.kind === "closed" ? (s.nextText ? " · " + esc(s.nextText) : "") : i.deadline ? ` · ${esc(c.big)} ${esc(c.small)}` : "";
+      return `${esc(s.dlText)}<br><b>${esc(i.label)}</b>${tail}`;
     }],
     ["Opens", (s) => (s.opens ? esc(s.opens.slice(0, 10)) : "—")],
     ["Fields", (s) => esc(s.fields)],

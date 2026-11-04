@@ -110,3 +110,22 @@ describe("parseOpens / deadlineRank", () => {
     expect(sorted).toEqual([a, b, c1, c2]);
   });
 });
+
+describe("rolling (no single deadline)", () => {
+  it("has its own status, sorts after dated programmes and before closed ones", () => {
+    const { deadline: _d, ...base } = make();
+    const i = getStatus({ ...base, rolling: true }, NOW);
+    expect(i.kind).toBe("rolling");
+    expect(i.group).toBe("open");
+    expect(i.label).toBe("No fixed date");
+    expect(i.deadline).toBeNull();
+    const open = getStatus(make({ deadline: "2027-06-01T00:00:00Z" }), NOW);
+    const closed = getStatus(make({ deadline: "2026-01-01T00:00:00Z" }), NOW);
+    expect(deadlineRank(open)).toBeLessThan(deadlineRank(i));
+    expect(deadlineRank(i)).toBeLessThan(deadlineRank(closed));
+  });
+  it("shows 'Opens …' when the opening date is in the future", () => {
+    const { deadline: _d, ...base } = make();
+    expect(getStatus({ ...base, rolling: true, opens: "2027-02-01" }, NOW).kind).toBe("upcoming");
+  });
+});

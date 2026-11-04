@@ -36,3 +36,10 @@ describe("ics", () => {
     expect(ics).toContain("UID:b-deadline-");
   });
 });
+
+describe("ics for rolling programmes", () => {
+  it("adds no events", () => {
+    const { deadline: _d, ...base } = make();
+    expect(buildCalendar([{ ...base, rolling: true }], NOW)).not.toContain("BEGIN:VEVENT");
+  });
+});
