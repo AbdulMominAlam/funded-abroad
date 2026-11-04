@@ -1,0 +1,299 @@
+[
+  {
+    "region": "north-america",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "caltech-surf",
+    "name": "Caltech Summer Undergraduate Research Fellowships (SURF)",
+    "host": "California Institute of Technology",
+    "country": "United States",
+    "amount": "US$8,354 for 10 weeks (2027)",
+    "deadline": "2027-02-22T23:59:00-08:00",
+    "dlText": "22 Feb 2027 (one official page says 1 Mar; time not stated)",
+    "expected": true,
+    "tags": [
+      "Undergraduates",
+      "Must find a Caltech faculty mentor",
+      "Research proposal + 2 letters"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Science, engineering, mathematics and other Caltech disciplines",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Visiting undergraduates from any country can do SURF on the Caltech campus if a Caltech faculty member agrees to mentor them; SURF@JPL is US-only. The 2027 application opens 1 Nov 2026; official pages give 22 Feb or 1 Mar, so check.",
+    "url": "https://sfp.caltech.edu/undergraduate-research/programs/surf",
+    "source": "https://sfp.caltech.edu/undergraduate-research/programs/surf/eligibility_requirements"
+  },
+  {
+    "region": "north-america",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "caltech-ligo-surf",
+    "name": "LIGO SURF (Caltech)",
+    "host": "LIGO Laboratory, California Institute of Technology",
+    "country": "United States",
+    "amount": "check official page (SURF stipend)",
+    "deadline": "2027-01-11T23:59:00-08:00",
+    "dlText": "~11 Jan 2027, estimated from 2026 cycle (time not stated)",
+    "expected": true,
+    "tags": [
+      "Undergraduates",
+      "US and foreign universities",
+      "Gravitational-wave research"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates from all institutions, US and foreign; some funding is restricted to US citizens/PRs, but several international students are taken each year"
+    },
+    "fields": "Physics, astronomy, engineering, computing related to gravitational-wave detection",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "10-week summer research at LIGO/Caltech. The 2026 window ran 7 Nov 2025 to 11 Jan 2026, so expect a similar window for 2027.",
+    "url": "https://labcit.ligo.caltech.edu/LIGO_web/students/SURF/",
+    "source": "https://labcit.ligo.caltech.edu/LIGO_web/students/SURF/applicants-info.shtml"
+  },
+  {
+    "region": "north-america",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cshl-urp",
+    "name": "CSHL Undergraduate Research Program (URP)",
+    "host": "Cold Spring Harbor Laboratory",
+    "country": "United States",
+    "amount": "US$7,000 stipend + room and board",
+    "deadline": "2027-01-15T23:59:00-08:00",
+    "dlText": "15 Jan 2027, 23:59 PST (year not stated on page)",
+    "expected": true,
+    "tags": [
+      "Undergraduates",
+      "No TOEFL/IELTS needed",
+      "Biology and neuroscience"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Page says students of any nationality are eligible, but another section limits foreign students to those at US universities or partner foreign universities; confirm with URP office"
+    },
+    "fields": "Biological sciences, neuroscience, genomics, quantitative biology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Summer research at Cold Spring Harbor with stipend, room and board covered. Recommendation letters must also arrive by the deadline.",
+    "url": "https://www.cshl.edu/education/undergraduate-research-program/",
+    "source": "https://www.cshl.edu/education/undergraduate-research-program/"
+  },
+  {
+    "region": "north-america",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "rockefeller-surf",
+    "name": "Chemers Neustein Summer Undergraduate Research Fellowship (SURF)",
+    "host": "The Rockefeller University",
+    "country": "United States",
+    "amount": "US$6,500 stipend + free housing",
+    "deadline": "2027-02-01T23:59:00-05:00",
+    "dlText": "1 Feb 2027 (time not stated)",
+    "tags": [
+      "Sophomores or juniors",
+      "International students eligible",
+      "2 recommendation letters"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Life and physical sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "10-week lab research in New York City. Free housing for students who cannot commute.",
+    "url": "https://www.rockefeller.edu/education-and-training/surf/",
+    "source": "https://www.rockefeller.edu/education-and-training/surf/"
+  },
+  {
+    "region": "north-america",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "whoi-ssf",
+    "name": "WHOI Summer Student Fellowship",
+    "host": "Woods Hole Oceanographic Institution",
+    "country": "United States",
+    "amount": "US$721/week (2026 rate) for 10–12 weeks + travel up to US$720",
+    "deadline": "2027-02-01T23:59:00-05:00",
+    "dlText": "~1 Feb 2027, estimated from 2026 cycle (time not stated)",
+    "expected": true,
+    "tags": [
+      "Undergraduates",
+      "International students may apply",
+      "J-1 visa support",
+      "14% US tax withheld"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Ocean sciences, marine biology, geology, chemistry, physics, engineering",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Paid summer research at Woods Hole. International fellows have 14% US federal tax deducted from the stipend, travel allowance and housing value.",
+    "url": "https://www.whoi.edu/what-we-do/educate/undergraduate-programs/summer-student-fellowship/",
+    "source": "https://www.whoi.edu/what-we-do/educate/undergraduate-programs/summer-student-fellowship/ssf-program-overview/"
+  },
+  {
+    "region": "north-america",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "vector-research-intern",
+    "name": "Vector Institute AI Research Internships",
+    "host": "Vector Institute for Artificial Intelligence",
+    "country": "Canada",
+    "amount": "Paid (rate check official page)",
+    "rolling": true,
+    "dlText": "Summer term applications usually Nov–Jan (exact date not stated)",
+    "tags": [
+      "Enrolled at a university in Canada or abroad",
+      "STEM + ML experience",
+      "May–Aug summer term"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students at universities in Canada or abroad; excludes residents of countries under Canadian technical-assistance prohibitions or flagged as cyber threats, and people linked to Named Research Organizations"
+    },
+    "fields": "Machine learning and AI research",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Paid research internship with Vector faculty in Toronto, funded through the Pan-Canadian AI Strategy. Interns from abroad usually use the 120-day researcher work-permit exemption.",
+    "url": "https://vectorinstitute.ai/research-talent/students/ai-research-internships/",
+    "source": "https://vectorinstitute.ai/research-talent/students/ai-research-internships/"
+  },
+  {
+    "region": "oceania",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "Your university (ANU collaborating institution)",
+    "verifiedOn": "2026-11-04",
+    "id": "anu-frt-india",
+    "name": "ANU Future Research Talent Awards (India)",
+    "host": "Australian National University",
+    "country": "Australia",
+    "amount": "A$8,500 travel and living award for 11–12 weeks",
+    "rolling": true,
+    "dlText": "Set by your nominating institution",
+    "tags": [
+      "Indian citizens in India",
+      "Nominated by ANU partner institution",
+      "Strong academic record"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "IN"
+      ]
+    },
+    "fields": "Science, medicine, engineering, computing, law, governance and policy",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai",
+      "social"
+    ],
+    "note": "11–12 week research visit to ANU. Partner institutions run their own selection and nominate a few students; past recipients cannot apply again.",
+    "url": "https://science.anu.edu.au/study/scholarships/future-research-talent-awards-india",
+    "source": "https://science.anu.edu.au/study/scholarships/future-research-talent-awards-india"
+  },
+  {
+    "region": "oceania",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "Your university or institution (ANU collaborating institution)",
+    "verifiedOn": "2026-11-04",
+    "id": "anu-frt-indonesia",
+    "name": "ANU Future Research Talent Awards (Indonesia)",
+    "host": "Australian National University",
+    "country": "Australia",
+    "amount": "A$8,500 (airfare, visa, insurance, accommodation, living costs)",
+    "rolling": true,
+    "dlText": "Set by your nominating institution",
+    "tags": [
+      "Indonesian citizens in Indonesia",
+      "Students or research staff",
+      "Nominated by partner institution"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "ID"
+      ]
+    },
+    "fields": "Science, medicine, engineering, computing, policy",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai",
+      "social"
+    ],
+    "note": "10–12 week research visit to ANU for students or academic/government research staff. Eligible institutions change each intake.",
+    "url": "https://science.anu.edu.au/study/scholarships/future-research-talent-awards-indonesia",
+    "source": "https://science.anu.edu.au/study/scholarships/future-research-talent-awards-indonesia"
+  }
+]

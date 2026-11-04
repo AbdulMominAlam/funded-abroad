@@ -1,0 +1,295 @@
+[
+  {
+    "id": "knb-indonesia",
+    "name": "KNB Scholarship (Kemitraan Negara Berkembang / Developing Countries Partnership)",
+    "host": "Ministry of Higher Education, Science and Technology, Indonesia",
+    "country": "Indonesia",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (full scholarship at one of 34 host universities)",
+    "deadline": "2027-03-07T23:59:00+07:00",
+    "dlText": "~7 Mar 2027 (estimated from the 2025 cycle, 17 Feb–7 Mar; time not stated)",
+    "expected": true,
+    "tags": [
+      "Developing-country nationals",
+      "Age ≤35 for master's, ≤40 for PhD",
+      "Documents verified by Indonesian embassy"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of developing countries partnered with Indonesia; check the current guidelines for the country list."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any field offered by the 34 KNB host universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Indonesian government scholarship for bachelor's, master's and doctoral study at 34 host universities. The 2027 call isn't published yet: the 2025 window ran 17 Feb–7 Mar with results on 13 June. Watch the official portal.",
+    "url": "https://knb.kemdiktisaintek.go.id/",
+    "source": "https://knb.kemdiktisaintek.go.id/api/files/bd39ee16-dee9-463d-8766-a0984f228f08.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "vliruos-icp-connect",
+    "name": "VLIR-UOS ICP Connect Scholarships",
+    "host": "VLIR-UOS (Flemish universities)",
+    "country": "Belgium",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition, travel, insurance, board and lodging for the full programme",
+    "deadline": "2027-02-28T23:59:00+01:00",
+    "dlText": "28 Feb 2027 general deadline; some programmes close earlier (e.g. Food Technology 1 Feb 2027); time not stated",
+    "varies": true,
+    "tags": [
+      "25 eligible countries",
+      "Must reside in an eligible country",
+      "Age ≤35 (≤45 advanced master's)",
+      "12 programmes"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BJ",
+        "BF",
+        "BI",
+        "CM",
+        "CD",
+        "ET",
+        "GN",
+        "KE",
+        "MG",
+        "MZ",
+        "NE",
+        "SN",
+        "ZA",
+        "TZ",
+        "UG",
+        "ZW",
+        "MA",
+        "PS",
+        "BO",
+        "CU",
+        "EC",
+        "PE",
+        "ID",
+        "PH",
+        "VN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "12 development-relevant master's programmes (food technology, governance and development, human settlements, sustainable development and more)",
+    "fieldCats": [
+      "social",
+      "sciences",
+      "engineering"
+    ],
+    "note": "Full scholarships for 12 English-taught master's programmes at Flemish universities, starting September 2027. You must live in an eligible country when you apply, though not necessarily your country of nationality. The call page also says Mali was recently added, so check if that matters to you. Apply to each programme by its own deadline.",
+    "url": "https://www.vliruos.be/get-funded/study-scholarships",
+    "source": "https://www.vliruos.be/get-funded/calls/icp-connect-2027-2028",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ares-international-training",
+    "name": "ARES International Training Scholarships (Formations internationales)",
+    "host": "ARES (Académie de recherche et d'enseignement supérieur, Wallonia-Brussels Federation)",
+    "country": "Belgium",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "amount": "check official page",
+    "opens": "2026-08-03",
+    "deadline": "2026-09-18T12:00:00+02:00",
+    "dlText": "18 Sep 2026, 12:00 Belgian time (2027-28 call, closed)",
+    "nextText": "Next call (2028-29) opens ~Aug 2027",
+    "tags": [
+      "Permanent resident of an ARES partner country",
+      "Professional experience required",
+      "1-year specialisation master's"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Permanent residents of one of the 18 ARES partner countries in the Global South; see the eligibility checker on the ARES page."
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "fields": "Development-related specialisation master's, bachelor's and 6-month professional courses at French-speaking Belgian institutions",
+    "fieldCats": [
+      "social",
+      "sciences",
+      "engineering"
+    ],
+    "note": "Scholarships for a one-year specialisation master's, a bachelor's or a six-month professional course in the Wallonia-Brussels Federation. The 2027-28 call closed on 18 Sep 2026 and the next call is expected in August 2027.",
+    "url": "https://www.ares-ac.be/en/scholarships",
+    "source": "https://www.ares-ac.be/en/scholarships",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fundacion-carolina",
+    "name": "Fundación Carolina Postgraduate Scholarships",
+    "host": "Fundación Carolina (Spanish Cooperation)",
+    "country": "Spain",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Varies by programme (see each programme's ficha técnica)",
+    "opens": "2027-01-12",
+    "deadline": "2027-03-02T23:59:00+01:00",
+    "dlText": "~2 Mar 2027 for master's (estimated from 2026 cycle, 12 Jan–2 Mar); doctoral ~9 Apr; time not stated",
+    "expected": true,
+    "tags": [
+      "Latin American applicants",
+      "Apply per programme",
+      "Call opens in January"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Mainly nationals of Latin American (Ibero-American community) countries; requirements vary by programme."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any (228 postgraduate programmes in the 2026-27 call)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "An annual call of about 736 grants, 228 of them postgraduate, for study in Spain. In 2026 the postgraduate window ran 12 Jan–2 Mar and doctoral and short stays closed on 9 Apr. Funding and conditions differ by programme.",
+    "url": "https://gestion.fundacioncarolina.es/",
+    "source": "https://www.fundacioncarolina.es/convocatoria-de-becas-2026-2027/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "jica-sdgs-glp",
+    "name": "JICA SDGs Global Leader Program (Long-term Training)",
+    "host": "Japan International Cooperation Agency (JICA)",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page",
+    "rolling": true,
+    "dlText": "Set by the JICA office in your country (often Sep–Oct the year before)",
+    "tags": [
+      "Government nomination",
+      "Government officials / academics",
+      "Age ≤40 (some countries lower)",
+      "Varies by country JICA office"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of JICA partner countries, usually government officials or university staff; set by each country's JICA office."
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "Your government (via the JICA office)",
+    "fields": "Any field relevant to the SDGs, at partner Japanese universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "A JICA long-term training track for mid-career officials and academics: a master's or PhD in Japan, sometimes after about six months as a research student. Each country's JICA office publishes its own call (in the Philippines, forms are issued Sep–Oct for the following September's start).",
+    "url": "https://www.jica.go.jp/dsp-chair/english/dsp/course/content/sdgs_global_leader.html",
+    "source": "https://www.jica.go.jp/english/overseas/philippine/activities/assistance_schemes/training_and_scholarship_programs/long_term_programs/sdgs_glp/index.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "csc-university-program",
+    "name": "Chinese Government Scholarship – Chinese University Program (Type B)",
+    "host": "China Scholarship Council via designated Chinese universities",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Check official page (coverage depends on the scholarship type; confirm with the university)",
+    "rolling": true,
+    "dlText": "Set by each university (usually early 2027)",
+    "tags": [
+      "Apply directly to the university",
+      "Category B + agency number",
+      "Age ≤35 master's, ≤40 PhD",
+      "HSK 4 or IELTS/TOEFL"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Host Chinese university",
+    "fields": "Any field at designated universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Designated Chinese universities choose graduate scholarship candidates directly. Apply on the CSC portal under Program Category B with the university's agency number. Each university sets its own deadline, usually early in the year, and CSC confirms awardees by about July.",
+    "url": "https://campuschina.org/content/details3_74779.html",
+    "source": "https://campuschina.org/content/details3_74779.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "maeci-italy-gov",
+    "name": "Italian Government Scholarships for Foreign Students (MAECI)",
+    "host": "Italian Ministry of Foreign Affairs (MAECI)",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Monthly allowance (check the call for the current amount)",
+    "deadline": "2027-03-26T14:00:00+01:00",
+    "dlText": "~26 Mar 2027, 14:00 Italian time (estimated from 2026 cycle)",
+    "expected": true,
+    "tags": [
+      "Apply via Study in Italy portal",
+      "Eligible-country list in call",
+      "Study in Italy only"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of the countries in the call's list of eligible countries, plus Italians residing abroad (IRE)."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any (master's, AFAM, PhD, research, Italian language)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "MAECI's annual call, separate from Invest Your Talent in Italy. The 2026-27 call came out in mid-March and closed on 26 Mar 2026 at 14:00. The 2027-28 call is expected on a similar schedule.",
+    "url": "https://studyinitaly.esteri.it/",
+    "source": "https://www.esteri.it/en/servizi-opportunita/opportunita/borse-di-studio/per-cittadini-stranieri/borsestudio_stranieri/",
+    "verifiedOn": "2026-11-04"
+  }
+]

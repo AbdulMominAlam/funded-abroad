@@ -1,0 +1,710 @@
+[
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "eu-blue-book",
+    "name": "Blue Book Traineeship (European Commission)",
+    "host": "European Commission & EU bodies",
+    "country": "Belgium",
+    "region": "europe",
+    "amount": "Monthly grant = 25% of an AD5/1 official's basic salary (amount published each session) + travel allowance",
+    "opens": "2027-02-15T10:00:00+01:00",
+    "deadline": "2027-03-12T10:00:00+01:00",
+    "dlText": "12 Mar 2027, 10:00 Brussels time (October 2027 session)",
+    "nextText": "Next window ~Jul–Sep 2027 for the March 2028 session",
+    "tags": [
+      "Bachelor's degree or VET qualification",
+      "5-month traineeship",
+      "Open to all nationalities",
+      "Two sessions a year"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "EU policy, law, economics, translation, communication, IT and more",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Five-month paid traineeships (March and October starts) in the Commission and other EU bodies. Applications for the October 2027 session run 15 Feb–12 Mar 2027; the March 2027 window closed on 4 Sep 2026.",
+    "url": "https://traineeships.ec.europa.eu/index_en",
+    "source": "https://traineeships.ec.europa.eu/about/calendar-sessions_en"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ep-schuman",
+    "name": "Schuman Traineeship (European Parliament)",
+    "host": "European Parliament",
+    "country": "Belgium",
+    "region": "europe",
+    "amount": "€1,889/month in Brussels & Luxembourg (2025 rate)",
+    "deadline": "2027-05-31T23:59:00+02:00",
+    "dlText": "31 May 2027, 23:59 Brussels time (October 2027 session; estimated from 2026 cycle)",
+    "expected": true,
+    "nextText": "March-session window runs 1–31 October",
+    "tags": [
+      "University degree",
+      "No prior EU traineeship >2 months",
+      "5-month traineeship"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Mainly nationals of EU Member States and candidate countries; check the internal rules for limited places for other nationals."
+    },
+    "fields": "Politics, law, communication, economics, translation and general fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Paid five-month traineeships in Parliament's Secretariat (Brussels, Luxembourg, Strasbourg and liaison offices). Two windows a year: 1–31 May (October start) and 1–31 October (March start); the March 2027 window closed 31 Oct 2026.",
+    "url": "https://www.europarl.europa.eu/at-your-service/en/work-with-us/traineeships",
+    "source": "https://eprs.europarl.europa.eu/home/about-eprs/traineeship.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "council-eu-traineeship",
+    "name": "Traineeships at the General Secretariat of the Council",
+    "host": "Council of the European Union",
+    "country": "Belgium",
+    "region": "europe",
+    "amount": "€1,538.16 net/month + €70/month meal allowance + travel allowance",
+    "opens": "2027-02-08",
+    "deadline": "2027-03-15T12:00:00+01:00",
+    "dlText": "Opens 8 Feb 2027; closes ~mid-March 2027 (estimated from 2026 cycle, time not stated)",
+    "expected": true,
+    "tags": [
+      "Full university degree by closing date",
+      "5-month traineeship",
+      "Disability positive-action strand"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Primarily nationals of EU Member States; check the official FAQ for rules on other nationalities."
+    },
+    "fields": "EU affairs, law, economics, IT, communication and more",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Two five-month paid periods a year in Brussels. The window opening 8 Feb 2027 is for the 1 Sep 2027–31 Jan 2028 traineeship.",
+    "url": "https://www.consilium.europa.eu/en/general-secretariat/careers/traineeships/",
+    "source": "https://www.consilium.europa.eu/en/general-secretariat/careers/traineeships/your-traineeship-tasks-grants-allowances/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ecb-traineeship",
+    "name": "ECB Traineeship Programme",
+    "host": "European Central Bank",
+    "country": "Germany",
+    "region": "europe",
+    "amount": "€1,170/month (€2,120 for advanced PhD trainees) + free ECB residence or €750/month accommodation allowance",
+    "rolling": true,
+    "dlText": "Per vacancy — positions advertised throughout the year",
+    "tags": [
+      "Bachelor's degree",
+      "Fluent English + another EU language",
+      "EU / acceding-country nationals"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ]
+    },
+    "fields": "Economics, finance, statistics, law, IT, HR and more",
+    "fieldCats": [
+      "social",
+      "cs-ai",
+      "any"
+    ],
+    "note": "Paid traineeships of 3–12 months in Frankfurt. Nationals of acceding countries are also eligible; trainees recruited more than 50 km away get housing paid.",
+    "url": "https://www.ecb.europa.eu/careers/what-we-offer/traineeship/html/index.en.html",
+    "source": "https://www.ecb.europa.eu/careers/what-we-offer/traineeship/html/index.en.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "eib-traineeship",
+    "name": "EIB Traineeship Programme",
+    "host": "European Investment Bank",
+    "country": "Luxembourg",
+    "region": "europe",
+    "amount": "€1,500/month (adjusted for offices outside Luxembourg)",
+    "rolling": true,
+    "dlText": "Per campaign / vacancy",
+    "tags": [
+      "Students or recent graduates",
+      "EU or EU candidate-country nationals"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "AL",
+        "BA",
+        "GE",
+        "MD",
+        "ME",
+        "MK",
+        "RS",
+        "TR",
+        "UA"
+      ]
+    },
+    "fields": "Finance, economics, engineering, law, IT, communication",
+    "fieldCats": [
+      "social",
+      "engineering",
+      "cs-ai",
+      "any"
+    ],
+    "note": "Paid traineeships at the EU's bank, mostly in Luxembourg. Open to EU nationals and nationals of EU candidate countries.",
+    "url": "https://www.eib.org/en/about/jobs/work-with-us/internships/index.htm",
+    "source": "https://www.eib.org/en/about/jobs/work-with-us/internships/index.htm"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "eib-mena-acp",
+    "name": "EIB Traineeship Programme for MENA and ACP Countries",
+    "host": "European Investment Bank",
+    "country": "Luxembourg",
+    "region": "europe",
+    "amount": "€1,500/month",
+    "rolling": true,
+    "dlText": "Per campaign — check the EIB careers page",
+    "tags": [
+      "Students or recent graduates",
+      "<2 years' relevant experience",
+      "MENA / ACP nationals only"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of Middle East & North Africa or African, Caribbean and Pacific partner countries; the advert lists eligible countries."
+    },
+    "fields": "Finance, economics, development, engineering",
+    "fieldCats": [
+      "social",
+      "engineering"
+    ],
+    "note": "Regional traineeship stream at the EIB for nationals of MENA and ACP partner countries, with the same monthly allowance as the main programme.",
+    "url": "https://www.eib.org/en/about/careers/categories/traineeships/mena-acp",
+    "source": "https://www.eib.org/en/about/careers/categories/traineeships/mena-acp"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "undp-internship",
+    "name": "UNDP Internship Programme",
+    "host": "United Nations Development Programme",
+    "country": "Any (UNDP offices worldwide)",
+    "region": "global",
+    "amount": "Monthly stipend, flat rate by duty station (unless sponsored)",
+    "rolling": true,
+    "dlText": "Per posting on UNDP jobs",
+    "tags": [
+      "Grad student, final-year bachelor's or recent grad",
+      "Start within 1 year of graduation",
+      "Up to 6 months"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Development, policy, climate, digital, communications and more",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "UNDP pays non-sponsored interns a monthly stipend that depends on the duty station; part-time/remote internships are prorated. A few postings may differ, so read each vacancy.",
+    "url": "https://www.undp.org/careers/types-of-opportunities/internships",
+    "source": "https://www.undp.org/careers/frequently-asked-questions"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unicef-internship",
+    "name": "UNICEF Internship Programme",
+    "host": "UNICEF",
+    "country": "Any (UNICEF offices worldwide)",
+    "region": "global",
+    "amount": "Monthly stipend by duty station + possible travel/visa lump sum",
+    "rolling": true,
+    "dlText": "Per posting on UNICEF jobs",
+    "tags": [
+      "Enrolled student or recent graduate",
+      "6–26 weeks"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Child rights, health, education, communications, data and more",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "UNICEF pays interns a monthly stipend towards living costs (rate varies by country) unless sponsored by their university; a one-off travel/visa contribution may be added when funds allow.",
+    "url": "https://www.unicef.org/careers/internships",
+    "source": "https://www.unicef.org/careers/frequently-asked-questions-internships"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "who-internship",
+    "name": "WHO Internship Programme",
+    "host": "World Health Organization",
+    "country": "Any (Geneva HQ & regional/country offices)",
+    "region": "global",
+    "amount": "Need-based living allowance up to a cap per duty station + insurance (Geneva: lunch vouchers)",
+    "rolling": true,
+    "dlText": "Per vacancy — check WHO careers",
+    "tags": [
+      "Enrolled student or recent graduate",
+      "Allowance based on financial-need declaration"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Public health, medicine, data, policy, communications",
+    "fieldCats": [
+      "sciences",
+      "social",
+      "any"
+    ],
+    "note": "Since January 2020 WHO pays a living allowance to interns who declare they lack other funding; the maximum is listed in each vacancy. Some older regional pages still say internships are unpaid.",
+    "url": "https://www.who.int/careers/internship-programme",
+    "source": "https://www.who.int/careers/internship-programme/frequently-asked-questions"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unhcr-internship",
+    "name": "UNHCR Internship Programme",
+    "host": "UNHCR, the UN Refugee Agency",
+    "country": "Any (UNHCR offices worldwide)",
+    "region": "global",
+    "amount": "Monthly food & transport allowance = 70% of GS-3 step 1 net salary (50% at 'H' duty stations)",
+    "rolling": true,
+    "dlText": "Per posting",
+    "tags": [
+      "Non-sponsored interns paid",
+      "2–6 months (up to 8)",
+      "Remote internships also paid"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Protection, law, humanitarian affairs, communications, operations",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "UNHCR pays non-sponsored interns a monthly allowance tied to the local General Service salary scale; part-time interns get half.",
+    "url": "https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships",
+    "source": "https://www.unhcr.org/get-involved/work-us/careers-unhcr/types-contracts-and-appointments/internships"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "wfp-internship",
+    "name": "WFP Internship Programme",
+    "host": "World Food Programme",
+    "country": "Any (Rome HQ & country offices)",
+    "region": "global",
+    "amount": "Stipend up to US$1,000/month (by duty station)",
+    "rolling": true,
+    "dlText": "Per posting",
+    "tags": [
+      "≥2 years of undergrad completed",
+      "Enrolled or graduated within 6 months",
+      "Fluent English",
+      "2–8 months"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Humanitarian operations, nutrition, logistics, data, communications",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "WFP pays a monthly stipend towards living costs, capped at US$1,000; travel and accommodation are not covered.",
+    "url": "https://www.wfp.org/careers/contract-types",
+    "source": "https://www.wfp.org/careers/contract-types"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "fao-internship",
+    "name": "FAO Internship Programme",
+    "host": "Food and Agriculture Organization of the UN",
+    "country": "Any (Rome HQ & decentralized offices)",
+    "region": "global",
+    "amount": "Stipend up to US$700/month (by duty station)",
+    "rolling": true,
+    "dlText": "Per call — check FAO careers",
+    "tags": [
+      "Age 21–30 at start",
+      "Enrolled or recent graduate",
+      "National of an FAO Member"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Agriculture, food systems, environment, economics, statistics",
+    "fieldCats": [
+      "sciences",
+      "social",
+      "any"
+    ],
+    "note": "Individual (non-sponsored) interns receive up to US$700/month. Candidates must be nationals of FAO Members (almost every country) and start before turning 31.",
+    "url": "https://www.fao.org/employment/young-talent-programme/internship-programme/en/",
+    "source": "https://www.fao.org/employment/young-talent-programme/internship-programme/faqs/en"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ilo-internship",
+    "name": "ILO Internship Programme",
+    "host": "International Labour Organization",
+    "country": "Any (Geneva HQ & field offices)",
+    "region": "global",
+    "amount": "Monthly stipend based on local cost of living (unless externally funded)",
+    "rolling": true,
+    "dlText": "Per posting on jobs.ilo.org",
+    "tags": [
+      "Final-year master's or graduated within 12 months",
+      "Own travel & insurance"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Labour, social policy, economics, law, statistics",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "ILO interns receive a cost-of-living-based monthly stipend (e.g. US$550 in Bangkok in 2023 postings); travel and insurance are the intern's responsibility.",
+    "url": "https://www.ilo.org/resource/internship-opportunities",
+    "source": "https://www.ilo.org/resource/internship-opportunities"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "wbg-pioneers",
+    "name": "WBG Pioneers (World Bank Group Internship)",
+    "host": "World Bank Group",
+    "country": "United States (Washington DC) + country offices",
+    "region": "global",
+    "amount": "Paid hourly (fee-based tracks); rate per posting",
+    "rolling": true,
+    "dlText": "Cycle-based; Fall/Winter 2026 closed 12 Aug 2026 — watch for the next cycle",
+    "tags": [
+      "Enrolled at university when applying",
+      "WBG member-country citizen",
+      "Max 3 applications"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of World Bank Group member countries (nearly all countries)."
+    },
+    "fields": "Economics, finance, development, data, engineering and more",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "The World Bank Group's internship scheme replaced the Bank Internship Program; fee-based tracks are paid hourly, while the no-fee track requires university credit or a stipend letter.",
+    "url": "https://www.worldbank.org/ext/en/careers/talent-programs/wbg-pioneers",
+    "source": "https://www.worldbank.org/en/events/2026/07/14/wbg-pioneers-fall-winter-cycle-2026-information-session-2"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "imf-fip",
+    "name": "IMF Fund Internship Program (FIP)",
+    "host": "International Monetary Fund",
+    "country": "United States",
+    "region": "north-america",
+    "amount": "Paid internship — salary per job ad (check official page)",
+    "rolling": true,
+    "dlText": "Per job ad on IMF Workday",
+    "tags": [
+      "PhD (economics) or Master's (specialized)",
+      "Under 32 at entry",
+      "Must return to studies"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Macroeconomics, finance, public finance, specialized fields",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Paid 10–13 week summer internship at IMF headquarters in Washington DC for PhD students in economics and master's students in specialized fields.",
+    "url": "https://www.imf.org/en/about/recruitment/working-at-the-imf/fund-internship-program",
+    "source": "https://www.imf.org/en/about/recruitment/working-at-the-imf/fund-internship-program"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "oecd-internship",
+    "name": "OECD Internship Programme",
+    "host": "OECD",
+    "country": "France",
+    "region": "europe",
+    "amount": "€1,000 per full month (living-expenses contribution, Paris)",
+    "rolling": true,
+    "dlText": "Per posting / rolling",
+    "tags": [
+      "Enrolled full-time for the whole internship",
+      "OECD-member nationals prioritised",
+      "1–6 months"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Primarily nationals of OECD member countries; non-member nationals accepted for specific programmes and projects."
+    },
+    "fields": "Economics, statistics, policy, environment, education, data",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Interns in Paris get a €1,000/month contribution to living expenses. You must remain enrolled in a degree programme for the full internship.",
+    "url": "https://www.oecd.org/en/about/careers/internships.html",
+    "source": "https://www.oecd.org/en/about/careers/internships/frequently-asked-questions.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "wto-internship",
+    "name": "WTO Internship Programme",
+    "host": "World Trade Organization",
+    "country": "Switzerland",
+    "region": "europe",
+    "amount": "CHF 60/day (incl. weekends) — ~CHF 1,800/month",
+    "rolling": true,
+    "dlText": "Per posting on WTO e-recruitment",
+    "tags": [
+      "Postgraduate students / recent grads",
+      "WTO member or accession-country nationals",
+      "Up to 6 months",
+      "Own travel to Geneva"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of WTO Members and of countries/customs territories in accession negotiations."
+    },
+    "fields": "Trade, economics, law, international relations",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Paid internships in Geneva with a daily allowance of CHF 60; travel to Geneva is not covered.",
+    "url": "https://www.wto.org/english/thewto_e/vacan_e/iypp_e.htm",
+    "source": "https://www.wto.org/english/thewto_e/vacan_e/iypp_e.htm"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "iaea-internship",
+    "name": "IAEA Internship Programme",
+    "host": "International Atomic Energy Agency",
+    "country": "Austria",
+    "region": "europe",
+    "amount": "€1,450/month (full-time)",
+    "rolling": true,
+    "dlText": "Per posting",
+    "tags": [
+      "Age 20+",
+      "≥3 years of university completed",
+      "Within 1 year of degree",
+      "3–12 months"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Generally nationals of IAEA Member States — confirm in the vacancy notice."
+    },
+    "fields": "Nuclear science, engineering, IT, law, administration",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai",
+      "any"
+    ],
+    "note": "Full-time interns in Vienna receive a €1,450 monthly stipend. Applications more than a year after finishing your degree are not considered.",
+    "url": "https://www.iaea.org/about/employment/internships",
+    "source": "https://www.iaea.org/about/employment/internships/conditions"
+  }
+]

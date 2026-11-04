@@ -1,0 +1,406 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "trudeau-phd",
+    "name": "Pierre Elliott Trudeau Foundation Doctoral Scholarship",
+    "host": "Pierre Elliott Trudeau Foundation",
+    "country": "Canada",
+    "region": "north-america",
+    "full": true,
+    "funding": "full",
+    "amount": "Up to CA$50,000/year for 3 years (min. CA$25,000) + CA$20,000/year research & travel allowance",
+    "deadline": "2026-11-06T16:00:00-05:00",
+    "dlText": "2027 competition: 6 Nov 2026, 16:00 ET (eligibility confirmation was due 2 Oct 2026)",
+    "nextText": "Next competition expected to open ~Sep 2027",
+    "tags": [
+      "Must be enrolled in a PhD at a Canadian university",
+      "1st or 2nd year of PhD",
+      "Humanities & social sciences themes"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Humanities and social sciences aligned with the Foundation's four themes (e.g. human rights and dignity, Canada and the world)",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "International students qualify only if already enrolled in a doctoral programme at a Canadian university; applicants had to request eligibility confirmation by 2 Oct 2026.",
+    "url": "https://www.trudeaufoundation.ca/scholarship/",
+    "source": "https://www.trudeaufoundation.ca/2027-applications/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your Ontario university",
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "ontario-trillium",
+    "name": "Ontario Trillium Scholarship (OTS)",
+    "host": "Government of Ontario with Ontario universities",
+    "country": "Canada",
+    "region": "north-america",
+    "full": false,
+    "funding": "partial",
+    "amount": "CA$40,000/year, renewable up to 4 years",
+    "rolling": true,
+    "dlText": "Universities nominate admitted international PhD applicants; internal dates vary by university",
+    "tags": [
+      "International PhD students only",
+      "University selects you",
+      "Direct-entry PhD at an Ontario university"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "About 75 awards a year across Ontario; there is no separate application—apply to a PhD programme at a participating Ontario university and ask the department about OTS nomination.",
+    "url": "https://www.ontario.ca/page/study-ontario-international-students",
+    "source": "https://www.ontario.ca/page/study-ontario-international-students"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "nvidia-grad-fellowship",
+    "name": "NVIDIA Graduate Fellowship",
+    "host": "NVIDIA Research",
+    "country": "Any (check eligible universities)",
+    "region": "global",
+    "full": false,
+    "funding": "partial",
+    "amount": "Up to US$60,000 + mandatory paid summer internship at NVIDIA",
+    "opens": "2026-09-30",
+    "deadline": "2026-10-30T23:59:00-07:00",
+    "dlText": "2027–28 cycle: 30 Oct 2026 (closed; time not stated)",
+    "nextText": "Next cycle expected ~Sep–Oct 2027",
+    "tags": [
+      "Completed 1st year of PhD",
+      "Internship in summer before award year",
+      "Letters due with application"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Computing research relevant to NVIDIA (AI, graphics, systems, robotics, etc.)",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Applicants must have finished their first PhD year; winners are notified ~15 Jan and must do an in-person internship at an NVIDIA research office.",
+    "url": "https://research.nvidia.com/graduate-fellowships",
+    "source": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your university (invited institutions only)",
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "apple-scholars-aiml",
+    "name": "Apple Scholars in AI/ML PhD Fellowship",
+    "host": "Apple",
+    "country": "Any (invited universities)",
+    "region": "global",
+    "full": true,
+    "funding": "full",
+    "amount": "PhD funding support + Apple internship opportunity + mentorship (check official page)",
+    "rolling": true,
+    "dlText": "Nomination by invited universities; internal deadlines set by each university",
+    "tags": [
+      "University nominates you",
+      "Invited institutions only",
+      "Current PhD students"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Machine learning and AI",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "You cannot apply directly: only universities invited by Apple can nominate students; ask your department whether it participates.",
+    "url": "https://machinelearning.apple.com/updates/apple-scholars-aiml-2026",
+    "source": "https://machinelearning.apple.com/updates/apple-scholars-aiml-2025"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "msr-fellowship",
+    "name": "Microsoft Research Fellowship",
+    "host": "Microsoft Research",
+    "country": "Any (eligible regions)",
+    "region": "global",
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page",
+    "deadline": "2025-11-04T23:59:00-08:00",
+    "dlText": "2026 call closed Nov 2025 (exact date not on an official page); next call not announced",
+    "nextText": "Next call not yet announced — watch the official page",
+    "tags": [
+      "Proposal-based, by research challenge",
+      "Faculty approval required",
+      "University in eligible region"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Computing research challenges set by Microsoft Research",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Replaced the old nomination-based PhD Fellowship: PhD students (with faculty approval) or faculty submit proposals to specific research challenges; your university must be in an eligible region.",
+    "url": "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/",
+    "source": "https://www.microsoft.com/en-us/research/academic-program/2026-microsoft-research-fellowship/faq/",
+    "expected": true
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "bloomberg-ds-phd",
+    "name": "Bloomberg Data Science Ph.D. Fellowship",
+    "host": "Bloomberg",
+    "country": "Any (check official page)",
+    "region": "global",
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition + US$45,000 stipend + 14-week paid summer internship each year",
+    "deadline": "2026-09-25T23:59:00-12:00",
+    "dlText": "2027–28 cycle: 25 Sep 2026, 23:59 AoE (closed)",
+    "nextText": "Next cycle expected ~Sep 2027",
+    "tags": [
+      "Full-time PhD student in 2027–28",
+      "PhD expected by end of 2030",
+      "Paid Bloomberg internship"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Machine learning, NLP, information retrieval and related data science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Recipients notified by 18 Dec 2026; fellows intern at Bloomberg each summer they hold the award.",
+    "url": "https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/",
+    "source": "https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "two-sigma-phd",
+    "name": "Two Sigma PhD Fellowship",
+    "host": "Two Sigma",
+    "country": "United States",
+    "region": "north-america",
+    "full": false,
+    "funding": "partial",
+    "amount": "Up to US$75,000/year for 2 years (paid to university) + one-time US$10,000 to the student",
+    "deadline": "2026-09-25T12:00:00-04:00",
+    "dlText": "25 Sep 2026, 12:00 ET (closed)",
+    "nextText": "Next cycle expected ~Sep 2027",
+    "tags": [
+      "Full-time PhD at a US university",
+      "At least 3rd year, 2+ years left",
+      "No other industry fellowship"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Applied mathematics, AI/computer science, physics, statistics",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Open regardless of nationality but only to students at accredited US universities; students apply directly with a 750-word research proposal.",
+    "url": "https://www.twosigma.com/graduate-students/phd-fellowships/",
+    "source": "https://www.twosigma.com/graduate-students/phd-fellowships/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "jane-street-grf",
+    "name": "Jane Street Graduate Research Fellowship",
+    "host": "Jane Street",
+    "country": "Any (US, Canada, UK, Europe, Australia, NZ, Singapore universities)",
+    "region": "global",
+    "full": true,
+    "funding": "full",
+    "amount": "One year of tuition & fees + US$50,000 stipend",
+    "deadline": "2026-11-13T23:59:00-12:00",
+    "dlText": "13 Nov 2026, AoE (letters due 1 Dec 2026)",
+    "nextText": "Next cycle expected ~autumn 2027",
+    "tags": [
+      "International students encouraged",
+      "1+ year left in PhD (or starting Fall 2027)",
+      "EECS, maths, physics or statistics"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Electrical engineering & computer science, mathematics, physics, statistics",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Students committed to starting a PhD in Fall 2027 can also apply; the university must be in one of the listed regions.",
+    "url": "https://www.janestreet.com/join-jane-street/programs-and-events/graduate-research-fellowship/",
+    "source": "https://www.janestreet.com/join-jane-street/programs-and-events/graduate-research-fellowship/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "hertz",
+    "name": "Hertz Fellowship",
+    "host": "Fannie and John Hertz Foundation",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "funding": "full",
+    "amount": "Up to 5 years: stipend + full tuition equivalent",
+    "deadline": "2026-10-30T23:59:00-07:00",
+    "dlText": "2027 fellowship: 30 Oct 2026, 23:59 PT (closed)",
+    "nextText": "2028 application expected to open ~Aug 2027",
+    "tags": [
+      "US citizens / permanent residents only",
+      "1st or 2nd-year PhD in fall 2027",
+      "Full-time at a US institution"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "US"
+      ]
+    },
+    "fields": "Applied physical and biological sciences, mathematics, engineering",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Permanent residents also qualify (proof required); not open to international students. Finalists named Feb 2027, awards announced May 2027.",
+    "url": "https://www.hertzfoundation.org/hertz-fellowship/apply/",
+    "source": "https://www.hertzfoundation.org/hertz-fellowship/who-can-apply/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "PhD"
+    ],
+    "id": "nsf-grfp",
+    "name": "NSF Graduate Research Fellowship Program (GRFP)",
+    "host": "U.S. National Science Foundation",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "funding": "full",
+    "amount": "~US$159,000 per fellowship (3 years of support usable over 5 years)",
+    "deadline": "2026-10-20T20:00:00-04:00",
+    "varies": true,
+    "dlText": "19–23 Oct 2026, 20:00 ET depending on field (CS/engineering-adjacent: 20 Oct) — closed",
+    "nextText": "Next solicitation expected ~Aug 2027",
+    "tags": [
+      "US citizens, nationals, permanent residents",
+      "First year of first graduate degree",
+      "Field sets deadline"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "US"
+      ]
+    },
+    "fields": "STEM and STEM education, psychology and social sciences",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai",
+      "social"
+    ],
+    "note": "Not open to international students; permanent residents qualify. Solicitation NSF 26-526 offers ~1,500 awards.",
+    "url": "https://www.nsf.gov/funding/initiatives/grfp",
+    "source": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "id": "aauw-international",
+    "name": "AAUW International Fellowships",
+    "host": "American Association of University Women (AAUW)",
+    "country": "United States",
+    "region": "north-america",
+    "full": false,
+    "funding": "partial",
+    "amount": "US$25,000 (doctorate) / US$20,000 (master's), paid in two instalments",
+    "opens": "2026-08-17",
+    "deadline": "2026-09-17T17:00:00-04:00",
+    "dlText": "2027–28: 17 Sep 2026, 17:00 ET (closed)",
+    "nextText": "Next window expected ~Aug–Sep 2027",
+    "tags": [
+      "Women only",
+      "STEM degree",
+      "Programme must start by 15 Sep 2027"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Women who are not US citizens or permanent residents (check the official eligibility page)"
+    },
+    "fields": "STEM fields",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "For women who are not US citizens or permanent residents studying full-time in the US; awards announced ~Mar 2027.",
+    "url": "https://www.aauw.org/resources/programs/fellowships-grants/aauw-international-fellowships/",
+    "source": "https://www.aauw.org/resources/programs/fellowships-grants/aauw-international-fellowships/"
+  }
+]
