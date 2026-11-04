@@ -34,5 +34,502 @@
     "url": "https://www.davisuwcscholars.org/",
     "source": "https://www.davisuwcscholars.org/partners",
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "tata-cornell",
+    "name": "Tata Scholarship at Cornell University",
+    "host": "Cornell University (Tata Education and Development Trust endowment)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Need-based: covers demonstrated financial need for up to 8 semesters (10 for B.Arch)",
+    "deadline": "2027-01-02T23:59:00-05:00",
+    "dlText": "2 Jan 2027 (Regular Decision application + international aid application; time not stated). Early Decision was 1 Nov 2026",
+    "tags": [
+      "Secondary school in India",
+      "Need-based",
+      "Apply for aid via CSS Profile",
+      "~20 scholars at a time"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students who attended secondary school in India, are admitted to Cornell as first-year undergraduates and qualify for need-based aid"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "IN": "You are considered automatically if you apply for admission and for financial aid (CSS Profile)."
+    },
+    "fields": "Any undergraduate field at Cornell",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Endowed by the Tata trust for undergraduates from India; no separate application, you are considered when you apply to Cornell and for need-based aid. Funding lasts the whole degree while need continues.",
+    "url": "https://admissions.cornell.edu/apply/international-students/tata-scholarship",
+    "source": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "thai-kings-scholarship",
+    "name": "King's Scholarship (Thailand) – ทุนเล่าเรียนหลวง",
+    "host": "Office of the Civil Service Commission (OCSC), Thailand",
+    "country": "Any (top universities abroad)",
+    "region": "global",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Full scholarship for study abroad (check official page); 9 awards in fiscal 2026 (BE 2569)",
+    "deadline": "2026-10-28T23:59:00+07:00",
+    "expected": true,
+    "dlText": "~28 Oct 2026 (estimated from the BE 2568 cycle, which ran 3–28 Oct 2024); likely already closed",
+    "nextText": "Next round expected ~Oct 2027",
+    "tags": [
+      "Thai nationals",
+      "In Mathayom 6 (final school year)",
+      "GPA ≥ 3.50, age ≤ 20",
+      "Return to work in Thailand"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "TH"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any field set by the scholarship units",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Thailand's royal scholarship for top final-year secondary students to study abroad; selected by OCSC exam. The only obligation is to work in Thailand for as long as the scholarship lasted.",
+    "url": "https://www.ocsc.go.th/scholarships/highschool-scholarships/",
+    "source": "https://www.ocsc.go.th/scholarships/highschool-scholarships/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "zawadi-africa",
+    "name": "Zawadi Africa Educational Fund",
+    "host": "Zawadi Africa Education Fund",
+    "country": "Any (partner universities in the US and Africa)",
+    "region": "global",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page (combined with partner-university scholarships)",
+    "deadline": "2027-03-16T23:59:00+03:00",
+    "expected": true,
+    "dlText": "~16 Mar 2027 for Kenya (estimated from 2026 cycle; time not stated). Applications usually open Feb, close Mar–Apr",
+    "tags": [
+      "Women only",
+      "Finished secondary school ≤ 2 years ago",
+      "Top grades (KCSE A/A-)",
+      "Financial need"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "KE",
+        "UG",
+        "GH"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "KE": "2026 call was Kenya-only (deadline 16 Mar 2026).",
+      "UG": "Listed as a programme country; check whether a call is open.",
+      "GH": "Listed as a programme country; check whether a call is open."
+    },
+    "fields": "Any undergraduate field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Helps academically gifted girls from disadvantaged backgrounds win scholarships at universities in the US and Africa, with mentoring and leadership training. Admission is decided by the partner universities, so an award is not guaranteed.",
+    "url": "https://www.zawadiafrica.org/apply-now/",
+    "source": "https://www.zawadiafrica.org/apply-now/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "jardine-oxbridge",
+    "name": "Jardine Foundation Scholarships (Oxford & Cambridge)",
+    "host": "Jardine Foundation",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full tuition fees + living expenses",
+    "dlText": "Postgraduate awards: apply through the partner college after provisional acceptance (dates set by each college)",
+    "tags": [
+      "Southeast/East Asian nationals",
+      "Partner college at Oxford or Cambridge",
+      "Leadership + financial need"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "KH",
+        "CN",
+        "HK",
+        "ID",
+        "MY",
+        "MM",
+        "PH",
+        "SG",
+        "TW",
+        "TH",
+        "VN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any course at a partner college",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Full-ride scholarships at eight partner colleges (Downing, Magdalene, Peterhouse, Trinity at Cambridge; Exeter, Oriel, Queen's, Trinity at Oxford). Postgraduate awards (up to 4 years) are applied for through the partner colleges after provisional acceptance. Undergraduate awards are not listed here: an earlier official check found no new undergraduate awards from the 2027 intake, so confirm on the Jardine Foundation page.",
+    "url": "https://www.jardines.com/en/community/foundation_applications.html",
+    "source": "https://www.jardines.com/en/community/foundation_applications.html",
+    "verifiedOn": "2026-11-04",
+    "rolling": true
+  },
+  {
+    "id": "rise-global",
+    "name": "Rise (Rise Global Winners)",
+    "host": "Rise (Schmidt Futures & Rhodes Trust)",
+    "country": "Any",
+    "region": "global",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Need-based 4-year post-secondary scholarship (tuition + living stipend where not already covered by aid)",
+    "deadline": "2027-01-17T23:59:00+00:00",
+    "expected": true,
+    "dlText": "~17 Jan 2027 (estimated from the 2023–24 cycle, which ran late Sep to 17 Jan; time zone not stated)",
+    "tags": [
+      "Age 15–17",
+      "Any nationality",
+      "Service project",
+      "Parental consent"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Global competition for 15–17-year-olds; 100 winners a year get lifelong support, including a need-based scholarship for university wherever they study. Check the site for the current cycle dates, which have shifted between years.",
+    "url": "https://www.risefortheworld.org/",
+    "source": "https://www.risefortheworld.org/global-winners/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "khazanah-global",
+    "name": "Khazanah Global Scholarship Programme",
+    "host": "Yayasan Khazanah",
+    "country": "Any (approved universities abroad)",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Full academic fees, living expenses, accommodation + development support (check official page)",
+    "deadline": "2027-06-30T23:59:00+08:00",
+    "expected": true,
+    "dlText": "June 2027 for university entry (estimated: 'June, yearly'); A-Level route Mar–Apr; exact day not stated",
+    "tags": [
+      "Malaysian citizens",
+      "3As STPM/A-Level, IB 38, or CGPA 3.50",
+      "Approved universities only"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "MY"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any field at approved universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Yayasan Khazanah's flagship scholarship for Malaysians at top universities abroad, with leadership training and job attachments in Malaysia. One official page says overseas undergraduate entry is via its A-Level route, so check which entry is open.",
+    "url": "https://www.yayasankhazanah.com.my/scholarship-programmes/khazanah-global-scholarship-programme",
+    "source": "https://www.yayasankhazanah.com.my/scholarship-programmes/khazanah-global-scholarship-programme",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "inlaks-scholarship",
+    "name": "Inlaks Scholarship",
+    "host": "Inlaks Shivdasani Foundation",
+    "country": "Any (top universities abroad)",
+    "region": "global",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, living allowance, health insurance + one-way travel; up to US$100,000",
+    "deadline": "2027-03-31T12:00:00+05:30",
+    "expected": true,
+    "dlText": "~31 Mar 2027, 12:00 IST (estimated from 2026 cycle)",
+    "tags": [
+      "Indian passport + living in India",
+      "Born on/after 1 Jan 1996",
+      "Admission offer needed",
+      "No business/CS/engineering"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "IN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Social sciences, humanities, law, fine arts, architecture, maths, sciences, environment (not business, CS, engineering, film, fashion, hospitality)",
+    "fieldCats": [
+      "social",
+      "sciences"
+    ],
+    "note": "For young Indian graduates with an offer from a top overseas institution. Minimum 65% (humanities/social sciences) or 70% (sciences); not for those who already started a postgraduate degree abroad.",
+    "url": "https://inlaksfoundation.org/opportunities/scholarship/",
+    "source": "https://inlaksfoundation.org/opportunities/scholarship/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "said-foundation",
+    "name": "Saïd Foundation Scholarships",
+    "host": "Saïd Foundation",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition, full living costs, arrival allowance, visa + health surcharge, one economy return flight",
+    "deadline": "2026-10-30T17:00:00+00:00",
+    "dlText": "30 Oct 2026, 17:00 UK time (2027/28 round, closed)",
+    "nextText": "Next round (2028/29) expected to open ~Sep 2027",
+    "tags": [
+      "Syrian, Jordanian, Lebanese or Palestinian",
+      "UK 2:1 or equivalent",
+      "IELTS 6.0 each band",
+      "Work/voluntary experience"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "SY",
+        "JO",
+        "LB",
+        "PS"
+      ]
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "countryNotes": {
+      "SY": "Syrians living outside Syria because of the situation there can still be considered."
+    },
+    "fields": "Any one-year master's at a UK partner university",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fully funded one-year master's at the Foundation's UK partner universities for people from Syria, Jordan, Lebanon and Palestine who plan to return to the region. No undergraduate or PhD funding.",
+    "url": "https://saidfoundation.org/apply/",
+    "source": "https://saidfoundation.org/our-timetable/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "beit-trust",
+    "name": "Beit Trust Postgraduate Scholarships",
+    "host": "The Beit Trust",
+    "country": "United Kingdom / South Africa",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Full tuition, living allowance, economy flights, visa/IHS costs + arrival, laptop and departure allowances",
+    "opens": "2026-12-01",
+    "deadline": "2027-02-12T23:59:00+00:00",
+    "dlText": "12 Feb 2027 (time not stated)",
+    "tags": [
+      "Zambia, Zimbabwe or Malawi nationals",
+      "Live in and return home",
+      "~20 awards a year"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "ZM",
+        "ZW",
+        "MW"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Postgraduate (mainly master's) at UK or South African partner universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fully funded master's at UK partner universities (Sept 2027 start) or South African partners (Jan 2028 start). UK applicants need an offer first; South Africa applicants may list intended universities.",
+    "url": "https://beittrust.org.uk/beit-trust-scholarships/",
+    "source": "https://beittrust.org.uk/beit-trust-scholarships/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mandela-rhodes",
+    "name": "Mandela Rhodes Scholarship",
+    "host": "The Mandela Rhodes Foundation",
+    "country": "South Africa",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition, accommodation, meals, medical aid, personal allowance, study/research allowances + economy travel for international scholars",
+    "opens": "2027-03-09",
+    "deadline": "2027-04-14T23:59:00+02:00",
+    "dlText": "14 Apr 2027, 23:59 SAST (for the 2028 intake)",
+    "tags": [
+      "African citizens",
+      "Age 19–29",
+      "First degree completed",
+      "Leadership programme"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "DZ",
+        "AO",
+        "BJ",
+        "BW",
+        "BF",
+        "BI",
+        "CV",
+        "CM",
+        "CF",
+        "TD",
+        "KM",
+        "CG",
+        "CD",
+        "CI",
+        "DJ",
+        "EG",
+        "GQ",
+        "ER",
+        "SZ",
+        "ET",
+        "GA",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "KE",
+        "LS",
+        "LR",
+        "LY",
+        "MG",
+        "MW",
+        "ML",
+        "MR",
+        "MU",
+        "MA",
+        "MZ",
+        "NA",
+        "NE",
+        "NG",
+        "RW",
+        "ST",
+        "SN",
+        "SC",
+        "SL",
+        "SO",
+        "ZA",
+        "SS",
+        "SD",
+        "TZ",
+        "TG",
+        "TN",
+        "UG",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any field (Honours or Master's; no MBA, block or online courses)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Funds a one-year Honours or up to two-year Master's at a South African university plus a compulsory leadership programme. Final-year students can apply if they graduate by 1 Jan 2028.",
+    "url": "https://www.mandelarhodes.org/scholarship/apply/",
+    "source": "https://www.mandelarhodes.org/scholarship/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "swire-st-antonys",
+    "name": "Swire Scholarships at St Antony's College, Oxford",
+    "host": "St Antony's College, University of Oxford (Swire Charitable Trust)",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Course fees + living-costs grant, up to 3 years",
+    "deadline": "2027-03-02T17:00:00+00:00",
+    "expected": true,
+    "dlText": "~2 Mar 2027, 17:00 UK time (estimated from 2026 cycle); apply to Oxford by the January course deadline",
+    "tags": [
+      "Hong Kong permanent residents",
+      "Educated mostly in Hong Kong",
+      "Return home after study",
+      "2 awards"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "HK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "St Antony's graduate courses (not part-time, MBA, MFE or MPP)",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Two fully funded graduate scholarships for Hong Kong residents at St Antony's College. You need a place by about 10 April and must intend to return to Hong Kong.",
+    "url": "https://www.sant.ox.ac.uk/study-here/fees-and-scholarships/swire-scholarships/",
+    "source": "https://www.sant.ox.ac.uk/study-here/fees-and-scholarships/swire-scholarships/",
+    "verifiedOn": "2026-11-04"
   }
 ]
