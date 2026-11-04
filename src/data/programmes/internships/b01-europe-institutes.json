@@ -1,0 +1,156 @@
+[
+  {
+    "id": "cern-technical-student",
+    "name": "CERN Technical Studentship",
+    "host": "CERN",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "CHF 3,486/month net, 4–12 months",
+    "deadline": "2026-10-16T23:59:00+02:00",
+    "dlText": "2027-1 intake closed 16 Oct 2026, 23:59 Geneva time",
+    "nextText": "Check careers.cern for the next intake",
+    "tags": [
+      "Member/Associate Member State nationals",
+      "Enrolled BSc/MSc students",
+      "4–12 month placement"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of CERN Member or Associate Member States only. Applications from Pakistani, Lithuanian, Latvian, Cypriot, Croatian and Turkish nationals are currently not considered (associate-member ceiling reached)."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Pakistani nationals are currently not considered (associate-member ceiling reached).",
+      "TR": "Turkish nationals are currently not considered (associate-member ceiling reached)."
+    },
+    "fields": "Engineering, applied physics, IT, maths, robotics, materials science",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Paid technical or engineering placement at CERN for students still enrolled at university, usually needed for a degree internship or thesis. The 2027-1 round (start ~1 Apr 2027) closed on 16 Oct 2026.",
+    "url": "https://careers.cern/programmes/technical-studentship/",
+    "source": "https://careers.cern/jobs/tsc-co/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "cern-doctoral-student",
+    "name": "CERN Doctoral Student Programme",
+    "host": "CERN",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Monthly allowance (check official page)",
+    "deadline": "2026-10-16T23:59:00+02:00",
+    "dlText": "2027-1 round closed 16 Oct 2026, 23:59 Geneva time",
+    "nextText": "Check careers.cern for the next round",
+    "tags": [
+      "Member/Associate Member State nationals",
+      "Enrolled PhD students",
+      "Thesis research at CERN"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of CERN Member or Associate Member States only. Applications from Pakistani, Lithuanian, Latvian, Cypriot, Croatian and Turkish nationals are currently not considered (associate-member ceiling reached)."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Physics, engineering, computing",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Lets PhD students do their thesis research at CERN with a CERN allowance. The 2027-1 round closed on 16 Oct 2026; check the careers site for the allowance and the next round.",
+    "url": "https://careers.cern/jobs/tsc-doct/",
+    "source": "https://careers.cern/jobs/tsc-doct/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "cern-openlab-summer",
+    "name": "CERN openlab Summer Student Programme",
+    "host": "CERN openlab",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "check official page",
+    "opens": "2026-11-02",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "~end Jan 2027 (estimated from past cycles; time not stated)",
+    "expected": true,
+    "tags": [
+      "BSc/MSc students in computing",
+      "9 weeks, starts 21 or 28 Jun 2027"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Check nationality rules on the openlab FAQ and the careers.cern posting."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer science, IT, data science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "A 9-week summer programme on computing projects at CERN, with applications on the CERN careers portal opening in early November 2026. The deadline is estimated from past cycles (late January). Replies come by early April 2027.",
+    "url": "https://openlab.cern/cern-openlab-summer-student-programme/",
+    "source": "https://openlab.cern/cern-openlab-summer-student-programme/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "esa-egt",
+    "name": "ESA Graduate Trainee Programme (formerly YGT)",
+    "host": "European Space Agency",
+    "country": "Netherlands / Germany / Italy / Spain (ESA sites)",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid 1-year traineeship (check official page)",
+    "deadline": "2027-03-01T23:59:00+01:00",
+    "dlText": "~early Mar 2027 (estimated from 2026 cycle: vacancies published each February, open ~1 month; time not stated)",
+    "expected": true,
+    "tags": [
+      "Master's graduates within 1 year of graduation",
+      "ESA Member/Associate/Cooperating State citizens",
+      "No age limit"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of ESA Member States, Associate Members or Cooperating States only; the full list is in the footer of each vacancy."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, science, IT, business services",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "An entry-level traineeship for recent Master's graduates or final-year Master's students, who must graduate before starting. Vacancies are published every February.",
+    "url": "https://www.esa.int/About_Us/Careers_at_ESA/Graduates_ESA_Graduate_Trainees",
+    "source": "https://www.esa.int/About_Us/Careers_at_ESA/ESA_Graduate_Traineeship_frequently_asked_questions",
+    "verifiedOn": "2026-11-04"
+  }
+]

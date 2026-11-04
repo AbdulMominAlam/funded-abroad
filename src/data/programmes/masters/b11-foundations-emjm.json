@@ -1,0 +1,109 @@
+[
+  {
+    "id": "emjm-deai",
+    "name": "Erasmus Mundus Joint Master in Data Engineering and Artificial Intelligence (DEAI)",
+    "host": "Université libre de Bruxelles (ULB) and consortium partners",
+    "country": "Belgium (multi-country)",
+    "amount": "Erasmus Mundus scholarship (the standard EM rate is €1,400/month + costs; confirm the amount on the programme page)",
+    "deadline": "2027-01-11T12:00:00+00:00",
+    "dlText": "11 Jan 2027, 12:00 GMT (scholarship track; strict). References due 18 Jan 2027",
+    "tags": [
+      "Erasmus Mundus",
+      "Study in 2+ countries",
+      "Strict noon deadline"
+    ],
+    "fields": "Data engineering, big data, artificial intelligence",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Successor to the BDMA programme, for the 2027–2029 cohort. Self-funded/partial-grant track opens 1 Mar 2027 (non-EU deadline 15 May 2027).",
+    "url": "https://deai.ulb.be/home/students/admission/",
+    "source": "https://deai.ulb.be/home/students/admission/",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "emjm-cde",
+    "name": "Copernicus Master in Digital Earth (CDE)",
+    "host": "Paris Lodron University Salzburg and consortium partners",
+    "country": "Austria (multi-country)",
+    "amount": "Erasmus+ EMJM scholarship (€1,400/month) for top-ranked applicants; fee waivers for others",
+    "opens": "2026-11-02",
+    "deadline": "2027-01-22T23:59:00+01:00",
+    "dlText": "22 Jan 2027, 23:59 CET",
+    "tags": [
+      "Erasmus Mundus",
+      "Edition 4: Oct 2027–Sep 2029",
+      "Highly competitive"
+    ],
+    "fields": "Earth observation, geoinformatics, geospatial data science",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "The Nov–Jan call is open worldwide for EMJM scholarships or self-funded places. European candidates have a separate non-scholarship window March–May.",
+    "url": "https://master-cde.eu/admission/procedures-deadlines/calls/",
+    "source": "https://master-cde.eu/admission/procedures-deadlines/calls/",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "emjm-imlex",
+    "name": "Imaging and Light in Extended Reality (IMLEX)",
+    "host": "University of Eastern Finland and consortium partners",
+    "country": "Finland (multi-country)",
+    "amount": "Erasmus Mundus scholarship (the standard EM rate is €1,400/month + costs; confirm the amount on the programme page)",
+    "opens": "2026-12-02",
+    "deadline": "2027-01-13T23:59:00+02:00",
+    "dlText": "13 Jan 2027, 23:59 (UTC+2), via Studyinfo",
+    "tags": [
+      "Erasmus Mundus",
+      "Max 25 students in 2027",
+      "Apply via Studyinfo"
+    ],
+    "fields": "Photonics, computational imaging, computer vision, XR",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "The 2027 round offers full Erasmus Mundus scholarships to all nationalities. Needs a bachelor's in IT, CS, physics, maths, electrical engineering, photonics or a related field.",
+    "url": "https://www.imlex.org/how-to-apply/",
+    "source": "https://www.imlex.org/how-to-apply/",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04"
+  }
+]
