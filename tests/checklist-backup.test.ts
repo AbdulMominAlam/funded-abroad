@@ -9,7 +9,11 @@ describe("checklist", () => {
     expect(ids).toEqual(["transcripts", "cv", "sop", "refs", "english", "passport"]);
   });
   it("derives programme-specific items", () => {
-    const ids = defaultChecklist(make({ hec: true, tags: ["GRE required", "2 years work experience", "No IELTS needed"], checklist: ["Research proposal draft"] })).map((i) => i.id);
+    const s = make({ countryNotes: { PK: "Apply on the HEC portal as well." }, nominationBody: "Your national agency", residencyRequired: true, tags: ["GRE required", "2 years work experience", "No IELTS needed"], checklist: ["Research proposal draft"] });
+    const ids = defaultChecklist(s, "PK").map((i) => i.id);
+    expect(defaultChecklist(s, "IN").map((i) => i.id)).not.toContain("hec-portal");
+    expect(ids).toContain("nomination");
+    expect(ids).toContain("residence-proof");
     expect(ids).toContain("hec-portal");
     expect(ids).toContain("gre");
     expect(ids).toContain("work-proof");

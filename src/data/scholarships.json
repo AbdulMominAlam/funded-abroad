@@ -18,9 +18,12 @@
       "Apply via eApply in the Nov window",
       "Master's thesis pre-proposal"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Engineering, CS, natural sciences",
     "fieldCats": [
       "cs-ai",
@@ -51,9 +54,12 @@
     "tags": [
       "IELTS 7.0 / TOEFL 100"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "China studies, interdisciplinary",
     "fieldCats": [
       "social"
@@ -79,9 +85,12 @@
     "tags": [
       "Two applications: HKPFS + university"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All fields",
     "fieldCats": [
       "any"
@@ -108,9 +117,15 @@
     "tags": [
       "Tick Gates box in Cambridge application"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "GB"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All fields",
     "fieldCats": [
       "any"
@@ -142,9 +157,12 @@
       "AED 200 fee",
       "Screening exam"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "ML, CV, NLP, robotics, statistics",
     "fieldCats": [
       "cs-ai"
@@ -170,9 +188,12 @@
     "tags": [
       "Tick fellowship box"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Engineering, CS, sciences",
     "fieldCats": [
       "cs-ai",
@@ -202,9 +223,12 @@
     "tags": [
       "Automatic, no separate form"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All fields",
     "fieldCats": [
       "any"
@@ -231,10 +255,15 @@
     "tags": [
       "University nominates you"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "FR"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
-    "nomination": true,
+    "nominationBody": "A French higher-education institution (you can't apply directly)",
     "fields": "Engineering, sciences, economics, law, politics",
     "fieldCats": [
       "engineering",
@@ -264,9 +293,12 @@
       "Automatic with admission",
       "No supervisor needed"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "CS, ECE, statistics, sciences",
     "fieldCats": [
       "cs-ai",
@@ -296,9 +328,12 @@
       "Study in 2–3 countries",
       "Up to 3 programmes"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All fields",
     "fieldCats": [
       "any"
@@ -311,10 +346,11 @@
   {
     "id": "hungary",
     "name": "Stipendium Hungaricum",
-    "host": "Government of Hungary (via HEC)",
+    "host": "Government of Hungary (Tempus Public Foundation)",
     "country": "Hungary",
     "region": "europe",
     "levels": [
+      "Undergraduate",
       "Master's",
       "PhD"
     ],
@@ -324,17 +360,24 @@
     "dlText": "Expected ~15 Jan 2027, 14:00 CET · 2027/28 call not yet published (last round 14 Nov 2025 – 15 Jan 2026)",
     "expected": true,
     "tags": [
-      "HEC nomination",
+      "Sending-partner nomination",
       "Two portals"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of Stipendium Hungaricum sending-partner countries (about 90, incl. Pakistan); check the partners list"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": true,
+    "nominationBody": "Your country's sending partner (e.g. HEC in Pakistan)",
+    "countryNotes": {
+      "PK": "Pakistan's sending partner is HEC: apply on both the Stipendium Hungaricum portal and the HEC portal. HEC shortlists with a written test."
+    },
     "fields": "Most fields",
     "fieldCats": [
       "any"
     ],
-    "note": "Pakistan applicants apply on both the Stipendium Hungaricum portal and the HEC portal; HEC shortlists with a written test.",
+    "note": "Apply on the Stipendium Hungaricum portal and through your country's sending partner, which nominates candidates. Each sending partner sets its own extra rules and dates.",
     "url": "https://stipendiumhungaricum.hu/",
     "source": "https://stipendiumhungaricum.hu/apply/",
     "verifiedOn": "2026-11-04"
@@ -358,27 +401,34 @@
       "Must still be enrolled at start",
       "6+ semesters of study"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Pakistan is a CERN Associate Member State, so use the Member/Associate track."
+    },
     "fields": "Physics, CS, engineering, maths",
     "fieldCats": [
       "sciences",
       "cs-ai",
       "engineering"
     ],
-    "note": "Pakistan is a CERN Associate Member State. For BSc/MSc students (not PhD) in physics, engineering, CS or maths. Applications usually open in November and close at the end of January.",
+    "note": "For BSc/MSc students (not PhD) in physics, engineering, CS or maths. Applications usually open in November and close at the end of January. Students from non-member states can apply too (funded via the CERN & Society Foundation).",
     "url": "https://careers.cern/",
     "source": "https://careers.cern/programmes/summer-studentship/",
     "verifiedOn": "2026-11-04"
   },
   {
     "id": "turkiye",
-    "name": "Türkiye Bursları",
+    "name": "Türkiye Bursları (Türkiye Scholarships)",
     "host": "Government of Türkiye (YTB)",
     "country": "Türkiye",
     "region": "turkiye",
     "levels": [
+      "Undergraduate",
       "Master's",
       "PhD"
     ],
@@ -391,14 +441,20 @@
       "No IELTS needed",
       "One application per cycle"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TR"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All fields",
     "fieldCats": [
       "any"
     ],
-    "note": "Not open to students already enrolled in Türkiye at the level they apply for. A bachelor's student here can still apply for a master's.",
+    "note": "One application per cycle covers undergraduate, master's and PhD. Not open to students already enrolled in Türkiye at the level they apply for (a bachelor's student there can still apply for a master's). Turkish citizens are not eligible.",
     "url": "https://turkiyeburslari.gov.tr/",
     "source": "https://turkiyeburslari.gov.tr/",
     "verifiedOn": "2026-11-04"
@@ -421,14 +477,21 @@
     "tags": [
       "Embassy or university track"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of countries in the GKS graduate guideline (about 150; Pakistan included); check the list in the official guideline"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Embassy track: watch the Korean Embassy in Islamabad for the graduate call."
+    },
     "fields": "All fields",
     "fieldCats": [
       "any"
     ],
-    "note": "Last cycle was announced in February with embassy applications in Feb–Mar. Watch the Korean embassy in Islamabad and studyinkorea.go.kr for the 2027 graduate call.",
+    "note": "Last cycle was announced in February with embassy applications in Feb–Mar. Apply through a Korean embassy (embassy track) or directly to a designated university (university track). Korean citizens are not eligible.",
     "url": "https://www.studyinkorea.go.kr/",
     "source": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
     "verifiedOn": "2026-11-04"
@@ -453,22 +516,42 @@
       "Guarantor needed for loan",
       "Some work experience preferred"
     ],
-    "abroad": false,
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AF",
+        "AU",
+        "BD",
+        "EG",
+        "IN",
+        "KE",
+        "KG",
+        "MG",
+        "MZ",
+        "NZ",
+        "PK",
+        "SY",
+        "TJ",
+        "TZ",
+        "UG"
+      ]
+    },
+    "residencyRequired": true,
     "work": true,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All fields",
     "fieldCats": [
       "any"
     ],
-    "note": "For students with no other way to finance study. You apply through the AKF office in your country of residence.",
+    "note": "For students with no other way to finance study. Apply through the Aga Khan Foundation office in your country; only these 15 countries take part: Afghanistan, Australia, Bangladesh, Egypt, India, Kenya, Kyrgyz Republic, Madagascar, Mozambique, New Zealand, Pakistan, Syria, Tajikistan, Tanzania, Uganda.",
     "url": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",
     "source": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",
     "verifiedOn": "2026-11-04"
   },
   {
     "id": "fulbright",
-    "name": "Fulbright Student Program (USEFP)",
-    "host": "US Government via USEFP",
+    "name": "Fulbright Foreign Student Program",
+    "host": "US Government (Fulbright commissions / US embassies)",
     "country": "United States",
     "region": "north-america",
     "levels": [
@@ -478,20 +561,29 @@
     "full": true,
     "amount": "Tuition, living stipend, airfare, J-1 visa",
     "deadline": "2027-04-01T23:59:00+05:00",
-    "dlText": "Next round expected early 2027, closing ~1 Apr 2027 (2028 entry)",
-    "expected": true,
+    "dlText": "Set by each country's Fulbright commission (often Feb–Oct) · Pakistan (USEFP): next round expected early 2027, closing ~1 Apr 2027",
+    "varies": true,
     "tags": [
-      "Must reside in Pakistan",
-      "GRE required"
+      "Apply in your home country",
+      "GRE often required"
     ],
-    "abroad": false,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "US"
+      ]
+    },
+    "residencyRequired": true,
     "work": false,
-    "hec": false,
+    "nominationBody": "The Fulbright commission or US embassy in your country",
+    "countryNotes": {
+      "PK": "Run by USEFP. The 2027-entry round closed 1 Apr 2026; the next one is expected early 2027 with a ~1 Apr deadline. GRE required; master's needs 16 years of education, PhD 18. About 100 awards per cycle."
+    },
     "fields": "All except clinical medicine",
     "fieldCats": [
       "any"
     ],
-    "note": "The 2027-entry round closed 1 Apr 2026. Master's needs 16 years of education, PhD 18. Awards depend on USEFP's budget each year. Clinical medicine excluded.",
+    "note": "Runs in about 160 countries, each with its own dates, quotas and rules; most require you to live in your home country when you apply. Clinical medicine is generally excluded.",
     "url": "https://www.usefp.org/",
     "source": "https://usefp.org/scholarships/fulbright-degree.cfm",
     "verifiedOn": "2026-11-04"
@@ -513,9 +605,12 @@
       "¥5,000 fee",
       "Pick a research unit"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Physics, CS, neuroscience, biology, maths",
     "fieldCats": [
       "sciences",
@@ -531,7 +626,7 @@
   },
   {
     "id": "aus",
-    "name": "Australia Awards Pakistan",
+    "name": "Australia Awards Scholarships",
     "host": "Australian Government (DFAT)",
     "country": "Australia",
     "region": "oceania",
@@ -541,23 +636,89 @@
     "full": true,
     "amount": "Tuition, living allowance, return airfare, insurance",
     "deadline": "2027-04-30T14:00:00+10:00",
-    "dlText": "Expected ~Feb – 30 Apr 2027 (2028 intake) · last round 1 Feb – 30 Apr 2026, 14:00 AEST",
-    "expected": true,
+    "dlText": "Set per country · most Asia-Pacific countries: ~Feb – 30 Apr 2027 (2028 intake, expected); Africa differs",
+    "varies": true,
     "tags": [
-      "Must reside in Pakistan",
+      "Must reside in your home country",
       "Work experience required",
-      "Age ≤ 45"
+      "Development priority fields"
     ],
-    "abroad": false,
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AO",
+        "BD",
+        "BN",
+        "BT",
+        "BW",
+        "CD",
+        "CI",
+        "DZ",
+        "EG",
+        "ET",
+        "FJ",
+        "FM",
+        "GH",
+        "GM",
+        "GN",
+        "ID",
+        "KE",
+        "KH",
+        "KI",
+        "LA",
+        "LK",
+        "MA",
+        "MG",
+        "MH",
+        "MM",
+        "MN",
+        "MU",
+        "MV",
+        "MW",
+        "MZ",
+        "NA",
+        "NC",
+        "NG",
+        "NP",
+        "NR",
+        "NU",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PW",
+        "RW",
+        "SB",
+        "SG",
+        "SL",
+        "TH",
+        "TL",
+        "TO",
+        "TV",
+        "TZ",
+        "UG",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "ZA",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "residencyRequired": true,
     "work": true,
-    "hec": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Pakistan round: last one ran 1 Feb – 30 Apr 2026, 14:00 AEST; expected to reopen early 2027 (2028 intake). Master's only, age ≤ 45, and you need a Development Impact and Linkages Plan showing how your degree helps Pakistan. Details: australiaawardspakistan.org"
+    },
     "fields": "Development priority areas",
     "fieldCats": [
       "social",
       "any"
     ],
-    "note": "Master's only. Needs a Development Impact and Linkages Plan showing how your degree helps Pakistan.",
-    "url": "https://australiaawardspakistan.org/",
+    "note": "Only for citizens of participating countries in Asia, the Pacific and Africa (list taken from DFAT's 2027-intake tables; it changes yearly). Each country sets its own priority fields, age and work rules.",
+    "url": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships-opening-and-closing-dates",
     "source": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships-opening-and-closing-dates",
     "verifiedOn": "2026-11-04",
     "checklist": [
@@ -566,7 +727,7 @@
   },
   {
     "id": "mext",
-    "name": "MEXT Research Scholarship (Embassy)",
+    "name": "MEXT Research Scholarship (Embassy Recommendation)",
     "host": "Government of Japan",
     "country": "Japan",
     "region": "east-asia",
@@ -578,20 +739,29 @@
     "amount": "Tuition, ¥143,000–145,000/month, airfare",
     "opens": "2027-04-20",
     "deadline": "2027-05-26T23:59:00+05:00",
-    "dlText": "2027 round closed 26 May 2026 · next expected Apr–May 2027",
-    "expected": true,
+    "dlText": "Set by each Japanese embassy (most screen Apr–Jun) · Pakistan: expected Apr–May 2027",
+    "varies": true,
     "tags": [
       "Written exam in Pakistan",
       "No IELTS needed"
     ],
-    "abroad": false,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "JP"
+      ]
+    },
+    "residencyRequired": true,
     "work": false,
-    "hec": false,
+    "nominationBody": "The Japanese embassy or consulate in your country",
+    "countryNotes": {
+      "PK": "Via the Embassy in Islamabad or the Consulate in Karachi; written exams are held in Pakistan. The 2027 round closed 26 May 2026."
+    },
     "fields": "All fields",
     "fieldCats": [
       "any"
     ],
-    "note": "Via the Embassy in Islamabad or Consulate in Karachi; exams are held in Pakistan. The university-recommendation (general) route is being discontinued from AY2027 at several universities (e.g. University of Tokyo), so plan on the embassy route.",
+    "note": "Apply through the Japanese embassy in your country, which runs the exams and interviews. The university-recommendation (general) route is being discontinued from AY2027 at several universities, so plan on the embassy route.",
     "url": "https://www.pk.emb-japan.go.jp/itpr_en/MEXT_Research_Scholarship.html",
     "source": "https://www.i.u-tokyo.ac.jp/edu/inter_ex/oir/scholarship_e.shtml",
     "verifiedOn": "2026-11-04"
@@ -616,9 +786,13 @@
       "2 years work experience",
       "Up to 3 courses"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "check",
+      "note": "Applicants from developing countries (DAC list); each course states which nationalities qualify"
+    },
+    "residencyRequired": false,
     "work": true,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Development-related fields",
     "fieldCats": [
       "social",
@@ -647,9 +821,13 @@
       "2 years work experience",
       "Return home for 2 years"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of Chevening-eligible countries (about 160, incl. Pakistan); check the country list"
+    },
+    "residencyRequired": false,
     "work": true,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All fields",
     "fieldCats": [
       "any"
@@ -665,8 +843,8 @@
   },
   {
     "id": "cw",
-    "name": "Commonwealth Master's & PhD",
-    "host": "Commonwealth Scholarship Commission via HEC",
+    "name": "Commonwealth Master's & PhD Scholarships",
+    "host": "Commonwealth Scholarship Commission in the UK",
     "country": "United Kingdom",
     "region": "uk",
     "levels": [
@@ -676,23 +854,29 @@
     "full": true,
     "amount": "Tuition, £1,712/month (£2,000 London), airfare",
     "deadline": "2026-10-20T16:00:00+05:00",
-    "dlText": "Closed 20 Oct 2026, 16:00 PKT (HEC portal; CSC portal 16:00 BST)",
+    "dlText": "Closed 20 Oct 2026 (CSC portal 16:00 BST; national agencies set earlier dates)",
     "nextText": "Next round ~Sep–Oct 2027",
     "tags": [
-      "HEC nomination",
-      "Must reside in Pakistan",
-      "HAT score ≥ 60",
-      "Dual nationals ineligible"
+      "National nomination",
+      "Must reside in an eligible country",
+      "Dual nationals may be ineligible"
     ],
-    "abroad": false,
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of the 43 low- and middle-income Commonwealth countries on the CSC list for 2027/28 (incl. Pakistan, India, Bangladesh, Nigeria, Kenya, Ghana, South Africa)"
+    },
+    "residencyRequired": true,
     "work": false,
-    "hec": true,
+    "nominationBody": "Your national nominating agency (e.g. HEC in Pakistan) or an approved university/NGO nominator",
+    "countryNotes": {
+      "PK": "Nominated by HEC: the HEC portal closed 20 Oct 2026, 16:00 PKT. HAT score ≥ 60 and a first division in a 16-year bachelor's are required; HEC had 26 master's and 30 PhD nominations. Dual nationals ineligible."
+    },
     "fields": "CSC development themes",
     "fieldCats": [
       "social",
       "any"
     ],
-    "note": "Taught master's only (no MBA). HEC had 26 master's nominations this cycle; results July 2027. First division in a 16-year bachelor's required.",
+    "note": "Taught master's (no MBA) and PhD in the UK. You apply on the CSC portal and through a national nominating agency, which has its own (earlier) deadline and rules.",
     "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
     "source": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/CW-Scholarship.aspx",
     "verifiedOn": "2026-11-04",
@@ -718,9 +902,12 @@
     "tags": [
       "Bachelor's in 2020 or later"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All Stanford graduate degrees",
     "fieldCats": [
       "any"
@@ -735,7 +922,7 @@
   },
   {
     "id": "rhodes",
-    "name": "Rhodes Scholarship (Pakistan)",
+    "name": "Rhodes Scholarship",
     "host": "Rhodes Trust",
     "country": "United Kingdom",
     "region": "uk",
@@ -746,31 +933,39 @@
     "full": true,
     "amount": "Oxford fees, stipend, flights, visa",
     "deadline": "2026-08-05T23:59:00+05:00",
-    "dlText": "Closed 5 Aug 2026",
-    "nextText": "Next round 1 Jun – early Aug 2027",
+    "dlText": "Set by constituency (country/region); most close Jul – Oct · Pakistan closed 5 Aug 2026",
+    "varies": true,
+    "nextText": "Next rounds open ~Jun 2027",
     "tags": [
-      "4 of last 10 years studying in Pakistan",
+      "Constituency rules",
       "Age limit"
     ],
-    "abroad": false,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": true,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Pakistan constituency: two scholarships a year, 1 Jun – 5 Aug (23:59 PKT), no fee. You must have studied in Pakistan for at least 4 of the last 10 years and finished school in Pakistan."
+    },
     "fields": "All Oxford graduate courses",
     "fieldCats": [
       "any"
     ],
-    "note": "Two scholarships for Pakistan each year; no application fee. You must have studied in Pakistan for at least 4 of the last 10 years.",
-    "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/",
+    "note": "Each constituency (country or region) has its own deadline and residency rules; applicants from countries without one can apply for the Global Rhodes Scholarships. Fully funded study at Oxford.",
+    "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
     "source": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/",
     "verifiedOn": "2026-11-04"
   },
   {
     "id": "cgs",
-    "name": "Chinese Government Scholarship (HEC Type A)",
-    "host": "China Scholarship Council via HEC",
+    "name": "Chinese Government Scholarship (Bilateral Program)",
+    "host": "China Scholarship Council (via your country's dispatching authority)",
     "country": "China",
     "region": "east-asia",
     "levels": [
+      "Undergraduate",
       "Master's",
       "PhD"
     ],
@@ -778,20 +973,29 @@
     "amount": "Tuition, dorm, monthly stipend (flights not covered)",
     "opens": "2026-11-15",
     "deadline": "2027-01-05T16:00:00+05:00",
-    "dlText": "Expected ~early Jan 2027 · last round closed 5 Jan 2026",
-    "expected": true,
+    "dlText": "Set by each dispatching authority (often Jan – Apr) · Pakistan (HEC): expected ~early Jan 2027",
+    "varies": true,
     "tags": [
-      "HEC nomination",
-      "Dual nationals ineligible"
+      "Two portals",
+      "Dual nationals often ineligible"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": true,
+    "nominationBody": "Your country's dispatching authority (e.g. HEC in Pakistan) or the Chinese embassy",
+    "countryNotes": {
+      "PK": "Via HEC (Type A). Last cycle closed 5 Jan 2026, 16:00 PKT with 75 seats (35 bachelor's, 25 master's, 15 PhD). Apply on both the HEC and CSC portals or you'll be disqualified."
+    },
     "fields": "Most fields",
     "fieldCats": [
       "any"
     ],
-    "note": "Last cycle (deadline 5 Jan 2026, 16:00 PKT) had 75 seats (35 bachelor's, 25 master's, 15 PhD). Apply on both the HEC and CSC portals. Direct university (Type B) applications run separately.",
+    "note": "Apply through the scholarship agency or Chinese embassy in your country and on the CSC portal. Direct university (Type B) applications run separately.",
     "url": "https://www.hec.gov.pk/english/scholarshipsgrants/lao/CGSP/Pages/default.aspx",
     "source": "https://www.hec.gov.pk/site/CGSP",
     "verifiedOn": "2026-11-04"
@@ -808,21 +1012,29 @@
     "full": true,
     "amount": "CHF 2,450/month, fees waived, insurance",
     "deadline": "2026-10-31T23:59:00+05:00",
-    "dlText": "Closed 31 Oct 2026 (Pakistan window 20 Aug – 31 Oct, per SBFI country list)",
+    "dlText": "Set per country (mostly Aug – Dec 2026) · Pakistan closed 31 Oct 2026",
+    "varies": true,
     "nextText": "Next call opens ~Aug 2027",
     "tags": [
       "Born after 31 Dec 1991 (2027/28 round)",
       "Master's by Jul 2027",
       "Host professor letter"
     ],
-    "abroad": false,
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of about 180 countries, each with its own quota and deadline; check your country's page"
+    },
+    "residencyRequired": true,
     "work": false,
-    "hec": false,
+    "nominationBody": "The Swiss embassy in your country (pre-selection)",
+    "countryNotes": {
+      "PK": "Pakistan window was 20 Aug – 31 Oct 2026; contact islamabad.scholarships@eda.admin.ch."
+    },
     "fields": "All research fields",
     "fieldCats": [
       "any"
     ],
-    "note": "Research stays (6–12 months) and PhD scholarships, not taught master's. Apply through the Swiss embassy in Islamabad (islamabad.scholarships@eda.admin.ch).",
+    "note": "Research stays (6–12 months) and PhD scholarships, not taught master's. Apply through the Swiss embassy for your nationality.",
     "url": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
     "source": "https://www.sbfi.admin.ch/dam/en/sd-web/yBYiu8PC4jzg/2026-08-04_A_Z_List_of_countries_and_territories_complete.pdf",
     "verifiedOn": "2026-11-04",
@@ -849,9 +1061,12 @@
       "3 referees",
       "Interviews 18–26 Feb 2027"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Machine learning, computer vision, robotics, HCI, neuroscience",
     "fieldCats": [
       "cs-ai",
@@ -883,9 +1098,12 @@
       "Advisor + co-advisor in different countries",
       "References requested before the deadline"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Machine learning and AI",
     "fieldCats": [
       "cs-ai"
@@ -917,9 +1135,12 @@
       "GRE encouraged",
       "English test unless taught in English"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Computer science and information science",
     "fieldCats": [
       "cs-ai"
@@ -947,9 +1168,12 @@
       "2:1 honours or equivalent",
       "Interviews mid-March"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Computer science, information systems",
     "fieldCats": [
       "cs-ai"
@@ -976,9 +1200,15 @@
     "tags": [
       "Two rounds a year"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SG"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Science and engineering",
     "fieldCats": [
       "cs-ai",
@@ -1008,9 +1238,15 @@
     "tags": [
       "Recommendation letters due before the application closes"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Science, engineering, CS, AI",
     "fieldCats": [
       "cs-ai",
@@ -1038,17 +1274,26 @@
     "dlText": "Apply by Tsinghua's first-round deadline, mid-Dec 2026, for CGS consideration (varies by programme)",
     "varies": true,
     "tags": [
-      "Not the HEC route",
+      "Apply directly to the university",
       "Pre-admission required"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "This is separate from the HEC-nominated Chinese Government Scholarship; you can apply directly."
+    },
     "fields": "Most fields incl. CS and engineering",
     "fieldCats": [
       "any"
     ],
-    "note": "Separate from the HEC-nominated Chinese Government Scholarship. Tsinghua picks scholarship candidates only from pre-admitted applicants; each programme catalogue lists its own dates (portal open Sep 2026 – Feb 2027).",
+    "note": "Separate from the government-nominated (bilateral) Chinese Government Scholarship. Tsinghua picks scholarship candidates only from pre-admitted applicants; each programme catalogue lists its own dates (portal open Sep 2026 – Feb 2027).",
     "url": "https://yz.tsinghua.edu.cn/en/",
     "source": "https://yz.tsinghua.edu.cn/en/info/1035/1583.htm",
     "verifiedOn": "2026-11-04"
@@ -1071,9 +1316,12 @@
       "Age 18–28",
       "English test if not a native speaker"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "One-year master's in global affairs; any undergraduate major",
     "fieldCats": [
       "social",
@@ -1102,9 +1350,12 @@
       "TOEFL/IELTS (no minimum score)",
       "Interviews 18 Jan – 7 Feb 2027"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Physics, CS, neuroscience, biology, chemistry, maths",
     "fieldCats": [
       "sciences",
@@ -1134,9 +1385,12 @@
       "Pick up to 3 professors",
       "Also apply to the university"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Machine learning, deep learning, AI",
     "fieldCats": [
       "cs-ai"
@@ -1166,10 +1420,12 @@
       "First-class degree (or equivalent)",
       "Some departments can't fund international students"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
-    "nomination": true,
+    "nominationBody": "Your prospective Imperial department",
     "fields": "All Imperial PhD fields incl. computing and engineering",
     "fieldCats": [
       "any"
@@ -1196,9 +1452,12 @@
       "Up to 40 awards",
       "Separate cover sheet"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All UCL research fields",
     "fieldCats": [
       "any"
@@ -1225,9 +1484,12 @@
       "Apply via EUCLID",
       "Pick a research institute"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "AI, ML, NLP, robotics, vision, theory, systems, security",
     "fieldCats": [
       "cs-ai"
@@ -1254,12 +1516,48 @@
     "deadline": "2026-12-01T23:59:00+01:00",
     "dlText": "1 Dec 2026 (per Leiden's LExS page; time not stated, confirm)",
     "tags": [
-      "Non-EEA students",
+      "Non-EEA/EFTA students",
       "~25 awards"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "All Leiden master's programmes",
     "fieldCats": [
       "any"
@@ -1288,9 +1586,44 @@
       "No previous Dutch degree",
       "Participating universities only"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Participating Dutch bachelor's and master's programmes",
     "fieldCats": [
       "any"
@@ -1318,9 +1651,45 @@
       "Apply on the admission form",
       "Non-EU/EEA fee-payers"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "International master's incl. CS, data science, maths",
     "fieldCats": [
       "any"
@@ -1348,9 +1717,45 @@
       "Apply on the admission form",
       "Non-EU/EEA fee-payers"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Technology, CS, engineering, business, arts",
     "fieldCats": [
       "cs-ai",
@@ -1380,9 +1785,15 @@
       "10 Platinum + 18 Gold (Milan)",
       "Admission application = scholarship application"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "IT"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Engineering, architecture, design (incl. CS and data science)",
     "fieldCats": [
       "engineering",
@@ -1410,9 +1821,15 @@
       "Not resident in Italy",
       "Foreign degree"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "IT"
+      ]
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "English-taught degree programmes",
     "fieldCats": [
       "any"
@@ -1440,9 +1857,13 @@
     "tags": [
       "Must be admitted first"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "check",
+      "note": "Check the nationality conditions on the official page"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Faculty of Science master's (maths, physics, chemistry, biology, statistics…)",
     "fieldCats": [
       "sciences"
@@ -1469,17 +1890,22 @@
     "tags": [
       "University nominates you",
       "For current PhD students",
-      "Universities in Pakistan not eligible"
+      "University must be in an eligible region"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
-    "nomination": true,
+    "nominationBody": "Your university (up to 3–4 nominees)",
+    "countryNotes": {
+      "PK": "Universities in Pakistan are not in an eligible region; this helps Pakistanis already doing a PhD abroad."
+    },
     "fields": "Computer science and related fields",
     "fieldCats": [
       "cs-ai"
     ],
-    "note": "For Pakistani citizens already doing a PhD in an eligible region (e.g. Europe, US, Canada, East Asia, Middle East, Australia). Universities can nominate 3–4 students.",
+    "note": "Your university, not your nationality, decides eligibility: it must be in an eligible region (e.g. Europe, US, Canada, East Asia, Middle East, Africa, Australia, India, Latin America, Southeast Asia).",
     "url": "https://research.google/programs-and-events/phd-fellowship/",
     "source": "https://research.google/programs-and-events/phd-fellowship/",
     "verifiedOn": "2026-11-04"
@@ -1502,19 +1928,25 @@
       "Must study at a US/Canada/UK/Ireland university (12+ months)",
       "Undergraduates only"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Science, engineering, CS",
     "fieldCats": [
       "cs-ai",
       "engineering",
       "sciences"
     ],
-    "note": "Not for students at Pakistani universities: open to undergraduates enrolled in the US, Canada, UK or Ireland, whatever their citizenship. You must still be an undergraduate during the internship. Placements announced Feb–Mar 2027.",
+    "note": "Open to undergraduates enrolled for 12+ months at a university in the US, Canada, UK or Ireland, whatever their citizenship. You must still be an undergraduate during the internship. Placements announced Feb–Mar 2027.",
     "url": "https://www.daad.de/rise/en/rise-germany/",
     "source": "https://www.daad.de/rise/en/rise-germany/",
-    "verifiedOn": "2026-11-04"
+    "verifiedOn": "2026-11-04",
+    "countryNotes": {
+      "PK": "Not open to students at universities in Pakistan; only to those enrolled in the US, Canada, UK or Ireland."
+    }
   },
   {
     "id": "summer-epfl",
@@ -1533,9 +1965,12 @@
       "Enrolled BSc (2nd year+) or MSc",
       "CS, CE, EE, telecom"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Computer and communication sciences",
     "fieldCats": [
       "cs-ai",
@@ -1565,9 +2000,12 @@
       "All nationalities",
       "No deadline extensions"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Computer science",
     "fieldCats": [
       "cs-ai"
@@ -1594,17 +2032,24 @@
     "nextText": "Next call expected ~Aug–Sep 2027",
     "tags": [
       "Undergraduates only",
-      "Min. 80% cumulative GPA",
-      "Enrolled at a Pakistani university"
+      "Min. GPA set per country",
+      "Enrolled at a university in a partner country"
     ],
-    "abroad": false,
+    "eligibility": {
+      "type": "check",
+      "note": "Students enrolled at universities in Mitacs partner countries for 2027 (Pakistan included); the list changes yearly"
+    },
+    "residencyRequired": true,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "All Pakistani universities are eligible for 2027, all disciplines, minimum cumulative GPA 80%."
+    },
     "fields": "All disciplines",
     "fieldCats": [
       "any"
     ],
-    "note": "12-week research internship in Canada. Pakistan is on the 2027 country list and all Pakistani universities are eligible; Mitacs changes partner countries each year. Last cycle's deadline was 17 Sep 2025.",
+    "note": "12-week research internship in Canada. Eligibility depends on where you study, and Mitacs changes partner countries each year. Last cycle's deadline was 17 Sep 2025.",
     "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/",
     "source": "https://www.mitacs.ca/gri-2027-eligible-universities/",
     "verifiedOn": "2026-11-04"
@@ -1629,14 +2074,20 @@
       "No scholarships for taught master's",
       "HEC–Koç PhD partnership"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "HEC scholars can get 100% PhD tuition through the Koç–HEC partnership (apply to both)."
+    },
     "fields": "Sciences, engineering (incl. CS), social sciences, humanities",
     "fieldCats": [
       "any"
     ],
-    "note": "Admitted thesis-based MS/PhD students are considered automatically. HEC scholars can get 100% PhD tuition through the Koç–HEC partnership (apply to both). A good option if you're already in Türkiye.",
+    "note": "Admitted thesis-based MS/PhD students are considered automatically. A good option if you're already in Türkiye.",
     "url": "https://international.ku.edu.tr/graduate-programs/tuition-and-scholarships/",
     "source": "https://international.ku.edu.tr/scholarships/hec-pakistan-scholars-at-koc-university/",
     "verifiedOn": "2026-11-04"
@@ -1659,9 +2110,12 @@
     "tags": [
       "GRE for international applicants"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Engineering, CS, sciences, social sciences",
     "fieldCats": [
       "cs-ai",
@@ -1691,9 +2145,12 @@
       "English test by deadline",
       "Referees submit online"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "Computer and communication sciences",
     "fieldCats": [
       "cs-ai"
@@ -1719,9 +2176,12 @@
     "tags": [
       "Bachelor's or master's can apply"
     ],
-    "abroad": true,
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
     "work": false,
-    "hec": false,
+    "nominationBody": null,
     "fields": "CS, maths, physics, biology, neuroscience, chemistry, data science",
     "fieldCats": [
       "cs-ai",

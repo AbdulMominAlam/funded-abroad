@@ -24,7 +24,23 @@
       <h1>Funded Abroad</h1>
       <button class="theme-btn" id="theme" type="button" aria-label="Colour theme: automatic. Change theme">Theme: auto</button>
     </div>
-    <p>Fully and mostly funded master's, PhD and research-internship programmes that accept Pakistani citizens, with the 2027 intake deadlines, who can apply, and what each one pays.</p>
+    <p>Fully and mostly funded undergraduate, master's, PhD and research-internship programmes worldwide, filtered by your nationality, with 2027-intake deadlines, who can apply, and what each one pays.</p>
+    <div class="profile" role="group" aria-labelledby="profile-h">
+      <h2 id="profile-h" class="sr">Your nationality and study level</h2>
+      <div class="pfield">
+        <label for="nat">Your nationality</label>
+        <div class="natwrap">
+          <input id="nat" list="nat-list" autocomplete="off" spellcheck="false" placeholder="Type to search, e.g. Pakistan" aria-describedby="nat-hint">
+          <button type="button" id="nat-clear" class="nat-clear" aria-label="Clear nationality" hidden>✕</button>
+        </div>
+        <datalist id="nat-list"></datalist>
+      </div>
+      <div class="pfield">
+        <label for="lvl">I want to study</label>
+        <select id="lvl"></select>
+      </div>
+      <p class="phint" id="nat-hint">Pick your nationality to see only programmes you can apply for.</p>
+    </div>
     <div class="asof">Deadlines checked <b id="asof">4 Nov 2026</b> · countdowns use your device clock · always confirm on the official page before applying</div>
   </header>
 
@@ -36,9 +52,6 @@
   <div class="controls" role="search" aria-label="Filter programmes">
     <div class="row">
       <div class="search"><label for="q" class="sr">Search programmes</label><input id="q" type="search" placeholder="Search by name, country, field…" autocomplete="off"></div>
-      <select id="level" aria-label="Study level">
-        <option value="">All levels</option><option>Master's</option><option>PhD</option><option>Internship</option>
-      </select>
       <select id="status" aria-label="Status">
         <option value="">Any status</option><option value="open">Open now</option><option value="soon">Closing in 30 days</option><option value="up">Opens soon / expected</option><option value="closed">Closed this year</option>
       </select>
@@ -50,9 +63,10 @@
     </div>
     <div class="row chips">
       <button type="button" class="chip" id="f-full" aria-pressed="false">Fully funded only</button>
-      <button type="button" class="chip" id="f-abroad" aria-pressed="false">Can apply while living outside Pakistan</button>
+      <button type="button" class="chip" id="f-abroad" aria-pressed="false">No need to live in my home country</button>
       <button type="button" class="chip" id="f-nowork" aria-pressed="false">No work experience needed</button>
       <button type="button" class="chip" id="f-saved" aria-pressed="false">★ Shortlist</button>
+      <button type="button" class="chip" id="f-inel" aria-pressed="false" hidden>Show programmes I'm not eligible for</button>
       <button type="button" class="chip chip-ghost" id="f-clear" hidden>Clear filters</button>
       <span class="count" id="count" role="status" aria-live="polite"></span>
     </div>
@@ -72,7 +86,7 @@
 
   <footer>
     <h2>How to read this</h2>
-    <p>"Closed this year" means the 2027 round is over; the row shows when the next round usually opens. "Expected" means the date is estimated from the last cycle and not yet published. Deadlines marked "varies" depend on the course or university you pick. HEC nomination means you apply on both the HEC portal and the programme's own portal. "Nomination" means your university or supervisor must put you forward. Your shortlist and checklists are saved in this browser only; use Export/Import to move them.</p>
+    <p>"Closed this year" means the 2027 round is over; the row shows when the next round usually opens. "Expected" means the date is estimated from the last cycle and not yet published. Deadlines marked "varies" depend on the course, university or your country. "Nomination" means an agency, embassy, university or supervisor must put you forward. "Check your country is eligible" means the official list is long and changes yearly, so confirm your country is on it. Notes for your nationality appear on each card once you pick it. Your shortlist and checklists are saved in this browser only; use Export/Import to move them.</p>
     <p>Every entry links to the official page it was checked against. This is a free, unofficial guide; it may contain mistakes.</p>
   </footer>
 </div>

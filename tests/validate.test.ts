@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import { isHttpsUrl, isIsoWithTz, validateScholarships } from "../src/validate";
-import { make } from "./fixtures";
+import { CTX, make } from "./fixtures";
 
 describe("validators", () => {
   it("accepts ISO dates with time zones only", () => {
@@ -22,12 +22,12 @@ describe("validators", () => {
 
 describe("validateScholarships", () => {
   it("passes a good entry", () => {
-    expect(validateScholarships([make()])).toEqual([]);
+    expect(validateScholarships([make()], CTX)).toEqual([]);
   });
   it("reports bad data loudly", () => {
     const bad = { ...make({ id: "a" }), deadline: "2027-01-01", url: "http://x.org", region: "mars", levels: ["BSc"], extra: 1 } as unknown;
     const { name: _n, ...noName } = make({ id: "b" });
-    const errs = validateScholarships([bad, noName, make({ id: "a" })]);
+    const errs = validateScholarships([bad, noName, make({ id: "a" })], CTX);
     const all = errs.join("\n");
     expect(all).toMatch(/deadline/);
     expect(all).toMatch(/url/);
@@ -37,11 +37,30 @@ describe("validateScholarships", () => {
     expect(all).toMatch(/"name"/);
     expect(all).toMatch(/duplicate id "a"/);
   });
+  it("validates eligibility rules", () => {
+    const errs = validateScholarships([
+      make({ id: "a", eligibility: { type: "list", countries: ["PK", "ZZ"] } }),
+      make({ id: "b", eligibility: { type: "group", group: "nope" } }),
+      make({ id: "c", eligibility: { type: "exclude", countries: [] } }),
+      make({ id: "d", eligibility: { type: "check", note: "" } }),
+      make({ id: "e", eligibility: { type: "weird" } as never }),
+      make({ id: "f", countryNotes: { XX: "hi" } }),
+      make({ id: "g", nominationBody: "" }),
+    ], CTX).join("\n");
+    expect(errs).toMatch(/\(a\).*unknown country code "ZZ"/);
+    expect(errs).toMatch(/\(b\).*group "nope"/);
+    expect(errs).toMatch(/\(c\).*non-empty array/);
+    expect(errs).toMatch(/\(d\).*note/);
+    expect(errs).toMatch(/\(e\).*type must be one of/);
+    expect(errs).toMatch(/\(f\).*countryNotes: unknown country code "XX"/);
+    expect(errs).toMatch(/\(g\).*nominationBody/);
+    expect(validateScholarships([make({ eligibility: { type: "group", group: "asean" } })], CTX)).toEqual([]);
+  });
   it("rejects opens after deadline", () => {
-    expect(validateScholarships([make({ opens: "2027-03-01" })]).join()).toMatch(/opens must be before/);
+    expect(validateScholarships([make({ opens: "2027-03-01" })], CTX).join()).toMatch(/opens must be before/);
   });
   it("the shipped dataset is valid", () => {
     const data = JSON.parse(readFileSync(new URL("../src/data/scholarships.json", import.meta.url), "utf8"));
-    expect(validateScholarships(data)).toEqual([]);
+    expect(validateScholarships(data, CTX)).toEqual([]);
   });
 });

@@ -4,6 +4,7 @@ import { formatCountdown, type StatusInfo } from "../status";
 import type { Row } from "../filters";
 import { itemsFor, progress } from "../checklist";
 import type { ChecklistEntry, ChecklistState } from "../storage";
+import type { CountryNames } from "../eligibility";
 import { esc } from "./dom";
 
 export interface ListContext {
@@ -12,6 +13,9 @@ export interface ListContext {
   compare: ReadonlySet<string>;
   openChecklists: ReadonlySet<string>;
   maxCompare: number;
+  /** Selected nationality, or null. */
+  nat: string | null;
+  names: CountryNames;
 }
 
 export function statusClass(s: Scholarship, i: StatusInfo): string {
@@ -33,15 +37,15 @@ export function countdownHtml(s: Scholarship, i: StatusInfo): string {
   return `<div class="days" data-countdown="${esc(s.id)}">${esc(c.big)}<small>${esc(c.small)}</small></div>`;
 }
 
-export function progressHtml(s: Scholarship, entry: ChecklistEntry | undefined): string {
-  const p = progress(s, entry);
+export function progressHtml(s: Scholarship, entry: ChecklistEntry | undefined, nat: string | null = null): string {
+  const p = progress(s, entry, nat);
   const pct = p.total ? Math.round((p.done / p.total) * 100) : 0;
   return `<span class="prog${p.done === p.total ? " done" : ""}">${p.done}/${p.total}</span><span class="bar" aria-hidden="true"><i style="width:${pct}%"></i></span>`;
 }
 
-export function checklistBodyHtml(s: Scholarship, entry: ChecklistEntry | undefined): string {
+export function checklistBodyHtml(s: Scholarship, entry: ChecklistEntry | undefined, nat: string | null = null): string {
   const done = new Set(entry?.done ?? []);
-  const items = itemsFor(s, entry);
+  const items = itemsFor(s, entry, nat);
   return `<ul>${items.map((it) => {
     const cid = `ck-${s.id}-${it.id}`;
     return `<li><label for="${esc(cid)}"><input type="checkbox" id="${esc(cid)}" data-ck="${esc(s.id)}" data-item="${esc(it.id)}"${done.has(it.id) ? " checked" : ""}><span>${esc(it.text)}</span></label>${
@@ -51,14 +55,26 @@ export function checklistBodyHtml(s: Scholarship, entry: ChecklistEntry | undefi
   <form data-add="${esc(s.id)}"><label class="sr" for="add-${esc(s.id)}">Add your own checklist item for ${esc(s.name)}</label><input id="add-${esc(s.id)}" type="text" maxlength="200" placeholder="Add your own item…" autocomplete="off"><button type="submit" class="act">Add</button></form>`;
 }
 
-export function cardHtml({ s, i }: Row, ctx: ListContext): string {
+/** Country-specific notes: the selected nationality's note, or all notes (labelled) when none is selected. */
+export function countryNotesHtml(s: Scholarship, nat: string | null, names: CountryNames): string {
+  const notes = s.countryNotes ?? {};
+  const entries = nat ? (notes[nat] ? [[nat, notes[nat]] as const] : []) : Object.entries(notes);
+  return entries
+    .map(([c, t]) => `<p class="cnote"><b>For applicants from ${esc(names[c] ?? c)}:</b> ${esc(t)}</p>`)
+    .join("");
+}
+
+export function cardHtml({ s, i, e }: Row, ctx: ListContext): string {
+  const inelig = e.status === "ineligible";
   const tags = [
     `<span class="tag good">${s.full ? "Fully funded" : "Partial funding"}</span>`,
     ...s.levels.map((l) => `<span class="tag">${esc(l)}</span>`),
-    s.hec ? `<span class="tag flag">HEC nomination</span>` : "",
-    s.nomination ? `<span class="tag nom">Nomination needed</span>` : "",
-    !s.abroad && !s.tags.some((t) => /reside|residency/i.test(t)) ? `<span class="tag flag">Apply from Pakistan</span>` : "",
-    ...s.tags.filter((t) => !(s.hec && /^HEC nomination$/i.test(t))).map((t) => `<span class="tag${FLAG_RE.test(t) ? " flag" : ""}">${esc(t)}</span>`),
+    e.status === "check" || (e.status === "unknown" && s.eligibility.type !== "all")
+      ? `<span class="tag flag" title="${esc(e.reason)}">${s.eligibility.type === "check" ? "Check your country is eligible" : "Limited nationalities"}</span>`
+      : "",
+    s.residencyRequired ? `<span class="tag flag">Must live in your home country</span>` : "",
+    s.nominationBody ? `<span class="tag nom">Nomination: ${esc(s.nominationBody)}</span>` : "",
+    ...s.tags.map((t) => `<span class="tag${FLAG_RE.test(t) ? " flag" : ""}">${esc(t)}</span>`),
   ].join("");
   const on = ctx.shortlist.has(s.id);
   const inCmp = ctx.compare.has(s.id);
@@ -66,19 +82,28 @@ export function cardHtml({ s, i }: Row, ctx: ListContext): string {
   const entry = ctx.checklists[s.id];
   const open = ctx.openChecklists.has(s.id);
   const verified = new Date(s.verifiedOn + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
-  return `<article class="item ${i.kind === "closed" ? "closed" : ""}" id="p-${esc(s.id)}" aria-labelledby="h-${esc(s.id)}">
+  const eligLine = inelig
+    ? `<p class="inelig-reason"><b>Not eligible:</b> ${esc(e.reason)}</p>`
+    : e.status === "check"
+      ? `<p class="elig-check"><b>Eligibility:</b> ${esc(e.reason)}</p>`
+      : s.eligibility.type !== "all"
+        ? `<p class="elig-info"><b>Who can apply:</b> ${esc(e.reason)}</p>`
+        : "";
+  return `<article class="item ${i.kind === "closed" ? "closed" : ""}${inelig ? " ineligible" : ""}" id="p-${esc(s.id)}" aria-labelledby="h-${esc(s.id)}">
     <div class="when"><span class="status ${statusClass(s, i)}">${esc(i.label)}</span>${countdownHtml(s, i)}</div>
     <div class="main">
-      <h3 id="h-${esc(s.id)}">${esc(s.name)}</h3>
+      <h3 id="h-${esc(s.id)}">${esc(s.name)}${inelig ? '<span class="sr"> (not eligible for your nationality)</span>' : ""}</h3>
       <div class="meta">${esc(s.host)} · ${esc(s.country)} · ${esc(s.fields)}</div>
+      ${eligLine}
       <div class="dl"><span>Deadline</span> ${esc(s.dlText)}</div>
       <div class="amount">${esc(s.amount)}</div>
       <div class="tags">${tags}</div>
       <p class="note">${esc(s.note)}</p>
+      ${countryNotesHtml(s, ctx.nat, ctx.names)}
       <div class="verified">Checked ${esc(verified)} against <a href="${esc(s.source)}" target="_blank" rel="noopener">${esc(new URL(s.source).hostname.replace(/^www\./, ""))}</a> · ${esc(REGIONS[s.region])}</div>
       <details class="check" data-check="${esc(s.id)}"${open ? " open" : ""}>
-        <summary>Application checklist <span data-prog="${esc(s.id)}" class="progwrap">${progressHtml(s, entry)}</span></summary>
-        ${open ? checklistBodyHtml(s, entry) : ""}
+        <summary>Application checklist <span data-prog="${esc(s.id)}" class="progwrap">${progressHtml(s, entry, ctx.nat)}</span></summary>
+        ${open ? checklistBodyHtml(s, entry, ctx.nat) : ""}
       </details>
     </div>
     <div class="side">

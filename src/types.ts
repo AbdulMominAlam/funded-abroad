@@ -1,5 +1,32 @@
 /** Study levels a programme funds. */
-export type Level = "Master's" | "PhD" | "Internship";
+export type Level = "Undergraduate" | "Master's" | "PhD" | "Internship";
+
+/** The study-level picker: "phd" covers PhD and research internships. */
+export type StudyLevel = "ug" | "masters" | "phd" | "all";
+
+/** ISO 3166-1 alpha-2 country code (plus XK for Kosovo). */
+export type CountryCode = string;
+
+/**
+ * Who can apply, by nationality.
+ * - all: any nationality
+ * - list: only these nationalities
+ * - exclude: any nationality except these
+ * - group: a named group from src/data/country-groups.json (only when the official source defines it that way)
+ * - check: eligibility is a long official country list we could not reproduce reliably; the card asks you to check
+ */
+export type Eligibility =
+  | { type: "all" }
+  | { type: "list"; countries: CountryCode[] }
+  | { type: "exclude"; countries: CountryCode[] }
+  | { type: "group"; group: string }
+  | { type: "check"; note: string };
+
+export interface CountryGroup {
+  name: string;
+  source: string;
+  countries: CountryCode[];
+}
 
 /** Region used by the region filter. */
 export type Region =
@@ -47,14 +74,16 @@ export interface Scholarship {
   nextText?: string;
   /** Requirements / key facts shown as tags. */
   tags: string[];
-  /** Can apply while living outside Pakistan (false = must reside in Pakistan). */
-  abroad: boolean;
+  /** Nationalities that can apply. */
+  eligibility: Eligibility;
+  /** You must live in your home country (country of citizenship) when you apply. */
+  residencyRequired: boolean;
   /** Work experience required. */
   work: boolean;
-  /** Requires HEC (Higher Education Commission of Pakistan) nomination. */
-  hec: boolean;
-  /** Requires nomination by your university/department/supervisor (you cannot apply directly). */
-  nomination?: boolean;
+  /** Who must nominate you, if anyone (e.g. "Your national scholarship agency", "Your university"); null if you apply directly. */
+  nominationBody: string | null;
+  /** Notes for applicants of a particular nationality, keyed by country code (e.g. {"PK": "Apply on the HEC portal as well"}). */
+  countryNotes?: Record<CountryCode, string>;
   /** Free-text fields description. */
   fields: string;
   fieldCats: FieldCat[];
@@ -69,7 +98,14 @@ export interface Scholarship {
   checklist?: string[];
 }
 
-export const LEVELS: readonly Level[] = ["Master's", "PhD", "Internship"];
+export const LEVELS: readonly Level[] = ["Undergraduate", "Master's", "PhD", "Internship"];
+
+export const STUDY_LEVELS: Record<StudyLevel, { label: string; levels: readonly Level[] }> = {
+  ug: { label: "Undergraduate", levels: ["Undergraduate"] },
+  masters: { label: "Master's", levels: ["Master's"] },
+  phd: { label: "PhD & research", levels: ["PhD", "Internship"] },
+  all: { label: "All levels", levels: ["Undergraduate", "Master's", "PhD", "Internship"] },
+};
 
 export const REGIONS: Record<Region, string> = {
   europe: "Europe",

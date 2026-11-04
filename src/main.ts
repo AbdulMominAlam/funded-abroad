@@ -1,10 +1,11 @@
 import "./styles.css";
-import { SCHOLARSHIPS, LAST_VERIFIED, byId } from "./data/load";
-import { FIELD_CATS, REGIONS, type Scholarship } from "./types";
+import { SCHOLARSHIPS, LAST_VERIFIED, byId, COUNTRIES, COUNTRY_NAMES, GROUPS } from "./data/load";
+import { FIELD_CATS, REGIONS, STUDY_LEVELS, type Scholarship } from "./types";
+import { eligibilityFor, matchesStudyLevel, toStudyLevel } from "./eligibility";
 import { formatCountdown, getStatus } from "./status";
 import { applyFilters, DEFAULT_FILTERS, filtersToHash, hashToFilters, type FilterState } from "./filters";
 import {
-  loadChecklists, loadShortlist, loadTheme, saveChecklists, saveShortlist, saveTheme, storageAvailable,
+  loadChecklists, loadProfile, loadShortlist, loadTheme, saveChecklists, saveProfile, saveShortlist, saveTheme, storageAvailable,
   type ChecklistState, type ThemePref,
 } from "./storage";
 import { addCustomItem, removeCustomItem, toggleItem } from "./checklist";
@@ -18,31 +19,70 @@ import { compareTableHtml } from "./ui/compare";
 const MAX_COMPARE = 3;
 const now = () => new Date();
 
-let filters: FilterState = hashToFilters(location.hash);
+const COUNTRY_CODES = new Set(COUNTRIES.map((c) => c.code));
+const FILTER_CTX = { groups: GROUPS, names: COUNTRY_NAMES, countries: COUNTRY_CODES };
+
+/** Nationality/level remembered from the last visit (the URL hash wins when it has them). */
+function rememberedProfile(): Partial<Pick<FilterState, "nat" | "lvl">> {
+  const p = loadProfile();
+  const out: Partial<Pick<FilterState, "nat" | "lvl">> = {};
+  if (p.nat && COUNTRY_CODES.has(p.nat)) out.nat = p.nat;
+  const l = toStudyLevel(p.lvl);
+  if (l) out.lvl = l;
+  return out;
+}
+
+let filters: FilterState = hashToFilters(location.hash, FILTER_CTX, rememberedProfile());
 let shortlist = loadShortlist();
 let checklists: ChecklistState = loadChecklists();
 const compare = new Set<string>();
 const openChecklists = new Set<string>();
 
 /* ---------- Filters UI ---------- */
-const selects = ["level", "status", "sort", "field", "region"] as const;
-const chips = [["f-full", "full"], ["f-abroad", "abroad"], ["f-nowork", "nowork"], ["f-saved", "saved"]] as const;
+const selects = ["lvl", "status", "sort", "field", "region"] as const;
+const chips = [["f-full", "full"], ["f-abroad", "abroad"], ["f-nowork", "nowork"], ["f-saved", "saved"], ["f-inel", "inel"]] as const;
 
 function fillSelectOptions(): void {
   const field = $<HTMLSelectElement>("field");
   for (const [k, v] of Object.entries(FIELD_CATS)) field.add(new Option(k === "any" ? "Open to any field" : v, k));
   const region = $<HTMLSelectElement>("region");
   for (const [k, v] of Object.entries(REGIONS)) region.add(new Option(v, k));
+  const lvl = $<HTMLSelectElement>("lvl");
+  for (const [k, v] of Object.entries(STUDY_LEVELS)) lvl.add(new Option(v.label, k));
+  const dl = $("nat-list");
+  dl.innerHTML = COUNTRIES.map((c) => `<option value="${esc(c.name)}"></option>`).join("");
+}
+
+/** Resolve typed text ("pakistan", "PK", "Pakistan") to a country code. */
+function parseCountry(text: string): string | null {
+  const t = text.trim().toLowerCase();
+  if (!t) return null;
+  const byName = COUNTRIES.find((c) => c.name.toLowerCase() === t);
+  if (byName) return byName.code;
+  const up = t.toUpperCase();
+  return COUNTRY_CODES.has(up) ? up : null;
+}
+
+function syncNat(): void {
+  const input = $<HTMLInputElement>("nat");
+  input.value = filters.nat ? COUNTRY_NAMES[filters.nat] ?? filters.nat : "";
+  $("nat-clear").hidden = !filters.nat;
+  $("f-inel").hidden = !filters.nat;
+  const hint = $("nat-hint");
+  hint.innerHTML = filters.nat
+    ? `Showing programmes open to citizens of <b>${esc(COUNTRY_NAMES[filters.nat] ?? filters.nat)}</b>.`
+    : "Pick your nationality to see only programmes you can apply for.";
 }
 
 function syncControls(): void {
   $<HTMLInputElement>("q").value = filters.q;
+  syncNat();
   for (const k of selects) $<HTMLSelectElement>(k).value = filters[k];
   for (const [id, k] of chips) $(id).setAttribute("aria-pressed", String(filters[k]));
 }
 
 function isDefault(f: FilterState): boolean {
-  return (Object.keys(DEFAULT_FILTERS) as (keyof FilterState)[]).every((k) => k === "sort" || f[k] === DEFAULT_FILTERS[k]);
+  return (Object.keys(DEFAULT_FILTERS) as (keyof FilterState)[]).every((k) => k === "sort" || k === "nat" || k === "lvl" || f[k] === DEFAULT_FILTERS[k]);
 }
 
 function writeHash(): void {
@@ -54,24 +94,42 @@ function writeHash(): void {
 
 /* ---------- Rendering ---------- */
 function ctx(): ListContext {
-  return { shortlist, checklists, compare, openChecklists, maxCompare: MAX_COMPARE };
+  return { shortlist, checklists, compare, openChecklists, maxCompare: MAX_COMPARE, nat: filters.nat || null, names: COUNTRY_NAMES };
 }
 
 function render(): void {
-  const rows = applyFilters(SCHOLARSHIPS, now(), filters, shortlist);
-  $("count").textContent = `${rows.length} of ${SCHOLARSHIPS.length} programmes`;
+  const { rows, hiddenIneligible } = applyFilters(SCHOLARSHIPS, now(), filters, shortlist, FILTER_CTX);
+  const count = $("count");
+  count.textContent = `${rows.length} of ${SCHOLARSHIPS.length} programmes`;
+  if (hiddenIneligible) {
+    const small = document.createElement("small");
+    small.textContent = `${hiddenIneligible} hidden: not open to your nationality`;
+    count.appendChild(small);
+  }
   $("list").innerHTML = listHtml(rows, ctx(), filters.saved);
   $("f-clear").hidden = isDefault(filters);
   renderCompareBar();
 }
 
 function renderStrip(): void {
-  $("months").innerHTML = stripHtml(SCHOLARSHIPS, now());
+  // The strip follows the nationality and study level (but not the other filters).
+  const nat = filters.nat || null;
+  const visible = SCHOLARSHIPS.filter(
+    (s) => matchesStudyLevel(s.levels, filters.lvl) && eligibilityFor(s, nat, GROUPS).status !== "ineligible",
+  );
+  $("months").innerHTML = stripHtml(visible, now());
 }
 
 function update(partial: Partial<FilterState>): void {
+  const profileChanged = ("nat" in partial && partial.nat !== filters.nat) || ("lvl" in partial && partial.lvl !== filters.lvl);
   filters = { ...filters, ...partial };
+  if (!filters.nat) filters.inel = false;
   writeHash();
+  if (profileChanged) {
+    saveProfile(filters.nat, filters.lvl);
+    syncNat();
+    renderStrip();
+  }
   render();
 }
 
@@ -113,7 +171,7 @@ function persistChecklists(sid: string): void {
   saveChecklists(checklists);
   const s = byId.get(sid);
   const prog = document.querySelector<HTMLElement>(`[data-prog="${CSS.escape(sid)}"]`);
-  if (s && prog) prog.innerHTML = progressHtml(s, checklists[sid]);
+  if (s && prog) prog.innerHTML = progressHtml(s, checklists[sid], filters.nat || null);
 }
 
 function rerenderChecklistBody(sid: string, focusSelector?: string): void {
@@ -121,7 +179,7 @@ function rerenderChecklistBody(sid: string, focusSelector?: string): void {
   const det = document.querySelector<HTMLDetailsElement>(`details[data-check="${CSS.escape(sid)}"]`);
   if (!s || !det) return;
   det.querySelectorAll(":scope > :not(summary)").forEach((n) => n.remove());
-  det.insertAdjacentHTML("beforeend", checklistBodyHtml(s, checklists[sid]));
+  det.insertAdjacentHTML("beforeend", checklistBodyHtml(s, checklists[sid], filters.nat || null));
   persistChecklists(sid);
   if (focusSelector) det.querySelector<HTMLElement>(focusSelector)?.focus();
 }
@@ -196,7 +254,7 @@ function renderCompareBar(): void {
 function openCompare(): void {
   const items = [...compare].map((id) => byId.get(id)).filter((s): s is Scholarship => !!s);
   if (items.length < 2) return;
-  $("compare-body").innerHTML = compareTableHtml(items, now(), checklists);
+  $("compare-body").innerHTML = compareTableHtml(items, now(), checklists, filters.nat || null, GROUPS, COUNTRY_NAMES);
   const dlg = $<HTMLDialogElement>("compare");
   if (typeof dlg.showModal === "function") dlg.showModal();
   else dlg.setAttribute("open", "");
@@ -226,16 +284,35 @@ function bind(): void {
       update({ [k]: v } as Partial<FilterState>);
     });
   }
+  const natInput = $<HTMLInputElement>("nat");
+  const applyNat = () => {
+    const code = parseCountry(natInput.value);
+    if (code) update({ nat: code });
+    else if (!natInput.value.trim()) update({ nat: "" });
+  };
+  natInput.addEventListener("change", applyNat);
+  natInput.addEventListener("input", () => {
+    // datalist picks fire "input" with the full name; apply as soon as it matches a country exactly
+    if (parseCountry(natInput.value) && natInput.value.length > 2) applyNat();
+  });
+  natInput.addEventListener("blur", () => syncNat());
+  $("nat-clear").addEventListener("click", () => {
+    update({ nat: "" });
+    natInput.focus();
+  });
+
   $("f-clear").addEventListener("click", () => {
-    filters = { ...DEFAULT_FILTERS, sort: filters.sort };
+    filters = { ...DEFAULT_FILTERS, sort: filters.sort, nat: filters.nat, lvl: filters.lvl };
     syncControls();
     writeHash();
     render();
     $("q").focus();
   });
   window.addEventListener("hashchange", () => {
-    filters = hashToFilters(location.hash);
+    filters = hashToFilters(location.hash, FILTER_CTX, { nat: filters.nat, lvl: filters.lvl });
+    saveProfile(filters.nat, filters.lvl);
     syncControls();
+    renderStrip();
     render();
   });
 
@@ -317,14 +394,14 @@ function bind(): void {
     const sid = det.dataset.check;
     if (det.open) {
       openChecklists.add(sid);
-      if (!det.querySelector("ul")) det.insertAdjacentHTML("beforeend", checklistBodyHtml(byId.get(sid)!, checklists[sid]));
+      if (!det.querySelector("ul")) det.insertAdjacentHTML("beforeend", checklistBodyHtml(byId.get(sid)!, checklists[sid], filters.nat || null));
     } else openChecklists.delete(sid);
   }, true);
 
   $("months").addEventListener("click", (e) => {
     const j = (e.target as HTMLElement).closest<HTMLElement>("[data-jump]");
     if (!j) return;
-    filters = { ...DEFAULT_FILTERS, sort: filters.sort };
+    filters = { ...DEFAULT_FILTERS, sort: filters.sort, nat: filters.nat, lvl: filters.lvl };
     syncControls();
     writeHash();
     render();

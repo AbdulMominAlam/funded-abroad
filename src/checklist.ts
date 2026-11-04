@@ -1,4 +1,4 @@
-import type { Scholarship } from "./types";
+import type { CountryCode, Scholarship } from "./types";
 import type { ChecklistEntry, ChecklistState } from "./storage";
 
 export interface ChecklistItem {
@@ -11,9 +11,13 @@ export function slug(t: string): string {
   return t.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48);
 }
 
-/** Default checklist: common documents plus items derived from the programme's flags and tags. */
-export function defaultChecklist(s: Scholarship): ChecklistItem[] {
+/**
+ * Default checklist: common documents plus items derived from the programme's flags, tags and,
+ * when a nationality is chosen, that country's note (e.g. "apply on the HEC portal").
+ */
+export function defaultChecklist(s: Scholarship, nat: CountryCode | null = null): ChecklistItem[] {
   const tags = s.tags.join(" | ");
+  const countryNote = (nat && s.countryNotes?.[nat]) || "";
   const internshipOnly = s.levels.length === 1 && s.levels[0] === "Internship";
   const items: ChecklistItem[] = [
     { id: "transcripts", text: "Transcripts and degree certificates" },
@@ -34,10 +38,12 @@ export function defaultChecklist(s: Scholarship): ChecklistItem[] {
   const add = (id: string, text: string) => {
     if (!extra.some((e) => e.id === id)) extra.push({ id, text });
   };
-  if (s.hec || /\bHEC\b/.test(tags)) add("hec-portal", "HEC portal application");
-  if (/\bGRE\b/.test(tags) || s.id === "fulbright") add("gre", "GRE");
+  if (/\bHEC\b/.test(countryNote)) add("hec-portal", "HEC portal application");
+  if (/\bGRE\b/.test(tags) || /\bGRE required\b/.test(countryNote)) add("gre", "GRE");
   if (/work experience/i.test(tags) || s.work) add("work-proof", "Proof of work experience (employment letters)");
-  if (s.nomination || /nominat/i.test(tags)) add("nomination", "Nomination from university / department / supervisor");
+  if (s.nominationBody) add("nomination", `Nomination: ${s.nominationBody.replace(/\s*\(.*\)$/, "")}`);
+  else if (/nominat/i.test(tags)) add("nomination", "Nomination from university / department / supervisor");
+  if (s.residencyRequired) add("residence-proof", "Proof you live in your home country");
   if (/host professor|supervisor letter|acceptance letter|invitation letter/i.test(tags)) add("host", "Host professor / supervisor acceptance letter");
   if (/research proposal/i.test(tags)) add("proposal", "Research proposal");
   if (/\bfee\b/i.test(tags)) add("fee", "Pay the application fee");
@@ -52,12 +58,12 @@ export function emptyEntry(): ChecklistEntry {
   return { done: [], custom: [] };
 }
 
-export function itemsFor(s: Scholarship, entry: ChecklistEntry | undefined): ChecklistItem[] {
-  return [...defaultChecklist(s), ...(entry?.custom ?? []).map((c) => ({ ...c, custom: true }))];
+export function itemsFor(s: Scholarship, entry: ChecklistEntry | undefined, nat: CountryCode | null = null): ChecklistItem[] {
+  return [...defaultChecklist(s, nat), ...(entry?.custom ?? []).map((c) => ({ ...c, custom: true }))];
 }
 
-export function progress(s: Scholarship, entry: ChecklistEntry | undefined): { done: number; total: number } {
-  const items = itemsFor(s, entry);
+export function progress(s: Scholarship, entry: ChecklistEntry | undefined, nat: CountryCode | null = null): { done: number; total: number } {
+  const items = itemsFor(s, entry, nat);
   const done = new Set(entry?.done ?? []);
   return { done: items.filter((it) => done.has(it.id)).length, total: items.length };
 }

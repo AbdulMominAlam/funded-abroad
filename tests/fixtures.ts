@@ -15,9 +15,10 @@ export function make(over: Partial<Scholarship> = {}): Scholarship {
     deadline: "2027-02-01T23:59:00+01:00",
     dlText: "1 Feb 2027",
     tags: [],
-    abroad: true,
+    eligibility: { type: "all" },
+    residencyRequired: false,
     work: false,
-    hec: false,
+    nominationBody: null,
     fields: "All fields",
     fieldCats: ["any"],
     note: "A note.",
@@ -27,3 +28,10 @@ export function make(over: Partial<Scholarship> = {}): Scholarship {
     ...over,
   };
 }
+
+import groupsJson from "../src/data/country-groups.json";
+import countriesJson from "../src/data/countries.json";
+import type { Groups } from "../src/eligibility";
+export const GROUPS = groupsJson as Groups;
+export const COUNTRY_CODES = new Set(countriesJson.map((c) => c.code));
+export const CTX = { countries: COUNTRY_CODES, groups: new Set(Object.keys(groupsJson)) };

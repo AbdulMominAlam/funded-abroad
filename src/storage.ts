@@ -4,6 +4,8 @@ export const KEYS = {
   shortlist: "fa-saved",
   checklists: "fa-checklists",
   theme: "fa-theme",
+  nat: "fa-nat",
+  lvl: "fa-lvl",
 } as const;
 
 export function storageAvailable(): boolean {
@@ -107,4 +109,14 @@ export function loadTheme(): ThemePref {
 export function saveTheme(t: ThemePref): void {
   if (t === "auto") safeRemove(KEYS.theme);
   else safeSet(KEYS.theme, t);
+}
+
+/** Remembered nationality / study level (validated by the caller). */
+export function loadProfile(): { nat: string | null; lvl: string | null } {
+  return { nat: safeGet(KEYS.nat), lvl: safeGet(KEYS.lvl) };
+}
+export function saveProfile(nat: string, lvl: string): void {
+  if (nat) safeSet(KEYS.nat, nat);
+  else safeRemove(KEYS.nat);
+  safeSet(KEYS.lvl, lvl);
 }

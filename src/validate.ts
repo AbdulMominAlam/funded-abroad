@@ -7,12 +7,58 @@ const ID = /^[a-z0-9][a-z0-9-]*$/;
 const REQUIRED_STRINGS = [
   "id", "name", "host", "country", "amount", "deadline", "dlText", "fields", "note", "url", "source", "verifiedOn",
 ] as const;
-const REQUIRED_BOOLS = ["full", "abroad", "work", "hec"] as const;
-const OPTIONAL_BOOLS = ["expected", "varies", "nomination"] as const;
+const REQUIRED_BOOLS = ["full", "residencyRequired", "work"] as const;
+const OPTIONAL_BOOLS = ["expected", "varies"] as const;
 const KNOWN_KEYS = new Set<string>([
   ...REQUIRED_STRINGS, ...REQUIRED_BOOLS, ...OPTIONAL_BOOLS,
   "region", "levels", "tags", "fieldCats", "opens", "nextText", "checklist",
+  "eligibility", "nominationBody", "countryNotes",
 ]);
+
+export interface ValidationContext {
+  /** Valid nationality codes (from src/data/countries.json). */
+  countries: ReadonlySet<string>;
+  /** Group ids defined in src/data/country-groups.json. */
+  groups: ReadonlySet<string>;
+}
+
+/** Validate an eligibility rule; returns error messages. */
+export function validateEligibility(e: unknown, ctx: ValidationContext): string[] {
+  const errs: string[] = [];
+  if (!e || typeof e !== "object" || Array.isArray(e)) return ["eligibility must be an object like {\"type\": \"all\"}"];
+  const o = e as Record<string, unknown>;
+  const codes = (v: unknown, label: string) => {
+    if (!Array.isArray(v) || v.length === 0) return errs.push(`eligibility.${label} must be a non-empty array of country codes`);
+    const seen = new Set<string>();
+    for (const c of v) {
+      if (typeof c !== "string" || !ctx.countries.has(c)) errs.push(`eligibility.${label}: unknown country code "${String(c)}"`);
+      else if (seen.has(c)) errs.push(`eligibility.${label}: duplicate country code "${c}"`);
+      else seen.add(c);
+    }
+  };
+  const allowed: Record<string, string[]> = { all: ["type"], list: ["type", "countries"], exclude: ["type", "countries"], group: ["type", "group"], check: ["type", "note"] };
+  if (typeof o.type !== "string" || !(o.type in allowed)) return [`eligibility.type must be one of: ${Object.keys(allowed).join(", ")}`];
+  for (const k of Object.keys(o)) if (!allowed[o.type].includes(k)) errs.push(`eligibility: unexpected field "${k}" for type "${o.type}"`);
+  if (o.type === "list" || o.type === "exclude") codes(o.countries, "countries");
+  if (o.type === "group" && (typeof o.group !== "string" || !ctx.groups.has(o.group))) errs.push(`eligibility.group "${String(o.group)}" is not defined in country-groups.json`);
+  if (o.type === "check" && (typeof o.note !== "string" || !o.note.trim())) errs.push("eligibility.note must explain who can apply");
+  return errs;
+}
+
+/** Validate src/data/country-groups.json. */
+export function validateGroups(data: unknown, countries: ReadonlySet<string>): string[] {
+  const errs: string[] = [];
+  if (!data || typeof data !== "object" || Array.isArray(data)) return ["country-groups.json must be an object of groups"];
+  for (const [id, g] of Object.entries(data as Record<string, unknown>)) {
+    const o = g as Record<string, unknown>;
+    if (!/^[a-z0-9-]+$/.test(id)) errs.push(`group "${id}": id must be lowercase letters, digits and hyphens`);
+    if (typeof o?.name !== "string" || !o.name) errs.push(`group "${id}": missing name`);
+    if (!isHttpsUrl(o?.source)) errs.push(`group "${id}": source must be an https URL`);
+    if (!Array.isArray(o?.countries) || !o.countries.length) errs.push(`group "${id}": countries must be a non-empty array`);
+    else for (const c of o.countries) if (!countries.has(c as string)) errs.push(`group "${id}": unknown country code "${String(c)}"`);
+  }
+  return errs;
+}
 
 function validDate(y: number, m: number, d: number): boolean {
   const dt = new Date(Date.UTC(y, m - 1, d));
@@ -47,7 +93,7 @@ export function isHttpsUrl(v: unknown): boolean {
 }
 
 /** Validate the whole dataset. Returns a list of human-readable errors (empty = valid). */
-export function validateScholarships(data: unknown): string[] {
+export function validateScholarships(data: unknown, ctx: ValidationContext): string[] {
   const errors: string[] = [];
   if (!Array.isArray(data)) return ["Data must be a JSON array of scholarships."];
   if (data.length === 0) errors.push("Data array is empty.");
@@ -98,6 +144,19 @@ export function validateScholarships(data: unknown): string[] {
     }
     if ("nextText" in s && (typeof s.nextText !== "string" || !s.nextText.trim())) err("nextText must be a non-empty string");
     if (s.expected === true && s.varies === true) err("use either expected or varies, not both");
+    if (!("eligibility" in s)) err("missing eligibility");
+    else for (const m of validateEligibility(s.eligibility, ctx)) err(m);
+    if (!("nominationBody" in s) || (s.nominationBody !== null && (typeof s.nominationBody !== "string" || !s.nominationBody.trim()))) {
+      err("nominationBody must be a non-empty string or null");
+    }
+    if ("countryNotes" in s) {
+      const cn = s.countryNotes;
+      if (!cn || typeof cn !== "object" || Array.isArray(cn)) err("countryNotes must be an object like {\"PK\": \"…\"}");
+      else for (const [k, v] of Object.entries(cn)) {
+        if (!ctx.countries.has(k)) err(`countryNotes: unknown country code "${k}"`);
+        if (typeof v !== "string" || !v.trim()) err(`countryNotes.${k} must be a non-empty string`);
+      }
+    }
   });
   return errors;
 }

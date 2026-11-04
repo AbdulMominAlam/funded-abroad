@@ -179,3 +179,24 @@ dialog.compare::backdrop{background:rgba(10,16,13,.55)}
   .compare td{min-width:160px}
 }
 @media (max-width:640px) and (max-height:900px){ .controls{position:static} }
+
+/* ---------- v3: nationality & level ---------- */
+.profile{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:flex-end;margin-top:18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px}
+.pfield{display:flex;flex-direction:column;gap:4px;flex:1 1 220px;min-width:0}
+.pfield label{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.pfield input,.pfield select{font:inherit;font-size:1rem;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);width:100%}
+.pfield input:focus-visible,.pfield select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.natwrap{position:relative}
+.natwrap input{padding-right:36px}
+.nat-clear{all:unset;cursor:pointer;position:absolute;right:8px;top:50%;transform:translateY(-50%);color:var(--muted);padding:2px 6px;border-radius:4px}
+.nat-clear:focus-visible{outline:2px solid var(--accent)}
+.phint{flex:1 1 100%;margin:0;font-size:.84rem;color:var(--muted)}
+.phint b{color:var(--ink)}
+.item.ineligible{opacity:.62;background:var(--closed-soft)}
+.item.ineligible:focus-within,.item.ineligible:hover{opacity:.9}
+.inelig-reason,.elig-check,.elig-info{margin:6px 0 0;font-size:.84rem}
+.inelig-reason{color:var(--warn)}
+.elig-check{color:var(--warn)}
+.elig-info{color:var(--muted)}
+.cnote{margin:8px 0 0;font-size:.85rem;max-width:70ch;background:var(--accent-soft);border-radius:6px;padding:6px 10px}
+.count small{display:block}
