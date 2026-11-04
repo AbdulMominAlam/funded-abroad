@@ -1,0 +1,516 @@
+[
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "iter-internship",
+    "name": "ITER Internship Programme",
+    "host": "ITER Organization",
+    "country": "France",
+    "region": "europe",
+    "amount": "€1,300/month (EU universities) or €1,500/month (non-EU universities) for Master's-level; €700/month for Bachelor's-level",
+    "rolling": true,
+    "dlText": "Positions posted in recruitment campaigns; check the internships page",
+    "tags": [
+      "ITER Member nationality",
+      "Enrolled Bachelor's/Master's/PhD",
+      "2–6 months, extendable to 1 year",
+      "On-site in Saint-Paul-lez-Durance"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "CN",
+        "IN",
+        "JP",
+        "KR",
+        "RU",
+        "US"
+      ]
+    },
+    "fields": "Fusion engineering, physics, IT, project management, administration",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Paid internships at the ITER fusion project for students enrolled in a member-country institution who hold an ITER Member passport (EU, China, India, Japan, Korea, Russia, US). UK applicants are currently not accepted; internships under two months or fully remote are unpaid.",
+    "url": "https://www.iter.org/public/jobs/internships",
+    "source": "https://www.iter.org/sites/default/files/media/2025-09/welcome-booklet-for-iter-interns-2026.pdf"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "irena-internship",
+    "name": "IRENA Internship Programme",
+    "host": "International Renewable Energy Agency (IRENA)",
+    "country": "United Arab Emirates",
+    "region": "middle-east",
+    "amount": "Monthly stipend for interns not sponsored by another body (amount in each vacancy; check official page)",
+    "rolling": true,
+    "dlText": "Rolling – internships advertised individually",
+    "tags": [
+      "Postgraduate or final-year undergraduate",
+      "Recent graduates within 6 months",
+      "2–6 months",
+      "Abu Dhabi / Bonn"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Renewable energy policy, finance, data, technology, communications",
+    "fieldCats": [
+      "engineering",
+      "social",
+      "sciences"
+    ],
+    "note": "IRENA internships last two to six months and come with a monthly stipend towards living and accommodation costs, unless the intern is already sponsored by a government or university.",
+    "url": "https://www.irena.org/About/Employment",
+    "source": "https://www.irena.org/About/Employment"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "aiib-global-internship",
+    "name": "AIIB Global Internship Program",
+    "host": "Asian Infrastructure Investment Bank (AIIB)",
+    "country": "China",
+    "region": "east-asia",
+    "amount": "USD 90 per workday + round-trip economy flight for eligible in-person interns from outside Beijing",
+    "deadline": "2027-02-28T23:59:00+08:00",
+    "dlText": "28 Feb 2027 (annual deadline; time not stated) – estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "Graduate students",
+      "2 months (+1 optional)",
+      "Beijing HQ",
+      "Accommodation not covered"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Open to students worldwide; AIIB normally recruits nationals of its member countries – check the call."
+    },
+    "fields": "Infrastructure finance, investment, economics, law, IT, corporate functions",
+    "fieldCats": [
+      "social",
+      "engineering",
+      "any"
+    ],
+    "note": "Two-month summer internships at AIIB headquarters in Beijing with a USD 90 daily stipend and a return flight for eligible interns. Applications close 28 February each year.",
+    "url": "https://www.aiib.org/en/opportunities/career/job-vacancies/internship/index.html",
+    "source": "https://www.aiib.org/en/opportunities/career/job-vacancies/internship/index.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unops-internship",
+    "name": "UNOPS Internships",
+    "host": "United Nations Office for Project Services (UNOPS)",
+    "country": "Any (UNOPS offices worldwide)",
+    "region": "global",
+    "amount": "Monthly stipend if not funded by another institution (amount stated in each vacancy) + possible one-time USD 500 travel lump sum",
+    "rolling": true,
+    "dlText": "Rolling – per vacancy",
+    "tags": [
+      "Students or recent graduates",
+      "Stipend if unsponsored",
+      "Vacancy-based",
+      "Worldwide duty stations"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Project management, procurement, infrastructure, partnerships, communications, ICT",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "UNOPS interns may receive a monthly stipend when they have no funding from other institutions; the amount is listed in each vacancy announcement. Interns arrange their own accommodation and visas.",
+    "url": "https://jobs.unops.org/Pages/About/WhatWeOffer.aspx",
+    "source": "https://jobs.unops.org/Pages/About/WhatWeOffer.aspx"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "unwomen-internship",
+    "name": "UN Women Internship Programme",
+    "host": "UN Women",
+    "country": "Any (UN Women offices worldwide)",
+    "region": "global",
+    "amount": "Stipend for basic daily costs if not funded by a university/government/scholarship (check official page)",
+    "rolling": true,
+    "dlText": "Rolling – per vacancy",
+    "tags": [
+      "Students or recent graduates",
+      "Stipend if unsponsored",
+      "Travel/housing not covered"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Gender equality, human rights, policy, communications, programme support",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Interns are not salaried but may receive a stipend covering basic daily costs such as meals and local transport when no other body funds them. Some country offices run unpaid internships, so check each vacancy.",
+    "url": "https://www.unwomen.org/en/about-us/employment/internship-programme",
+    "source": "https://www.unwomen.org/en/about-us/employment/internship-programme"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "funding": "partial",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "iiasa-yssp",
+    "name": "IIASA Young Scientists Summer Program (YSSP)",
+    "host": "International Institute for Applied Systems Analysis (IIASA)",
+    "country": "Austria",
+    "region": "europe",
+    "amount": "Funding via your country's IIASA National Member Organization or IIASA YSSP scholarships (check official page)",
+    "deadline": "2027-01-10T23:00:00+01:00",
+    "dlText": "10 Jan 2027, 23:00 Vienna time",
+    "tags": [
+      "PhD students",
+      "3 months in Laxenburg",
+      "In person, full-time",
+      "NMO or scholarship funding"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "PhD students of any nationality; funding comes from IIASA National Member Organizations or the YSSP Fund for those without NMO support."
+    },
+    "fields": "Systems analysis: climate, energy, food, water, population, risk",
+    "fieldCats": [
+      "sciences",
+      "social",
+      "engineering"
+    ],
+    "note": "Three-month summer research stay at IIASA near Vienna for PhD students, ideally one to two years from completion. Participants are funded through their National Member Organization or IIASA scholarships; applications for YSSP 2027 are open now.",
+    "url": "https://iiasa.ac.at/early-career/yssp",
+    "source": "https://iiasa.ac.at/train-with-us/yssp-young-scientists-summer-program/application-information"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "gavi-internship",
+    "name": "Gavi Internship Programme",
+    "host": "Gavi, the Vaccine Alliance",
+    "country": "Switzerland",
+    "region": "europe",
+    "amount": "Fixed Gavi stipend for basic living expenses for interns not sponsored by their university (check official page)",
+    "rolling": true,
+    "dlText": "Rolling – per opening",
+    "tags": [
+      "Students or recent graduates",
+      "6–24 weeks, full-time",
+      "Geneva or Washington DC",
+      "Travel not covered"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Global health, vaccine programmes, finance, policy, communications",
+    "fieldCats": [
+      "social",
+      "sciences",
+      "any"
+    ],
+    "note": "Gavi interns who are not sponsored by their university receive a fixed stipend for basic living costs. Placements in Geneva or Washington DC run 6–24 weeks; interns pay their own travel and housing.",
+    "url": "https://www.gavi.org/work-with-us/internship-programme",
+    "source": "https://www.gavi.org/work-with-us/internship-programme"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "gggi-internship",
+    "name": "GGGI Internship Program",
+    "host": "Global Green Growth Institute (GGGI)",
+    "country": "Any (GGGI offices; HQ Seoul)",
+    "region": "global",
+    "amount": "Paid (check official page; a 2022 posting listed USD 500/month)",
+    "rolling": true,
+    "dlText": "Rolling – per vacancy",
+    "tags": [
+      "Students or recent graduates",
+      "3–6 months",
+      "Travel/housing not covered"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Green growth, climate finance, sustainable energy, policy",
+    "fieldCats": [
+      "social",
+      "engineering",
+      "sciences"
+    ],
+    "note": "GGGI internships of three to six months carry a modest monthly stipend; travel, insurance and accommodation are the intern's responsibility. Openings are posted on GGGI's careers site.",
+    "url": "https://gggi.org/who-we-are/careers/fellowships-and-internships/",
+    "source": "https://www.gggi.org/wp-content/uploads/2022/06/Internship-Terms-of-Reference_FSM-2022_Final_1_20220624.pdf"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ctbto-internship",
+    "name": "CTBTO Internship Programme",
+    "host": "CTBTO Preparatory Commission",
+    "country": "Austria",
+    "region": "europe",
+    "amount": "€500/month stipend + up to €500/month for accommodation, for interns without other funding (subject to funds)",
+    "rolling": true,
+    "dlText": "Rolling – per vacancy",
+    "tags": [
+      "Age 18–35",
+      "2+ years of university study",
+      "3–12 months, Vienna",
+      "Travel not covered"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Seismology, radionuclide science, IT, legal, political affairs",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "social"
+    ],
+    "note": "Interns without external funding may receive a EUR 500 monthly stipend plus up to EUR 500 towards rent, subject to available funds. Interns cover their own travel to Vienna.",
+    "url": "https://www.ctbto.org/work-with-us/employment/internships",
+    "source": "https://www.ctbto.org/work-with-us/employment/internships"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ilri-graduate-fellowship",
+    "name": "ILRI Graduate Fellowship Programme",
+    "host": "International Livestock Research Institute (ILRI, CGIAR)",
+    "country": "Kenya",
+    "region": "global",
+    "amount": "Minimum stipend USD 1,000/month (Kenya, Asia, other sites) or USD 550/month (Ethiopia)",
+    "rolling": true,
+    "dlText": "Rolling – per fellowship opportunity",
+    "tags": [
+      "Enrolled MSc or PhD students",
+      "Thesis research at ILRI",
+      "6–36 months"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Livestock science, animal health, genetics, agricultural economics",
+    "fieldCats": [
+      "sciences",
+      "social"
+    ],
+    "note": "Graduate fellows (MSc/PhD students) do thesis research at ILRI sites in Kenya, Ethiopia and Asia with a monthly stipend paid in local currency. Openings are posted on ILRI's graduate fellowship page.",
+    "url": "https://www.ilri.org/graduate-fellowship-opportunities",
+    "source": "https://cgspace.cgiar.org/bitstreams/ab1d5a8d-1572-40e7-b1dc-1fdb88fba199/download"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "efsa-traineeship",
+    "name": "EFSA Traineeship Programme",
+    "host": "European Food Safety Authority (EFSA)",
+    "country": "Italy",
+    "region": "europe",
+    "amount": "Monthly maintenance grant (amount set in each call) + travel reimbursement",
+    "opens": "2027-03-11",
+    "deadline": "2027-04-15T23:59:00+02:00",
+    "dlText": "~15 Apr 2027 (time not stated) – estimated from 2026 cycle",
+    "expected": true,
+    "tags": [
+      "University degree (3+ years)",
+      "English B2",
+      "5–12 months in Parma",
+      "Limited non-EU places"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "EU nationals; a limited number of non-EU nationals are also accepted."
+    },
+    "nextText": "Annual call; 2026 call ran 11 Mar–15 Apr 2026",
+    "fields": "Food safety science, risk assessment, data, communications, administration",
+    "fieldCats": [
+      "sciences",
+      "social",
+      "any"
+    ],
+    "note": "Paid traineeships at EFSA in Parma with a monthly grant and travel reimbursement. Mainly for EU citizens, but some places go to non-EU graduates (visa required).",
+    "url": "https://www.efsa.europa.eu/en/careers/starting-your-career-at-efsa",
+    "source": "https://www.efsa.europa.eu/sites/default/files/documents/calls/recruitstatus.pdf"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "icrc-graduate-traineeship",
+    "name": "ICRC Graduate Traineeships (Geneva)",
+    "host": "International Committee of the Red Cross (ICRC)",
+    "country": "Switzerland",
+    "region": "europe",
+    "amount": "About CHF 3,934 gross/month (13 instalments); Swiss work permit arranged",
+    "rolling": true,
+    "dlText": "Rolling – per posting",
+    "tags": [
+      "Recent graduates",
+      "Max ~1 year paid work experience",
+      "Geneva HQ",
+      "Relocation costs not reimbursed"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Humanitarian law, operations, data, communications, archives, finance",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Salaried graduate traineeships at ICRC headquarters in Geneva for recent graduates with little professional experience. Student traineeships of up to 90 days are unpaid.",
+    "url": "https://careers.icrc.org/content/Graduates/?locale=en_GB",
+    "source": "https://careers.icrc.org/content/Graduates/?locale=en_GB"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "iucn-internship",
+    "name": "IUCN Internships",
+    "host": "International Union for Conservation of Nature (IUCN)",
+    "country": "Any (IUCN offices; e.g. Washington DC, Gland)",
+    "region": "global",
+    "amount": "Stipend set per office (e.g. USD 1,500/month full-time in Washington DC postings; check each vacancy)",
+    "rolling": true,
+    "dlText": "Rolling – per vacancy",
+    "tags": [
+      "Students or recent graduates",
+      "Vacancy-based",
+      "Stipend varies by office"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Depends on duty station and local work authorisation – check each vacancy."
+    },
+    "fields": "Conservation, biodiversity assessment, forests, climate, communications",
+    "fieldCats": [
+      "sciences",
+      "social"
+    ],
+    "note": "IUCN offices post internships individually with stipends set by the duty station; recent Washington DC postings paid USD 1,500 a month full-time. Some regional internships may be externally funded or self-funded.",
+    "url": "https://hrms.iucn.org/",
+    "source": "https://hrms.iucn.org/vacancy/1454"
+  }
+]
