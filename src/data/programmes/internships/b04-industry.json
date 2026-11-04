@@ -412,5 +412,439 @@
     "note": "ByteDance has merged its Top Seed talent programme into this campus recruitment drive for foundation-model research; internships are for students graduating in September 2027 or later. Top interns may join an extra AI-talent incentive scheme.",
     "url": "https://seed.bytedance.com/en/seedearlycareer",
     "source": "https://seed.bytedance.com/en/blog/bytedance-seed-2027-foundation-model-campus-recruitment-is-now-open-internships-included"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Enrolled MSc/PhD students; US positions require a valid work permit for internships in the US."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "id": "sony-ai-research-intern",
+    "name": "Sony AI Research Internships",
+    "host": "Sony AI / Sony Research",
+    "dlText": "Rolling per posting",
+    "tags": [
+      "MSc or PhD student",
+      "Robotics, gaming AI, audio, ethics",
+      "Work permit for host country"
+    ],
+    "fields": "AI/ML, robotics, gaming AI, audio/music technology, AI ethics",
+    "note": "Sony AI and Sony Research post research-intern openings (e.g. RL for gaming, robotics, music technology) on their careers page. Postings ask for MSc/PhD enrolment and Python/PyTorch skills.",
+    "url": "https://ai.sony/join-us",
+    "source": "https://ai.sony/join-us",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Enrolled Bachelor's, Master's or PhD students; work authorisation rules depend on the host country."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "id": "qualcomm-research-intern",
+    "name": "Qualcomm Internships (incl. Qualcomm AI Research)",
+    "host": "Qualcomm",
+    "dlText": "Rolling per posting · Summer 2027 roles recruiting from autumn 2026",
+    "tags": [
+      "BS/MS/PhD student",
+      "AI research, wireless, SoC roles",
+      "Locations incl. US, Canada, Netherlands, Spain"
+    ],
+    "fields": "AI/ML, computer vision, wireless, hardware and software engineering",
+    "note": "Qualcomm hires interns via its campus portal, including Qualcomm AI Research internships in Amsterdam and Barcelona (3–6 months) and summer/co-op roles in the US and Canada.",
+    "url": "https://www.qualcomm.com/campus",
+    "source": "https://careers.qualcomm.com/events/candidate?plannedEventId=rel5G23Km",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Students enrolled in a degree programme at an accredited institution; work authorisation per host country."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "id": "intel-labs-intern",
+    "name": "Intel Internships (incl. Intel Labs research internships)",
+    "host": "Intel",
+    "dlText": "Rolling per posting",
+    "tags": [
+      "Enrolled degree student",
+      "Filter postings by country",
+      "Intel Labs graduate research roles"
+    ],
+    "fields": "Computer science, electrical engineering, photonics, security, systems research",
+    "note": "Intel posts internships on its jobs site; Intel Labs offers graduate research internships (e.g. photonics, security & privacy, systems). Search postings by country and job type.",
+    "url": "https://www.intel.com/content/www/us/en/support/articles/000021775/programs/jobs-at-intel.html",
+    "source": "https://www.intel.com/content/www/us/en/support/articles/000021775/programs/jobs-at-intel.html",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Students in their graduating or penultimate year of an Associate, Bachelor's, Master's or PhD degree (or bootcamp); must work from London, Stockholm or NYC."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai",
+      "any"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "id": "spotify-summer-intern",
+    "name": "Spotify Summer Internship Program",
+    "host": "Spotify",
+    "dlText": "2027 postings not yet published (\"coming soon\"); fixed deadline per posting",
+    "tags": [
+      "Graduating or penultimate-year student",
+      "10 weeks, June–August",
+      "In office: London, Stockholm or NYC"
+    ],
+    "fields": "Engineering, data science, ML research, product and business roles",
+    "note": "Paid 10-week summer internships in London, Stockholm and New York; PhD students can join research/ML tracks, and Spotify also posts conference-linked research internships (RecSys, CoLM). No remote option.",
+    "url": "https://www.lifeatspotify.com/start-your-journey/students",
+    "source": "https://www.lifeatspotify.com/start-your-journey/students",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Enrolled BA/BS/MS/PhD students with at least one semester left; US work authorisation required."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "United States",
+    "region": "north-america",
+    "id": "samsung-research-america-intern",
+    "name": "Samsung Research America Internships",
+    "host": "Samsung Research America",
+    "dlText": "Rolling per posting",
+    "tags": [
+      "Undergraduate or postgraduate student",
+      "Publish papers/patents",
+      "US R&D labs"
+    ],
+    "fields": "AI/ML, mobile, multimedia, digital health and other R&D areas",
+    "note": "SRA offers internships across its US R&D labs for undergraduates and postgraduates; research interns contribute to patents and top-tier conference papers. Most internships are 12–14 weeks in summer.",
+    "url": "https://sra.samsung.com/internships/",
+    "source": "https://sra.samsung.com/internships/",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "University students in relevant fields; check the Sweden page for enrolment and work-permit requirements."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "Sweden",
+    "region": "europe",
+    "id": "ericsson-summer-intern-sweden",
+    "name": "Ericsson Summer Internships (Sweden, incl. R&D)",
+    "host": "Ericsson",
+    "opens": "2026-12-01",
+    "deadline": "2027-01-24T23:59:00+01:00",
+    "dlText": "24 Jan 2027 (window opens 1 Dec 2026), time not stated",
+    "tags": [
+      "University student",
+      "R&D track: CS, EE, maths, physics",
+      "Summer 2027 in Sweden"
+    ],
+    "fields": "Computer science, IT, electrical engineering, engineering physics, mathematics",
+    "note": "Ericsson's Swedish summer internships include a Research & Development track; applications for 2027 run 1 Dec 2026 – 24 Jan 2027 and selection is highly competitive.",
+    "url": "https://www.ericsson.com/en/careers/global-locations/sweden/summer-internship",
+    "source": "https://www.ericsson.com/en/careers/global-locations/sweden/summer-internship"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (set per location; e.g. €1,200/month gross full time in Barcelona)",
+    "eligibility": {
+      "type": "check",
+      "note": "Currently enrolled students (some postings accept recent graduates within 6 months); some countries require a university internship agreement."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai",
+      "any"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "Any (multiple locations)",
+    "region": "global",
+    "id": "sap-ixp-intern",
+    "name": "SAP iXp Internship Experience Program",
+    "host": "SAP",
+    "dlText": "Rolling per posting",
+    "tags": [
+      "Current student or recent graduate",
+      "Usually ~6 months",
+      "Postings in Europe, Americas, Asia"
+    ],
+    "fields": "Software development, data, research operations, business roles",
+    "note": "SAP's global paid internship programme with mentoring and an intern community; postings (search \"iXp\") set their own eligibility, length and start dates.",
+    "url": "https://jobs.sap.com/",
+    "source": "https://jobs.sap.com/job/Barcelona-SAP-iXp-Internship-Ambassador-Program-Intern-08019/1385622933/",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Enrolled students; non-EU students studying in the Netherlands need a tripartite (Nuffic) agreement with their school; students abroad must be willing to relocate."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "Netherlands",
+    "region": "europe",
+    "id": "asml-internships-nl",
+    "name": "ASML Internships and Graduation Assignments (Netherlands)",
+    "host": "ASML",
+    "dlText": "Rolling; new assignments usually released in May and November",
+    "tags": [
+      "Enrolled student (vocational to Master's)",
+      "3–12 months, mostly 5–6",
+      "Must be located in the Netherlands"
+    ],
+    "fields": "Physics, optics, software engineering, mechatronics and other technical fields",
+    "note": "Paid internships and Bachelor/Master thesis assignments at ASML Veldhoven. Apply at least three months before your desired start; selection includes a HireVue video interview.",
+    "url": "https://www.asml.com/en/careers/students-new-graduates/netherlands/internships",
+    "source": "https://www.asml.com/en/careers/students-new-graduates/netherlands/internships",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Must be enrolled at a Dutch university and graduating in 2028 (any nationality)."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "Netherlands",
+    "region": "europe",
+    "id": "booking-swe-intern",
+    "name": "Booking.com Software Engineering Summer Internship (Amsterdam)",
+    "host": "Booking.com",
+    "deadline": "2026-10-30T23:59:00+01:00",
+    "dlText": "30 Oct 2026 (closed), time not stated",
+    "nextText": "Next round expected ~autumn 2027",
+    "tags": [
+      "Enrolled at a Dutch university",
+      "Graduating in 2028",
+      "9 weeks from July 2027"
+    ],
+    "fields": "Software engineering, computer science",
+    "note": "Paid 9-week summer programme in Amsterdam for Dutch-university students; applications for summer 2027 closed on 30 Oct 2026.",
+    "url": "https://careers.booking.com/early-careers/",
+    "source": "https://jobs.booking.com/booking/jobs/30330?lang=en-us"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "University students; see each posting for degree level and US work authorisation."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "United States",
+    "region": "north-america",
+    "id": "tri-internship",
+    "name": "Toyota Research Institute Internship Program",
+    "host": "Toyota Research Institute",
+    "dlText": "Rolling; applications typically open in autumn for the next summer, most filled by spring",
+    "tags": [
+      "University students",
+      "12-week summer internships",
+      "Start May–July"
+    ],
+    "fields": "AI, robotics, driving technology, materials science",
+    "note": "TRI interns work with a mentor on AI, robotics, driving and materials research; some teams ask for a short project proposal. No formal housing, but a relocation guide is provided.",
+    "url": "https://www.tri.global/tri-internship-program",
+    "source": "https://www.tri.global/tri-internship-program",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Mostly current PhD students (some postings); US work authorisation per posting."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "United States",
+    "region": "north-america",
+    "id": "honda-ri-usa-intern",
+    "name": "Honda Research Institute USA Research Internships",
+    "host": "Honda Research Institute USA",
+    "dlText": "Rolling per posting",
+    "tags": [
+      "Mostly PhD students",
+      "Mountain View, San Jose, Columbus",
+      "Publication expected"
+    ],
+    "fields": "Autonomous driving, robotics, multimodal AI, social science, materials science",
+    "note": "HRI-US posts research intern projects (driving, motion planning, human-AI teaming, materials) with the aim of publishing at top venues; apply via the intern positions page or careers@honda-ri.com with the job number.",
+    "url": "https://usa.honda-ri.com/intern-positions",
+    "source": "https://usa.honda-ri.com/intern-positions",
+    "rolling": true
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Paid (salary set per location; check official page)",
+    "eligibility": {
+      "type": "check",
+      "note": "Graduate students in CS/EE; past cohorts included PhD students from US and foreign universities; US work authorisation per posting."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "verifiedOn": "2026-11-04",
+    "country": "United States",
+    "region": "north-america",
+    "id": "nec-labs-america-intern",
+    "name": "NEC Laboratories America Research Internships",
+    "host": "NEC Laboratories America",
+    "dlText": "Rolling; Summer 2027 postings open now",
+    "tags": [
+      "Graduate (mostly PhD) students",
+      "10–12 weeks, full time",
+      "Princeton NJ / San Jose CA"
+    ],
+    "fields": "Machine learning, media analytics, systems security, optical communications",
+    "note": "Nearly 50 PhD interns join NEC Labs America each year; 2027 research intern roles are posted by department (optical teams open later).",
+    "url": "https://www.nec-labs.com/careers/intern-program/",
+    "source": "https://www.nec-labs.com/careers/intern-program/",
+    "rolling": true
   }
 ]
