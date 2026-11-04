@@ -291,5 +291,669 @@
     "url": "https://studyinitaly.esteri.it/",
     "source": "https://www.esteri.it/en/servizi-opportunita/opportunita/borse-di-studio/per-cittadini-stranieri/borsestudio_stranieri/",
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-aminef-indonesia",
+    "name": "Fulbright Foreign Student Program – Indonesia",
+    "host": "AMINEF (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Travel, tuition and fees, insurance, monthly maintenance, books, computer",
+    "deadline": "2027-02-15T23:59:00+07:00",
+    "dlText": "15 Feb 2027, 23:59 WIB",
+    "tags": [
+      "Indonesian citizens",
+      "GPA ≥3.0/4.0",
+      "TOEFL/IELTS/Duolingo score at application"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "ID"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Fulbright commission in Indonesia",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "AMINEF's Fulbright Master's Degree Scholarship covers travel, tuition and fees, insurance, a monthly allowance, books and a computer for a two-year US master's. Screening runs Mar–May, interviews Jun–Jul, and study starts in the fall of the following year.",
+    "url": "https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/scholarship/fulbright-masters-degree-scholarship/",
+    "source": "https://www.aminef.or.id/grants-for-indonesians/deadlines-timeline/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-comexus-mexico",
+    "name": "Fulbright Foreign Student Program – Mexico",
+    "host": "COMEXUS (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Up to US$37,000 per academic year (master's up to 18 months)",
+    "opens": "2026-09-02",
+    "deadline": "2027-01-15T23:59:00-06:00",
+    "dlText": "15 Jan 2027 (call opened 2 Sep 2026; for study starting Aug 2028; time not stated)",
+    "tags": [
+      "Mexican citizens",
+      "Study starts Aug 2028",
+      "Up to 5 US university applications supported"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "MX"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Fulbright commission in Mexico",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "COMEXUS's Fulbright-García Robles graduate grant pays up to US$37,000 per academic year (up to 18 months for a master's) and helps with admission to up to five US universities. The current call is for studies starting in August 2028, and the official page shows some conflicting dates, so confirm on the site.",
+    "url": "https://www.comexus.org.mx/becas_para_mexicanos/fulbright_garcia_robles",
+    "source": "https://www.comexus.org.mx/becas_para_mexicanos/fulbright_garcia_robles",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-turkiye",
+    "name": "Fulbright Foreign Student Program – Türkiye",
+    "host": "Fulbright Türkiye (Turkish Fulbright Commission) (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-04-10T23:59:00+03:00",
+    "dlText": "10 Apr 2026 (2027-28 round, closed; time not stated)",
+    "nextText": "Next round (2028-29) expected ~Apr 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Turkish citizens",
+      "Up to 2 academic years",
+      "No age limit"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "TR"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Fulbright commission in Türkiye",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fulbright Türkiye's master's grant funds up to two academic years in the US, with no upper age limit, starting in fall 2027 for this round. The 2027-28 round closed on 10 Apr 2026; a separate doctoral grant has the same deadline.",
+    "url": "https://fulbright.org.tr/burs/3/Y%C3%BCksek-Lisans-Bursu",
+    "source": "https://fulbright.org.tr/burs/3/Y%C3%BCksek-Lisans-Bursu",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-argentina",
+    "name": "Fulbright Foreign Student Program – Argentina",
+    "host": "Comisión Fulbright Argentina (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-03-25T23:59:00-03:00",
+    "dlText": "25 Mar 2026, end of day (2027-28 call, closed)",
+    "nextText": "Next call ~Jan–Mar 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Argentine citizens",
+      "Master's or PhD in the US",
+      "Call opens late January"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AR"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Fulbright commission in Argentina",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fulbright Argentina's regular master's and doctoral grants for study in the US. The 2027-28 call ran 30 Jan–25 Mar 2026 for programmes starting Aug/Sep 2027, with co-funded variants (Ministerio de Capital Humano, IAPG Houston) on the same deadline.",
+    "url": "https://fulbright.edu.ar/course/beca-master-y-doctorado/",
+    "source": "https://fulbright.edu.ar/course/beca-master-y-doctorado/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-colombia",
+    "name": "Fulbright Foreign Student Program – Colombia",
+    "host": "Comisión Fulbright Colombia (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-05-15T23:59:00-05:00",
+    "dlText": "15 May 2026, 23:59 Colombia time (cohort 2027, closed)",
+    "nextText": "Next call ~spring 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Colombian citizens",
+      "≥1 year professional experience",
+      "Master's in the US"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "CO"
+      ]
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "The Fulbright commission in Colombia",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The J. William Fulbright Program funds a master's in the US for Colombian professionals. The cohort-2027 call closed on 15 May 2026. Applicants needed a bachelor's degree obtained by 31 Dec 2023 and at least one year of professional experience.",
+    "url": "https://fulbright.edu.co/en/portfolio-academico/j-william-fulbright-program/",
+    "source": "https://fulbright.edu.co/wp-content/uploads/2026/03/TdR_Beca-J.-William-Fulbright-Conv-2026-CH2027_VF-1.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-japan",
+    "name": "Fulbright Foreign Student Program – Japan",
+    "host": "Japan-U.S. Educational Commission (Fulbright Japan) (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-07-01T23:59:00+09:00",
+    "dlText": "1 Jul 2026 (postmark; 2027-28 round, closed)",
+    "nextText": "Next round: registration ~Mar–May 2027, applications ~1 Jul 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Japanese citizens residing in Japan",
+      "Online registration by ~1 May",
+      "Bachelor's by 31 Mar of grant year"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "JP"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Fulbright commission in Japan",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fulbright Japan's Graduate Study Program for Japanese citizens living in Japan. For 2027-28, online registration ran 1 Mar–1 May 2026 and applications were due by postmark on 1 Jul 2026, with interview results in November 2026.",
+    "url": "https://www.fulbright.jp/scholarship/programs/education.html",
+    "source": "https://www.fulbright.jp/eng/scholarship/japanese.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-paef-philippines",
+    "name": "Fulbright Foreign Student Program – the Philippines",
+    "host": "Philippine-American Educational Foundation (PAEF) (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-04-30T23:59:00+08:00",
+    "dlText": "30 Apr 2026 (2027-28 round, closed; time not stated)",
+    "nextText": "Next round (2028-29) expected to open ~Dec 2026",
+    "tags": [
+      "Filipino citizens",
+      "≥2 years work experience",
+      "Master's 1–2 years"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "PH"
+      ]
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "The Fulbright commission in the Philippines",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "PAEF's Fulbright Foreign Student Program funds master's or doctoral study in the US for Filipino professionals with at least two years of work experience after college. The 2027-28 round closed on 30 Apr 2026; PAEF says the application period usually runs December to March.",
+    "url": "https://www.fulbright.org.ph/index.php/fulbright-foreign-student-program",
+    "source": "https://www.fulbright.org.ph/index.php/fulbright-foreign-student-program",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-vietnam",
+    "name": "Fulbright Foreign Student Program – Vietnam",
+    "host": "U.S. Embassy & Consulate in Vietnam (Fulbright Program) (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-04-15T17:00:00+07:00",
+    "dlText": "15 Apr 2026, 17:00 Vietnam time (2027-28 round, closed)",
+    "nextText": "Next round (2028-29) ~Jan–Apr 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Vietnamese citizens residing in Vietnam",
+      "≥2 years work experience",
+      "IELTS 6.5 / TOEFL 80"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "VN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "The Fulbright commission in Vietnam",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The Fulbright Vietnamese Student Program funds a US master's for Vietnamese citizens living in Vietnam with at least two years of post-graduation work experience. English minimums for the last round were TOEFL iBT 80 / IELTS 6.5 / Duolingo 110.",
+    "url": "https://vn.usembassy.gov/fulbright-vietnamese-student-program/",
+    "source": "https://vn.usembassy.gov/fulbright-vietnamese-student-program-academic-year-2027-2028/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-korea",
+    "name": "Fulbright Foreign Student Program – Korea",
+    "host": "Korean-American Educational Commission (Fulbright Korea) (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-05-19T17:00:00+09:00",
+    "dlText": "19 May 2026, 17:00 KST (2027 round, closed)",
+    "nextText": "Next round (fall 2028 entry) ~Apr–May 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Korean citizens",
+      "Master's or PhD, 2 years",
+      "Separate STEM and NKD tracks"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Fulbright commission in Korea",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fulbright Korea's Graduate Student Program funds a two-year US master's or PhD. For fall 2027, applications ran 1 Apr–19 May 2026 with finalists announced 18 Sep 2026; already-admitted applicants must be able to defer to fall 2027.",
+    "url": "https://www.fulbright.or.kr/en/grant/graduate/",
+    "source": "https://www.fulbright.or.kr/grant/graduate/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "fulbright-bangladesh",
+    "name": "Fulbright Foreign Student Program – Bangladesh",
+    "host": "U.S. Embassy in Bangladesh (Fulbright Program) (US Department of State Fulbright Program)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (Fulbright grants typically cover tuition, living stipend, travel and insurance)",
+    "deadline": "2026-07-11T23:59:00+06:00",
+    "dlText": "11 Jul 2026, 23:59 BST (Bangladesh time; 2027-28 round, closed)",
+    "nextText": "Next round usually Feb–Jun 2027",
+    "tags": [
+      "Bangladeshi citizens",
+      "Junior faculty / researchers preferred",
+      "No foreign master's"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BD"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Fulbright commission in Bangladesh",
+    "fields": "Most fields (some exclusions such as clinical medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Funds a one- to two-year US master's starting September 2027, preferring junior faculty and junior to mid-level staff at research bodies, think tanks and NGOs. You can't already hold a foreign (non-Bangladeshi) master's or a US degree.",
+    "url": "https://bd.usembassy.gov/fulbright-foreign-student-program-announcement/",
+    "source": "https://bd.usembassy.gov/fulbright-foreign-student-program-announcement/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nawa-banach",
+    "name": "Banach NAWA Programme",
+    "host": "Polish National Agency for Academic Exchange (NAWA)",
+    "country": "Poland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "check official page (scholarship for second-cycle studies)",
+    "deadline": "2026-05-08T15:00:00+02:00",
+    "dlText": "8 May 2026, 15:00 CEST, or earlier when a country group hits its application cap (2026 call, closed)",
+    "nextText": "Next call expected ~Apr–Jun 2027 (2025 closed 27 Jun, 2026 closed 8 May)",
+    "tags": [
+      "36 Polish Aid countries",
+      "Bachelor's obtained 2024 or later",
+      "B2 English or Polish",
+      "Study starts October"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of the 36 Polish Aid countries listed in the call (Eastern Europe, Asia, Africa, Latin America, e.g. Ukraine, Vietnam, Nigeria)."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any second-cycle programme at Polish universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "NAWA funds second-cycle (master's) studies or a preparatory course in Poland for recent graduates from Polish Aid countries. The 2026 call closed on 8 May 2026, or earlier for groups that reached their cap (300 applications each in groups 1–3, 200 in group 4), so apply early. You also need admission from the university.",
+    "url": "https://nawa.gov.pl/en/students/foreign-students/the-banach-scholarship-programme/landing",
+    "source": "https://nawa.gov.pl/images/Banach/2026/Banach-2026---Call-for-applications-EN.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nawa-poland-my-first-choice",
+    "name": "Poland My First Choice NAWA",
+    "host": "Polish National Agency for Academic Exchange (NAWA)",
+    "country": "Poland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "PLN 2,000/month + tuition exemption at public universities",
+    "deadline": "2026-05-29T15:00:00+02:00",
+    "dlText": "29 May 2026, 15:00 Warsaw time (2026 call, closed)",
+    "nextText": "Next call expected ~spring 2027",
+    "tags": [
+      "High-income countries/territories",
+      "B2 in language of instruction",
+      "Full-time master's in Poland"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Candidates from countries and territories with a high level of socio-economic development, as listed in the call."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any full-time second-cycle programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "A monthly stipend of PLN 2,000 plus tuition exemption at public universities for a full-time master's in Poland. The 2026 call closed on 29 May 2026 and awarded 25 scholarships from 42 applications. You apply separately for university admission.",
+    "url": "https://nawa.gov.pl/en/nawa/news/poland-my-first-choice-nawa-2026",
+    "source": "https://nawa.gov.pl/images/Poland-My-first-choice/2026/PMFC-2026---Ogloszenie-EN.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "estonia-national-scholarship",
+    "name": "Estonian National Scholarship for Degree and Exchange Study",
+    "host": "Estonian Ministry of Education and Research / Education and Youth Board (Harno)",
+    "country": "Estonia",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€350/month (master's), €660/month (PhD)",
+    "deadline": "2026-10-31T23:59:00+02:00",
+    "dlText": "31 Oct 2026, 23:59 Estonian time (window 1–31 Oct 2026, closed)",
+    "nextText": "Next round ~Oct 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "Eligible-country list (Annex 1)",
+      "Admission letter required",
+      "Only 15 awards",
+      "No Russian/Belarusian citizens"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of the countries in Annex 1 of the scholarship guide; citizens of Russia and Belarus excluded for 2026/27."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any master's or doctoral field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "A small number (15) of monthly stipends for foreign master's and PhD students admitted to an Estonian university. You apply by email with your admission letter, during October. It covers living costs only, not tuition.",
+    "url": "https://harno.ee/en/scholarships-and-grants/scholarships-studying-and-working-estonia/scholarships-international",
+    "source": "https://harno.ee/en/scholarships-and-grants/scholarships-studying-and-working-estonia/scholarships-international",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "lithuania-state-masters",
+    "name": "Lithuanian State Scholarships for Full-Time Master's Studies",
+    "host": "Education Exchanges Support Foundation (Lithuanian Ministry of Education, Science and Sport)",
+    "country": "Lithuania",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€592/month (2026) + grant covering study costs up to the national standard",
+    "deadline": "2026-04-20T16:00:00+03:00",
+    "dlText": "20 Apr 2026, 16:00 Vilnius time (2026 call, closed)",
+    "nextText": "Next call ~spring 2027; country list changes yearly",
+    "tags": [
+      "16 listed countries + Lithuanian origin",
+      "No prior master's",
+      "A1 Lithuanian in year 1",
+      "70 grants"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AM",
+        "AZ",
+        "CN",
+        "TW",
+        "GE",
+        "ID",
+        "IL",
+        "JP",
+        "KZ",
+        "MD",
+        "NZ",
+        "PH",
+        "KR",
+        "UA",
+        "US",
+        "UZ",
+        "VN"
+      ]
+    },
+    "countryNotes": {
+      "UA": "Ukraine has its own quota of 20 grants."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any full-time master's at Lithuanian universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "A monthly stipend plus coverage of study costs for a full master's in Lithuania. The 2026 call (70 grants) closed on 20 Apr 2026. Foreign citizens of Lithuanian origin from outside the EU/EFTA are also eligible. You apply to the university and to the scholarship separately.",
+    "url": "https://studyin.lt/scholarships/full-time-master-degree-studies/",
+    "source": "https://studyin.lt/scholarships/full-time-master-degree-studies/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "amexcid-mexico-excellence",
+    "name": "Mexican Government Excellence Scholarships for Foreigners (Becas de Excelencia)",
+    "host": "Mexican Agency for International Development Cooperation (AMEXCID), SRE",
+    "country": "Mexico",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "~MXN 14,265/month for master's (4× UMA, 2026); 5× UMA for doctoral/postdoctoral research stays",
+    "deadline": "2026-06-22T15:00:00-06:00",
+    "dlText": "22 Jun 2026, 15:00 central Mexico time (2026 call, closed)",
+    "nextText": "Next call published ~May 2027 (annual, May–June)",
+    "tags": [
+      "170+ eligible countries",
+      "Admission to participating institution",
+      "Apply via SIGCA",
+      "Programmes in national postgraduate system"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Foreign nationals of the 170+ countries listed in the call; Mexicans are not eligible."
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Master's, doctorate and research stays at about 90 participating Mexican institutions",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Mexico's annual scholarship for foreigners, paying a monthly stipend tied to the UMA unit, at about 90 institutions with programmes in the national postgraduate system. The 2026 call ran 21 May–22 Jun 2026 through SIGCA. Admission doesn't guarantee a scholarship.",
+    "url": "https://www.gob.mx/amexcid/acciones-y-programas/becas-para-extranjeros-29785",
+    "source": "https://www.gob.mx/cms/uploads/attachment/file/1080054/ESP__2026_Convocatoria_Excelencia.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "agcid-republica-de-chile",
+    "name": "República de Chile Master's Scholarships (AGCID)",
+    "host": "Chilean Agency for International Development Cooperation (AGCID)",
+    "country": "Chile",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "check official page",
+    "deadline": "2026-10-30T23:59:00-03:00",
+    "dlText": "30 Oct 2026 final deadline (2027 call, closed); check your country's focal point for its earlier document deadline",
+    "nextText": "Next call expected ~mid-2027 (estimated from previous calls)",
+    "tags": [
+      "Latin America & Caribbean",
+      "Apply via national focal point",
+      "Basic Spanish required",
+      "Admission letter required"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of the Latin American and Caribbean countries invited in the call; check the current call text."
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "Your country's AGCID focal point",
+    "fields": "Master's programmes at Chilean universities (taught in Spanish)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The Chilean government's master's scholarship for Latin American and Caribbean professionals, for studies from 3 Mar 2027 to 28 Feb 2029. You apply through your country's focal point with a final admission letter. The 2027 call's final deadline was 30 Oct 2026.",
+    "url": "https://www.agci.cl/index.php/becas/becas-para-extranjeros",
+    "source": "https://appspublic.agci.cl/convocatorias/extranjeros.php",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "brazil-pec-pg",
+    "name": "PEC-PG (Programa de Estudantes-Convênio de Pós-Graduação)",
+    "host": "Government of Brazil (CNPq / Ministry of Foreign Affairs)",
+    "country": "Brazil",
+    "region": "global",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "R$2,100/month master's (24 months), R$3,100/month doctorate (48 months), plus SUS health access",
+    "rolling": true,
+    "dlText": "Set by each participating Brazilian institution (eligible institutions announced Nov–Dec 2026; scholarships start Mar 2027–Mar 2028)",
+    "tags": [
+      "Participating countries only",
+      "Must live in a participating country",
+      "Apply via the Brazilian institution",
+      "Up to 100 master's + 100 PhD"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of the developing countries with education agreements with Brazil, who live in a participating country; Brazilian nationals excluded."
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "Brazilian host institution",
+    "fields": "Any field at participating Brazilian graduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Under CNPq Call 16/2026, Brazilian institutions select foreign master's and doctoral students for up to 100 + 100 scholarships. Once CNPq publishes the list of eligible institutions (Nov–Dec 2026), contact those programmes for their deadlines.",
+    "url": "https://www.gov.br/mre/pt-br/assuntos/cultura-e-educacao/temas-educacionais/programas-de-estudo-para-estrangeiros/pec-pg-pos-graduacao-1/processo-seletivo",
+    "source": "https://www.gov.br/mre/pt-br/embaixada-bangkok/noticias-e-editais/programa-de-estudantes-convenio-de-pos-graduacao-pec-pg-2013-processo-seletivo-2027",
+    "verifiedOn": "2026-11-04"
   }
 ]
