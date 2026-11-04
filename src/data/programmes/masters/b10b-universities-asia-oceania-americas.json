@@ -185,5 +185,574 @@
     "url": "https://adm-g.postech.ac.kr/ENG/graduate-info/support-policy/",
     "source": "https://adm-g.postech.ac.kr/ENG/graduate-info/support-policy/",
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "khalifa-grad-intl",
+    "name": "Khalifa University Graduate Scholarship for International Students",
+    "host": "Khalifa University of Science and Technology",
+    "country": "United Arab Emirates",
+    "region": "middle-east",
+    "full": true,
+    "funding": "full",
+    "amount": "Tiered: top tiers full tuition + AED 20,000/month stipend, flights, insurance, textbooks; lower tiers 25–75% tuition and smaller stipends",
+    "rolling": true,
+    "dlText": "Fall 2027 master's applications not yet open (only PhD listed, closing 1 Feb 2027); register interest on the admissions page",
+    "tags": [
+      "Tier set by academic merit",
+      "Full-time students",
+      "One programme per semester"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AE"
+      ]
+    },
+    "fields": "Engineering, science, CS/AI, medicine-related research",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Scholarship tiers range from full tuition with a large monthly stipend down to partial tuition waivers, so check which tier your offer gives. MSc tuition without a scholarship is about AED 155,000/year.",
+    "url": "https://www.ku.ac.ae/scholarship/graduate-research-teaching-scholarship-for-international-students",
+    "source": "https://www.ku.ac.ae/scholarship/graduate-research-teaching-scholarship-for-international-students"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "kfupm-grad-ms",
+    "name": "KFUPM Graduate Scholarship (MS, international)",
+    "host": "King Fahd University of Petroleum and Minerals",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "full": true,
+    "funding": "full",
+    "amount": "No tuition + monthly stipend (by category), free campus housing, medical care, textbooks, air tickets",
+    "deadline": "2026-12-15T23:59:00+03:00",
+    "dlText": "15 Dec 2026 (MS thesis-based window on the apply page; intake not labelled, time not stated)",
+    "tags": [
+      "High GPA required",
+      "Only select MS programmes funded",
+      "Research assistantship duties"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, sciences, computing, business (select MS programmes)",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Full scholarships go to distinguished MS applicants, mainly in thesis-based programmes without a matching PhD track. International master's students are funded as research assistants.",
+    "url": "https://cgis.kfupm.edu.sa/admission/kfupm-scholarship",
+    "source": "https://cgis.kfupm.edu.sa/apply"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "hbku-grad-scholarship",
+    "name": "HBKU Graduate Scholarship (Master's)",
+    "host": "Hamad Bin Khalifa University",
+    "country": "Qatar",
+    "region": "middle-east",
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition waiver (75% STEM, 60% SHAPE master's) + QAR 7,000/month stipend for international master's (up to 21 months) + one round-trip flight",
+    "deadline": "2027-02-01T23:59:00+03:00",
+    "varies": true,
+    "dlText": "1 Feb 2027 for international applicants to the College of Humanities and Social Sciences (time not stated); other colleges set their own dates",
+    "tags": [
+      "10 h/week RA/TA work",
+      "Stipend depends on funds",
+      "No waiver for MS Economics"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "STEM, humanities, social sciences, law, policy",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Tuition waivers are standard across HBKU and international master's students can also get a monthly stipend. Stipends depend on available funds and the stipend figures may be dated, so confirm them with HBKU.",
+    "url": "https://www.hbku.edu.qa/en/scholarship",
+    "source": "https://www.hbku.edu.qa/en/chss/admission-requirements"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "adelaide-academic-excellence-pg",
+    "name": "Adelaide Academic Excellence Scholarship (50%) – Postgraduate",
+    "host": "Adelaide University",
+    "country": "Australia",
+    "region": "oceania",
+    "full": false,
+    "funding": "partial",
+    "amount": "50% tuition fee reduction for the standard programme duration",
+    "rolling": true,
+    "dlText": "Considered with your coursework application; check the scholarship page for intake dates",
+    "tags": [
+      "GPA 6.7/7 or equivalent",
+      "Keep GPA 5.5",
+      "Coursework master's only"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Commencing international students (not Australian/NZ citizens or permanent residents) in eligible postgraduate coursework programmes"
+    },
+    "fields": "Most postgraduate coursework programmes (some psychology and health degrees excluded)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "A competitive 50% tuition reduction for high-achieving international coursework students. It does not cover living costs, visas or health cover, and excludes research degrees.",
+    "url": "https://adelaide.edu.au/study/scholarships/int/adelaide-academic-excellence-scholarship-50/",
+    "source": "https://adelaide.edu.au/content/dam/adelaideuniversity/documents/study/pdfs/adelaide-academic-excellence-scholarship.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "melbourne-research-scholarship-masters",
+    "name": "Melbourne Research Scholarship (Master by Research)",
+    "host": "The University of Melbourne",
+    "country": "Australia",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "100% fee remission + AUD 41,100/year stipend (2027 rate) for up to 2 years",
+    "deadline": "2027-01-31T23:59:00+11:00",
+    "varies": true,
+    "dlText": "Set by faculty and round; e.g. Medicine, Dentistry & Health Sciences Round 2 closes 31 Jan 2027 (time not stated)",
+    "tags": [
+      "Automatic consideration",
+      "~350 awards",
+      "Research master's (MPhil etc.)"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any research master's field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International applicants to a research master's are automatically considered when they apply by their faculty's closing date. Awards go to the highest-ranked applicants on academic results and research potential.",
+    "url": "https://scholarships.unimelb.edu.au/awards/melbourne-research-scholarship",
+    "source": "https://scholarships.unimelb.edu.au/awards/melbourne-research-scholarship"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "grips-mext",
+    "name": "GRIPS MEXT Scholarship (University Recommendation, MP1/MP2)",
+    "host": "National Graduate Institute for Policy Studies (GRIPS)",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "JPY 147,000/month + application, admission and tuition fees + return economy airfare",
+    "deadline": "2026-11-20T23:59:00+09:00",
+    "dlText": "Online registration 20 Nov 2026, documents 27 Nov 2026 (MP1/MP2, applicants outside Japan; time not stated)",
+    "tags": [
+      "Under 35 on 1 Apr 2027",
+      "Public policy master's",
+      "Applied for through GRIPS"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of countries with diplomatic relations with Japan, under 35 on 1 April 2027; MP1/MP2 are aimed at public officials"
+    },
+    "fields": "Public policy",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "For the 2027 intake GRIPS offers its MEXT places to master's students only in the MP1 and MP2 public policy programmes. You apply through GRIPS, not the embassy route. These programmes are often aimed at public officials, so check the work-experience requirement on GRIPS's page.",
+    "url": "https://www.grips.ac.jp/en/admissions/expenses/",
+    "source": "https://www.grips.ac.jp/uploads/admissions/2026/07/GRIPS_AppGuide_2027rev.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "hkust-mphil-pgs",
+    "name": "HKUST Postgraduate Studentship (MPhil)",
+    "host": "The Hong Kong University of Science and Technology",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "HK$19,135/month (2026/27) for up to 2 years; tuition scholarships available",
+    "rolling": true,
+    "dlText": "Programme-specific application rounds; check your MPhil programme page",
+    "tags": [
+      "Full-time research MPhil",
+      "Same rate for non-local students"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Science, engineering, business, humanities, social sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Full-time MPhil students admitted with funding get the monthly studentship. The Asian Future Leaders Scholarship pays up to about HK$279,120/year including tuition for young Asian MPhil scholars.",
+    "url": "https://fytgs.hkust.edu.hk/",
+    "source": "https://physics.hkust.edu.hk/programs/postgraduate-programs/scholarship-award"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "hku-mphil-pgs",
+    "name": "HKU Postgraduate Studentship (MPhil)",
+    "host": "The University of Hong Kong",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "HK$19,135/month basic rate (from 1 Sep 2025)",
+    "deadline": "2026-12-01T23:59:00+08:00",
+    "varies": true,
+    "dlText": "Main round 1 Dec 2026 for most faculties (Law: 15 Nov 2026, 23:59 HKT); time not stated for others",
+    "tags": [
+      "Full-time MPhil",
+      "Apply in main round"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any research field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Full-time MPhil students can get the Postgraduate Studentship, which is a living stipend. Apply in the main round, since studentships are mostly given then.",
+    "url": "https://gradsch.hku.hk/prospective_students/application/faq_on_application",
+    "source": "https://phd.hkubs.hku.hk/admissions/admission-application-and-tuition-fee/1000"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "nus-rs-masters",
+    "name": "NUS Research Scholarship (Master's by Research)",
+    "host": "National University of Singapore",
+    "country": "Singapore",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition waiver + S$2,900/month (international master's, rates from 1 Jan 2026), up to 2 years",
+    "rolling": true,
+    "dlText": "Applied for with research admission; deadlines vary by school",
+    "tags": [
+      "Graduate Assistantship duties",
+      "Must be MOE-subsidy eligible",
+      "Not all schools fund master's"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Research master's in participating faculties",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International research master's scholars get a full tuition waiver and a monthly stipend, but must do teaching or research assistant hours. Some schools (e.g. Public Health) do not fund research master's.",
+    "url": "https://nusgs.nus.edu.sg/scholarships/nus-research-scholarship",
+    "source": "https://nusgs.nus.edu.sg/scholarships/nus-research-scholarship"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "yonsei-global-leader-fellowship",
+    "name": "Yonsei Global Leader Fellowship (Graduate)",
+    "host": "Yonsei University Graduate School",
+    "country": "South Korea",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "Entrance and tuition fees + stipend, up to 4 semesters (master's)",
+    "rolling": true,
+    "dlText": "Spring and Fall admission rounds; check the graduate school's international scholarship guide",
+    "tags": [
+      "Recommended by college/school",
+      "GPA 3.4/4.3 to keep"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "fields": "Any graduate school field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Your college recommends you for this fellowship, and it is the most generous Yonsei graduate award. Departments also give full or 50% tuition scholarships (Outstanding International Student Scholarship) one semester at a time.",
+    "url": "https://graduate.yonsei.ac.kr/graduate_en/scholar/foreigner_scholar.do",
+    "source": "https://graduate.yonsei.ac.kr/graduate_en/scholar/foreigner_scholar.do"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "korea-univ-grad-intl",
+    "name": "Korea University Graduate School Foreign Student Scholarship",
+    "host": "Korea University Graduate School",
+    "country": "South Korea",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Type A: 100% entrance + tuition fee + living support (4 months); Types B/C: about 60–65% of tuition (first semester, renewable by GPA)",
+    "rolling": true,
+    "dlText": "Reviewed with the admission application each semester; check the current admission guide",
+    "tags": [
+      "Reviewed with admission",
+      "Renewal by GPA"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "fields": "Any graduate school field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Admission and scholarship review happen together, and the award tier is set at admission. Later semesters depend on your GPA, and sources are dated, so check the current guide.",
+    "url": "https://graduate2.korea.ac.kr/scholarship/scholarships.html",
+    "source": "https://graduate2.korea.ac.kr/scholarship/scholarships.html"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "nthu-intl-grad",
+    "name": "NTHU International Student Scholarship (Master's)",
+    "host": "National Tsing Hua University",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition and credit fee waiver + NT$5,000/month (full scholarship); tuition-only waiver tier also offered",
+    "rolling": true,
+    "dlText": "Applied for with admission; re-apply every year (check NTHU admission dates)",
+    "tags": [
+      "Re-apply yearly",
+      "Up to 2 years",
+      "Pays international fees"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "fields": "Any NTHU master's programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Covers tuition and credit fees with a small monthly stipend for international degree students. The award is yearly, so you must re-apply for your second year.",
+    "url": "https://apply.nthu.edu.tw/en/article/102-nthu-scholarship",
+    "source": "https://apply.nthu.edu.tw/en/article/102-nthu-scholarship"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "nycu-intl-grad",
+    "name": "NYCU International Student Scholarship (Graduate)",
+    "host": "National Yang Ming Chiao Tung University",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "Up to NT$33,000/month + tuition waiver for 2 years (amounts adjusted by budget; often NT$7,000–25,000/month)",
+    "rolling": true,
+    "dlText": "Incoming students apply with the admission application",
+    "tags": [
+      "GPA 3.5 to keep",
+      "2 Mandarin courses required",
+      "Advisor matching funds"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "fields": "Any NYCU graduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Stipend and tuition waiver can be awarded together or separately, and amounts change with the budget. Not open to holders of Taiwan government scholarships.",
+    "url": "https://oia.nycu.edu.tw/oia/en/app/data/view?id=792&module=nycu0012&serno=0f046f83-4147-4ec7-8921-bbaccd8c678f",
+    "source": "https://oia.nycu.edu.tw/oia/en/app/data/view?id=792&module=nycu0012&serno=0f046f83-4147-4ec7-8921-bbaccd8c678f"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "pku-intl-scholarship",
+    "name": "Peking University Scholarship for International Students (Graduate)",
+    "host": "Peking University",
+    "country": "China",
+    "region": "east-asia",
+    "full": true,
+    "funding": "full",
+    "amount": "Full or partial tuition waiver; top tier adds monthly living stipend + medical insurance (stipend amount not published)",
+    "rolling": true,
+    "dlText": "Usually due in January and March with the online admission application (studyatpku.com); check the 2027 notice",
+    "tags": [
+      "Self-funded applicants only",
+      "No other scholarship",
+      "Annual review"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "fields": "Any PKU master's programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "This is PKU's own scholarship, separate from the Chinese Government (CSC) awards, and you apply in the same online application. Not every award includes a living stipend.",
+    "url": "https://isd.pku.edu.cn/en/detail.php?id=525",
+    "source": "https://isd.pku.edu.cn/en/detail.php?id=819"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "otago-intl-masters-research",
+    "name": "University of Otago International Master's Research Scholarship",
+    "host": "University of Otago",
+    "country": "New Zealand",
+    "region": "oceania",
+    "full": true,
+    "funding": "full",
+    "amount": "NZ$18,204/year stipend + tuition waiver up to NZ$35,000 (thesis component, up to 1 year)",
+    "rolling": true,
+    "dlText": "Apply any time; applications reviewed four times a year",
+    "tags": [
+      "Only 4 awards a year",
+      "A/A+ grades",
+      "First master's, thesis-based"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students (not NZ citizens/residents) starting their first thesis-based master's"
+    },
+    "fields": "Any thesis-based master's",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Very competitive, with one award per teaching division each year. The waiver covers only the thesis part, so you may pay part of the fees.",
+    "url": "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/university-of-otago-international-masters-research-scholarship",
+    "source": "https://www.otago.ac.nz/administration/policies/regulations-and-notes-for-university-of-otago-postgraduate-research-scholarships"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "levels": [
+      "Master's"
+    ],
+    "id": "tohoku-intl-excellence",
+    "name": "Tohoku University International Excellence Scholarship",
+    "host": "Tohoku University",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Full or 50% tuition fee",
+    "rolling": true,
+    "dlText": "New from 2027 entry; recipients selected from entrance exam results, no fixed date",
+    "tags": [
+      "New from 2027",
+      "~top third of each programme",
+      "Tuition only"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students in undergraduate, master's or professional degree programmes at Tohoku University"
+    },
+    "fields": "Any Tohoku master's programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Replaces the old need-based tuition exemption from the 2027 academic year. About the top one-third of eligible students in each programme are expected to get it.",
+    "url": "https://www.tohoku.ac.jp/en/news/university_news/new_scholarship_program_for_international_students_2027.html",
+    "source": "https://www.tohoku.ac.jp/en/news/university_news/new_scholarship_program_for_international_students_2027.html"
   }
 ]
