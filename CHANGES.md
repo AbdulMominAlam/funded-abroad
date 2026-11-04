@@ -2,12 +2,12 @@
 
 Branch: `v4-data`, started from `v3-global`. Work date: **4 Nov 2026**, used for every `verifiedOn`.
 
-## Status: PARTIAL. The 550-programme target was not reached
+## Status: PARTIAL. The 550-programme target was not reached (309 after session 2)
 
 | | v3 | **v4 now** | Target |
 | --- | --- | --- | --- |
-| Total programmes | 106 | **251** | 550+ |
-| Internships / summer research | 6 | **54** | 120+ |
+| Total programmes | 106 | **309** | 550+ |
+| Internships / summer research | 6 | **112** | 120+ |
 | Undergraduate | 36 | **72** | 130+ |
 | Master's | 61 | **89** | 160+ |
 | PhD | 48 | **97** | 140+ |
@@ -137,6 +137,77 @@ Some programmes count toward more than one level.
 | JPMorgan AI PhD Fellowship | Not on official pages |
 | IMPRS-QST/MCQST, IMPRS-PKS | No closing date found |
 
+## Session 2 (resumed): internships
+
+Four batches ran in parallel this time, each capped at about 40 searches. They used about 132 of the 200-search budget, and none ran out.
+
+| Batch | Added | Highlights |
+| --- | --- | --- |
+| 1 Europe | +18 (file now 22) | DESY, GSI/FAIR, Jülich, HZDR, PSI, Amgen Scholars Europe hosts (only students enrolled at a European university), Max Planck CS internship, MPI-CBG, VBC, ICFO, ISTA year-round internships |
+| 2 Asia/Middle East | +10 (file now 17) | MBZUAI MGRIP, Westlake (summer research, WIRE), Academia Sinica TIIP, NUS (IRIS, SoC SRI, MBI MUST), NTU Global Connect, HKU summer research, HUJI Einstein REU |
+| 3 N. America/Oceania | +3 (file now 11) | Purdue SURF, Perimeter PSI Start, CMU RISS |
+| 4 Industry | +12 (file now 24) | Sony AI, Qualcomm, Intel Labs, Spotify, Samsung Research America, Ericsson, SAP iXp, ASML, Booking.com, Toyota Research Institute, Honda RI, NEC Labs |
+| 5 International organisations | +15 (file now 33) | ADB, AfDB, IFAD, WIPO, UNFPA, IOM, UNIDO, OPCW, Council of Europe, CJEU, ECA, NATO, IDB, BIS, EFTA |
+
+**Total now 309:** internships 112, undergraduate 72, master's 89, PhD 97.
+
+**Coordinator removals:**
+* IBM Extreme Blue: no current cohort confirmed.
+* HKUST IVISP: allowance "may be provided", so not guaranteed paid.
+
+**Least certain (session 2):**
+
+| Entry | Issue |
+| --- | --- |
+| `vbc-summer-school` | 11 Jan date from a page with no year |
+| `mpi-cbg-internship` | the 2027 call has closed; the next one is estimated from 2025 |
+| `hzdr-summer-student` | official pages say 24 Jan or 22 Feb; used 24 Jan |
+| `psi-summer-student`, `cactus-tuebingen` | stipend not stated |
+| `qualcomm-research-intern` | the source is a past event page |
+| `samsung-research-america-intern` | page looks dated |
+| `spotify-summer-intern` | 2027 not posted; not research-only |
+| `ericsson-summer-intern-sweden` | may need enrolment in Sweden |
+| `hku-summer-research` | estimated date |
+| `huji-einstein-reu` | small stipend, estimated date |
+| `nus-iris` | rolling |
+| `westlake-wire` | degree level unknown |
+| `cmu-riss` | international students only via partner pathways |
+| `efta-traineeship` | amount from an old page; rolling |
+| `bis-graduate-programme` | a graduate contract rather than an internship |
+| `cjeu-traineeship` | nationality rule unverified |
+| `iom-internship` | some posts unpaid (the note says so) |
+
+**Dropped in session 2:**
+
+| Candidate | Reason |
+| --- | --- |
+| European XFEL | No summer programme |
+| ISTernship | Paused |
+| DAAD WISE | Inactive |
+| IRB Barcelona | €250/month |
+| EMBL, Inria | Pay not set |
+| DKFZ | No paid undergraduate scheme |
+| Erasmus+ (non-European) | No grant for students enrolled outside Europe |
+| ICFO Summer Fellows | Spanish priority |
+| HKUST UROP, CUHK SURP, SUSTech, SJTU, Tohoku T-SRIP, Koç KUSRP, Technion summer | Fee-charging or unpaid |
+| ZJU GRIPS, NTHU | Funding not guaranteed |
+| QCRI | Online only, no stipend |
+| KAUST Gifted Student Program | Saudi nationals only |
+| IISc, TÜBİTAK, SNU, UNIST | No paid scheme for foreign students |
+| Osaka FrontierLab | Exchange only |
+| Google STEP | No page |
+| Siemens, Philips, Bosch, Huawei, Tencent, Baidu, Alibaba | No programme page |
+| Sony CSL | Not taking interns |
+| Jane Street, Citadel | Finance; visa rules vary by office |
+| Janelia Undergraduate Scholars | No sessions since 2022 |
+| UTSW SURF, St. Jude, Harvard and Princeton programmes | US-only or US-enrolled only |
+| CITA | No current information |
+| UNSW, Sydney, Melbourne, Monash, UQ, UBC, McGill summer research | Own or local students only |
+| IsDB | Payment not confirmed |
+| ITU, UNESCO, UNEP, OSCE | Unpaid |
+
+**Next session:** internships are near target (112/120). Prioritise **undergraduate** next (batches 6, 7a, 7b, 8), then master's (9, 10a, 10b, 11), at most 4 batches and about 40 searches each.
+
 ## How to resume (next session)
 
 1. `git checkout v4-data && git log --oneline | head`, then read this section.
@@ -148,11 +219,11 @@ Some programmes count toward more than one level.
 
 | Batch | Remaining candidates |
 | --- | --- |
-| 1 | DESY, European XFEL, GSI, JSC, ISTA ISTernship, MPI-INF/SWS, DAAD WISE, VBC, IRB Barcelona, ICFO, Biozentrum, Amgen Europe, Inria, EMBL |
-| 2 | NUS/NTU summer, Hong Kong, mainland China, MBZUAI UGRIP, QCRI, India, Türkiye, Taiwan |
-| 3 | CMU RISS, Janelia, CITA, Purdue SURF, UTSW SURF, St. Jude |
-| 4 | Sony AI, Qualcomm, Intel Labs, Spotify, Samsung, Ericsson, Siemens, SAP, ASML, Philips, Booking, Huawei |
-| 5 | ADB, AfDB, IsDB, IFAD, WIPO, ITU, UNESCO |
+| 1 | ✅ Resumed in session 2 (see below). Left: Biozentrum Basel, Heidelberg HGS |
+| 2 | ✅ Resumed in session 2. Left: none worth retrying (see drops) |
+| 3 | ✅ Resumed in session 2. Left: a few more open-to-international US/Canadian programmes, if any can be found |
+| 4 | ✅ Resumed in session 2. Left: none with official programme pages |
+| 5 | ✅ Resumed in session 2. Left: UN-Habitat, UNEP (unpaid), ITU/UNESCO (unpaid) |
 | 6 | Al-Azhar, KSU, KAU, Umm Al-Qura, Algeria, Tunisia, Cuba ELAM, Indonesia KNB (UG), Kazakhstan, Azerbaijan, Uzbekistan, Serbia, Poland Kalinowski, Mauritius-Africa, Manaaki Pacific, Allama Iqbal, Kuwait University, Chinese provincial schemes |
 | 7a | Northwestern, Vanderbilt, Rice, WashU, Carleton, Hamilton, Haverford, Colgate, Bates, Macalester, Trinity, Berea, Soka; McGill, UBC IMES, U of T Scholars, Waterloo, York, Carleton U, Concordia |
 | 7b | SMU, CUHK, HKUST, Japan, Korea, China, KFUPM, Khalifa, NYUAD, DKU, Australia/NZ, ALU, Ashesi, Italian DSU, Türkiye extras |
