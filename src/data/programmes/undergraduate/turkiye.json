@@ -1,0 +1,176 @@
+[
+  {
+    "id": "turkiye",
+    "name": "Türkiye Bursları (Türkiye Scholarships)",
+    "host": "Government of Türkiye (YTB)",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, dorm, monthly stipend, insurance, flights, Turkish course",
+    "opens": "2027-01-10",
+    "deadline": "2027-02-20T23:59:00+03:00",
+    "dlText": "10 Jan – 20 Feb 2027, 23:59 TRT",
+    "tags": [
+      "No IELTS needed",
+      "One application per cycle"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "One application per cycle covers undergraduate, master's and PhD. Not open to students already enrolled in Türkiye at the level they apply for (a bachelor's student there can still apply for a master's). Turkish citizens are not eligible.",
+    "url": "https://turkiyeburslari.gov.tr/",
+    "source": "https://turkiyeburslari.gov.tr/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "sabanci-ug",
+    "name": "Sabancı University International Undergraduate Scholarships",
+    "host": "Sabancı University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Automatic tuition waivers of 25–75% (100% rarely); tuition US$36,500/yr in 2026-27",
+    "opens": "2026-12-15",
+    "deadline": "2027-03-14T23:59:00+03:00",
+    "dlText": "Expected: applications ~15 Dec 2026 – late Aug 2027, early deadline ~mid-Mar 2027 (based on 2026)",
+    "expected": true,
+    "tags": [
+      "Automatic with admission",
+      "Rolling review"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, natural sciences, management, arts & social sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "No separate scholarship application; higher waivers go mostly to early applicants. Scholarships continue for the prep year and four undergraduate years under university rules.",
+    "url": "https://www.sabanciuniv.edu/en/undergraduate-admissions-international-students",
+    "source": "https://www.sabanciuniv.edu/en/undergraduate-admissions-international-students",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "koc-ug",
+    "name": "Koç University International Undergraduate Merit Scholarships",
+    "host": "Koç University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "25%, 50%, 75% or 100% tuition (tuition only)",
+    "dlText": "No separate deadline: every international applicant is considered automatically (check Koç's admission dates)",
+    "rolling": true,
+    "tags": [
+      "Automatic with admission",
+      "Medicine excluded"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Most Koç undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Tuition-only awards (no housing or living costs). For full funding including stipend, apply through Türkiye Bursları as well.",
+    "url": "https://international.ku.edu.tr/undergraduate-programs/tuition-and-scholarships/",
+    "source": "https://international.ku.edu.tr/undergraduate-programs/tuition-and-scholarships/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "bilkent-ug",
+    "name": "Bilkent University Comprehensive Scholarship (International)",
+    "host": "Bilkent University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Full tuition + 18,000 TL/month for 8 months + free double dorm room (2026-27 rates)",
+    "opens": "2027-02-02",
+    "deadline": "2027-07-12T23:59:00+03:00",
+    "dlText": "Expected ~2 Feb – 12 Jul 2027 (2026 window)",
+    "expected": true,
+    "tags": [
+      "Request financial aid on the application",
+      "Not for bachelor's holders"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Bilkent undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Awarded on high-school grades and exam scores. Students who don't use the dorm get an extra 13,000 TL/month (2026-27).",
+    "url": "https://w3.bilkent.edu.tr/en/scholarships/",
+    "source": "https://w3.bilkent.edu.tr/international/how-to-apply/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "metu-ug",
+    "name": "METU International Student Tuition Waivers",
+    "host": "Middle East Technical University (Ankara)",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Tuition discounts or exemptions by academic success (no other scholarships)",
+    "opens": "2027-06-01",
+    "deadline": "2027-07-12T23:59:00+03:00",
+    "dlText": "Expected Jul 2027 (2026 window: 1 Jun – 12 Jul); a September round may follow",
+    "expected": true,
+    "tags": [
+      "Automatic, no separate form"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, sciences, architecture, economics, education",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences",
+      "any"
+    ],
+    "note": "Discounts are reviewed every year and announced by email. METU's Northern Cyprus campus has its own waiver scheme.",
+    "url": "https://iso.metu.edu.tr/en/application-dates",
+    "source": "https://iso.metu.edu.tr/en/application-dates",
+    "verifiedOn": "2026-11-04"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "mbzuai-ug",
+    "name": "MBZUAI Undergraduate Scholarships",
+    "host": "Mohamed bin Zayed Univ. of AI",
+    "country": "UAE",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Merit- and need-based, up to 100% of tuition and cost of attendance (tuition US$45,000/yr); stipend not guaranteed",
+    "deadline": "2027-02-01T17:00:00+04:00",
+    "dlText": "Regular Decision 1 Feb 2027 (Early Action closed 1 Nov 2026) · decisions 1 Apr",
+    "tags": [
+      "AI-focused BSc"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Artificial intelligence",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "New undergraduate programme in AI. Scholarship level depends on merit and need.",
+    "url": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+    "source": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "saudi-gov",
+    "name": "Saudi Government Scholarships for International Students",
+    "host": "Saudi public universities / Ministry of Education",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Check official page / university",
+    "dlText": "Set by each university (apply on the university site or the Study in Saudi portal)",
+    "rolling": true,
+    "tags": [
+      "Age 17–25 (UG), ≤30 (master's), ≤35 (PhD)",
+      "No health/medical fields"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields except health and medicine",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Some home governments must approve study in Saudi Arabia. You'll need a police certificate and a medical check, and can't already hold another Saudi scholarship.",
+    "url": "https://www.moe.gov.sa/en/education/ResidentsAndvisitors/pages/publicuniversitiesscholarships.aspx",
+    "source": "https://www.moe.gov.sa/en/education/ResidentsAndvisitors/pages/publicuniversitiesscholarships.aspx",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "qatar-univ",
+    "name": "Qatar University International Students Scholarship",
+    "host": "Qatar University",
+    "country": "Qatar",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition and textbooks, QR 500/month, shared housing + transport, annual return flight, residence permit",
+    "opens": "2027-03-01",
+    "deadline": "2027-03-25T23:59:00+03:00",
+    "dlText": "Expected ~1 – 25 Mar 2027 (2026: 1 – 25 Mar; 2024: closed 13 Mar)",
+    "expected": true,
+    "tags": [
+      "Keep GPA ≥ 3.0",
+      "No transfer or second-degree students"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "QA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Qatar University undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "You must be admitted and registered for the term you apply for. Decisions usually in late May.",
+    "url": "https://www.qu.edu.qa/en-us/students/admission/scholarships/Pages/scholarships-timeline.aspx",
+    "source": "https://www.qu.edu.qa/en-us/students/admission/scholarships/Pages/scholarships-timeline.aspx",
+    "verifiedOn": "2026-11-04"
+  }
+]

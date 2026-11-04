@@ -1,0 +1,159 @@
+[
+  {
+    "id": "aga",
+    "name": "Aga Khan Foundation International Scholarship",
+    "host": "Aga Khan Foundation",
+    "country": "Any (you choose)",
+    "region": "global",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Tuition and living costs: 50% grant, 50% loan",
+    "deadline": "2027-03-31T23:59:00+05:00",
+    "dlText": "Next cycle opens early 2027 · deadline usually 31 Mar (local offices may be earlier)",
+    "expected": true,
+    "tags": [
+      "Local AKF office",
+      "Guarantor needed for loan",
+      "Some work experience preferred"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AF",
+        "AU",
+        "BD",
+        "EG",
+        "IN",
+        "KE",
+        "KG",
+        "MG",
+        "MZ",
+        "NZ",
+        "PK",
+        "SY",
+        "TJ",
+        "TZ",
+        "UG"
+      ]
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For students with no other way to finance study. Apply through the Aga Khan Foundation office in your country; only these 15 countries take part: Afghanistan, Australia, Bangladesh, Egypt, India, Kenya, Kyrgyz Republic, Madagascar, Mozambique, New Zealand, Pakistan, Syria, Tajikistan, Tanzania, Uganda.",
+    "url": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",
+    "source": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "adb-jsp",
+    "name": "ADB–Japan Scholarship Program",
+    "host": "Asian Development Bank",
+    "country": "Any (participating universities in Asia-Pacific)",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "dlText": "Apply to a participating university by its deadline (at least 6 months before the intake)",
+    "rolling": true,
+    "tags": [
+      "≥ 2 years' work after bachelor's",
+      "Age ≤ 35",
+      "Return home for 2 years"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of ADB borrowing member countries eligible for Japanese ODA"
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "fields": "Development-related master's at participating institutions",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "You apply to a participating university, which shortlists you for ADB. You must not be living or working outside your home country when you apply.",
+    "url": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
+    "source": "https://www.adb.org/work-with-us/careers/japan-scholarship-program",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "jj-wbgsp",
+    "name": "Joint Japan/World Bank Graduate Scholarship (JJ/WBGSP)",
+    "host": "World Bank + Government of Japan",
+    "country": "Any (44 participating master's)",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "opens": "2027-01-18",
+    "deadline": "2027-02-26T23:59:00-05:00",
+    "dlText": "Window 1: 18 Jan – 26 Feb 2027 (time: check guidelines)",
+    "tags": [
+      "≥ 3 years' development work",
+      "Currently employed",
+      "Unconditional admission first"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of World Bank member countries on the 2027 eligible list; no dual citizenship with a developed country"
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": null,
+    "fields": "Development-related master's at 44 participating programmes",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Study must be outside your country of citizenship and residence. You need exactly two professional references. People who declined an offer before can't reapply.",
+    "url": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp",
+    "source": "https://www.worldbank.org/en/programs/scholarships/jj-wbgsp",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "rotary-peace",
+    "name": "Rotary Peace Fellowship (Master's)",
+    "host": "Rotary International",
+    "country": "Any (Rotary Peace Centers)",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "deadline": "2026-05-15T23:59:00-05:00",
+    "dlText": "2027-28 closed 15 May 2026",
+    "nextText": "2028-29 application opens Feb 2027 (~15 May deadline)",
+    "tags": [
+      "≥ 3 years' peace/development work",
+      "≥ 3 years since last degree",
+      "District endorsement"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": "Your local Rotary district (endorsement)",
+    "fields": "Peace and conflict studies, development",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Rotary members and employees can't apply. Talk to your local Rotary district early, because it must interview and endorse you.",
+    "url": "https://www.rotary.org/get-involved/our-programs/peace-fellowships",
+    "source": "https://www.rotary.org/get-involved/our-programs/peace-fellowships",
+    "verifiedOn": "2026-11-04"
+  }
+]

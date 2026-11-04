@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mastercard-scholars",
+    "name": "Mastercard Foundation Scholars Program",
+    "host": "Mastercard Foundation + partner universities",
+    "country": "Any (partner universities)",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Comprehensive scholarship (check each partner university)",
+    "deadline": "2026-11-19T17:00:00+00:00",
+    "dlText": "Set by each partner university · e.g. Edinburgh 2027/28: 19 Nov 2026, 17:00 UK; Berkeley MDP: 1 Dec 2026",
+    "varies": true,
+    "tags": [
+      "Young Africans",
+      "Age ≤ 29 (UG) / ≤ 35 (master's)",
+      "Financial need"
+    ],
+    "eligibility": {
+      "type": "group",
+      "group": "african-union"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Varies by partner",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For young people from Africa with financial need. Apply to a partner university (most in Africa, some in North America, Europe and the Middle East) and its Scholars Program. Priority to young women, people with disabilities and displaced youth. No PhDs.",
+    "url": "https://mastercardfdn.org/en/articles/becoming-a-mastercard-foundation-scholar/",
+    "source": "https://edinburgh-global.ed.ac.uk/mastercard-foundation-scholars-program/apply-for-a-scholarship/application-timelines",
+    "verifiedOn": "2026-11-04"
+  }
+]

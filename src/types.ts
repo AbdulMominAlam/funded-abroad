@@ -58,6 +58,11 @@ export interface Scholarship {
   levels: Level[];
   /** true = fully funded; false = partial funding. */
   full: boolean;
+  /**
+   * Kind of funding. Optional: defaults to "full"/"partial" from `full`.
+   * "salaried" = a paid job (e.g. European PhD positions), "paid-internship" = a paid internship/traineeship.
+   */
+  funding?: FundingType;
   /** Human-readable amount. Use "check official page" if unknown. */
   amount: string;
   /** When applications open: YYYY-MM-DD or ISO date-time with offset. */
@@ -98,6 +103,17 @@ export interface Scholarship {
   verifiedOn: string;
   /** Extra programme-specific checklist items. */
   checklist?: string[];
+}
+
+export type FundingType = "full" | "partial" | "salaried" | "paid-internship";
+export const FUNDING_TYPES: Record<FundingType, string> = {
+  full: "Fully funded",
+  partial: "Partial funding",
+  salaried: "Salaried position",
+  "paid-internship": "Paid internship",
+};
+export function fundingOf(s: { full: boolean; funding?: FundingType }): FundingType {
+  return s.funding ?? (s.full ? "full" : "partial");
 }
 
 export const LEVELS: readonly Level[] = ["Undergraduate", "Master's", "PhD", "Internship"];

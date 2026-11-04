@@ -1,0 +1,399 @@
+[
+  {
+    "id": "yenching",
+    "name": "Yenching Academy Fellowship",
+    "host": "Peking University",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition, housing, monthly stipend, travel",
+    "deadline": "2026-11-30T09:00:00+08:00",
+    "dlText": "30 Nov 2026, 09:00 Beijing time",
+    "tags": [
+      "IELTS 7.0 / TOEFL 100"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "China studies, interdisciplinary",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Two-year English-taught interdisciplinary master's in China Studies. Around 120 places per cohort.",
+    "url": "https://yenchingacademy.pku.edu.cn/",
+    "source": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "gks",
+    "name": "Global Korea Scholarship (Graduate)",
+    "host": "NIIED, Government of Korea",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, airfare, monthly allowance, Korean language year",
+    "deadline": "2027-03-15T18:00:00+09:00",
+    "dlText": "Expected Feb–Mar 2027 · 2027 call not yet published",
+    "expected": true,
+    "tags": [
+      "Embassy or university track"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of countries in the GKS graduate guideline (about 150; Pakistan included); check the list in the official guideline"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Embassy track: watch the Korean Embassy in Islamabad for the graduate call."
+    },
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Last cycle was announced in February with embassy applications in Feb–Mar. Apply through a Korean embassy (embassy track) or directly to a designated university (university track). Korean citizens are not eligible.",
+    "url": "https://www.studyinkorea.go.kr/",
+    "source": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mext",
+    "name": "MEXT Research Scholarship (Embassy Recommendation)",
+    "host": "Government of Japan",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, ¥143,000–145,000/month, airfare",
+    "opens": "2027-04-20",
+    "deadline": "2027-05-26T23:59:00+05:00",
+    "dlText": "Set by each Japanese embassy (most screen Apr–Jun) · Pakistan: expected Apr–May 2027",
+    "varies": true,
+    "tags": [
+      "Written exam in Pakistan",
+      "No IELTS needed"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "JP"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Japanese embassy or consulate in your country",
+    "countryNotes": {
+      "PK": "Via the Embassy in Islamabad or the Consulate in Karachi; written exams are held in Pakistan. The 2027 round closed 26 May 2026."
+    },
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply through the Japanese embassy in your country, which runs the exams and interviews. The university-recommendation (general) route is being discontinued from AY2027 at several universities, so plan on the embassy route.",
+    "url": "https://www.pk.emb-japan.go.jp/itpr_en/MEXT_Research_Scholarship.html",
+    "source": "https://www.i.u-tokyo.ac.jp/edu/inter_ex/oir/scholarship_e.shtml",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kaist",
+    "name": "KAIST Scholarship (International Graduate Admission)",
+    "host": "KAIST",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full tuition (4 semesters MS / 8 PhD) + monthly stipend set by department/advisor + health insurance",
+    "deadline": "2027-03-16T17:00:00+09:00",
+    "dlText": "Expected: early track ~Dec 2026, regular track ~early–mid Mar 2027 (last: 3–17 Mar 2026, 17:00 KST)",
+    "expected": true,
+    "tags": [
+      "Recommendation letters due before the application closes"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS, AI",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Fall 2027 dates are 'TBA' on KAIST's timeline. The early track runs in December, so check in early December. Named awards (Global Presidential, Prestige) add extra stipends.",
+    "url": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
+    "source": "https://admission.kaist.ac.kr/intl-graduate/Admission/YearlyTimelines",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "tsinghua",
+    "name": "Tsinghua University Graduate Scholarships (CGS, university route)",
+    "host": "Tsinghua University",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "CGS: tuition, dorm, monthly stipend, insurance · Beijing Government Scholarship: tuition + insurance",
+    "deadline": "2026-12-15T23:59:00+08:00",
+    "dlText": "Apply by Tsinghua's first-round deadline, mid-Dec 2026, for CGS consideration (varies by programme)",
+    "varies": true,
+    "tags": [
+      "Apply directly to the university",
+      "Pre-admission required"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "This is separate from the HEC-nominated Chinese Government Scholarship; you can apply directly."
+    },
+    "fields": "Most fields incl. CS and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Separate from the government-nominated (bilateral) Chinese Government Scholarship. Tsinghua picks scholarship candidates only from pre-admitted applicants; each programme catalogue lists its own dates (portal open Sep 2026 – Feb 2027).",
+    "url": "https://yz.tsinghua.edu.cn/en/",
+    "source": "https://yz.tsinghua.edu.cn/en/info/1035/1583.htm",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "schwarzman",
+    "name": "Schwarzman Scholars",
+    "host": "Schwarzman College, Tsinghua University",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Full scholarship (check official page for what's covered)",
+    "deadline": "2026-09-09T15:00:00-04:00",
+    "dlText": "Closed 9 Sep 2026, 15:00 EDT",
+    "nextText": "Next round ~Apr – Sep 2027",
+    "tags": [
+      "Age 18–28",
+      "English test if not a native speaker"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "One-year master's in global affairs; any undergraduate major",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Must be under 29 on 1 August of the enrolment year and finish your bachelor's before then. No specific undergraduate field required.",
+    "url": "https://www.schwarzmanscholars.org/admissions/",
+    "source": "https://www.schwarzmanscholars.org/admissions/application-instructions/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "jds",
+    "name": "JDS Human Resource Development Scholarship (Japan)",
+    "host": "Government of Japan (JICA / JICE)",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Full scholarship for a 2-year master's in Japan (check official page)",
+    "deadline": "2026-11-20T23:59:00+09:00",
+    "dlText": "Set per country · e.g. Timor-Leste closes 20 Nov 2026; Laos tests late Jan 2027",
+    "varies": true,
+    "tags": [
+      "Civil servants of target organisations",
+      "≥ 2 years' work",
+      "Age limits by country"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only nationals of JDS target countries (e.g. Laos, Timor-Leste, Kyrgyz Republic, Bangladesh, Tajikistan, Maldives…); each country has its own rules"
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "Your government's target organisation (employer)",
+    "fields": "Public policy, development fields set per country",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Mostly for young government officials. Each country's JDS operating committee sets slots, age limits and dates.",
+    "url": "https://jds-scholarship.org/country/timorleste/",
+    "source": "https://jds-scholarship.org/country/laos/index.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "koica",
+    "name": "KOICA Scholarship Program",
+    "host": "Korea International Cooperation Agency",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "dlText": "2027 calls are posted by each KOICA country office (dates vary)",
+    "rolling": true,
+    "tags": [
+      "Government officials",
+      "Official government nomination",
+      "Preferably under 40"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Officials from KOICA partner countries (chosen from the OECD DAC list; changes yearly)"
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "Your government (via the KOICA office or Korean embassy)",
+    "fields": "Development-related master's courses in Korea",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Contact your country's KOICA office or nominating ministry for the 2027 guideline. Past Korean-government degree scholars are usually excluded.",
+    "url": "https://www.koica.go.kr/koica_en/3441/subview.do",
+    "source": "https://www.koica.go.kr/koica_en/3441/subview.do",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "malaysia-mis",
+    "name": "Malaysia International Scholarship (MIS)",
+    "host": "Ministry of Higher Education, Malaysia",
+    "country": "Malaysia",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition + RM 1,500/month",
+    "dlText": "2026/27 round closed; next round dates not announced (watch the MIS portal)",
+    "rolling": true,
+    "tags": [
+      "Age ≤ 40 (master's) / ≤ 45 (PhD)",
+      "Need a university offer",
+      "IELTS 6.5"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "MY"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Postgraduate study in Malaysia",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Needs a 2:1 (or CGPA 3.5) and an offer (conditional is fine) from a Malaysian university.",
+    "url": "https://biasiswa.mohe.gov.my/INTER/index.php",
+    "source": "https://biasiswa.mohe.gov.my/INTER/index.php",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "thailand-tipp",
+    "name": "Thailand International Postgraduate Programme (TIPP)",
+    "host": "Thailand International Cooperation Agency (TICA)",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "deadline": "2027-02-23T23:59:00+07:00",
+    "dlText": "Expected ~Feb 2027 (2026: 23 Feb; 2025: 31 Jan), via the Thai embassy",
+    "expected": true,
+    "tags": [
+      "Government nomination",
+      "Government staff preferred"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only nationals of countries on TICA's eligible list (includes e.g. Bangladesh, Kenya, Nepal, Pakistan, Philippines, Sri Lanka)"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your country's National Focal Point for development cooperation",
+    "fields": "Courses listed by TICA each year",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply online and send hard copies through the Royal Thai embassy.",
+    "url": "https://tica-thaigov.mfa.go.th/en/page/tipp?menu=605b13abb6f1b76ed31778b2",
+    "source": "https://tica-thaigov.mfa.go.th/en/page/tipp?menu=605b13abb6f1b76ed31778b2",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kdi-school",
+    "name": "KDI School Global Ambassador Scholarship",
+    "host": "KDI School of Public Policy and Management",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Full or partial tuition; some fully funded tracks (check official page)",
+    "dlText": "Fall 2027 deadline not yet announced (spring 2026 documents were due 28 Nov 2025)",
+    "rolling": true,
+    "tags": [
+      "No separate scholarship form"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Public policy, development, management",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Considered automatically when you apply. If you've already had a Korean government degree scholarship, you can't get another one for the same level here.",
+    "url": "https://kdischool.ac.kr/menu.es?mid=a40203000000",
+    "source": "https://kdischool.ac.kr/menu.es?mid=a40203000000",
+    "verifiedOn": "2026-11-04"
+  }
+]

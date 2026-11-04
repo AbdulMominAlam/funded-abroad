@@ -1,0 +1,101 @@
+[
+  {
+    "id": "imperial-presidents",
+    "name": "Imperial President's PhD Scholarships",
+    "host": "Imperial College London",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition + stipend (£27,036/yr for 2027-28 per Imperial; confirm) + £2,000/yr research costs for 3 years",
+    "deadline": "2027-01-11T23:59:00+00:00",
+    "dlText": "Round 2: 11 Jan 2027, 23:59 UK · Round 3: 1 Mar 2027 · department deadlines are earlier",
+    "tags": [
+      "First-class degree (or equivalent)",
+      "Some departments can't fund international students"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your prospective Imperial department",
+    "fields": "All Imperial PhD fields incl. computing and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Round 1 closed 2 Nov 2026. Apply for a PhD place and ask the department how and when it nominates. Only for new PhD applicants.",
+    "url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/",
+    "source": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ucl-res",
+    "name": "UCL Research Excellence Scholarships",
+    "host": "University College London",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full tuition (home or overseas) + stipend (£23,805 in 2026/27, rises with inflation)",
+    "deadline": "2027-01-08T23:59:00+00:00",
+    "dlText": "Fri 8 Jan 2027 (application + scholarship cover sheet; time not stated) · some departments earlier",
+    "tags": [
+      "Up to 40 awards",
+      "Separate cover sheet"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All UCL research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For new research students starting on or after 1 Oct 2027, any nationality. Some departments set earlier internal dates (e.g. STS: 4 Jan).",
+    "url": "https://www.ucl.ac.uk/scholarships/research-excellence-scholarship",
+    "source": "https://www.ucl.ac.uk/scholarships/research-excellence-scholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "edinburgh-informatics",
+    "name": "Edinburgh Informatics PhD Studentships",
+    "host": "University of Edinburgh, School of Informatics",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition (overseas rate) for 3 years + UKRI-rate stipend (check official page)",
+    "deadline": "2026-11-30T23:59:00+00:00",
+    "dlText": "30 Nov 2026, 23:59 UK (Round 1; the only round for international applicants)",
+    "tags": [
+      "Apply via EUCLID",
+      "Pick a research institute"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "AI, ML, NLP, robotics, vision, theory, systems, security",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Outcomes by April 2027. Centres for Doctoral Training (e.g. Quantum Informatics, AI for Biomedical Innovation) are separate applications with January deadlines.",
+    "url": "https://informatics.ed.ac.uk/study-with-us/our-degrees/postgraduate-research-programmes-and-centres-doctoral-training/postgraduate-research-funding-opportunities-0",
+    "source": "https://informatics.ed.ac.uk/study-with-us/our-degrees/postgraduate-research-programmes-and-centres-doctoral-training/postgraduate-research-funding-opportunities-0",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Research proposal"
+    ]
+  }
+]

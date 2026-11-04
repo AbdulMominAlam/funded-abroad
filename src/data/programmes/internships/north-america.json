@@ -1,0 +1,41 @@
+[
+  {
+    "id": "mitacs-gri",
+    "name": "Mitacs Globalink Research Internship",
+    "host": "Mitacs",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "deadline": "2026-09-17T13:00:00-07:00",
+    "dlText": "Summer 2027 call closed (Sep 2026; exact date not shown)",
+    "expected": true,
+    "nextText": "Next call expected ~Aug–Sep 2027",
+    "tags": [
+      "Undergraduates only",
+      "Min. GPA set per country",
+      "Enrolled at a university in a partner country"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students enrolled at universities in Mitacs partner countries for 2027 (Pakistan included); the list changes yearly"
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "All Pakistani universities are eligible for 2027, all disciplines, minimum cumulative GPA 80%."
+    },
+    "fields": "All disciplines",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "12-week research internship in Canada. Eligibility depends on where you study, and Mitacs changes partner countries each year. Last cycle's deadline was 17 Sep 2025.",
+    "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/",
+    "source": "https://www.mitacs.ca/gri-2027-eligible-universities/",
+    "verifiedOn": "2026-11-04"
+  }
+]

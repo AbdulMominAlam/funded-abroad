@@ -1,0 +1,216 @@
+[
+  {
+    "id": "swiss",
+    "name": "Swiss Government Excellence Scholarship",
+    "host": "Swiss Confederation (FCS)",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "CHF 2,450/month, fees waived, insurance",
+    "deadline": "2026-10-31T23:59:00+05:00",
+    "dlText": "Set per country (mostly Aug – Dec 2026) · Pakistan closed 31 Oct 2026",
+    "varies": true,
+    "nextText": "Next call opens ~Aug 2027",
+    "tags": [
+      "Born after 31 Dec 1991 (2027/28 round)",
+      "Master's by Jul 2027",
+      "Host professor letter"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of about 180 countries, each with its own quota and deadline; check your country's page"
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Swiss embassy in your country (pre-selection)",
+    "countryNotes": {
+      "PK": "Pakistan window was 20 Aug – 31 Oct 2026; contact islamabad.scholarships@eda.admin.ch."
+    },
+    "fields": "All research fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Research stays (6–12 months) and PhD scholarships, not taught master's. Apply through the Swiss embassy for your nationality.",
+    "url": "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",
+    "source": "https://www.sbfi.admin.ch/dam/en/sd-web/yBYiu8PC4jzg/2026-08-04_A_Z_List_of_countries_and_territories_complete.pdf",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Research proposal",
+      "Host professor acceptance letter"
+    ]
+  },
+  {
+    "id": "imprs-is",
+    "name": "IMPRS for Intelligent Systems (IMPRS-IS) PhD",
+    "host": "Max Planck Institute for Intelligent Systems, Univ. Stuttgart & Univ. Tübingen",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Funded doctoral position (amount: check official page)",
+    "deadline": "2026-11-15T23:59:00-12:00",
+    "dlText": "15 Nov 2026, 23:59 AoE (Anywhere on Earth)",
+    "tags": [
+      "2-page motivation letter",
+      "3 referees",
+      "Interviews 18–26 Feb 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Machine learning, computer vision, robotics, HCI, neuroscience",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "One intake a year; start from Feb 2027. Referees must upload their letters before the deadline, so ask them early.",
+    "url": "https://imprs.is.mpg.de/application",
+    "source": "https://imprs.is.mpg.de/news/imprs-is-now-accepting-applications-for-2027",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Two-page motivation letter"
+    ]
+  },
+  {
+    "id": "ellis-phd",
+    "name": "ELLIS PhD Program",
+    "host": "European Laboratory for Learning and Intelligent Systems",
+    "country": "Europe (multi-country)",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Positions are funded by the advisor's institution (terms vary; check official page)",
+    "deadline": "2026-10-31T23:59:00-12:00",
+    "dlText": "Closed 31 Oct 2026, 23:59 AoE",
+    "nextText": "Next call ~Oct 2027 (portal opened 1 Oct this year)",
+    "tags": [
+      "Advisor + co-advisor in different countries",
+      "References requested before the deadline"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Machine learning and AI",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Decisions late Feb – Mar 2027. Some advisors' institutions have their own (earlier) deadlines, so apply there in parallel. Individual ELLIS-listed PhD jobs have separate deadlines.",
+    "url": "https://ellis.eu/research/phd-postdoc",
+    "source": "https://ellis.eu/news/ellis-phd-program-call-for-applications-2026",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Choose advisor and co-advisor"
+    ]
+  },
+  {
+    "id": "cs-maxplanck",
+    "name": "CS@max planck Doctoral Program",
+    "host": "Max Planck Graduate Center for Computer and Information Science",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full financial support for admitted students (amount: check official page)",
+    "deadline": "2026-12-15T23:59:00+01:00",
+    "dlText": "Expected 15 Dec 2026 (Fall 2027 entry) · applications open 1 Sep",
+    "expected": true,
+    "tags": [
+      "≥2 references",
+      "GRE encouraged",
+      "English test unless taught in English"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer science and information science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "The official overview says applications must be complete by 15 December of the previous year but isn't dated; confirm the 2026 date. Bachelor's or master's in CS or a related field.",
+    "url": "https://www.cis.mpg.de/csmax-planck-admissions/",
+    "source": "https://www.cis.mpg.de/csmaxplanck-overview/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "epfl-edic",
+    "name": "EPFL EDIC Computer Science PhD Fellowship",
+    "host": "EPFL",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "First-year IC fellowship, then PhD salary (check official page); 55 fellowships in 2027",
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "dlText": "1 Dec 2026, 23:59 CET (main round) · 15 Apr 2027 second round, mainly local applicants",
+    "tags": [
+      "English test by deadline",
+      "Referees submit online"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer and communication sciences",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Admission needs EDIC committee approval plus an IC fellowship or a lab that hires you directly. The deadline moved from 15 Dec to 1 Dec from 2026.",
+    "url": "https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/edic-computer-and-communication-sciences/edic-how-to-apply/",
+    "source": "https://www.epfl.ch/education/phd/edic-computer-and-communication-sciences/edic-computer-and-communication-sciences/edic-how-to-apply/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ista-phd",
+    "name": "ISTA PhD Program",
+    "host": "Institute of Science and Technology Austria",
+    "country": "Austria",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Salary €3,053–3,673/month gross, paid 14 times a year (2026 rates); 5-year contract",
+    "deadline": "2027-01-08T15:00:00+01:00",
+    "dlText": "8 Jan 2027, 15:00 CET · references by 12 Jan, 23:59",
+    "tags": [
+      "Bachelor's or master's can apply"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "CS, maths, physics, biology, neuroscience, chemistry, data science",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Interviews late Feb – early Mar 2027; offers must be accepted by 15 Apr; everyone starts 15 Sep 2027.",
+    "url": "https://phd.pages.ista.ac.at/phd-application-admission/",
+    "source": "https://phd.pages.ista.ac.at/phd-application-admission/",
+    "verifiedOn": "2026-11-04"
+  }
+]

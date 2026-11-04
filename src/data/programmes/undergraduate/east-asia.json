@@ -1,0 +1,528 @@
+[
+  {
+    "id": "cgs",
+    "name": "Chinese Government Scholarship (Bilateral Program)",
+    "host": "China Scholarship Council (via your country's dispatching authority)",
+    "country": "China",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, dorm, monthly stipend (flights not covered)",
+    "opens": "2026-11-15",
+    "deadline": "2027-01-05T16:00:00+05:00",
+    "dlText": "Set by each dispatching authority (often Jan – Apr) · Pakistan (HEC): expected ~early Jan 2027",
+    "varies": true,
+    "tags": [
+      "Two portals",
+      "Dual nationals often ineligible"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your country's dispatching authority (e.g. HEC in Pakistan) or the Chinese embassy",
+    "countryNotes": {
+      "PK": "Via HEC (Type A). Last cycle closed 5 Jan 2026, 16:00 PKT with 75 seats (35 bachelor's, 25 master's, 15 PhD). Apply on both the HEC and CSC portals or you'll be disqualified."
+    },
+    "fields": "Most fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply through the scholarship agency or Chinese embassy in your country and on the CSC portal. Direct university (Type B) applications run separately.",
+    "url": "https://www.hec.gov.pk/english/scholarshipsgrants/lao/CGSP/Pages/default.aspx",
+    "source": "https://www.hec.gov.pk/site/CGSP",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mext-ug",
+    "name": "MEXT Undergraduate Scholarship (Embassy Recommendation)",
+    "host": "Government of Japan (MEXT)",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition, monthly allowance and airfare (amounts in the official guidelines)",
+    "deadline": "2026-06-02T23:59:00+01:00",
+    "dlText": "2027 round closed: embassy deadlines were ~late May – early Jun 2026 (e.g. US 31 May, Ireland 2 Jun)",
+    "varies": true,
+    "nextText": "2028 round: embassies usually open ~Apr 2027",
+    "tags": [
+      "Age limit (born on/after 2 Apr 2002 for 2027)",
+      "12 years of schooling",
+      "Written exams"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "JP"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Japanese embassy or consulate in your country",
+    "countryNotes": {
+      "PK": "Apply through the Embassy of Japan in Islamabad or the Consulate in Karachi."
+    },
+    "fields": "Most fields (5 years incl. 1 year of Japanese)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Five-year scholarship including a preparatory year of Japanese; most scholars start in April. Each embassy runs its own exams and dates, and some countries add age or grade rules.",
+    "url": "https://www.studyinjapan.go.jp/en/_mt/2026/04/2027_Guidelines_Undergraduate_E.pdf",
+    "source": "https://www.studyinjapan.go.jp/en/_mt/2026/04/2027_Guidelines_Undergraduate_E.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "gks-ug",
+    "name": "Global Korea Scholarship – Undergraduate (GKS-U)",
+    "host": "NIIED, Government of Korea",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition, airfare, monthly allowance and a Korean-language year (check official guideline)",
+    "deadline": "2026-09-30T18:00:00+09:00",
+    "dlText": "2027 embassy track closed ~30 Sep 2026, 18:00 KST (date from embassy notices) · university-track dates vary",
+    "expected": true,
+    "nextText": "2028 guideline expected ~Aug–Sep 2027",
+    "tags": [
+      "No bachelor's holders",
+      "Up to 2 universities"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of countries in the GKS-U guideline (embassy and university tracks have separate lists)"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply through a Korean embassy (embassy track) or a designated university (university track). You must graduate from high school by 31 Dec 2026 for the 2027 round. Korean citizens are not eligible.",
+    "url": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
+    "source": "https://www.studyinkorea.go.kr/ko/plan/scholarship.do",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "brunei-bdgs",
+    "name": "Brunei Darussalam Government Scholarship",
+    "host": "Government of Brunei Darussalam",
+    "country": "Brunei",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "opens": "2026-12-15",
+    "deadline": "2027-02-15T23:59:00+08:00",
+    "dlText": "Expected ~15 Dec 2026 – 15 Feb 2027 (last round: 15 Dec 2025 – 15 Feb 2026)",
+    "expected": true,
+    "tags": [
+      "Mainly first degrees",
+      "Apply via the Brunei embassy"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Primarily citizens of ASEAN, Commonwealth and OIC countries (the official wording says 'not limited to'); Bruneians and Brunei PRs not eligible"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "The Brunei embassy or high commission in your country",
+    "fields": "Courses at Brunei's universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Mainly for international students' first degree. People who have already studied at a Brunei university are not eligible. Calls are usually announced Nov–Dec on the Brunei Ministry of Foreign Affairs site.",
+    "url": "https://www.mfa.gov.bn/pages/scholarship.aspx",
+    "source": "https://www.mfa.gov.bn/pages/scholarship.aspx",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nus-asean-ug",
+    "name": "NUS ASEAN Undergraduate Scholarship",
+    "host": "National University of Singapore",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "opens": "2027-02-01",
+    "deadline": "2027-03-19T23:59:00+08:00",
+    "dlText": "Scholarship window 1 Feb – 19 Mar 2027 (referee forms by 2 Apr)",
+    "tags": [
+      "ASEAN citizens only",
+      "Must accept the MOE Tuition Grant"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BN",
+        "ID",
+        "KH",
+        "LA",
+        "MM",
+        "MY",
+        "PH",
+        "TH",
+        "TL",
+        "VN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "NUS undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Considered automatically through your NUS admission application; shortlisted applicants are then invited to apply. Interviews Mar–Jul. International students who don't take the MOE Tuition Grant (which has a work bond) can't get NUS scholarships.",
+    "url": "https://nus.edu.sg/oam/scholarships/important-dates-and-application",
+    "source": "https://nus.edu.sg/oam/scholarships/important-dates-and-application",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ntu-asean-ug",
+    "name": "NTU ASEAN Undergraduate Scholarship",
+    "host": "Nanyang Technological University",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "opens": "2026-10-15",
+    "deadline": "2027-01-20T23:59:00+08:00",
+    "dlText": "Same window as NTU admission: 15 Oct 2026 – 20 Jan or 19 Mar 2027 depending on your qualification",
+    "varies": true,
+    "tags": [
+      "ASEAN citizens/PRs only",
+      "Essay + teacher appraisal"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BN",
+        "ID",
+        "KH",
+        "LA",
+        "MM",
+        "MY",
+        "PH",
+        "TH",
+        "TL",
+        "VN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "NTU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply for admission first, then submit the scholarship form in the same window. Not open to Singaporeans or non-ASEAN students.",
+    "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships/scholarship-opportunities/detail/asean-undergraduate-scholarship",
+    "source": "https://www.ntu.edu.sg/admissions/undergraduate/admissions",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kaist-ug",
+    "name": "KAIST Undergraduate Scholarship (International)",
+    "host": "KAIST",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Full tuition + ~US$300/month + national health insurance (per KAIST's 2023 guide; confirm)",
+    "opens": "2026-11-10",
+    "deadline": "2027-01-14T18:00:00+09:00",
+    "dlText": "Regular round 10 Nov 2026 – 14 Jan 2027, 18:00 KST (early round closed 22 Oct)",
+    "tags": [
+      "Choose 'KAIST Scholarship' on the form (can't change later)"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "For international students finishing high school by Aug 2027. Scholarship recipients are announced with admission results.",
+    "url": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+    "source": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "postech-ug",
+    "name": "POSTECH International Undergraduate Scholarship",
+    "host": "POSTECH",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition waiver (GPA ≥ 3.0 after year 1) + KRW 500,000/month living allowance + arrival support",
+    "opens": "2027-03-01",
+    "deadline": "2027-04-30T23:59:00+09:00",
+    "dlText": "Fall 2027 applications expected Mar–Apr 2027 (guidelines late Jan 2027)",
+    "expected": true,
+    "tags": [
+      "Automatic with admission"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "KR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science and engineering",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Amounts are from the Fall 2026 intake and may change. The Spring 2027 round closed 2 Sep 2026.",
+    "url": "https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do",
+    "source": "https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "taiwan-icdf",
+    "name": "TaiwanICDF International Higher Education Scholarship",
+    "host": "Taiwan International Cooperation and Development Fund",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full scholarship (check official page for what's covered)",
+    "opens": "2026-12-01",
+    "deadline": "2027-03-15T23:59:00+08:00",
+    "dlText": "1 Dec 2026 – 15 Mar 2027",
+    "tags": [
+      "Partner-country nationals only",
+      "Bachelor's only for diplomatic allies"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only nationals of countries on the TaiwanICDF eligible list (Asia-Pacific, Africa, Latin America, Caribbean, some of Europe); bachelor's only for countries with diplomatic ties to Taiwan"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "English-taught partner programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Check the 2027 guidebook's country list before applying; it changes yearly.",
+    "url": "https://www.icdf.org.tw/wSite/ct?xItem=12505&ctNode=31562&mp=2",
+    "source": "https://www.icdf.org.tw/wSite/ct?xItem=12505&ctNode=31562&mp=2",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "taiwan-moe",
+    "name": "MOE Taiwan Scholarship",
+    "host": "Ministry of Education, Taiwan",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Stipend NT$15,000/month (UG) or NT$20,000/month (master's/PhD)",
+    "opens": "2027-02-01",
+    "deadline": "2027-03-31T23:59:00+08:00",
+    "dlText": "Expected 1 Feb – 31 Mar 2027 (some Taiwan offices accept until 30 Apr)",
+    "expected": true,
+    "tags": [
+      "Apply via the Taiwan office in your country",
+      "Apply to the university separately"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of countries where a Taiwan representative office runs the scheme; check with your local office"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "The Taiwan embassy / representative office in your country",
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Up to 4 years (UG), 2 (master's), 4 (PhD), max 5 years in total. Recipients usually can't hold other Taiwan university scholarships.",
+    "url": "https://depart.moe.edu.tw/ph/cp.aspx?n=6f4dd13e01438599&s=AF9491E7DE1B4470",
+    "source": "https://depart.moe.edu.tw/ph/cp.aspx?n=6f4dd13e01438599&s=AF9491E7DE1B4470",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "taiwan-mofa",
+    "name": "MOFA Taiwan Scholarship",
+    "host": "Ministry of Foreign Affairs, Taiwan",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "opens": "2027-02-01",
+    "deadline": "2027-03-31T23:59:00+08:00",
+    "dlText": "Expected 1 Feb – 31 Mar 2027 (each embassy may set its own date, e.g. 16 Mar in 2026)",
+    "expected": true,
+    "tags": [
+      "Apply via the Taiwan embassy"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Mainly students from countries with diplomatic relations with Taiwan; others only by special consideration"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "The Taiwan embassy in your country",
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Intended for Taiwan's diplomatic allies.",
+    "url": "https://en.mofa.gov.tw/cp.aspx?n=1325",
+    "source": "https://en.mofa.gov.tw/cp.aspx?n=1325",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "hku-entrance",
+    "name": "HKU Entrance Scholarships (international undergraduates)",
+    "host": "The University of Hong Kong",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Up to full tuition waiver + accommodation scholarship + living allowance for top students (2026 terms)",
+    "deadline": "2026-11-25T12:00:00+08:00",
+    "dlText": "First-round evaluation: apply by 25 Nov 2026, 12:00 noon HKT (later applications until 25 Aug 2027, rolling)",
+    "tags": [
+      "Automatic with admission"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All HKU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Everyone who applies is considered; results come with the offer. Tuition for non-local students was HK$224,000–249,000 a year in 2026-27.",
+    "url": "https://admissions.hku.hk/apply/international-qualifications",
+    "source": "https://admissions.hku.hk/sites/default/files/2026-09/HKU_General_Information_NJ_2027.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "hk-belt-road",
+    "name": "Belt and Road Scholarship (HKSAR Government, at HKU)",
+    "host": "HKSAR Government Scholarship Fund / HKU",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Full tuition for non-local students",
+    "deadline": "2027-01-31T23:59:00+08:00",
+    "dlText": "31 Jan 2027 (time not stated)",
+    "tags": [
+      "Belt and Road countries only"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only nationals of participating Belt and Road countries; check HKU's page for the list"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "HKU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Government-funded; can be combined with an admission application to HKU.",
+    "url": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+    "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "hku-honping",
+    "name": "Hon Ping Entrance Scholarship for Nigerian Students",
+    "host": "The University of Hong Kong",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Full tuition + HK$305,000 living allowance per year (from 2026-27)",
+    "dlText": "Rolling selection alongside HKU admission",
+    "rolling": true,
+    "tags": [
+      "Nigerian citizens only",
+      "Financial need"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "NG"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "HKU undergraduate programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For Nigerian students with financial need admitted to HKU.",
+    "url": "https://admissions.hku.hk/fees-and-scholarships/scholarships/hon-ping-entrance-scholarship-for-nigerian-students",
+    "source": "https://admissions.hku.hk/fees-and-scholarships/scholarships/hon-ping-entrance-scholarship-for-nigerian-students",
+    "verifiedOn": "2026-11-04"
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "koc",
+    "name": "Koç University Graduate Scholarships",
+    "host": "Koç University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition waiver + monthly stipend for thesis MS/PhD (60,000 TL/month from Oct 2026 per one Koç page)",
+    "deadline": "2027-02-15T23:59:00+03:00",
+    "dlText": "Expected: early ~15 Feb 2027, regular ~15 May 2027 (based on Fall 2026 dates)",
+    "expected": true,
+    "tags": [
+      "Automatic with admission",
+      "No scholarships for taught master's",
+      "HEC–Koç PhD partnership"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "HEC scholars can get 100% PhD tuition through the Koç–HEC partnership (apply to both)."
+    },
+    "fields": "Sciences, engineering (incl. CS), social sciences, humanities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Admitted thesis-based MS/PhD students are considered automatically. A good option if you're already in Türkiye.",
+    "url": "https://international.ku.edu.tr/graduate-programs/tuition-and-scholarships/",
+    "source": "https://international.ku.edu.tr/scholarships/hec-pakistan-scholars-at-koc-university/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "bilkent",
+    "name": "Bilkent University Graduate Scholarships",
+    "host": "Bilkent University",
+    "country": "Türkiye",
+    "region": "turkiye",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Tuition waiver, often with a monthly stipend (about 90% of graduate students are supported)",
+    "deadline": "2027-06-01T23:59:00+03:00",
+    "dlText": "Expected ~1 Jun 2027 (late ~1 Jul), based on Fall 2026 Engineering & Science dates",
+    "expected": true,
+    "tags": [
+      "GRE for international applicants"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, CS, sciences, social sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "Apply through stars.bilkent.edu.tr/gradapp. Stipend levels are set yearly. A good option if you're already in Türkiye.",
+    "url": "https://mfbe.bilkent.edu.tr/?page_id=17",
+    "source": "https://mfbe.bilkent.edu.tr/?page_id=17",
+    "verifiedOn": "2026-11-04"
+  }
+]

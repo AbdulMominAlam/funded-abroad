@@ -1,0 +1,115 @@
+[
+  {
+    "id": "fulbright",
+    "name": "Fulbright Foreign Student Program",
+    "host": "US Government (Fulbright commissions / US embassies)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, living stipend, airfare, J-1 visa",
+    "deadline": "2027-04-01T23:59:00+05:00",
+    "dlText": "Set by each country's Fulbright commission (often Feb–Oct) · Pakistan (USEFP): next round expected early 2027, closing ~1 Apr 2027",
+    "varies": true,
+    "tags": [
+      "Apply in your home country",
+      "GRE often required"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "US"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "The Fulbright commission or US embassy in your country",
+    "countryNotes": {
+      "PK": "Run by USEFP. The 2027-entry round closed 1 Apr 2026; the next one is expected early 2027 with a ~1 Apr deadline. GRE required; master's needs 16 years of education, PhD 18. About 100 awards per cycle."
+    },
+    "fields": "All except clinical medicine",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Runs in about 160 countries, each with its own dates, quotas and rules; most require you to live in your home country when you apply. Clinical medicine is generally excluded.",
+    "url": "https://www.usefp.org/",
+    "source": "https://usefp.org/scholarships/fulbright-degree.cfm",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kh",
+    "name": "Knight-Hennessy Scholars",
+    "host": "Stanford University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full funding up to 3 years",
+    "deadline": "2026-10-06T13:00:00-07:00",
+    "dlText": "Closed 6 Oct 2026",
+    "nextText": "Next application opens ~summer 2027",
+    "tags": [
+      "Bachelor's in 2020 or later"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All Stanford graduate degrees",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Separate applications to KHS and to a Stanford graduate programme.",
+    "url": "https://knight-hennessy.stanford.edu/",
+    "source": "https://knight-hennessy.stanford.edu/admission/preparing-your-applications/application-deadlines",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Separate Stanford graduate programme application"
+    ]
+  },
+  {
+    "id": "mila",
+    "name": "Mila Supervision Request (MSc/PhD)",
+    "host": "Mila – Quebec AI Institute",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Funding normally comes through your supervisor (amount: check official page)",
+    "opens": "2026-10-15",
+    "deadline": "2026-12-01T23:59:00-05:00",
+    "dlText": "15 Oct – 1 Dec 2026 (Fall 2027; time not stated, submit early)",
+    "tags": [
+      "Pick up to 3 professors",
+      "Also apply to the university"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Machine learning, deep learning, AI",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Answers usually come in Feb–Mar (sometimes April). The university deadline can follow soon after selection, so prepare both applications together.",
+    "url": "https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor",
+    "source": "https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Shortlist up to 3 Mila professors"
+    ]
+  }
+]

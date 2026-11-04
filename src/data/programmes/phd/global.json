@@ -1,0 +1,39 @@
+[
+  {
+    "id": "google-phd",
+    "name": "Google PhD Fellowship",
+    "host": "Google Research",
+    "country": "Any (eligible regions)",
+    "region": "global",
+    "levels": [
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Varies by region (check official page)",
+    "deadline": "2026-04-30T23:59:00-07:00",
+    "dlText": "2026 cycle: 5 Mar – 30 Apr 2026 (closed)",
+    "nextText": "Next window expected ~Mar–Apr 2027",
+    "tags": [
+      "University nominates you",
+      "For current PhD students",
+      "University must be in an eligible region"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your university (up to 3–4 nominees)",
+    "countryNotes": {
+      "PK": "Universities in Pakistan are not in an eligible region; this helps Pakistanis already doing a PhD abroad."
+    },
+    "fields": "Computer science and related fields",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Your university, not your nationality, decides eligibility: it must be in an eligible region (e.g. Europe, US, Canada, East Asia, Middle East, Africa, Australia, India, Latin America, Southeast Asia).",
+    "url": "https://research.google/programs-and-events/phd-fellowship/",
+    "source": "https://research.google/programs-and-events/phd-fellowship/",
+    "verifiedOn": "2026-11-04"
+  }
+]

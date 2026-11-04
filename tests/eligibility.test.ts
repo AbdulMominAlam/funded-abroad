@@ -1,5 +1,5 @@
+import { loadAllProgrammes } from "../scripts/lib/programmes";
 import { describe, expect, it } from "vitest";
-import { readFileSync } from "node:fs";
 import { describeEligibility, eligibilityFor, eligibleCountries, matchesStudyLevel, resolveEligibility, toStudyLevel } from "../src/eligibility";
 import { validateGroups } from "../src/validate";
 import type { Scholarship } from "../src/types";
@@ -80,7 +80,7 @@ describe("country groups file", () => {
 });
 
 describe("v2 → v3 migration", () => {
-  const data = JSON.parse(readFileSync(new URL("../src/data/scholarships.json", import.meta.url), "utf8")) as (Scholarship & Record<string, unknown>)[];
+  const data = loadAllProgrammes() as (Scholarship & Record<string, unknown>)[];
   // The 55 programmes that existed in v2 were all verified as open to Pakistani citizens.
   const V2_IDS = "eth yenching hkpfs gates mbzuai epfl clarendon eiffel kaust erasmus hungary cern turkiye gks aga fulbright oist aus mext daad chevening cw kh rhodes cgs swiss imprs-is ellis-phd cs-maxplanck nus-soc-phd singa kaist tsinghua schwarzman oist-phd mila imperial-presidents ucl-res edinburgh-informatics leiden-lexs nl-scholarship helsinki aalto polimi padua kuleuven-science google-phd daad-rise summer-epfl eth-ssrf mitacs-gri koc bilkent epfl-edic ista-phd".split(" ");
   const byId = new Map(data.map((s) => [s.id, s]));

@@ -9,10 +9,17 @@ const REQUIRED_STRINGS = [
 ] as const;
 const REQUIRED_BOOLS = ["full", "residencyRequired", "work"] as const;
 const OPTIONAL_BOOLS = ["expected", "varies", "rolling"] as const;
+const FUNDING = ["full", "partial", "salaried", "paid-internship"] as const;
+
+/** Key used to spot the same programme entered twice (case/punctuation-insensitive name + host). */
+export function duplicateNameKey(name: string, host: string): string {
+  const norm = (t: string) => t.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, " ").trim();
+  return `${norm(name)}|${norm(host)}`;
+}
 const KNOWN_KEYS = new Set<string>([
   ...REQUIRED_STRINGS, ...REQUIRED_BOOLS, ...OPTIONAL_BOOLS,
   "region", "levels", "tags", "fieldCats", "opens", "nextText", "checklist",
-  "eligibility", "nominationBody", "countryNotes", "deadline",
+  "eligibility", "nominationBody", "countryNotes", "deadline", "funding",
 ]);
 
 export interface ValidationContext {
@@ -150,6 +157,11 @@ export function validateScholarships(data: unknown, ctx: ValidationContext): str
     }
     if ("nextText" in s && (typeof s.nextText !== "string" || !s.nextText.trim())) err("nextText must be a non-empty string");
     if (s.expected === true && s.varies === true) err("use either expected or varies, not both");
+    if ("funding" in s) {
+      if (!FUNDING.includes(s.funding as never)) err(`funding must be one of: ${FUNDING.join(", ")}`);
+      else if (s.funding === "full" && s.full !== true) err('funding "full" needs full: true');
+      else if (s.funding === "partial" && s.full !== false) err('funding "partial" needs full: false');
+    }
     if (!("eligibility" in s)) err("missing eligibility");
     else for (const m of validateEligibility(s.eligibility, ctx)) err(m);
     if (!("nominationBody" in s) || (s.nominationBody !== null && (typeof s.nominationBody !== "string" || !s.nominationBody.trim()))) {

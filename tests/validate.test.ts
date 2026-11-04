@@ -1,5 +1,5 @@
+import { loadAllProgrammes } from "../scripts/lib/programmes";
 import { describe, expect, it } from "vitest";
-import { readFileSync } from "node:fs";
 import { isHttpsUrl, isIsoWithTz, validateScholarships } from "../src/validate";
 import { CTX, make } from "./fixtures";
 
@@ -66,7 +66,6 @@ describe("validateScholarships", () => {
     expect(validateScholarships([make({ opens: "2027-03-01" })], CTX).join()).toMatch(/opens must be before/);
   });
   it("the shipped dataset is valid", () => {
-    const data = JSON.parse(readFileSync(new URL("../src/data/scholarships.json", import.meta.url), "utf8"));
-    expect(validateScholarships(data, CTX)).toEqual([]);
+    expect(validateScholarships(loadAllProgrammes(), CTX)).toEqual([]);
   });
 });

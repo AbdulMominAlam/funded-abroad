@@ -1,0 +1,179 @@
+[
+  {
+    "id": "hungary",
+    "name": "Stipendium Hungaricum",
+    "host": "Government of Hungary (Tempus Public Foundation)",
+    "country": "Hungary",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, housing, monthly stipend, insurance",
+    "deadline": "2027-01-15T14:00:00+01:00",
+    "dlText": "Expected ~15 Jan 2027, 14:00 CET · 2027/28 call not yet published (last round 14 Nov 2025 – 15 Jan 2026)",
+    "expected": true,
+    "tags": [
+      "Sending-partner nomination",
+      "Two portals"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of Stipendium Hungaricum sending-partner countries (about 90, incl. Pakistan); check the partners list"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your country's sending partner (e.g. HEC in Pakistan)",
+    "countryNotes": {
+      "PK": "Pakistan's sending partner is HEC: apply on both the Stipendium Hungaricum portal and the HEC portal. HEC shortlists with a written test."
+    },
+    "fields": "Most fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply on the Stipendium Hungaricum portal and through your country's sending partner, which nominates candidates. Each sending partner sets its own extra rules and dates.",
+    "url": "https://stipendiumhungaricum.hu/",
+    "source": "https://stipendiumhungaricum.hu/apply/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "romania-mfa",
+    "name": "Romanian Government Scholarships (MFA)",
+    "host": "Romanian Ministry of Foreign Affairs",
+    "country": "Romania",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "opens": "2027-02-16",
+    "deadline": "2027-03-31T23:59:00+03:00",
+    "dlText": "Expected ~mid-Feb – 31 Mar 2027 (2026: 16 Feb – 31 Mar; earlier years mid-March)",
+    "expected": true,
+    "tags": [
+      "Taught in Romanian (BA/MA, with prep year)",
+      "Grade average ≥ 7/10",
+      "No medicine/dentistry/pharmacy"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Most fields except health",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For non-EU citizens (not people of Romanian origin). Apply on the Study in Romania platform; results around mid-July. PhDs may be in English.",
+    "url": "https://studyinromania.gov.ro/mfa_2026-2027",
+    "source": "https://scholarships.studyinromania.gov.ro/scholarship-about",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "russia-quota",
+    "name": "Russian Government Scholarship (quota)",
+    "host": "Government of Russia (Rossotrudnichestvo)",
+    "country": "Russia",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Tuition-free study (check official portal for other support)",
+    "dlText": "Dates set by each country's Russian House / embassy for the 2027/28 quota (e.g. Dhaka ran stages Aug – Dec 2026)",
+    "rolling": true,
+    "tags": [
+      "Up to 6 universities",
+      "Apply on education-in-russia.com"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "RU"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Most fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply only through the official federal portal and your local Russian House. Check your own government's travel and study advice for Russia before applying.",
+    "url": "https://education-in-russia.com/",
+    "source": "https://bangladesh.rs.gov.ru/en/announcement/%F0%9F%8E%93%F0%9F%87%B7%F0%9F%87%BA-%F0%9D%90%8E%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%A7-%F0%9D%90%83%F0%9D%90%A8%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%92%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A8/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "slovak-gov",
+    "name": "Slovak Government Scholarships",
+    "host": "Ministry of Education of Slovakia",
+    "country": "Slovakia",
+    "region": "europe",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "deadline": "2027-05-25T23:59:00+02:00",
+    "dlText": "Expected ~25 May 2027 (2026/27 round closed 25 May 2026)",
+    "expected": true,
+    "tags": [
+      "Development-cooperation countries"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of Slovakia's development-cooperation partner countries (list in each call)"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Most fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Part of Slovak development cooperation; apply on vladnestipendia.sk.",
+    "url": "https://www.minedu.sk/scholarships-of-the-government-of-the-slovak-republic/",
+    "source": "https://www.minedu.sk/scholarships-of-the-government-of-the-slovak-republic/",
+    "verifiedOn": "2026-11-04"
+  }
+]

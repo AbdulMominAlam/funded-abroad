@@ -1,0 +1,146 @@
+[
+  {
+    "id": "cern",
+    "name": "CERN Summer Student Programme",
+    "host": "CERN",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "amount": "Daily allowance, travel, insurance (8–13 weeks)",
+    "opens": "2026-11-15",
+    "deadline": "2027-01-26T23:59:00+01:00",
+    "dlText": "Expected late Jan 2027 · form opens in November",
+    "expected": true,
+    "tags": [
+      "Must still be enrolled at start",
+      "6+ semesters of study"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Pakistan is a CERN Associate Member State, so use the Member/Associate track."
+    },
+    "fields": "Physics, CS, engineering, maths",
+    "fieldCats": [
+      "sciences",
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "For BSc/MSc students (not PhD) in physics, engineering, CS or maths. Applications usually open in November and close at the end of January. Students from non-member states can apply too (funded via the CERN & Society Foundation).",
+    "url": "https://careers.cern/",
+    "source": "https://careers.cern/programmes/summer-studentship/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "daad-rise",
+    "name": "DAAD RISE Germany",
+    "host": "DAAD",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": false,
+    "amount": "Monthly stipend for 3 months (amount: check official page)",
+    "opens": "2026-10-15",
+    "deadline": "2026-11-30T23:59:00+01:00",
+    "dlText": "15 Oct – 30 Nov 2026, 23:59 CET · references by 15 Dec",
+    "tags": [
+      "Must study at a US/Canada/UK/Ireland university (12+ months)",
+      "Undergraduates only"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Open to undergraduates enrolled for 12+ months at a university in the US, Canada, UK or Ireland, whatever their citizenship. You must still be an undergraduate during the internship. Placements announced Feb–Mar 2027.",
+    "url": "https://www.daad.de/rise/en/rise-germany/",
+    "source": "https://www.daad.de/rise/en/rise-germany/",
+    "verifiedOn": "2026-11-04",
+    "countryNotes": {
+      "PK": "Not open to students at universities in Pakistan; only to those enrolled in the US, Canada, UK or Ireland."
+    }
+  },
+  {
+    "id": "summer-epfl",
+    "name": "Summer@EPFL Research Internship",
+    "host": "EPFL School of Computer & Communication Sciences",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "amount": "Living allowance (CHF 1,800/month on an older page; confirm) + travel refund",
+    "deadline": "2026-11-29T23:39:00-12:00",
+    "dlText": "29 Nov 2026, 23:39 AoE (summer 2027)",
+    "tags": [
+      "Enrolled BSc (2nd year+) or MSc",
+      "CS, CE, EE, telecom"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer and communication sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "For students from other universities; you must still be enrolled during the internship. Faculty offers come about 4–6 weeks after the deadline.",
+    "url": "https://summer.epfl.ch/apply.html",
+    "source": "https://summer.epfl.ch/apply.html",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "eth-ssrf",
+    "name": "ETH Student Summer Research Fellowship",
+    "host": "ETH Zurich, Department of Computer Science",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "amount": "CHF 4,000 stipend + travel and visa costs (2 Jul – 27 Aug 2027)",
+    "opens": "2026-11-01",
+    "deadline": "2026-12-16T13:00:00+01:00",
+    "dlText": "1 Nov – 16 Dec 2026, 13:00 CET (via SiROP)",
+    "tags": [
+      "2 years of study completed",
+      "All nationalities",
+      "No deadline extensions"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "For BSc/MSc students at other universities who graduate in 2028 or later. Notified by end of Feb 2027.",
+    "url": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+    "source": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+    "verifiedOn": "2026-11-04"
+  }
+]

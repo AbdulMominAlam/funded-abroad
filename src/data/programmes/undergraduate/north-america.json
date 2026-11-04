@@ -1,0 +1,303 @@
+[
+  {
+    "id": "pearson-uoft",
+    "name": "Lester B. Pearson International Scholarship",
+    "host": "University of Toronto",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Tuition, books, incidental fees and residence for 4 years",
+    "deadline": "2026-11-06T23:59:00-05:00",
+    "dlText": "Scholarship application by 6 Nov 2026 (school nomination closed 9 Oct; U of T application by 16 Oct; time not stated)",
+    "nextText": "Next cycle opens ~Aug 2027",
+    "tags": [
+      "School must nominate you",
+      "Finishing secondary school 2026/27"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your secondary school",
+    "fields": "Any U of T undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For international students starting first-year undergraduate study in September 2027. Students already in post-secondary study are not eligible. If your school didn't nominate you by 9 Oct, you can't compete this year.",
+    "url": "https://future.utoronto.ca/pearson-scholarships",
+    "source": "https://future.utoronto.ca/pearson-scholarships",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ubc-kmilot",
+    "name": "Karen McKellin International Leader of Tomorrow Award",
+    "host": "University of British Columbia",
+    "country": "Canada",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Need-based (check official page)",
+    "deadline": "2026-12-01T23:59:00-08:00",
+    "dlText": "Apply to UBC by ~1 Dec 2026; nomination deadlines may be earlier",
+    "expected": true,
+    "tags": [
+      "Need-based",
+      "Nomination"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CA"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your school or UBC faculty (check)",
+    "fields": "Most UBC undergraduate programmes (not Bachelor of Music)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For outstanding international students entering UBC undergraduate programmes. Results come on a rolling basis Feb – Apr.",
+    "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+    "source": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "yale-aid",
+    "name": "Yale College need-based aid (international)",
+    "host": "Yale University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of demonstrated need with no loans, regardless of citizenship",
+    "deadline": "2027-01-02T23:59:00-05:00",
+    "dlText": "Regular Decision: 2 Jan 2027; decisions 31 Mar",
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Admission is need-blind for everyone; aid depends only on your family's finances.",
+    "url": "https://admissions.yale.edu/international",
+    "source": "https://admissions.yale.edu/resource/download/400",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "harvard-aid",
+    "name": "Harvard College need-based aid (international)",
+    "host": "Harvard University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of demonstrated need; international students get the same aid as US students",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision ~1 Jan 2027 (from Harvard's 2025 brochure; confirm)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Applying for aid doesn't affect admission, including for international applicants.",
+    "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+    "source": "https://college.harvard.edu/financial-aid/how-aid-works",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "mit-aid",
+    "name": "MIT need-based aid (international)",
+    "host": "Massachusetts Institute of Technology",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of demonstrated need for all four years",
+    "deadline": "2027-01-05T23:59:00-05:00",
+    "dlText": "Regular Action expected early Jan 2027 (date not confirmed; check MIT Admissions)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "MIT is need-blind and full-need for all applicants, including international students.",
+    "url": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+    "source": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "princeton-aid",
+    "name": "Princeton need-based aid (international)",
+    "host": "Princeton University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Grant-based aid meeting full need (no loans); amount depends on need",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision expected ~1 Jan 2027 (confirm on Princeton Admission)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Princeton's need-blind policy covers all applicants, including international students.",
+    "url": "https://admission.princeton.edu/apply/international-students",
+    "source": "https://admission.princeton.edu/apply/international-students",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "amherst-aid",
+    "name": "Amherst College need-based aid (international)",
+    "host": "Amherst College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of calculated need for admitted international students",
+    "deadline": "2027-01-05T23:59:00-05:00",
+    "dlText": "Regular Decision expected early Jan 2027 (confirm on Amherst Admission)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Need-blind admission for all students, domestic and international.",
+    "url": "https://www.amherst.edu/admission/apply/international",
+    "source": "https://www.amherst.edu/admission/apply/international",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "dartmouth-aid",
+    "name": "Dartmouth College need-based aid (international)",
+    "host": "Dartmouth College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets 100% of demonstrated need regardless of citizenship",
+    "deadline": "2027-01-02T23:59:00-05:00",
+    "dlText": "Regular Decision expected early Jan 2027 (confirm on Dartmouth Admissions)",
+    "expected": true,
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Need-blind for international applicants since 2022.",
+    "url": "https://admissions.dartmouth.edu/news/2022/01/dartmouth-adopts-need-blind-international-admissions",
+    "source": "https://admissions.dartmouth.edu/news/2022/01/dartmouth-adopts-need-blind-international-admissions",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "bowdoin-aid",
+    "name": "Bowdoin College need-based aid (international)",
+    "host": "Bowdoin College",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Meets full calculated need of every admitted student, including international",
+    "deadline": "2027-01-05T23:59:00-05:00",
+    "dlText": "Regular Decision 5 Jan 2027 (aid documents by 1 Feb, after the decision for international students)",
+    "tags": [
+      "Need-blind for international students",
+      "Meets 100% of demonstrated need"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts and sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Need-blind for international applicants since 2022. No need-based aid for international transfer students.",
+    "url": "https://www.bowdoin.edu/admissions/apply/international-students/index.html",
+    "source": "https://www.bowdoin.edu/admissions/apply/dates-deadlines/index.html",
+    "verifiedOn": "2026-11-04"
+  }
+]

@@ -1,0 +1,900 @@
+[
+  {
+    "id": "eth",
+    "name": "ETH Zurich Excellence Scholarship (ESOP)",
+    "host": "ETH Zurich",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "CHF 13,500 per semester (from autumn 2027) plus tuition waiver",
+    "opens": "2026-11-01",
+    "deadline": "2026-11-30T11:59:00+01:00",
+    "dlText": "30 Nov 2026, 11:59 CET (noon, not midnight)",
+    "tags": [
+      "Top 10% of class",
+      "Apply via eApply in the Nov window",
+      "Master's thesis pre-proposal"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, CS, natural sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "About 60 awards for 2027/28; decisions end of March. Applicants who already hold a master's are not eligible. Only the 1–30 November window counts for ESOP.",
+    "url": "https://ethz.ch/en/studies/financial/scholarships/excellencescholarship.html",
+    "source": "https://ethz.ch/en/studies/master/application/dates.html",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Master's thesis pre-proposal"
+    ]
+  },
+  {
+    "id": "epfl",
+    "name": "EPFL Master Excellence Fellowship",
+    "host": "EPFL",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "CHF 10,000 per semester, up to 4 semesters",
+    "deadline": "2026-12-15T23:59:00+01:00",
+    "dlText": "15 Dec 2026 (submit and pay the master's application)",
+    "tags": [
+      "Tick fellowship box"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, CS, sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Apply and validate on IS-Academia by 15 December; references are due a week later. The later 31 March master's deadline does not count for the fellowship. Tuition and rent beyond the grant are your own.",
+    "url": "https://www.epfl.ch/education/master/master-excellence-fellowships/",
+    "source": "https://www.epfl.ch/education/master/master-excellence-fellowships/how-to-apply/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "eiffel",
+    "name": "France Excellence Eiffel",
+    "host": "Campus France / French Ministry",
+    "country": "France",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "€1,200/month (master's), travel, insurance; fees often waived",
+    "deadline": "2027-01-06T23:59:00+01:00",
+    "dlText": "Universities submit by 6 Jan 2027 · your university's internal deadline is earlier",
+    "tags": [
+      "University nominates you"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "FR"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "A French higher-education institution (you can't apply directly)",
+    "fields": "Engineering, sciences, economics, law, politics",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "You can't apply directly. Apply to a French master's or PhD and ask the university to nominate you; internal deadlines are often in November or December. Results from 12 Apr 2027.",
+    "url": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
+    "source": "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "erasmus",
+    "name": "Erasmus Mundus Joint Masters",
+    "host": "EU-funded university consortia",
+    "country": "Europe (multi-country)",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "€1,400/month, participation costs, travel",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "Varies by programme · most close Dec 2026 – Jan 2027",
+    "varies": true,
+    "tags": [
+      "Study in 2–3 countries",
+      "Up to 3 programmes"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Over 200 programmes, including AI, data science and semiconductor tracks. Each sets its own deadline and documents.",
+    "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+    "source": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "daad",
+    "name": "DAAD EPOS Development Courses",
+    "host": "DAAD",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "€992/month (master's), insurance, travel",
+    "deadline": "2026-10-15T23:59:00+02:00",
+    "dlText": "Course-specific · most 2027/28 deadlines were Jun–Oct 2026",
+    "varies": true,
+    "nextText": "2028/29 list due mid-2027",
+    "tags": [
+      "2 years work experience",
+      "Up to 3 courses"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Applicants from developing countries (DAC list); each course states which nationalities qualify"
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": null,
+    "fields": "Development-related fields",
+    "fieldCats": [
+      "social",
+      "engineering"
+    ],
+    "note": "You apply to the university course, not to DAAD. A few courses may still be open; check each course's page.",
+    "url": "https://www.daad.de/en/",
+    "source": "https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/daad_epos_deadlines.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "leiden-lexs",
+    "name": "Leiden University Excellence Scholarship (LExS)",
+    "host": "Leiden University",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Tuition reduction of €10,000, €15,000, €17,500, €18,500 or €19,000 (not a full scholarship)",
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "dlText": "1 Dec 2026 (per Leiden's LExS page; time not stated, confirm)",
+    "tags": [
+      "Non-EEA/EFTA students",
+      "~25 awards"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All Leiden master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Over a thousand applicants for about 25 awards. Applicants hear by the end of March.",
+    "url": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs",
+    "source": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nl-scholarship",
+    "name": "NL Scholarship (formerly Holland Scholarship)",
+    "host": "Dutch Ministry of Education & participating universities",
+    "country": "Netherlands",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "€5,000 one-off in the first year (Utrecht offers €5,000–15,000)",
+    "deadline": "2027-02-01T23:59:00+01:00",
+    "dlText": "Set by each programme · often 1 Feb or 1 May 2027 (e.g. UvA 1 Feb, Twente CS 1 May)",
+    "varies": true,
+    "tags": [
+      "Non-EEA only",
+      "No previous Dutch degree",
+      "Participating universities only"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Participating Dutch bachelor's and master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Apply through the university, not Nuffic. The list of participating universities changes each year. Too small to live on: you'll need other funds.",
+    "url": "https://www.studyinnl.org/finances/nl-scholarship",
+    "source": "https://www.studyinnl.org/finances/nl-scholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "helsinki",
+    "name": "University of Helsinki Master's Scholarship (fee waiver)",
+    "host": "University of Helsinki",
+    "country": "Finland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Tuition waiver of 50% or 100% (mostly 50%); living costs not covered",
+    "opens": "2027-01-05",
+    "deadline": "2027-01-19T15:00:00+02:00",
+    "dlText": "5–19 Jan 2027 (closing time: confirm on Studyinfo) · missing attachments until 26 Jan, 23:59",
+    "tags": [
+      "Apply on the admission form",
+      "Non-EU/EEA fee-payers"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "International master's incl. CS, data science, maths",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "No fully funded scholarships. Fees are €13,000–18,000 a year. Results by 16 Apr 2027.",
+    "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-international-masters-programmes",
+    "source": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-international-masters-programmes",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "aalto",
+    "name": "Aalto University Excellence Scholarship",
+    "host": "Aalto University",
+    "country": "Finland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Depends on the study option (check the programme page); fee €15,000/yr in 2026",
+    "opens": "2026-12-07",
+    "deadline": "2027-01-05T15:00:00+02:00",
+    "dlText": "7 Dec 2026 – 5 Jan 2027 (closing time: confirm on Studyinfo)",
+    "tags": [
+      "Apply on the admission form",
+      "Non-EU/EEA fee-payers"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Technology, CS, engineering, business, arts",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "any"
+    ],
+    "note": "You can only apply for the scholarship inside the admission window, on the same form.",
+    "url": "https://www.aalto.fi/en/study-at-aalto/apply-to-masters-programmes",
+    "source": "https://www.aalto.fi/en/study-at-aalto/apply-to-masters-programmes",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "polimi",
+    "name": "Politecnico di Milano Merit Scholarships (Platinum/Gold)",
+    "host": "Politecnico di Milano",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Platinum: €10,000 + tuition waiver · Gold/Bronze: tuition waiver plus grant per the call",
+    "deadline": "2027-03-04T23:59:00+01:00",
+    "dlText": "Apply in a 2027/28 admission round · English certificate due by 4 Mar 2027",
+    "varies": true,
+    "tags": [
+      "10 Platinum + 18 Gold (Milan)",
+      "Admission application = scholarship application"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "IT"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, architecture, design (incl. CS and data science)",
+    "fieldCats": [
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "For international students admitted to a Laurea Magistrale (MSc) starting in the first semester. Results 3–4 months after the application deadline.",
+    "url": "https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/scholarships/merit-based-scholarships",
+    "source": "https://www.polimi.it/fileadmin/user_upload/futuri_studenti/borse-di-studio/Merit_Based_Call_For_Applications_a.y._2027-2028.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "padua",
+    "name": "Padua International Excellence Scholarship",
+    "host": "University of Padua",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "€8,000/year (gross) + tuition exemption; up to 76 awards",
+    "deadline": "2026-11-15T23:59:00+01:00",
+    "dlText": "Admission Call One: 15 Sep – 15 Nov 2026 (scholarships mainly go to Call One; time in the selection notice)",
+    "tags": [
+      "Not resident in Italy",
+      "Foreign degree"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "IT"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "English-taught degree programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Call Two (1 Dec 2026 – 1 Mar 2027) exists, but scholarships are mainly reserved for Call One applicants.",
+    "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+    "source": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "kuleuven-science",
+    "name": "Science@Leuven Scholarship",
+    "host": "KU Leuven, Faculty of Science",
+    "country": "Belgium",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "€12,000 per year for up to 2 years",
+    "opens": "2026-10-01",
+    "deadline": "2027-02-15T23:59:00+01:00",
+    "dlText": "Expected 15 Feb 2027 (complete application) · from KU Leuven's 2026-27 scholarship page",
+    "expected": true,
+    "tags": [
+      "Must be admitted first"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Check the nationality conditions on the official page"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Faculty of Science master's (maths, physics, chemistry, biology, statistics…)",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Second year depends on first-year results. Non-EEA tuition is reduced via a separate fee waiver for some nationalities.",
+    "url": "https://wet.kuleuven.be/english/scienceatleuvenscholarship",
+    "source": "https://wet.kuleuven.be/english/scienceatleuvenscholarship",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "czech-gov",
+    "name": "Czech Government Scholarships (Developing Countries)",
+    "host": "Czech Ministry of Education / MFA",
+    "country": "Czechia",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Check official page",
+    "deadline": "2026-09-30T23:59:00+02:00",
+    "dlText": "2027/28 round likely closed ~30 Sep 2026 (window usually end Jul – end Sep)",
+    "expected": true,
+    "nextText": "Next round ~Jul – Sep 2027",
+    "tags": [
+      "Priority countries change yearly"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BA",
+        "BY",
+        "ET",
+        "GE",
+        "GT",
+        "JO",
+        "KH",
+        "LK",
+        "NG",
+        "RW",
+        "UA",
+        "ZM"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Selected programmes at Czech public universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Country list is the 2026/27 one (Bosnia and Herzegovina, Georgia, Ukraine, Belarus, Ethiopia, Nigeria, Rwanda, Zambia, Cambodia, Sri Lanka, Guatemala, Jordan); it changes each round.",
+    "url": "https://www.studyin.cz/upcoming-events/835-czech-government-scholarships-2026-27-applications-now-open/",
+    "source": "https://www.studyin.cz/upcoming-events/835-czech-government-scholarships-2026-27-applications-now-open/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "ireland-goi-ies",
+    "name": "Government of Ireland International Education Scholarship",
+    "host": "Higher Education Authority (Ireland)",
+    "country": "Ireland",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "€10,000 stipend + full fee waiver for one year",
+    "deadline": "2027-03-12T17:00:00+00:00",
+    "dlText": "Expected ~mid-Mar 2027 (2026 round closed 12 Mar 2026; time not stated)",
+    "expected": true,
+    "tags": [
+      "60 awards",
+      "Need an offer from an Irish university"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "BY",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RU",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any taught master's, PG diploma or research programme (NFQ 9/10)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For applicants domiciled outside the EU/EEA, Switzerland and the UK. Russian and Belarusian citizens are excluded.",
+    "url": "https://hea.ie/policy/internationalisation/goi-ies/",
+    "source": "https://hea.ie/policy/internationalisation/goi-ies/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "italy-iyt",
+    "name": "Invest Your Talent in Italy",
+    "host": "Italian Ministry of Foreign Affairs (MAECI)",
+    "country": "Italy",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "€10,800 for 9 months + tuition exemption",
+    "deadline": "2026-05-11T18:00:00+02:00",
+    "dlText": "2026-27 call closed 11 May 2026, 18:00 Italy",
+    "nextText": "Next call expected ~spring 2027",
+    "tags": [
+      "Born on/after 1 Jan 2000 (2026-27)",
+      "English B2",
+      "Internship in an Italian company"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AM",
+        "AR",
+        "AZ",
+        "BD",
+        "BR",
+        "CL",
+        "CN",
+        "CO",
+        "EG",
+        "ET",
+        "GH",
+        "ID",
+        "IN",
+        "IR",
+        "KZ",
+        "MN",
+        "MX",
+        "PE",
+        "PY",
+        "TN",
+        "TR",
+        "UY",
+        "VN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, architecture, design, economics, management",
+    "fieldCats": [
+      "engineering",
+      "any"
+    ],
+    "note": "For citizens and permanent residents of 23 countries only. Pakistan is not on the 2026-27 list.",
+    "url": "https://investyourtalentapplication.esteri.it/SitoIYT/EN/current-call",
+    "source": "https://investyourtalentapplication.esteri.it/SitoIYT/EN/current-call",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "daad-helmut-schmidt",
+    "name": "DAAD Helmut-Schmidt-Programme (Public Policy & Good Governance)",
+    "host": "DAAD",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "DAAD scholarship + tuition exemption (check official page for amounts)",
+    "deadline": "2026-07-31T23:59:00+02:00",
+    "dlText": "2027 intake closed 31 Jul 2026",
+    "nextText": "Next window 1 Jun – 31 Jul 2027 (2028 intake)",
+    "tags": [
+      "DAC-list countries",
+      "Degree within the last 6 years",
+      "≤ 15 months in Germany"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of developing and emerging countries on DAAD's DAC-based country list"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Public policy, governance, development, law, economics",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Apply to one of the participating German master's programmes (e.g. Erfurt, Duisburg-Essen, Bonn-Rhein-Sieg) through DAAD.",
+    "url": "https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/helmut-schmidt-programme/",
+    "source": "https://www.daad.de/en/studying-in-germany/scholarships/daad-funding-programmes/helmut-schmidt-programme/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "unige-excellence",
+    "name": "University of Geneva Excellence Master Fellowships (Science)",
+    "host": "University of Geneva, Faculty of Science",
+    "country": "Switzerland",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "CHF 10,000 per year (e.g. Astrophysics)",
+    "deadline": "2027-02-28T23:59:00+01:00",
+    "dlText": "Expected ~28 Feb 2027 (2026: 28 Feb; 30 Apr for Swiss bachelor's holders)",
+    "expected": true,
+    "tags": [],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science master's programmes",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Fellowship rules differ slightly by department; check your programme's page.",
+    "url": "https://www.unige.ch/sciences/astro/en/education/master-in-astrophysics",
+    "source": "https://www.unige.ch/sciences/astro/en/education/master-in-astrophysics",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "paris-saclay-ims",
+    "name": "Université Paris-Saclay International Master's Scholarships",
+    "host": "Université Paris-Saclay",
+    "country": "France",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "€10,000 per year + up to €900 for travel and visa",
+    "dlText": "Each master's programme sets its own admission deadline for scholarship candidates",
+    "rolling": true,
+    "tags": [
+      "Selected by course coordinators",
+      "Can't be combined with Eiffel"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students: check nationality and residence conditions in the regulations"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, CS, economics and more",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences",
+      "any"
+    ],
+    "note": "Renewed for M2 if you pass M1 and continue at Paris-Saclay.",
+    "url": "https://www.universite-paris-saclay.fr/en/admission/bourses-et-aides-financieres/international-masters-scholarships-program",
+    "source": "https://www.universite-paris-saclay.fr/sites/default/files/2026-01/regulations_of_the_international_masters_scholarship_program_universite_paris-saclay.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "lund-global",
+    "name": "Lund University Global Scholarship",
+    "host": "Lund University",
+    "country": "Sweden",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "Tuition fee reduction (check official page)",
+    "opens": "2027-02-01",
+    "deadline": "2027-02-16T23:59:00+01:00",
+    "dlText": "Expected early – mid Feb 2027 (2026 closed 16 Feb); apply to the programme by 15 Jan",
+    "expected": true,
+    "tags": [
+      "Non-EU/EEA fee-payers",
+      "~110 awards"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Lund master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Only after a complete admission application. Results in April.",
+    "url": "https://www.lunduniversity.lu.se/study/admission-degree-studies/scholarships-and-awards/lund-university-global-scholarship",
+    "source": "https://www.lunduniversity.lu.se/study/admission-degree-studies/scholarships-and-awards/lund-university-global-scholarship",
+    "verifiedOn": "2026-11-04"
+  }
+]

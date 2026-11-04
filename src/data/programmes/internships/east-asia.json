@@ -1,0 +1,38 @@
+[
+  {
+    "id": "oist",
+    "name": "OIST Research Internship (Fall 2027)",
+    "host": "Okinawa Institute of Science & Tech.",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "amount": "¥2,400/day, housing, travel support (4–6 months)",
+    "deadline": "2027-04-15T23:59:00+09:00",
+    "dlText": "15 Apr 2027, 23:59 JST",
+    "tags": [
+      "¥5,000 fee",
+      "Pick a research unit"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Physics, CS, neuroscience, biology, maths",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Fall 2027 round: internship 1 Oct 2027 – 31 Mar 2028, results mid-June. The Spring 2027 round closed 15 Oct 2026. For bachelor's or master's holders and students; current PhD students are not eligible.",
+    "url": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
+    "source": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Choose a research unit"
+    ]
+  }
+]

@@ -12,6 +12,7 @@ import { readFileSync } from "node:fs";
 import type { Scholarship } from "../../src/types";
 import type { Groups } from "../../src/eligibility";
 import { planForSubscriber } from "../../src/alerts/plan";
+import { loadAllProgrammes } from "../lib/programmes";
 import { renderDigestEmail, renderReminderEmail, unsubscribeHeaders } from "../../supabase/functions/_shared/templates.ts";
 import { MemorySender, ResendSender } from "../../supabase/functions/_shared/email.ts";
 import { SupabaseRestStore } from "../../supabase/functions/_shared/store.ts";
@@ -105,7 +106,7 @@ async function main(): Promise<void> {
   if (Number.isNaN(now.getTime())) throw new Error("--now must be an ISO date");
   const env = process.env;
   const siteUrl = (env.SITE_URL ?? "https://example.org").replace(/\/$/, "");
-  const data = readJson<Scholarship[]>("../../src/data/scholarships.json");
+  const data: Scholarship[] = loadAllProgrammes();
   const groups = readJson<Groups>("../../src/data/country-groups.json");
 
   let store: AlertsStore;

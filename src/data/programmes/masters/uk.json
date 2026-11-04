@@ -1,0 +1,324 @@
+[
+  {
+    "id": "gates",
+    "name": "Gates Cambridge Scholarship",
+    "host": "University of Cambridge",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full cost: fees, maintenance, flights, visa",
+    "deadline": "2026-12-08T23:59:00+00:00",
+    "dlText": "8 Dec 2026 or 6 Jan 2027, 23:59 UK (set by your course)",
+    "tags": [
+      "Tick Gates box in Cambridge application"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "GB"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "About 70 full-cost scholarships a year. Your course's funding deadline decides which date applies. Notifications by 8 March 2027.",
+    "url": "https://www.gatescambridge.org/",
+    "source": "https://www.gatescambridge.org/apply/timeline/",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Gates Cambridge statement and reference"
+    ]
+  },
+  {
+    "id": "clarendon",
+    "name": "Clarendon Scholarship",
+    "host": "University of Oxford",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Fees plus living grant at UKRI rate",
+    "deadline": "2027-01-06T12:00:00+00:00",
+    "dlText": "Course deadline, Dec 2026 or Jan 2027, 12:00 UK (MSc Advanced CS: 6 Jan)",
+    "varies": true,
+    "tags": [
+      "Automatic, no separate form"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "More than 200 awards a year. Apply to your Oxford course by its December or January deadline; March deadlines don't qualify.",
+    "url": "https://www.ox.ac.uk/clarendon",
+    "source": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "chevening",
+    "name": "Chevening Scholarship",
+    "host": "UK Government (FCDO)",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition, monthly stipend, flights",
+    "deadline": "2026-10-06T11:00:00+00:00",
+    "dlText": "Closed 6 Oct 2026",
+    "nextText": "Next round opens ~Aug 2027",
+    "tags": [
+      "2 years work experience",
+      "Return home for 2 years"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of Chevening-eligible countries (about 160, incl. Pakistan); check the country list"
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "One-year UK master's. Four 300-word essays; 2027/28 interviews Mar–Apr 2027, results from mid-June.",
+    "url": "https://www.chevening.org/scholarships/",
+    "source": "https://www.chevening.org/scholarships/application-timeline/",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Four Chevening essays",
+      "Three UK course applications"
+    ]
+  },
+  {
+    "id": "cw",
+    "name": "Commonwealth Master's & PhD Scholarships",
+    "host": "Commonwealth Scholarship Commission in the UK",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, £1,712/month (£2,000 London), airfare",
+    "deadline": "2026-10-20T16:00:00+05:00",
+    "dlText": "Closed 20 Oct 2026 (CSC portal 16:00 BST; national agencies set earlier dates)",
+    "nextText": "Next round ~Sep–Oct 2027",
+    "tags": [
+      "National nomination",
+      "Must reside in an eligible country",
+      "Dual nationals may be ineligible"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Only citizens of the 43 low- and middle-income Commonwealth countries on the CSC list for 2027/28 (incl. Pakistan, India, Bangladesh, Nigeria, Kenya, Ghana, South Africa)"
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": "Your national nominating agency (e.g. HEC in Pakistan) or an approved university/NGO nominator",
+    "countryNotes": {
+      "PK": "Nominated by HEC: the HEC portal closed 20 Oct 2026, 16:00 PKT. HAT score ≥ 60 and a first division in a 16-year bachelor's are required; HEC had 26 master's and 30 PhD nominations. Dual nationals ineligible."
+    },
+    "fields": "CSC development themes",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Taught master's (no MBA) and PhD in the UK. You apply on the CSC portal and through a national nominating agency, which has its own (earlier) deadline and rules.",
+    "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+    "source": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/CW-Scholarship.aspx",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "HAT test (score ≥ 60)"
+    ]
+  },
+  {
+    "id": "rhodes",
+    "name": "Rhodes Scholarship",
+    "host": "Rhodes Trust",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Oxford fees, stipend, flights, visa",
+    "deadline": "2026-08-05T23:59:00+05:00",
+    "dlText": "Set by constituency (country/region); most close Jul – Oct · Pakistan closed 5 Aug 2026",
+    "varies": true,
+    "nextText": "Next rounds open ~Jun 2027",
+    "tags": [
+      "Constituency rules",
+      "Age limit"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Pakistan constituency: two scholarships a year, 1 Jun – 5 Aug (23:59 PKT), no fee. You must have studied in Pakistan for at least 4 of the last 10 years and finished school in Pakistan."
+    },
+    "fields": "All Oxford graduate courses",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Each constituency (country or region) has its own deadline and residency rules; applicants from countries without one can apply for the Global Rhodes Scholarships. Fully funded study at Oxford.",
+    "url": "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
+    "source": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "commonwealth-shared",
+    "name": "Commonwealth Shared Scholarships",
+    "host": "Commonwealth Scholarship Commission + UK universities",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition, living allowance, flights (check official page)",
+    "opens": "2026-11-10",
+    "deadline": "2026-12-08T16:00:00+00:00",
+    "dlText": "10 Nov – 8 Dec 2026, 16:00 GMT (also apply to the university course)",
+    "tags": [
+      "Can't afford UK study otherwise",
+      "2:1 degree",
+      "No year+ in a high-income country"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BD",
+        "BW",
+        "BZ",
+        "DM",
+        "FJ",
+        "GA",
+        "GD",
+        "GH",
+        "GM",
+        "GY",
+        "IN",
+        "JM",
+        "KE",
+        "KI",
+        "LC",
+        "LK",
+        "LS",
+        "MS",
+        "MU",
+        "MV",
+        "MW",
+        "MY",
+        "MZ",
+        "NA",
+        "NG",
+        "NR",
+        "PG",
+        "PK",
+        "RW",
+        "SB",
+        "SH",
+        "SL",
+        "SZ",
+        "TG",
+        "TO",
+        "TV",
+        "TZ",
+        "UG",
+        "VC",
+        "VU",
+        "WS",
+        "ZA",
+        "ZM"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Development-relevant one-year master's at participating UK universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "About 180 awards for 2027/28. You must be a citizen (or refugee) and permanent resident of an eligible country. Cameroonian citizens can't currently get a UK student visa.",
+    "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
+    "source": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "great-scholarships",
+    "name": "GREAT Scholarships (UK)",
+    "host": "British Council + UK universities",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "amount": "£10,000 towards tuition",
+    "dlText": "Each participating university sets its own deadline (e.g. Edinburgh's 2026-27 deadline was 1 May 2026)",
+    "rolling": true,
+    "tags": [
+      "Passport + permanent residence in an eligible country",
+      "One-year master's"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BD",
+        "CN",
+        "DE",
+        "EG",
+        "ES",
+        "GH",
+        "GR",
+        "ID",
+        "IN",
+        "IT",
+        "KE",
+        "MX",
+        "MY",
+        "NG",
+        "PK",
+        "TH",
+        "TR",
+        "US",
+        "VN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Varies by university",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Countries are from the 2027 call. Universities pick their scholars by 30 Jun 2027.",
+    "url": "https://study-uk.britishcouncil.org/scholarships-funding/great-scholarships",
+    "source": "https://opportunities-insight.britishcouncil.org/short-articles/opportunities/bids-great-scholarships-2027-now-open",
+    "verifiedOn": "2026-11-04"
+  }
+]

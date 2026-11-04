@@ -1,0 +1,146 @@
+[
+  {
+    "id": "aus",
+    "name": "Australia Awards Scholarships",
+    "host": "Australian Government (DFAT)",
+    "country": "Australia",
+    "region": "oceania",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition, living allowance, return airfare, insurance",
+    "deadline": "2027-04-30T14:00:00+10:00",
+    "dlText": "Set per country · most Asia-Pacific countries: ~Feb – 30 Apr 2027 (2028 intake, expected); Africa differs",
+    "varies": true,
+    "tags": [
+      "Must reside in your home country",
+      "Work experience required",
+      "Development priority fields"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AO",
+        "BD",
+        "BN",
+        "BT",
+        "BW",
+        "CD",
+        "CI",
+        "DZ",
+        "EG",
+        "ET",
+        "FJ",
+        "FM",
+        "GH",
+        "GM",
+        "GN",
+        "ID",
+        "KE",
+        "KH",
+        "KI",
+        "LA",
+        "LK",
+        "MA",
+        "MG",
+        "MH",
+        "MM",
+        "MN",
+        "MU",
+        "MV",
+        "MW",
+        "MZ",
+        "NA",
+        "NC",
+        "NG",
+        "NP",
+        "NR",
+        "NU",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PW",
+        "RW",
+        "SB",
+        "SG",
+        "SL",
+        "TH",
+        "TL",
+        "TO",
+        "TV",
+        "TZ",
+        "UG",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "ZA",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "countryNotes": {
+      "PK": "Pakistan round: last one ran 1 Feb – 30 Apr 2026, 14:00 AEST; expected to reopen early 2027 (2028 intake). Master's only, age ≤ 45, and you need a Development Impact and Linkages Plan showing how your degree helps Pakistan. Details: australiaawardspakistan.org"
+    },
+    "fields": "Development priority areas",
+    "fieldCats": [
+      "social",
+      "any"
+    ],
+    "note": "Only for citizens of participating countries in Asia, the Pacific and Africa (list taken from DFAT's 2027-intake tables; it changes yearly). Each country sets its own priority fields, age and work rules.",
+    "url": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships-opening-and-closing-dates",
+    "source": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships-opening-and-closing-dates",
+    "verifiedOn": "2026-11-04",
+    "checklist": [
+      "Development Impact and Linkages Plan"
+    ]
+  },
+  {
+    "id": "manaaki-asia",
+    "name": "Manaaki New Zealand Scholarships (Asia)",
+    "host": "New Zealand Ministry of Foreign Affairs and Trade",
+    "country": "New Zealand",
+    "region": "oceania",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Check official page",
+    "dlText": "Next tertiary round not announced yet (watch nzscholarships.govt.nz)",
+    "rolling": true,
+    "tags": [
+      "Lived in home country for the last 2 years"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "ID",
+        "KH",
+        "LA",
+        "MY",
+        "NP",
+        "PH",
+        "TH",
+        "TL",
+        "VN"
+      ]
+    },
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Recommended subjects per country",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Asian applicants can only study at postgraduate level. Pacific countries have a separate scheme.",
+    "url": "https://www.nzscholarships.govt.nz/check-eligible-countries/",
+    "source": "https://www.nzscholarships.govt.nz/check-eligible-countries/",
+    "verifiedOn": "2026-11-04"
+  }
+]

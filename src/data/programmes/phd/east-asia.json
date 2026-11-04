@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hkpfs",
+    "name": "Hong Kong PhD Fellowship Scheme",
+    "host": "Research Grants Council, Hong Kong",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "HK$344,400 per year + HK$14,400 travel (2026/27 rates)",
+    "deadline": "2026-12-01T12:00:00+08:00",
+    "dlText": "1 Dec 2026, 12:00 noon HKT",
+    "tags": [
+      "Two applications: HKPFS + university"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "400 fellowships for 2027/28 at eight universities; results May 2027. Get your HKPFS reference number first, then apply to up to two programmes by each university's own deadline.",
+    "url": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
+    "source": "https://cerg1.ugc.edu.hk/hkpfs/GuidanceNote.pdf",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "nus-soc-phd",
+    "name": "NUS Computing PhD Research Scholarship",
+    "host": "National University of Singapore, School of Computing",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full tuition + monthly stipend (amount: check official page); +S$500/month for 2 years after the qualifying exam",
+    "deadline": "2026-12-15T23:59:00+08:00",
+    "dlText": "15 Dec 2026 (August 2027 intake; time not stated, submit early)",
+    "tags": [
+      "S$50 application fee",
+      "2:1 honours or equivalent",
+      "Interviews mid-March"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Computer science, information systems",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Applications are accepted all year, but scholarships for August 2027 need the 15 Dec cut-off. Outcome about 3 months after the deadline. Other NUS faculties set their own dates (e.g. Statistics & Data Science: 15 Nov).",
+    "url": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/",
+    "source": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "singa",
+    "name": "Singapore International Graduate Award (SINGA)",
+    "host": "A*STAR with NUS, NTU, SUTD and SMU",
+    "country": "Singapore",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition, monthly stipend, airfare and settling-in grants (amounts: check official page)",
+    "deadline": "2026-12-01T23:59:00+08:00",
+    "dlText": "Expected ~1 Dec 2026 (Aug 2027 intake) · second round ~1 Jun 2027",
+    "expected": true,
+    "tags": [
+      "Two rounds a year"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SG"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science and engineering",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "The official SINGA page couldn't be checked tonight; dates follow previous cycles (June and December rounds). Confirm on the A*STAR site before applying.",
+    "url": "https://www.a-star.edu.sg/scholarships",
+    "source": "https://www.a-star.edu.sg/scholarships",
+    "verifiedOn": "2026-11-04"
+  },
+  {
+    "id": "oist-phd",
+    "name": "OIST PhD Program",
+    "host": "Okinawa Institute of Science & Tech.",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "~¥2.6M/year (taxable) in year 1, rising to ~¥3.6M; fully funded for all nationalities",
+    "deadline": "2026-11-15T23:59:00+09:00",
+    "dlText": "15 Nov 2026, 23:59 JST",
+    "tags": [
+      "2–5 recommendation letters",
+      "TOEFL/IELTS (no minimum score)",
+      "Interviews 18 Jan – 7 Feb 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Physics, CS, neuroscience, biology, chemistry, maths",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Results mid-Feb 2027; entry May or Sep 2027, or Jan 2028. Fully English-taught.",
+    "url": "https://www.oist.jp/admissions/phd-program/apply-phd",
+    "source": "https://www.oist.jp/admissions/phd-program/apply-phd",
+    "verifiedOn": "2026-11-04"
+  }
+]
