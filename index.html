@@ -1,403 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Funded Abroad</title>
+<meta name="description" content="Funded master's, PhD and research-internship programmes that accept Pakistani citizens, with 2027 intake deadlines, eligibility and funding.">
 <meta name="claude:viewport-fit-sides" content="cover">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f5c3f'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3EFA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<style>
-/* Layout: a working ledger — sticky filter bar, a 6-month deadline strip, then one row per programme */
-:root{
-  --bg:#f3f5f2; --surface:#ffffff; --ink:#14201a; --muted:#5b6a62; --line:#d9e0db;
-  --accent:#0f5c3f; --accent-soft:#e1efe8; --warn:#a3560a; --warn-soft:#fbeedd;
-  --closed:#7b8580; --closed-soft:#eceeed; --star:#c98a06;
-  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
-  --body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
-  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
-}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0f1512; --surface:#161e1a; --ink:#e4ece7; --muted:#97a69e; --line:#28332d;
-  --accent:#5fcf9c; --accent-soft:#163327; --warn:#f0a85a; --warn-soft:#3a2812;
-  --closed:#7f8a85; --closed-soft:#1d2421; --star:#f2c14e; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#0f1512; --surface:#161e1a; --ink:#e4ece7; --muted:#97a69e; --line:#28332d;
-  --accent:#5fcf9c; --accent-soft:#163327; --warn:#f0a85a; --warn-soft:#3a2812;
-  --closed:#7f8a85; --closed-soft:#1d2421; --star:#f2c14e; color-scheme:dark}
-*{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
-.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
-header h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,5vw,3.1rem);line-height:1.02;letter-spacing:-.02em;margin:0;text-wrap:balance}
-header p{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
-.asof{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-top:.9rem;letter-spacing:.02em}
-.asof b{color:var(--ink);font-weight:500}
-
-/* Deadline strip */
-.strip{margin-top:28px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 16px 12px}
-.strip h2,.sec-h{font-family:var(--display);font-weight:700;font-size:1.05rem;margin:0 0 10px}
-.strip-scroll{overflow-x:auto}
-.months{display:grid;grid-template-columns:repeat(6,minmax(140px,1fr));gap:10px;min-width:860px}
-.month{border-top:3px solid var(--line);padding-top:8px}
-.month.now{border-top-color:var(--accent)}
-.month .mname{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:6px}
-.month ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
-.month li button{all:unset;cursor:pointer;display:flex;gap:6px;font-size:.82rem;line-height:1.3;border-radius:4px}
-.month li button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.month li .d{font-family:var(--mono);color:var(--accent);font-variant-numeric:tabular-nums;min-width:1.6em}
-.month li.soon .d{color:var(--warn)}
-.month li button:hover .n{text-decoration:underline}
-
-/* Controls */
-.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:14px 12px;margin-top:22px;border-bottom:1px solid var(--line)}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
-.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.search{flex:1 1 240px;min-width:0}
-.search input{width:100%;font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
-.search input:focus{outline:2px solid var(--accent);outline-offset:1px}
-select{font:inherit;font-size:.88rem;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
-.chips{margin-top:10px}
-.chip{font:inherit;font-size:.82rem;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
-.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
-.chip:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.count{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-left:auto}
-
-/* List */
-.list{display:flex;flex-direction:column;gap:10px;margin-top:16px}
-.item{display:grid;grid-template-columns:118px 1fr auto;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;scroll-margin-top:150px}
-.item.flash{outline:2px solid var(--accent)}
-.when{display:flex;flex-direction:column;gap:4px}
-.status{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;padding:3px 7px;border-radius:4px;align-self:flex-start;font-weight:500}
-.s-open{background:var(--accent-soft);color:var(--accent)}
-.s-soon{background:var(--warn-soft);color:var(--warn)}
-.s-up{background:var(--accent-soft);color:var(--accent)}
-.s-closed{background:var(--closed-soft);color:var(--closed)}
-.s-varies{background:var(--closed-soft);color:var(--ink)}
-.days{font-family:var(--display);font-weight:700;font-size:1.7rem;line-height:1;font-variant-numeric:tabular-nums}
-.days small{font-family:var(--body);font-weight:400;font-size:.75rem;color:var(--muted);display:block;margin-top:3px}
-.closed .days{color:var(--closed)}
-.main{min-width:0}
-.main h3{font-family:var(--display);font-weight:700;font-size:1.15rem;margin:0;line-height:1.25}
-.meta{font-size:.85rem;color:var(--muted);margin-top:2px}
-.dl{font-family:var(--mono);font-size:.8rem;margin-top:8px;font-variant-numeric:tabular-nums}
-.dl span{color:var(--muted)}
-.amount{margin-top:6px;font-size:.9rem}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
-.tag{font-size:.74rem;padding:2px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
-.tag.flag{border-color:var(--warn);color:var(--warn)}
-.tag.good{border-color:var(--accent);color:var(--accent)}
-.note{margin-top:8px;font-size:.87rem;max-width:70ch}
-.side{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
-.star{all:unset;cursor:pointer;font-size:1.35rem;line-height:1;color:var(--line);padding:2px}
-.star[aria-pressed="true"]{color:var(--star)}
-.star:focus-visible{outline:2px solid var(--accent);border-radius:4px}
-.go{font-size:.84rem;color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}
-.go:hover{text-decoration:underline}
-.empty{padding:40px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}
-footer{margin-top:36px;font-size:.82rem;color:var(--muted);max-width:75ch}
-footer h2{font-family:var(--display);font-size:1rem;color:var(--ink);margin:0 0 6px}
-
-@media (max-width:640px){
-  .item{grid-template-columns:1fr auto;gap:10px 12px}
-  .when{grid-column:1/2;flex-direction:row;align-items:center;gap:10px}
-  .side{grid-column:2/3;grid-row:1/2}
-  .main{grid-column:1/3}
-  .days{font-size:1.3rem}
-  .days small{display:inline;margin-left:4px}
-  .count{margin-left:0;width:100%}
-}
-@media (prefers-reduced-motion:no-preference){.item{transition:outline-color .3s}}
-</style>
-
+<script>
+  // Apply a saved theme before first paint (storage may be blocked).
+  try { var t = localStorage.getItem("fa-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" href="#list">Skip to programmes</a>
 <div class="wrap">
   <header>
-    <h1>Funded Abroad</h1>
+    <div class="head-row">
+      <h1>Funded Abroad</h1>
+      <button class="theme-btn" id="theme" type="button" aria-label="Colour theme: automatic. Change theme">Theme: auto</button>
+    </div>
     <p>Fully and mostly funded master's, PhD and research-internship programmes that accept Pakistani citizens, with the 2027 intake deadlines, who can apply, and what each one pays.</p>
-    <div class="asof">Deadlines checked <b>4 Nov 2026</b> · countdowns use your device clock · always confirm on the official page before applying</div>
+    <div class="asof">Deadlines checked <b id="asof">4 Nov 2026</b> · countdowns use your device clock · always confirm on the official page before applying</div>
   </header>
 
   <section class="strip" aria-labelledby="strip-h">
     <h2 id="strip-h">Next six months</h2>
-    <div class="strip-scroll"><div class="months" id="months"></div></div>
+    <div class="strip-scroll" tabindex="0" role="region" aria-label="Deadlines in the next six months, scrollable"><div class="months" id="months"></div></div>
   </section>
 
-  <div class="controls">
+  <div class="controls" role="search" aria-label="Filter programmes">
     <div class="row">
-      <div class="search"><label for="q" class="sr" hidden>Search</label><input id="q" type="search" placeholder="Search by name, country, field…" autocomplete="off"></div>
+      <div class="search"><label for="q" class="sr">Search programmes</label><input id="q" type="search" placeholder="Search by name, country, field…" autocomplete="off"></div>
       <select id="level" aria-label="Study level">
         <option value="">All levels</option><option>Master's</option><option>PhD</option><option>Internship</option>
       </select>
       <select id="status" aria-label="Status">
-        <option value="">Any status</option><option value="open">Open now</option><option value="up">Opens soon</option><option value="closed">Closed this year</option>
+        <option value="">Any status</option><option value="open">Open now</option><option value="soon">Closing in 30 days</option><option value="up">Opens soon / expected</option><option value="closed">Closed this year</option>
       </select>
+      <select id="field" aria-label="Field"><option value="">All fields</option></select>
+      <select id="region" aria-label="Region"><option value="">All regions</option></select>
       <select id="sort" aria-label="Sort">
         <option value="deadline">Sort: nearest deadline</option><option value="name">Sort: A–Z</option>
       </select>
     </div>
     <div class="row chips">
-      <button class="chip" id="f-full" aria-pressed="false">Fully funded only</button>
-      <button class="chip" id="f-abroad" aria-pressed="false">Can apply while living outside Pakistan</button>
-      <button class="chip" id="f-nowork" aria-pressed="false">No work experience needed</button>
-      <button class="chip" id="f-saved" aria-pressed="false">★ Shortlist</button>
-      <span class="count" id="count"></span>
+      <button type="button" class="chip" id="f-full" aria-pressed="false">Fully funded only</button>
+      <button type="button" class="chip" id="f-abroad" aria-pressed="false">Can apply while living outside Pakistan</button>
+      <button type="button" class="chip" id="f-nowork" aria-pressed="false">No work experience needed</button>
+      <button type="button" class="chip" id="f-saved" aria-pressed="false">★ Shortlist</button>
+      <button type="button" class="chip chip-ghost" id="f-clear" hidden>Clear filters</button>
+      <span class="count" id="count" role="status" aria-live="polite"></span>
     </div>
   </div>
 
-  <div class="list" id="list"></div>
+  <section class="tools" aria-label="Your shortlist and data">
+    <button type="button" class="tool" id="t-cal">📅 Export shortlist to calendar</button>
+    <button type="button" class="tool" id="t-export">⬇ Export my data</button>
+    <button type="button" class="tool" id="t-import">⬆ Import data</button>
+    <input type="file" id="t-file" accept="application/json,.json" hidden>
+    <button type="button" class="tool" id="t-link">🔗 Copy link to this view</button>
+    <span class="tool-msg" id="t-msg" role="status" aria-live="polite"></span>
+  </section>
+  <p class="storage-warn" id="storage-warn" hidden>Your browser is blocking storage, so your shortlist and checklists will be lost when you close this page. Use “Export my data” to keep them.</p>
+
+  <main class="list" id="list" tabindex="-1"></main>
 
   <footer>
     <h2>How to read this</h2>
-    <p>"Closed this year" means the 2027 round is over; the row shows when the next round usually opens. Deadlines marked "varies" depend on the course or university you pick. HEC nomination means you apply on both the HEC portal and the programme's own portal. Your shortlist is saved in this browser only.</p>
+    <p>"Closed this year" means the 2027 round is over; the row shows when the next round usually opens. "Expected" means the date is estimated from the last cycle and not yet published. Deadlines marked "varies" depend on the course or university you pick. HEC nomination means you apply on both the HEC portal and the programme's own portal. "Nomination" means your university or supervisor must put you forward. Your shortlist and checklists are saved in this browser only; use Export/Import to move them.</p>
+    <p>Every entry links to the official page it was checked against. This is a free, unofficial guide; it may contain mistakes.</p>
   </footer>
 </div>
 
-<script>
-const D = [
- {id:"eth",name:"ETH Zurich Excellence Scholarship (ESOP)",host:"ETH Zurich",country:"Switzerland",levels:["Master's"],full:true,
-  amount:"CHF 13,500 per semester plus tuition waiver",deadline:"2026-11-30T11:59:00+01:00",dlText:"30 Nov 2026, 11:59 CET (noon, not midnight)",
-  tags:["Top 10% of class","Apply via eApply with master's application"],abroad:true,work:false,
-  note:"About 60 awards for 2027/28. Applicants who already hold a master's are not eligible. Interviews may happen in February.",
-  url:"https://ethz.ch/en/studies/financial/scholarships/excellencescholarship.html",fields:"Engineering, CS, natural sciences"},
- {id:"yenching",name:"Yenching Academy Fellowship",host:"Peking University",country:"China",levels:["Master's"],full:true,
-  amount:"Tuition, housing, monthly stipend, travel",deadline:"2026-11-30T09:00:00+08:00",dlText:"30 Nov 2026, 09:00 Beijing time",
-  tags:["IELTS 7.0 / TOEFL 100"],abroad:true,work:false,
-  note:"Two-year English-taught interdisciplinary master's in China Studies. Around 120 places per cohort.",
-  url:"https://yenchingacademy.pku.edu.cn/",fields:"China studies, interdisciplinary"},
- {id:"hkpfs",name:"Hong Kong PhD Fellowship Scheme",host:"Research Grants Council, Hong Kong",country:"Hong Kong",levels:["PhD"],full:true,
-  amount:"HK$344,400 per year + HK$14,400 travel",deadline:"2026-12-01T12:00:00+08:00",dlText:"1 Dec 2026, 12:00 noon HKT",
-  tags:["Two applications: HKPFS + university"],abroad:true,work:false,
-  note:"400 fellowships for 2027/28 at eight universities. Get your HKPFS reference number first, then apply to the university by 1 Dec, 23:59 HKT.",
-  url:"https://cerg1.ugc.edu.hk/hkpfs/index.html",fields:"All fields"},
- {id:"gates",name:"Gates Cambridge Scholarship",host:"University of Cambridge",country:"United Kingdom",levels:["Master's","PhD"],full:true,
-  amount:"Full cost: fees, maintenance, flights, visa",deadline:"2026-12-08T23:59:00+00:00",dlText:"8 Dec 2026 or 6 Jan 2027, 23:59 UK (set by your course)",
-  tags:["Tick Gates box in Cambridge application"],abroad:true,work:false,
-  note:"Your course's funding deadline decides which date applies. Interviews in March; offers in early April.",
-  url:"https://www.gatescambridge.org/",fields:"All fields"},
- {id:"mbzuai",name:"MBZUAI Graduate Scholarship",host:"Mohamed bin Zayed Univ. of AI",country:"UAE",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, housing, AED 15,500/month (MSc) or 17,500 (PhD) when funded",deadline:"2026-12-15T17:00:00+04:00",dlText:"15 Dec 2026, 17:00 GST",
-  tags:["AI only","AED 200 fee","Screening exam"],abroad:true,work:false,
-  note:"Decisions 31 Mar 2027. Check your programme's funding status: some MSc tracks (e.g. applied AI) are fee-paying.",
-  url:"https://mbzuai.ac.ae/study/admission-process",fields:"ML, CV, NLP, robotics, statistics"},
- {id:"epfl",name:"EPFL Master Excellence Fellowship",host:"EPFL",country:"Switzerland",levels:["Master's"],full:false,
-  amount:"CHF 10,000 per semester, up to 4 semesters",deadline:"2026-12-15T23:59:00+01:00",dlText:"15 Dec 2026 (submit and pay the master's application)",
-  tags:["Tick fellowship box"],abroad:true,work:false,
-  note:"The later 31 March master's deadline does not count for the fellowship. Tuition and rent beyond the grant are your own.",
-  url:"https://www.epfl.ch/education/master/master-excellence-fellowships/",fields:"Engineering, CS, sciences"},
- {id:"clarendon",name:"Clarendon Scholarship",host:"University of Oxford",country:"United Kingdom",levels:["Master's","PhD"],full:true,
-  amount:"Fees plus living grant at UKRI rate",deadline:"2027-01-06T12:00:00+00:00",dlText:"Course deadline, Dec 2026 or Jan 2027, 12:00 UK (MSc Advanced CS: 6 Jan)",
-  tags:["Automatic, no separate form"],abroad:true,work:false,
-  note:"More than 200 awards a year. Apply to your Oxford course by its December or January deadline; March deadlines don't qualify.",
-  url:"https://www.ox.ac.uk/clarendon",fields:"All fields"},
- {id:"eiffel",name:"France Excellence Eiffel",host:"Campus France / French Ministry",country:"France",levels:["Master's","PhD"],full:false,
-  amount:"€1,200/month (master's), travel, insurance; fees often waived",deadline:"2027-01-06T23:59:00+01:00",dlText:"Universities submit by 6 Jan 2027 · your university's internal deadline is earlier",
-  tags:["University nominates you"],abroad:true,work:false,
-  note:"You can't apply directly. Apply to a French master's and ask the university to nominate you; many close in November or December.",
-  url:"https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program",fields:"Engineering, sciences, economics, law, politics"},
- {id:"kaust",name:"KAUST Fellowship",host:"King Abdullah Univ. of Science & Tech.",country:"Saudi Arabia",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, housing, $20,000/yr (MS), $25–30k/yr (PhD)",deadline:"2027-01-03T23:59:00+03:00",dlText:"3 Jan 2027 (Fall 2027 intake)",
-  tags:["Automatic with admission","No supervisor needed"],abroad:true,work:false,
-  note:"One application covers admission and funding. Decisions about 14 Feb 2027.",
-  url:"https://admissions.kaust.edu.sa/",fields:"CS, ECE, statistics, sciences"},
- {id:"erasmus",name:"Erasmus Mundus Joint Masters",host:"EU-funded university consortia",country:"Europe (multi-country)",levels:["Master's"],full:true,
-  amount:"€1,400/month, participation costs, travel",deadline:"2027-01-15T23:59:00+01:00",dlText:"Varies by programme · most close Dec 2026 – Jan 2027",varies:true,
-  tags:["Study in 2–3 countries","Up to 3 programmes"],abroad:true,work:false,
-  note:"Over 200 programmes, including AI, data science and semiconductor tracks. Each sets its own deadline and documents.",
-  url:"https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",fields:"All fields"},
- {id:"hungary",name:"Stipendium Hungaricum",host:"Government of Hungary (via HEC)",country:"Hungary",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, housing, monthly stipend, insurance",deadline:"2027-01-15T14:00:00+01:00",dlText:"Expected ~15 Jan 2027 · 2027/28 call not yet published",expected:true,
-  tags:["HEC nomination","Two portals"],abroad:true,work:false,
-  note:"Pakistan applicants apply on both the Stipendium Hungaricum portal and the HEC portal; HEC shortlists with a written test.",
-  url:"https://stipendiumhungaricum.hu/",fields:"Most fields"},
- {id:"cern",name:"CERN Summer Student Programme",host:"CERN",country:"Switzerland",levels:["Internship"],full:true,
-  amount:"Daily allowance, travel, insurance (8–13 weeks)",opens:"2026-11-15",deadline:"2027-01-26T23:59:00+01:00",dlText:"Expected late Jan 2027 · form opens in November",expected:true,
-  tags:["Must still be enrolled at start"],abroad:true,work:false,
-  note:"Pakistan is a CERN Associate Member State, so use the Member/Associate track. You must stay enrolled until the programme starts in summer.",
-  url:"https://careers.cern/",fields:"Physics, CS, engineering, maths"},
- {id:"turkiye",name:"Türkiye Bursları",host:"Government of Türkiye (YTB)",country:"Türkiye",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, dorm, monthly stipend, insurance, flights, Turkish course",opens:"2027-01-10",deadline:"2027-02-20T23:59:00+03:00",dlText:"10 Jan – 20 Feb 2027, 23:59 TRT",
-  tags:["No IELTS needed","One application per cycle"],abroad:true,work:false,
-  note:"Not open to students already enrolled in Türkiye at the level they apply for. A bachelor's student here can still apply for a master's.",
-  url:"https://turkiyeburslari.gov.tr/",fields:"All fields"},
- {id:"si",name:"Swedish Institute Global Professionals",host:"Swedish Institute",country:"Sweden",levels:["Master's"],full:true,
-  amount:"Tuition, SEK 12,000/month, insurance, travel grant",opens:"2027-02-08",deadline:"2027-02-24T14:59:00+01:00",dlText:"Master's applications by 15 Jan 2027 · scholarship 8–24 Feb, 14:59 CET",
-  tags:["3,000+ hours work experience","Leadership evidence"],abroad:true,work:true,
-  note:"Step one is applying to a master's on universityadmissions.se before 15 January. Check that Pakistan is on the 2027 country list.",
-  url:"https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",fields:"Selected English-taught master's"},
- {id:"gks",name:"Global Korea Scholarship (Graduate)",host:"NIIED, Government of Korea",country:"South Korea",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, airfare, monthly allowance, Korean language year",deadline:"2027-03-15T18:00:00+09:00",dlText:"Expected Feb–Mar 2027 · 2027 call not yet published",expected:true,
-  tags:["Embassy or university track"],abroad:true,work:false,
-  note:"Watch the Korean embassy in Islamabad and studyinkorea.go.kr for the graduate call.",
-  url:"https://www.studyinkorea.go.kr/",fields:"All fields"},
- {id:"aga",name:"Aga Khan Foundation International Scholarship",host:"Aga Khan Foundation",country:"Any (you choose)",levels:["Master's","PhD"],full:false,
-  amount:"Tuition and living costs: 50% grant, 50% loan",opens:"2027-01-05",deadline:"2027-03-31T23:59:00+05:00",dlText:"Opens early Jan 2027 · usually 31 Mar",expected:true,
-  tags:["Local AKF office","Guarantor needed for loan","Some work experience preferred"],abroad:false,work:true,
-  note:"For students with no other way to finance study. You apply through the AKF office in your country of residence.",
-  url:"https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",fields:"All fields"},
- {id:"fulbright",name:"Fulbright Student Program (USEFP)",host:"US Government via USEFP",country:"United States",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, living stipend, airfare, J-1 visa",opens:"2027-02-20",deadline:"2027-04-01T23:59:00+05:00",dlText:"Next round expected ~Feb – 1 Apr 2027 (2028 entry)",expected:true,
-  tags:["Must reside in Pakistan","GRE required"],abroad:false,work:false,
-  note:"The 2027-entry round closed 1 Apr 2026. About 100 awards planned per cycle. Clinical medicine excluded.",
-  url:"https://www.usefp.org/",fields:"All except clinical medicine"},
- {id:"oist",name:"OIST Research Internship (Fall 2027)",host:"Okinawa Institute of Science & Tech.",country:"Japan",levels:["Internship"],full:true,
-  amount:"¥2,400/day, housing, travel support (4–6 months)",deadline:"2027-04-15T23:59:00+09:00",dlText:"15 Apr 2027, 23:59 JST",
-  tags:["¥5,000 fee","Pick a research unit"],abroad:true,work:false,
-  note:"For bachelor's or master's holders and students; current PhD students are not eligible. A common route into OIST's PhD.",
-  url:"https://www.oist.jp/admissions/research-internship/apply-research-internship",fields:"Physics, CS, neuroscience, biology, maths"},
- {id:"aus",name:"Australia Awards Pakistan",host:"Australian Government (DFAT)",country:"Australia",levels:["Master's"],full:true,
-  amount:"Tuition, living allowance, return airfare, insurance",opens:"2027-02-01",deadline:"2027-04-30T14:00:00+10:00",dlText:"1 Feb – 30 Apr 2027, 14:00 AEST (2028 intake)",
-  tags:["Must reside in Pakistan","Work experience required","Age ≤ 45"],abroad:false,work:true,
-  note:"Master's only. Needs a Development Impact and Linkages Plan showing how your degree helps Pakistan.",
-  url:"https://australiaawardspakistan.org/",fields:"Development priority areas"},
- {id:"mext",name:"MEXT Research Scholarship (Embassy)",host:"Government of Japan",country:"Japan",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, ¥143,000–145,000/month, airfare",opens:"2027-04-20",deadline:"2027-05-26T23:59:00+05:00",dlText:"2027 round closed 26 May 2026 · next expected Apr–May 2027",expected:true,
-  tags:["Written exam in Pakistan","No IELTS needed"],abroad:false,work:false,
-  note:"Via the Embassy in Islamabad or Consulate in Karachi; exams are held in Pakistan. A university-recommendation route also exists, with deadlines Nov 2026 – Jan 2027.",
-  url:"https://www.pk.emb-japan.go.jp/itpr_en/MEXT_Research_Scholarship.html",fields:"All fields"},
- {id:"daad",name:"DAAD EPOS Development Courses",host:"DAAD",country:"Germany",levels:["Master's","PhD"],full:true,
-  amount:"€992/month (master's), insurance, travel",deadline:"2026-10-15T23:59:00+02:00",dlText:"Course-specific · most 2027/28 deadlines were Jun–Oct 2026",varies:true,nextText:"2028/29 list due mid-2027",
-  tags:["2 years work experience","Up to 3 courses"],abroad:true,work:true,
-  note:"You apply to the university course, not to DAAD. A few courses may still be open; check each course's page.",
-  url:"https://www.daad.de/en/",fields:"Development-related fields"},
- {id:"chevening",name:"Chevening Scholarship",host:"UK Government (FCDO)",country:"United Kingdom",levels:["Master's"],full:true,
-  amount:"Tuition, monthly stipend, flights",deadline:"2026-10-06T11:00:00+00:00",dlText:"Closed 6 Oct 2026",nextText:"Next round opens ~Aug 2027",
-  tags:["2 years work experience","Return home for 2 years"],abroad:true,work:true,
-  note:"One-year UK master's. Four 300-word essays; interviews Mar–Apr.",
-  url:"https://www.chevening.org/scholarships/",fields:"All fields"},
- {id:"cw",name:"Commonwealth Master's & PhD",host:"Commonwealth Scholarship Commission via HEC",country:"United Kingdom",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, £1,712/month (£2,000 London), airfare",deadline:"2026-10-20T16:00:00+01:00",dlText:"Closed 20 Oct 2026",nextText:"Next round ~Sep–Oct 2027",
-  tags:["HEC nomination","Must reside in Pakistan","Dual nationals ineligible"],abroad:false,work:false,
-  note:"Taught master's only (no MBA). HEC had 26 master's and 30 PhD nominations this cycle.",
-  url:"https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",fields:"CSC development themes"},
- {id:"kh",name:"Knight-Hennessy Scholars",host:"Stanford University",country:"United States",levels:["Master's","PhD"],full:true,
-  amount:"Full funding up to 3 years",deadline:"2026-10-06T13:00:00-07:00",dlText:"Closed 6 Oct 2026",nextText:"Next deadline ~Oct 2027",
-  tags:["Bachelor's in 2020 or later"],abroad:true,work:false,
-  note:"Separate applications to KHS and to a Stanford graduate programme.",
-  url:"https://knight-hennessy.stanford.edu/",fields:"All Stanford graduate degrees"},
- {id:"rhodes",name:"Rhodes Scholarship (Pakistan)",host:"Rhodes Trust",country:"United Kingdom",levels:["Master's","PhD"],full:true,
-  amount:"Oxford fees, stipend, flights, visa",deadline:"2026-08-05T23:59:00+05:00",dlText:"Closed 5 Aug 2026",nextText:"Next round 1 Jun – early Aug 2027",
-  tags:["Pakistan residency/schooling rule","Age limit"],abroad:false,work:false,
-  note:"Two scholarships for Pakistan each year. Check the 10-year residency rule if you've studied abroad.",
-  url:"https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/",fields:"All Oxford graduate courses"},
- {id:"cgs",name:"Chinese Government Scholarship (HEC Type A)",host:"China Scholarship Council via HEC",country:"China",levels:["Master's","PhD"],full:true,
-  amount:"Tuition, dorm, monthly stipend (flights not covered)",opens:"2026-11-15",deadline:"2027-01-05T16:00:00+05:00",dlText:"Expected ~early Jan 2027 · last round closed 5 Jan 2026",expected:true,
-  tags:["HEC nomination","Dual nationals ineligible"],abroad:true,work:false,
-  note:"Last cycle had 75 seats (25 master's, 15 PhD). Direct university (Type B) applications run separately into spring.",
-  url:"https://www.hec.gov.pk/english/scholarshipsgrants/lao/CGSP/Pages/default.aspx",fields:"Most fields"},
- {id:"swiss",name:"Swiss Government Excellence Scholarship",host:"Swiss Confederation (FCS)",country:"Switzerland",levels:["PhD"],full:true,
-  amount:"CHF 2,450/month, fees waived, insurance",deadline:"2026-11-30T23:59:00+01:00",dlText:"Country-specific · most Oct–Nov 2026; check the Swiss embassy in Islamabad",varies:true,
-  tags:["Born after 31 Dec 1991","Needs a master's by Jul 2027","Host professor letter"],abroad:false,work:false,
-  note:"Research and PhD scholarships, not taught master's. Apply through the Swiss embassy for your nationality.",
-  url:"https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html",fields:"All research fields"}
-];
+<div class="compare-bar" id="compare-bar" hidden>
+  <span id="compare-count"></span>
+  <button type="button" class="tool primary" id="compare-open">Compare</button>
+  <button type="button" class="tool" id="compare-clear">Clear</button>
+</div>
 
-const now = new Date();
-const DAY = 864e5;
-const fmtM = new Intl.DateTimeFormat("en-GB",{month:"long",year:"numeric"});
-let saved = new Set();
-try{ saved = new Set(JSON.parse(localStorage.getItem("fa-saved")||"[]")); }catch(e){}
+<dialog class="compare" id="compare" aria-labelledby="compare-h">
+  <div class="compare-head">
+    <h2 id="compare-h">Compare programmes</h2>
+    <button type="button" class="tool" id="compare-close" aria-label="Close comparison">✕ Close</button>
+  </div>
+  <div class="compare-scroll" id="compare-body" tabindex="0" role="region" aria-label="Comparison table, scrollable"></div>
+</dialog>
 
-function info(s){
-  const dl = new Date(s.deadline);
-  const days = Math.ceil((dl-now)/DAY);
-  const opens = s.opens ? new Date(s.opens) : null;
-  let st, label;
-  if (days < 0){ st="closed"; label="Closed"; }
-  else if (opens && opens > now){ st="up"; label="Opens "+opens.toLocaleDateString("en-GB",{day:"numeric",month:"short"}); }
-  else if (s.expected){ st="up"; label="Expected"; }
-  else if (s.varies){ st="open"; label="Varies"; }
-  else { st="open"; label = days<=30 ? "Closing soon" : "Open"; }
-  return {dl,days,st,label,soon: st==="open" && days<=30};
-}
-
-const $ = id => document.getElementById(id);
-const state = {q:"",level:"",status:"",sort:"deadline",full:false,abroad:false,nowork:false,saved:false};
-
-function render(){
-  let rows = D.map(s=>({s,i:info(s)}));
-  rows = rows.filter(({s,i})=>{
-    if (state.level && !s.levels.includes(state.level)) return false;
-    if (state.status && i.st!==state.status) return false;
-    if (state.full && !s.full) return false;
-    if (state.abroad && !s.abroad) return false;
-    if (state.nowork && s.work) return false;
-    if (state.saved && !saved.has(s.id)) return false;
-    if (state.q){
-      const hay = (s.name+" "+s.host+" "+s.country+" "+s.fields+" "+s.tags.join(" ")+" "+s.note).toLowerCase();
-      if (!state.q.toLowerCase().split(/\s+/).every(w=>hay.includes(w))) return false;
-    }
-    return true;
-  });
-  const rank = r => r.i.st==="closed" ? 1e9 + r.i.days*-1 : r.i.days;
-  rows.sort(state.sort==="name" ? (a,b)=>a.s.name.localeCompare(b.s.name) : (a,b)=>rank(a)-rank(b));
-  $("count").textContent = rows.length + " of " + D.length + " programmes";
-  const list = $("list");
-  if (!rows.length){
-    list.innerHTML = state.saved
-      ? '<div class="empty">Your shortlist is empty. Tap ☆ on any programme to add it here.</div>'
-      : '<div class="empty">No programmes match these filters. Try clearing one.</div>';
-    return;
-  }
-  list.innerHTML = rows.map(({s,i})=>{
-    const cls = i.st==="closed" ? "s-closed" : i.soon ? "s-soon" : i.st==="up" ? "s-up" : (s.varies?"s-varies":"s-open");
-    const big = i.st==="closed"
-      ? `<div class="days">—<small>${esc(s.nextText||"next round 2027")}</small></div>`
-      : `<div class="days">${i.days}<small>days left</small></div>`;
-    const tags = [
-      `<span class="tag good">${s.full?"Fully funded":"Partial funding"}</span>`,
-      ...s.levels.map(l=>`<span class="tag">${l}</span>`),
-      ...s.tags.map(t=>`<span class="tag${/reside|residency|work experience|Dual|Born after/i.test(t)?" flag":""}">${esc(t)}</span>`)
-    ].join("");
-    const on = saved.has(s.id);
-    return `<article class="item ${i.st==="closed"?"closed":""}" id="p-${s.id}">
-      <div class="when"><span class="status ${cls}">${esc(i.label)}</span>${big}</div>
-      <div class="main">
-        <h3>${esc(s.name)}</h3>
-        <div class="meta">${esc(s.host)} · ${esc(s.country)} · ${esc(s.fields)}</div>
-        <div class="dl"><span>Deadline</span> ${esc(s.dlText)}</div>
-        <div class="amount">${esc(s.amount)}</div>
-        <div class="tags">${tags}</div>
-        <p class="note">${esc(s.note)}</p>
-      </div>
-      <div class="side">
-        <button class="star" data-id="${s.id}" aria-pressed="${on}" aria-label="${on?"Remove from":"Add to"} shortlist">${on?"★":"☆"}</button>
-        <a class="go" href="${s.url}" target="_blank" rel="noopener">Official page ↗</a>
-      </div>
-    </article>`;
-  }).join("");
-}
-
-function renderMonths(){
-  const start = new Date(now.getFullYear(), now.getMonth(), 1);
-  let html = "";
-  for (let m=0;m<6;m++){
-    const ms = new Date(start.getFullYear(), start.getMonth()+m, 1);
-    const me = new Date(start.getFullYear(), start.getMonth()+m+1, 1);
-    const items = D.map(s=>({s,i:info(s)})).filter(({i})=>i.dl>=now && i.dl>=ms && i.dl<me).sort((a,b)=>a.i.dl-b.i.dl);
-    html += `<div class="month ${m===0?"now":""}"><div class="mname">${fmtM.format(ms)}</div><ul>${
-      items.length ? items.map(({s,i})=>`<li class="${i.soon?"soon":""}"><button data-jump="${s.id}"><span class="d">${s.expected||s.varies?"~":""}${i.dl.getDate()}</span><span class="n">${esc(short(s.name))}</span></button></li>`).join("")
-      : '<li style="color:var(--muted);font-size:.8rem">No deadlines</li>'}</ul></div>`;
-  }
-  $("months").innerHTML = html;
-}
-const short = n => n.replace(/\s*\(.*?\)\s*/g," ").replace(/ Scholarship$| Fellowship$/,"").trim();
-function esc(t){return String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
-
-$("q").addEventListener("input",e=>{state.q=e.target.value.trim();render()});
-["level","status","sort"].forEach(k=>$(k).addEventListener("change",e=>{state[k]=e.target.value;render()}));
-[["f-full","full"],["f-abroad","abroad"],["f-nowork","nowork"],["f-saved","saved"]].forEach(([id,k])=>{
-  $(id).addEventListener("click",e=>{state[k]=!state[k];e.currentTarget.setAttribute("aria-pressed",state[k]);render()});
-});
-document.addEventListener("click",e=>{
-  const st = e.target.closest(".star");
-  if (st){ const id=st.dataset.id; saved.has(id)?saved.delete(id):saved.add(id);
-    try{localStorage.setItem("fa-saved",JSON.stringify([...saved]))}catch(_){}
-    render(); return; }
-  const j = e.target.closest("[data-jump]");
-  if (j){
-    Object.assign(state,{q:"",level:"",status:"",full:false,abroad:false,nowork:false,saved:false});
-    $("q").value="";["level","status"].forEach(k=>$(k).value="");
-    document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));
-    render();
-    const el = $("p-"+j.dataset.jump);
-    if (el){ el.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
-      el.classList.add("flash"); setTimeout(()=>el.classList.remove("flash"),1600); }
-  }
-});
-renderMonths(); render();
-</script>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

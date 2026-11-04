@@ -1,0 +1,24 @@
+{
+  "name": "funded-abroad",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Static scholarship finder for Pakistani students: funded master's, PhD and research internships.",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate-data && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "validate-data": "tsx scripts/validate-data.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "jsdom": "^30.1.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
+  }
+}
