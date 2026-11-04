@@ -115,9 +115,10 @@ function render(): void {
   }
   const applicable = countApplicable(SCHOLARSHIPS, filters.nat, filters.lvl, FILTER_CTX);
   const { visible, remaining } = paginate(rows, pages);
+  const lvlWord = filters.lvl === "all" ? "" : `${esc(STUDY_LEVELS[filters.lvl].label)} `;
   $("stats").innerHTML = filters.nat
-    ? `Showing <b>${visible.length}</b> of <b>${rows.length}</b> matching · <b>${applicable}</b> ${esc(STUDY_LEVELS[filters.lvl].label)} programmes you can apply for as a citizen of ${esc(COUNTRY_NAMES[filters.nat] ?? filters.nat)}`
-    : `Showing <b>${visible.length}</b> of <b>${rows.length}</b> matching · <b>${applicable}</b> ${esc(STUDY_LEVELS[filters.lvl].label)} programmes in total · pick your nationality to see only those you can apply for`;
+    ? `Showing <b>${visible.length}</b> of <b>${rows.length}</b> matching · <b>${applicable}</b> ${lvlWord}programmes you can apply for as a citizen of ${esc(COUNTRY_NAMES[filters.nat] ?? filters.nat)}`
+    : `Showing <b>${visible.length}</b> of <b>${rows.length}</b> matching · <b>${applicable}</b> ${lvlWord}programmes in total · pick your nationality to see only those you can apply for`;
   $("list").innerHTML = listHtml(visible, ctx(), filters.saved);
   const more = $<HTMLButtonElement>("more");
   more.hidden = remaining === 0;
