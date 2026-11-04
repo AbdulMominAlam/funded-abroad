@@ -152,5 +152,653 @@
     "url": "https://www.esa.int/About_Us/Careers_at_ESA/Graduates_ESA_Graduate_Trainees",
     "source": "https://www.esa.int/About_Us/Careers_at_ESA/ESA_Graduate_Traineeship_frequently_asked_questions",
     "verifiedOn": "2026-11-04"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "desy-summer-student",
+    "name": "DESY Summer Student Programme",
+    "host": "Deutsches Elektronen-Synchrotron DESY",
+    "country": "Germany",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "€28.50/day + free hostel + travel (€125 lump sum, 80% of costs above €300)",
+    "opens": "2026-12-01",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "~31 Jan 2027 (estimated from 2026 cycle; opens early Dec; time not stated)",
+    "expected": true,
+    "tags": [
+      "Undergraduates in physics & related fields",
+      "~7 weeks, Hamburg or Zeuthen",
+      "Free accommodation"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Open to students worldwide; students enrolled at Russian or Belarusian universities are not accepted regardless of citizenship."
+    },
+    "fields": "Particle physics, photon science, accelerator physics, computing",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "A paid summer research stay at DESY in Hamburg or Zeuthen with lectures and a project in a research group. DESY's timeline lists the online application from early December to 31 January.",
+    "url": "https://summerstudents.desy.de/",
+    "source": "https://summerstudents.desy.de/conditions/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "gsi-fair-summer-student",
+    "name": "International Summer Student Program at GSI/FAIR",
+    "host": "GSI Helmholtz Centre for Heavy Ion Research / FAIR",
+    "country": "Germany",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Weekly allowance + free hotel lodging + travel up to €500",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "~31 Jan 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "3+ years of study completed",
+      "Physics / accelerator / IT",
+      "~8 weeks, Darmstadt"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Applicants from outside Europe must study at a partner institution, and at least one referee should be a member of a GSI-FAIR collaboration."
+    },
+    "fields": "Nuclear, hadron, atomic and plasma physics, accelerator science, biophysics, IT",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "A summer research programme run with the HGS-HIRe graduate school, with lodging, a weekly allowance and travel support. Results come in April.",
+    "url": "https://theory.gsi.de/stud-pro/",
+    "source": "https://theory.gsi.de/stud-pro/ApplyInfo/index.shtml"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "jsc-guest-student",
+    "name": "JSC Guest Student Programme on Scientific Computing",
+    "host": "Jülich Supercomputing Centre, Forschungszentrum Jülich",
+    "country": "Germany",
+    "full": false,
+    "funding": "paid-internship",
+    "amount": "Expense allowance (amount not stated); travel and accommodation self-funded",
+    "deadline": "2027-04-30T23:59:00+02:00",
+    "dlText": "~30 Apr 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "Between first degree and Master's completion",
+      "Recommendation letter required",
+      "10 weeks, Aug–Oct"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Scientific computing, HPC, applied maths, physics, computer science",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Ten weeks of HPC project work at JSC for students who hold a first degree but have not finished their Master's. Participants get an expense allowance but pay their own travel and lodging.",
+    "url": "https://www.fz-juelich.de/en/jsc/education/master-students/guest-student-programme",
+    "source": "https://www.fz-juelich.de/en/jsc/education/master-students/guest-student-programme"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "ista-scientific-internship",
+    "name": "ISTA Scientific Internships",
+    "host": "Institute of Science and Technology Austria (ISTA)",
+    "country": "Austria",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Employment contract, min. €1,583 gross/month",
+    "rolling": true,
+    "tags": [
+      "Arranged with a research group",
+      "Year-round",
+      "Employment contract"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Life sciences, physics, chemistry, maths, computer science, earth sciences",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Year-round internships arranged directly with an ISTA group, paid through an employment contract. The ISTernship summer programme is paused; ISTA says 2027 information will come late in 2026.",
+    "url": "https://phd.ista.ac.at/scientific-internships/",
+    "source": "https://phd.ista.ac.at/scientific-internships/",
+    "dlText": "Rolling — apply to a research group at any time"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "mpg-cs-internship",
+    "name": "Max Planck Computer Science Internship Program",
+    "host": "Max Planck Institutes in computer science (MPI-SWS, MPI-INF and others)",
+    "country": "Germany",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Monthly stipend + free shared housing + travel",
+    "deadline": "2026-11-01T23:59:00+01:00",
+    "dlText": "Summer 2027 deadline was 1 Nov 2026 (time not stated); other start dates: apply ≥5 months ahead",
+    "nextText": "Summer 2028 deadline ~1 Nov 2027; non-summer starts accepted year-round",
+    "tags": [
+      "BSc, MSc or PhD students",
+      "~3 years of CS background",
+      "12–14 weeks"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Computer science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Central internship portal that has absorbed the MPI-SWS internship programme; interns get a stipend, housing and travel. Summer applications close on 1 November of the previous year.",
+    "url": "https://apply.cis.mpg.de/register/internship",
+    "source": "https://www.mpi-sws.org/faq-for-internships/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "vbc-summer-school",
+    "name": "Vienna BioCenter Summer School",
+    "host": "Vienna BioCenter (IMP, IMBA, GMI, Max Perutz Labs)",
+    "country": "Austria",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "€1,400 after tax for 9 weeks + free housing + travel + insurance",
+    "opens": "2026-11-15",
+    "deadline": "2027-01-11T23:59:00+01:00",
+    "dlText": "~11 Jan 2027, 23:59 CET (estimated from official page, year not stated; start application by ~8 Jan)",
+    "expected": true,
+    "tags": [
+      "2+ years of university study",
+      "Life sciences",
+      "9 weeks, Vienna"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Molecular biology, life sciences, bioinformatics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "A nine-week research fellowship at Vienna BioCenter institutes for Bachelor's and Master's students worldwide. No application fee.",
+    "url": "https://training.vbc.ac.at/summer-school/",
+    "source": "https://training.vbc.ac.at/summer-school/housing/benefits/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "icfo-student-research-fellowship",
+    "name": "ICFO Student Research Fellowships",
+    "host": "ICFO – The Institute of Photonic Sciences",
+    "country": "Spain",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "€600/month gross (non-Catalonia residents) + eligible travel",
+    "rolling": true,
+    "tags": [
+      "Enrolled BSc or MSc students",
+      "~3 months",
+      "Calls usually Feb & Oct"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Photonics, optics, quantum physics",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Merit-based research fellowships at ICFO near Barcelona, with calls normally launched in February and October. No call was listed as open when checked, so watch the ICFO jobs board.",
+    "url": "https://www.icfo.eu/studies/internship/fellowships/student_research_fellowships/",
+    "source": "https://www.icfo.eu/studies/internship/fellowships/student_research_fellowships/",
+    "dlText": "Rolling calls, usually launched in February and October"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "biozentrum-research-summer",
+    "name": "Biozentrum Research Summer",
+    "host": "Biozentrum, University of Basel",
+    "country": "Switzerland",
+    "full": false,
+    "funding": "paid-internship",
+    "amount": "CHF 1,736/month gross (pro rata)",
+    "opens": "2027-01-04",
+    "deadline": "2027-02-28T12:00:00+01:00",
+    "dlText": "28 Feb 2027, 12:00 noon CET",
+    "tags": [
+      "Bachelor students",
+      "No research experience needed",
+      "7–9 weeks, Jul–Sep"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Aimed at Bachelor students 'from all over Europe'; check the call for whether students enrolled outside Europe are accepted."
+    },
+    "fields": "Biology, nanosciences, chemistry, physics, computational sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "12–15 Bachelor students do a full-time project in a Biozentrum research group. Housing and travel support are not stated.",
+    "url": "https://www.biozentrum.unibas.ch/summer-schools/biozentrum-research-summer",
+    "source": "https://www.biozentrum.unibas.ch/summer-schools/biozentrum-research-summer"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "amgen-eth",
+    "name": "Amgen Scholars Program at ETH Zurich",
+    "host": "ETH Zurich / Amgen Foundation",
+    "country": "Switzerland",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "CHF 4,000 total stipend (living & housing) + symposium costs",
+    "opens": "2026-11-01",
+    "deadline": "2027-02-01T12:00:00+01:00",
+    "dlText": "1 Feb 2027, 12:00 noon CET",
+    "tags": [
+      "Enrolled at a European (EHEA) university",
+      "Any citizenship",
+      "Undergraduates, PhD-bound"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates of any citizenship enrolled at a university in a European Higher Education Area (Bologna Process) country; in the 2nd year of a 3-year bachelor's (or 2nd/3rd year of a 4-year integrated programme). Students enrolled outside Europe cannot apply."
+    },
+    "fields": "Biology, chemistry, biotechnology, life sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Summer research at ETH from 2 July, ending with the European Amgen Scholars symposium in Cambridge on 4 Sept 2027.",
+    "url": "https://ethz.ch/en/studies/non-degree-courses/summer-offers/summer-projects/amgen-scholars.html",
+    "source": "https://ethz.ch/en/studies/non-degree-courses/summer-offers/summer-projects/amgen-scholars/dates.html"
+  },
+  {
+    "region": "uk",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "amgen-cambridge",
+    "name": "Amgen Scholars Programme at the University of Cambridge",
+    "host": "University of Cambridge / Amgen Foundation",
+    "country": "United Kingdom",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Stipend at national minimum wage level + free college housing + travel up to £300",
+    "deadline": "2027-02-01T23:59:00+00:00",
+    "dlText": "1 Feb 2027, 23:59 GMT",
+    "tags": [
+      "Enrolled at a European (EHEA) university",
+      "Any citizenship",
+      "Undergraduates, PhD-bound"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates of any citizenship enrolled at a university in a European Higher Education Area (Bologna Process) country; in the 2nd year of a 3-year bachelor's (or 2nd/3rd year of a 4-year integrated programme). Students enrolled outside Europe cannot apply."
+    },
+    "fields": "Biological, biomedical and chemical sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Runs 5 July–27 Aug 2027, followed by the European symposium in Cambridge (1–4 Sept). FAQ figures are from the 2026 cycle and may change.",
+    "url": "https://amgenscholars.bio.cam.ac.uk/",
+    "source": "https://amgenscholars.bio.cam.ac.uk/cambridge-programme/whats-included"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "amgen-karolinska",
+    "name": "Amgen Scholars Program at Karolinska Institutet",
+    "host": "Karolinska Institutet / Amgen Foundation",
+    "country": "Sweden",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "SEK 11,000/month (~€1,000) + housing + round-trip travel",
+    "deadline": "2027-02-01T12:00:00+01:00",
+    "dlText": "1 Feb 2027 (time per 2026 round: 12:00 noon Stockholm time)",
+    "tags": [
+      "Enrolled at a European (EHEA) university",
+      "Any citizenship",
+      "Undergraduates, PhD-bound"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates of any citizenship enrolled at a university in a European Higher Education Area (Bologna Process) country; in the 2nd year of a 3-year bachelor's (or 2nd/3rd year of a 4-year integrated programme). Students enrolled outside Europe cannot apply."
+    },
+    "fields": "Biomedicine, life sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Runs 21 June–13 Aug 2027 in Stockholm plus the Cambridge symposium. Applications go through KI's PRISMA portal.",
+    "url": "https://education.ki.se/student-at-ki/studies-and-traineeships-abroad/amgen-scholars-program-at-karolinska-institutet",
+    "source": "https://amgenscholars.com/europe-programme/"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "amgen-lmu",
+    "name": "Amgen Scholars Program at LMU Munich",
+    "host": "LMU Munich / Amgen Foundation",
+    "country": "Germany",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "€1,700 stipend + free dorm + transport pass + travel up to €350",
+    "deadline": "2027-02-01T23:59:00+01:00",
+    "dlText": "1 Feb 2027 (time not stated)",
+    "tags": [
+      "Enrolled at a European (EHEA) university",
+      "Any citizenship",
+      "Undergraduates, PhD-bound"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates of any citizenship enrolled at a university in a European Higher Education Area (Bologna Process) country; in the 2nd year of a 3-year bachelor's (or 2nd/3rd year of a 4-year integrated programme). Students enrolled outside Europe cannot apply."
+    },
+    "fields": "Neuroscience, molecular and life sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Runs 2 July–4 Sept 2027 with insurance included and visa costs partly covered.",
+    "url": "https://www.amgenscholars.mcn.lmu.de/about_amgen/about_program/index.html",
+    "source": "https://www.amgenscholars.mcn.lmu.de/about_amgen/about_program/index.html"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "amgen-pasteur",
+    "name": "Amgen Scholars Program at Institut Pasteur",
+    "host": "Institut Pasteur / Amgen Foundation",
+    "country": "France",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "€1,400 total stipend + student residence + travel up to €400",
+    "opens": "2026-11-01",
+    "deadline": "2027-02-01T23:59:00+01:00",
+    "dlText": "1 Feb 2027 (time not stated)",
+    "tags": [
+      "Enrolled at a European (EHEA) university",
+      "Any citizenship",
+      "Undergraduates, PhD-bound"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates of any citizenship enrolled at a university in a European Higher Education Area (Bologna Process) country; in the 2nd year of a 3-year bachelor's (or 2nd/3rd year of a 4-year integrated programme). Students enrolled outside Europe cannot apply."
+    },
+    "fields": "Microbiology, immunology, biomedicine",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Runs 1 July–early Sept 2027 in Paris; results in April 2027. Pasteur pages differ on the travel cap (€400 vs €450).",
+    "url": "https://www.pasteur.fr/en/education/programs-and-courses/internships-and-pre-doctoral-programs/amgen-scholars-program",
+    "source": "https://www.pasteur.fr/en/education/programs-and-courses/internships-and-pre-doctoral-programs/amgen-scholars-program"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "eso-summer-research",
+    "name": "ESO Summer Research Programme",
+    "host": "European Southern Observatory (ESO)",
+    "country": "Germany",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Modest stipend + shared housing + travel",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "~31 Jan 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "2+ years of degree completed",
+      "Not yet started a PhD",
+      "6 weeks, Garching"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "All nationalities welcome, but final selection prioritises nationals of ESO member states, Chile and Australia."
+    },
+    "fields": "Astronomy, astrophysics, STEM",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "A fully funded six-week astronomy research programme at ESO headquarters (2026 edition: 15 June–24 July). Students arrange their own visas.",
+    "url": "https://www.eso.org/sci/meetings/2026/SummerResearch2026.html",
+    "source": "https://www.eso.org/sci/meetings/2026/SummerResearch2026/faq.html"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "psi-summer-student",
+    "name": "PSI Summer Student Programme",
+    "host": "Paul Scherrer Institute (PSI)",
+    "country": "Switzerland",
+    "full": false,
+    "funding": "paid-internship",
+    "amount": "Financial support for living costs (check official page)",
+    "deadline": "2027-01-31T23:59:00+01:00",
+    "dlText": "~31 Jan 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "3+ years of university study",
+      "No Master's by summer",
+      "8–12 weeks"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationality rules not stated on the pages checked; see the PSI summer student page."
+    },
+    "fields": "Physics, life sciences, energy, nuclear engineering, computing",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Summer placements across PSI's research divisions (2026 core programme 2 July–21 Aug). Applications are made per field through PSI job postings.",
+    "url": "https://www.psi.ch/en/summerstudents",
+    "source": "https://www.psi.ch/en/summerstudents/how-to-apply"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "hzdr-summer-student",
+    "name": "HZDR Summer Student Program",
+    "host": "Helmholtz-Zentrum Dresden-Rossendorf (HZDR)",
+    "country": "Germany",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Stipend + free accommodation + insurance (amount not stated)",
+    "opens": "2026-11-02",
+    "deadline": "2027-01-24T22:00:00+01:00",
+    "dlText": "24 Jan 2027, 22:00 CET (one HZDR page says 22 Feb 2027 — confirm)",
+    "tags": [
+      "Senior undergraduates",
+      "3+ years of study by 30 Sep 2027",
+      "8 weeks, Jul–Sep"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Physics, materials, chemistry, engineering, computing",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Eight weeks of research at HZDR in Dresden; a recommendation letter must arrive by the deadline. Bachelor's graduates, PhD students and former HZDR contract holders are not eligible.",
+    "url": "https://www.hzdr.de/db/Cms?pOid=34484&pNid=2527",
+    "source": "https://www.hzdr.de/db/Cms?pOid=34486&pNid=2538&pLang=en"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "mpi-cbg-internship",
+    "name": "MPI-CBG / IMPRS-CellDevoSys Student Research Internships",
+    "host": "Max Planck Institute of Molecular Cell Biology and Genetics",
+    "country": "Germany",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "~€1,000/month + travel, visa and housing support",
+    "deadline": "2027-10-29T23:59:00+01:00",
+    "dlText": "~late Oct 2027 for 2028 internships (estimated from 2025 cycle: 18 Aug–29 Oct; time not stated)",
+    "expected": true,
+    "tags": [
+      "BSc (4+ semesters) or MSc students",
+      "~3 months",
+      "Must stay enrolled at home university"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Cell biology, developmental biology, biophysics, computational biology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Internships in Dresden for students from outside Dresden; the call for 2027 internships is already closed. Next call expected to open around Aug–Sep 2027.",
+    "url": "https://imprs.mpi-cbg.de/3768/Internships",
+    "source": "https://imprs.mpi-cbg.de/23803/FAQs"
+  },
+  {
+    "region": "europe",
+    "levels": [
+      "Internship"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-04",
+    "id": "cactus-tuebingen",
+    "name": "CaCTüS – Computation and Cognition Tübingen Summer Internship",
+    "host": "MPI for Biological Cybernetics, MPI for Intelligent Systems & Tübingen AI Center",
+    "country": "Germany",
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Full stipend for 3 months + travel covered",
+    "opens": "2026-10-21",
+    "deadline": "2026-11-16T23:59:00+01:00",
+    "dlText": "16 Nov 2026 (time not stated)",
+    "tags": [
+      "BSc or MSc students",
+      "Up to 12 interns",
+      "3 months, summer"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Aimed at Bachelor/Master students; check the call for any priority groups or nationality rules."
+    },
+    "fields": "Machine learning, neuroscience, cognitive science, electrical engineering",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "A paid three-month summer internship in Tübingen covering living and travel costs. Results are expected around January 2027.",
+    "url": "https://projects.tuebingen.mpg.de/",
+    "source": "https://projects.tuebingen.mpg.de/"
   }
 ]
