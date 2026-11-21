@@ -1,0 +1,186 @@
+[
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "visegrad-scholarship",
+    "name": "Visegrad Scholarship Program",
+    "host": "International Visegrad Fund",
+    "country": "Czechia / Hungary / Poland / Slovakia (also EaP/WB hosts for V4 citizens)",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€3,500 per semester to the scholar (+ €2,000 per semester to the host), 1–2 semesters",
+    "opens": "2027-03-01",
+    "deadline": "2027-04-15T12:00:00+02:00",
+    "dlText": "15 Apr 2027, 12:00 (time zone not stated)",
+    "tags": [
+      "V4 / Eastern Partnership / Western Balkans citizens",
+      "Host >150 km away",
+      "1–2 semesters"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "CZ",
+        "HU",
+        "PL",
+        "SK",
+        "AL",
+        "AM",
+        "AZ",
+        "BY",
+        "BA",
+        "GE",
+        "XK",
+        "MD",
+        "ME",
+        "MK",
+        "RS",
+        "UA"
+      ]
+    },
+    "fields": "Any discipline",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Master's or post-master's (doctoral/postdoc) study or research stay in another V4 country (or, for V4 citizens, in an EaP/WB country); citizenship must differ from the host country.",
+    "url": "https://www.visegradfund.org/apply/mobilities/visegrad-scholarships/",
+    "source": "https://www.visegradfund.org/visegrad-scholarship-program-apply"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "slovakia-nsp-students",
+    "name": "National Scholarship Programme of the Slovak Republic – Study Stays for Students",
+    "host": "Slovak Academic Information Agency (SAIA)",
+    "country": "Slovakia",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€620/month for living costs + optional travel allowance up to €1,500",
+    "deadline": "2027-04-30T16:00:00+02:00",
+    "dlText": "Expected 30 Apr 2027, 16:00 Central European time (standing annual deadline; also 31 Oct for summer semester)",
+    "expected": true,
+    "tags": [
+      "1–2 semester exchange",
+      "Admission letter from Slovak host",
+      "Not for full-degree students in Slovakia"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SK"
+      ]
+    },
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For bachelor's and master's students enrolled abroad doing a 1–2 semester stay at a Slovak university; two deadlines a year (30 April, 31 October).",
+    "url": "https://www.scholarships.sk/",
+    "source": "https://grants.saia.sk/Pages/ProgramDetail.aspx?Program=296"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "lane-kirkland-scholarship",
+    "name": "Lane Kirkland Scholarship Program",
+    "host": "Polish-American Freedom Foundation / Leaders of Change Foundation",
+    "country": "Poland",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "PLN 22,500 stipend over 9 months (2026/27 round) + free classes, accommodation and health insurance (check official page)",
+    "deadline": "2027-03-01T23:59:00+01:00",
+    "dlText": "Expected ~1 Mar 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "Graduates from Eastern Europe, South Caucasus, Central Asia",
+      "Two-semester postgraduate study",
+      "Not if already studying in Poland"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AM",
+        "AZ",
+        "BY",
+        "GE",
+        "KZ",
+        "KG",
+        "MD",
+        "TJ",
+        "UA",
+        "UZ"
+      ]
+    },
+    "fields": "Social sciences, public policy, economics, law, management and related fields",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Two-semester complementary postgraduate study in Warsaw, Kraków, Wrocław or Lublin, starting with a preparatory course; competition announced each December.",
+    "url": "https://kirkland.edu.pl/en/scholarship-competition/the-lane-kirkland-scholarship-program/",
+    "source": "https://kirkland.edu.pl/en/for-candidates/"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "slovenia-western-balkans-masters",
+    "name": "Slovenian Scholarships for Western Balkans Citizens (Master's Study in Slovenia)",
+    "host": "Public Scholarship, Development, Disability and Maintenance Fund of Slovenia (Ad futura)",
+    "country": "Slovenia",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€9,600/year for living costs",
+    "deadline": "2027-09-02T23:59:00+02:00",
+    "dlText": "Expected ~2 Sep 2027 (estimated from 2026 call No. 380; time not stated)",
+    "expected": true,
+    "tags": [
+      "Western Balkans citizens",
+      "STEM, agriculture, health fields",
+      "Slovenian address or proxy needed"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BA",
+        "ME",
+        "XK",
+        "MK",
+        "RS"
+      ]
+    },
+    "fields": "Natural sciences, maths, statistics, ICT, engineering, manufacturing, construction, agriculture, forestry, veterinary, health and social welfare",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Annual public call (2026: call No. 380, published Dec 2025) for second-cycle master's study in Slovenia; applicants needed temporary residence in Slovenia or a Slovenia-resident proxy by the deadline.",
+    "url": "https://www.srips-rs.si/vsi-razpisi/razpis/javni-razpis-za-dodelitev-stipendij-tujim-drzavljanom-za-studij-v-sloveniji-za-leto-2026-380-javni-razpis",
+    "source": "https://www.srips-rs.si/vsi-razpisi/razpis/javni-razpis-za-dodelitev-stipendij-tujim-drzavljanom-za-studij-v-sloveniji-za-leto-2026-380-javni-razpis"
+  }
+]
