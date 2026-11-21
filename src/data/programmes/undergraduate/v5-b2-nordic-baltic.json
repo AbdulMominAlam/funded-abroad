@@ -1,0 +1,70 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "iceland-govt-scholarship-icelandic",
+    "name": "Icelandic Government Scholarships (Icelandic as a Second Language)",
+    "host": "Árni Magnússon Institute for Icelandic Studies / Icelandic Ministry",
+    "country": "Iceland",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "University of Iceland registration fee + monthly stipend for room and board (Sep–Apr)",
+    "deadline": "2026-12-01T23:59:00+00:00",
+    "dlText": "1 Dec 2026 (postmark date; email not accepted)",
+    "nextText": "Next round ~1 Dec 2027",
+    "tags": [
+      "≥1 year of university humanities study",
+      "Basic Icelandic (Icelandic Online 1–2)",
+      "Preference under 35",
+      "~12 awards/year"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AT",
+        "BG",
+        "CA",
+        "CN",
+        "HR",
+        "CZ",
+        "DK",
+        "EE",
+        "FO",
+        "FI",
+        "FR",
+        "DE",
+        "NL",
+        "HU",
+        "IT",
+        "JP",
+        "LV",
+        "LT",
+        "NO",
+        "PL",
+        "RU",
+        "SK",
+        "ES",
+        "SE",
+        "CH",
+        "GB",
+        "US"
+      ]
+    },
+    "countryNotes": {
+      "US": "US citizens apply through Fulbright/IIE, not directly to the Institute, with a different deadline."
+    },
+    "fields": "BA in Icelandic as a Second Language, University of Iceland",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Results in January; winners must then apply to the University of Iceland by 1 Feb. Renewable for up to three academic years (re-apply by 1 Dec).",
+    "url": "https://www.arnastofnun.is/en/about-scholarship",
+    "source": "https://www.arnastofnun.is/en/about-scholarship"
+  }
+]

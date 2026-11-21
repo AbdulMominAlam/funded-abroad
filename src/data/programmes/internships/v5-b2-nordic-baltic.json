@@ -1,0 +1,40 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "aalto-asci-summer-research",
+    "name": "AScI International Summer Research Programme",
+    "host": "Aalto University Science Institute (AScI)",
+    "country": "Finland",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "€2,000+/month salary (by years of study) + travel bonus €400 (Europe) / €800 (outside Europe)",
+    "opens": "2027-01-07",
+    "deadline": "2027-01-31T23:59:00+02:00",
+    "dlText": "31 Jan 2027, 23:59 (UTC+2)",
+    "tags": [
+      "Bachelor's/master's students",
+      "12 weeks June–August",
+      "Research assistant contract",
+      "Project list mid-Dec 2026"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Science and engineering research groups at Aalto (CS, physics, maths, engineering, etc.)",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Full-time paid research assistantship in an Aalto group; pick projects from the list published in mid-December.",
+    "url": "https://www.aalto.fi/en/aalto-university-science-institute-asci/aalto-university-science-institute-international-summer-research-programme",
+    "source": "https://www.aalto.fi/en/aalto-university-science-institute-asci/aalto-university-science-institute-international-summer-research-programme"
+  }
+]
