@@ -1,0 +1,79 @@
+[
+  {
+    "id": "nii-international-internship",
+    "name": "NII International Internship Program",
+    "host": "National Institute of Informatics (NII), Japan",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "¥5,700/day stay allowance (topped up if outside funding is lower); travel not covered",
+    "deadline": "2026-10-23T17:00:00+09:00",
+    "dlText": "23 Oct 2026, 17:00 JST (2nd call 2026)",
+    "nextText": "Next call expected ~spring 2027",
+    "tags": [
+      "MOU partner institutions only",
+      "60–165 days",
+      "Master's/PhD students"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Master's and doctoral students at institutions with an NII MOU; applications forwarded by your home institution"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your university (NII MOU partner)",
+    "fields": "Informatics, computer science",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Research internship at NII Tokyo, with two calls a year.",
+    "url": "https://www.nii.ac.jp/en/about/international/mouresearch/",
+    "source": "https://www.nii.ac.jp/en/about/international/mouresearch/internship2026-2/",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "jsps-summer-program",
+    "name": "JSPS Summer Program",
+    "host": "Japan Society for the Promotion of Science (JSPS)",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Round-trip airfare + maintenance allowance + research support allowance + insurance (amounts: check official page)",
+    "dlText": "Deadline set by each overseas nominating authority",
+    "rolling": true,
+    "tags": [
+      "US/UK/FR/DE/CA/SE nationals",
+      "Graduate students & postdocs"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "US",
+        "GB",
+        "FR",
+        "DE",
+        "CA",
+        "SE"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Overseas nominating authority (e.g. NSF, UKRI, CNRS, DAAD)",
+    "fields": "Any research field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Summer research stay with a host researcher in Japan for graduate students and early postdocs, applied for through a national nominating authority.",
+    "url": "https://jsps.go.jp/j-summer/index.html",
+    "source": "https://www.jsps.go.jp/english/e-fellow/e-summer/guideline.html",
+    "verifiedOn": "2026-11-22"
+  }
+]
