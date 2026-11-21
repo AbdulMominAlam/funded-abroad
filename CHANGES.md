@@ -1,3 +1,174 @@
+# v5 "data": what changed
+
+Branch: `v5-data`, started from `main` (after v4 and the README update). Work dates: **21–22 Nov 2026**. Each new or re-checked entry's `verifiedOn` is the day it was checked (`2026-11-21` for batches 1–4 and the deadline pass, `2026-11-22` for batches 5–9).
+
+## Status: ✅ all targets met (741 programmes)
+
+| | v4 | **v5** | Change | Target |
+| --- | --- | --- | --- | --- |
+| Total programmes | 561 | **741** | +180 | 720+ ✅ |
+| Undergraduate | 135 | **181** | +46 | +40 ✅ |
+| Master's | 211 | **285** | +74 | +55 ✅ |
+| PhD | 203 | **291** | +88 | +45 ✅ |
+| Internships / summer research | 125 | **145** | +20 | +20 ✅ |
+
+Some programmes count toward more than one level.
+
+* **Regions:** Europe 280 · East & Southeast Asia 160 · North America 118 · Global 78 · UK 37 · Middle East 34 · Oceania 27 · Türkiye 7.
+* **Funding:** fully funded 378 · partial 187 · paid internship 137 · salaried 39.
+* **Dates:** 171 entries use estimated (`expected`) dates, 227 are `rolling`, 52 `varies`, and 238 use `check` eligibility.
+
+Final checks: `npm run validate-data` ✔ (68 files, 741 programmes) · `npm test` ✔ 113 tests · `npm run build` ✔.
+
+### Host countries, before → after
+
+Counted with the new canonical names (`npm run count-hosts`). A programme in several countries counts once for each, so the column doesn't add up to the total. The host-country filter now has **80 countries and territories** (was 64) plus "Multiple / any country".
+
+| Host | v4 → v5 | | Host | v4 → v5 |
+| --- | --- | --- | --- | --- |
+| United States | 85 → 100 | | Thailand | 5 → 15 |
+| Multiple / any country | 52 → 53 | | Austria | 13 → 14 |
+| Germany | 39 → 45 | | Belgium | 12 → 12 |
+| United Kingdom | 36 → 39 | | Poland | 3 → 11 |
+| Italy | 19 → 35 | | Spain | 5 → 11 |
+| Japan | 22 → 32 | | Saudi Arabia | 8 → 10 |
+| Switzerland | 24 → 28 | | United Arab Emirates | 8 → 9 |
+| China | 25 → 25 | | Czechia | 1 → 7 |
+| South Korea | 21 → 24 | | Denmark | 4 → 7 |
+| **Ireland** | **1 → 20** | | Malaysia | 1 → 7 |
+| Netherlands | 20 → 20 | | Norway | 2 → 6 |
+| Australia | 17 → 19 | | Finland | 5 → 6 |
+| Canada | 16 → 18 | | Lithuania, Qatar, Slovakia, Indonesia, Chile | 1–2 → 4 |
+| Hong Kong | 14 → 18 | | Estonia, Hungary, Brunei, Kenya | 1 → 3 |
+| Singapore | 18 → 18 | | Portugal, Iceland, Colombia, Vietnam | 0 → 2 |
+| **Sweden** | **8 → 18** | | New: Cyprus, Malta, Latvia, Slovenia, Oman, Peru, Macao, Ethiopia, Malawi, Tanzania, Uganda, Burkina Faso | 0 → 1 |
+| France | 14 → 16 | | Greece | 0 → 0 (no qualifying current call) |
+| Taiwan | 10 → 15 | | | |
+
+## App changes
+
+* **Canonical host-country names** (`src/hosts.ts`). `country` must be a name from `countries.json` (except "Hong Kong" and "Macao"), several joined with " / ", optionally with one "(qualifier)", or "Any (…)". `npm run validate-data` now flags non-canonical text and suggests the canonical name ("UK" → "United Kingdom", "UAE" → "United Arab Emirates").
+* **Data fixes:** `mbzuai`, `mbzuai-ug` (UAE), `embl-eipp` (UK), `afdb-internship` (straight apostrophe in Côte d’Ivoire), `wbg-pioneers` (qualifier), `erasmus`, `ellis-phd` ("Europe (multi-country)" → "Any (European countries)").
+* **Host-country filter:** lists each country once. Multi-country programmes appear under each host, and "Any (…)" programmes are grouped as "Multiple / any country". Old `host=` links are mapped to canonical names (`host=UAE` → United Arab Emirates).
+* **`npm run count-hosts`:** prints counts by level and by host country (`-- --json` for JSON).
+* **Tests:** +6 (canonical names, aliases, parsing, legacy links, filter and counts, validator messages). The validator tests now use a real country instead of "Testland".
+
+## Deadlines that passed since 4 Nov 2026 (re-verified 21 Nov)
+
+| Entry | Action |
+| --- | --- |
+| `jds` | Rolled to the next country round: Mongolia 25 Nov 2026, 14:00; Laos 27 Dec 2026 |
+| `ntu-research-scholarship` | Rolled to 31 Dec 2026 (schools with later dates) |
+| `mastercard-scholars` | Rolled to Berkeley MDP priority deadline 1 Dec 2026 |
+| `nagoya-g30-ug-scholarship` | Rolled to 2nd round 21 Jan 2027 (`varies`, some programmes) |
+| `ntu-tw-outstanding-intl-grad` | Rolled to 2nd round 19 Jan 2027, 16:00 (admission guidelines; the admissions site says 28 Jan) |
+| `cactus-tuebingen`, `grips-mext`, `imprs-is`, `oist-phd` | Closed; next round estimated in `nextText` |
+| `padua` | Closed; Call Two (1 Dec–1 Mar) only exceptionally gets scholarships, so this is in `nextText` |
+| `imprs-ufast`, `pasteur-ppu`, `trudeau-phd`, `jane-street-grf`, `ubc-wehrung`, `pearson-uoft` | Already closed with next-round info; no change |
+
+## What each batch added
+
+Each batch ran as a subagent with about 40 web searches, writing to its own `v5-bN-*.json` files. I merged, reviewed and validated each batch, then committed and pushed it. Batches 5–7 were interrupted by a usage limit and resumed with their earlier searches intact; none had written files before the interruption.
+
+| Batch | Added | Entries |
+| --- | --- | --- |
+| 1 Ireland | +19 | UCD Global Excellence (UG, PG); Ireland Fellows Programme (Africa, Asia, SIDS, Latin America); Teagasc Walsh; Trinity Research Doctorate Awards; UCD Ad Astra; Galway Hardiman; Maynooth Hume; RCSI StAR; PhD vacancy schemes at Insight, ADAPT, Lero, CONNECT, AMBER, Tyndall; Tyndall Summer Fellowship |
+| 2 Nordics & Baltics | +25 | Linköping, Gothenburg Axel Adler (×2), Umeå (×2), KI Global, Örebro, SSE waivers, American Friends of SSE; AAU, SDU, ITU; NTNU, UiO, UiB, UiT salaried PhDs; Tartu, TalTech; Latvia state scholarships; Vilnius master's waiver, VU and KTU state-funded PhDs; Icelandic Government Scholarship, University of Iceland Doctoral Grants Fund; Aalto AScI summer research |
+| (coordinator) | +1 | Swedish Institute Scholarship for Global Professionals (missing from the dataset; spotted by batch 2) |
+| 3 Southern Europe | +26 | Italy (16): SNS and Sant'Anna ordinary courses, EDISU Piemonte, DSU Toscana, Padua regional grant, Bologna International Talents, Ca' Foscari Honours, Siena, PoliTo (math eng., PhD), Sant'Anna, Bocconi, EUI, PoliMi, Sapienza, Turin PhDs. Spain (6): UC3M, Navarra, CRG, IRB Barcelona, ICFO, FPI. Portugal: Champalimaud, GIMM. Malta ISSI; Cyprus Institute |
+| 4 Central & Eastern Europe | +18 | Hungarian Diaspora; NAWA Polonista; Visegrad Scholarship; Slovakia NSP (students, PhD); Lane Kirkland; Slovenia Western Balkans; CEU PhD; Charles, Masaryk, CTU, CTU PICTUS, IOCB; Warsaw, Jagiellonian, Warsaw Tech, AGH doctoral schools; Warsaw-4-PhD |
+| 5 Asia | +30 | Thailand: KMUTT (×5), SIIT (×2), VISTEC, Chiang Mai. Malaysia: UM GRA, Monash Malaysia (×2), Taylor's, Sunway. VinUni, Fulbright University Vietnam; Darmasiswa, TIAS; SEARCA; Science Tokyo IGPA; NII; JSPS Summer; UST Korea; Ewha EGPP; Nazarbayev; UBD, UTB; University of Macau; NTUST, NCU |
+| 6 Middle East, Africa & Latin America | +15 | CMU Qatar; Pacific Alliance mobility; E-JUST TICAD9; DAAD In-Region (sub-Saharan Africa); AGCID Nelson Mandela; ICETEX; GCUB-MOB Brazil; Sultan Qaboos; OAS Academic; HBKU, Khalifa, KFUPM, King Saud PhD; OAS–ANID Chile; icipe |
+| 7 Big-country gap check | +17 | Notre Dame, Cornell, Johns Hopkins, Caltech, Tufts aid; W&L Johnson; Deakin, Griffith VC; DAAD Study Scholarships; ENS International Selection; Oxford Ertegun; Felix; Princeton SPIA MPA; Humphrey; Naumann (FNF); Max Planck Schools; Manchester PDS |
+| 8 Paid internships top-up | +16 | Preferred Networks, NIMS, RIKEN (R-CCS, RIH, IMS), KEK; EPFL (E3, ERIP, SV), UNIL SUR; MPIIB, MPI-PKS, MPL; Ai2, MERL; Cohere |
+| 9 Undergraduate top-up | +13 | PolyU, CityUHK, HKBU, Lingnan; NTHU, NTU Taiwan; uOttawa; Polytechnique Bachelor (olympiad); Claremont McKenna, Lafayette, Barnard, Harvey Mudd, Mount Holyoke |
+
+Batches 8 and 9 were added because, after batches 1–7, internships (+4) and undergraduate (+31) were behind their targets.
+
+**Coordinator fixes:**
+* Removed `ceepus-mobility`: exchange only, not a funded degree (consistent with earlier exchange drops).
+* Removed `visegrad-fellowship`: a short research visit, under the "tiny one-off grants" rule.
+* Removed `fields-usrp`: covers expenses but pays no stipend (also dropped in session 2).
+* Removed `nyuad-need-based-aid`: no official page says NYUAD meets full need (also dropped in session 3).
+* Removed `utokyo-peak-scholarship`: the official September 2026 guidelines say PEAK admissions end with that intake.
+* `champalimaud-indp`: marked `expected`. The official page says "16 Nov–30 Dec 2027", apparently a typo for 2026.
+* `harvey-mudd-aid`: the amount now says full need is met for only about 3–4 international students a year (need-aware).
+* `cityu-intl-entrance-ug`: eligibility changed to `check`. The batch had added a mainland-China exclusion that the source doesn't state.
+* `kmutt-ppjk-masters` and `kmutt-ppjk-phd` kept as two entries: separate announcements with different GPA bars and benefits.
+* EPFL E3, EPFL SV, UNIL SUR, MPL IMPRS internships: their 2027 rounds closed in Nov 2026, so each now has `nextText`.
+
+## Least-certain entries (spot-check first)
+
+| Entry | Issue |
+| --- | --- |
+| `ntu-tw-outstanding-intl-grad` | 2nd-round deadline: guidelines say 19 Jan, the admissions site says 28 Jan (used 19 Jan) |
+| `champalimaud-indp` | deadline inferred from an apparent typo on the official page |
+| `nims-internship` | deadline estimated from "opens Dec 2026 for about a month" |
+| `lero-phd`, `connect-centre-phd`, `amber-centre-phd`, `adapt-centre-phd` | no stipend amount; no posts open when checked |
+| `ireland-fellows-latin-america`, `ireland-fellows-sids` | country lists from search excerpts (embassy page returned 403) / partly confirmed |
+| `teagasc-walsh-scholars` | deadline estimated; non-EU eligibility not stated |
+| `tyndall-summer-fellowship`, `mpi-pks-biophys-internship` | paid, but no amount published |
+| `vu-state-funded-phd`, `ktu-state-funded-phd` | not confirmed whether non-EU applicants get state-funded places |
+| `vu-masters-tuition-waiver` | official page 404; source is a VU news article |
+| `itu-state-scholarship` | 2027 MSc deadline not found (rolling) |
+| `unibo-international-talents` | no call after 2025/26; amount and date from that cycle |
+| `irb-barcelona-phd`, `spain-fpi-predoctoral` | salary and nationality rules not verified |
+| `cyi-deans-distinguished` | indicative deadlines; no stipend amount |
+| `lane-kirkland-scholarship` | two official amounts (PLN 22,500 vs 25,200); date estimated |
+| `ctu-phd`, `wut-doctoral-school`, `agh-doctoral-school` | stipend rates for 2026/27 not confirmed |
+| `fulbright-uv-scholarships` | 10–100% tiers; need-based aid may be for Vietnamese nationals only |
+| `vinuni-merit-scholarships`, `sunway-pg-research-scholarship`, `vistec-scholarship`, `ust-korea-stipend` | international eligibility not confirmed (`check`) |
+| `nu-abay-kunanbayev` | date estimated; stipend figures conflict |
+| `darmasiswa`, `humphrey-fellowship`, `ens-international-selection` | non-degree or non-standard programmes filed under the nearest level |
+| `oas-academic-scholarship` | capped at US$10k/year, may be under 50% of tuition; date estimated |
+| `agcid-nelson-mandela`, `daad-in-region-ssa` | tuition cover or amount not confirmed |
+| `icetex-beca-colombia-extranjeros` | two official deadlines (5 vs 19 Jun 2026) |
+| `ksu-phd-initiative`, `icipe-phd-scholarships` | no current application phase published |
+| `fnf-international-scholarship` | amounts and windows differ between Naumann pages; date estimated |
+| `daad-study-masters-all` | deadline differs by country; stipend rate not confirmed |
+| `caltech-aid`, `tufts-aid` | "need-aware" from secondary pages |
+| `uottawa-dtfe-ug`, `polytechnique-bachelor-olympiad`, `polyu-nonlocal-entry-ug` | values from older or partly loaded pages |
+| `cohere-internships`, `ai2-research-internship` | pay "competitive", not published; Cohere offers no visa sponsorship |
+| `pfn-summer-internship` | needs residency and work rights in Japan; date estimated |
+
+## Dropped (with reason)
+
+| Candidate | Reason |
+| --- | --- |
+| Research Ireland GOI Postgraduate | Folded into the institution-only Empower call; no individual 2027 call |
+| Research Ireland Enterprise Partnership / Employment-Based | No call since 2025 |
+| Research Ireland Centres for Research Training | "Likely to relaunch end 2026" only |
+| George Mitchell Scholarship | Paused; no Class of 2027 |
+| TCD, UCC, UL, DCU, TU Dublin merit awards | €2k–€5k or 20%, below the bar |
+| EDUFI Fellowship, Finland Scholarship | Ended (2025, 2024) |
+| Turku, Oulu, LUT, UEF, Åbo, Jyväskylä | No first-year award of 50% or more |
+| Danish Cultural Agreements scholarships | Latest official information from 2020 |
+| Copenhagen Bioscience PhD, DDSA, WASP | No current open call for new applicants |
+| Greece: IKY for foreigners, Onassis, HFRI | No current call |
+| FCT PhD studentships, GABBA (Portugal) | Require permanent residence in Portugal |
+| Cyprus government scholarships | Cypriot citizens or specific nationalities only |
+| Unimi European Futures, Sapienza "Wanted the best" | EU-only / for graduates of other Italian universities |
+| NAWA Łukasiewicz, Hungary Christian Young People | Closed / no new students |
+| AUA (Armenia) | Up to 50% only; no deadline |
+| Queen Jadwiga Fund | One-off PLN 2,100 |
+| UTM International Doctoral Fellowship | RM2,000 tuition waiver only |
+| Study in India (SII), ASEAN-India IIT PhD | Contradictory or outdated official pages |
+| Hokkaido President's Fellowship, Waseda, Fudan, Osaka Σ | Suspended or small awards |
+| Hanyang, Kyung Hee, Tsinghua UG | First semester or first year only |
+| QCRI, Qatar University GA, TAMUQ | Unpaid / no tuition cover / loans |
+| SECIHTI (Mexico) | Mexican nationals only |
+| TWAS-CNPq, NRF-TWAS, OWSD | No current call |
+| UM6P, Stellenbosch, UGHE, Doha Institute | Funding terms unclear |
+| Utrecht Excellence, Amsterdam Excellence | Discontinued |
+| Melbourne International UG | Now 20% |
+| Glasgow LKAS, Obama Scholars, Wellcome PhD | Paused / no 2027 cycle / closed |
+| Emory, Harvey Mudd (batch 7) | No full-need promise for internationals (Harvey Mudd was later re-added by batch 9 with the "handful a year" wording) |
+| IBM Great Minds, Naver Labs Europe, Bosch CAI, Disney Research | Paused or no pay stated |
+| HKUST, CUHK, UNIST summer research | Allowance not guaranteed / Korean students only |
+| CEU undergraduate, Westminster Full International | Capped at 50% / €4,000; page out of date |
+
+---
+
 # v4 "data": what changed
 
 Branch: `v4-data`, started from `v3-global`. Work date: **4 Nov 2026**, used for every `verifiedOn`.

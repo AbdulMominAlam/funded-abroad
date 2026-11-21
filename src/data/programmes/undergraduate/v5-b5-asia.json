@@ -1,0 +1,219 @@
+[
+  {
+    "id": "kmutt-kisp",
+    "name": "KMUTT International Scholarship Program (KISP)",
+    "host": "King Mongkut's University of Technology Thonburi (KMUTT)",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition + THB 10,000/month (Master's) or THB 8,000/month (Bachelor's) + THB 10,000/year equipment + insurance",
+    "dlText": "Apply with KMUTT admission (join.kmutt.ac.th); dates per admission round",
+    "rolling": true,
+    "tags": [
+      "International programmes",
+      "Not for TH/VN/LA/MM/KH"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TH",
+        "VN",
+        "LA",
+        "MM",
+        "KH"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, science, technology programmes at KMUTT",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Full scholarship for international students from countries other than Thailand, Vietnam, Lao PDR, Myanmar and Cambodia (those use the MIS scheme). Applications go through KMUTT's admission system.",
+    "url": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "source": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "kmutt-mis-clmv",
+    "name": "KMUTT Multi-Intellectual Scholarship (MIS) for CLMV students",
+    "host": "King Mongkut's University of Technology Thonburi (KMUTT)",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition + THB 8,000/month + THB 10,000/year equipment + insurance",
+    "dlText": "Apply with KMUTT admission (join.kmutt.ac.th); dates per admission round",
+    "rolling": true,
+    "tags": [
+      "Cambodia, Laos, Myanmar, Vietnam only"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "KH",
+        "LA",
+        "MM",
+        "VN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, science, technology programmes at KMUTT",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Full scholarship for bachelor's and master's students from Cambodia, Lao PDR, Myanmar and Vietnam.",
+    "url": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "source": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "siit-efs-u",
+    "name": "SIIT Undergraduate Scholarship for Excellent Foreign Students (EFS-U)",
+    "host": "Sirindhorn International Institute of Technology (SIIT), Thammasat University",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "100%, 50% or 25% waiver of tuition and educational support fees each semester",
+    "dlText": "Per SIIT undergraduate admission round; check official page",
+    "rolling": true,
+    "tags": [
+      "Non-Thai applicants",
+      "Merit-based"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TH"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, digital technology, management technology",
+    "fieldCats": [
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Merit scholarship for foreign undergraduates in SIIT's English-taught programmes, awarded per admission round; the top tier waives 100% of tuition and educational support fees.",
+    "url": "https://admissions.siit.tu.ac.th/",
+    "source": "https://admissions.siit.tu.ac.th/wp-content/uploads/2026/02/EFS-U_1_2026.pdf",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "vinuni-merit-scholarships",
+    "name": "VinUniversity Merit Scholarships (President's Excellence / Provost's Merit)",
+    "host": "VinUniversity",
+    "country": "Vietnam",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "President's Excellence: 100% tuition + living expenses; Provost's Merit: 100% tuition; lower tiers 50–90%",
+    "dlText": "Several admission rounds per year; check key dates page",
+    "rolling": true,
+    "tags": [
+      "Merit-based",
+      "Need-based aid also available"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Open to Vietnamese and international applicants; confirm eligibility per round with VinUni admissions"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, computer science, business, health sciences, arts & sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "VinUni's top merit awards cover full tuition (and living costs for the President's Excellence tier); students entering 2025–2030 also get a 35% tuition sponsorship. Keep a GPA of 3.2+ for 100% awards.",
+    "url": "https://admissions.vinuni.edu.vn/undergraduate/faqs/tuition-fee-scholarship-and-financial-aids/",
+    "source": "https://vinuni.edu.vn/welcome-international-students-to-vinuniversity/",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "fulbright-uv-scholarships",
+    "name": "Fulbright University Vietnam Undergraduate Scholarships & Financial Aid",
+    "host": "Fulbright University Vietnam",
+    "country": "Vietnam",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Merit scholarships 10–100% of tuition for 4 years; need-based aid up to full tuition (+ housing support in years 1–2)",
+    "deadline": "2027-01-26T17:00:00+07:00",
+    "dlText": "26 Jan 2027, 17:00 Vietnam time (Fall cycle, Class of 2031)",
+    "tags": [
+      "Merit + need-based",
+      "Spring cycle 17 Feb–15 May 2027"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Admission open to Vietnamese and foreign citizens; need-based aid may be limited to Vietnamese nationals — confirm with finaid@fulbright.edu.vn"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Liberal arts and sciences, engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Liberal-arts university in Ho Chi Minh City; scholarships of 10–100% of tuition for the full 4 years are awarded on merit at admission.",
+    "url": "https://fulbright.edu.vn/undergraduate-scholarships",
+    "source": "https://fulbright.edu.vn/tuition-and-aid-scholarships",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "darmasiswa",
+    "name": "Darmasiswa Indonesian Scholarship",
+    "host": "Ministry of Primary and Secondary Education, Indonesia",
+    "country": "Indonesia",
+    "region": "east-asia",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "IDR 4,700,000/month living allowance + one-time settlement (IDR 4.7m) and book (IDR 2m) allowances; tuition-free",
+    "deadline": "2026-06-15T23:59:00+07:00",
+    "dlText": "15 Jun 2026 (2026–27 round; time not stated)",
+    "nextText": "Next round expected ~May–Jun 2027",
+    "tags": [
+      "Non-degree, 1 year",
+      "Age 18–32",
+      "Indonesian language & culture"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Foreign nationals from countries with diplomatic relations with Indonesia; age limits apply"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Indonesian language, arts, culture",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "One-year non-degree programme to study Bahasa Indonesia, arts or culture at Indonesian universities, with a monthly living allowance. Apply via the Darmasiswa portal and your Indonesian embassy.",
+    "url": "https://darmasiswa.kemdikbud.go.id/",
+    "source": "https://kemlu.go.id/wellington/berita/darmasiswa-indonesian-scholarship-20262027-is-now-open?type=publication",
+    "verifiedOn": "2026-11-22"
+  }
+]

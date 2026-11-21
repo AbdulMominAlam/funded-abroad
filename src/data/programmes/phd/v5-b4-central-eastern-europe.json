@@ -1,0 +1,426 @@
+[
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "slovakia-nsp-phd",
+    "name": "National Scholarship Programme of the Slovak Republic – Stays for PhD Students",
+    "host": "Slovak Academic Information Agency (SAIA)",
+    "country": "Slovakia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€1,025.50/month for living costs + optional travel allowance up to €1,500",
+    "deadline": "2027-04-30T16:00:00+02:00",
+    "dlText": "Expected 30 Apr 2027, 16:00 Central European time (standing annual deadline; also 31 Oct)",
+    "expected": true,
+    "tags": [
+      "1–10 month research stay",
+      "Invitation from Slovak host",
+      "Not for PhD students enrolled in Slovakia"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SK"
+      ]
+    },
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Short- or medium-term study/research stay for PhD students enrolled abroad; not a full-degree scholarship.",
+    "url": "https://www.scholarships.sk/",
+    "source": "https://grants.saia.sk/Pages/ProgramDetail.aspx?Program=298"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ceu-phd-scholarship",
+    "name": "CEU Doctoral Scholarship",
+    "host": "Central European University (CEU), Vienna",
+    "country": "Austria (Vienna)",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition waiver + monthly stipend (currently EUR 1,880 gross) for up to 4 years",
+    "deadline": "2027-01-15T23:59:00+01:00",
+    "dlText": "15 Jan 2027, 23:59 CET",
+    "tags": [
+      "Automatic consideration",
+      "Up to 4 years",
+      "Stipend taxable in Austria"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Social sciences, humanities, economics, environmental sciences, network/data science, mathematics",
+    "fieldCats": [
+      "social",
+      "sciences"
+    ],
+    "note": "Admitted doctoral applicants meeting the deadline are considered automatically for the full scholarship; stipend recipients register as self-employed in Austria.",
+    "url": "https://www.ceu.edu/admissions/doctoral",
+    "source": "https://www.ceu.edu/admissions/financial-aid/enrolled"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "charles-university-phd",
+    "name": "Charles University Full-Time Doctoral Studies (Guaranteed Doctoral Income)",
+    "host": "Charles University",
+    "country": "Czechia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Guaranteed doctoral income of at least 1.2× Czech minimum wage (CZK 26,880/month in 2026/27) for full-time students in the standard 4-year period; English-programme fees are low and faculty-specific",
+    "rolling": true,
+    "dlText": "Set per faculty/programme (mostly spring for autumn entry)",
+    "tags": [
+      "Full-time form only",
+      "English-taught programmes available",
+      "Faculty-specific fees"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "All full-time doctoral students receive the guaranteed income (scholarship and/or salary); combined (part-time) students do not.",
+    "url": "https://phd.cuni.cz/PHDEN-39.html",
+    "source": "https://phd.cuni.cz/PHDEN-39.html"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "masaryk-university-phd",
+    "name": "Masaryk University Doctoral Study Income",
+    "host": "Masaryk University",
+    "country": "Czechia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Guaranteed doctoral income of at least 1.2× Czech minimum wage (CZK 26,880/month in 2026/27) for full-time students in the standard 4-year period (scholarship CZK 12,000–26,880 depending on salary)",
+    "rolling": true,
+    "dlText": "Set per faculty/programme",
+    "tags": [
+      "Full-time form only",
+      "Applies regardless of study language"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "MU states the scholarship and guaranteed income apply regardless of the language of study; the Faculty of Informatics has abolished its English-PhD fee.",
+    "url": "https://www.muni.cz/en/admissions/phd-studies/doctoral-study-income",
+    "source": "https://www.muni.cz/en/admissions/phd-studies/doctoral-study-income"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ctu-phd",
+    "name": "Czech Technical University Doctoral Studies (Guaranteed Doctoral Income)",
+    "host": "Czech Technical University in Prague (CTU)",
+    "country": "Czechia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Guaranteed doctoral income of at least 1.2× Czech minimum wage (CZK 26,880/month in 2026/27) for full-time students in the standard 4-year period; FEE English-PhD fee CZK 500/semester",
+    "rolling": true,
+    "dlText": "Set per faculty/programme",
+    "tags": [
+      "Full-time form only",
+      "Engineering / CS",
+      "Faculty rules differ for English track"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, computer science, physics and related fields",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Guaranteed income applies to full-time students who started after 1 Sep 2025; some faculties pay English-track students via a special-purpose scholarship, so confirm with the faculty.",
+    "url": "https://fel.cvut.cz/en/admissions/study-options/doctoral-study",
+    "source": "https://intranet.fel.cvut.cz/en/education/phd/information.html"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ctu-pictus-phd-fellowship",
+    "name": "Pictus PhD Fellowship Programme",
+    "host": "Czech Technical University in Prague – Faculty of Electrical Engineering",
+    "country": "Czechia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "CZK 69,300 gross/month salary (+ CZK 8,888/month family allowance), 48-month contract",
+    "deadline": "2026-05-31T23:59:00+02:00",
+    "dlText": "31 May 2026 (1st call; time not stated)",
+    "nextText": "Further calls may follow (check official page)",
+    "tags": [
+      "Mobility rule: ≤12 months in Czechia in last 3 years",
+      "Master's degree by start",
+      "Research proposal"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Electrical engineering, computer science, AI, robotics and related topics",
+    "fieldCats": [
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "International PhD programme with a full employment contract; applicants must not have lived or worked mainly in Czechia for over 12 months in the 3 years before the deadline.",
+    "url": "https://fel.cvut.cz/en/what-s-on/news/83780-pictus-phd-fellowship-programme",
+    "source": "https://fel.cvut.cz/en/what-s-on/news/83780-pictus-phd-fellowship-programme"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "iocb-prague-phd",
+    "name": "IOCB Prague PhD Positions",
+    "host": "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences (IOCB Prague)",
+    "country": "Czechia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Salary from CZK 33,200 gross/month (full-time) on top of the university doctoral stipend",
+    "deadline": "2027-03-03T23:59:00+01:00",
+    "dlText": "Expected ~3 Mar 2027 registration (estimated from 2026 call; time not stated)",
+    "expected": true,
+    "tags": [
+      "Employed by IOCB",
+      "Enrolled at Charles Univ. or UCT Prague",
+      "Interviews in March"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Chemistry, biochemistry, chemical biology, medicinal chemistry",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Annual call for PhD projects; students are employed by IOCB and must also apply to a partner university (2026: UCT Prague 15 Apr, Charles University 30 Apr).",
+    "url": "https://www.uochb.cz/en/call-for-phd-applications",
+    "source": "https://www.uochb.cz/en/call-for-phd-applications"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "uw-doctoral-schools",
+    "name": "University of Warsaw Doctoral Schools",
+    "host": "University of Warsaw",
+    "country": "Poland",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition-free + doctoral scholarship PLN 4,346 gross/month (PLN 5,500.50 after mid-term evaluation) for 48 months",
+    "deadline": "2027-05-21T23:59:00+02:00",
+    "dlText": "Expected ~21 May 2027 (estimated from 2026 cycle, 14 Apr–21 May; time not stated)",
+    "expected": true,
+    "tags": [
+      "Four doctoral schools, 26 disciplines",
+      "IRK online application",
+      "'Scholarship to Start' for top 20%"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Humanities, social sciences, exact and natural sciences, interdisciplinary",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "325 places in 2026/27; amounts follow the national doctoral scholarship rates and may change with the base rate.",
+    "url": "https://en.uw.edu.pl/admissions-to-the-uw-doctoral-schools-for-the-2026-2027-academic-year/",
+    "source": "https://en.uw.edu.pl/admissions-to-the-uw-doctoral-schools-for-the-2026-2027-academic-year/"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "uj-doctoral-school-exact-natural",
+    "name": "Jagiellonian University Doctoral School of Exact and Natural Sciences",
+    "host": "Jagiellonian University in Kraków",
+    "country": "Poland",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition-free + statutory doctoral scholarship for up to 4 years (UJ increased rate from 2026/27: min. PLN 3,549.60 net/month before mid-term; higher afterwards)",
+    "deadline": "2027-06-15T23:59:00+02:00",
+    "dlText": "Expected ~15 Jun 2027 for most programmes (estimated from 2026 cycle; varies by discipline)",
+    "expected": true,
+    "tags": [
+      "English-taught options (CS, AI, astronomy)",
+      "Per-discipline schedules",
+      "Extra grant-funded calls"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Computer science, AI, chemistry, physics, astronomy, biology, biophysics, biomedical sciences",
+    "fieldCats": [
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Every doctoral student without a doctorate receives a scholarship for up to 4 years; project-funded admissions run separately.",
+    "url": "https://science.phd.uj.edu.pl/en_GB/join",
+    "source": "https://science.phd.uj.edu.pl/en_GB/welcome/scholarship"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "wut-doctoral-school",
+    "name": "Warsaw University of Technology Doctoral School",
+    "host": "Warsaw University of Technology",
+    "country": "Poland",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition-free + statutory doctoral scholarship for up to 4 years, increasing after the mid-term evaluation (check official page)",
+    "deadline": "2027-07-31T23:59:00+02:00",
+    "dlText": "Expected ~31 Jul 2027 (estimated from 2026 cycle, registration from 10 Jun; time not stated)",
+    "expected": true,
+    "tags": [
+      "175 places (2026/27)",
+      "NAWA recognition statement for non-EU diplomas",
+      "PLN 250 fee"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, technical and exact sciences",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Non-EU diploma holders need a NAWA recognition statement (allow ~60 days); interviews late Aug–early Sep.",
+    "url": "https://www.sd.pw.edu.pl/sd_en/Candidates",
+    "source": "https://sd.pw.edu.pl/sd_en/Candidates/Admissions-2026Z"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "agh-doctoral-school",
+    "name": "AGH University Doctoral School",
+    "host": "AGH University of Krakow",
+    "country": "Poland",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition-free + statutory doctoral scholarship for up to 4 years, increasing after the interim evaluation (check official page)",
+    "deadline": "2027-09-30T23:59:00+02:00",
+    "dlText": "Expected ~30 Sep 2027 (estimated from 2026 cycle, 1 Jul–30 Sep; time not stated)",
+    "expected": true,
+    "tags": [
+      "English exam or B2 certificate",
+      "NAWA recognition for non-EU diplomas"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, earth sciences, materials, computer science, physics",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Every enrolled doctoral student without a doctorate is eligible for the scholarship for up to 4 years.",
+    "url": "https://sd.agh.edu.pl/en/",
+    "source": "https://sd.agh.edu.pl/en/candidates/admissions-calendar-2026/2027"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "warsaw-4-phd",
+    "name": "Warsaw-4-PhD Doctoral School",
+    "host": "Warsaw-4-PhD (Polish Academy of Sciences institutes incl. IIMCB, Nencki)",
+    "country": "Poland",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition-free + scholarship PLN 5,500/month (PLN 6,000 after mid-term evaluation)",
+    "rolling": true,
+    "dlText": "Three international recruitment rounds per year (2026 rounds closed 31 May and 7 Aug)",
+    "tags": [
+      "Apply to specific projects",
+      "Open international competition"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Biology, biomedical sciences, chemistry, physics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Project-based admissions announced in IIMCB/partner news before each round; stipend figures from the IIMCB doctoral page.",
+    "url": "https://warsaw4phd.eu/",
+    "source": "https://www.iimcb.gov.pl/en/career-education/phd-education"
+  }
+]

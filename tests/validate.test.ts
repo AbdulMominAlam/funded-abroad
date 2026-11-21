@@ -1,7 +1,11 @@
 import { loadAllProgrammes } from "../scripts/lib/programmes";
 import { describe, expect, it } from "vitest";
 import { isHttpsUrl, isIsoWithTz, validateScholarships } from "../src/validate";
-import { CTX, make } from "./fixtures";
+import { CTX, make as baseMake } from "./fixtures";
+import type { Scholarship } from "../src/types";
+
+/** Validator tests need a canonical host-country name. */
+const make = (over: Partial<Scholarship> = {}) => baseMake({ country: "Germany", ...over });
 
 describe("validators", () => {
   it("accepts ISO dates with time zones only", () => {
@@ -67,5 +71,26 @@ describe("validateScholarships", () => {
   });
   it("the shipped dataset is valid", () => {
     expect(validateScholarships(loadAllProgrammes(), CTX)).toEqual([]);
+  });
+});
+
+describe("host-country names", () => {
+  it("flags non-canonical country text", () => {
+    const errs = validateScholarships([
+      make({ id: "a", country: "UK" }),
+      make({ id: "b", country: "Europe (multi-country)" }),
+      make({ id: "c", country: "Germany / UAE" }),
+      make({ id: "d", country: "Germany (Berlin" }),
+      make({ id: "e", country: "any (offices)" }),
+    ], CTX).join("\n");
+    expect(errs).toMatch(/\(a\).*canonical name "United Kingdom" instead of "UK"/);
+    expect(errs).toMatch(/\(b\).*"Europe" is not a canonical country name/);
+    expect(errs).toMatch(/\(c\).*"United Arab Emirates" instead of "UAE"/);
+    expect(errs).toMatch(/\(d\).*qualifier/);
+    expect(errs).toMatch(/\(e\).*write "Any"/);
+  });
+  it("accepts canonical forms", () => {
+    const ok = ["United Kingdom", "Hong Kong", "Côte d’Ivoire (and regional offices)", "Germany / United Kingdom", "Any", "Any (UNDP offices worldwide)", "Austria (multi-country)"];
+    expect(validateScholarships(ok.map((country, i) => make({ id: `ok${i}`, name: `N${i}`, country })), CTX)).toEqual([]);
   });
 });

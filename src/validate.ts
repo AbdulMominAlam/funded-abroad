@@ -1,4 +1,5 @@
 import { FIELD_CATS, LEVELS, REGIONS } from "./types";
+import { countryTextProblems } from "./hosts";
 
 const ISO_TZ = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::(\d{2})(?:\.\d+)?)?(Z|[+-](\d{2}):(\d{2}))$/;
 const DATE_ONLY = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -141,6 +142,7 @@ export function validateScholarships(data: unknown, ctx: ValidationContext): str
       }
     }
     if (typeof s.verifiedOn === "string" && !isDateOnly(s.verifiedOn)) err(`verifiedOn "${s.verifiedOn}" must be YYYY-MM-DD`);
+    if (typeof s.country === "string") for (const m of countryTextProblems(s.country)) err(m);
     for (const k of ["url", "source"] as const) {
       if (typeof s[k] === "string" && !isHttpsUrl(s[k])) err(`${k} "${s[k]}" must be a valid https:// URL`);
     }

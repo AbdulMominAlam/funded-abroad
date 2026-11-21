@@ -1,0 +1,78 @@
+[
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "hungarian-diaspora-scholarship",
+    "name": "Hungarian Diaspora Scholarship",
+    "host": "Government of Hungary (Tempus Public Foundation)",
+    "country": "Hungary",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition-free + HUF 43,700/month (BA/MA) or HUF 140,000–180,000/month (PhD), free dorm or HUF 40,000/month housing contribution, medical insurance",
+    "deadline": "2027-02-02T14:00:00+01:00",
+    "dlText": "Expected ~2 Feb 2027, 14:00 CET (estimated from 2026 cycle)",
+    "expected": true,
+    "tags": [
+      "Hungarian ancestry required",
+      "Recommendation from diaspora organisation",
+      "One round per year"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Applicants with Hungarian ancestors who are citizens of eligible countries (practically all countries except EU member states, Serbia and Ukraine's Zakarpattia Oblast)"
+    },
+    "fields": "Most fields (degree, exchange and Hungarian preparatory programmes)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Stipendium Hungaricum-style package for the Hungarian diaspora outside the Carpathian Basin; some allowances are paid on request. Check the annual call for the exact country list.",
+    "url": "https://diasporascholarship.hu/en/apply/",
+    "source": "https://diasporascholarship.hu/en/about/"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "nawa-polonista",
+    "name": "Polonista NAWA Programme (students and doctoral candidates)",
+    "host": "Polish National Agency for Academic Exchange (NAWA)",
+    "country": "Poland",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "PLN 2,000/month (students) or PLN 3,300/month (doctoral candidates), 1–2 semesters",
+    "deadline": "2027-04-03T23:59:00+02:00",
+    "dlText": "Expected ~3 Apr 2027 (estimated from 2026 cycle; time not stated)",
+    "expected": true,
+    "tags": [
+      "Polish studies / Polish language",
+      "1–2 semesters",
+      "Non-degree study stay"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Foreign students and doctoral candidates (non-Polish nationals) interested in Polish language and culture, typically enrolled in Polish/Slavic studies abroad"
+    },
+    "fields": "Polish studies, Polish language and culture",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Funds a one- or two-semester study stay at a Polish university for foreign students of Polish studies.",
+    "url": "https://nawa.gov.pl/en/the-polish-language/programme-for-students-of-polish-studies",
+    "source": "https://nawa.gov.pl/en/nawa/news/call-for-applications-for-the-polonista-nawa-2026-scholarship-programme-opens"
+  }
+]

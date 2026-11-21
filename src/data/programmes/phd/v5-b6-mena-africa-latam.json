@@ -1,0 +1,222 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "hbku-phd-scholarship",
+    "name": "HBKU PhD Scholarship (International)",
+    "host": "Hamad Bin Khalifa University",
+    "country": "Qatar",
+    "region": "middle-east",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "100% tuition waiver + QAR 9,000/month stipend for up to 45 months (as RA/TA) + one round-trip flight",
+    "opens": "2026-10-01",
+    "deadline": "2027-02-01T23:59:00+03:00",
+    "dlText": "1 Feb 2027 (international applicants; time not stated)",
+    "tags": [
+      "International applicants",
+      "RA/TA duties",
+      "Merit-based, subject to funds"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "HBKU PhD programmes (science & engineering, health, humanities, Islamic studies, law, policy)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "PhD students get a full tuition waiver and a stipend while working as research or teaching assistants. Housing comes out of the stipend, and awards depend on available funds and are reviewed each year.",
+    "url": "https://www.hbku.edu.qa/en/scholarship",
+    "source": "https://www.hbku.edu.qa/en/graduate-admissions"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "khalifa-phd-intl",
+    "name": "Khalifa University PhD Scholarship for International Students",
+    "host": "Khalifa University of Science and Technology",
+    "country": "United Arab Emirates",
+    "region": "middle-east",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Research path: full tuition + AED 20,000/month (plus up to AED 10,000–20,000/month top-up) in top tiers; lower tiers 50–75% tuition; flights, insurance, textbooks",
+    "deadline": "2027-02-01T23:59:00+04:00",
+    "dlText": "1 Feb 2027 (Fall 2027 PhD applications; time not stated)",
+    "tags": [
+      "Non-UAE nationals",
+      "No separate scholarship form",
+      "Work commitment on research path"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AE"
+      ]
+    },
+    "fields": "Engineering, computing, sciences, medicine",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Admitted PhD students are considered automatically for a tier. Research-path tiers carry large stipends but require you to work for KU or a nominated entity after graduating for as long as you studied.",
+    "url": "https://www.ku.ac.ae/scholarship/graduate-research-teaching-scholarship-for-international-students",
+    "source": "https://www.ku.ac.ae/postgraduate-admissions"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "kfupm-phd-intl",
+    "name": "KFUPM PhD Scholarship (International)",
+    "host": "King Fahd University of Petroleum and Minerals",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Free tuition, monthly stipend (by category), free furnished campus housing, medical & dental care, textbooks, air tickets",
+    "opens": "2026-11-01",
+    "deadline": "2026-12-15T23:59:00+03:00",
+    "dlText": "15 Dec 2026 (PhD window 1 Nov–15 Dec 2026; time not stated)",
+    "tags": [
+      "International applicants",
+      "GPA 3.0/4 in BS and MS",
+      "Direct-to-PhD option"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "SA"
+      ]
+    },
+    "fields": "Engineering, sciences, computing, business",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "KFUPM's full graduate scholarship covers PhD students as well as master's students, and admitted international PhD students can also work as RA-PhDs. Decisions for international applicants can take 2–3 months.",
+    "url": "https://cgis.kfupm.edu.sa/admission/kfupm-scholarship",
+    "source": "https://cgis.kfupm.edu.sa/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "oas-anid-chile-doctorate",
+    "name": "OAS-ANID Scholarships for Doctoral Studies in Chile",
+    "host": "ANID (Chile) and Organization of American States",
+    "country": "Chile",
+    "region": "global",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "ANID National Doctoral Scholarship (tuition + monthly maintenance, up to 4 years + 6 months thesis extension) + one-time US$1,200 OAS installation allowance",
+    "deadline": "2026-11-27T13:00:00-03:00",
+    "dlText": "27 Nov 2026, 13:00 continental Chile time",
+    "tags": [
+      "OAS member states except Chile",
+      "Accredited Chilean PhD",
+      "Apply to ANID too"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals or permanent residents of OAS member states other than Chile, who also apply to ANID's 2027 Beca de Doctorado Nacional competition."
+    },
+    "fields": "Accredited doctoral programmes at Chilean universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "This lets foreign students from the Americas apply for Chile's national doctoral scholarship, which offers up to 1,000 awards in 2027, plus an OAS installation subsidy. Results are due in Jan 2027.",
+    "url": "https://www.oas.org/en/scholarships/ANID-CHILE-eng.asp",
+    "source": "https://anid.cl/concursos/beca-de-doctorado-nacional-ano-academico-2027/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "ksu-phd-initiative",
+    "name": "King Saud University Initiative for Talented Graduate Students (PhD)",
+    "host": "King Saud University",
+    "country": "Saudi Arabia",
+    "region": "middle-east",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition + SAR 54,000/year living allowance for 3 years, on-campus housing, health coverage, relocation support",
+    "rolling": true,
+    "dlText": "Application phases announced periodically (last phase 24 Mar–15 May 2025); check the initiative page",
+    "tags": [
+      "Saudi & international",
+      "Master's required",
+      "Full-time only"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Computer science, engineering, basic & applied sciences, health & medical sciences",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "This PhD-only initiative recruits talented students from Saudi Arabia and abroad, and applicants from outside the country apply through the Study in Saudi portal. Current KSU PhD students and employed applicants can't apply.",
+    "url": "https://dgsinitiative.ksu.edu.sa/",
+    "source": "https://dgsinitiative.ksu.edu.sa/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "icipe-phd-scholarships",
+    "name": "icipe PhD Scholarships (ARPPIS / project-funded)",
+    "host": "International Centre of Insect Physiology and Ecology (icipe)",
+    "country": "Kenya",
+    "region": "global",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (each call sets its stipend and research costs)",
+    "rolling": true,
+    "dlText": "Calls are posted per project on the icipe scholarships portal (none active as of Nov 2026)",
+    "tags": [
+      "Mainly African nationals",
+      "Master's within ~5–6 years",
+      "Insect & environmental sciences"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Set by each call; ARPPIS fellowships are aimed at scientists from sub-Saharan Africa."
+    },
+    "fields": "Insect science, agriculture, vector-borne disease, environmental health",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "icipe offers fully funded three-year PhD fellowships, run with partner universities, when project funding allows. Check the portal for new calls.",
+    "url": "https://scholarships.icipe.org/",
+    "source": "https://scholarships.icipe.org/"
+  }
+]

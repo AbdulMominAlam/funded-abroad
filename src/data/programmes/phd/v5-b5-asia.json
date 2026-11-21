@@ -1,0 +1,478 @@
+[
+  {
+    "id": "ubd-ugrs",
+    "name": "UBD Graduate Research Scholarship (UGRS)",
+    "host": "Universiti Brunei Darussalam (UBD)",
+    "country": "Brunei",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "BND 1,200/month for 36 months + tuition + visa fees + airfare + up to BND 3,000 research/conference funds",
+    "dlText": "Per UBD graduate intake; check official page",
+    "rolling": true,
+    "tags": [
+      "Ideally age ≤30",
+      "Research proposal required"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any PhD research area at UBD",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Competitive PhD scholarship for Bruneian and international candidates. Stipend fell from BND 2,200 to BND 1,200/month under the 2026 terms (Sep 2026 intake onward).",
+    "url": "https://ubd.edu.bn/admission/graduate/graduate-fees-funding/",
+    "source": "https://ubd.edu.bn/wp-content/uploads/2026/07/UGRS-TnC-26-May-2026.pdf",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "utb-graduate-research",
+    "name": "UTB Graduate Research Scholarship",
+    "host": "Universiti Teknologi Brunei (UTB)",
+    "country": "Brunei",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Programme fees waived + BND 750/month (24 months Master's by research, 36 months PhD) + return airfare for international students",
+    "dlText": "Per UTB admission window; check official page",
+    "rolling": true,
+    "tags": [
+      "Age <35",
+      "First Class / Master's with merit (PhD)"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, computing, business, applied sciences",
+    "fieldCats": [
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "For full-time research students; Bruneians get priority only in tie-breaks. Recipients may assist with supervised teaching.",
+    "url": "https://www.utb.edu.bn/research/the-graduate-studies-research-gsr-office/graduate-studies/scholarships/",
+    "source": "https://www.utb.edu.bn/research/the-graduate-studies-research-gsr-office/graduate-studies/scholarships/",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "monash-my-gems",
+    "name": "Monash Global Excellence and Mobility Scholarship (GEMS) – Malaysia",
+    "host": "Monash University Malaysia",
+    "country": "Malaysia",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "100% tuition (up to 4 years) + RM2,950/month + up to 9 months study-away at Monash Australia/Indonesia or IIT Bombay",
+    "dlText": "Applications open for 2027 intake; check official page for closing dates",
+    "rolling": true,
+    "tags": [
+      "15 awards for 2027",
+      "Mobility period abroad"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any PhD area at Monash Malaysia",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Flagship PhD scholarship at Monash Malaysia for Malaysian and international students, including a funded study-away period.",
+    "url": "https://www.monash.edu.my/research/support-and-scholarships/gems-scholarship",
+    "source": "https://www.monash.edu.my/research/support-and-scholarships/gems-scholarship",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "monash-my-gres",
+    "name": "Monash Malaysia Graduate Research Excellence Scholarship (GRES)",
+    "host": "Monash University Malaysia",
+    "country": "Malaysia",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition waiver + RM2,950/month (3.5 years for doctoral)",
+    "dlText": "Per research intake; check official page",
+    "rolling": true,
+    "tags": [
+      "80 awards for 2027",
+      "First Class Honours or equivalent"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any PhD area at Monash Malaysia",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Merit-based research scholarship judged on academic record and research output; externally sponsored applicants need prior approval.",
+    "url": "https://www.monash.edu.my/mumgro/fully-funded-phd-opportunities-gres",
+    "source": "https://www.monash.edu.my/student-services/financial-assistance/postgraduate-scholarships-bursaries-and-fee-waivers/merit-scholarships",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "taylors-research-scholarship",
+    "name": "Taylor's University Research Scholarships (PhD Scheme A Plus / A / B; Master's by Research)",
+    "host": "Taylor's University",
+    "country": "Malaysia",
+    "region": "east-asia",
+    "levels": [
+      "PhD",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "100% tuition + RM3,200/month (A Plus), RM2,300 (A) or RM1,900 (B) for 36 months; Master's by research RM1,500/month",
+    "dlText": "Accepted throughout the year; tied to admission intakes",
+    "rolling": true,
+    "tags": [
+      "Interview required",
+      "Publication requirement",
+      "CGPA ≥3.33–3.50"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, medicine, pharmacy, engineering, computing (A Plus); all research areas for other schemes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Local and international students with a Taylor's offer letter can apply. International enrolment and visa fees are not covered.",
+    "url": "https://university.taylors.edu.my/en/study/scholarships-and-financial-aid/postgraduate-scholarships.html",
+    "source": "https://university.taylors.edu.my/en/study/scholarships-and-financial-aid/postgraduate-scholarships.html",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "sunway-pg-research-scholarship",
+    "name": "Sunway University Postgraduate by Research Scholarship",
+    "host": "Sunway University",
+    "country": "Malaysia",
+    "region": "east-asia",
+    "levels": [
+      "PhD",
+      "Master's"
+    ],
+    "full": false,
+    "amount": "PhD: 100% tuition waiver; Master's by research: 60% tuition waiver (no stipend)",
+    "dlText": "See Sunway scholarship calendar; requires unconditional offer",
+    "rolling": true,
+    "tags": [
+      "CGPA ≥3.5",
+      "Tuition only"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Open to Sunway and non-Sunway graduates; international eligibility to be confirmed with Sunway's International Office"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any research area at Sunway",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Tuition-waiver scholarship for full-time research students, renewed subject to satisfactory progress.",
+    "url": "https://scholarship.sunway.edu.my/scholarship/sunway-university-postgraduate-by-research-scholarship",
+    "source": "https://scholarship.sunway.edu.my/scholarship/sunway-university-postgraduate-by-research-scholarship",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "kmutt-ppjk-phd",
+    "name": "Petchra Pra Jom Klao Ph.D. Research Scholarship",
+    "host": "King Mongkut's University of Technology Thonburi (KMUTT)",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition + THB 18,000/month (+4,000 after proposal approval) + THB 150,000 research allowance + overseas research costs, flights, insurance",
+    "dlText": "Per KMUTT admission round (join.kmutt.ac.th); contact department first",
+    "rolling": true,
+    "tags": [
+      "GPAX ≥3.50",
+      "Supervisor contact first"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Thai and international applicants; international applicants must contact the department before applying"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, technology",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Supervisor-linked full PhD scholarship at KMUTT, including funding for a research stay abroad.",
+    "url": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "source": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "vistec-scholarship",
+    "name": "VISTEC Full Scholarship (Master's & PhD)",
+    "host": "Vidyasirimedhi Institute of Science and Technology (VISTEC)",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "PhD",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition + THB 15,000–20,000/month + on-campus housing + research budget; PhD: THB 1m for up to 1 year research abroad",
+    "dlText": "Several admission rounds per year; check VISTEC admission system",
+    "rolling": true,
+    "tags": [
+      "All admitted students funded",
+      "No bond"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Full scholarship for all admitted students; confirm eligibility of non-Thai applicants with VISTEC admissions"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Chemistry, materials, energy, biomolecular science, information science & technology",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Research institute in Rayong backed by PTT; every admitted student receives a full scholarship, and PhD students can spend up to a year at a lab abroad.",
+    "url": "https://admission.vistec.ac.th/",
+    "source": "https://www.vistec.ac.th/education/scholarship-and-support",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "cmu-presidential-scholarship",
+    "name": "CMU Presidential Scholarship",
+    "host": "Chiang Mai University",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "PhD",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition + monthly living allowance (check official page)",
+    "dlText": "Apply in the semester you are admitted; check official page",
+    "rolling": true,
+    "tags": [
+      "GPA ≥3.50",
+      "Q1/Q2 publication for PhD"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any (priority for international/English-taught programmes)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "About 200–240 full graduate scholarships a year for Thai and international students; you must be admitted first, then apply.",
+    "url": "https://edu.ams.cmu.ac.th/ams-grad/scholarship.php",
+    "source": "https://edu.ams.cmu.ac.th/ams-grad/scholarshipforms/(ENG)%20PS%202025%20Announcement.pdf",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "umacau-phd-scholarship",
+    "name": "University of Macau PhD Scholarship / Macao PhD Scholarship",
+    "host": "University of Macau",
+    "country": "Macao",
+    "region": "east-asia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "amount": "MOP 20,000/month for up to 4 years (tuition is deducted from the stipend) + MOP 10,000/year travel allowance",
+    "dlText": "Submit with your PhD application; check UM Graduate School admission rounds",
+    "rolling": true,
+    "tags": [
+      "Apply with PhD application"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any PhD programme at UM",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Full-time PhD applicants apply for the scholarship or a PhD assistantship (from MOP 12,500/month) at the same time as the online PhD application.",
+    "url": "https://grs.um.edu.mo/",
+    "source": "https://grs.um.edu.mo/wp-content/uploads/Guidelines-for-the-UM-Macao-PhD-Scholarship-and-the-UM-PhD-Assistantship.pdf",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "ntust-intl-scholarship",
+    "name": "NTUST (Taiwan Tech) Scholarship for International Students",
+    "host": "National Taiwan University of Science and Technology (Taiwan Tech)",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "PhD",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Full: tuition waived + NT$18,000/month (PhD, 3 yrs) or NT$12,000/month (Master's, 2 yrs); partial: NT$12,500 / NT$9,000",
+    "dlText": "Apply with Spring/Fall admission application; check admission guidelines",
+    "rolling": true,
+    "tags": [
+      "Renew yearly",
+      "No other Taiwan govt aid"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, computing, management, design",
+    "fieldCats": [
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Merit award for international degree students, reviewed each year on academic and research performance.",
+    "url": "https://www.oia.ntust.edu.tw/p/412-1060-8931.php?Lang=en",
+    "source": "https://www.admission.ntust.edu.tw/var/file/52/1052/img/2629/383576489.pdf",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "ncu-intl-scholarship",
+    "name": "NCU International Student Scholarship",
+    "host": "National Central University (Taiwan)",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "PhD",
+      "Master's",
+      "Undergraduate"
+    ],
+    "full": false,
+    "amount": "Up to NT$40,000/month (PhD), NT$15,000 (Master's), NT$9,000 (Undergraduate); or tuition/credit fee waiver",
+    "dlText": "New students apply with the admission application",
+    "rolling": true,
+    "tags": [
+      "Chinese course or certificate"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, management, humanities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Monthly stipends (maximums shown) or tuition waivers for admitted international students; stipends are not paid in the first month of each semester or in Lunar New Year month.",
+    "url": "https://oia.ncu.edu.tw/p/412-1026-2205.php?Lang=en",
+    "source": "https://oia.ncu.edu.tw/p/412-1026-2205.php?Lang=en",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "ewha-egpp",
+    "name": "Ewha Global Partnership Program (EGPP) Scholarship",
+    "host": "Ewha Womans University",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "PhD",
+      "Master's",
+      "Undergraduate"
+    ],
+    "full": true,
+    "amount": "Full tuition (incl. admission fee) + dormitory fee + stipend",
+    "deadline": "2026-10-08T17:00:00+09:00",
+    "dlText": "8 Oct 2026, 17:00 KST (Spring 2027 international admission)",
+    "nextText": "Fall 2027 round: check Ewha admissions announcements",
+    "tags": [
+      "Women only",
+      "OECD DAC list countries"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Women from developing countries on the OECD DAC List of ODA Recipients, applying through Ewha's international admission"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any programme at Ewha",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Awarded through the special international admission (no separate form); up to 8 semesters (undergraduate), 4 (master's) or 6 (doctoral).",
+    "url": "https://isa.ewha.ac.kr/oisa/1420/subview.do",
+    "source": "https://isa.ewha.ac.kr/oisa/1420/subview.do",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "kmutt-rukkhaphitthayaphat",
+    "name": "KMUTT Rukkhaphitthayaphat Scholarship (with Forschungszentrum Jülich)",
+    "host": "King Mongkut's University of Technology Thonburi (KMUTT)",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "PhD",
+      "Master's"
+    ],
+    "full": true,
+    "amount": "PhD: tuition + THB 18,000/month (+4,000 after proposal) + THB 150,000 research allowance + up to 1.5 years at Jülich; Master's: tuition + THB 8,000/month + up to 3 months at Jülich",
+    "rolling": true,
+    "dlText": "Two windows a year: Mar–Jun (1st semester) and Oct–Dec (2nd semester); exact dates not stated",
+    "tags": [
+      "3 PhD + 3 Master's awards",
+      "Exchange in Germany"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Listed among KMUTT scholarships for international students; confirm eligibility with admission@kmutt.ac.th"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Plant science, robotics & automation, bioeconomy-related fields",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Joint KMUTT–Jülich scholarship with a funded research stay in Germany. Very few places each year.",
+    "url": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "source": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "verifiedOn": "2026-11-22"
+  }
+]

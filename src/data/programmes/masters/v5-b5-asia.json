@@ -1,0 +1,302 @@
+[
+  {
+    "id": "kmutt-ppjk-masters",
+    "name": "Petchra Pra Jom Klao Master's Degree Scholarship",
+    "host": "King Mongkut's University of Technology Thonburi (KMUTT)",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Tuition + THB 8,000/month",
+    "dlText": "Per KMUTT admission round (join.kmutt.ac.th); contact department first",
+    "rolling": true,
+    "tags": [
+      "GPAX ≥ 3.25",
+      "1 international paper before graduation"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Thai and international applicants; international applicants contact the department first"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science, engineering, technology (research master's)",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Research master's scholarship tied to a KMUTT supervisor; requires at least one international journal paper before graduation.",
+    "url": "https://www.kmutt.ac.th/sfa/scholarships-for-international-students/?lang=en",
+    "source": "https://www.kmutt.ac.th/sfa/wp-content/uploads/sites/8/2024/05/KMUTT-Announcement-Petchra-Prajom-KlaoMaster-2567.pdf",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "siit-efs-grad",
+    "name": "SIIT Graduate Scholarship for Excellent Foreign Students (EFS)",
+    "host": "Sirindhorn International Institute of Technology (SIIT), Thammasat University",
+    "country": "Thailand",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "100% tuition and fees + thesis support + living allowance + round-trip airfare + medical insurance",
+    "deadline": "2027-03-31T23:59:00+07:00",
+    "dlText": "~31 Mar 2027 for August 2027 intake (estimated from 2026 cycle: 12 Feb–31 Mar 2026)",
+    "expected": true,
+    "tags": [
+      "Non-Thai applicants",
+      "Excellent academic record"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TH"
+      ]
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, ICT, management technology",
+    "fieldCats": [
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Fully funded master's and doctoral scholarship for foreign students at SIIT. The January 2027 round closed 30 Sep 2026; the August intake round ran Feb–Mar last year.",
+    "url": "https://admissions.siit.tu.ac.th/admission_box/siit-graduate-scholarships/",
+    "source": "https://admissions.siit.tu.ac.th/admission_box/siit-graduate-scholarships/",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "searca-graduate-scholarship",
+    "name": "SEARCA Graduate Scholarship (MS/PhD in Agriculture)",
+    "host": "Southeast Asian Regional Center for Graduate Study and Research in Agriculture (SEARCA)",
+    "country": "Philippines / Indonesia / Thailand / Malaysia / Japan / South Korea / Taiwan",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Full scholarship (tuition, stipend, travel, research support)",
+    "deadline": "2026-10-31T23:59:00+08:00",
+    "dlText": "31 Oct 2026 to your Ministry of (Higher) Education (time not stated)",
+    "nextText": "Next call expected ~Sep–Oct 2027",
+    "tags": [
+      "SEAMEO nationals",
+      "Age ≤40 (MS) / ≤45 (PhD)",
+      "Employer in academia/government"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BN",
+        "KH",
+        "ID",
+        "LA",
+        "MY",
+        "MM",
+        "PH",
+        "SG",
+        "TH",
+        "TL",
+        "VN"
+      ]
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": "Your national Ministry of (Higher) Education",
+    "fields": "Agriculture and related sciences",
+    "fieldCats": [
+      "sciences",
+      "social"
+    ],
+    "note": "For staff of academic, research or government institutions in Southeast Asia, at partner universities (IPB, Brawijaya, UGM, Kasetsart, UPM, UPLB, Sejong, Tokyo NODAI, NTU Taiwan). Shortlisted candidates upload documents 1–31 Dec 2026; results from 31 May 2027.",
+    "url": "https://www.searca.org/scholarships",
+    "source": "https://www.searca.org/scholarships",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "tias-indonesia",
+    "name": "The Indonesian AID Scholarship (TIAS)",
+    "host": "Indonesian Agency for International Development (LDKPI), Ministry of Finance",
+    "country": "Indonesia",
+    "region": "east-asia",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "amount": "Full scholarship (tuition, living allowance, travel); check official page",
+    "dlText": "Annual call; 2027 dates not yet published — check TIAS site",
+    "rolling": true,
+    "tags": [
+      "Government nomination",
+      "Civil servants / lecturers",
+      "Return-home commitment"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of priority developing countries listed by TIAS (Africa, Asia, Latin America, Pacific) who are officially nominated by their government"
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": "Your national government",
+    "fields": "Development-related fields at Indonesian universities (e.g. ITB)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Indonesian government grant for officials from partner developing countries to take a master's (max 24 months incl. preparatory study) in Indonesia; no prior master's degree allowed.",
+    "url": "https://tias.kemenkeu.go.id/landing/",
+    "source": "https://tias.kemenkeu.go.id/Files/Documents/Booklet-TIAS-intake-2026.pdf",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "science-tokyo-igpa-mext",
+    "name": "Science Tokyo IGP(A) with MEXT Scholarship (University Recommendation, Priority)",
+    "host": "Institute of Science Tokyo (formerly Tokyo Tech)",
+    "country": "Japan",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Up to ¥148,000/month + tuition and enrolment fees waived + airfare (MEXT)",
+    "opens": "2026-09-09",
+    "deadline": "2026-11-22T23:59:00+09:00",
+    "dlText": "22 Nov 2026, 23:59 JST (Fall 2027 entry)",
+    "nextText": "Next round ~Sep–Nov 2027",
+    "tags": [
+      "Age ≤34",
+      "GPA ≥2.30/3.00",
+      "Dean's recommendation letter",
+      "English B2+"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Non-Japanese nationals of countries with diplomatic relations with Japan; ≥75% of nominees come from MEXT-designated countries"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science and engineering (English-taught IGP(A))",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Apply to an International Graduate Program (A); Science Tokyo nominates candidates to MEXT in March and results come in July–August. Separate from the embassy-recommendation MEXT route.",
+    "url": "https://admissions.isct.ac.jp/en/013/graduate/programs/igp/igp-a",
+    "source": "https://www.titech.ac.jp/english/international-student-exchange/prospective-students/scholarships/mext-university-general",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "um-gra",
+    "name": "Universiti Malaya Graduate Research Assistant (GRA) Scheme",
+    "host": "Universiti Malaya (UM)",
+    "country": "Malaysia",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "amount": "Stipend from RM1,000/month + tuition waiver of 20–100% depending on stipend (100% at RM1,000–2,000)",
+    "dlText": "Arranged with a UM supervisor/research grant; no single deadline",
+    "rolling": true,
+    "tags": [
+      "Needs UM offer letter",
+      "Via supervisor"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Any research area at UM",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Research assistantship for Malaysian and international master's and PhD students, arranged through a supervisor's grant. International student fees and thesis/exam fees are not waived.",
+    "url": "https://umresearch.um.edu.my/",
+    "source": "https://masd.um.edu.my/financial-aid-for-postgraduate",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "ust-korea-stipend",
+    "name": "UST Student Research Stipend (University of Science & Technology, Korea)",
+    "host": "University of Science & Technology (UST) with government research institutes",
+    "country": "South Korea",
+    "region": "east-asia",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "salaried",
+    "amount": "Min. KRW 1,430,000/month (Master's), KRW 1,900,000/month (PhD); tuition KRW 2.5m/semester",
+    "dlText": "Spring and Fall admission rounds; check UST admissions guide",
+    "rolling": true,
+    "tags": [
+      "Research at a national institute",
+      "Overseas training support"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Open to Korean and international applicants; some categories (e.g. KITECH Global) require foreign citizenship of applicant and parents"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Science and engineering at Korean government research institutes",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "UST students do their degree inside one of Korea's government research institutes and receive a monthly research stipend (rates valid Mar 2025–Feb 2028).",
+    "url": "https://www.ust.ac.kr/admission_eng/sub02_03.do",
+    "source": "https://www.ust.ac.kr/admission_eng/sub02_03.do",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "id": "nu-abay-kunanbayev",
+    "name": "Nazarbayev University Abay Kunanbayev Scholarship (International)",
+    "host": "Nazarbayev University",
+    "country": "Kazakhstan",
+    "region": "global",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "amount": "Tuition + medical insurance + monthly stipend (same as Kazakh students; e.g. ~KZT 218,750 Master's / 262,500 PhD)",
+    "deadline": "2027-02-13T14:00:00+05:00",
+    "dlText": "~13 Feb 2027, 14:00 Astana (Master's; estimated from 2026 cycle); PhD deadlines ~Jun–Jul",
+    "expected": true,
+    "tags": [
+      "English-taught",
+      "Merit-based"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International (non-Kazakhstani) candidates recommended by the programme's admissions committee"
+    },
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "fields": "Engineering, science, business, public policy, education, medicine",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Merit scholarship for top international applicants, recommended by each school. 2027–28 master's applications opened 18 Nov 2026; deadlines are 'to be announced'.",
+    "url": "https://nu.edu.kz/admissions/international-admission/international-admission_general/",
+    "source": "https://nu.edu.kz/admissions/international-admission/international-admission_general/",
+    "verifiedOn": "2026-11-22"
+  }
+]

@@ -14,7 +14,8 @@
     "validate-data": "tsx scripts/validate-data.ts",
     "alerts": "tsx scripts/alerts/send-alerts.ts",
     "alerts:sample": "tsx scripts/alerts/send-alerts.ts --dry-run --sample --print",
-    "list-programmes": "tsx scripts/list-programmes.ts"
+    "list-programmes": "tsx scripts/list-programmes.ts",
+    "count-hosts": "tsx scripts/count-hosts.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",

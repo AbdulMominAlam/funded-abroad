@@ -74,16 +74,17 @@
     "note": "One intake a year; start from Feb 2027. Referees must upload their letters before the deadline, so ask them early.",
     "url": "https://imprs.is.mpg.de/application",
     "source": "https://imprs.is.mpg.de/news/imprs-is-now-accepting-applications-for-2027",
-    "verifiedOn": "2026-11-04",
+    "verifiedOn": "2026-11-21",
     "checklist": [
       "Two-page motivation letter"
-    ]
+    ],
+    "nextText": "Next call expected ~Oct 2027, closing ~mid-Nov 2027 (estimated from the 2026 cycle)"
   },
   {
     "id": "ellis-phd",
     "name": "ELLIS PhD Program",
     "host": "European Laboratory for Learning and Intelligent Systems",
-    "country": "Europe (multi-country)",
+    "country": "Any (European countries)",
     "region": "europe",
     "levels": [
       "PhD"

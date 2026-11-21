@@ -1,0 +1,326 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "ntnu-phd-candidate",
+    "name": "NTNU PhD Candidate Positions",
+    "host": "Norwegian University of Science and Technology (NTNU)",
+    "country": "Norway",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "NOK 550,800/year gross (2026 postings, pay code 1017), minus 2% pension contribution",
+    "rolling": true,
+    "dlText": "Positions advertised year-round with individual deadlines (Jobbnorge)",
+    "tags": [
+      "Employment contract",
+      "Usually 3 years (some 4 with duties)",
+      "Master's degree required",
+      "Any nationality"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All NTNU faculties (engineering, sciences, medicine, humanities, social sciences)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Each PhD candidate post is a salaried job advertised on NTNU's vacancies page/Jobbnorge; you must be admitted to an NTNU PhD programme within three months of starting.",
+    "url": "https://www.ntnu.edu/vacancies",
+    "source": "https://www.jobbnorge.no/en/available-jobs/joblisting/pdf/295227"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "uio-doctoral-research-fellow",
+    "name": "University of Oslo Doctoral Research Fellow Positions",
+    "host": "University of Oslo (UiO)",
+    "country": "Norway",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "State salary scale (code 1017), set in each posting; check official page",
+    "rolling": true,
+    "dlText": "Positions advertised year-round with individual deadlines",
+    "tags": [
+      "Employment contract",
+      "Normally 4 years incl. 25% duties",
+      "Master's degree required",
+      "Any nationality"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All UiO faculties",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Doctoral research fellowships at UiO are fixed-term jobs, normally four years with 25% career-enhancing work and three years of research training. Apply to individual vacancies under Academic positions.",
+    "url": "https://www.uio.no/english/about/vacancies/",
+    "source": "https://www.uio.no/english/about/regulations/personnel/academic/guidelines-appointment-postdoc-researcher.html"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "uib-phd-research-fellow",
+    "name": "University of Bergen PhD Research Fellow Positions",
+    "host": "University of Bergen (UiB)",
+    "country": "Norway",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "NOK 568,700/year gross (late-2025 postings, code 1017) + NOK 36,000/year research allowance",
+    "rolling": true,
+    "dlText": "Positions advertised year-round with individual deadlines (Jobbnorge)",
+    "tags": [
+      "Employment contract",
+      "3 years, or 4 with 25% duties",
+      "Master's degree required",
+      "Any nationality"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All UiB faculties (sciences, medicine, social sciences, humanities, arts)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Salary rises with length of service. Positions are posted by individual departments on UiB's vacancies/Jobbnorge.",
+    "url": "https://www.uib.no/en/research/129812/take-phd-uib",
+    "source": "https://cmt.w.uib.no/files/2025/12/Utlysningstekst_remote-sensing.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "uit-doctoral-research-fellow",
+    "name": "UiT Doctoral Research Fellow Positions",
+    "host": "UiT The Arctic University of Norway",
+    "country": "Norway",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "State salary code 1017 (starting level set in each posting); check official page",
+    "rolling": true,
+    "dlText": "Positions advertised year-round with individual deadlines (Jobbnorge)",
+    "tags": [
+      "Employment contract",
+      "Normally 4 years incl. 25% duties",
+      "Master's degree required",
+      "Any nationality"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All UiT faculties (incl. Arctic, marine, health and computer sciences)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "PhD fellows at UiT are employees on the state salary scale; the standard term is four years with 25% teaching or other duties.",
+    "url": "https://uit.no/phd-en",
+    "source": "https://en.uit.no/employee/employee-handbook/salary"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "tartu-junior-research-fellow",
+    "name": "University of Tartu Doctoral Junior Research Fellow Positions",
+    "host": "University of Tartu",
+    "country": "Estonia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Min. €2,100/month gross (2026; ≈€1,580 net) as junior research fellow",
+    "deadline": "2026-11-30T23:59:00+02:00",
+    "varies": true,
+    "dlText": "30 Nov 2026 for the intake starting early 2027 (time not stated); several intakes a year",
+    "nextText": "Main intake usually May–June 2027",
+    "tags": [
+      "Employment contract",
+      "4-year doctoral programme",
+      "Tuition-free",
+      "Any nationality"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All doctoral specialisations at Tartu",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Most doctoral places come with a junior research fellow job; a few places are study-only without a salary, so check each call on the open-calls page.",
+    "url": "https://ut.ee/en/content/phd-open-calls",
+    "source": "https://ut.ee/en/content/phd-open-calls"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "taltech-early-stage-researcher",
+    "name": "TalTech Early Stage Researcher (PhD) Positions",
+    "host": "Tallinn University of Technology (TalTech)",
+    "country": "Estonia",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Min. €2,300/month gross for full-time early stage researchers (some projects pay more)",
+    "rolling": true,
+    "dlText": "Positions and admissions year-round (two main matriculation periods)",
+    "tags": [
+      "Employment contract up to 48 months",
+      "Tuition-free",
+      "Master's degree required",
+      "Any nationality"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, ICT, natural sciences, business and governance",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Doctoral students work as early stage researchers with a salary guaranteed for the nominal study period; positions are posted on TalTech's doctoral studies pages.",
+    "url": "https://taltech.ee/en/doctoral-studies-0",
+    "source": "https://oigusaktid.taltech.ee/en/regulations-of-tallinn-university-of-technology-for-doctoral-studies/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "vu-state-funded-phd",
+    "name": "Vilnius University State-Funded Doctoral Places",
+    "host": "Vilnius University",
+    "country": "Lithuania",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition-free + €1,406/month (year 1) and €1,628/month (years 2–4) (2026 rates)",
+    "rolling": true,
+    "dlText": "Calls per field during the year (e.g. some 2026 calls closed 15 Dec, 12:00)",
+    "tags": [
+      "Full-time only",
+      "Research project + 2 recommendations",
+      "Interview",
+      "EUR 100 fee (non-EU)"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Master's-degree holders; the page does not state whether non-EU applicants compete for state-funded places on equal terms. Confirm with admissions@cr.vu.lt."
+    },
+    "fields": "All VU doctoral fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "State-funded full-time doctoral students get a Government-set monthly stipend; you can submit only one application for one topic.",
+    "url": "https://www.vu.lt/en/admissions/doctoral-studies",
+    "source": "https://www.vu.lt/en/admissions/doctoral-studies"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "ktu-state-funded-phd",
+    "name": "KTU State-Funded Doctoral Studies",
+    "host": "Kaunas University of Technology (KTU)",
+    "country": "Lithuania",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition-free + €1,406/month (year 1) and €1,628/month (years 2–4) (2026 rates)",
+    "rolling": true,
+    "dlText": "2027 admission rules published Feb 2027; main admission normally June–July (some fields Feb/May)",
+    "tags": [
+      "Full-time state-funded places",
+      "Research proposal + 2 recommendations",
+      "English B2",
+      "EUR 132 fee (non-EU)"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Master's-degree holders of any nationality may apply; places are allocated by competition score within quotas (eligibility of non-EU applicants for state-funded places not stated explicitly)."
+    },
+    "fields": "KTU's 19 doctoral programmes (engineering, technology, natural and social sciences)",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "Self-funded students pay €12,680/year, so aim for a state-funded place. Almost half of KTU's doctoral applicants are foreigners.",
+    "url": "https://admissions.ktu.edu/degree-students/phd",
+    "source": "https://admissions.ktu.edu/degree-students/phd"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "region": "europe",
+    "verifiedOn": "2026-11-21",
+    "id": "ui-doctoral-grants-fund",
+    "name": "University of Iceland Doctoral Grants Fund",
+    "host": "University of Iceland",
+    "country": "Iceland",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "ISK 6,300,000/year (rate from July 2026), for 1–3 years",
+    "deadline": "2027-02-01T23:59:00+00:00",
+    "expected": true,
+    "dlText": "~1 Feb 2027 (estimated from 2026 cycle, time not stated); call usually published in early December",
+    "tags": [
+      "Enrolled or prospective UI PhD students",
+      "Route C: apply with intended supervisor",
+      "External review",
+      "Results ~mid-May"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All University of Iceland doctoral fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Prospective students apply together with an intended supervisor and must also apply to the PhD programme; projects are rated by an external reviewer and an internal panel.",
+    "url": "https://english.hi.is/research/funds-and-grants/internal-grants/phd-grants-fund",
+    "source": "https://english.hi.is/research/funds-and-grants/internal-grants/phd-grants-fund"
+  }
+]

@@ -1,0 +1,580 @@
+[
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "pfn-summer-internship",
+    "name": "PFN Summer Internship",
+    "host": "Preferred Networks, Inc. (PFN)",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": true,
+    "amount": "¥2,500/hour (8 h/day, 5 days/week) + one round trip and arranged accommodation for interns living outside the Kanto area",
+    "deadline": "2027-04-18T23:59:00+09:00",
+    "dlText": "~mid-Apr 2027 (estimated from 2026 cycle: 19 Apr 2026, 23:59 JST)",
+    "expected": true,
+    "tags": [
+      "Need legal right to intern in Japan",
+      "Japan 'resident' status required",
+      "Aug–Sep, 3–6 weeks",
+      "Japanese or English"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students aged 18+ with the legal right to intern/work part-time in Japan (e.g. Japanese nationality, permanent residency, or a student visa with permission for activities outside status) who count as 'residents' under Japan's Foreign Exchange Act; students living abroad without Japanese status are not eligible. Former PFN interns excluded."
+    },
+    "fields": "Machine learning, computer science, robotics, chemistry/materials and other fields PFN works on",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Paid summer internship at PFN's Tokyo (Otemachi) office in hybrid format; in practice open to international students already studying in Japan.",
+    "url": "https://www.preferred.jp/en/careers/internship",
+    "source": "https://www.preferred.jp/en/careers/internship"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "nims-internship",
+    "name": "NIMS Internship Program",
+    "host": "National Institute for Materials Science (NIMS), Tsukuba",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": false,
+    "amount": "Selected students: daily allowance (¥2,560/day per NIMS FAQ) + accommodation fee in NIMS-designated housing",
+    "deadline": "2026-12-31T23:59:00+09:00",
+    "dlText": "~end Dec 2026 (round expected to open Dec 2026 for about one month; estimated)",
+    "expected": true,
+    "tags": [
+      "Host researcher must accept you",
+      "Up to 90 days",
+      "Undergrad & grad students"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Materials science, physics, chemistry, engineering",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Contact a NIMS researcher (via the SAMURAI directory), who forwards your application; financial support is selective and requires staying in NIMS-designated accommodation.",
+    "url": "https://www.nims.go.jp/eng/hr-development/internship.html",
+    "source": "https://www.nims.go.jp/eng/hr-development/internship.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "riken-rccs-hpc-internship",
+    "name": "R-CCS International HPC Computational Science Internship Program",
+    "host": "RIKEN Center for Computational Science (R-CCS)",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": true,
+    "amount": "¥3,000/day of attendance + round-trip travel + furnished apartment + commuting costs (up to ¥45,000/month)",
+    "deadline": "2026-12-01T12:00:00+09:00",
+    "dlText": "Term 1: 1 Dec 2026, 12:00 JST; Term 2: 8 Feb 2027, 12:00 JST",
+    "tags": [
+      "Students at universities outside Japan",
+      "Mainly PhD students",
+      "Up to 85 days, Apr–Dec 2027"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students enrolled at a university outside Japan, mainly doctoral students in computational science; undergraduate/master's students only if the target team accepts them. An official request letter from your institution's head is needed after selection."
+    },
+    "fields": "High-performance computing, computational science",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "About 30 interns a year at R-CCS teams in Kobe, Tokyo or Wako; allow ~4 months between selection and start.",
+    "url": "https://www.r-ccs.riken.jp/en/outreach/schools/20270413-1223/index.html",
+    "source": "https://www.r-ccs.riken.jp/en/outreach/schools/20270413-1223/index.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "riken-rih-summer-internship",
+    "name": "R-IH Summer Program Internship",
+    "host": "RIKEN Information R&D and Strategy Headquarters (R-IH)",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": true,
+    "amount": "¥2,400/day allowance + ¥11,600/day accommodation (90% after 30 days, 80% after 60) + round-trip travel; paid after the programme",
+    "deadline": "2027-03-26T15:00:00+09:00",
+    "dlText": "~late Mar 2027 (estimated from 2026 cycle: 27 Mar 2026, 15:00 JST)",
+    "expected": true,
+    "tags": [
+      "Undergrad & grad students",
+      "Overseas students eligible",
+      "Jul–Sep",
+      "University letter of request"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Data science, open science, networking, computational/fundamental physics data",
+    "fieldCats": [
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Summer research internship at RIKEN Wako (and Keihanna) with daily allowance, accommodation and travel paid; you need to pay costs upfront as reimbursement comes after the programme.",
+    "url": "https://www.riken.jp/en/news_pubs/events/lectures/20260723_2/index.html",
+    "source": "https://www.riken.jp/en/news_pubs/events/lectures/20260723_2/index.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "riken-ims-internship",
+    "name": "RIKEN IMS Internship Program",
+    "host": "RIKEN Center for Integrative Medical Sciences (IMS)",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": true,
+    "amount": "¥3,000/working day + lodging (up to ¥11,600/day, lower for longer stays) + travel",
+    "rolling": true,
+    "dlText": "Apply at least 4 months before your desired start (FY2026 round closed; FY2027 dates: check official page)",
+    "tags": [
+      "Master's/PhD students",
+      "1–3 months",
+      "Host lab in Yokohama"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Master's or PhD students (or medical students at master's-equivalent level) enrolled at an academic institution during the internship; supervisor recommendation required."
+    },
+    "fields": "Immunology, genomics, medical and life sciences",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Category 1 interns get allowance, lodging and travel; apply by email with a research proposal for a chosen IMS lab.",
+    "url": "https://www.ims.riken.jp/english/jobs/internship.php",
+    "source": "https://www.ims.riken.jp/english/jobs/internship.php"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "ai2-research-internship",
+    "name": "Ai2 Research and Engineering Internships",
+    "host": "Allen Institute for AI (Ai2)",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "amount": "Competitive pay (amount not published): check official page",
+    "rolling": true,
+    "dlText": "Year-round; summer openings usually posted in the autumn before",
+    "tags": [
+      "Visa sponsorship available",
+      "On-site in Seattle",
+      "~12 weeks"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "AI, machine learning, NLP, computer vision, software engineering",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Research internships for undergraduate and graduate students in AI; international candidates welcome with visa sponsorship.",
+    "url": "https://allenai.org/internships",
+    "source": "https://allenai.org/internships"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "cohere-internships",
+    "name": "Cohere Internships (Research, ML Engineering, Software)",
+    "host": "Cohere",
+    "country": "Canada (remote-friendly; depends on hiring location)",
+    "region": "north-america",
+    "full": true,
+    "amount": "Competitive compensation (amount not published): check official page",
+    "rolling": true,
+    "dlText": "Posted throughout the year; summer 2027 internships open Jan 2027",
+    "tags": [
+      "No visa sponsorship",
+      "~4 months",
+      "Research roles: PhD students"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Enrolled undergraduate, master's or PhD students (research roles: PhD) or graduates within 6 months; you must already be authorised to work where you are hired, as Cohere offers no visa sponsorship or relocation."
+    },
+    "fields": "Machine learning research, ML engineering, software engineering",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Paid full-time internships, remote or from a Cohere office depending on role and location.",
+    "url": "https://cohere.com/research/scholars-program",
+    "source": "https://cohere.com/research/scholars-program"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "merl-internship",
+    "name": "MERL Research Internships",
+    "host": "Mitsubishi Electric Research Laboratories (MERL)",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "amount": "Most postings $6,000–8,000/month (some $4,000–8,000) + relocation stipend + travel to/from MERL",
+    "rolling": true,
+    "dlText": "Positions posted individually with flexible start dates through 2027",
+    "tags": [
+      "Mostly PhD students",
+      "US work authorisation required",
+      "3–6 months",
+      "Cambridge, MA"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Mostly current PhD students (some roles open to master's/undergraduate students); requires full US work authorisation, with MERL immigration support for qualified candidates."
+    },
+    "fields": "AI, computer vision, robotics, optimisation, signal processing, electronics",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Around 40 intern positions listed at a time; apply to specific postings.",
+    "url": "https://www.merl.com/employment/internship-openings",
+    "source": "https://www.merl.com/employment/internship-openings"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "epfl-e3-summer",
+    "name": "E3 – EPFL Excellence in Engineering Summer Research Program",
+    "host": "EPFL School of Engineering (STI)",
+    "country": "Switzerland",
+    "region": "europe",
+    "full": true,
+    "amount": "CHF 1,800/month (Lausanne, Sion, Fribourg) or CHF 2,500/month (Geneva, Neuchâtel), pro rata + travel refunded with host-lab approval",
+    "deadline": "2026-11-01T23:59:00+01:00",
+    "dlText": "1 Nov 2026 (time not stated); results by mid-Mar 2027",
+    "nextText": "Next call expected ~Sep–Nov 2027 for summer 2028 (estimated from the 2026 cycle)",
+    "tags": [
+      "Non-EPFL students",
+      "≥2 bachelor years done",
+      "2–3 months",
+      "Top ~10% of class"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, science and technology",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Summer research internship in an EPFL engineering lab for bachelor's/master's students from other institutions who plan a PhD.",
+    "url": "https://eee.epfl.ch/",
+    "source": "https://eee.epfl.ch/faq/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "Your university's international exchange office",
+    "verifiedOn": "2026-11-22",
+    "id": "epfl-erip",
+    "name": "EPFL Excellence Research Internship Program (ERIP)",
+    "host": "EPFL",
+    "country": "Switzerland",
+    "region": "europe",
+    "full": true,
+    "amount": "CHF 1,800/month, pro rata (max 3 months)",
+    "deadline": "2026-11-30T23:59:00+01:00",
+    "dlText": "30 Nov 2026 (time not stated); reference letters by 6 Dec 2026",
+    "tags": [
+      "Partner universities only",
+      "Nominated by home university",
+      "Top 10%",
+      "Feb–Aug, ~3 months"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Top-10% bachelor's/master's students (≥2 bachelor years done) at EPFL partner universities in North America and Singapore, nominated by their international office (McGill/Toronto after pre-selection)."
+    },
+    "fields": "Any EPFL research field",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Three-month lab research internship at EPFL; the scholarship covers housing and basic living costs.",
+    "url": "https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/",
+    "source": "https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/practical-information/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "epfl-sv-summer-research",
+    "name": "EPFL Life Sciences Summer Research Program",
+    "host": "EPFL School of Life Sciences (SV)",
+    "country": "Switzerland",
+    "region": "europe",
+    "full": true,
+    "amount": "CHF 3,600 for 2 months (covers housing + living) + travel up to CHF 1,000 (overseas) / CHF 500 (shorter distances)",
+    "deadline": "2026-11-15T23:59:00+01:00",
+    "dlText": "15 Nov 2026, 23:59 CET (programme 5 Jul–27 Aug 2027)",
+    "nextText": "Next call expected ~autumn 2027, closing ~mid-Nov (estimated from the 2026 cycle)",
+    "tags": [
+      "Bachelor's (≥2 yrs) to 1st-year master's",
+      "25 places",
+      "Human-based life sciences"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Life sciences (human-based)",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Eight-week research programme in EPFL life-science labs open to students worldwide; PhD students are not eligible.",
+    "url": "https://www.epfl.ch/schools/sv/education/summer-research-program/",
+    "source": "https://www.epfl.ch/schools/sv/education/summer-research-program/program-description/"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "unil-sur",
+    "name": "Summer Undergraduate Research (SUR) Programme",
+    "host": "University of Lausanne, Faculty of Biology and Medicine",
+    "country": "Switzerland",
+    "region": "europe",
+    "full": true,
+    "amount": "~CHF 1,500 for living costs + free accommodation + travel up to CHF 500 (Europe) / CHF 1,200 (overseas)",
+    "deadline": "2026-11-15T23:59:00+01:00",
+    "dlText": "15 Nov 2026, 23:59 CET (programme 5 Jul–27 Aug 2027)",
+    "nextText": "Next call expected ~autumn 2027, closing ~mid-Nov (estimated from the 2026 cycle)",
+    "tags": [
+      "Entering 3rd bachelor year",
+      "~15 places",
+      "Biology/medicine"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Biology, medicine",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Eight-week lab research programme in Lausanne; travel is reimbursed after the programme and visa fees are not covered.",
+    "url": "https://www.unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme.html",
+    "source": "https://www.unil.ch/fbm/en/home/menuinst/formation/short-continuing-postgraduate-training/sur-programme/application.html"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "kek-summer-student",
+    "name": "SOKENDAI KEK Tsukuba/J-PARC Summer Student Program",
+    "host": "KEK (High Energy Accelerator Research Organization) / SOKENDAI",
+    "country": "Japan",
+    "region": "east-asia",
+    "full": true,
+    "amount": "Airfare + free KEK/J-PARC dormitory + ¥1,500/day per diem + airport transfers (visa and insurance not covered)",
+    "deadline": "2027-02-26T09:00:00+09:00",
+    "dlText": "~late Feb 2027 (estimated from 2026 cycle: 27 Feb 2026, 09:00 JST)",
+    "expected": true,
+    "tags": [
+      "Late undergrad or early master's",
+      "Not PhD students",
+      "Up to 8 weeks, Jun–Aug"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Particle, nuclear and accelerator physics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Summer research stay at KEK Tsukuba or J-PARC open to students of any nationality; about 21 participants in recent years.",
+    "url": "https://www.kek.jp/en/education/sokendai/ssp",
+    "source": "https://www.kek.jp/en/education/sokendai/ssp"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "mpiib-isi",
+    "name": "MPIIB International Summer Internship (MPIIB-ISI)",
+    "host": "Max Planck Institute for Infection Biology, Berlin",
+    "country": "Germany",
+    "region": "europe",
+    "full": true,
+    "amount": "€1,400/month stipend + travel compensation + accommodation near the institute",
+    "deadline": "2026-11-27T23:59:00+01:00",
+    "dlText": "27 Nov 2026 (time not stated); internship 1 Sep–30 Nov 2027",
+    "tags": [
+      "International bachelor's/master's",
+      "≥4 semesters",
+      "Voluntary (no credit) internship",
+      "LMIC applicants encouraged"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International bachelor's (≥4 semesters) and master's students enrolled throughout; aimed at students whose education is constrained by personal, financial, regional or societal issues, with applicants from low- and middle-income countries strongly encouraged."
+    },
+    "fields": "Infection biology, immunology, microbiology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Three-month autumn research internship in Berlin; visa fees are not covered.",
+    "url": "https://www.mpiib-berlin.mpg.de/mpiib-isi",
+    "source": "https://www.mpiib-berlin.mpg.de/mpiib-isi"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "mpi-pks-biophys-internship",
+    "name": "Biological Physics Summer Internship (MPI-PKS)",
+    "host": "Max Planck Institute for the Physics of Complex Systems, Dresden",
+    "country": "Germany",
+    "region": "europe",
+    "full": false,
+    "amount": "Financially supported (amount not stated): check official page",
+    "deadline": "2026-11-29T23:59:00+01:00",
+    "dlText": "29 Nov 2026 (time not stated)",
+    "tags": [
+      "Master's & senior bachelor's",
+      "Physics background",
+      "Up to 90 days"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Biological physics, theoretical physics",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Summer 2027 research internship in a biophysics group; dates arranged with the group leader.",
+    "url": "https://www.pks.mpg.de/biophys-internship",
+    "source": "https://www.pks.mpg.de/biophys-internship"
+  },
+  {
+    "levels": [
+      "Internship"
+    ],
+    "funding": "paid-internship",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "mpl-imprs-internship",
+    "name": "IMPRS Physics from Light to Life Internships",
+    "host": "Max Planck Institute for the Science of Light / IMPRS Erlangen",
+    "country": "Germany",
+    "region": "europe",
+    "full": true,
+    "amount": "€992/month + outbound and return flights",
+    "deadline": "2026-11-15T23:59:00+01:00",
+    "dlText": "15 Nov 2026 (time not stated)",
+    "nextText": "Next call expected ~autumn 2027 (estimated from the 2026 cycle)",
+    "tags": [
+      "Bachelor's only (≥4 semesters)",
+      "Up to 3 months, Mar–Oct",
+      "No master's applicants"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "RU",
+        "IR"
+      ]
+    },
+    "fields": "Physics, engineering, biology, medicine",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Research internship at MPL, MPZPM, FAU or Uniklinikum Erlangen; applicants affiliated with institutions in Russia or Iran cannot currently be considered.",
+    "url": "https://mpl.mpg.de/study-work-or-visit/graduate-programs/how-to-apply/internships",
+    "source": "https://mpl.mpg.de/study-work-or-visit/graduate-programs/how-to-apply/internships"
+  }
+]

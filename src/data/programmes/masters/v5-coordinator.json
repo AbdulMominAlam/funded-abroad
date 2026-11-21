@@ -1,0 +1,74 @@
+[
+  {
+    "id": "si-global-professionals",
+    "name": "Swedish Institute Scholarship for Global Professionals (SISGP)",
+    "host": "Swedish Institute (SI) + Swedish universities",
+    "country": "Sweden",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition (paid directly to the university) + SEK 12,000/month living allowance (check official page for travel grant and insurance)",
+    "opens": "2027-02-08",
+    "deadline": "2027-02-24T14:59:00+01:00",
+    "dlText": "SI application 8–24 Feb 2027, closes 14:59 CET; you must first apply to an eligible master's programme via University Admissions by 15 Jan 2027",
+    "tags": [
+      "Citizens of 34 countries",
+      "3,000 hours' work experience",
+      "Leadership experience",
+      "Eligible programmes only"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AM",
+        "AZ",
+        "BD",
+        "BY",
+        "BO",
+        "BR",
+        "CO",
+        "EC",
+        "EG",
+        "ET",
+        "GE",
+        "GT",
+        "ID",
+        "IQ",
+        "JO",
+        "KE",
+        "LR",
+        "MY",
+        "MX",
+        "MD",
+        "MA",
+        "NG",
+        "PE",
+        "PH",
+        "RW",
+        "SN",
+        "ZA",
+        "TZ",
+        "TH",
+        "UG",
+        "UA",
+        "UZ",
+        "VN",
+        "ZM"
+      ]
+    },
+    "residencyRequired": false,
+    "work": true,
+    "nominationBody": null,
+    "fields": "Eligible one- and two-year master's programmes in Sweden (list published 13 Nov 2026)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "About 350–400 awards a year. Eligibility depends on citizenship, not residence; you must be admitted to a programme on SI's eligible list. The 2027/28 country list has 34 countries.",
+    "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+    "source": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+    "verifiedOn": "2026-11-21"
+  }
+]

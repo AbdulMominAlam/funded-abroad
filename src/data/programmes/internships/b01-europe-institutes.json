@@ -772,7 +772,7 @@
     "residencyRequired": false,
     "work": false,
     "nominationBody": null,
-    "verifiedOn": "2026-11-04",
+    "verifiedOn": "2026-11-21",
     "id": "cactus-tuebingen",
     "name": "CaCTüS – Computation and Cognition Tübingen Summer Internship",
     "host": "MPI for Biological Cybernetics, MPI for Intelligent Systems & Tübingen AI Center",
@@ -799,6 +799,7 @@
     ],
     "note": "A paid three-month summer internship in Tübingen covering living and travel costs. Results are expected around January 2027.",
     "url": "https://projects.tuebingen.mpg.de/",
-    "source": "https://projects.tuebingen.mpg.de/"
+    "source": "https://projects.tuebingen.mpg.de/",
+    "nextText": "Next call expected ~Oct–Nov 2027 (estimated from the 2026 cycle)"
   }
 ]

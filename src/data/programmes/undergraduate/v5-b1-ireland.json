@@ -1,0 +1,71 @@
+[
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ucd-global-excellence-ug",
+    "name": "UCD Global Excellence Scholarship (Undergraduate)",
+    "host": "University College Dublin",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "50% or 100% tuition fee scholarship (limited number), renewed each year if GPA ≥ 3.08",
+    "deadline": "2027-03-31T23:59:00+01:00",
+    "dlText": "31 Mar 2027 for most regions; 1 Feb 2027 North America; 28 Feb 2027 Middle East, Africa, Pakistan (times not stated)",
+    "varies": true,
+    "tags": [
+      "Non-EU fee status only",
+      "Need a UCD offer first",
+      "Renewable"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "GB"
+      ]
+    },
+    "fields": "UCD undergraduate programmes (excl. clinical, part-time, foundation year)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Only for incoming students classed as non-EU for tuition fee purposes; apply after receiving an offer. Applicants without an offer should apply to the programme by 5 Feb 2027.",
+    "url": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/globalexcellencescholarships/",
+    "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/globalexcellencescholarships/"
+  }
+]

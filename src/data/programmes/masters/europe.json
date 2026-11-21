@@ -112,7 +112,7 @@
     "id": "erasmus",
     "name": "Erasmus Mundus Joint Masters",
     "host": "EU-funded university consortia",
-    "country": "Europe (multi-country)",
+    "country": "Any (European countries)",
     "region": "europe",
     "levels": [
       "Master's"
@@ -513,7 +513,8 @@
     "note": "Call Two (1 Dec 2026 – 1 Mar 2027) exists, but scholarships are mainly reserved for Call One applicants.",
     "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
     "source": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
-    "verifiedOn": "2026-11-04"
+    "verifiedOn": "2026-11-21",
+    "nextText": "Call Two runs 1 Dec 2026 – 1 Mar 2027, but scholarships go to Call Two candidates only exceptionally; next main round ~Sep–Nov 2027"
   },
   {
     "id": "kuleuven-science",

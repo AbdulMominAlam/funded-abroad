@@ -1,0 +1,188 @@
+[
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "sns-corso-ordinario",
+    "name": "Scuola Normale Superiore Undergraduate Admission Competition (Corso Ordinario)",
+    "host": "Scuola Normale Superiore, Pisa/Florence",
+    "country": "Italy",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Free board and accommodation in SNS colleges + income-based (ISEE) annual contribution",
+    "deadline": "2027-07-30T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~30 Jul 2027, time not stated (estimated from 2026 cycle; written exams late Aug, orals Sep)",
+    "tags": [
+      "Competitive written + oral exams",
+      "TOLC test for Sciences",
+      "Enrol in parallel at Univ. of Pisa"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Admission is purely by competitive exam; candidates with foreign qualifications should check the call for language and qualification rules."
+    },
+    "fields": "Humanities, sciences, political & social sciences",
+    "fieldCats": [
+      "sciences",
+      "social"
+    ],
+    "note": "The 2026/27 competition offered 60 first-level and 22 second-level places; winners get free board and lodging plus an income-based contribution. Estimated from 2026 cycle.",
+    "url": "https://www.sns.it/en/concorso-ordinario",
+    "source": "https://www.sns.it/it/news/ancora-aperte-le-iscrizioni-il-concorso-di-ammissione-al-corso-ordinario-82-i-posti"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "santanna-ordinary-courses",
+    "name": "Sant'Anna School Ordinary Courses Admission (Allievi Ordinari)",
+    "host": "Sant'Anna School of Advanced Studies, Pisa",
+    "country": "Italy",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Free on-campus accommodation and meals (check call for further benefits)",
+    "deadline": "2027-07-30T20:00:00+02:00",
+    "expected": true,
+    "dlText": "First-level/single-cycle ~30 Jul 2027, 20:00; second-level ~22 Jun 2027, 12:00 (estimated from 2026 cycle)",
+    "tags": [
+      "Competitive exams",
+      "Foreign-qualified may test in English",
+      "Enrol in parallel at Univ. of Pisa"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Open to Italian and foreign-qualified candidates; second level needs a bachelor's within 4 years with ≥27/30 average (or equivalent)."
+    },
+    "fields": "Social sciences, experimental sciences (engineering, agriculture, medicine)",
+    "fieldCats": [
+      "social",
+      "engineering",
+      "sciences"
+    ],
+    "note": "Ordinary students live on campus with free accommodation and meals; foreign-qualified non-Italian speakers may take tests in English. Estimated from 2026 cycle.",
+    "url": "https://www.santannapisa.it/en/news/concorso-ammissione-scuola-santanna-2026-2027",
+    "source": "https://www.santannapisa.it/en/news/concorso-ammissione-scuola-santanna-2026-2027"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "edisu-piemonte-borsa",
+    "name": "EDISU Piemonte Right-to-Study Scholarship (Borsa di studio)",
+    "host": "EDISU Piemonte – regional agency for the right to study (Turin, PoliTo, UPO and others)",
+    "country": "Italy",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Income-based cash grant + optional accommodation (amounts in the official notice)",
+    "deadline": "2027-09-03T12:00:00+02:00",
+    "expected": true,
+    "dlText": "~early Sep 2027, 12:00 Italian time (2026/27 round closed 4 Sep 2026; estimated from 2026 cycle)",
+    "tags": [
+      "Income-based (ISEE / ISEE parificato)",
+      "Merit credits for 2nd instalment",
+      "International students eligible"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Means-tested regional grant for students at Piedmont universities; international students without SPID apply with a temporary access code. Estimated from 2026 cycle.",
+    "url": "https://www.edisu.piemonte.it/en",
+    "source": "https://www.edisu.piemonte.it/en/news/notices/benefits-application-202627-publication-notice-competition-and-start-procedure"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "dsu-toscana-borsa",
+    "name": "DSU Toscana Right-to-Study Scholarship and Accommodation (Borsa di studio)",
+    "host": "ARDSU Toscana – regional agency for the right to study (Pisa, Florence, Siena)",
+    "country": "Italy",
+    "levels": [
+      "Undergraduate",
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Income-based cash grant + tuition exemption, accommodation/meals (amounts in the official call)",
+    "deadline": "2027-09-07T13:00:00+02:00",
+    "expected": true,
+    "dlText": "~7 Sep 2027, 13:00 (2026/27 round closed 7 Sep 2026; PhD window to mid-Nov; estimated from 2026 cycle)",
+    "tags": [
+      "Income-based",
+      "Assets abroad documented",
+      "Merit credits required"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Means-tested grant open to students of any nationality at Tuscan universities; students with income or assets abroad submit extra documents. Estimated from 2026 cycle.",
+    "url": "https://www.dsu.toscana.it/borsa-di-studio",
+    "source": "https://www.dsu.toscana.it/-/borsa-di-studio-e-posto-alloggio-a.a.-2026-2027"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "unipd-regional-scholarship",
+    "name": "University of Padua Regional Scholarship (Veneto right-to-study grant)",
+    "host": "University of Padua",
+    "country": "Italy",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Income-based regional grant (check official page)",
+    "deadline": "2027-09-30T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~30 Sep 2027, time not stated (2026/27 deadline 30 Sep 2026; estimated from 2026 cycle)",
+    "tags": [
+      "Income-based (ISEE parificato)",
+      "Upload documents by deadline",
+      "International students eligible"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International students apply with an ISEE parificato; documents needing legalisation could be filed later for a supplementary ranking. Estimated from 2026 cycle.",
+    "url": "https://www.unipd.it/borse-studio-contribuzione",
+    "source": "https://wwwassets.unipd.it/sites/default/files/2026-07/1.Bando%20ContribuzioneEsoneri%202026-27.pdf"
+  }
+]
