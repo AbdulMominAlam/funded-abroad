@@ -1,0 +1,498 @@
+[
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "crg-international-phd",
+    "name": "CRG International PhD Programme",
+    "host": "Centre for Genomic Regulation (CRG), Barcelona",
+    "country": "Spain",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "4-year employment contract, competitive salary + Social Security",
+    "deadline": "2026-11-22T23:59:00+01:00",
+    "dlText": "22 Nov 2026, time not stated",
+    "nextText": "Next call ~Sep–Oct 2027",
+    "tags": [
+      "Master's (300 ECTS total)",
+      "Interviews Jan–Feb 2027",
+      "Start by Oct 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Biomedical sciences, genomics, computational biology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Open to any nationality; excludes those interviewed in a previous CRG call or who worked >3 months at CRG. Flights and accommodation provided for Barcelona interviews.",
+    "url": "https://www.crg.eu/en/content/training-phd-students/crg-international-phd-programme",
+    "source": "https://www.crg.eu/en/content/training-phd-students/crg-international-phd-fellowships-programme-2027"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "irb-barcelona-phd",
+    "name": "IRB Barcelona International PhD Fellowships",
+    "host": "Institute for Research in Biomedicine (IRB Barcelona)",
+    "country": "Spain",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Predoctoral (FPI) contract — check official page",
+    "deadline": "2027-01-07T23:59:00+01:00",
+    "dlText": "7 Jan 2027, time not stated",
+    "tags": [
+      "Up to 10 FPI positions",
+      "Master's degree"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationality rules not stated on the careers page; check the call document."
+    },
+    "fields": "Biomedicine, structural & computational biology, chemistry",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "The 2027 call offers up to 10 FPI predoctoral positions linked to AEI 2026 projects.",
+    "url": "https://www.irbbarcelona.org/en/careers",
+    "source": "https://www.irbbarcelona.org/en/careers"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "icfo-phd-program",
+    "name": "ICFO PhD Program Fellowships",
+    "host": "ICFO – The Institute of Photonic Sciences, Castelldefels (Barcelona)",
+    "country": "Spain",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "Fully funded throughout the PhD (contract)",
+    "rolling": true,
+    "dlText": "Rolling call with periodic deadlines",
+    "tags": [
+      "Master's by start",
+      "No prior PhD",
+      "Some schemes: Spain residence rule"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Open internationally; some fellowship schemes require residence/main activity in Spain for 12 of last 36 months."
+    },
+    "fields": "Photonics, quantum, optics",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "A rolling call is always open; ICFO PhD fellows are fully funded regardless of the funding mechanism.",
+    "url": "https://www.icfo.eu/studies/phd-program/",
+    "source": "https://www.icfo.eu/studies/phd-program/"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "spain-fpi-predoctoral",
+    "name": "FPI Predoctoral Contracts (linked to AEI Knowledge Generation Projects)",
+    "host": "Agencia Estatal de Investigación (AEI) / Spanish research groups",
+    "country": "Spain",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "salaried",
+    "amount": "4-year predoctoral employment contract — check official page",
+    "rolling": true,
+    "dlText": "Positions advertised by funded projects after the PID2026 award",
+    "tags": [
+      "300 ECTS / master's",
+      "Admitted to PhD programme",
+      "No prior doctorate"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Candidates are recruited by funded PID projects; check each position for nationality and admission rules."
+    },
+    "fields": "Any research field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "FPI places are attached to PID2026 projects; candidates join within 9 months of the award. Look for vacancies at Spanish universities and institutes.",
+    "url": "https://www.aei.gob.es/",
+    "source": "https://www.aei.gob.es/sites/default/files/convocatory_info/assistants/2026-11/PID2026-FAQ-301026-v3_1.pdf"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "champalimaud-indp",
+    "name": "Champalimaud International Neuroscience Doctoral Programme (INDP)",
+    "host": "Champalimaud Foundation, Lisbon",
+    "country": "Portugal",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Monthly stipend (€1,518 year 1, €1,708 in lab; 2026 rates) + tuition, up to 5.5 years",
+    "opens": "2026-11-16",
+    "deadline": "2026-12-30T23:59:00+00:00",
+    "dlText": "~30 Dec 2026, time not stated (official page says '16 Nov–30 Dec 2027', apparently a typo for 2026; treat as an estimate)",
+    "tags": [
+      "Master's or 4-year degree",
+      "High English proficiency",
+      "Interviews Feb 2027"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Neuroscience (life, behavioural and quantitative backgrounds)",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Full funding renewable yearly up to 5.5 years; first year includes coursework and three lab rotations. Classes start Sep 2027.",
+    "url": "https://fchampalimaud.org/champalimaud-research/education/indp",
+    "source": "https://fchampalimaud.org/champalimaud-research/education/indp",
+    "expected": true
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "gimm-phd-fellowships",
+    "name": "GIMM PhD Research Fellowships",
+    "host": "Gulbenkian Institute for Molecular Medicine (GIMM), Lisbon",
+    "country": "Portugal",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "~€1,359/month stipend (per recent listing)",
+    "rolling": true,
+    "dlText": "Per-position calls (see gimm.pt/jobs)",
+    "tags": [
+      "Eligible to enrol in a PhD",
+      "Non-EU: residence permit before contract"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Molecular medicine, neurobiology, computational biology",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Individual fellowships are open to any national, foreign or stateless candidate; several start Jan–Feb 2027 and run up to 4 years.",
+    "url": "https://gimm.pt/jobs/",
+    "source": "https://gimm.pt/jobs/phd-student-research-fellowship/"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "santanna-phd",
+    "name": "Sant'Anna School PhD Programmes (with scholarships)",
+    "host": "Sant'Anna School of Advanced Studies, Pisa",
+    "country": "Italy",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€19,740/year + €2,200/year housing supplement (2026/27 rates)",
+    "deadline": "2027-05-14T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~mid-May 2027, time not stated (2026 deadline 15 May; call expected ~Feb 2027)",
+    "tags": [
+      "Master's degree",
+      "26 free meals/month",
+      "+50% abroad"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "BioRobotics, economics, law, agrobiosciences, translational medicine, more",
+    "fieldCats": [
+      "engineering",
+      "social",
+      "sciences"
+    ],
+    "note": "The 2026/27 call offered 58 positions; the 2027/28 call is under preparation. Estimated from 2026 cycle.",
+    "url": "https://www.santannapisa.it/en/training/phd-programmes",
+    "source": "https://www.santannapisa.it/en/training/call-phd"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "bocconi-phd",
+    "name": "Bocconi PhD Programs (fellowships)",
+    "host": "Università Bocconi, Milan",
+    "country": "Italy",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "PhD fellowship (check official page); higher first-year support via Ospitalità PORTUS",
+    "opens": "2026-11-03",
+    "deadline": "2027-01-18T23:59:00+01:00",
+    "varies": true,
+    "dlText": "18 Jan 2027, 23:59 CET (Stats & ML and CS & AI: 8 Feb 2027)",
+    "tags": [
+      "Master's or strong bachelor's",
+      "GRE/GMAT may apply",
+      "4 years (Law 3)"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Business, economics & finance, law, maths, social & political science, statistics, CS & AI",
+    "fieldCats": [
+      "social",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "Tech Europe Foundation covers the full cost of Bocconi PhD fellowships from 2025-26; the deadline is not negotiable.",
+    "url": "https://www.unibocconi.it/en/programs/phd/admissions",
+    "source": "https://www.unibocconi.it/en/programs/phd/admissions"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "eui-phd",
+    "name": "European University Institute Doctoral Programmes (with national grants)",
+    "host": "European University Institute (EUI), Florence",
+    "country": "Italy",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Monthly grant from national grant authority (e.g. Italian grant €1,685/month from Jan 2027) + tuition",
+    "deadline": "2027-01-15T14:00:00+01:00",
+    "dlText": "15 Jan 2027, 14:00 CET",
+    "tags": [
+      "Funding by nationality",
+      "No self-funding",
+      "Economics, history, law, SPS"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Funded by EU/associated national authorities; Italy's 'Grants for Foreigners' covers listed countries (e.g. AL, CN, EG, ET, NG, RS, TR, UA, US); EUI special fellowships for other listed countries."
+    },
+    "fields": "Economics, history & civilisation, law, political & social sciences",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Self-financing candidates cannot be admitted; check the EUI funding-information page for your nationality.",
+    "url": "https://www.eui.eu/en/services/academic-service/doctoral-programme",
+    "source": "https://www.eui.eu/apply?id=doctoral-programme-in-economics"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "polito-phd",
+    "name": "Politecnico di Torino PhD Programmes (scholarships)",
+    "host": "Politecnico di Torino",
+    "country": "Italy",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€18,854.52/year gross (~€1,386/month net) + 10% research budget",
+    "opens": "2027-01-14",
+    "deadline": "2027-02-15T14:00:00+01:00",
+    "dlText": "Third session 15 Feb 2027, 14:00 CET (start 1 Jun 2027)",
+    "nextText": "43rd-cycle call expected ~Mar 2027",
+    "tags": [
+      "Master's degree",
+      "+50% abroad",
+      "3 years"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, architecture, sciences",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "cs-ai"
+    ],
+    "note": "42nd-cycle sessions: 30 Apr 2026, 16 Nov 2026 and 15 Feb 2027; some positions reserved for conflict-zone and Afghan candidates.",
+    "url": "https://www.polito.it/en/education/phd-programmes-and-postgraduate-school/admissions-to-phd-programmes/admissions/call-for-applications",
+    "source": "https://www.polito.it/en/education/phd-programmes-and-postgraduate-school/admissions-to-phd-programmes/admissions/call-for-applications"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "polimi-phd",
+    "name": "Politecnico di Milano PhD Scholarships",
+    "host": "Politecnico di Milano",
+    "country": "Italy",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "From €1,300/month (depends on topic) + ≥10% research budget",
+    "rolling": true,
+    "dlText": "Calls open ~1 month each, several per year",
+    "tags": [
+      "MSc or equivalent",
+      "English required",
+      "+50% abroad"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Engineering, architecture, design, CS",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences"
+    ],
+    "note": "Calls are published on the PhD School site, Euraxess and the Ministry site for at least 30 days.",
+    "url": "https://www.dottorato.polimi.it/en/prospective-phd-candidates/scholarships",
+    "source": "https://www.dottorato.polimi.it/en/prospective-phd-candidates/scholarships"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "sapienza-phd",
+    "name": "Sapienza University of Rome PhD Programmes (scholarships)",
+    "host": "Sapienza University of Rome",
+    "country": "Italy",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "PhD scholarship (check call) + 50% abroad; higher amount for top foreign-degree winner",
+    "deadline": "2027-06-16T14:00:00+02:00",
+    "expected": true,
+    "dlText": "~mid-Jun 2027, 14:00 (2026 deadline 17 Jun; estimated from 2026 cycle)",
+    "tags": [
+      "Master's degree",
+      "Italian tax code for payment"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "One general call covers all Sapienza PhD programmes; the CSC pre-selection for Chinese candidates closes earlier. Estimated from 2026 cycle.",
+    "url": "https://www.uniroma1.it/en/pagina/admissions-2026-2027-phd-programmes",
+    "source": "https://www.uniroma1.it/en/pagina/admissions-2026-2027-phd-programmes"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "unito-phd",
+    "name": "University of Turin PhD Programmes (scholarships)",
+    "host": "University of Turin (UniTo)",
+    "country": "Italy",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Monthly PhD scholarship (check call) + 50% abroad",
+    "deadline": "2026-12-15T12:00:00+01:00",
+    "dlText": "2nd 42nd-cycle call: 15 Dec 2026, 12:00 CET",
+    "nextText": "43rd-cycle main call ~spring 2027 (2026 deadline 9 Jun)",
+    "tags": [
+      "Master's degree",
+      "Places reserved for international candidates"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All fields",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The first 42nd-cycle call closed 9 Jun 2026; a second call closes 15 Dec 2026. Some positions are reserved for international candidates.",
+    "url": "https://en.unito.it/research/opportunities-research-careers/phd",
+    "source": "https://en.unito.it/news/call-admission-unito-phd-programmes-42nd-cycle"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "cyi-deans-distinguished",
+    "name": "Cyprus Institute Dean's Distinguished Scholarship (PhD)",
+    "host": "The Cyprus Institute, Nicosia",
+    "country": "Cyprus",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition and fees + living stipend + annual research allowance",
+    "rolling": true,
+    "dlText": "Indicative PhD deadlines: 20 Dec (early), 1 May, 23 Aug; spring intake 15 Sep",
+    "tags": [
+      "No separate application",
+      "Online interview",
+      "Subject to funds"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Computational sciences, energy/environment/atmosphere, archaeology & cultural heritage",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Exceptional PhD applicants are considered automatically; all CyI PhD students receive some financial aid.",
+    "url": "https://www.cyi.ac.cy/index.php/visit-the-cyprus-institute-enjoy-a-day-of-science/deans-distinguished-scholarships.html",
+    "source": "https://www.cyi.ac.cy/index.php/visit-the-cyprus-institute-enjoy-a-day-of-science/deans-distinguished-scholarships.html"
+  }
+]

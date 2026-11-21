@@ -1,0 +1,260 @@
+[
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "unibo-international-talents",
+    "name": "International Talents @Unibo Study Grants",
+    "host": "University of Bologna",
+    "country": "Italy",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€6,500/year for 2 years + full tuition waiver (2025/26 call)",
+    "deadline": "2027-05-31T12:00:00+02:00",
+    "expected": true,
+    "dlText": "~end May 2027, 12:00 CEST (2025/26 window 17 Jan–30 May 2025; 2027 date estimated)",
+    "tags": [
+      "Under 30",
+      "Foreign qualification",
+      "Second-cycle degree"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students with a foreign qualification enrolling in a Unibo second-cycle degree; under 30 at deadline."
+    },
+    "fields": "Any (Unibo second-cycle degrees)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The 2025/26 call funded 30 two-year grants of €6,500/year plus a full fee waiver; check whether a 2027/28 call is issued. Estimated from the last published cycle.",
+    "url": "https://bandi.unibo.it/",
+    "source": "https://bandi.unibo.it/s/diri/bando-international-talents-unibo-borse-di-studio-per-studenti-internazionali-che-si-immatricolano-ai-corsi-di-laurea-magistrale-dell-universita-di-bologna-per-l-a-a-2025-26/call-for-application/en-bando_international-talents-2526_17-1-25.pdf/@@download/file/EN%20BANDO_INTERNATIONAL%20TALENTS%202526_17-1-25.pdf"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "cafoscari-honours",
+    "name": "Ca' Foscari Honours Scholarships for International Students",
+    "host": "Ca' Foscari University of Venice",
+    "country": "Italy",
+    "levels": [
+      "Master's",
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€10,000/year, renewable (3 years bachelor's, 2 years master's)",
+    "rolling": true,
+    "dlText": "2027/28 call published late fall 2026; deadline in the call",
+    "tags": [
+      "GPA ≥85%",
+      "Motivational video",
+      "Reference letters",
+      "Language certificate"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students enrolling in a Ca' Foscari bachelor's or master's degree."
+    },
+    "fields": "Any",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "8 bachelor's and 20 master's scholarships of €10,000/year for 2027/28 intake; the full call with deadlines is due in late fall 2026.",
+    "url": "https://www.unive.it/pag/19545",
+    "source": "https://www.unive.it/pag/19545"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "siena-international-excellence",
+    "name": "Siena International Excellence Scholarships",
+    "host": "University of Siena",
+    "country": "Italy",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€6,000/year gross, renewable for year 2 (€12,000 total)",
+    "deadline": "2027-05-26T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~26 May 2027, time not stated (estimated from 2026 cycle)",
+    "tags": [
+      "Non-Italian citizens",
+      "Foreign degree",
+      "Selected English-taught master's",
+      "€10 fee"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "IT"
+      ]
+    },
+    "fields": "Economics, finance, diplomacy, linguistics, biotech, applied maths, AI, engineering, chemistry",
+    "fieldCats": [
+      "social",
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Five scholarships across selected English-taught master's; applicants must also apply for admission via apply.unisi.it. Estimated from 2026 cycle.",
+    "url": "https://admission.unisi.it/?p=2283",
+    "source": "https://apply.unisi.it/courses/course/112-sch-siena-international-excellence-scholarships?search=620281"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "polito-math-eng-foreign",
+    "name": "PoliTo Scholarships for Foreign-Qualified Students – MSc Mathematical Engineering",
+    "host": "Politecnico di Torino (Dept. of Mathematical Sciences)",
+    "country": "Italy",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "€16,000 gross per scholarship (3 awards)",
+    "opens": "2026-10-14",
+    "deadline": "2027-01-29T23:55:00+01:00",
+    "dlText": "29 Jan 2027, 23:55 CET",
+    "tags": [
+      "Foreign first-cycle degree",
+      "Apply for LM-44 admission",
+      "First-time enrolment 2027/28"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Holders of a foreign first-cycle degree applying to the MSc in Mathematical Engineering for 2027/28."
+    },
+    "fields": "Mathematical engineering",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Three scholarships for 2027/28; results by 29 Mar 2027.",
+    "url": "https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/scholarships-and-awards?tipo_borsa=S",
+    "source": "https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/scholarships-and-awards?tipo_borsa=S"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "uc3m-ayudas-completas-master",
+    "name": "UC3M Full Master's Study Grants (Ayudas Completas al estudio de Máster)",
+    "host": "Universidad Carlos III de Madrid",
+    "country": "Spain",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full first-enrolment tuition + €10,000 support; renewable for year 2",
+    "deadline": "2027-04-30T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~30 Apr 2027, time not stated (estimated from 2026 cycle)",
+    "tags": [
+      "Apply for admission first",
+      "Economics/Finance or Social Sciences MU",
+      "CV in Spanish or English"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Admission applicants to the eligible master's; the page states no nationality restriction."
+    },
+    "fields": "Business economics & finance; social sciences",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "2026/27 offered 9 grants (7 Economía de la Empresa y Finanzas, 2 Ciencias Sociales). Estimated from 2026 cycle.",
+    "url": "https://www.uc3m.es/ss/Satellite/UC3MInstitucional/es/Detalle/Ficha_C/1371243686736/1371258853556/Ayudas_Completas_al_estudio_de_Master_Universitario_2023_2024?d=Desktop",
+    "source": "https://www.uc3m.es/ss/Satellite/UC3MInstitucional/es/Detalle/Ficha_C/1371243686736/1371258853556/Ayudas_Completas_al_estudio_de_Master_Universitario_2023_2024?d=Desktop"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "unav-grow-with-mef",
+    "name": "GROW WITH MEF Scholarships (Master in Economics and Finance)",
+    "host": "University of Navarra, School of Economics and Business",
+    "country": "Spain",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Up to 80% of enrolment cost + monthly stipend",
+    "rolling": true,
+    "dlText": "Check official page (no date published)",
+    "tags": [
+      "Open to any country",
+      "Pamplona campus"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Economics and finance",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Covers up to 80% of total enrolment with a monthly stipend for the Master in Economics and Finance; number and dates not published.",
+    "url": "https://en.unav.edu/admission-and-financial-aid/master/scholarships",
+    "source": "https://en.unav.edu/admission-and-financial-aid/master/scholarships"
+  },
+  {
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "malta-issi-sids",
+    "name": "Islands and Small States Scholarships (MA Research on Islands and Small States)",
+    "host": "University of Malta, Islands and Small States Institute / Maltese Ministry for Foreign Affairs",
+    "country": "Malta",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition fee waiver (University); Ministry scholarships — check official page",
+    "deadline": "2027-04-30T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~30 Apr 2027, time not stated (estimated from 2026 cycle)",
+    "tags": [
+      "SIDS nationals (ODA-eligible)",
+      "Research proposal",
+      "Full-time"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of ODA-eligible Small Island Developing States."
+    },
+    "fields": "Islands and small states studies",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "For 2026-27 the Ministry offered four scholarships for the full-time MA (Research on Islands and Small States); the University also waives fees incl. for PhD. Estimated from 2026 cycle.",
+    "url": "https://www.um.edu.mt/issi/aboutus/studyingwithus/",
+    "source": "https://www.um.edu.mt/issi/aboutus/studyingwithus/"
+  }
+]
