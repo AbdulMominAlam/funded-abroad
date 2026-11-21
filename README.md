@@ -15,14 +15,14 @@ A free, global scholarship finder. Pick your **nationality** and **study level**
 
 ## Highlights
 
-- **561 funded programmes** in 64 host countries and territories, plus multi-country and global programmes
+- **741 funded programmes** in 80 host countries and territories, plus multi-country and global programmes
 - **Nationality-aware eligibility** for 243 countries and territories
 - **Level picker:** undergraduate, master's, PhD or internships
 - **Deadline countdowns** and a six-month deadline strip
 - **Shortlist, checklists, compare**, `.ics` calendar export, and export/import of your data
 - **Free static hosting** with zero running cost
 
-* **561 programmes**: 135 undergraduate, 211 master's, 203 PhD and 125 internships / summer research (some cover several levels). See [CHANGES.md](CHANGES.md) for sources, estimates and what's least certain.
+* **741 programmes**: 181 undergraduate, 285 master's, 291 PhD and 145 internships / summer research (some cover several levels). See [CHANGES.md](CHANGES.md) for sources, estimates and what's least certain.
 * 243 nationalities (ISO 3166 codes). Eligibility rules are data, not code: "all nationalities", "only these countries", "everyone except…", named groups (Commonwealth, EU/EEA, ASEAN, African Union, OIC), or "check the official list".
 * A static site that runs free on Cloudflare Pages (or GitHub Pages). The only server-side part is the optional email alerts, which use free tiers of Supabase, Resend and GitHub Actions.
 
@@ -40,7 +40,7 @@ A free, global scholarship finder. Pick your **nationality** and **study level**
 
 - **Nationality + level pickers** at the top. They're searchable, remembered in your browser, and included in shareable links (`#nat=PK&lvl=masters`). Programmes you can't apply for are hidden; **Show programmes I'm not eligible for** shows them greyed out with the reason.
 - **Next six months**: a deadline strip for your nationality and level.
-- **Filters**: search, status, field, region, **host country** (multi-select), **funding type** (fully funded / partial / salaried / paid internship), **deadline within 30/60/90 days**, sort, *no need to live in my home country*, *no work experience needed*, *rolling / no fixed deadline*, *★ shortlist*. A stats line shows "Showing X of Y matching · Z programmes you can apply for", and results load 30 at a time (**Show more**).
+- **Filters**: search, status, field, region, **host country** (multi-select; each country listed once, and a multi-country programme appears under each of its hosts), **funding type** (fully funded / partial / salaried / paid internship), **deadline within 30/60/90 days**, sort, *no need to live in my home country*, *no work experience needed*, *rolling / no fixed deadline*, *★ shortlist*. A stats line shows "Showing X of Y matching · Z programmes you can apply for", and results load 30 at a time (**Show more**).
 - **Cards** with:
   - status and countdown ("No fixed date" for rolling programmes)
   - deadline in the programme's own time zone
@@ -71,7 +71,8 @@ npm run dev
 | `npm run validate-data` | Checks every file in `src/data/programmes/` plus `countries.json` and `country-groups.json` (duplicate ids and duplicate name+host across files too); fails loudly on bad data |
 | `npm run validate-data -- src/data/programmes/phd/b12-europe.json` | Validates just that file (still checks its ids against all others) |
 | `npm run list-programmes` | Prints every programme (id, name, host, levels, file); handy to avoid duplicates |
-| `npm test` | Vitest: status/countdown, eligibility (every rule type + groups), migration, filters, URL hash, .ics, checklists, import/export, validator, and the alert system (planning, dedupe, tokens, handlers, templates; Supabase/Resend mocked, no network) |
+| `npm run count-hosts` | Programme counts by level and by host country (`-- --json` for JSON) |
+| `npm test` | Vitest: status/countdown, eligibility (every rule type + groups), migration, filters, host-country names, URL hash, .ics, checklists, import/export, validator, and the alert system (planning, dedupe, tokens, handlers, templates; Supabase/Resend mocked, no network) |
 | `npm run build` | Validate + type-check + build the static site into `dist/` (`index.html` and `privacy.html`) |
 | `npm run preview` | Serve `dist/` locally |
 | `npm run alerts:sample` | Dry run of the alert job for a made-up subscriber; needs no accounts |
@@ -89,6 +90,7 @@ src/
   eligibility.ts               who can apply (shared by the site and the alert job)
   status.ts                    open / closing soon / upcoming / expected / varies / rolling / closed
   filters.ts                   filtering, sorting, URL hash
+  hosts.ts                     canonical host-country names, parsing of `country` text, host-filter labels
   storage.ts                   all localStorage access (try/catch)
   checklist.ts, ics.ts, backup.ts, validate.ts
   alerts/plan.ts               which alert emails each subscriber gets today (pure, tested)
@@ -101,7 +103,7 @@ supabase/
   functions/subscribe|confirm|unsubscribe/index.ts   Edge Functions (Deno entry points)
   functions/_shared/           handlers, email sender (Resend), templates, REST store (also used by the job)
 scripts/
-  validate-data.ts, gen-countries.ts, list-programmes.ts, lib/programmes.ts (Node loader)
+  validate-data.ts, gen-countries.ts, list-programmes.ts, count-hosts.ts, lib/programmes.ts (Node loader)
   alerts/send-alerts.ts        the daily alert job
   migrate-v3.py, add-v3-programmes.py   one-off data migrations (kept for review)
 .github/workflows/ci.yml       validate, test, build, alert smoke test, Deno type-check
@@ -158,11 +160,12 @@ Programme data is split into small files under `src/data/programmes/<level>/` (e
 | `amount` | yes | Never guess: write "check official page" if unknown. |
 | `region`, `fields`, `fieldCats` | yes | Region: `europe`, `uk`, `east-asia` (East & Southeast Asia), `middle-east`, `north-america`, `oceania`, `turkiye`, `global`. Field categories: `cs-ai`, `engineering`, `sciences`, `social`, `any`. |
 | `url`, `source`, `verifiedOn` | yes | Official page, the official page you checked, and the date (`YYYY-MM-DD`). |
-| `tags`, `note`, `dlText`, `name`, `host`, `country`, `full` | yes | Display text and flags. `country` also feeds the host-country filter. |
+| `country` | yes | Host country, using the canonical name from `countries.json` (except `Hong Kong` and `Macao`): `"Germany"`, several as `"Germany / United Kingdom"`, optionally with one qualifier `"Austria (multi-country)"`, or `"Any (UN offices worldwide)"` when there's no single host. Feeds the host-country filter; `validate-data` rejects aliases such as `UK` or `UAE`. |
+| `tags`, `note`, `dlText`, `name`, `host`, `full` | yes | Display text and flags. |
 | `funding` | no | `full`, `partial`, `salaried` (paid job, e.g. European PhD positions) or `paid-internship`. Defaults to full/partial from `full`. |
 | `checklist` | no | Extra checklist items for this programme. |
 
-The validator rejects unknown fields, bad country codes or group names, deadlines without a time zone, impossible dates, non-https URLs, duplicate ids, and `opens` dates after the deadline.
+The validator rejects unknown fields, bad country codes or group names, non-canonical host-country names, deadlines without a time zone, impossible dates, non-https URLs, duplicate ids, and `opens` dates after the deadline.
 
 To add a country group, add it to `src/data/country-groups.json` with `name`, an official `source` URL and `countries`.
 
