@@ -1,0 +1,303 @@
+[
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ucd-global-excellence-pg",
+    "name": "UCD Global Excellence Scholarship (Graduate Taught)",
+    "host": "University College Dublin",
+    "levels": [
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "50% or 100% tuition fee scholarship (limited number); renewed yearly if GPA ≥ 3.08",
+    "deadline": "2027-03-31T23:59:00+01:00",
+    "dlText": "31 Mar 2027 for most regions; 28 Feb 2027 for Middle East, Africa, Pakistan and South Asia (times not stated)",
+    "varies": true,
+    "tags": [
+      "Non-EU fee status only",
+      "Need a UCD offer first",
+      "Apply programme by 5 Feb 2027"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "IS",
+        "LI",
+        "NO",
+        "CH",
+        "GB"
+      ]
+    },
+    "fields": "UCD graduate taught programmes (not online, part-time, clinical or January-start)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Only for incoming students classed as non-EU for tuition fee purposes; you must hold an offer before applying. Results about seven weeks after each regional deadline.",
+    "url": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/globalexcellencescholarships/",
+    "source": "https://www.ucd.ie/global/study-at-ucd/scholarshipsfinances/scholarships/globalexcellencescholarships/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ireland-fellows-africa",
+    "name": "Ireland Fellows Programme – Africa",
+    "host": "Department of Foreign Affairs (Irish Aid) – Ireland Fellows Programme",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full: tuition, flights, visa & residence-permit fees, insurance, accommodation (trimesters 1–2), living and settling-in allowances",
+    "opens": "2026-06-29",
+    "deadline": "2026-07-26T23:59:00+01:00",
+    "dlText": "Stage 1 closed 26 Jul 2026 (2027/28 intake; time not stated)",
+    "nextText": "2028/29 round expected ~late Jun–Jul 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "One-year master's in Ireland",
+      "Relevant work experience",
+      "Resident nationals only",
+      "Max 2 previous attempts"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AO",
+        "BI",
+        "CD",
+        "DJ",
+        "ER",
+        "SZ",
+        "ET",
+        "GH",
+        "KE",
+        "LS",
+        "LR",
+        "MW",
+        "MZ",
+        "RW",
+        "SN",
+        "SL",
+        "SO",
+        "SS",
+        "SD",
+        "TZ",
+        "UG",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "fields": "Master's programmes from the Directory of Eligible Programmes (development-relevant fields)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fully funded one-year master's for early/mid-career professionals; three-stage process via the Irish Embassy (Stage 1 Jun–Jul, Stage 2 Sep–Oct, interviews). Minimum work experience varies by country; some countries are by invitation only via Irish Aid partners.",
+    "url": "https://www.ireland.ie/en/ireland-fellows-programme/applying-for-the-ireland-fellows-programme/",
+    "source": "https://assets.ireland.ie/documents/IrelandFellows_AfricaGuidanceNote.pdf"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ireland-fellows-asia",
+    "name": "Ireland Fellows Programme – Asia",
+    "host": "Department of Foreign Affairs (Irish Aid) – Ireland Fellows Programme",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full: tuition, flights, visa & residence-permit fees, insurance, accommodation (trimesters 1–2), living and settling-in allowances",
+    "opens": "2026-06-29",
+    "deadline": "2026-07-26T23:59:00+01:00",
+    "dlText": "Stage 1 closed 26 Jul 2026 (2027/28 intake; time not stated)",
+    "nextText": "2028/29 round expected ~late Jun–Jul 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "One-year master's in Ireland",
+      "Relevant work experience",
+      "Resident nationals only",
+      "Max 2 previous attempts"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "VN",
+        "KH",
+        "LA"
+      ]
+    },
+    "fields": "Master's programmes from the Directory of Eligible Programmes (development-relevant fields)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fully funded one-year master's for early/mid-career professionals; three-stage process via the Irish Embassy (Stage 1 Jun–Jul, Stage 2 Sep–Oct, interviews). Applications go to the Embassy of Ireland in Vietnam.",
+    "url": "https://www.ireland.ie/en/ireland-fellows-programme/applying-for-the-ireland-fellows-programme/",
+    "source": "https://assets.ireland.ie/documents/IrelandFellows_AsiaGuidanceNote.pdf"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ireland-fellows-sids",
+    "name": "Ireland Fellows Programme – Small Island Developing States (SIDS)",
+    "host": "Department of Foreign Affairs (Irish Aid) – Ireland Fellows Programme",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full: tuition, flights, visa & residence-permit fees, insurance, accommodation (trimesters 1–2), living and settling-in allowances",
+    "opens": "2026-06-29",
+    "deadline": "2026-07-26T23:59:00+01:00",
+    "dlText": "Stage 1 closed 26 Jul 2026 (2027/28 intake; time not stated)",
+    "nextText": "2028/29 round expected ~late Jun–Jul 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "One-year master's in Ireland",
+      "Relevant work experience",
+      "Resident nationals only",
+      "Max 2 previous attempts"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Resident nationals of eligible Small Island Developing States; the 2027/28 note lists Marshall Islands, Micronesia and Palau (via Embassy Manila) and Mauritius (online), among others – check the guidance note for your country."
+    },
+    "fields": "Master's programmes from the Directory of Eligible Programmes (development-relevant fields)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fully funded one-year master's for early/mid-career professionals; three-stage process via the Irish Embassy (Stage 1 Jun–Jul, Stage 2 Sep–Oct, interviews). Degree must be from 2015 or later with roughly a 2.1/GPA 3.0.",
+    "url": "https://www.ireland.ie/en/ireland-fellows-programme/applying-for-the-ireland-fellows-programme/",
+    "source": "https://assets.ireland.ie/documents/20260506_IFP_SIDS_2027-28_Stage_1_Guidance_Note_.pdf"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ireland-fellows-latin-america",
+    "name": "Ireland Fellows Programme – Latin America",
+    "host": "Department of Foreign Affairs (Irish Aid) – Ireland Fellows Programme",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full: tuition, flights, visa & residence-permit fees, insurance, accommodation (trimesters 1–2), living and settling-in allowances",
+    "opens": "2026-06-29",
+    "deadline": "2026-07-26T23:59:00+01:00",
+    "dlText": "Stage 1 closed 26 Jul 2026 (2027/28 intake; time not stated)",
+    "nextText": "2028/29 round expected ~late Jun–Jul 2027 (estimated from 2026 cycle)",
+    "tags": [
+      "One-year master's in Ireland",
+      "Relevant work experience",
+      "Resident nationals only",
+      "Max 2 previous attempts"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "BR",
+        "CO",
+        "EC",
+        "PE",
+        "VE",
+        "BZ",
+        "CR",
+        "SV",
+        "GT",
+        "HN",
+        "AR",
+        "BO",
+        "PY"
+      ]
+    },
+    "fields": "Master's programmes from the Directory of Eligible Programmes (development-relevant fields)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Fully funded one-year master's for early/mid-career professionals; three-stage process via the Irish Embassy (Stage 1 Jun–Jul, Stage 2 Sep–Oct, interviews). Split into regional awards (e.g. Roger Casement Award for Brazil, Colombia, Ecuador, Peru, Venezuela; Central America Award; Cecilia Grierson Award).",
+    "url": "https://www.ireland.ie/en/ireland-fellows-programme/applying-for-the-ireland-fellows-programme/",
+    "source": "https://www.ireland.ie/en/colombia/bogota/news-and-events/news-archive/ireland-fellows-programme-latin-america-202728/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "teagasc-walsh-scholars",
+    "name": "Teagasc Walsh Scholars Programme",
+    "host": "Teagasc (Agriculture and Food Development Authority)",
+    "levels": [
+      "PhD",
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€25,000/year stipend + tuition fees up to €6,000/year (4 yrs PhD, 2 yrs research MSc)",
+    "deadline": "2027-03-18T23:59:00+00:00",
+    "dlText": "Expected ~mid-Mar 2027 (estimated from 2026 cycle, most projects closed 18 Mar 2026; time not stated)",
+    "expected": true,
+    "tags": [
+      "Project-based",
+      "First or 2.1 degree",
+      "Fees above €6,000 not covered by Teagasc"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Apply to an advertised project; non-EU eligibility is not stated in the call – fees above €6,000/yr (e.g. non-EU rates) must be covered by the university. Confirm with the project supervisor."
+    },
+    "fields": "Agriculture, food science, environment, rural economy",
+    "fieldCats": [
+      "sciences",
+      "social"
+    ],
+    "note": "PhD and Research Masters projects run jointly by Teagasc and universities; each advert lists its own deadline and requirements.",
+    "url": "https://teagasc.ie/about/research-innovation/the-walsh-scholars-programme/walsh-scholars-opportunities/",
+    "source": "https://teagasc.ie/news--events/news/applications-open-for-2026-teagasc-walsh-scholars-phd-and-research-masters-opportunities/"
+  }
+]

@@ -1,0 +1,387 @@
+[
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "tcd-research-doctorate-awards",
+    "name": "Trinity Research Doctorate Awards (TRDA)",
+    "host": "Trinity College Dublin",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€25,000/year stipend + EU or non-EU tuition fees, 4 years",
+    "opens": "2026-11-04",
+    "deadline": "2027-01-25T12:00:00+00:00",
+    "dlText": "25 Jan 2027, 12:00 noon Irish time (PI / joint student-PI awards)",
+    "tags": [
+      "Apply with a Trinity supervisor",
+      "Start Sep 2027 or Mar 2028",
+      "12 PI-based awards"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any discipline at Trinity",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Joint student–supervisor applications under the PI-based category; separate TRDA Group studentships are recruited by successful PI teams after April 2027. Non-tuition charges are not covered.",
+    "url": "https://www.tcd.ie/graduatestudies/awards/trda-pi/",
+    "source": "https://www.tcd.ie/graduatestudies/awards/trda-pi/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "ucd-ad-astra-phd",
+    "name": "UCD Ad Astra Doctoral Scholarships",
+    "host": "University College Dublin",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Typically €25,000/year tax-free stipend + fee waiver + €4,000/year research allowance, 4 years (varies by school)",
+    "rolling": true,
+    "dlText": "Rolling – advertised by individual UCD schools, mostly early in the year",
+    "tags": [
+      "School-advertised projects",
+      "Full-time",
+      "EU and non-EU"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Recent school adverts state EU and non-EU candidates are equally eligible; some schools cap fee cover – check each call."
+    },
+    "fields": "Any (positions advertised per UCD school)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Calls for 2027 entry not yet published at time of checking; 2026 calls were posted on school pages and the UCD Graduate Studies scholarships list.",
+    "url": "https://www.ucd.ie/graduatestudies/studywithus/feesfundingandscholarships/currentscholarshipopportunities/",
+    "source": "https://www.ucd.ie/philosophy/newsandevents/2026/ad%20astra%20fully%20funded%20phd%20position/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "galway-hardiman-phd",
+    "name": "Hardiman PhD Scholarships",
+    "host": "University of Galway",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€25,000/year stipend + tuition fees, 4 years (2026 terms)",
+    "deadline": "2027-02-05T17:00:00+00:00",
+    "dlText": "Expected ~early Feb 2027, 17:00 Irish time (estimated from 2026 cycle: 6 Feb 2026); opens ~early Dec",
+    "expected": true,
+    "tags": [
+      "Structured PhD",
+      "Full-time",
+      "English test may be requested"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "No nationality restriction stated; applicants must not already hold or be registered for a PhD. Confirm on the eligibility page."
+    },
+    "fields": "Any discipline (thematic areas set each round)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "University of Galway's flagship internal PhD awards; the student levy, consumables and travel are not covered.",
+    "url": "https://www.universityofgalway.ie/galwayphd/",
+    "source": "https://www.universityofgalway.ie/galwayphd/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "maynooth-hume-doctoral",
+    "name": "John & Pat Hume Doctoral Awards",
+    "host": "Maynooth University",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€25,000/year stipend + €2,000/year research expenses + EU fees, 4 years (non-EU fee waiver on request)",
+    "deadline": "2027-01-22T23:45:00+00:00",
+    "dlText": "Expected ~late Jan 2027, 23:45 GMT (estimated from 2026 cycle: 23 Jan 2026); call opens ~Dec 2026",
+    "expected": true,
+    "tags": [
+      "Need a Maynooth supervisor",
+      "New full-time PhD entrants",
+      "Must reside in Ireland"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Open to new full-time entrants; awards cover EU fees and successful non-EU applicants may apply for a non-EU fee waiver."
+    },
+    "fields": "Any discipline",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Secure commitment from a Maynooth supervisor before applying; stipend paid only while resident in Ireland.",
+    "url": "https://www.maynoothuniversity.ie/graduate-research-academy/john-pat-hume-doctoral-awards",
+    "source": "https://www.maynoothuniversity.ie/graduate-research-academy/john-pat-hume-doctoral-awards"
+  },
+  {
+    "country": "Ireland (with partner institutions abroad)",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "rcsi-star-international-phd",
+    "name": "RCSI StAR International PhD Programme",
+    "host": "RCSI University of Medicine and Health Sciences",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "PhD fees + annual stipend + research consumables (amount: check official page)",
+    "rolling": true,
+    "dlText": "Recruitment through partner institutions at designated times; Fulbright route for 2027-28 closed 6 Oct 2026",
+    "tags": [
+      "2 years Dublin + 2 years partner",
+      "Biomedical / health research",
+      "IELTS if non-native"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "High-achieving international students recruited via partners (Qatar University, Sorbonne University, University of Pittsburgh, Fulbright Ireland-USA); each partner route has its own rules."
+    },
+    "fields": "Biomedical, clinical, population health and health services research",
+    "fieldCats": [
+      "sciences"
+    ],
+    "note": "Joint international PhD split between RCSI Dublin and a partner; RCSI helps with accommodation and travel.",
+    "url": "https://www.rcsi.com/dublin/research-and-innovation/research-careers/star-programme/star-phd/about",
+    "source": "https://www.rcsi.com/dublin/research-and-innovation/research-careers/star-programme/star-phd/about"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "insight-centre-phd",
+    "name": "Insight Research Ireland Centre for Data Analytics – Funded PhD Positions",
+    "host": "Insight Research Ireland Centre for Data Analytics",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Recent adverts: €25,000/year tax-free stipend + full tuition fees + travel and equipment",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own closing date",
+    "tags": [
+      "Apply to advertised projects",
+      "Research Ireland centre"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Set per advert; recent Research Ireland centre PhDs have generally been open to EU and non-EU candidates – check each position."
+    },
+    "fields": "Data analytics, AI, machine learning",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "Positions at partner universities (Galway, UCD, DCU, UCC and others); the 2025 neuro-symbolic AI scholarships were open to EU and non-EU candidates.",
+    "url": "https://www.insight-centre.org/work-with-us/",
+    "source": "https://www.insight-centre.org/job/phd-scholarships-in-neuro-symbolic-agentic-artificial-intelligence/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "adapt-centre-phd",
+    "name": "ADAPT Centre – Funded PhD Positions",
+    "host": "ADAPT Research Ireland Centre for AI-Driven Digital Content Technology",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Stipend + fees (check each advert); MSCA doctoral posts in ADAPT pay a salary",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own closing date",
+    "tags": [
+      "Apply to advertised projects",
+      "Research Ireland centre"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Set per advert; recent Research Ireland centre PhDs have generally been open to EU and non-EU candidates – check each position."
+    },
+    "fields": "AI, digital content, NLP, human-computer interaction",
+    "fieldCats": [
+      "cs-ai"
+    ],
+    "note": "PhD posts are advertised on the ADAPT careers page by partner universities (TCD, DCU, UCD and others); none were listed at time of checking.",
+    "url": "https://www.adaptcentre.ie/careers/",
+    "source": "https://www.adaptcentre.ie/careers/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "lero-phd",
+    "name": "Lero – Funded PhD Positions",
+    "host": "Lero, the Research Ireland Centre for Software",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Stipend + fees (check each advert)",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own closing date",
+    "tags": [
+      "Apply to advertised projects",
+      "Research Ireland centre"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Set per advert; recent Research Ireland centre PhDs have generally been open to EU and non-EU candidates – check each position."
+    },
+    "fields": "Software engineering, cyber-physical and autonomous systems",
+    "fieldCats": [
+      "cs-ai",
+      "engineering"
+    ],
+    "note": "Vacancies are posted on the Lero careers page; Lero also accepts expressions of interest with a CV sent to the relevant researcher.",
+    "url": "https://lero.ie/careers/",
+    "source": "https://lero.ie/careers/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "connect-centre-phd",
+    "name": "CONNECT Centre – Funded PhD Positions",
+    "host": "CONNECT, the Research Ireland Centre for Future Networks",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Stipend + fees (check each advert)",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own closing date",
+    "tags": [
+      "Apply to advertised projects",
+      "Research Ireland centre"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Set per advert; recent Research Ireland centre PhDs have generally been open to EU and non-EU candidates – check each position."
+    },
+    "fields": "Telecommunications, wireless and future networks, IoT",
+    "fieldCats": [
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Hosted at Trinity College Dublin with partner institutions; past CONNECT studentships were open to Irish, EU and international students.",
+    "url": "https://connectcentre.ie/vacancies/",
+    "source": "https://connectcentre.ie/news/phd-and-postdoc-vacancies/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "amber-centre-phd",
+    "name": "AMBER Centre – Funded PhD Positions",
+    "host": "AMBER, the Research Ireland Centre for Advanced Materials and BioEngineering Research",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Stipend + fees (check each advert)",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own closing date",
+    "tags": [
+      "Apply to advertised projects",
+      "Research Ireland centre"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Set per advert; recent Research Ireland centre PhDs have generally been open to EU and non-EU candidates – check each position."
+    },
+    "fields": "Materials science, nanoscience, bioengineering",
+    "fieldCats": [
+      "sciences",
+      "engineering"
+    ],
+    "note": "Based at Trinity College Dublin; open positions are posted on the vacancies page and applications usually go directly to the PI.",
+    "url": "https://ambercentre.ie/about/vacancies/",
+    "source": "https://ambercentre.ie/about/vacancies/"
+  },
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "tyndall-phd",
+    "name": "Tyndall National Institute – PhD Studentships",
+    "host": "Tyndall National Institute (University College Cork)",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "€22,000/year bursary + university fees paid by Tyndall",
+    "rolling": true,
+    "dlText": "Rolling – each position has its own closing date",
+    "tags": [
+      "Apply to advertised projects",
+      "Research Ireland centre"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Set per advert; recent Research Ireland centre PhDs have generally been open to EU and non-EU candidates – check each position."
+    },
+    "fields": "Photonics, micro/nanoelectronics, ICT hardware, materials",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Research Masters and PhD students at Tyndall (Cork) receive a bursary and have fees paid; studentships appear under 'Postgraduates, Studentships & Internships' on the careers page.",
+    "url": "https://www.tyndall.ie/careers/",
+    "source": "https://www.tyndall.ie/education/postgraduate-research-programmes/"
+  }
+]

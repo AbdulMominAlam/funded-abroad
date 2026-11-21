@@ -1,0 +1,38 @@
+[
+  {
+    "country": "Ireland",
+    "region": "europe",
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-21",
+    "id": "tyndall-summer-fellowship",
+    "name": "Tyndall Summer Fellowship Programme",
+    "host": "Tyndall National Institute (University College Cork)",
+    "levels": [
+      "Internship"
+    ],
+    "full": true,
+    "funding": "paid-internship",
+    "amount": "Stipend paid (amount: check official page); 12 weeks",
+    "rolling": true,
+    "dlText": "2027 dates not yet published; programme says applications re-open in December",
+    "tags": [
+      "12-week research project",
+      "Undergraduate STEM",
+      "Enrolled in an Irish HEI"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Undergraduates enrolled at a university or institute of technology in the Republic of Ireland (any nationality); 5 places for EU STEM undergraduates on NanoIC projects."
+    },
+    "fields": "STEM (photonics, electronics, materials, ICT)",
+    "fieldCats": [
+      "engineering",
+      "sciences"
+    ],
+    "note": "Paid summer research placement in Cork with a workshop series; mainly for students already studying in Ireland.",
+    "url": "https://www.tyndall.ie/tyndall-summer-fellowship-programme/",
+    "source": "https://www.tyndall.ie/tyndall-summer-fellowship-programme/"
+  }
+]
