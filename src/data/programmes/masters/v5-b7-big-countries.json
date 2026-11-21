@@ -1,0 +1,267 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "daad-study-masters-all",
+    "name": "DAAD Study Scholarships – Master Studies for All Academic Disciplines",
+    "host": "DAAD",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Monthly DAAD stipend + travel allowance + health insurance (check official page for current rates)",
+    "deadline": "2026-11-02T23:59:00+01:00",
+    "varies": true,
+    "dlText": "Depends on your country; e.g. 2 Nov 2026 in the current listing (time not stated)",
+    "nextText": "Next round opens ~1 Jun 2027 (for 2028 start)",
+    "tags": [
+      "Bachelor's average ≥90% or equivalent",
+      "Degree ≤6 years old",
+      "≤15 months in Germany",
+      "Winter-semester start"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Graduates from countries covered by the DAAD scheme (availability and deadline set per country in the DAAD database)"
+    },
+    "fields": "Any discipline (master's in Germany)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Funds a full master's in Germany starting Oct 2027; you must secure university admission yourself. Separate from DAAD EPOS (development-related courses) and Helmut-Schmidt programmes.",
+    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50026200",
+    "source": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50026200",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "ens-international-selection",
+    "name": "ENS International Selection",
+    "host": "École normale supérieure – PSL",
+    "country": "France",
+    "region": "europe",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "~€1,000/month for 3 years + housing on ENS campus",
+    "deadline": "2026-12-15T14:00:00+01:00",
+    "dlText": "15 Dec 2026, 14:00 Paris time (Sciences track)",
+    "tags": [
+      "~30 places/year",
+      "Age ≤26 on 1 Dec",
+      "Enrolled at a foreign university",
+      "Written + oral tests"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students registered at a foreign university with at least one year of undergraduate study there; not after their 26th birthday on 1 December"
+    },
+    "fields": "Sciences and humanities (ENS diploma incl. master's)",
+    "fieldCats": [
+      "sciences",
+      "social",
+      "cs-ai"
+    ],
+    "note": "Three-year ENS diploma course (including a master's) for about 30 international students a year. Shortlist from 27 Jan 2027, tests 3–19 Mar 2027, results from 26 Mar 2027.",
+    "url": "https://www.ens.psl.eu/en/une-formation-d-exception/admissions/international/international-selection",
+    "source": "https://www.ens.psl.eu/en/une-formation-d-exception/admissions/international/international-selection",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "oxford-ertegun",
+    "name": "Mica and Ahmet Ertegun Graduate Scholarship",
+    "host": "University of Oxford (Ertegun House)",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full course fees + living-costs grant (£21,805 in 2026-27)",
+    "deadline": "2027-01-07T12:00:00+00:00",
+    "expected": true,
+    "dlText": "~early Jan 2027, 12:00 UK time (estimated from 2026 cycle: 7 Jan 2026)",
+    "tags": [
+      "Humanities only",
+      "Any nationality",
+      "New full-time graduate course",
+      "Supporting statement needed"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Humanities (Oxford master's and DPhil courses)",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Select the Ertegun option on the Oxford graduate application and attach a supporting statement by the early January deadline, even if your course has a later one. Cannot be combined with other awards.",
+    "url": "https://www.ertegun.ox.ac.uk/scholarships",
+    "source": "https://www.ertegun.ox.ac.uk/scholarships",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": true,
+    "work": false,
+    "nominationBody": null,
+    "id": "felix-scholarships",
+    "name": "Felix Scholarships",
+    "host": "Felix Trust (Oxford, Reading, SOAS)",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition fees + living costs + airfare",
+    "deadline": "2027-02-26T11:59:00+00:00",
+    "varies": true,
+    "dlText": "SOAS 26 Feb 2027, 11:59 UK time; Reading 28 Jan 2027; Oxford in its January cycle",
+    "tags": [
+      "Indian nationals",
+      "First-class bachelor's",
+      "Financial need",
+      "No prior foreign degree"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "IN"
+      ]
+    },
+    "countryNotes": {
+      "IN": "Must not be living/studying abroad; SOAS also runs a separate Felix Non-Indian Scholarship for other developing countries"
+    },
+    "fields": "Any subject offered at the partner universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Each university runs its own Felix application with different deadlines. Applicants need a first-class bachelor's (or 2:1 plus a first-class master's), demonstrated financial need and are expected to return to India.",
+    "url": "https://www.soas.ac.uk/study/student-life/finance/scholarships/felix-scholarships",
+    "source": "https://www.soas.ac.uk/study/student-life/finance/scholarships/felix-scholarships",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "princeton-spia-mpa",
+    "name": "Princeton SPIA Master in Public Affairs (full funding)",
+    "host": "Princeton School of Public and International Affairs",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "100% tuition and required fees incl. health insurance for 2 years + living stipend",
+    "deadline": "2026-12-01T23:59:00-05:00",
+    "dlText": "1 Dec 2026, 11:59 p.m. ET",
+    "tags": [
+      "All admits fully funded",
+      "Any citizenship",
+      "GRE required",
+      "No separate funding application"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Public and international affairs",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "Every admitted MPA student is fully funded regardless of citizenship; there is no separate scholarship application, only the Statement of Financial Resources. Decisions on 15 Mar 2027.",
+    "url": "https://spia.princeton.edu/graduate-admissions/master-public-affairs",
+    "source": "https://spia.princeton.edu/graduate-admissions/master-public-affairs/application",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": true,
+    "work": true,
+    "nominationBody": "US Embassy or Binational Fulbright Commission",
+    "id": "humphrey-fellowship",
+    "name": "Hubert H. Humphrey Fellowship Program",
+    "host": "US Department of State / IIE (host US universities)",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page",
+    "rolling": true,
+    "dlText": "Set by your US Embassy / Fulbright Commission (nominations go to IIE by mid-September)",
+    "tags": [
+      "Non-degree graduate year",
+      "5+ years professional experience",
+      "Bachelor's degree",
+      "Apply via US Embassy"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Citizens of eligible countries (see programme list) with limited prior US experience"
+    },
+    "fields": "Public service fields (policy, development, health, education and more)",
+    "fieldCats": [
+      "social"
+    ],
+    "note": "A one-year non-degree programme of graduate study and professional development at US host universities for mid-career professionals. Fellows are announced in March and start in August–September.",
+    "url": "https://www.humphreyfellowship.org/how-to-apply/",
+    "source": "https://www.humphreyfellowship.org/how-to-apply/eligibility/",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "fnf-international-scholarship",
+    "name": "Friedrich Naumann Foundation Scholarships for International Students",
+    "host": "Friedrich Naumann Foundation for Freedom",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Monthly stipend (master's up to ~€934, PhD up to ~€1,350 + €100 research allowance) + €300/month study-cost allowance – figures differ between FNF pages",
+    "deadline": "2027-04-30T23:59:00+02:00",
+    "expected": true,
+    "dlText": "~30 Apr 2027 (windows 1–30 Apr and 1–31 Oct; estimated from previous cycles)",
+    "tags": [
+      "Non-EU nationals",
+      "Full-time study in Germany",
+      "≥2 semesters remaining",
+      "Liberal values / engagement"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Non-EU nationals doing a full-time master's or doctorate in Germany"
+    },
+    "fields": "Any discipline",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Liberal political foundation funded via Federal Foreign Office guidelines; PhD funding is normally for 3 years. Apply via stipendium.freiheit.org in the April or October window.",
+    "url": "https://www.freiheit.org/scholarships-foreign-students-non-eu-countries-1",
+    "source": "https://www.freiheit.org/faq",
+    "verifiedOn": "2026-11-22"
+  }
+]

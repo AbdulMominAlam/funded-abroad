@@ -1,0 +1,74 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "max-planck-schools",
+    "name": "Max Planck Schools (Cognition, Matter to Life, Photonics, Biomedical AI)",
+    "host": "Max Planck Schools (Max Planck Society & German universities)",
+    "country": "Germany",
+    "region": "europe",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Funded doctoral (and integrated master's/PhD) positions – check official page",
+    "deadline": "2026-12-01T23:59:00+01:00",
+    "dlText": "1 Dec 2026, 23:59 (applications open 1 Sep)",
+    "tags": [
+      "Entry with bachelor's or master's",
+      "Two reference letters",
+      "Name potential supervisors",
+      "Interdisciplinary"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Cognitive science, physics/chemistry/biology, photonics, biomedical AI",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Four cross-institution graduate schools; Matter to Life is an integrated 5-year master's/PhD and Cognition accepts bachelor's graduates. Cognition interviews are on 23–24 Feb 2027.",
+    "url": "https://www.maxplanckschools.org/en",
+    "source": "https://cognition.maxplanckschools.org/en/application",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "manchester-pds",
+    "name": "Manchester President's Doctoral Scholar Award",
+    "host": "The University of Manchester",
+    "country": "United Kingdom",
+    "region": "uk",
+    "levels": [
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition (home or international rate) + UKRI-level stipend (£21,805 in 2026/27) + £1,000/yr enhancement + up to £20,000 research training (S&E)",
+    "deadline": "2026-12-18T23:59:00+00:00",
+    "dlText": "18 Dec 2026 (time not stated)",
+    "tags": [
+      "All nationalities",
+      "First or 2:1 degree",
+      "Apply for PhD by deadline",
+      "Supervisor nomination"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "All research areas",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Flagship Manchester PhD scholarship open to all nationalities; in some faculties you are nominated by your prospective supervisor, so contact them early. Studentships start in Sept/Oct 2027.",
+    "url": "https://www.presidentsaward.manchester.ac.uk/",
+    "source": "https://www.se.manchester.ac.uk/study/postgraduate-research/fees-and-funding/search-for-funding/presidents-doctoral-scholarship/",
+    "verifiedOn": "2026-11-22"
+  }
+]

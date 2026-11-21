@@ -1,0 +1,308 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "notre-dame-aid",
+    "name": "University of Notre Dame need-based aid (international)",
+    "host": "University of Notre Dame",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need (no loans in aid offers)",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision 1 Jan 2027 (time not stated); CSS Profile by 15 Jan 2027",
+    "nextText": "Restrictive Early Action closed 1 Nov 2026",
+    "tags": [
+      "Need-blind for internationals",
+      "Meets 100% of demonstrated need",
+      "CSS Profile required",
+      "No CSS fee waiver"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "US"
+      ]
+    },
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Notre Dame is need-blind for international first-year applicants and meets full demonstrated need for all undergraduates regardless of citizenship. File the CSS Profile (code 1841) by 15 Jan 2027 for Regular Decision.",
+    "url": "https://admissions.nd.edu/apply/resources-for/international-applicants/international-faqs/",
+    "source": "https://financialaid.nd.edu/apply-or-renew/international-students/",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "cornell-aid",
+    "name": "Cornell University need-based aid (international)",
+    "host": "Cornell University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for admitted international students (grants, work-study, reasonable loans depending on income)",
+    "deadline": "2027-01-02T23:59:00-05:00",
+    "dlText": "Regular Decision: CSS Profile by 2 Jan 2027 (time not stated)",
+    "nextText": "Early Decision closed 1 Nov 2026",
+    "tags": [
+      "Need-aware for internationals",
+      "Meets 100% of demonstrated need",
+      "Must apply for aid at admission",
+      "CSS Profile (code 2098)"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "US"
+      ]
+    },
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Cornell is need-aware for internationals but meets 100% of demonstrated need for those it admits; it gives no merit aid. If you don't apply for aid when applying for admission you can never get it later.",
+    "url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+    "source": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "jhu-aid",
+    "name": "Johns Hopkins University need-based aid (international)",
+    "host": "Johns Hopkins University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need for international citizens, without loans",
+    "deadline": "2027-01-02T23:59:00-05:00",
+    "dlText": "Regular Decision / ED II 2 Jan 2027 (time not stated); aid documents by 15 Jan 2027",
+    "tags": [
+      "Need-aware for internationals",
+      "Meets 100% of need, no loans",
+      "CSS Profile or free JHU ISFAA",
+      "No aid for intl transfers"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "US"
+      ]
+    },
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Hopkins is need-aware for international aid applicants but meets full demonstrated need without loans; about 10% of international students get aid. Flag aid on the application and submit the CSS Profile (or free JHU ISFAA) plus Certification of Finances.",
+    "url": "https://apply.jhu.edu/international-applicants/",
+    "source": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "caltech-aid",
+    "name": "Caltech need-based aid (international)",
+    "host": "California Institute of Technology",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets full demonstrated need of admitted students (limited aid budget for internationals)",
+    "deadline": "2027-01-04T23:59:00-08:00",
+    "dlText": "Regular Decision 4 Jan 2027 (time not stated); CSS Profile by 15 Feb 2027",
+    "nextText": "Restrictive Early Action closed 1 Nov 2026",
+    "tags": [
+      "Need-aware for internationals",
+      "Meets full demonstrated need",
+      "Must request aid at admission",
+      "STEM only"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "US"
+      ]
+    },
+    "fields": "Science and engineering undergraduate options",
+    "fieldCats": [
+      "sciences",
+      "engineering",
+      "cs-ai"
+    ],
+    "note": "Caltech is need-aware for international citizens because aid funds are limited, but commits to meeting full demonstrated need of admitted students. Missing the aid deadlines or being denied first-year aid bars you from need-based aid later (except Canadian/Mexican citizens).",
+    "url": "https://www.finaid.caltech.edu/applying/how/newinternationalrd",
+    "source": "https://www.finaid.caltech.edu/applying/how/newinternationalrd",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "tufts-aid",
+    "name": "Tufts University need-based aid (international)",
+    "host": "Tufts University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Meets 100% of demonstrated need of every admitted student, regardless of citizenship",
+    "deadline": "2027-01-04T23:59:00-05:00",
+    "dlText": "Regular Decision / ED II 4 Jan 2027 (time not stated)",
+    "nextText": "Early Decision I closed 2 Nov 2026",
+    "tags": [
+      "Meets 100% of demonstrated need",
+      "Request aid on application",
+      "CSS Profile after admission (fee waived)",
+      "Very few aided internationals"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "US"
+      ]
+    },
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Tufts meets full demonstrated need for admitted internationals, but you must request aid when you apply (submit the ISFAA via the applicant portal); the CSS Profile is due 5–7 days after admission. The Tufts Tuition Pact is for US citizens/permanent residents only.",
+    "url": "https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/international-student-aid/",
+    "source": "https://admissions.tufts.edu/tuition-and-aid/applying-for-aid/international-student-aid/",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "wlu-johnson",
+    "name": "Johnson Scholarship (Washington and Lee University)",
+    "host": "Washington and Lee University",
+    "country": "United States",
+    "region": "north-america",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition, room and board (up to 44 awards a year)",
+    "deadline": "2026-12-01T23:59:00-05:00",
+    "dlText": "Johnson essay 1 Dec 2026 (time not stated); supplemental materials 15 Dec 2026",
+    "tags": [
+      "Merit-based",
+      "International applicants eligible",
+      "Up to 44 awards/year",
+      "Separate Johnson application"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Any undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Merit award given regardless of family circumstances; internationals apply through the Johnson application. W&L also meets 100% of demonstrated need for admitted internationals via its International Grant (about 20 aided internationals per class).",
+    "url": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/scholarships",
+    "source": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "deakin-vc-intl",
+    "name": "Deakin Vice-Chancellor's International Scholarship",
+    "host": "Deakin University",
+    "country": "Australia",
+    "region": "oceania",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "50% or 100% of tuition fees + Vice-Chancellor's Professional Excellence Program",
+    "rolling": true,
+    "dlText": "Assessed on a rolling basis before each trimester",
+    "tags": [
+      "≥85% average required",
+      "Separate application",
+      "300-word statement + 2 references",
+      "Coursework degrees only"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "New international students (not Australian/NZ citizens or permanent residents) enrolling in a Deakin coursework degree; not Doctor of Medicine"
+    },
+    "fields": "Any coursework bachelor's or master's (except Doctor of Medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Merit scholarship covering half or all tuition for the whole course; competition is strong so higher than the 85% minimum may be needed. Apply separately once you have applied to Deakin.",
+    "url": "https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship",
+    "source": "https://www.deakin.edu.au/study/fees-and-scholarships/scholarships/find-a-scholarship/deakin-vice-chancellors-international-scholarship",
+    "verifiedOn": "2026-11-22"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "id": "griffith-vc-intl",
+    "name": "Griffith Vice Chancellor's International Scholarship",
+    "host": "Griffith University",
+    "country": "Australia",
+    "region": "oceania",
+    "levels": [
+      "Undergraduate",
+      "Master's"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "50% of tuition fees for the whole degree",
+    "deadline": "2026-11-28T23:59:00+10:00",
+    "varies": true,
+    "dlText": "28 Nov 2026 for Trimester 1 2027 (time not stated); later dates for Trimesters 2 and 3",
+    "tags": [
+      "50% tuition for full degree",
+      "Keep GPA ≥5.5/7",
+      "Full-time study",
+      "UG and coursework PG"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "International students (not Australian/NZ citizens or permanent residents) starting an undergraduate or postgraduate coursework degree in 2026 or 2027"
+    },
+    "fields": "Any undergraduate or postgraduate coursework degree",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Merit scholarship offered for Trimester 1, 2 and 3 intakes; renewal needs full-time enrolment and a cumulative GPA of at least 5.5 on 7.",
+    "url": "https://www.griffith.edu.au/international/scholarships-finance/scholarships/vice-chancellors-international-scholarship",
+    "source": "https://www.griffith.edu.au/international/scholarships-finance/scholarships/vice-chancellors-international-scholarship",
+    "verifiedOn": "2026-11-22"
+  }
+]
