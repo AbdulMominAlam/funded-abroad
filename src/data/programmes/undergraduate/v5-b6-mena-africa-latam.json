@@ -1,0 +1,80 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "cmuq-qf-need-based-grant",
+    "name": "Qatar Foundation Need-Based Grant at Carnegie Mellon University in Qatar",
+    "host": "Carnegie Mellon University in Qatar / Qatar Foundation",
+    "country": "Qatar",
+    "region": "middle-east",
+    "levels": [
+      "Undergraduate"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Grants (no repayment) up to the full cost of attendance (2026–27 on-campus COA about US$86,800), set by family finances",
+    "deadline": "2027-02-01T23:59:00+03:00",
+    "dlText": "1 Feb 2027 (Regular Decision priority deadline; time not stated)",
+    "tags": [
+      "All nationalities",
+      "Need-based",
+      "No aid in Early Decision for applicants outside Qatar"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "CMU-Q majors (CS, IS, biological sciences, business, economics)",
+    "fieldCats": [
+      "cs-ai",
+      "sciences",
+      "social"
+    ],
+    "note": "Students of any nationality can get Qatar Foundation need-based grants of up to the full cost of attendance. International applicants living outside Qatar must apply Regular Decision to get aid, and submitting the QF grant application also puts you in the running for CMU-Q merit scholarships.",
+    "url": "https://www.qatar.cmu.edu/admission/tuition-and-financial-aid/",
+    "source": "https://www.qatar.cmu.edu/admission/tuition-and-financial-aid/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "alianza-pacifico-mobility",
+    "name": "Pacific Alliance Student and Academic Mobility Platform Scholarships",
+    "host": "Pacific Alliance (AGCID, ICETEX, AMEXCID, PRONABEC)",
+    "country": "Chile / Colombia / Mexico / Peru",
+    "region": "global",
+    "levels": [
+      "Undergraduate",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Monthly stipend set by host country (2026: CLP 500,000 Chile; COP 2,447,000 Colombia; PEN 2,275 UG / 3,220 PhD Peru; 4–5 UMA Mexico) + round-trip airfare (reimbursed in some hosts)",
+    "deadline": "2027-05-19T23:59:00-05:00",
+    "expected": true,
+    "dlText": "~19 May 2027 (estimated from 2026 cycle; time not stated)",
+    "tags": [
+      "Citizens of Chile, Colombia, Mexico, Peru",
+      "Exchange semester",
+      "Must study in another member country"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "CL",
+        "CO",
+        "MX",
+        "PE"
+      ]
+    },
+    "fields": "Any field covered by the call",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "This is a one-semester exchange (undergraduate) or a course, co-tutelle or research stay (doctoral) in another Pacific Alliance country, while you stay enrolled at your home university. The 2026 call offered up to 400 places, with applications open 1 Apr–19 May 2026.",
+    "url": "https://becas.alianzapacifico.net/",
+    "source": "https://becas.alianzapacifico.net/images/date/2026/04/Documento-XVII-Convocatoria-2026-FINAL-01-04-2026-V2.pdf"
+  }
+]

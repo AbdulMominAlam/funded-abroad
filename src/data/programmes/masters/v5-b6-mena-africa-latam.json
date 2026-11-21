@@ -1,0 +1,301 @@
+[
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "ejust-ticad9-african",
+    "name": "E-JUST TICAD9 African Scholarship for STI",
+    "host": "Egypt-Japan University of Science and Technology (E-JUST) with JICA",
+    "country": "Egypt",
+    "region": "middle-east",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition, single dorm room, monthly stipend, medical care, round-trip airfare; PhD research visit to Japan up to 6 months (stipend amount on official page)",
+    "opens": "2026-11-08",
+    "deadline": "2027-01-10T23:59:00+02:00",
+    "dlText": "10 Jan 2027 (window 8 Nov 2026–10 Jan 2027; time not stated)",
+    "tags": [
+      "African nationals except Egypt",
+      "Must live in Africa",
+      "Fall 2027 start"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of African countries other than Egypt with a current home address in an African country."
+    },
+    "fields": "Engineering, computer science & IT, basic and applied sciences, international business, humanities",
+    "fieldCats": [
+      "engineering",
+      "cs-ai",
+      "sciences",
+      "social"
+    ],
+    "note": "Fully funded M.Sc. and Ph.D. places for the Fall 2027 intake, with final results due 31 Mar 2027 and lectures starting 19 Sep 2027. Shortlisted candidates take online interviews and exams on 21–25 Feb 2027.",
+    "url": "https://www.ejust.edu.eg/international-scholarships",
+    "source": "https://www.ejust.edu.eg/international-deadlines"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "daad-in-region-ssa",
+    "name": "DAAD In-Country/In-Region Scholarship Programme Sub-Saharan Africa",
+    "host": "DAAD with participating African universities",
+    "country": "Burkina Faso / Ethiopia / Ghana / Kenya / Malawi / Rwanda / Tanzania / Uganda (2027 calls)",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "check official page (DAAD scholarship; terms in each call)",
+    "deadline": "2026-11-12T23:59:00+01:00",
+    "dlText": "12 Nov 2026, 23:59 CET (closed)",
+    "nextText": "Next calls ~autumn 2027 for 2028 starts (check the DAAD database)",
+    "tags": [
+      "Sub-Saharan African nationals",
+      "Development-related fields",
+      "Apply via DAAD portal"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Students from Sub-Saharan African countries, studying in their home country (in-country) or another participating SSA country (in-region); South Africans go through the separate NRF-DAAD scheme, which is paused. Each call sets its own rules."
+    },
+    "fields": "Development-related master's programmes at participating universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The 2027 calls cover selected master's programmes starting between Jan and Jul 2027. Scholarship holders can also go on 2–6 month research stays in Germany.",
+    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000486",
+    "source": "https://www.daad.org.za/en/study-research-in-south-africa/daad-in-region-scholarships/"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "National focal point (your government)",
+    "verifiedOn": "2026-11-22",
+    "id": "agcid-nelson-mandela",
+    "name": "Nelson Mandela South-South Cooperation Scholarship Programme (Master's in Chile)",
+    "host": "Chilean Agency for International Development Cooperation (AGCID)",
+    "country": "Chile",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Monthly stipend for up to 24 months; see the call for tuition, insurance and travel coverage",
+    "deadline": "2026-10-30T23:59:00-03:00",
+    "dlText": "30 Oct 2026 (closed; time not stated)",
+    "nextText": "Next call ~mid/late 2027 for 2028 start",
+    "tags": [
+      "Selected African countries",
+      "Via national focal point",
+      "Public officials & academics prioritised"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Nationals of the African countries named in each call (2026: Egypt, Ethiopia, Ghana, Kenya, Morocco, Mozambique, South Africa). The 2027 list is available from your national focal point."
+    },
+    "fields": "Agriculture, aquaculture, energy, public policy, health, environment, mining",
+    "fieldCats": [
+      "engineering",
+      "sciences",
+      "social"
+    ],
+    "note": "This master's programme at accredited Chilean universities is separate from AGCID's República de Chile scholarship. The 2027 cohort studies from 3 Mar 2027 to 28 Feb 2029, and you apply through your country's focal point.",
+    "url": "https://appspublic.agci.cl/convocatorias/extranjeros.php",
+    "source": "https://appspublic.agci.cl/convocatorias/extranjeros.php"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "icetex-beca-colombia-extranjeros",
+    "name": "Beca Colombia para Extranjeros (Colombia Scholarship for Foreigners)",
+    "host": "ICETEX, Government of Colombia",
+    "country": "Colombia",
+    "region": "global",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Full tuition (covered by host university) + monthly living stipend (3 × Colombian minimum wage in the 2024 call) + health-insurance, visa and foreign-ID allowances",
+    "deadline": "2026-06-05T17:00:00-05:00",
+    "dlText": "5 Jun 2026, 17:00 Colombia time (closed; bases list 19 Jun 2026)",
+    "nextText": "Next call (2027-2) expected ~Mar–Jun 2027",
+    "tags": [
+      "Non-Colombians living abroad",
+      "Age 18–50",
+      "Admission to catalogue programme required"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CO"
+      ]
+    },
+    "fields": "Specialisation and master's programmes in the ICETEX catalogue",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Up to 70 scholarships for foreign citizens who don't live in Colombia and have no dual Colombian nationality. Applicants from non-Spanish-speaking countries take a Spanish course first, and studies under the 2026-2 call start in 2027-1.",
+    "url": "https://web.icetex.gov.co/becas/beca-colombia-extranjeros",
+    "source": "https://web.icetex.gov.co/documents/20122/4110366/bases-beca-colombia-2026-2.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "gcub-mob-brazil",
+    "name": "GCUB International Mobility Program (GCUB-Mob)",
+    "host": "Brazilian Coimbra Group of Universities (GCUB) with OAS and state research foundations",
+    "country": "Brazil",
+    "region": "global",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Monthly stipend paid by host university (at least the Brazilian federal rate) for up to 24 months (master's) / 48 months (doctorate)",
+    "deadline": "2026-07-06T23:59:00-03:00",
+    "dlText": "6 Jul 2026 (closed; time not stated)",
+    "nextText": "Next edition expected ~mid-2027 for 2028 start",
+    "tags": [
+      "Non-Brazilian citizens",
+      "Portuguese needed before defence",
+      "Own travel, visa & insurance"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "BR"
+      ]
+    },
+    "fields": "Master's and doctoral programmes at GCUB member universities",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Open to citizens of countries with diplomatic relations with Brazil, with programmes starting in 2027 and applications accepted in Portuguese, English, Spanish or French. You pay for your own airfare, visa and health insurance.",
+    "url": "https://www.grupocoimbra.org.br/",
+    "source": "https://www.oas.org/en/scholarships/PAEC/2026/[EN%7D%20Call%20for%20Applications%20GCUB-Mob%20N.%20001_2026%20.pdf"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "squ-intl-postgrad",
+    "name": "Sultan Qaboos University Scholarship for International Postgraduate Students",
+    "host": "Sultan Qaboos University",
+    "country": "Oman",
+    "region": "middle-east",
+    "levels": [
+      "Master's"
+    ],
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition exemption + OMR 250/month (master's) + annual return airfare",
+    "rolling": true,
+    "dlText": "No separate application: considered automatically at admission (check SQU postgraduate admission dates)",
+    "tags": [
+      "Non-Omani",
+      "2 master's seats per year",
+      "Full-time"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "OM"
+      ]
+    },
+    "fields": "SQU master's programmes",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "There are only about two full scholarships for international master's students each year. Holders must study full time and may work up to 10 hours a week on academic or administrative tasks.",
+    "url": "https://www.squ.edu.om/ps/en-us/scholarships",
+    "source": "https://www.squ.edu.om/ps/en-us/scholarships"
+  },
+  {
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": "National Liaison Office (ONE) of your country",
+    "verifiedOn": "2026-11-22",
+    "id": "oas-academic-scholarship",
+    "name": "OAS Academic Scholarship Program (Regular Program)",
+    "host": "Organization of American States (OAS)",
+    "country": "Any (OAS member states)",
+    "region": "global",
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
+    "full": false,
+    "funding": "partial",
+    "amount": "Up to US$10,000 per academic year",
+    "deadline": "2027-04-02T23:59:00-04:00",
+    "expected": true,
+    "dlText": "~early Apr 2027 for US/Venezuelan applicants via OAS (estimated from 2026 cycle); other countries' national liaison offices set earlier dates",
+    "tags": [
+      "OAS member-state citizens",
+      "Study in another OAS state",
+      "Return home for 24 months"
+    ],
+    "eligibility": {
+      "type": "list",
+      "countries": [
+        "AG",
+        "AR",
+        "BS",
+        "BB",
+        "BZ",
+        "BO",
+        "BR",
+        "CA",
+        "CL",
+        "CO",
+        "CR",
+        "DM",
+        "DO",
+        "EC",
+        "SV",
+        "GD",
+        "GT",
+        "GY",
+        "HT",
+        "HN",
+        "JM",
+        "MX",
+        "PA",
+        "PY",
+        "PE",
+        "KN",
+        "LC",
+        "VC",
+        "SR",
+        "TT",
+        "US",
+        "UY",
+        "VE"
+      ]
+    },
+    "fields": "Any field",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Funds master's, doctoral or graduate research study in an OAS member state other than your own. You apply through your country's National Liaison Office, and after the award you must live in your sponsoring country for at least 24 months.",
+    "url": "https://www.oas.org/en/scholarships/regular_program.asp",
+    "source": "https://www.oas.org/en/scholarships/Academic_Program_OAS_2026.asp"
+  }
+]
