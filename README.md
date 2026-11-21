@@ -1,12 +1,40 @@
 # Funded Abroad
 
-A free, global scholarship finder. Pick your **nationality** and **study level** and you'll see only the fully or mostly funded undergraduate, master's, PhD and research-internship programmes you can actually apply for. Each one shows a live deadline countdown, who can apply, what it pays, and a link to the official page. Optional **email alerts** send a weekly digest and shortlist reminders.
+*Find the funded scholarships you can actually apply for, filtered by your nationality and study level.*
+
+**Live site: https://funded-abroad.pages.dev**
+
+[![CI](https://github.com/AbdulMominAlam/funded-abroad/actions/workflows/ci.yml/badge.svg)](https://github.com/AbdulMominAlam/funded-abroad/actions/workflows/ci.yml)
+[![Deployed on Cloudflare Pages](https://img.shields.io/badge/deployed%20on-Cloudflare%20Pages-F38020?logo=cloudflare&logoColor=white)](https://funded-abroad.pages.dev)
+
+A free, global scholarship finder. Pick your **nationality** and **study level** and you'll see only the fully or mostly funded undergraduate, master's, PhD and research-internship programmes you can actually apply for. Each one shows a live deadline countdown, who can apply, what it pays, and a link to the official page. **Email alerts** (weekly digest and shortlist reminders) are built but not switched on yet; see [Email alerts](#email-alerts-how-they-work).
+
+[![Funded Abroad on desktop: nationality Pakistan, level Master's, with the six-month deadline strip](docs/screenshot-desktop.png)](https://funded-abroad.pages.dev/#nat=PK&lvl=masters)
+
+<p align="center"><img src="docs/screenshot-mobile.png" alt="Funded Abroad on a 400px-wide phone screen" width="300"></p>
+
+## Highlights
+
+- **561 funded programmes** in 64 host countries and territories, plus multi-country and global programmes
+- **Nationality-aware eligibility** for 243 countries and territories
+- **Level picker:** undergraduate, master's, PhD or internships
+- **Deadline countdowns** and a six-month deadline strip
+- **Shortlist, checklists, compare**, `.ics` calendar export, and export/import of your data
+- **Free static hosting** with zero running cost
 
 * **561 programmes**: 135 undergraduate, 211 master's, 203 PhD and 125 internships / summer research (some cover several levels). See [CHANGES.md](CHANGES.md) for sources, estimates and what's least certain.
 * 243 nationalities (ISO 3166 codes). Eligibility rules are data, not code: "all nationalities", "only these countries", "everyone except…", named groups (Commonwealth, EU/EEA, ASEAN, African Union, OIC), or "check the official list".
-* A static site that runs free on Cloudflare Pages or GitHub Pages. The only server-side part is the optional email alerts, which use free tiers of Supabase, Resend and GitHub Actions.
+* A static site that runs free on Cloudflare Pages (or GitHub Pages). The only server-side part is the optional email alerts, which use free tiers of Supabase, Resend and GitHub Actions.
 
-**To deploy the site and turn on alerts, follow [SETUP.md](SETUP.md)** (step by step, beginner-friendly).
+**To deploy your own copy and turn on alerts, follow [SETUP.md](SETUP.md)** (step by step, beginner-friendly).
+
+## Tech stack
+
+- **Site:** [Vite](https://vite.dev/) + TypeScript (vanilla, no framework), built to static files
+- **Tests:** [Vitest](https://vitest.dev/)
+- **CI:** GitHub Actions ([ci.yml](.github/workflows/ci.yml))
+- **Hosting:** Cloudflare Pages
+- **Optional email alerts:** [Supabase](https://supabase.com/) (Postgres + Edge Functions), [Resend](https://resend.com/) for sending, and a scheduled GitHub Action ([alerts.yml](.github/workflows/alerts.yml)) for the daily job
 
 ## What's on the page
 
@@ -23,7 +51,7 @@ A free, global scholarship finder. Pick your **nationality** and **study level**
   - an application checklist
   - Add to calendar (.ics with 14- and 3-day reminders) and Compare
 - **Tools**: export your shortlist to a calendar, export/import your data (JSON), copy a link to the current view.
-- **Get deadline alerts**: email, nationality, level, weekly digest weekday, and shortlist reminders. Double opt-in, with one-click unsubscribe that deletes your data. Shows "Alerts coming soon" until Supabase is configured.
+- **Get deadline alerts**: email, nationality, level, weekly digest weekday, and shortlist reminders. Double opt-in, with one-click unsubscribe that deletes your data. On the live site this panel currently shows "Alerts coming soon" (see [Email alerts](#email-alerts-how-they-work)).
 - **[Privacy page](privacy.html)**: what's stored and how to delete it.
 
 ## Run it locally
@@ -140,6 +168,8 @@ To add a country group, add it to `src/data/country-groups.json` with `name`, an
 
 ## Email alerts: how they work
 
+> **Status: built, tested, but not switched on yet.** The live site shows "Alerts coming soon" until the Supabase, Resend and GitHub Actions steps in [SETUP.md](SETUP.md#3-create-the-supabase-project-and-database) (steps 3–7) are done. Everything below describes how it works once they are.
+
 ```
 Site panel ──POST──▶ Supabase Edge Function `subscribe` ──▶ subscribers (unconfirmed) ──▶ Resend: "Confirm your alerts"
 Email link ──GET──▶ `confirm` ──▶ confirmed (+ optional "New subscriber: <country>, <level>" to ADMIN_EMAIL)
@@ -154,8 +184,19 @@ Every email ──▶ one-click `unsubscribe` (deletes the subscriber and their 
 
 ## Deploy
 
-* **Cloudflare Pages (recommended; free; works with private repos):** build command `npm run build`, output directory `dist`, env `NODE_VERSION=22` (+ the two `VITE_` variables for alerts). `public/_headers` adds security headers. Details in [SETUP.md](SETUP.md#2-put-the-website-online-cloudflare-pages).
-* **GitHub Pages:** the build uses a relative `base`, so `dist/` works from any sub-path. Enable Pages (Source: GitHub Actions) and uncomment the `deploy` job in `.github/workflows/ci.yml`.
+The site is live on **Cloudflare Pages** at **https://funded-abroad.pages.dev** and redeploys automatically on every push to `main` (other branches get preview URLs).
+
+* **Cloudflare Pages (current host; free; works with private repos).** Settings:
+
+  | Setting | Value |
+  | --- | --- |
+  | Production branch | `main` |
+  | Build command | `npm run build` |
+  | Build output directory | `dist` |
+  | Environment variable | `NODE_VERSION=22` (+ the two `VITE_` variables once alerts are switched on) |
+
+  `public/_headers` adds security headers. Details in [SETUP.md](SETUP.md#2-put-the-website-online-cloudflare-pages).
+* **GitHub Pages (alternative):** the build uses a relative `base`, so `dist/` works from any sub-path. Enable Pages (Source: GitHub Actions) and uncomment the `deploy` job in `.github/workflows/ci.yml`. GitHub Pages needs a **public** repo; for a private repo it needs a paid plan (Pro, Team or Enterprise).
 * **Anything else static:** upload `dist/`.
 
 ## CI
@@ -167,8 +208,14 @@ Every email ──▶ one-click `unsubscribe` (deletes the subscriber and their 
 4. the alert job's sample dry run
 5. a Deno type-check of the Edge Functions
 
-`.github/workflows/alerts.yml` sends alerts daily (and can be run by hand as a dry run).
+`.github/workflows/alerts.yml` sends alerts daily (and can be run by hand as a dry run). Until its secrets are added it just prints "not configured" and succeeds.
 
 ## Privacy and accuracy
 
 Shortlists, checklists and settings stay in your browser unless you sign up for alerts. This is an unofficial guide: deadlines and rules change, so always confirm on the official page linked on every card. See [CHANGES.md](CHANGES.md) for what was verified and how.
+
+## About
+
+Built by **Abdul Momin** ([@AbdulMominAlam](https://github.com/AbdulMominAlam) · [portfolio](https://abdulmominalam.github.io)), a computer science student at Sabancı University. Development was assisted by [Claude Code](https://claude.com/claude-code).
+
+> **Disclaimer:** scholarship details change often. Always confirm deadlines, eligibility and funding on the official page before applying.
