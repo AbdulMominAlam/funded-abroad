@@ -231,8 +231,8 @@
     ],
     "full": true,
     "amount": "Full scholarship for a 2-year master's in Japan (check official page)",
-    "deadline": "2026-11-20T23:59:00+09:00",
-    "dlText": "Set per country · e.g. Timor-Leste closes 20 Nov 2026; Laos tests late Jan 2027",
+    "deadline": "2026-11-25T14:00:00+08:00",
+    "dlText": "Set per country · e.g. Mongolia closes 25 Nov 2026, 14:00; Laos 27 Dec 2026, 23:59 (Timor-Leste closed 20 Nov)",
     "varies": true,
     "tags": [
       "Civil servants of target organisations",
@@ -252,8 +252,8 @@
     ],
     "note": "Mostly for young government officials. Each country's JDS operating committee sets slots, age limits and dates.",
     "url": "https://jds-scholarship.org/",
-    "source": "https://jds-scholarship.org/country/laos/index.html",
-    "verifiedOn": "2026-11-04"
+    "source": "https://jds-scholarship.org/country/mongolia/apply_masters.html",
+    "verifiedOn": "2026-11-21"
   },
   {
     "id": "koica",
