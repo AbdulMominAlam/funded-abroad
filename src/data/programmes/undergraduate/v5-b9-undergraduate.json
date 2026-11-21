@@ -1,0 +1,465 @@
+[
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "polyu-nonlocal-entry-ug",
+    "name": "PolyU Entry Scholarships for Non-Local Undergraduate Students",
+    "host": "The Hong Kong Polytechnic University",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Half tuition up to renewable full tuition + allowance (up to HK$60,000–70,000/yr on 2026/27 terms); PolyU quotes up to HK$270,000/yr in total",
+    "deadline": "2027-02-11T23:59:00+08:00",
+    "varies": true,
+    "dlText": "Main round 11 Feb 2027 for most international-qualification programmes (some programmes closed 17 Nov 2026; late round to 14 May 2027); time not stated",
+    "tags": [
+      "Automatic consideration",
+      "IB / A-Level / other international quals",
+      "STARS talent route (interview)"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "HK"
+      ]
+    },
+    "fields": "Any PolyU undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Non-local applicants with international qualifications are considered automatically for academic entry scholarships; a separate STARS talent scholarship (half to full tuition + allowance) is chosen on the application form. Mainland Gaokao applicants follow a separate scheme.",
+    "url": "https://www.polyu.edu.hk/study/ug/fees-and-scholarships/scholarships",
+    "source": "https://www.polyu.edu.hk/study/ug/fees-and-scholarships/scholarships/non-local-gceal-ial"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "cityu-intl-entrance-ug",
+    "name": "CityUHK Entrance Scholarship for International Students",
+    "host": "City University of Hong Kong",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Half tuition, full tuition, or Top Scholarship (full tuition + living allowance up to HK$60,000/yr), renewable",
+    "deadline": "2027-01-15T23:59:00+08:00",
+    "dlText": "Regular application deadline 15 Jan 2027, time not stated (early round closed 15 Nov 2026; some programmes accept later applications on a rolling basis)",
+    "tags": [
+      "No separate application",
+      "Government-funded bachelor's programmes only",
+      "Merit-based"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Non-local (international) applicants to CityUHK bachelor's programmes; applicants from mainland China apply under a separate scheme, so check which one applies to you"
+    },
+    "fields": "Any CityUHK government-funded bachelor's programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Admitted international students with excellent results are selected automatically after admission. Mainland students have a separate scholarship scheme.",
+    "url": "https://www.cityu.edu.hk/admo/entrance-scholarship-international-students",
+    "source": "https://www.cityu.edu.hk/admo/entrance-scholarship-international-students"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "hkbu-nonlocal-admission-ug",
+    "name": "HKBU Admission Scholarships for Non-local Undergraduate Students",
+    "host": "Hong Kong Baptist University",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Full Scholarship (100% tuition + subsidies), 100% Tuition Scholarship, Half Scholarship or ≥25% tuition awards; non-local tuition HK$240,000/yr (2027/28)",
+    "deadline": "2027-02-01T23:59:00+08:00",
+    "dlText": "Main round 1 Feb 2027, 23:59 HKT (early round closed 16 Nov 2026; extended round to 31 May 2027)",
+    "tags": [
+      "No separate application",
+      "Renewable with good results",
+      "Holistic review"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "HK"
+      ]
+    },
+    "fields": "Any HKBU undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Non-local applicants are considered automatically at admission; only the top tiers reach full or 100% tuition. Mainland students applying via the Gaokao (JEE) have a separate scheme.",
+    "url": "https://admission.hkbu.edu.hk/en/scholarships.html",
+    "source": "https://sa.hkbu.edu.hk/sfa/scholarships/admission-scholarships/admission-scholarships-for-non-local-ug-students"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "lingnan-nonlocal-entrance-ug",
+    "name": "Lingnan University Entrance Scholarships for Non-local Students",
+    "host": "Lingnan University",
+    "country": "Hong Kong",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Full Scholarship (tuition + hostel + partial living expenses), Full-tuition or Half-tuition Scholarship, renewable; non-local tuition HK$205,000/yr (2027-28, varies by programme)",
+    "deadline": "2027-02-28T23:59:00+08:00",
+    "dlText": "Main round 28 Feb 2027, time not stated (early round closed 30 Nov 2026; final round for non-local applicants 30 Jun 2027)",
+    "tags": [
+      "Automatic consideration",
+      "UGC-funded programmes only",
+      "Annual review"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "HK"
+      ]
+    },
+    "fields": "Lingnan UGC-funded undergraduate programmes (liberal arts, business, social sciences, data science)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Non-local first-year applicants to UGC-funded programmes are considered automatically; self-financed programmes are not eligible.",
+    "url": "https://www.ln.edu.hk/admissions/ug/your-future-begins-now-apply/fees-and-scholarships",
+    "source": "https://www.ln.edu.hk/admissions/ug/your-future-begins-now-apply/fees-and-scholarships"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "nthu-intl-ug-scholarship",
+    "name": "NTHU International Student Scholarship (Undergraduate)",
+    "host": "National Tsing Hua University",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Type A: tuition and miscellaneous fees + NT$5,000/month; Type B: tuition and miscellaneous fees",
+    "deadline": "2027-01-25T15:00:00+08:00",
+    "dlText": "Fall 2027 undergraduate admission 12 Nov 2026 – 25 Jan 2027, 15:00 Taiwan time (International Bachelor Program at Tsing Hua College: 22 Apr 2027 noon)",
+    "tags": [
+      "Reapply each year (up to 4 years)",
+      "No Medicine/Dentistry",
+      "Not with Taiwan Scholarship"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "fields": "Most NTHU undergraduate programmes (not Medicine, Dentistry or Chinese Medicine)",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "The applicant and both parents must hold foreign nationality and never have held Taiwan nationality. Insurance, dormitory and other fees are not covered.",
+    "url": "https://apply.nthu.edu.tw/en/article/102-nthu-scholarship",
+    "source": "https://apply.nthu.edu.tw/en/article/212-admission"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "ntu-tw-intl-ug-scholarship",
+    "name": "NTU Scholarship for International Degree Students (Undergraduate)",
+    "host": "National Taiwan University",
+    "country": "Taiwan",
+    "region": "east-asia",
+    "full": false,
+    "funding": "partial",
+    "amount": "Tuition subsidy up to NT$200,000/yr + NT$8,000/month stipend",
+    "deadline": "2027-01-28T16:00:00+08:00",
+    "dlText": "Second round 1 Dec 2026 – 28 Jan 2027, 16:00 Taiwan time (first round closed 19 Nov 2026)",
+    "tags": [
+      "Tick the box on the admission form",
+      "Renewal needs GPA 3.38",
+      "Not with Taiwan Scholarship"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "TW"
+      ]
+    },
+    "fields": "Any NTU undergraduate programme",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Undergraduate applicants opt in on the admission form with no extra documents; the award runs for the standard study period if renewal conditions are met. Quotas depend on funding each year.",
+    "url": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+    "source": "https://oia.ntu.edu.tw/cm/explorer/management/Admission/Scholarships/NATIONAL%20TAIWAN%20UNIVERSITY%20Regulations%20Governing%20Scholarships%20for%20International%20Degree%20Students.pdf"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "uottawa-dtfe-ug",
+    "name": "uOttawa Differential Tuition Fee Exemption Scholarship",
+    "host": "University of Ottawa",
+    "country": "Canada",
+    "region": "north-america",
+    "full": false,
+    "funding": "partial",
+    "amount": "Roughly C$13,500 per eligible term in most faculties (C$19,000 in Engineering and some Science programmes) per uOttawa terms; confirm current value",
+    "deadline": "2027-01-15T23:59:00-05:00",
+    "varies": true,
+    "dlText": "Apply for admission by 15 Jan 2027 (recommended; most programmes close in May for international applicants); scholarship is automatic",
+    "tags": [
+      "Automatic",
+      "Programme in French or French Immersion",
+      "≥9 French units per term"
+    ],
+    "eligibility": {
+      "type": "exclude",
+      "countries": [
+        "CA"
+      ]
+    },
+    "fields": "Any uOttawa bachelor's programme taken in French or the French Immersion stream",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "For international students paying international fees who enrol full time in a French programme or French Immersion; renewable for up to 12 installments. Co-op work terms are not covered.",
+    "url": "https://www.uottawa.ca/study/fees-financial-support/differential-tuition-fee-exemption-scholarship",
+    "source": "https://www.uottawa.ca/study/fees-financial-support/differential-tuition-fee-exemption-scholarship"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "claremont-mckenna-aid",
+    "name": "Claremont McKenna College need-based aid (international)",
+    "host": "Claremont McKenna College",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "amount": "Meets 100% of demonstrated need for admitted international students",
+    "deadline": "2027-01-10T23:59:00-08:00",
+    "dlText": "Regular Decision 10 Jan 2027, time not stated (merit scholarship consideration by 1 Dec)",
+    "tags": [
+      "Need-aware for internationals",
+      "Apply for aid at admission",
+      "No CSS Profile for internationals"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Liberal arts and sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "International applicants file CMC's own Financial Aid Application for International Students via the applicant portal; those who don't apply at admission can't get need-based aid later.",
+    "url": "https://www.cmc.edu/financial-aid/prospective-and-new-students",
+    "source": "https://www.cmc.edu/financial-aid/aid-types"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "lafayette-aid",
+    "name": "Lafayette College need-based aid (international)",
+    "host": "Lafayette College",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "amount": "Meets 100% of demonstrated need for admitted international students",
+    "deadline": "2027-01-15T23:59:00-05:00",
+    "dlText": "Regular Decision and CSS Profile 15 Jan 2027, 11:59 pm your local time (ED I closed 15 Nov)",
+    "tags": [
+      "Need-aware for internationals",
+      "CSS Profile required",
+      "Highly competitive"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Liberal arts, sciences and engineering",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Lafayette meets full demonstrated need of admitted students, including internationals, if all filing deadlines are met; an alternative form exists if the CSS Profile fee is a hardship.",
+    "url": "https://admissions.lafayette.edu/apply-for-aid/first-year-international-students/",
+    "source": "https://admissions.lafayette.edu/apply-for-aid/first-year-international-students/"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "barnard-aid",
+    "name": "Barnard College need-based aid (international)",
+    "host": "Barnard College (Columbia University)",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "amount": "Meets 100% of demonstrated need for admitted international students",
+    "deadline": "2027-01-01T23:59:00-05:00",
+    "dlText": "Regular Decision application 1 Jan 2027; CSS Profile and aid documents 15 Jan 2027",
+    "tags": [
+      "Women's college",
+      "Need-aware for internationals",
+      "CSS Profile or ISAFA"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Liberal arts and sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Barnard meets 100% of demonstrated need for all admitted students but has limited funding for international first-years; no institutional aid for international transfers.",
+    "url": "https://barnard.edu/admissions/internationalstudents",
+    "source": "https://barnard.edu/finaid/apply-for-aid"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "harvey-mudd-aid",
+    "name": "Harvey Mudd College need-based aid (international)",
+    "host": "Harvey Mudd College",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "amount": "Meets 100% of demonstrated need, but only for a handful of admitted international students (about 3–4 a year; need-aware admission)",
+    "deadline": "2027-01-05T23:59:00-08:00",
+    "dlText": "Regular Decision application 5 Jan 2027, time not stated; CSS Profile 1 Feb, finance documents 15 Feb 2027",
+    "tags": [
+      "Need-aware for internationals",
+      "Small number of awards",
+      "Apply in first year or never"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "STEM (engineering, CS, maths, sciences)",
+    "fieldCats": [
+      "cs-ai",
+      "engineering",
+      "sciences"
+    ],
+    "note": "HMC meets 100% of each admitted student's demonstrated need but funds only a small number of international students; the So Scholarship is a merit award for internationals.",
+    "url": "https://www.hmc.edu/admission/afford/international-student-financial-aid/",
+    "source": "https://www.hmc.edu/admission/apply/international-applicants/"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "mount-holyoke-aid",
+    "name": "Mount Holyoke College need-based aid (international)",
+    "host": "Mount Holyoke College",
+    "country": "United States",
+    "region": "north-america",
+    "full": true,
+    "amount": "Meets 100% of demonstrated need for admitted international students",
+    "deadline": "2027-01-15T23:59:00-05:00",
+    "dlText": "Regular Decision application and CSS Profile 15 Jan 2027, time not stated",
+    "tags": [
+      "Women's college",
+      "Declare aid intent on application",
+      "CSS Profile required"
+    ],
+    "eligibility": {
+      "type": "all"
+    },
+    "fields": "Liberal arts and sciences",
+    "fieldCats": [
+      "any"
+    ],
+    "note": "Mount Holyoke meets 100% of demonstrated need for admitted students including internationals; packages mix grants, loans and campus work. Not declaring aid intent at application rules out aid for all four years.",
+    "url": "https://www.mtholyoke.edu/admission/apply-undergraduate-first-year/affording-mount-holyoke/financial-aid/applying-aid",
+    "source": "https://www.mtholyoke.edu/mount-holyoke-commitment"
+  },
+  {
+    "levels": [
+      "Undergraduate"
+    ],
+    "residencyRequired": false,
+    "work": false,
+    "nominationBody": null,
+    "verifiedOn": "2026-11-22",
+    "id": "polytechnique-bachelor-olympiad",
+    "name": "École Polytechnique Bachelor of Science Scholarship for Olympiad Medalists",
+    "host": "École Polytechnique (Institut Polytechnique de Paris)",
+    "country": "France",
+    "region": "europe",
+    "full": true,
+    "funding": "full",
+    "amount": "Tuition + living allowance, capped at €87,900 (non-EU/EEA) or €78,750 (EU/EEA) over the programme; €1,500/yr admin fee remains",
+    "deadline": "2027-02-08T23:59:00+01:00",
+    "dlText": "Round 3 closes 8 Feb 2027 (Round 2: 6 Jan 2027; Round 1 closed 20 Oct 2026); time assumed 23:59 Paris",
+    "tags": [
+      "International Olympiad medal (last 2 years)",
+      "Priority to gold medalists",
+      "Limited number"
+    ],
+    "eligibility": {
+      "type": "check",
+      "note": "Admitted Bachelor of Science students of any nationality with a medal from an international subject Olympiad in the two years before enrolment"
+    },
+    "fields": "Mathematics, physics, computer science, economics, chemistry, biology (BSc double majors)",
+    "fieldCats": [
+      "sciences",
+      "cs-ai",
+      "social"
+    ],
+    "note": "Awarded only after admission and financial-aid committee decisions. Other Bachelor students can get need-based tuition waivers or a merit Excellence Scholarship (€4,800/yr), which are smaller.",
+    "url": "https://programmes.polytechnique.edu/en/bachelor/costs-and-funding/scholarships-and-financial-aid",
+    "source": "https://programmes.polytechnique.edu/en/bachelor/costs-and-funding/scholarships-and-financial-aid"
+  }
+]
